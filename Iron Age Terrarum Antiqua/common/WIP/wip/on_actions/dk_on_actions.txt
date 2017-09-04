@@ -1,0 +1,18 @@
+on_yearly_pulse = {
+	events = {
+		slavpop.10 # Slave population maintenance event connector
+	}
+}
+# Fires when the game starts (not from saves)
+on_chronicle_start = {
+	events = {
+		misc.12
+	}
+}
+on_death = {
+	events = {
+		succession.1 # Pythia
+		succession.2 # Empire destroys itself
+		succession.4 # Empire goes into civil war
+	}
+}

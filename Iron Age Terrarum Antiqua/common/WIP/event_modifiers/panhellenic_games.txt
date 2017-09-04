@@ -1,0 +1,9 @@
+olympics_prov = {
+	icon = 1
+}
+nemeans_prov = { 
+	icon = 1
+}
+isthmian_prov = {
+	icon = 1
+}

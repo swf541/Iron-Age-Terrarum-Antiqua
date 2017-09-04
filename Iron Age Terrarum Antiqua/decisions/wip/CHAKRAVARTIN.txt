@@ -1,0 +1,26 @@
+decisions = {
+	become_chakravartin = {
+		is_high_prio = yes
+		potential = {
+			is_female = no
+			culture = vedic
+			or = {
+				religion = jainism_main
+				religion = buddhism_main
+				religion = hinduism_main
+			}
+			higher_tier_than = KING
+			NOT = {
+				trait = chakravartin
+			}
+		}
+		allow = {
+			trait = kind
+			trait = just
+			age = 20
+		}
+		effect = {
+			add_trait = chakravartin
+		}
+	}
+}

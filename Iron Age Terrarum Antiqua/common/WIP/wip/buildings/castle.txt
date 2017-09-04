@@ -1,0 +1,2279 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+
+castle = {
+	# Walls
+	ca_wall_1 = {
+		desc = ca_wall_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 365
+		fort_level = 0.5
+		ai_creation_factor = 90
+		
+		# start = { always = yes }
+	}
+	ca_wall_2 = {
+		desc = ca_wall_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		upgrades_from = ca_wall_1
+		gold_cost = 50
+		build_time = 365
+		fort_level = 0.5
+		ai_creation_factor = 89
+		
+		# start = { always = no }
+	}
+	ca_wall_3 = {
+		desc = ca_wall_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = ca_wall_2
+		gold_cost = 50
+		build_time = 365
+		fort_level = 0.5
+		ai_creation_factor = 88
+		
+		# start = { always = no }
+	}
+	ca_wall_4 = {
+		desc = ca_wall_4_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ca_wall_3
+		gold_cost = 50
+		build_time = 365
+		fort_level = 0.5
+		ai_creation_factor = 87
+		
+		# start = { always = no }
+	}
+	ca_wall_5 = {
+		desc = ca_wall_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ca_wall_4
+		gold_cost = 50
+		build_time = 365
+		fort_level = 0.5
+		ai_creation_factor = 86
+		
+		# start = { always = no }
+	}
+	
+	# Fortifications
+	ca_fort_1 = {
+		desc = ca_fort_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		gold_cost = 50
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 80
+		
+		# start = { always = no }
+	}
+	ca_fort_2 = {
+		desc = ca_fort_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = ca_fort_1
+		gold_cost = 50
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 79
+		
+		# start = { always = no }
+	}
+	ca_fort_3 = {
+		desc = ca_fort_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		upgrades_from = ca_fort_2
+		gold_cost = 50
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 78
+		
+		# start = { always = no }
+	}
+	ca_fort_4 = {
+		desc = ca_fort_4_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ca_fort_3
+		gold_cost = 50
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 77
+		
+		# start = { always = no }
+	}
+	ca_fort_5 = {
+		desc = ca_fort_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ca_fort_4
+		gold_cost = 50
+		build_time = 365
+		fort_level = 1
+		ai_creation_factor = 76
+		
+		# start = { always = no }
+	}
+	
+	# Standard Levies
+	ca_stan_levy_1 = {
+		desc = ca_stan_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 400
+		archers = 100
+		ai_creation_factor = 100
+		
+		# start = { always = yes }
+	}
+	ca_stan_levy_2 = {
+		desc = ca_stan_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_stan_levy_1
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 800
+		archers = 200
+		ai_creation_factor = 99
+		
+		# start = { always = no }
+	}
+	ca_stan_levy_3 = {
+		desc = ca_stan_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_stan_levy_2
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 1200
+		archers = 300
+		ai_creation_factor = 98
+		
+		# start = { always = no }
+	}
+	ca_stan_levy_4 = {
+		desc = ca_stan_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_stan_levy_3
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 1600
+		archers = 400
+		ai_creation_factor = 97
+		
+		# start = { always = no }
+	}
+	ca_stan_levy_5 = {
+		desc = ca_stan_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_stan_levy_4
+		gold_cost = 100
+		build_time = 365
+		light_infantry = 2000
+		archers = 500
+		ai_creation_factor = 96
+		
+		# start = { always = no }
+	}
+	
+	# Thracian Regional Levy
+	ca_thrac_levy_1 = {
+		desc = ca_thrac_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = thracian
+				culture = dacian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 400
+		light_cavalry = 400
+		heavy_infantry = 200
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_thrac_levy_2 = {
+		desc = ca_thrac_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_thrac_levy_1
+		potential = {
+			or = {
+				culture = thracian
+				culture = dacian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 800
+		light_cavalry = 800
+		heavy_infantry = 400
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_thrac_levy_3 = {
+		desc = ca_thrac_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_thrac_levy_2
+		potential = {
+			or = {
+				culture = thracian
+				culture = dacian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1200
+		light_cavalry = 1200
+		heavy_infantry = 600
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_thrac_levy_4 = {
+		desc = ca_thrac_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_thrac_levy_3
+		potential = {
+			or = {
+				culture = thracian
+				culture = dacian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1600
+		light_cavalry = 1600
+		heavy_infantry = 800
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_thrac_levy_5 = {
+		desc = ca_thrac_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_thrac_levy_4
+		potential = {
+			or = {
+				culture = thracian
+				culture = dacian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 2000
+		light_cavalry = 2000
+		heavy_infantry = 1000
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Anatolian Regional Levy
+	ca_anat_levy_1 = {
+		desc = ca_anat_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = phrygian
+				culture = galatian
+				culture = luwian
+				culture = cappadocian
+				culture = armenian
+				culture = georgian
+				culture = albanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 500
+		light_cavalry = 500
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_anat_levy_2 = {
+		desc = ca_anat_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_anat_levy_1
+		potential = {
+			or = {
+				culture = phrygian
+				culture = galatian
+				culture = luwian
+				culture = cappadocian
+				culture = armenian
+				culture = georgian
+				culture = albanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 1000
+		light_cavalry = 1000
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_anat_levy_3 = {
+		desc = ca_anat_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_anat_levy_2
+		potential = {
+			or = {
+				culture = phrygian
+				culture = galatian
+				culture = luwian
+				culture = cappadocian
+				culture = armenian
+				culture = georgian
+				culture = albanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 1500
+		light_cavalry = 1500
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_anat_levy_4 = {
+		desc = ca_anat_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_anat_levy_3
+		potential = {
+			or = {
+				culture = phrygian
+				culture = galatian
+				culture = luwian
+				culture = cappadocian
+				culture = armenian
+				culture = georgian
+				culture = albanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 2000
+		light_cavalry = 2000
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_anat_levy_5 = {
+		desc = ca_anat_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_anat_levy_4
+		potential = {
+			or = {
+				culture = phrygian
+				culture = galatian
+				culture = luwian
+				culture = cappadocian
+				culture = armenian
+				culture = georgian
+				culture = albanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 2500
+		light_cavalry = 2500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Illyrian Regional Levy
+	ca_illyr_levy_1 = {
+		desc = ca_illyr_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = illyrian
+				culture = paeonian
+				culture = venetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 500
+		light_cavalry = 500
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_illyr_levy_2 = {
+		desc = ca_illyr_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_illyr_levy_1
+		potential = {
+			or = {
+				culture = illyrian
+				culture = paeonian
+				culture = venetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1000
+		light_cavalry = 1000
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_illyr_levy_3 = {
+		desc = ca_illyr_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_illyr_levy_2
+		potential = {
+			or = {
+				culture = illyrian
+				culture = paeonian
+				culture = venetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1500
+		light_cavalry = 1500
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_illyr_levy_4 = {
+		desc = ca_illyr_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_illyr_levy_3
+		potential = {
+			or = {
+				culture = illyrian
+				culture = paeonian
+				culture = venetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 2000
+		light_cavalry = 2000
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_illyr_levy_5 = {
+		desc = ca_illyr_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_illyr_levy_4
+		potential = {
+			or = {
+				culture = illyrian
+				culture = paeonian
+				culture = venetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 2500
+		light_cavalry = 2500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Celtic Regional Levy
+	ca_celt_levy_1 = {
+		desc = ca_celt_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = ligurian
+				culture = gaul
+				culture = celtiberian
+				culture = gallaecian
+				culture = aquitanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 600
+		knights = 200
+		light_cavalry = 200
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_celt_levy_2 = {
+		desc = ca_celt_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_celt_levy_1
+		potential = {
+			or = {
+				culture = ligurian
+				culture = gaul
+				culture = celtiberian
+				culture = gallaecian
+				culture = aquitanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 1200
+		knights = 400
+		light_cavalry = 400
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_celt_levy_3 = {
+		desc = ca_celt_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_celt_levy_2
+		potential = {
+			or = {
+				culture = ligurian
+				culture = gaul
+				culture = celtiberian
+				culture = gallaecian
+				culture = aquitanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 1800
+		knights = 600
+		light_cavalry = 600
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_celt_levy_4 = {
+		desc = ca_celt_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_celt_levy_3
+		potential = {
+			or = {
+				culture = ligurian
+				culture = gaul
+				culture = celtiberian
+				culture = gallaecian
+				culture = aquitanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 2400
+		knights = 800
+		light_cavalry = 800
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_celt_levy_5 = {
+		desc = ca_celt_levy_5
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_celt_levy_4
+		potential = {
+			or = {
+				culture = ligurian
+				culture = gaul
+				culture = celtiberian
+				culture = gallaecian
+				culture = aquitanian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 3000
+		knights = 1000
+		light_cavalry = 1000
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Punic Regional Levy
+	ca_punic_levy_1 = {
+		desc = ca_punic_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			culture = punic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 400
+		knights = 400
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_punic_levy_2 = {
+		desc = ca_punic_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_punic_levy_1
+		potential = {
+			culture = punic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 800
+		knights = 800
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_punic_levy_3 = {
+		desc = ca_punic_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_punic_levy_2
+		potential = {
+			culture = punic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 1200
+		knights = 1200
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_punic_levy_4 = {
+		desc = ca_punic_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_punic_levy_3
+		potential = {
+			culture = punic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 1600
+		knights = 1600
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_punic_levy_5 = {
+		desc = ca_punic_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_punic_levy_4
+		potential = {
+			culture = punic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 2000
+		knights = 2000
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Near-Eastern Regional Levy
+	ca_near_levy_1 = {
+		desc = ca_near_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = israelite
+				culture = aramaic
+				culture = akkadian
+				culture = elamite
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 700
+		pikemen = 300
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_near_levy_2 = {
+		desc = ca_near_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_near_levy_1
+		potential = {
+			or = {
+				culture = israelite
+				culture = aramaic
+				culture = akkadian
+				culture = elamite
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 1400
+		pikemen = 600
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_near_levy_3 = {
+		desc = ca_near_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_near_levy_2
+		potential = {
+			or = {
+				culture = israelite
+				culture = aramaic
+				culture = akkadian
+				culture = elamite
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 2100
+		pikemen = 900
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_near_levy_4 = {
+		desc = ca_near_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_near_levy_3
+		potential = {
+			or = {
+				culture = israelite
+				culture = aramaic
+				culture = akkadian
+				culture = elamite
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 2800
+		pikemen = 1200
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_near_levy_5 = {
+		desc = ca_near_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_near_levy_4
+		potential = {
+			or = {
+				culture = israelite
+				culture = aramaic
+				culture = akkadian
+				culture = elamite
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 3500
+		pikemen = 1500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Arabic Regional Levy
+	ca_arab_levy_1 = {
+		desc = ca_arab_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = nabataean
+				culture = arabic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 700
+		light_cavalry = 300
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_arab_levy_2 = {
+		desc = ca_arab_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_arab_levy_1
+		potential = {
+			or = {
+				culture = nabataean
+				culture = arabic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1400
+		light_cavalry = 600
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_arab_levy_3 = {
+		desc = ca_arab_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_arab_levy_2
+		potential = {
+			or = {
+				culture = nabataean
+				culture = arabic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 2100
+		light_cavalry = 900
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_arab_levy_4 = {
+		desc = ca_arab_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_arab_levy_3
+		potential = {
+			or = {
+				culture = nabataean
+				culture = arabic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 2800
+		light_cavalry = 1200
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_arab_levy_5 = {
+		desc = ca_arab_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_arab_levy_4
+		potential = {
+			or = {
+				culture = nabataean
+				culture = arabic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 3500
+		light_cavalry = 1800
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# African Regional Levy
+	ca_afric_levy_1 = {
+		desc = ca_afric_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = egyptian
+				culture = nubian
+				culture = berber
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 350
+		heavy_infantry = 200
+		archers = 300
+		light_cavalry = 150
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_afric_levy_2 = {
+		desc = ca_afric_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_afric_levy_1
+		potential = {
+			or = {
+				culture = egyptian
+				culture = nubian
+				culture = berber
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 700
+		heavy_infantry = 400
+		archers = 600
+		light_cavalry = 300
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_afric_levy_3 = {
+		desc = ca_afric_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_afric_levy_2
+		potential = {
+			or = {
+				culture = egyptian
+				culture = nubian
+				culture = berber
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1050
+		heavy_infantry = 600
+		archers = 900
+		light_cavalry = 450
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_afric_levy_4 = {
+		desc = ca_afric_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_afric_levy_3
+		potential = {
+			or = {
+				culture = egyptian
+				culture = nubian
+				culture = berber
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1400
+		heavy_infantry = 800
+		archers = 1200
+		light_cavalry = 600
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_afric_levy_5 = {
+		desc = ca_afric_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_afric_levy_4
+		potential = {
+			or = {
+				culture = egyptian
+				culture = nubian
+				culture = berber
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1750
+		heavy_infantry = 1000
+		archers = 1500
+		light_cavalry = 750
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Settled Iranian Regional Levy
+	ca_iran_levy_1 = {
+		desc = ca_iran_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = persian
+				culture = bactrian
+				culture = parthian
+				culture = sogdian
+				culture = median
+				culture = arian
+				culture = chorasmian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		knights = 600
+		horse_archers = 200
+		light_infantry = 200
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_iran_levy_2 = {
+		desc = ca_iran_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_iran_levy_1
+		potential = {
+			or = {
+				culture = persian
+				culture = bactrian
+				culture = parthian
+				culture = sogdian
+				culture = median
+				culture = arian
+				culture = chorasmian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		knights = 1200
+		horse_archers = 400
+		light_infantry = 400
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_iran_levy_3 = {
+		desc = ca_iran_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_iran_levy_2
+		potential = {
+			or = {
+				culture = persian
+				culture = bactrian
+				culture = parthian
+				culture = sogdian
+				culture = median
+				culture = arian
+				culture = chorasmian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		knights = 1800
+		horse_archers = 600
+		light_infantry = 600
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_iran_levy_4 = {
+		desc = ca_iran_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_iran_levy_3
+		potential = {
+			or = {
+				culture = persian
+				culture = bactrian
+				culture = parthian
+				culture = sogdian
+				culture = median
+				culture = arian
+				culture = chorasmian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		knights = 2400
+		horse_archers = 800
+		light_infantry = 800
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_iran_levy_5 = {
+		desc = ca_iran_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_iran_levy_4
+		potential = {
+			or = {
+				culture = persian
+				culture = bactrian
+				culture = parthian
+				culture = sogdian
+				culture = median
+				culture = arian
+				culture = chorasmian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		knights = 3000
+		horse_archers = 1000
+		light_infantry = 1000
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Nomadic Iranian Regional Levy
+	ca_steppe_levy_1 = {
+		desc = ca_steppe_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = scythian
+				culture = sarmatian
+				culture = tocharian
+				culture = khotanese
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		horse_archers = 700
+		knights = 300
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_steppe_levy_2 = {
+		desc = ca_steppe_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_steppe_levy_1
+		potential = {
+			or = {
+				culture = scythian
+				culture = sarmatian
+				culture = tocharian
+				culture = khotanese
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		horse_archers = 1400
+		knights = 600
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_steppe_levy_3 = {
+		desc = ca_steppe_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_steppe_levy_2
+		potential = {
+			or = {
+				culture = scythian
+				culture = sarmatian
+				culture = tocharian
+				culture = khotanese
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		horse_archers = 2100
+		knights = 900
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_steppe_levy_4 = {
+		desc = ca_steppe_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_steppe_levy_3
+		potential = {
+			or = {
+				culture = scythian
+				culture = sarmatian
+				culture = tocharian
+				culture = khotanese
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		horse_archers = 2800
+		knights = 1200
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_steppe_levy_5 = {
+		desc = ca_steppe_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_steppe_levy_4
+		potential = {
+			or = {
+				culture = scythian
+				culture = sarmatian
+				culture = tocharian
+				culture = khotanese
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		horse_archers = 3500
+		knights = 1500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Indian Regional Levy
+	ca_india_levy_1 = {
+		desc = ca_india_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = vedic
+				culture = shauraseni
+				culture = gandhari
+				culture = maharashtri
+				culture = sinhala
+				culture = telegu
+				culture = kannada
+				culture = tamil
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 500
+		heavy_infantry = 500
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_india_levy_2 = {
+		desc = ca_india_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_india_levy_1
+		potential = {
+			or = {
+				culture = vedic
+				culture = shauraseni
+				culture = gandhari
+				culture = maharashtri
+				culture = sinhala
+				culture = telegu
+				culture = kannada
+				culture = tamil
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 1000
+		heavy_infantry = 1000
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_india_levy_3 = {
+		desc = ca_india_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_india_levy_2
+		potential = {
+			or = {
+				culture = vedic
+				culture = shauraseni
+				culture = gandhari
+				culture = maharashtri
+				culture = sinhala
+				culture = telegu
+				culture = kannada
+				culture = tamil
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 1500
+		heavy_infantry = 1500
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_india_levy_4 = {
+		desc = ca_india_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_india_levy_3
+		potential = {
+			or = {
+				culture = vedic
+				culture = shauraseni
+				culture = gandhari
+				culture = maharashtri
+				culture = sinhala
+				culture = telegu
+				culture = kannada
+				culture = tamil
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 2000
+		heavy_infantry = 2000
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_india_levy_5 = {
+		desc = ca_india_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_india_levy_4
+		potential = {
+			or = {
+				culture = vedic
+				culture = shauraseni
+				culture = gandhari
+				culture = maharashtri
+				culture = sinhala
+				culture = telegu
+				culture = kannada
+				culture = tamil
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		archers = 2500
+		heavy_infantry = 2500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Hellenic Regional Levy
+	ca_greek_levy_1 = {
+		desc = ca_greek_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = aeolian
+				culture = arcadian
+				culture = doric
+				culture = ionian
+				culture = macedonian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 700
+		archers = 300
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_greek_levy_2 = {
+		desc = ca_greek_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_greek_levy_1
+		potential = {
+			or = {
+				culture = aeolian
+				culture = arcadian
+				culture = doric
+				culture = ionian
+				culture = macedonian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 1400
+		archers = 600
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_greek_levy_3 = {
+		desc = ca_greek_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_greek_levy_2
+		potential = {
+			or = {
+				culture = aeolian
+				culture = arcadian
+				culture = doric
+				culture = ionian
+				culture = macedonian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 2100
+		archers = 900
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_greek_levy_4 = {
+		desc = ca_greek_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_greek_levy_3
+		potential = {
+			or = {
+				culture = aeolian
+				culture = arcadian
+				culture = doric
+				culture = ionian
+				culture = macedonian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 2800
+		archers = 1200
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_greek_levy_5 = {
+		desc = ca_greek_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_greek_levy_4
+		potential = {
+			or = {
+				culture = aeolian
+				culture = arcadian
+				culture = doric
+				culture = ionian
+				culture = macedonian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 3500
+		archers = 1500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Italic Regional Levy
+	ca_italy_levy_1 = {
+		desc = ca_italy_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = oscan
+				culture = latin
+				culture = umbrian
+				culture = picene
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 500
+		light_infantry = 500
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_italy_levy_2 = {
+		desc = ca_italy_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_italy_levy_1
+		potential = {
+			or = {
+				culture = oscan
+				culture = latin
+				culture = umbrian
+				culture = picene
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 1000
+		light_infantry = 1000
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_italy_levy_3 = {
+		desc = ca_italy_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_italy_levy_2
+		potential = {
+			or = {
+				culture = oscan
+				culture = latin
+				culture = umbrian
+				culture = picene
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 1500
+		light_infantry = 1500
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_italy_levy_4 = {
+		desc = ca_italy_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_italy_levy_3
+		potential = {
+			or = {
+				culture = oscan
+				culture = latin
+				culture = umbrian
+				culture = picene
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 2000
+		light_infantry = 2000
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_italy_levy_5 = {
+		desc = ca_italy_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_italy_levy_4
+		potential = {
+			or = {
+				culture = oscan
+				culture = latin
+				culture = umbrian
+				culture = picene
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 2500
+		light_infantry = 2500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Tyrhenian Regional Levy
+	ca_tyrh_levy_1 = {
+		desc = ca_tyrh_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			or = {
+				culture = etruscan
+				culture = raetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 500
+		pikemen = 500
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_tyrh_levy_2 = {
+		desc = ca_tyrh_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_tyrh_levy_1
+		potential = {
+			or = {
+				culture = etruscan
+				culture = raetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 1000
+		pikemen = 1000
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_tyrh_levy_3 = {
+		desc = ca_tyrh_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_tyrh_levy_2
+		potential = {
+			or = {
+				culture = etruscan
+				culture = raetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 1500
+		pikemen = 1500
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_tyrh_levy_4 = {
+		desc = ca_tyrh_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_tyrh_levy_3
+		potential = {
+			or = {
+				culture = etruscan
+				culture = raetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 2000
+		pikemen = 2000
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_tyrh_levy_5 = {
+		desc = ca_tyrh_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_tyrh_levy_4
+		potential = {
+			or = {
+				culture = etruscan
+				culture = raetic
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		heavy_infantry = 2500
+		pikemen = 2500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Greco-Persian Regional Levy
+	ca_grepe_levy_1 = {
+		desc = ca_grepe_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			culture = pontic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 500
+		knights = 500
+		ai_creation_factor = 110
+		
+		# start = { always = yes }
+	}
+	ca_grepe_levy_2 = {
+		desc = ca_grepe_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_grepe_levy_1
+		potential = {
+			culture = pontic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 1000
+		knights = 1000
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_grepe_levy_3 = {
+		desc = ca_grepe_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_grepe_levy_2
+		potential = {
+			culture = pontic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 1500
+		knights = 1500
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_grepe_levy_4 = {
+		desc = ca_grepe_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_grepe_levy_3
+		potential = {
+			culture = pontic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 2000
+		knights = 2000
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_grepe_levy_5 = {
+		desc = ca_grepe_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_grepe_levy_4
+		potential = {
+			culture = pontic
+		}
+		gold_cost = 115
+		build_time = 365
+		pikemen = 2500
+		knights = 2500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	ca_iberian_levy_1 = {
+		desc = ca_iberian_levy_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		potential = {
+			OR = {
+				culture = iberian
+				culture = lusitanian
+				culture_group = tartessian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 400
+		heavy_infantry = 500
+		knights = 100
+		ai_creation_factor = 110
+		
+		# start = { always = yes }		
+	}
+	ca_iberian_levy_2 = {
+		desc = ca_iberian_levy_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_iberian_levy_1
+		potential = {
+			OR = {
+				culture = iberian
+				culture = lusitanian
+				culture_group = tartessian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 800
+		heavy_infantry = 1000
+		knights = 200
+		ai_creation_factor = 109
+		
+		# start = { always = no }
+	}
+	ca_iberian_levy_3 = {
+		desc = ca_iberian_levy_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_iberian_levy_2
+		potential = {
+			OR = {
+				culture = iberian
+				culture = lusitanian
+				culture_group = tartessian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1200
+		heavy_infantry = 1500
+		knights = 300
+		ai_creation_factor = 108
+		
+		# start = { always = no }
+	}
+	ca_iberian_levy_4 = {
+		desc = ca_iberian_levy_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_iberian_levy_3
+		potential = {
+			OR = {
+				culture = iberian
+				culture = lusitanian
+				culture_group = tartessian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 1600
+		heavy_infantry = 2000
+		knights = 400
+		ai_creation_factor = 107
+		
+		# start = { always = no }
+	}
+	ca_iberian_levy_5 = {
+		desc = ca_iberian_levy_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_iberian_levy_4
+		potential = {
+			OR = {
+				culture = iberian
+				culture = lusitanian
+				culture_group = tartessian
+			}
+		}
+		gold_cost = 115
+		build_time = 365
+		light_infantry = 2000
+		heavy_infantry = 2500
+		knights = 500
+		ai_creation_factor = 106
+		
+		# start = { always = no }
+	}
+	
+	# Garrisons
+	ca_garrison_1 = {
+		desc = ca_garrison_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		gold_cost = 75
+		build_time = 365
+		garrison_size = 0.1
+		ai_creation_factor = 85
+		
+		# start = { always = no }
+	}
+	ca_garrison_2 = {
+		desc = ca_garrison_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_garrison_1
+		gold_cost = 75
+		build_time = 365
+		garrison_size = 0.15
+		ai_creation_factor = 84
+		
+		# start = { always = no }
+	}
+	ca_garrison_3 = {
+		desc = ca_garrison_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_garrison_2
+		gold_cost = 75
+		build_time = 365
+		garrison_size = 0.2
+		ai_creation_factor = 83
+		
+		# start = { always = no }
+	}
+	ca_garrison_4 = {
+		desc = ca_garrison_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_garrison_3
+		gold_cost = 75
+		build_time = 365
+		garrison_size = 0.25
+		ai_creation_factor = 82
+		
+		# start = { always = no }
+	}
+	ca_garrison_5 = {
+		desc = ca_garrison_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_garrison_4
+		gold_cost = 75
+		build_time = 365
+		garrison_size = 0.3
+		ai_creation_factor = 81
+		
+		# start = { always = no }
+	}
+	
+	# Towns
+	ca_town_1 = {
+		desc = ca_town_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		gold_cost = 150
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 60
+		
+		# start = { always = no }
+	}
+	ca_town_2 = {
+		desc = ca_town_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_town_1
+		gold_cost = 150
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 59
+		
+		# start = { always = no }
+	}
+	ca_town_3 = {
+		desc = ca_town_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_town_2
+		gold_cost = 150
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 58
+		
+		# start = { always = no }
+	}
+	ca_town_4 = {
+		desc = ca_town_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_town_3
+		gold_cost = 150
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 57
+		
+		# start = { always = no }
+	}
+	ca_town_5 = {
+		desc = ca_town_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_town_4
+		gold_cost = 150
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 56
+		
+		# start = { always = no }
+	}
+	
+	# Levy Training Grounds
+	ca_train_1 = {
+		desc = ca_train_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		gold_cost = 125
+		build_time = 365
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 70
+		
+		# start = { always = no }
+	}
+	ca_train_2 = {
+		desc = ca_train_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_train_1
+		gold_cost = 125
+		build_time = 365
+		land_morale = 0.1
+		levy_reinforce_rate = 0.1
+		ai_creation_factor = 69
+		
+		# start = { always = no }
+	}
+	ca_train_3 = {
+		desc = ca_train_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_train_2
+		gold_cost = 125
+		build_time = 365
+		land_morale = 0.15
+		levy_reinforce_rate = 0.15
+		ai_creation_factor = 68
+		
+		# start = { always = no }
+	}
+	ca_train_4 = {
+		desc = ca_train_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_train_3
+		gold_cost = 125
+		build_time = 365
+		land_morale = 0.2
+		levy_reinforce_rate = 0.2
+		ai_creation_factor = 67
+		
+		# start = { always = no }
+	}
+	ca_train_5 = {
+		desc = ca_train_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_train_4
+		gold_cost = 125
+		build_time = 365
+		land_morale = 0.25
+		levy_reinforce_rate = 0.25
+		ai_creation_factor = 66
+		
+		# start = { always = no }
+	}
+	
+	# Ports
+	ca_port_1 = {
+		desc = ca_port_1_desc
+		trigger = { TECH_NAVAL = 0 }
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 95
+		
+		# start = { always = yes }
+	}
+	ca_port_2 = {
+		desc = ca_port_2_desc
+		trigger = { TECH_NAVAL = 2 }
+		upgrades_from = ca_port_1
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 94
+		
+		# start = { always = no }
+	}
+	ca_port_3 = {
+		desc = ca_port_3_desc
+		trigger = { TECH_NAVAL = 3 }
+		upgrades_from = ca_port_2
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 93
+		
+		# start = { always = no }
+	}
+	ca_port_4 = {
+		desc = ca_port_4_desc
+		trigger = { TECH_NAVAL = 4 }
+		upgrades_from = ca_port_3
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 92
+		
+		# start = { always = no }
+	}
+	ca_port_5 = {
+		desc = ca_port_5_desc
+		trigger = { TECH_NAVAL = 5 }
+		upgrades_from = ca_port_4
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 91
+		
+		# start = { always = no }
+	}
+	
+	# State Administration
+	ca_admin_1 = {
+		desc = ca_admin_1_desc
+		trigger = { TECH_LEGALISM = 2 }
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		levy_size = 0.05
+		ai_creation_factor = 70
+		
+		# start = { always = no }
+	}
+	ca_admin_2 = {
+		desc = ca_admin_2_desc
+		trigger = { TECH_LEGALISM = 3 }
+		upgrades_from = ca_admin_1
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		levy_size = 0.05
+		ai_creation_factor = 69
+		
+		# start = { always = no }
+	}
+	ca_admin_3 = {
+		desc = ca_admin_3_desc
+		trigger = { TECH_LEGALISM = 5 }
+		upgrades_from = ca_admin_2
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		levy_size = 0.05
+		ai_creation_factor = 68
+		
+		# start = { always = no }
+	}
+	ca_admin_4 = {
+		desc = ca_admin_4_desc
+		trigger = { TECH_LEGALISM = 6 }
+		upgrades_from = ca_admin_3
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		levy_size = 0.05
+		ai_creation_factor = 67
+		
+		# start = { always = no }
+	}
+	ca_admin_5 = {
+		desc = ca_admin_5_desc
+		trigger = { TECH_LEGALISM = 8 }
+		upgrades_from = ca_admin_4
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		levy_size = 0.05
+		ai_creation_factor = 66
+		
+		# start = { always = no }
+	}
+	
+	# Farms
+	ca_farm_1 = {
+		desc = ca_farm_1_desc
+		trigger = { TECH_CONSTRUCTION = 2 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		levy_size = 0.05
+		ai_creation_factor = 75
+		
+		# start = { always = no }
+	}
+	ca_farm_2 = {
+		desc = ca_farm_2_desc
+		trigger = { TECH_CONSTRUCTION = 3 }
+		upgrades_from = ca_farm_1
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		levy_size = 0.05
+		ai_creation_factor = 74
+		
+		# start = { always = no }
+	}
+	ca_farm_3 = {
+		desc = ca_farm_3_desc
+		trigger = { TECH_CONSTRUCTION = 4 }
+		upgrades_from = ca_farm_2
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		levy_size = 0.05
+		ai_creation_factor = 73
+		
+		# start = { always = no }
+	}
+	ca_farm_4 = {
+		desc = ca_farm_4_desc
+		trigger = { TECH_CONSTRUCTION = 5 }
+		upgrades_from = ca_farm_3
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		levy_size = 0.05
+		ai_creation_factor = 72
+		
+		# start = { always = no }
+	}
+	ca_farm_5 = {
+		desc = ca_farm_5_desc
+		trigger = { TECH_CONSTRUCTION = 6 }
+		upgrades_from = ca_farm_4
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		levy_size = 0.05
+		ai_creation_factor = 71
+		
+		# start = { always = no }
+	}
+	
+	# Roads
+	ca_road_1 = {
+		desc = ca_road_1_desc
+		trigger = { TECH_CONSTRUCTION = 2 }
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.25
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 40
+		
+		# start = { always = no }
+	}
+	ca_road_2 = {
+		desc = ca_road_2_desc
+		trigger = { TECH_CONSTRUCTION = 3 }
+		upgrades_from = ca_road_1
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.25
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 39
+		
+		# start = { always = no }
+	}
+	ca_road_3 = {
+		desc = ca_road_3_desc
+		trigger = { TECH_CONSTRUCTION = 4 }
+		upgrades_from = ca_road_2
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.25
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 38
+		
+		# start = { always = no }
+	}
+	ca_road_4 = {
+		desc = ca_road_4_desc
+		trigger = { TECH_CONSTRUCTION = 5 }
+		upgrades_from = ca_road_3
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.25
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 37
+		
+		# start = { always = no }
+	}
+	ca_road_5 = {
+		desc = ca_road_5_desc
+		trigger = { TECH_CONSTRUCTION = 6 }
+		upgrades_from = ca_road_4
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.25
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 36
+		
+		# start = { always = no }
+	}
+	
+	# Stables
+	ca_stable_1 = {
+		desc = ca_stable_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		gold_cost = 125
+		build_time = 365
+		light_cavalry = 300
+		knights = 200
+		ai_creation_factor = 95
+		
+		# start = { always = no }
+	}
+	ca_stable_2 = {
+		desc = ca_stable_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_stable_1
+		gold_cost = 125
+		build_time = 365
+		light_cavalry = 600
+		knights = 400
+		ai_creation_factor = 94
+		
+		# start = { always = no }
+	}
+	ca_stable_3 = {
+		desc = ca_stable_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_stable_2
+		gold_cost = 125
+		build_time = 365
+		light_cavalry = 900
+		knights = 600
+		ai_creation_factor = 93
+		
+		# start = { always = no }
+	}
+	ca_stable_4 = {
+		desc = ca_stable_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_stable_3
+		gold_cost = 125
+		build_time = 365
+		light_cavalry = 1200
+		knights = 800
+		ai_creation_factor = 92
+		
+		# start = { always = no }
+	}
+	ca_stable_5 = {
+		desc = ca_stable_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_stable_4
+		gold_cost = 125
+		build_time = 365
+		light_cavalry = 1500
+		knights = 1000
+		ai_creation_factor = 91
+		
+		# start = { always = no }
+	}
+}

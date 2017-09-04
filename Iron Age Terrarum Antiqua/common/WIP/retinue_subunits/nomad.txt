@@ -1,0 +1,137 @@
+HORDE_RETTYPE_CAV1 = 
+{
+	first_type = 3
+	first_amount = 250
+	
+	hire_cost = 10
+	costs_prestige = yes
+	
+	maintenance_multiplier = 0.27
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV2 = 
+{
+	first_type = 3
+	first_amount = 225
+	second_type = 6
+	second_amount = 25
+
+	special_troops = horse_archers
+	
+	hire_cost = 25
+	costs_prestige = yes
+	
+	maintenance_multiplier = 0.5263
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV3 =
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 6
+	second_amount = 50
+
+	special_troops = horse_archers
+	
+	hire_cost = 25
+	
+	maintenance_multiplier = 0.125
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV4 =
+{
+	first_type = 3
+	first_amount = 150
+	second_type = 6
+	second_amount = 100
+
+	special_troops = horse_archers
+	
+	hire_cost = 50
+	
+	maintenance_multiplier = 0.238
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV5 =
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 4
+	second_amount = 50
+	
+	hire_cost = 50
+	
+	maintenance_multiplier = 0.227
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV6 =
+{
+	first_type = 3
+	first_amount = 100
+	second_type = 4
+	second_amount = 150
+	
+	hire_cost = 75
+	
+	maintenance_multiplier = 0.25
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV7 =
+{
+	first_type = 6
+	first_amount = 250
+	
+	special_troops = horse_archers
+	
+	hire_cost = 75
+	
+	maintenance_multiplier = 0.3
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_DESERT = {
+	first_type = 3
+	first_amount = 100
+	second_type = 6
+	second_amount = 150
+	
+	special_troops = camel_cavalry
+	
+	hire_cost = 50
+	
+	maintenance_multiplier = 0.416
+	
+	potential = {
+		is_nomadic = yes
+		capital_scope = {
+			terrain = desert
+		}
+	}
+}

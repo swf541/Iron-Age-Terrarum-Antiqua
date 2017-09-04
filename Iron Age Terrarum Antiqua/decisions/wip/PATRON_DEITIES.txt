@@ -1,0 +1,792 @@
+decisions = {
+	patrons_zoroastrian_main = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = zoroastrian_main
+				capital_scope = {
+					religion = zoroastrian_main
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_ZOROASTRIAN_MAIN.1 }
+		}
+	}
+	patrons_greek_main = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = greek_main
+				capital_scope = {
+					religion = greek_main
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_GREEK_MAIN.1 }
+		}
+	}
+	patrons_buddhism_main = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = buddhism_main
+				capital_scope = {
+					religion = buddhism_main
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_BUDDHISM_MAIN.1 }
+		}
+	}
+	patrons_hinduism_main = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = hinduism_main
+				capital_scope = {
+					religion = hinduism_main
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_HINDUISM_MAIN.1 }
+		}
+	}
+	patrons_scythian_main = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = scythian_main
+				capital_scope = {
+					religion = scythian_main
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_SCYTHIAN_MAIN.1 }
+		}
+	}
+	patrons_armenian_main = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = armenian_main
+				capital_scope = {
+					religion = armenian_main
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_ARMENIAN_MAIN.1 }
+		}
+	}
+	patrons_pontic_main = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = pontic_main
+				capital_scope = {
+					religion = pontic_main
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_PONTIC_MAIN.1 }
+		}
+	}
+	patrons_marduk_cult = { # Mesopotamian
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = marduk_cult
+				capital_scope = {
+					religion = marduk_cult
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_MARDUK_CULT.1 }
+		}
+	}
+	patrons_roman_main = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = roman_main
+				capital_scope = {
+					religion = roman_main
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_ROMAN_MAIN.1 }
+		}
+	}
+	patrons_etruscan_main = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = duke
+			age = 16
+			not = {
+				trait = patron_ahura_mazda
+				trait = patron_mithra
+				trait = patron_armaiti
+				trait = patron_anahita
+				trait = patron_sraosha
+				trait = patron_airyaman
+				trait = patron_zeus
+				trait = patron_hera
+				trait = patron_demeter
+				trait = patron_athena
+				trait = patron_ares
+				trait = patron_apollo
+				trait = patron_kakusandha
+				trait = patron_konagamana
+				trait = patron_kassapa
+				trait = patron_shakyamuni
+				trait = patron_maitreya
+				trait = patron_indra
+				trait = patron_agni
+				trait = patron_varuna
+				trait = patron_mitra
+				trait = patron_shiva
+				trait = patron_vishnu
+				trait = patron_papaios
+				trait = patron_tabiti
+				trait = patron_agin
+				trait = patron_oitosyros
+				trait = patron_api
+				trait = patron_thagimasidas
+				trait = patron_aramazd
+				trait = patron_anahit
+				trait = patron_vahagn
+				trait = patron_astghik
+				trait = patron_nane
+				trait = patron_mihr
+				trait = patron_zeus_stratios
+				trait = patron_men_pharnacou
+				trait = patron_cybele
+				trait = patron_apollo_pontic
+				trait = patron_mithras
+				trait = patron_marduk
+				trait = patron_ashur
+				trait = patron_nabu
+				trait = patron_ishtar
+				trait = patron_anu
+				trait = patron_nergal
+				trait = patron_jupiter
+				trait = patron_juno
+				trait = patron_ceres
+				trait = patron_minerva
+				trait = patron_mars
+				trait = patron_apollo_roman
+				trait = patron_tinia
+				trait = patron_uni
+				trait = patron_menrva
+				trait = patron_cel
+				trait = patron_aritimi
+				trait = patron_pacha
+			}
+			or = {
+				religion = etruscan_main
+				capital_scope = {
+					religion = etruscan_main
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_ETRUSCAN_MAIN.1 }
+		}
+	}
+}

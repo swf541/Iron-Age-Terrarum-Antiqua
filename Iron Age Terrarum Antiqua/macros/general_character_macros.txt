@@ -1,0 +1,44 @@
+# Removes trait if the character has it
+$command_has_trait_remove(trait)
+	if = {
+		limit = {
+			trait = %trait%
+		}
+		remove_trait = %trait%
+	}
+$done
+
+# Adds trait if the character has it
+$command_not_trait_add(trait)
+	if = {
+		limit = {
+			NOT = { trait = %trait% }
+		}
+		add_trait = %trait%
+	}
+$done
+
+# Returns true if the age of the character ends with 'age'. So, if age is 9, character has to be 9, 19, 29, 39...
+$condition_character_age_ends_with(age)
+	OR = {
+		$condition_specific_age(%age%)
+		$condition_specific_age(%age+10%)
+		$condition_specific_age(%age+20%)
+		$condition_specific_age(%age+30%)
+		$condition_specific_age(%age+40%)
+		$condition_specific_age(%age+50%)
+		$condition_specific_age(%age+60%)
+		$condition_specific_age(%age+70%)
+		$condition_specific_age(%age+80%)
+		$condition_specific_age(%age+90%)
+		$condition_specific_age(%age+100%)
+	}
+$done
+
+# Returns true if the character is this age and not older
+$condition_specific_age(age)
+	AND = {
+		age = %age%
+		NOT = { age = %age+1% }
+	}
+$done

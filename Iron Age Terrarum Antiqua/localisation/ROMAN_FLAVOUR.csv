@@ -1,0 +1,16 @@
+become_senator;Become Senator;;;;;;;;;;;;x
+become_senator_desc;Become a member of the Roman Senate. This allows you to be chosen as Consul.;;;;;;;;;;;;x
+roman_election.1.desc;My time as Consul is at an end. The senate will be electing a new Consul soon.;;;;;;;;;;;;x
+roman_election.11.name;Let's hope they choose well;;;;;;;;;;;;x
+roman_election.2.desc;It has been 5 years since the current consul was chosen and it is time for the senators to vote yet again. It seems they have chosen me to be the next consul!;;;;;;;;;;;;x
+roman_election.21.name;I will serve Rome well;;;;;;;;;;;;x
+roman_election.3.desc;The Senators have decided that [From.GetTitledName] should be Consul again. The Senate apparently thinks he did well in his first term.;;;;;;;;;;;;x
+roman_election.31.name;May he lead us well;;;;;;;;;;;;x
+roman_election.4.desc;The Senators have decided that [From.GetTitledName] should be Consul. This will be his first term as Consul.;;;;;;;;;;;;x
+roman_election.41.name;Let us hope we chose well;;;;;;;;;;;;x
+roman_election.5.desc;My incompetence hasn't gone unnoticed. The senate has gotten word that I need to be cared for the entire day and started the election for a new consul!;;;;;;;;;;;;x
+roman_election.51.name;*snore*;;;;;;;;;;;;x
+roman_election.6.desc;[From.GetTitledName] can't even get out of bed. If he can't take care of himself then how can he lead the republic?! The Senate has started electing another to replace the Consul.;;;;;;;;;;;;x
+roman_election.61.name;I hope they elect me!;;;;;;;;;;;;x
+roman_election.7.desc;I have long been claiming that I should rule Rome, that it is my birthright. Unfortunately the people have not been supportive of my claim.;;;;;;;;;;;;x
+roman_election.71.name;I will have to abandon it;;;;;;;;;;;;x

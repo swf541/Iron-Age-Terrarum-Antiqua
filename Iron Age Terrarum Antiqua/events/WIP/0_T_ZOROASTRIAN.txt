@@ -1,0 +1,109 @@
+# Zoroastrian events
+
+namespace = dkzoroastrian
+
+#####Sedreh Pushi ritual - child's event
+character_event = {
+	id = dkzoroastrian.1
+	desc = "dkzoroastrian.1.desc"
+	picture = "GFX_evt_child_bully"
+	
+	min_age = 6
+	max_age = 16
+
+	trigger = {
+		or = {
+			religion = zoroastrian_main
+			religion = zurvanism
+		}
+		father = { is_alive = yes }
+		NOT = {
+				has_character_flag = had_sedreh_pushi
+			}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "dkzoroastrian.11.name"	
+		set_character_flag = had_sedreh_pushi
+		hidden_tooltip = {
+			father = {
+				character_event = {
+					id = dkzoroastrian.2
+					days = 3
+				}
+			}
+		}
+	}
+}
+#####Sedreh Pushi ritual - fathher's event
+character_event = {
+	id = dkzoroastrian.2
+	desc = "dkzoroastrian.2.desc"
+	picture = "GFX_evt_guardian"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "dkzoroastrian.21.name" # Talk to him about Asha – righteousness
+		trigger = {
+			OR = {
+				trait = just
+				trait = kind
+			}
+		}
+		FROM = { piety = 10}
+		FROM = { change_intrigue = -1}
+		FROM = { change_learning = 2}
+	}
+
+	option = {
+		name = "dkzoroastrian.22.name" # Talk to him about Khshatr – divine power.
+		trigger = {
+			OR = {
+				trait = brave
+				trait = strong
+			}
+		}
+		FROM = {prestige = 20}
+		FROM = { change_intrigue = -1}
+		FROM = { change_martial = 1}
+	}
+
+	option = {
+		name = "dkzoroastrian.23.name" # Talk to him about  Armaiti – devotion.
+		trigger = {
+			OR = {
+				trait = zealous
+				piety = 400
+			}
+		}
+		FROM = {piety = 30}
+		FROM = { change_intrigue = -1}
+		FROM = { change_diplomacy = 1}
+	}
+	
+	option = {
+		name = "dkzoroastrian.24.name" # Talk to him about Vohu Manah – holy spirit.
+		trigger = {
+			OR = {
+				trait = diligent
+				piety = 800
+			}
+		}
+		FROM = {piety = 10	prestige = 10}
+		FROM = { change_intrigue = -1}
+		FROM = { change_stewardship = 1}
+	}
+	
+	option = {
+		name = "dkzoroastrian.25.name" # I have nothing to teach him.
+		random_list = {
+			50 = {	FROM = { change_learning = 1} }
+			50 = {	FROM = { change_learning = -1} }
+		}
+	}
+}

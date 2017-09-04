@@ -1,0 +1,14 @@
+nomad_migrate;Migrate;;;;;;;;;;;;x
+nomad_migrate_desc;Nomads can migrate around the land to seek better pastures. To migrate move your ruler to a demesne province that isn't your capital, but does border it. For example, add him as leader to an army and move that army to a province. You should be able to enact this decision then;;;;;;;;;;;;x
+neighbouring_migrate;Must border capital and be a demesne province of [Root.GetTitledName];;;;;;;;;;;;x
+migrate_effect;The [Root.GetOnlyDynastyName] migrate to [Root.Location.GetName];;;;;;;;;;;;x
+nomad.0.desc;We have been in this province for a while. Food is starting to become more scarce and we have to drive our flocks farther and farther from the camp to find grass.;;;;;;;;;;;;x
+nomad.0.name;We should prepare to migrate.;;;;;;;;;;;;x
+nomad.1.desc;We have been in this province for a long time. Food is scarce and there's not that many fat people anymore. Our animals are starting to become skinny too because all the grass is already eaten.;;;;;;;;;;;;x
+nomad.1.name;We need to move now!;;;;;;;;;;;;x
+nomad.2.desc;[Root.GetName] has replenished it's resources.;;;;;;;;;;;;x
+nomad.3.desc;The people in [Root.GetName] have become so numerous they no longer recognise you as their tribal chief. They tell us they want to form their own tribe under our rule or not.;;;;;;;;;;;;x
+nomad.31.name;They may form their own tribe as long as they call me their liege.;;;;;;;;;;;;x
+nomad.31.tooltip;The tribe will elect a leader and take some provinces.;;;;;;;;;;;;x
+CB_NAME_GREAT_MIGRATION;Great Migration;;;;;;;;;;;;x
+WAR_NAME_GREAT_MIGRATION;[From.GetOnlyDynastyName] Great Migration;;;;;;;;;;;;x

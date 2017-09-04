@@ -1,0 +1,16 @@
+# 573 - Navamanpa
+
+# County Title
+title = c_navamanpa
+
+# Settlements
+max_settlements = 2
+b_navamanpa_navamanpa = tribal
+#b_bratavadasz_navamanpa = castle
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

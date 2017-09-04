@@ -1,0 +1,34 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_become_a_vegetarian"
+		texturefile = "gfx\\interface\\decision_icon_become_a_vegetarian.dds"
+	}
+	spriteType = {
+		name = "GFX_go_on_retreat"
+		texturefile = "gfx\\interface\\decision_icon_go_on_retreat.dds"
+	}
+	spriteType = {
+		name = "GFX_visit_buddhist_temple"
+		texturefile = "gfx\\interface\\decision_icon_visit_buddhist_temple.dds"
+	}
+	spriteType = {
+		name = "GFX_dedicate_holy_site"
+		texturefile = "gfx\\interface\\decision_icon_dedicate_holy_site.dds"
+	}
+	spriteType = {
+		name = "GFX_undergo_cleansing_ritual"
+		texturefile = "gfx\\interface\\decision_icon_cleansing_ritual.dds"
+	}
+	spriteType = {
+		name = "GFX_make_sacrifice_chisti"
+		texturefile = "gfx\\interface\\decision_icon_make_sacrifice_chisti.dds"
+	}
+	spriteType = {
+		name = "GFX_make_sacrifice_mithra"
+		texturefile = "gfx\\interface\\decision_icon_make_sacrifice_mithra.dds"
+	}
+	spriteType = {
+		name = "GFX_make_sacrifice_parendi"
+		texturefile = "gfx\\interface\\decision_icon_make_sacrifice_parendi.dds"
+	}
+}

@@ -1,0 +1,3 @@
+opinion_failed_liberation = {
+	opinion = -15
+}

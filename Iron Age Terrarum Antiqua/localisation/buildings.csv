@@ -1,0 +1,396 @@
+ca_wall_1;Walls;;;;;;;;;;;;;x
+ca_wall_2;Walls;;;;;;;;;;;;;x
+ca_wall_3;Walls;;;;;;;;;;;;;x
+ca_wall_4;Walls;;;;;;;;;;;;;x
+ca_wall_5;Walls;;;;;;;;;;;;;x
+ca_fort_1;Fortifications;;;;;;;;;;;;;x
+ca_fort_2;Fortifications;;;;;;;;;;;;;x
+ca_fort_3;Fortifications;;;;;;;;;;;;;x
+ca_fort_4;Fortifications;;;;;;;;;;;;;x
+ca_fort_5;Fortifications;;;;;;;;;;;;;x
+ca_stan_levy_1;Standard Levy;;;;;;;;;;;;;x
+ca_stan_levy_2;Standard Levy;;;;;;;;;;;;;x
+ca_stan_levy_3;Standard Levy;;;;;;;;;;;;;x
+ca_stan_levy_4;Standard Levy;;;;;;;;;;;;;x
+ca_stan_levy_5;Standard Levy;;;;;;;;;;;;;x
+ca_thrac_levy_1;Thracian Regional Levy;;;;;;;;;;;;;x
+ca_thrac_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_thrac_levy_2;Thracian Regional Levy;;;;;;;;;;;;;x
+ca_thrac_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_thrac_levy_3;Thracian Regional Levy;;;;;;;;;;;;;x
+ca_thrac_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_thrac_levy_4;Thracian Regional Levy;;;;;;;;;;;;;x
+ca_thrac_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_thrac_levy_5;Thracian Regional Levy;;;;;;;;;;;;;x
+ca_thrac_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_anat_levy_1;Anatolian Regional Levy;;;;;;;;;;;;;x
+ca_anat_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_anat_levy_2;Anatolian Regional Levy;;;;;;;;;;;;;x
+ca_anat_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_anat_levy_3;Anatolian Regional Levy;;;;;;;;;;;;;x
+ca_anat_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_anat_levy_4;Anatolian Regional Levy;;;;;;;;;;;;;x
+ca_anat_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_anat_levy_5;Anatolian Regional Levy;;;;;;;;;;;;;x
+ca_anat_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_illyr_levy_1;Illyrian Regional Levy;;;;;;;;;;;;;x
+ca_illyr_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_illyr_levy_2;Illyrian Regional Levy;;;;;;;;;;;;;x
+ca_illyr_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_illyr_levy_3;Illyrian Regional Levy;;;;;;;;;;;;;x
+ca_illyr_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_illyr_levy_4;Illyrian Regional Levy;;;;;;;;;;;;;x
+ca_illyr_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_illyr_levy_5;Illyrian Regional Levy;;;;;;;;;;;;;x
+ca_illyr_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_celt_levy_1;Celtic Regional Levy;;;;;;;;;;;;;x
+ca_celt_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_celt_levy_2;Celtic Regional Levy;;;;;;;;;;;;;x
+ca_celt_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_celt_levy_3;Celtic Regional Levy;;;;;;;;;;;;;x
+ca_celt_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_celt_levy_4;Celtic Regional Levy;;;;;;;;;;;;;x
+ca_celt_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_celt_levy_5;Celtic Regional Levy;;;;;;;;;;;;;x
+ca_celt_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_punic_levy_1;Punic Regional Levy;;;;;;;;;;;;;x
+ca_punic_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_punic_levy_2;Punic Regional Levy;;;;;;;;;;;;;x
+ca_punic_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_punic_levy_3;Punic Regional Levy;;;;;;;;;;;;;x
+ca_punic_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_punic_levy_4;Punic Regional Levy;;;;;;;;;;;;;x
+ca_punic_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_punic_levy_5;Punic Regional Levy;;;;;;;;;;;;;x
+ca_punic_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_near_levy_1;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ca_near_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_near_levy_2;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ca_near_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_near_levy_3;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ca_near_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_near_levy_4;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ca_near_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_near_levy_5;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ca_near_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_arab_levy_1;Arabic Regional Levy;;;;;;;;;;;;;x
+ca_arab_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_arab_levy_2;Arabic Regional Levy;;;;;;;;;;;;;x
+ca_arab_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_arab_levy_3;Arabic Regional Levy;;;;;;;;;;;;;x
+ca_arab_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_arab_levy_4;Arabic Regional Levy;;;;;;;;;;;;;x
+ca_arab_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_arab_levy_5;Arabic Regional Levy;;;;;;;;;;;;;x
+ca_arab_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_afric_levy_1;African Regional Levy;;;;;;;;;;;;;x
+ca_afric_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_afric_levy_2;African Regional Levy;;;;;;;;;;;;;x
+ca_afric_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_afric_levy_3;African Regional Levy;;;;;;;;;;;;;x
+ca_afric_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_afric_levy_4;African Regional Levy;;;;;;;;;;;;;x
+ca_afric_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_afric_levy_5;African Regional Levy;;;;;;;;;;;;;x
+ca_afric_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iran_levy_1;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ca_iran_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iran_levy_2;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ca_iran_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iran_levy_3;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ca_iran_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iran_levy_4;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ca_iran_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iran_levy_5;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ca_iran_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_steppe_levy_1;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ca_steppe_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_steppe_levy_2;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ca_steppe_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_steppe_levy_3;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ca_steppe_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_steppe_levy_4;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ca_steppe_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_steppe_levy_5;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ca_steppe_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_india_levy_1;Indian Regional Levy;;;;;;;;;;;;;x
+ca_india_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_india_levy_2;Indian Regional Levy;;;;;;;;;;;;;x
+ca_india_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_india_levy_3;Indian Regional Levy;;;;;;;;;;;;;x
+ca_india_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_india_levy_4;Indian Regional Levy;;;;;;;;;;;;;x
+ca_india_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_india_levy_5;Indian Regional Levy;;;;;;;;;;;;;x
+ca_india_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_greek_levy_1;Hellenic Regional Levy;;;;;;;;;;;;;x
+ca_greek_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_greek_levy_2;Hellenic Regional Levy;;;;;;;;;;;;;x
+ca_greek_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_greek_levy_3;Hellenic Regional Levy;;;;;;;;;;;;;x
+ca_greek_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_greek_levy_4;Hellenic Regional Levy;;;;;;;;;;;;;x
+ca_greek_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_greek_levy_5;Hellenic Regional Levy;;;;;;;;;;;;;x
+ca_greek_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_italy_levy_1;Italic Regional Levy;;;;;;;;;;;;;x
+ca_italy_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_italy_levy_2;Italic Regional Levy;;;;;;;;;;;;;x
+ca_italy_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_italy_levy_3;Italic Regional Levy;;;;;;;;;;;;;x
+ca_italy_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_italy_levy_4;Italic Regional Levy;;;;;;;;;;;;;x
+ca_italy_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_italy_levy_5;Italic Regional Levy;;;;;;;;;;;;;x
+ca_italy_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_tyrh_levy_1;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ca_tyrh_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_tyrh_levy_2;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ca_tyrh_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_tyrh_levy_3;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ca_tyrh_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_tyrh_levy_4;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ca_tyrh_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_tyrh_levy_5;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ca_tyrh_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_grepe_levy_1;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ca_grepe_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_grepe_levy_2;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ca_grepe_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_grepe_levy_3;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ca_grepe_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_grepe_levy_4;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ca_grepe_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_grepe_levy_5;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ca_grepe_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iberian_levy_1;Iberian Regional Levy;;;;;;;;;;;;;x
+ca_iberian_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iberian_levy_2;Iberian Regional Levy;;;;;;;;;;;;;x
+ca_iberian_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iberian_levy_3;Iberian Regional Levy;;;;;;;;;;;;;x
+ca_iberian_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iberian_levy_4;Iberian Regional Levy;;;;;;;;;;;;;x
+ca_iberian_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_iberian_levy_5;Iberian Regional Levy;;;;;;;;;;;;;x
+ca_iberian_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+ca_garrison_1;Garrison;;;;;;;;;;;;;x
+ca_garrison_2;Garrison;;;;;;;;;;;;;x
+ca_garrison_3;Garrison;;;;;;;;;;;;;x
+ca_garrison_4;Garrison;;;;;;;;;;;;;x
+ca_garrison_5;Garrison;;;;;;;;;;;;;x
+ca_town_1;Town;;;;;;;;;;;;;x
+ca_town_2;Town;;;;;;;;;;;;;x
+ca_town_3;Town;;;;;;;;;;;;;x
+ca_town_4;Town;;;;;;;;;;;;;x
+ca_town_5;Town;;;;;;;;;;;;;x
+ca_train_1;Training Ground;;;;;;;;;;;;;x
+ca_train_2;Training Ground;;;;;;;;;;;;;x
+ca_train_3;Training Ground;;;;;;;;;;;;;x
+ca_train_4;Training Ground;;;;;;;;;;;;;x
+ca_train_5;Training Ground;;;;;;;;;;;;;x
+ca_port_1;Port;;;;;;;;;;;;;x
+ca_port_2;Port;;;;;;;;;;;;;x
+ca_port_3;Port;;;;;;;;;;;;;x
+ca_port_4;Port;;;;;;;;;;;;;x
+ca_port_5;Port;;;;;;;;;;;;;x
+ca_admin_1;State Administration;;;;;;;;;;;;;x
+ca_admin_2;State Administration;;;;;;;;;;;;;x
+ca_admin_3;State Administration;;;;;;;;;;;;;x
+ca_admin_4;State Administration;;;;;;;;;;;;;x
+ca_admin_5;State Administration;;;;;;;;;;;;;x
+ca_farm_1;Farms;;;;;;;;;;;;;x
+ca_farm_2;Farms;;;;;;;;;;;;;x
+ca_farm_3;Farms;;;;;;;;;;;;;x
+ca_farm_4;Farms;;;;;;;;;;;;;x
+ca_farm_5;Farms;;;;;;;;;;;;;x
+ca_road_1;Roads;;;;;;;;;;;;;x
+ca_road_2;Roads;;;;;;;;;;;;;x
+ca_road_3;Roads;;;;;;;;;;;;;x
+ca_road_4;Roads;;;;;;;;;;;;;x
+ca_road_5;Roads;;;;;;;;;;;;;x
+ca_stable_1;Stables;;;;;;;;;;;;;x
+ca_stable_2;Stables;;;;;;;;;;;;;x
+ca_stable_3;Stables;;;;;;;;;;;;;x
+ca_stable_4;Stables;;;;;;;;;;;;;x
+ca_stable_5;Stables;;;;;;;;;;;;;x
+ct_wall_1;Walls;;;;;;;;;;;;;x
+ct_wall_2;Walls;;;;;;;;;;;;;x
+ct_wall_3;Walls;;;;;;;;;;;;;x
+ct_wall_4;Walls;;;;;;;;;;;;;x
+ct_wall_5;Walls;;;;;;;;;;;;;x
+ct_fort_1;Fortifications;;;;;;;;;;;;;x
+ct_fort_2;Fortifications;;;;;;;;;;;;;x
+ct_fort_3;Fortifications;;;;;;;;;;;;;x
+ct_fort_4;Fortifications;;;;;;;;;;;;;x
+ct_fort_5;Fortifications;;;;;;;;;;;;;x
+ct_stan_levy_1;Standard Levy;;;;;;;;;;;;;x
+ct_stan_levy_2;Standard Levy;;;;;;;;;;;;;x
+ct_stan_levy_3;Standard Levy;;;;;;;;;;;;;x
+ct_stan_levy_4;Standard Levy;;;;;;;;;;;;;x
+ct_stan_levy_5;Standard Levy;;;;;;;;;;;;;x
+ct_thrac_levy_1;Thracian Regional Levy;;;;;;;;;;;;;x
+ct_thrac_levy_2;Thracian Regional Levy;;;;;;;;;;;;;x
+ct_thrac_levy_3;Thracian Regional Levy;;;;;;;;;;;;;x
+ct_thrac_levy_4;Thracian Regional Levy;;;;;;;;;;;;;x
+ct_thrac_levy_5;Thracian Regional Levy;;;;;;;;;;;;;x
+ct_anat_levy_1;Anatolian Regional Levy;;;;;;;;;;;;;x
+ct_anat_levy_2;Anatolian Regional Levy;;;;;;;;;;;;;x
+ct_anat_levy_3;Anatolian Regional Levy;;;;;;;;;;;;;x
+ct_anat_levy_4;Anatolian Regional Levy;;;;;;;;;;;;;x
+ct_anat_levy_5;Anatolian Regional Levy;;;;;;;;;;;;;x
+ct_illyr_levy_1;Illyrian Regional Levy;;;;;;;;;;;;;x
+ct_illyr_levy_2;Illyrian Regional Levy;;;;;;;;;;;;;x
+ct_illyr_levy_3;Illyrian Regional Levy;;;;;;;;;;;;;x
+ct_illyr_levy_4;Illyrian Regional Levy;;;;;;;;;;;;;x
+ct_illyr_levy_5;Illyrian Regional Levy;;;;;;;;;;;;;x
+ct_celt_levy_1;Celtic Regional Levy;;;;;;;;;;;;;x
+ct_celt_levy_2;Celtic Regional Levy;;;;;;;;;;;;;x
+ct_celt_levy_3;Celtic Regional Levy;;;;;;;;;;;;;x
+ct_celt_levy_4;Celtic Regional Levy;;;;;;;;;;;;;x
+ct_celt_levy_5;Celtic Regional Levy;;;;;;;;;;;;;x
+ct_punic_levy_1;Punic Regional Levy;;;;;;;;;;;;;x
+ct_punic_levy_2;Punic Regional Levy;;;;;;;;;;;;;x
+ct_punic_levy_3;Punic Regional Levy;;;;;;;;;;;;;x
+ct_punic_levy_4;Punic Regional Levy;;;;;;;;;;;;;x
+ct_punic_levy_5;Punic Regional Levy;;;;;;;;;;;;;x
+ct_near_levy_1;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ct_near_levy_2;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ct_near_levy_3;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ct_near_levy_4;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ct_near_levy_5;Near Eastern Regional Levy;;;;;;;;;;;;;x
+ct_arab_levy_1;Arabic Regional Levy;;;;;;;;;;;;;x
+ct_arab_levy_2;Arabic Regional Levy;;;;;;;;;;;;;x
+ct_arab_levy_3;Arabic Regional Levy;;;;;;;;;;;;;x
+ct_arab_levy_4;Arabic Regional Levy;;;;;;;;;;;;;x
+ct_arab_levy_5;Arabic Regional Levy;;;;;;;;;;;;;x
+ct_afric_levy_1;African Regional Levy;;;;;;;;;;;;;x
+ct_afric_levy_2;African Regional Levy;;;;;;;;;;;;;x
+ct_afric_levy_3;African Regional Levy;;;;;;;;;;;;;x
+ct_afric_levy_4;African Regional Levy;;;;;;;;;;;;;x
+ct_afric_levy_5;African Regional Levy;;;;;;;;;;;;;x
+ct_iran_levy_1;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ct_iran_levy_2;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ct_iran_levy_3;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ct_iran_levy_4;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ct_iran_levy_5;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+ct_steppe_levy_1;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ct_steppe_levy_2;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ct_steppe_levy_3;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ct_steppe_levy_4;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ct_steppe_levy_5;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+ct_india_levy_1;Indian Regional Levy;;;;;;;;;;;;;x
+ct_india_levy_2;Indian Regional Levy;;;;;;;;;;;;;x
+ct_india_levy_3;Indian Regional Levy;;;;;;;;;;;;;x
+ct_india_levy_4;Indian Regional Levy;;;;;;;;;;;;;x
+ct_india_levy_5;Indian Regional Levy;;;;;;;;;;;;;x
+ct_greek_levy_1;Hellenic Regional Levy;;;;;;;;;;;;;x
+ct_greek_levy_2;Hellenic Regional Levy;;;;;;;;;;;;;x
+ct_greek_levy_3;Hellenic Regional Levy;;;;;;;;;;;;;x
+ct_greek_levy_4;Hellenic Regional Levy;;;;;;;;;;;;;x
+ct_greek_levy_5;Hellenic Regional Levy;;;;;;;;;;;;;x
+ct_italy_levy_1;Italic Regional Levy;;;;;;;;;;;;;x
+ct_italy_levy_2;Italic Regional Levy;;;;;;;;;;;;;x
+ct_italy_levy_3;Italic Regional Levy;;;;;;;;;;;;;x
+ct_italy_levy_4;Italic Regional Levy;;;;;;;;;;;;;x
+ct_italy_levy_5;Italic Regional Levy;;;;;;;;;;;;;x
+ct_tyrh_levy_1;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ct_tyrh_levy_2;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ct_tyrh_levy_3;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ct_tyrh_levy_4;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ct_tyrh_levy_5;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+ct_grepe_levy_1;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ct_grepe_levy_2;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ct_grepe_levy_3;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ct_grepe_levy_4;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ct_grepe_levy_5;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+ct_iberian_levy_1;Iberian Regional Levy;;;;;;;;;;;;;x
+ct_iberian_levy_2;Iberian Regional Levy;;;;;;;;;;;;;x
+ct_iberian_levy_3;Iberian Regional Levy;;;;;;;;;;;;;x
+ct_iberian_levy_4;Iberian Regional Levy;;;;;;;;;;;;;x
+ct_iberian_levy_5;Iberian Regional Levy;;;;;;;;;;;;;x
+ct_town_1;Town;;;;;;;;;;;;;x
+ct_town_2;Town;;;;;;;;;;;;;x
+ct_town_3;Town;;;;;;;;;;;;;x
+ct_town_4;Town;;;;;;;;;;;;;x
+ct_town_5;Town;;;;;;;;;;;;;x
+ct_guard_1;Town Guard;;;;;;;;;;;;;x
+ct_guard_2;Town Guard;;;;;;;;;;;;;x
+ct_guard_3;Town Guard;;;;;;;;;;;;;x
+ct_guard_4;Town Guard;;;;;;;;;;;;;x
+ct_guard_5;Town Guard;;;;;;;;;;;;;x
+ct_market_1;Marketplace;;;;;;;;;;;;;x
+ct_market_2;Marketplace;;;;;;;;;;;;;x
+ct_market_3;Marketplace;;;;;;;;;;;;;x
+ct_market_4;Marketplace;;;;;;;;;;;;;x
+ct_market_5;Marketplace;;;;;;;;;;;;;x
+ct_port_1;Port;;;;;;;;;;;;;x
+ct_port_2;Port;;;;;;;;;;;;;x
+ct_port_3;Port;;;;;;;;;;;;;x
+ct_port_4;Port;;;;;;;;;;;;;x
+ct_port_5;Port;;;;;;;;;;;;;x
+ct_admin_1;State Administration;;;;;;;;;;;;;x
+ct_admin_2;State Administration;;;;;;;;;;;;;x
+ct_admin_3;State Administration;;;;;;;;;;;;;x
+ct_admin_4;State Administration;;;;;;;;;;;;;x
+ct_admin_5;State Administration;;;;;;;;;;;;;x
+ct_road_1;Roads;;;;;;;;;;;;;x
+ct_road_2;Roads;;;;;;;;;;;;;x
+ct_road_3;Roads;;;;;;;;;;;;;x
+ct_road_4;Roads;;;;;;;;;;;;;x
+ct_road_5;Roads;;;;;;;;;;;;;x
+ct_stable_1;Stables;;;;;;;;;;;;;x
+ct_stable_2;Stables;;;;;;;;;;;;;x
+ct_stable_3;Stables;;;;;;;;;;;;;x
+ct_stable_4;Stables;;;;;;;;;;;;;x
+ct_stable_5;Stables;;;;;;;;;;;;;x
+tp_commune_1;Commune;;;;;;;;;;;;;x
+tp_commune_2;Commune;;;;;;;;;;;;;x
+tp_commune_3;Commune;;;;;;;;;;;;;x
+tp_commune_4;Commune;;;;;;;;;;;;;x
+tp_commune_5;Commune;;;;;;;;;;;;;x
+tp_shrine_1;Shrine;;;;;;;;;;;;;x
+tp_shrine_2;Shrine;;;;;;;;;;;;;x
+tp_shrine_3;Shrine;;;;;;;;;;;;;x
+tp_shrine_4;Shrine;;;;;;;;;;;;;x
+tp_shrine_5;Shrine;;;;;;;;;;;;;x
+tp_shrine_rev_1;Shrine Revenue;;;;;;;;;;;;;x
+tp_shrine_rev_2;Shrine Revenue;;;;;;;;;;;;;x
+tp_shrine_rev_3;Shrine Revenue;;;;;;;;;;;;;x
+tp_shrine_rev_4;Shrine Revenue;;;;;;;;;;;;;x
+tp_shrine_rev_5;Shrine Revenue;;;;;;;;;;;;;x
+tp_port_1;Port;;;;;;;;;;;;;x
+tp_port_2;Port;;;;;;;;;;;;;x
+tp_port_3;Port;;;;;;;;;;;;;x
+tp_port_4;Port;;;;;;;;;;;;;x
+tp_port_5;Port;;;;;;;;;;;;;x
+tp_admin_1;State Administration;;;;;;;;;;;;;x
+tp_admin_2;State Administration;;;;;;;;;;;;;x
+tp_admin_3;State Administration;;;;;;;;;;;;;x
+tp_admin_4;State Administration;;;;;;;;;;;;;x
+tp_admin_5;State Administration;;;;;;;;;;;;;x
+tp_farm_1;Farms;;;;;;;;;;;;;x
+tp_farm_2;Farms;;;;;;;;;;;;;x
+tp_farm_3;Farms;;;;;;;;;;;;;x
+tp_farm_4;Farms;;;;;;;;;;;;;x
+tp_farm_5;Farms;;;;;;;;;;;;;x
+tp_road_1;Roads;;;;;;;;;;;;;x
+tp_road_2;Roads;;;;;;;;;;;;;x
+tp_road_3;Roads;;;;;;;;;;;;;x
+tp_road_4;Roads;;;;;;;;;;;;;x
+tp_road_5;Roads;;;;;;;;;;;;;x
+fp_mansion_1;Farmhouse;;;;;;;;;;;;;x
+fb_mansion_2;Mansion;;;;;;;;;;;;;x
+fb_mansion_3;Great Mansion;;;;;;;;;;;;;x
+fb_mansion_4;Palace;;;;;;;;;;;;;x
+fp_military_1;Armory;;;;;;;;;;;;;x
+fp_military_2;Military Warehouse;;;;;;;;;;;;;x
+fp_military_3;Great Warehouse;;;;;;;;;;;;;x
+fp_farms_1;Farms;;;;;;;;;;;;;x
+fp_farms_2;Slave Farms;;;;;;;;;;;;;x
+fp_farms_3;Crop-rotated Farms;;;;;;;;;;;;;x
+fp_tomb_1;Graveyard;;;;;;;;;;;;;x
+fp_tomb_2;Tomb;;;;;;;;;;;;;x
+fp_tomb_3;Mausoleum;;;;;;;;;;;;;x
+fp_temple_1;Sacred Enclosure;;;;;;;;;;;;;x
+fp_temple_2;Shrine;;;;;;;;;;;;;x
+fp_temple_3;Temple;;;;;;;;;;;;;x

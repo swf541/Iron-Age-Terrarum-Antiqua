@@ -1,0 +1,24 @@
+zoroastrian_cleansing = {
+	church_opinion = 10
+	monthly_character_piety = 0.50
+	icon = 5
+}
+
+zoroastrian_sacrifice_mithra = {
+	land_morale = 0.15
+	regiment_reinforcement_speed = 0.15
+	icon = 5
+}
+
+zoroastrian_sacrifice_parendi = {
+	build_time_modifier = -0.2
+	build_cost_modifier = -0.05
+	icon = 5
+}
+
+zoroastrian_sacrifice_chisti = {
+	tech_growth_modifier_culture = 0.5
+	tech_growth_modifier_military = 0.5
+	tech_growth_modifier_economy = 0.5
+	icon = 5
+}

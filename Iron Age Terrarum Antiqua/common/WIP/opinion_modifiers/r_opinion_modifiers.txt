@@ -1,0 +1,31 @@
+opinion_declined_guardianship_request = {
+	opinion = -15
+}
+opinion_infidel = {
+	opinion = 0
+}
+opinion_heretic = {
+	opinion = 0
+}
+opinion_related_religion = {
+	opinion = 0
+}
+opinion_realm_foreign_culture = {
+	opinion = -20
+}
+opinion_realm_related_culture = {
+	opinion = -5
+}
+# My liege is defending my titles against claimants
+opinion_defending_my_titles = {
+	opinion = 50
+}
+# My liege is defending against infidels in some type of holy war
+opinion_defending_vs_infidel = {
+	opinion = 25
+}
+
+# My liege is defending in a war against foreigners
+opinion_defending_vs_foreigners = {
+	opinion = 25
+}

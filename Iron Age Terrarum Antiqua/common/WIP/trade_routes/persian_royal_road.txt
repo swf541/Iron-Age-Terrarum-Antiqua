@@ -1,0 +1,36 @@
+persian_royal_road = {
+	wealth = 10			# Total base wealth of silk route
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		trade_route_value = 1
+	}
+
+	start = {				# Start provinces of trade route
+		253 # Persepolis
+	}
+
+	# Persepolis to Susa
+	path = {
+		253 254 249
+	}
+	
+	# Susa to Nineveh
+	path = {
+		249 247 238 189 190 191
+	}
+	
+	# Nineveh to Adma
+	path = {
+		191 186 182 181 179
+	}
+	
+	# Adma to Pteria
+	path = {
+		179 201 202 115 117 118 116
+	}
+	
+	# Pteria to Sardis
+	path = {
+		116 96 94 95 93 91 827 81
+	}
+}

@@ -1,0 +1,202 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+
+trade_post = {
+	# Roads
+	tp_tr_dirt_road = {
+		potential = {
+			OR = {
+				trade_route = silk_road
+				trade_route = persian_royal_road
+			}
+		}
+		desc = tp_tr_dirt_road_desc
+		gold_cost = 300
+		build_time = 1825 # 5 years
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = 1	# Affects your cut of the trade route income
+		tradevalue = 10
+		global_movement_speed = 0.1 # Improved movement speed
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tp_tr_paved_road = {
+		potential = {
+			OR = {
+				trade_route = silk_road
+				trade_route = persian_royal_road
+			}
+		}
+		desc = tp_tr_paved_road_desc
+		upgrades_from = tp_tr_dirt_road
+		gold_cost = 500
+		build_time = 3650 # 10 years
+		ai_creation_factor = 96
+		
+		trade_route_wealth = 15	# Affects total value of trade route
+		trade_route_value = 5	# Affects your cut of the trade route income
+		tradevalue = 30
+		global_movement_speed = 0.3 # Improved movement speed
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tp_tr_highways = {
+		potential = {
+			OR = {
+				trade_route = silk_road
+				trade_route = persian_royal_road
+			}
+		}
+		desc = tp_tr_highways_desc
+		upgrades_from = tp_tr_paved_road
+		gold_cost = 500
+		build_time = 3650 # 10 years
+		ai_creation_factor = 97
+		
+		trade_route_wealth = 25	# Affects total value of trade route
+		trade_route_value = 9	# Affects your cut of the trade route income
+		tradevalue = 40
+		global_movement_speed = 0.3 # Improved movement speed
+		
+		extra_tech_building_start = 10.0 # Never get at start of game	
+	}
+	tp_tr_royal_roads = {
+		potential = {
+			trade_route = persian_royal_road
+		}
+		desc = tp_tr_royal_roads_desc
+		upgrades_from = tp_tr_highways
+		gold_cost = 500
+		build_time = 730 # 2 years
+		ai_creation_factor = 100
+		
+		trade_route_wealth = 25	# Affects total value of trade route
+		trade_route_value = 9	# Affects your cut of the trade route income
+		tradevalue = 40
+		global_movement_speed = 0.8 # Improved movement speed
+		
+		extra_tech_building_start = 10.0 # Never get at start of game	
+	}
+	
+	# Guards
+	tp_tr_guard_post = {
+		potential = {
+			OR = {
+				trade_route = silk_road
+				trade_route = persian_royal_road
+			}
+		}
+		desc = tp_tr_guard_post_desc
+		gold_cost = 50
+		build_time = 90 # 3 months
+		ai_creation_factor = 96
+		
+		trade_route_wealth = 5	# Affects total value of trade route
+		trade_route_value = -1	# Affects your cut of the trade route income
+		tradevalue = 10
+		garrison_size = 0.1
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tp_tr_patrols = {
+		potential = {
+			OR = {
+				trade_route = silk_road
+				trade_route = persian_royal_road
+			}
+		}
+		desc = tp_tr_patrols_desc
+		upgrades_from = tp_tr_guard_post
+		gold_cost = 100
+		build_time = 90 # 3 months
+		ai_creation_factor = 96
+		
+		trade_route_wealth = 15	# Affects total value of trade route
+		trade_route_value = -3	# Affects your cut of the trade route income
+		tradevalue = 20
+		garrison_size = 0.25
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tp_tr_garrison = {
+		potential = {
+			OR = {
+				trade_route = silk_road
+				trade_route = persian_royal_road
+			}
+		}
+		desc = tp_tr_garrison_desc
+		upgrades_from = tp_tr_patrols
+		gold_cost = 300
+		build_time = 365 # 1 year
+		ai_creation_factor = 97
+		
+		trade_route_wealth = 20	# Affects total value of trade route
+		trade_route_value = -5	# Affects your cut of the trade route income
+		tradevalue = 30
+		garrison_size = 1.0
+		
+		extra_tech_building_start = 10.0 # Never get at start of game		
+	}
+	tp_tr_walled_tradepost = {
+		potential = {
+			OR = {
+				trade_route = silk_road
+				trade_route = persian_royal_road
+			}
+		}
+		desc = tp_tr_garrison_desc
+		upgrades_from = tp_tr_garrison
+		gold_cost = 500
+		build_time = 1825 # 5 years
+		ai_creation_factor = 100
+		
+		trade_route_wealth = 40	# Affects total value of trade route
+		trade_route_value = -10	# Affects your cut of the trade route income
+		tradevalue = 60
+		garrison_size = 2.0
+		fort_level = 2
+		
+		extra_tech_building_start = 10.0 # Never get at start of game		
+	}
+	
+	# Caravansarais
+	tp_tr_inn = {
+		potential = {
+			OR = {
+				trade_route = silk_road
+				trade_route = persian_royal_road
+			}
+		}
+		desc = tp_tr_inn_desc
+		gold_cost = 150
+		build_time = 365 # 1 year
+		ai_creation_factor = 100
+
+		trade_route_value = 5	# Affects your cut of the trade route income
+		tradevalue = 5
+		
+		extra_tech_building_start = 10.0 # Never get at start of game		
+	}
+
+	tp_tr_caravanserai = {
+		potential = {
+			OR = {
+				trade_route = silk_road
+				trade_route = persian_royal_road
+			}
+		}
+		desc = tp_tr_caravanserai_desc
+		upgrades_from = tp_tr_inn
+		gold_cost = 300
+		build_time = 365 # 1 year
+		ai_creation_factor = 100
+
+		trade_route_value = 20	# Affects your cut of the trade route income
+		tradevalue = 10
+		
+		extra_tech_building_start = 10.0 # Never get at start of game		
+	}
+}

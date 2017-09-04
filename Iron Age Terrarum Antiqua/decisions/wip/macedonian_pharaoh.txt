@@ -1,0 +1,28 @@
+decisions = {
+	become_macedonian_pharaoh = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = KING
+			not = {
+				trait = macedonian_pharaoh
+			}
+			not = {
+				trait = incapable
+			}
+			completely_controls = e_egypt
+				
+					
+				
+				
+			
+		}
+		allow = {
+			age = 16
+			completely_controls = c_alexandria
+			culture = macedonian
+			
+		}
+		effect = {
+			add_trait = macedonian_pharaoh
+		}
+	}

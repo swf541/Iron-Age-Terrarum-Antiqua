@@ -1,0 +1,18 @@
+# 84 - Telmessos
+
+# County Title
+title = c_telmessos # for example c_corinth
+
+# Settlements
+max_settlements = 4
+b_telmessos_telmessos = castle
+b_pinara_telmessos = temple
+b_sidyma_telmessos = city
+b_tlos_telmessos = castle
+
+# Misc
+culture = luwian
+religion = anatolian_main
+
+# History
+# Can be filled when things change around the province

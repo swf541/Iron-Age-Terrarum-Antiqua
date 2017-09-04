@@ -1,0 +1,236 @@
+##########################################
+###Zoroastrian decisions by Maestro Ugo###
+##########################################
+
+decisions = {
+
+###Sacrifices
+	make_sacrifice_mithra = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			is_female = no
+			prisoner = no
+			OR = {
+				religion = zoroastrian_main
+				religion = zurvanism
+			}
+			OR = {
+				NOT = { has_character_flag = made_sacrifice_1 }
+				had_character_flag = { flag = made_sacrifice_1 days = 1825 }
+			}
+			war = no
+		}
+		allow = {
+			prisoner = no
+			piety = 100
+		}
+		effect = {
+			scaled_wealth = -0.3
+			piety = -30
+			clr_character_flag = made_sacrifice_1
+			set_character_flag = made_sacrifice_1
+			add_character_modifier = {
+				name = zoroastrian_sacrifice_mithra
+				duration = 365
+				}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 3.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					piety = 100
+				}
+			}
+		}
+	}
+
+	make_sacrifice_parendi = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			is_female = no
+			prisoner = no
+			OR = {
+				religion = zoroastrian_main
+				religion = zurvanism
+			}
+			OR = {
+				NOT = { has_character_flag = made_sacrifice_1 }
+				had_character_flag = { flag = made_sacrifice_1 days = 1825 }
+			}
+			war = no
+		}
+		allow = {
+			prisoner = no
+			piety = 100
+		}
+		effect = {
+			scaled_wealth = -0.3
+			piety = -30
+			clr_character_flag = made_sacrifice_1
+			set_character_flag = made_sacrifice_1
+			add_character_modifier = {
+				name = zoroastrian_sacrifice_parendi
+				duration = 365
+				}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 3.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					piety = 100
+				}
+			}
+		}
+	}
+
+	make_sacrifice_chisti = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			is_female = no
+			prisoner = no
+			OR = {
+				religion = zoroastrian_main
+				religion = zurvanism
+			}
+			OR = {
+				NOT = { has_character_flag = made_sacrifice_1 }
+				had_character_flag = { flag = made_sacrifice_1 days = 1825 }
+			}
+			war = no
+		}
+		allow = {
+			prisoner = no
+			piety = 100
+		}
+		effect = {
+			scaled_wealth = -0.3
+			piety = -30
+			clr_character_flag = made_sacrifice_1
+			set_character_flag = made_sacrifice_1
+			add_character_modifier = {
+				name = zoroastrian_sacrifice_chisti
+				duration = 365
+				}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 3.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					piety = 100
+				}
+			}
+		}
+	}
+#####Cleansing ritual
+	undergo_cleansing_ritual = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			is_female = no
+			prisoner = no
+			OR = {
+				religion = zoroastrian_main
+				religion = zurvanism
+			}
+			OR = {
+				NOT = { has_character_flag = undergoing_cleansing_ritual }
+				had_character_flag = { flag = undergoing_cleansing_ritual days = 1825 }
+			}
+			war = no
+		}
+		allow = {
+			any_demesne_title = {
+				is_occupied = no
+			}
+			scaled_wealth = 0.30
+			prisoner = no
+		}
+		effect = {
+			scaled_wealth = -0.30
+			piety = 25
+			clr_character_flag = undergoing_cleansing_ritual
+			set_character_flag = undergoing_cleansing_ritual
+			add_character_modifier = {
+				name = zoroastrian_cleansing
+				duration = 365
+				}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 10.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+			modifier = {
+				factor = 0
+				piety = 100
+			}
+		}
+	}
+}

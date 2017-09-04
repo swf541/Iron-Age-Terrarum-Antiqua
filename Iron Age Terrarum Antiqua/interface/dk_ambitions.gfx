@@ -1,0 +1,31 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_obj_take_amphipolis_macedonia"
+		texturefile = "gfx/ambitions/obj_become_king.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_take_ano_makedonia_macedonia"
+		texturefile = "gfx/ambitions/obj_become_king.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_subdue_paeonians_macedonia"
+		texturefile = "gfx/ambitions/obj_become_king.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_obj_protect_thessaly_macedonia"
+		texturefile = "gfx/ambitions/obj_become_king.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

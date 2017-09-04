@@ -1,0 +1,459 @@
+dynasty_decisions = {
+	# Character 1
+	marry_incest_1_decision = {		
+		from_potential = {		
+			OR = {
+				ai = yes
+				has_character_flag = open_incest_decisions
+			}
+			NOT = {
+				has_character_flag = selected_marriage_incest
+			}				
+			is_ruler = yes
+			OR = {
+				religion_group = egyptian_religion
+				religion = zoroastrian_main
+				religion = zurvanism
+				religion = armenian_main
+				religion_group = greek_religion
+			}
+		}
+		potential = {
+			OR = {
+				host = {
+					character = FROM
+				}
+				character = FROM
+			}
+			is_marriage_adult = yes
+			OR = { # Spouse number checking
+				AND = {
+					is_married = no
+					is_betrothed = no
+				}
+				AND = {
+					is_female = no
+					OR = {
+						religion = greek_main
+						religion = pontic_main
+					}
+					NOT = {
+						OR = {
+							num_of_spouses = 4
+							AND = {
+								num_of_spouses = 3
+								is_betrothed = yes
+							}
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			ROOT = {
+				any_sibling = {
+					is_marriage_adult = yes
+					custom_tooltip = {
+						text = IS_IN_FROM_COURT
+						hidden_tooltip = {
+							OR = {
+								character = FROM
+								host = {
+									character = FROM
+								}
+							}
+						}
+					}
+					custom_tooltip = {
+						text = IS_NOT_AT_SPOUSE_LIMIT
+						hidden_tooltip = {
+							OR = { # Spouse number checking
+								AND = {
+									is_married = no
+									is_betrothed = no
+								}
+								AND = {
+									is_female = no
+									OR = {
+										religion = greek_main
+										religion = pontic_main
+									}
+									NOT = {
+										OR = {
+											num_of_spouses = 4
+											AND = {
+												num_of_spouses = 3
+												is_betrothed = yes
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					hidden_tooltip = { # Hiding this since it always displays false
+						OR = { # Gender checking
+							AND = {
+								is_female = no
+								ROOT = {
+									is_female = yes
+								}
+							}
+							AND = {
+								is_female = yes
+								ROOT = {
+									is_female = no
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			ROOT = {
+				set_character_flag = to_be_incested
+			}
+			FROM = {
+				set_character_flag = selected_marriage_incest
+				hidden_tooltip = {
+					prestige = 0.1
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10.0
+				FROM = {
+					capital_scope = {
+						de_jure_liege_or_above = k_egypt
+					}
+					primary_title = {
+						OR = {
+							title = e_egypt
+							title = k_egypt
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				ROOT = {
+					is_primary_heir = FROM
+				}
+			}
+			modifier = {
+				factor = 0.5
+				ROOT = {
+					is_married = yes
+				}
+			}
+		}
+	}
+	marry_incest_2_decision = {
+		from_potential = {
+			OR = {
+				ai = yes
+				has_character_flag = open_incest_decisions
+			}
+			has_character_flag = selected_marriage_incest	
+			is_ruler = yes
+			OR = {
+				religion_group = egyptian_religion
+				religion = zoroastrian_main
+				religion = zurvanism
+				religion = armenian_main
+				religion_group = greek_religion
+			}
+		}
+		potential = {
+			is_marriage_adult = yes
+			OR = {
+				host = {
+					character = FROM
+				}
+				character = FROM
+			}
+			OR = { # Spouse number checking
+				AND = {
+					is_married = no
+					is_betrothed = no
+				}
+				AND = {
+					is_female = no
+					OR = {
+						religion = greek_main
+						religion = pontic_main
+					}
+					NOT = {
+						OR = {
+							num_of_spouses = 4
+							AND = {
+								num_of_spouses = 3
+								is_betrothed = yes
+							}
+						}
+					}
+				}
+			}
+			any_sibling = {
+				has_character_flag = to_be_incested
+				OR = { # Gender checking
+					AND = {
+						is_female = no
+						ROOT = {
+							is_female = yes
+						}
+					}
+					AND = {
+						is_female = yes
+						ROOT = {
+							is_female = no
+						}
+					}
+				}
+			}
+		}
+		allow = {
+
+		}
+		effect = {
+			any_sibling = {
+				limit = {
+					has_character_flag = to_be_incested
+				}
+				add_spouse = ROOT
+				clr_character_flag = to_be_incested
+			}
+			FROM = {
+				clr_character_flag = selected_marriage_incest
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = { # Try to get the best matches for the heir
+			factor = 5
+			modifier = {
+				factor = 0.2
+				any_sibling = {
+					is_primary_heir = FROM
+					has_character_flag = to_be_incested
+				}
+				ROOT = {
+					OR = {
+						trait = clubfooted
+						trait = harelip
+						trait = hunchback
+						trait = lisp
+						trait = stutter
+						trait = ugly
+						trait = dwarf
+						trait = slow
+						trait = imbecile
+						trait = inbred
+						trait = weak
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				any_sibling = {
+					is_primary_heir = FROM
+					has_character_flag = to_be_incested
+				}
+				ROOT = {
+					OR = {
+						trait = fair
+						trait = genius
+						trait = quick
+						trait = strong
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				any_sibling = {
+					is_primary_heir = FROM
+					has_character_flag = to_be_incested
+				}
+				ROOT = {
+					OR = {
+						diplomacy = 10
+						martial = 10
+						stewardship = 10
+						intrigue = 10
+						learning = 10
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				any_sibling = {
+					is_primary_heir = FROM
+					has_character_flag = to_be_incested
+				}
+				ROOT = {
+					OR = {
+						diplomacy = 15
+						martial = 15
+						stewardship = 15
+						intrigue = 15
+						learning = 15
+					}
+				}
+			}
+		}
+	}
+}
+decisions = {
+	marry_incest_toggle = {
+		potential = {
+			ai = no
+			OR = {
+				religion_group = egyptian_religion
+				religion = zoroastrian_main
+				religion = zurvanism
+				religion = armenian_main
+				religion_group = greek_religion
+			}
+		}
+		allow = {
+
+		}
+		effect = {
+			ROOT = {
+				if = {
+					limit = {
+						has_character_flag = open_incest_decisions
+
+					}
+					custom_tooltip = {
+						text = marry_incest_toggle_close
+						clr_character_flag = open_incest_decisions
+						set_character_flag = temp_flag
+					}
+				}				
+				if = {
+					limit = {
+						NOT = {
+							has_character_flag = open_incest_decisions
+							has_character_flag = temp_flag
+						}
+					}					
+					custom_tooltip = {
+						text = marry_incest_toggle_open						
+						set_character_flag = open_incest_decisions
+					}
+				}
+				clr_character_flag = temp_flag
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = { # AI can't enact this decision
+			factor = 1
+		}
+	}
+	deselect_incest = {
+		potential = {
+			OR = {
+				ai = yes
+				has_character_flag = open_incest_decisions
+			}
+			has_character_flag = selected_marriage_incest	
+			is_ruler = yes
+			OR = {
+				religion_group = egyptian_religion
+				religion = zoroastrian_main
+				religion = zurvanism
+				religion = armenian_main
+				religion_group = greek_religion
+			}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_character_flag = selected_marriage_incest
+			any_courtier = {
+				limit = {
+					dynasty = ROOT
+					has_character_flag = to_be_incested
+				}
+				clr_character_flag = to_be_incested
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = { # There is no character with the flag
+				factor = 1000
+				NOT = {
+					any_courtier = {
+						dynasty = ROOT
+						has_character_flag = to_be_incested
+					}
+				}
+			}
+			modifier = { # Character can't marry anyone
+				factor = 1000
+				NOT = {
+					any_courtier = {
+						dynasty = ROOT
+						has_character_flag = to_be_incested
+						any_sibling = {
+							is_marriage_adult = yes
+							OR = {
+								character = ROOT
+								host = {
+									character = ROOT
+								}
+							}
+							OR = { # Spouse number checking
+								AND = {
+									is_married = no
+									is_betrothed = no
+								}
+								AND = {
+									is_female = no
+									OR = {
+										religion = greek_main
+										religion = pontic_main
+									}
+									NOT = {
+										OR = {
+											num_of_spouses = 4
+											AND = {
+												num_of_spouses = 3
+												is_betrothed = yes
+											}
+										}
+									}
+								}
+							}
+							OR = { # Gender checking
+								AND = {
+									is_female = no
+									PREV = {
+										is_female = yes
+									}
+								}
+								AND = {
+									is_female = yes
+									PREV = {
+										is_female = no
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

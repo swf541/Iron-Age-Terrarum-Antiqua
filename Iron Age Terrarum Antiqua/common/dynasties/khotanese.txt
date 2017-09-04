@@ -1,0 +1,18 @@
+# 46001-47000 for Khotanese dynasties
+
+46001 = { # Made up
+	name = "Nipandakanushadh"
+	culture = khotanese
+}
+46002 = { # Made up
+	name = "Aryamgulashu"
+	culture = khotanese
+}
+46003 = { # Made up
+	name = "Shambhavanushadh"
+	culture = khotanese
+}
+46004 = { # Made up
+	name = "Presamdhashu"
+	culture = khotanese
+}

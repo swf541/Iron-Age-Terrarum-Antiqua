@@ -1,0 +1,9 @@
+slavery_population_small = {
+	icon = 36
+}
+slavery_population_medium = {
+	icon = 18
+}
+slavery_population_large = {
+	icon = 18
+}

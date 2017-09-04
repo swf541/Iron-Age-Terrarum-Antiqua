@@ -1,0 +1,41 @@
+visited_buddhist_temple = {
+	monthly_character_piety = 0.1
+	church_opinion = 5
+	icon = 2
+}
+spiritually_insincere_buddhist = {
+	monthly_character_piety = -0.3
+	monthly_character_prestige = -0.1
+	church_opinion = -10
+	general_opinion = -5
+	icon = 20
+}
+built_buddhist_stupa = {
+	monthly_character_piety = 0.35
+	diplomacy = 1
+	icon = 8
+}
+built_buddhist_temple = {
+	monthly_character_piety = 0.2
+	stewardship = 1
+	icon = 8
+}
+built_buddhist_monastery = {
+	monthly_character_piety = 0.2
+	learning = 1
+	icon = 8
+}
+building_buddhist_holy_site = {
+	monthly_character_piety = 0.03
+	icon = 8
+}
+participated_in_meditation_retreat = {
+	monthly_character_piety = 0.15
+	diplomacy = 1
+	learning = 1
+	church_opinion = 10
+	icon = 8
+}
+visit_buddhist_temple_timer = {
+	icon = 2
+}

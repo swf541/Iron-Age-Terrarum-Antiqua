@@ -1,0 +1,92 @@
+# 34001-35000 for Sarmatian dynasties
+
+34001 = {
+	name = "Sirakes"
+	culture = sarmatian
+}
+34002 = {
+	name = "Legae"
+	culture = sarmatian
+}
+34003 = {
+	name = "Maiotai"
+	culture = sarmatian
+}
+
+#Maeotae tribes
+34004 = {
+	name = "Sindi"
+	culture = sarmatian
+}
+34005 = {
+	name = "Dandarii"
+	culture = sarmatian
+}
+34006 = {
+	name = "Toreatae"
+	culture = sarmatian
+}
+34007 = {
+	name = "Arrechi"
+	culture = sarmatian
+}
+34008 = {
+	name = "Agri"
+	culture = sarmatian
+}
+34009 = {
+	name = "Obidiaceni"
+	culture = sarmatian
+}
+34010 = {
+	name = "Sittaceni"
+	culture = sarmatian
+}
+34011 = {
+	name = "Dosci"
+	culture = sarmatian
+}
+
+# Alans
+34012 = {
+	name = "Alani"
+	culture = sarmatian
+}
+34013 = {
+	name = "Roxolani"
+	culture = sarmatian
+}
+34014 = {
+	name = "Aorsi"
+	culture = sarmatian
+}
+
+# Others
+34015 = {
+	name = "Iazyges"
+	culture = sarmatian
+}
+34016 = {
+	name = "Basili"
+	culture = sarmatian
+}
+34017 = {
+	name = "Iaxamate"
+	culture = sarmatian
+}
+34018 = {
+	name = "Metanastae"
+	culture = sarmatian
+}
+34019 = {
+	name = "Saii"
+	culture = sarmatian
+}
+34020 = {
+	name = "Serboi"
+	culture = sarmatian
+}
+34021 = {
+	name = "Tyrigetae"
+	culture = sarmatian
+}

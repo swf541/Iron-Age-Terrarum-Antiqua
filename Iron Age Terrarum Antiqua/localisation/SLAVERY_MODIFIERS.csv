@@ -1,0 +1,6 @@
+slavery_population_small;Small slave population;;;;;;;;;;;;;x
+slavery_population_medium;Average slave population;;;;;;;;;;;;;x
+slavery_population_large;Large slave population;;;;;;;;;;;;;x
+slavery_population_small_desc;There are [Location.slave_pop.GetValue] slaves in this province. This is seen as a small amount of slaves.;;;;;;;;;;;;;x
+slavery_population_medium_desc;There are [Location.slave_pop.GetValue] slaves in this province. This is seen as a average amount of slaves.;;;;;;;;;;;;;x
+slavery_population_large_desc;There are [Location.slave_pop.GetValue] slaves in this province. This is seen as a large amount of slaves.;;;;;;;;;;;;;x

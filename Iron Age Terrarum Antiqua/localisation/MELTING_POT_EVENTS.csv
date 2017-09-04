@@ -1,0 +1,8 @@
+melting_pot.1.desc;After being under the continued rule of a single realm, the coastal greeks and inland peoples have started trading much more intensively than ever before. This has lead to an exchange of cultural and religious customs. Over time, this has lead to a unique culture which combines greek and persian customs and values. Your people now want to know if you adopt this new culture.;;;;;;;;;;;;x
+melting_pot.11.name;This will help us in our affairs with Greek states.;;;;;;;;;;;;x
+melting_pot.12.name;Persian values will help us establish a dynasty.;;;;;;;;;;;;x
+melting_pot.13.name;We don't need to appease the infighting Greeks.;;;;;;;;;;;;x
+melting_pot.14.name;That would mean adopting barbarian values.;;;;;;;;;;;;x
+melting_pot.2.desc;The Greeks and the inland peoples of Pontus have started trading much more than before. This caused an exchange of cultural and religious customs. This has lead to a seperate culture and religion which combines Greek and Persian values. The ruler of these lands, [From.GetTitledName], has adopted these new cultural and religious customs. He will be sure to try to make his vassals adopt this culture as well. While [From.PrimaryTitle.GetName] might be insignificant now, this combination of the best of both cultures might, one day, make [From.PrimaryTitle.GetName] a superpower.;;;;;;;;;;;;x
+melting_pot.2.title;[From.GetFirstName]'s choice;;;;;;;;;;;;x
+melting_pot.21.name;Perhaps I could become more influential by adopting this culture as well.;;;;;;;;;;;;x

@@ -1,0 +1,341 @@
+decisions = {
+
+	ashvamedha_sacrifice = { # Major horse sacrifice
+		is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			higher_tier_than = DUKE
+			religion = hinduism_main
+			NOT = {	has_character_flag = held_ashvamedha }
+		}
+		allow = {
+			wealth = 200
+			prestige = 200
+			NOT = { trait = vegetarian }
+			NOT = {	trait = incapable }
+			prisoner = no
+			war = no
+			age = 16
+			any_demesne_title = {
+				is_occupied = no
+			}
+		}
+		effect = {
+			wealth = -200
+			piety = 50
+			set_character_flag = held_ashvamedha
+			character_event = { id = ashvamedha.1 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# VIET stuff
+	become_a_vegetarian = {
+		potential = {
+			is_ruler = yes
+			OR = {
+				religion = hinduism_main
+				religion = buddhism_main
+				religion = jainism_main
+			}
+			NOT = { trait = vegetarian }
+		}
+		allow = {
+			piety = 50
+            OR = {
+				trait = zealous
+				trait = kind
+				trait = temperate
+			}
+			OR = {
+				NOT = { trait = gluttonous }
+				OR = {
+					trait = zealous
+					trait = kind
+				}
+			}
+			NOT = { trait = cruel }
+			NOT = { trait = impaler }
+			NOT = { trait = hunter }
+			NOT = { trait = falconer }
+		}
+		effect = {
+			piety = 25
+            character_event = { id = vegetarian.1 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.05 #slow down a bit
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					trait = arbitrary
+					NOT = { trait = zealous }
+				}
+			}
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+			modifier = {
+				factor = 0.5
+				trait = envious
+			}
+			modifier = {
+				factor = 2
+				trait = temperate
+			}
+			modifier = {
+				factor = 0
+				trait = gluttonous
+			}
+			modifier = {
+				factor = 0.01
+				trait = cruel
+			}
+			modifier = {
+				factor = 0.05
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.25
+				trait = content
+			}
+	    }
+    }
+	go_on_retreat = {
+		potential = {
+			is_ruler = yes
+			is_theocracy = no
+			religion = buddhism_main
+			NOT = { has_character_modifier = participated_in_meditation_retreat }
+			NOT = { has_character_flag = going_on_meditation_retreat }
+			higher_tier_than = BARON
+		}
+		allow = {
+            scaled_wealth = 0.15
+			prestige = 50
+			piety = 50
+			OR = {
+				trait = zealous
+				trait = kind
+				trait = temperate
+				trait = diligent
+				trait = patient
+				trait = charitable
+			}
+			OR = {
+				NOT = { trait = cruel }
+				trait = zealous
+			}
+			OR = {
+				NOT = { trait = gluttonous }
+				OR = {
+					trait = zealous
+					trait = kind
+				}
+			}
+			OR = {
+				NOT = { trait = wroth }
+				OR = {
+					trait = zealous
+					trait = kind
+				}
+			}
+			OR = {
+				NOT = { trait = slothful }
+				OR = {
+					trait = zealous
+					trait = kind
+				}
+			}
+		}
+		effect = {
+			scaled_wealth = -0.15
+			piety = 25
+			set_character_flag = going_on_meditation_retreat
+            character_event = { id = meditation.1 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1 #slow down a bit
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+			modifier = {
+				factor = 0.5
+				trait = envious
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.5
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.05
+				has_character_flag = retreat_at_least_once
+				NOT = { trait = zealous }
+			}
+	    }
+    }
+	visit_buddhist_temple = {
+		potential = {
+			is_ruler = yes
+			religion = buddhism_main
+			NOT = { has_character_modifier = visit_buddhist_temple_timer }
+			NOT = { has_character_modifier = visited_buddhist_temple }
+			NOT = { has_character_flag = visiting_buddhist_temple }
+			higher_tier_than = BARON
+		}
+		allow = {
+            scaled_wealth = 0.15
+		}
+		effect = {
+			scaled_wealth = -0.15
+			set_character_flag = visiting_buddhist_temple
+            character_event = { id = buddhist.1 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5 #slow down a bit
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+			modifier = {
+				factor = 0.5
+				trait = envious
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.5
+				trait = slothful
+			}
+	    }
+    }
+	dedicate_holy_site = {
+		potential = {
+			is_ruler = yes
+			religion = buddhism_main
+			NOT = { has_character_modifier = built_buddhist_stupa }
+			NOT = { has_character_modifier = built_buddhist_temple }
+			NOT = { has_character_modifier = built_buddhist_monastery }
+			NOT = { has_character_flag = dedicated_buddhist_holy_site }
+			higher_tier_than = BARON
+		}
+		allow = {
+            scaled_wealth = 0.4
+			prestige = 100
+		}
+		effect = {
+			scaled_wealth = -0.4
+			piety = 50
+			set_character_flag = dedicated_buddhist_holy_site
+            character_event = { id = buddhist.13 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5 #slow down a bit
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+			modifier = {
+				factor = 0.5
+				trait = envious
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.5
+				trait = slothful
+			}
+	    }
+    }
+}

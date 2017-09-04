@@ -1,0 +1,12 @@
+marry_incest_1_decision;Select [Root.GetTitledFirstName];;;;;;;;;;;;x
+marry_incest_2_decision;Select [Root.GetTitledFirstName];;;;;;;;;;;;x
+marry_incest_1_decision_desc;Select [Root.GetTitledFirstName] to marry one of [Root.GetHerHis] siblings. Choose the character [Root.GetSheHe] is supposed to marry with the next decision.;;;;;;;;;;;;x
+IS_IN_FROM_COURT;Is in the court of [From.GetTitledName]\n;;;;;;;;;;;;x
+IS_NOT_AT_SPOUSE_LIMIT;Is not at spouse limit\n;;;;;;;;;;;;x
+marry_incest_2_decision_desc;Select [Root.GetTitledFirstName] to marry one the character you selected previously.;;;;;;;;;;;;x
+marry_incest_toggle;Toggle sibling marriage decisions;;;;;;;;;;;;x
+marry_incest_toggle_desc;Use this decision to marry dynasty members who are in your court to their siblings. You should first select one character through the decisions and select the other to marry the two.;;;;;;;;;;;;x
+marry_incest_toggle_open;Show egilible kinsmen. Please wait a few in-game days for the list to update.;;;;;;;;;;;;x
+marry_incest_toggle_close;Hide egilible kinsmen. Please wait a few in-game days for the list to update.;;;;;;;;;;;;x
+deselect_incest;Deselect candidate for incest;;;;;;;;;;;;x
+deselect_incest_desc;Deselect the candidate you chose to marry a sibling. This will also work if you selected someone who later moved out of court.;;;;;;;;;;;;x

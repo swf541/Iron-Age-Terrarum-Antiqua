@@ -1,0 +1,82 @@
+# 33001-34000 for Scythian dynasties
+
+33001 = { # Dahae, Later Parthian dynasty
+	name = "Parni"
+	culture = scythian
+}
+33002 = {
+	name = "Chorasmiai"
+	culture = scythian
+}
+33003 = {
+	name = "Amyrgioi"
+	culture = scythian
+}
+33004 = {
+	name = "Massagetai"
+	culture = scythian
+}
+33005 = {
+	name = "Apasiakai"
+	culture = scythian
+}
+33006 = {
+	name = "Thyssagetai"
+	culture = scythian
+}
+33007 = {
+	name = "Tauroi"
+	culture = scythian
+}
+33008 = { # Dahae
+	name = "Pissyri"
+	culture = scythian
+}
+33009 = { # Dahae
+	name = "Xanti"
+	culture = scythian
+}
+33010 = { # Dzungaria-area
+	name = "Issedones"
+	culture = scythian
+}
+33011 = { # Don area
+	name = "Androphagi" # Man-eaters
+	culture = scythian
+}
+33012 = { # Dacia, assimilated
+	name = "Agathyrsi"
+	culture = scythian
+}
+33013 = { # Media
+	name = "Orthocorybantians"
+	culture = scythian
+}
+
+# Crimean tribes
+33014 = {
+	name = "Alazones"
+	culture = scythian
+}
+33015 = {
+	name = "Aroteres"
+	culture = scythian
+}
+33016 = {
+	name = "Callipidae"
+	culture = scythian
+}
+33017 = {
+	name = "Nomades"
+	culture = scythian
+}
+
+# Eastern Scythians
+33018 = {
+	name = "Argippaei"
+	culture = scythian
+}
+33019 = {
+	name = "Arimaspi"
+	culture = scythian
+}

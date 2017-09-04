@@ -1,0 +1,164 @@
+bm_rise_of_macedonia = {
+	name = "BM_CHARLEMAGNE"
+	desc = "BM_RISE_OF_MACEDONIA_DESC"
+	date = 417.4.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+	
+	selectable_character = {
+		id = 803
+	}
+	selectable_character = {
+		id = 140003
+	}
+	selectable_character = {
+		id = 40114
+	}
+	selectable_character = {
+		id = 90311
+	}
+}
+bm_alexander_rises = {
+	name = "BM_ALEXANDER_RISES"
+	desc = "BM_ALEXANDER_RISES_DESC"
+	date = 440.10.1
+	selectable_character = {
+		id = 90314
+	}
+	selectable_character = {
+		id = 802
+	}
+
+}
+bm_end_of_an_era = {
+	name = "BM_END_OF_AN_ERA"
+	desc = "BM_END_OF_AN_ERA_DESC"
+	date = 446.1.1
+	selectable_character = {
+		id = 802
+	}
+	selectable_character = {
+		id = 90320
+	}
+	selectable_character = {
+		id = 60001
+	}
+}
+bm_death_of_a_colossus = {
+	name = "BM_THE_OLD_GODS"
+	desc = "BM_DEATH_OF_A_COLOSSUS_DESC"
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_2
+	date = 453.6.10
+	
+	selectable_character = {
+		id = 801
+	}
+	selectable_character = {
+		id = 401
+	}
+	selectable_character = {
+		id = 601
+	}
+	selectable_character = {
+		id = 30001
+	}
+	selectable_character = {
+		id = 1101
+	}
+	selectable_character = {
+		id = 1
+	}
+
+}
+bm_the_restoration_of_seleucus = {
+	name = "BM_THE_RESTORATION_OF_SELEUCUS"
+	desc = "BM_THE_RESTORATION_OF_SELEUCUS_DESC"
+	date = 465.1.1
+	
+	selectable_character = {
+		id = 1001
+	}
+	selectable_character = {
+		id = 401
+	}
+	selectable_character = {
+		id = 601
+	}
+	selectable_character = {
+		id = 2
+	}
+	selectable_character = {
+		id = 30001
+	}
+}
+bm_demise_of_the_argeads = {
+	name = "BM_FATE_OF_ENGLAND"
+	desc = "BM_DEMISE_OF_THE_ARGEADS_DESC"
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+	date = 467.1.1
+	
+	selectable_character = {
+		id = 1001
+	}
+	selectable_character = {
+		id = 401
+	}
+	selectable_character = {
+		id = 601
+	}
+	selectable_character = {
+		id = 2
+	}
+	selectable_character = {
+		id = 30001
+	}
+	
+}
+bm_fall_of_antigonos = {
+	name = "BM_RISE_OF_THE_HANSA"
+	desc = "BM_FALL_OF_ANTIGONOS_DESC"
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_4
+	date = 475.1.1
+
+	
+	selectable_character = {
+		id = 1001
+	}
+	selectable_character = {
+		id = 402
+	}
+	selectable_character = {
+		id = 601
+	}
+	selectable_character = {
+		id = 2
+	}
+	selectable_character = {
+		id = 30001
+	}
+}
+bm_end_of_the_diadochi_wars = {
+	name = "BM_100_YEARS_WAR"
+	desc = "BM_END_OF_THE_DIADOCHI_WARS_DESC"
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_5
+	date = 495.8.1
+
+	
+	selectable_character = {
+		id = 604
+	}
+	selectable_character = {
+		id = 602
+	}
+	selectable_character = {
+		id = 1002
+	}
+	selectable_character = {
+		id = 408
+	}
+}

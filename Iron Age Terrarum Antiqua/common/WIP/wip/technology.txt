@@ -1,0 +1,466 @@
+TECH_GROUP_MILITARY = {
+	TECH_LIGHT_INFANTRY = {
+		modifier = {
+			ARCHERS_OFFENSIVE = 0.6	
+			LIGHT_INFANTRY_OFFENSIVE = 0.6
+			LIGHT_INFANTRY_DEFENSIVE = 0.6
+			ARCHERS_DEFENSIVE = 0.6
+		}	
+	}
+	TECH_HEAVY_INFANTRY = {
+		modifier = {
+			PIKEMEN_OFFENSIVE = 0.6
+			HEAVY_INFANTRY_OFFENSIVE = 0.6
+			HEAVY_INFANTRY_DEFENSIVE = 0.6
+			PIKEMEN_DEFENSIVE = 0.6
+		}		
+	}
+	TECH_CAVALRY = {
+		modifier = {
+			LIGHT_CAVALRY_OFFENSIVE  = 0.6
+			KNIGHTS_OFFENSIVE = 0.6
+			HORSE_ARCHERS_OFFENSIVE = 0.6
+			CAMEL_CAVALRY_OFFENSIVE = 0.6
+			LIGHT_CAVALRY_DEFENSIVE = 0.6
+			WAR_ELEPHANTS_OFFENSIVE = 0.6
+			KNIGHTS_DEFENSIVE = 0.6
+			HORSE_ARCHERS_DEFENSIVE = 0.6
+			CAMEL_CAVALRY_DEFENSIVE = 0.6
+			WAR_ELEPHANTS_DEFENSIVE = 0.6
+		}
+	}
+	TECH_SIEGE_EQUIPMENT = {
+		modifier = {
+			SIEGE_SPEED = 1.0
+			SIEGE_DEFENCE = 1.0
+		}
+	}
+	TECH_NAVAL = {
+		modifier = {
+			GALLEYS_PERC = 0.8
+		}
+		1 = {
+		}
+		2 = {
+			add_building = ca_port_2
+			add_building = ct_port_2
+			add_building = tp_port_2
+		}
+		3 = {
+			add_building = ca_port_3
+			add_building = ct_port_3
+			add_building = tp_port_3
+		}
+		4 = {
+			add_building = ca_port_4
+			add_building = ct_port_4
+			add_building = tp_port_4
+		}
+		5 = {
+			add_building = ca_port_5
+			add_building = ct_port_5
+			add_building = tp_port_5
+		}
+	}
+	TECH_RECRUITMENT = {
+		modifier = {
+			GLOBAL_SUPPLY_LIMIT = 1.0
+			LAND_MORALE = 0.5
+		}
+	}
+}
+
+TECH_GROUP_ECONOMY = {
+	TECH_CASTLE_CONSTRUCTION = { #castle buildings
+		modifier = {
+			CASTLE_TAX_MODIFIER = 0.5
+		}
+		1 = {			
+			add_building = tb_hillfort_3
+			add_building = tb_hillfort_4
+		}
+		2 = {
+			add_building = ca_stan_levy_2
+			add_building = ca_garrison_1
+			add_building = ca_town_1
+			add_building = ca_train_1
+			add_building = ca_stable_1
+			add_building = ca_thrac_levy_2
+			add_building = ca_anat_levy_2
+			add_building = ca_illyr_levy_2
+			add_building = ca_celt_levy_2
+			add_building = ca_punic_levy_2
+			add_building = ca_near_levy_2
+			add_building = ca_arab_levy_2
+			add_building = ca_afric_levy_2
+			add_building = ca_iran_levy_2
+			add_building = ca_steppe_levy_2
+			add_building = ca_india_levy_2
+			add_building = ca_greek_levy_2
+			add_building = ca_italy_levy_2
+			add_building = ca_tyrh_levy_2
+			add_building = ca_grepe_levy_2
+		}
+		3 = {
+			add_building = ca_stan_levy_3
+			add_building = ca_garrison_2
+			add_building = ca_town_2
+			add_building = ca_train_2
+			add_building = ca_stable_2
+			add_building = ca_thrac_levy_3
+			add_building = ca_anat_levy_3
+			add_building = ca_illyr_levy_3
+			add_building = ca_celt_levy_3
+			add_building = ca_punic_levy_3
+			add_building = ca_near_levy_3
+			add_building = ca_arab_levy_3
+			add_building = ca_afric_levy_3
+			add_building = ca_iran_levy_3
+			add_building = ca_steppe_levy_3
+			add_building = ca_india_levy_3
+			add_building = ca_greek_levy_3
+			add_building = ca_italy_levy_3
+			add_building = ca_tyrh_levy_3
+			add_building = ca_grepe_levy_3
+		}
+		4 = {
+			add_building = ca_thrac_levy_4
+			add_building = ca_anat_levy_4
+			add_building = ca_illyr_levy_4
+			add_building = ca_celt_levy_4
+			add_building = ca_punic_levy_4
+			add_building = ca_near_levy_4
+			add_building = ca_arab_levy_4
+			add_building = ca_afric_levy_4
+			add_building = ca_iran_levy_4
+			add_building = ca_steppe_levy_4
+			add_building = ca_india_levy_4
+			add_building = ca_greek_levy_4
+			add_building = ca_italy_levy_4
+			add_building = ca_tyrh_levy_4
+			add_building = ca_grepe_levy_4
+		}
+		5 = {
+			add_building = ca_thrac_levy_5
+			add_building = ca_anat_levy_5
+			add_building = ca_illyr_levy_5
+			add_building = ca_celt_levy_5
+			add_building = ca_punic_levy_5
+			add_building = ca_near_levy_5
+			add_building = ca_arab_levy_5
+			add_building = ca_afric_levy_5
+			add_building = ca_iran_levy_5
+			add_building = ca_steppe_levy_5
+			add_building = ca_india_levy_5
+			add_building = ca_greek_levy_5
+			add_building = ca_italy_levy_5
+			add_building = ca_tyrh_levy_5
+			add_building = ca_grepe_levy_5
+		}
+		6 = {
+			add_building = ca_stan_levy_4
+			add_building = ca_garrison_3
+			add_building = ca_town_3
+			add_building = ca_train_3
+			add_building = ca_stable_3
+		}
+		7 = {
+			add_building = ca_stan_levy_5
+			add_building = ca_garrison_4
+			add_building = ca_town_4
+			add_building = ca_train_4
+			add_building = ca_stable_4
+		}
+		8 = {
+			add_building = ca_garrison_5
+			add_building = ca_town_5
+			add_building = ca_train_5
+			add_building = ca_stable_5
+		}
+	}
+	TECH_CITY_CONSTRUCTION = { #city buildings
+		modifier = {
+			CITY_TAX_MODIFIER = 0.5
+		}
+		1 = {
+		}
+		2 = {
+			add_building = ct_stan_levy_2
+			add_building = ct_town_2
+			add_building = ct_guard_1
+			add_building = ct_market_2
+			add_building = ct_stable_1
+			add_building = ct_thrac_levy_2
+			add_building = ct_anat_levy_2
+			add_building = ct_illyr_levy_2
+			add_building = ct_celt_levy_2
+			add_building = ct_punic_levy_2
+			add_building = ct_near_levy_2
+			add_building = ct_arab_levy_2
+			add_building = ct_afric_levy_2
+			add_building = ct_iran_levy_2
+			add_building = ct_steppe_levy_2
+			add_building = ct_india_levy_2
+			add_building = ct_greek_levy_2
+			add_building = ct_italy_levy_2
+			add_building = ct_tyrh_levy_2
+			add_building = ct_grepe_levy_2
+		}
+		3 = {
+			add_building = ct_stan_levy_3
+			add_building = ct_town_3
+			add_building = ct_guard_2
+			add_building = ct_market_3
+			add_building = ct_stable_2
+			add_building = ct_thrac_levy_3
+			add_building = ct_anat_levy_3
+			add_building = ct_illyr_levy_3
+			add_building = ct_celt_levy_3
+			add_building = ct_punic_levy_3
+			add_building = ct_near_levy_3
+			add_building = ct_arab_levy_3
+			add_building = ct_afric_levy_3
+			add_building = ct_iran_levy_3
+			add_building = ct_steppe_levy_3
+			add_building = ct_india_levy_3
+			add_building = ct_greek_levy_3
+			add_building = ct_italy_levy_3
+			add_building = ct_tyrh_levy_3
+			add_building = ct_grepe_levy_3
+		}
+		4 = {
+			add_building = ct_thrac_levy_4
+			add_building = ct_anat_levy_4
+			add_building = ct_illyr_levy_4
+			add_building = ct_celt_levy_4
+			add_building = ct_punic_levy_4
+			add_building = ct_near_levy_4
+			add_building = ct_arab_levy_4
+			add_building = ct_afric_levy_4
+			add_building = ct_iran_levy_4
+			add_building = ct_steppe_levy_4
+			add_building = ct_india_levy_4
+			add_building = ct_greek_levy_4
+			add_building = ct_italy_levy_4
+			add_building = ct_tyrh_levy_4
+			add_building = ct_grepe_levy_4
+		}
+		5 = {
+			add_building = ct_stan_levy_4
+			add_building = ct_town_4
+			add_building = ct_guard_3
+			add_building = ct_market_4
+			add_building = ct_stable_3
+			add_building = ct_thrac_levy_5
+			add_building = ct_anat_levy_5
+			add_building = ct_illyr_levy_5
+			add_building = ct_celt_levy_5
+			add_building = ct_punic_levy_5
+			add_building = ct_near_levy_5
+			add_building = ct_arab_levy_5
+			add_building = ct_afric_levy_5
+			add_building = ct_iran_levy_5
+			add_building = ct_steppe_levy_5
+			add_building = ct_india_levy_5
+			add_building = ct_greek_levy_5
+			add_building = ct_italy_levy_5
+			add_building = ct_tyrh_levy_5
+			add_building = ct_grepe_levy_5
+		}
+		6 = {
+			add_building = ct_stan_levy_5
+			add_building = ct_town_5
+			add_building = ct_guard_4
+			add_building = ct_market_5
+			add_building = ct_stable_4
+		}
+		7 = {
+		}
+		8 = {
+			add_building = ct_guard_5
+			add_building = ct_stable_5
+		}
+	}
+	TECH_TEMPLE_CONSTRUCTION = { #temple buildings
+		modifier = {
+			TEMPLE_TAX_MODIFIER = 0.5
+		}
+		1 = {
+		}
+		2 = { 
+			add_building = tp_commune_2
+			add_building = tp_shrine_2
+			add_building = tp_shrine_rev_1
+		}
+		3 = {
+			add_building = tp_commune_3
+			add_building = tp_shrine_3
+			add_building = tp_shrine_rev_2
+		}
+		4 = {
+		}
+		5 = {
+			add_building = tp_commune_4
+			add_building = tp_shrine_4
+			add_building = tp_shrine_rev_3
+		}
+		6 = {
+			add_building = tp_commune_5
+			add_building = tp_shrine_5
+			add_building = tp_shrine_rev_4
+		}
+		7 = {
+		}
+		8 = {
+			add_building = tp_shrine_rev_5
+		}
+	}
+	TECH_FORTIFICATIONS_CONSTRUCTION = { # walls and levy buildings
+		modifier = {
+		}
+		1 = {
+		}
+		2 = {
+			add_building = ca_wall_2
+			add_building = ca_fort_1
+			add_building = ct_wall_2
+			add_building = ct_fort_1
+		}
+		3 = {
+			add_building = ca_wall_3
+			add_building = ca_fort_2
+			add_building = ct_wall_3
+			add_building = ct_fort_2
+		}
+		4 = {
+			add_building = ca_wall_4
+			add_building = ca_fort_3
+			add_building = ct_wall_4
+			add_building = ct_fort_3
+		}
+		5 = {
+			add_building = ca_wall_5
+			add_building = ca_fort_4
+			add_building = ct_wall_5
+			add_building = ct_fort_4
+		}
+		6 = {
+			add_building = ca_fort_5
+			add_building = ct_fort_5
+		}
+	}
+	TECH_TRADE_PRACTICES = {
+		modifier = {
+			TRADEVALUE_MULT = 0.6
+		}
+	}
+	TECH_CONSTRUCTION = { #improved construction of all buildings
+		modifier = {
+			LOCAL_BUILD_TIME_MODIFIER = -0.25
+			LOCAL_BUILD_COST_MODIFIER = -0.25
+		}
+		1 = {
+		}
+		2 = {
+			add_building = ca_farm_1
+			add_building = ca_road_1
+			add_building = ct_road_1
+			add_building = tp_farm_1
+			add_building = tp_road_1
+		}
+		3 = {
+			add_building = ca_farm_2
+			add_building = ca_road_2
+			add_building = ct_road_2
+			add_building = tp_farm_2
+			add_building = tp_road_2
+		}
+		4 = {
+			add_building = ca_farm_3
+			add_building = ca_road_3
+			add_building = ct_road_3
+			add_building = tp_farm_3
+			add_building = tp_road_3
+		}
+		5 = {
+			add_building = ca_farm_4
+			add_building = ca_road_4
+			add_building = ct_road_4
+			add_building = tp_farm_4
+			add_building = tp_road_4
+		}
+		6 = {
+			add_building = ca_farm_5
+			add_building = ca_road_5
+			add_building = ct_road_5
+			add_building = tp_farm_5
+			add_building = tp_road_5
+		}
+	}
+}
+
+TECH_GROUP_CULTURE = {
+	TECH_NOBLE_CUSTOMS = {
+		modifier = {
+			CASTLE_OPINION = 16
+		}
+	}
+	TECH_POPULAR_CUSTOMS = {
+		modifier = {
+			TOWN_OPINION = 16
+		}
+	}
+	TECH_RELIGIOUS_CUSTOMS = {
+		modifier = {
+			CHURCH_OPINION = 16
+		}
+	}
+	TECH_MAJESTY = {
+		modifier = {
+			SHORT_REIGN_LENGTH = -5
+			ADD_PRESTIGE_MODIFIER = 0.5
+			ADD_PIETY_MODIFIER = 0.5
+		}
+	}
+	TECH_CULTURE_FLEX = {
+		modifier = {
+			CULTURE_FLEX = -0.5
+			RELIGION_FLEX = -0.5
+		}
+	}
+	TECH_LEGALISM = {
+		modifier = {
+		}
+		1 = {
+		}
+		2 = {
+			add_building = ca_admin_1
+			add_building = ct_admin_1
+			add_building = tp_admin_1
+		}
+		3 = {
+			add_building = ca_admin_2
+			add_building = ct_admin_2
+			add_building = tp_admin_2
+		}
+		4 = {
+		}
+		5 = {
+			add_building = ca_admin_3
+			add_building = ct_admin_3
+			add_building = tp_admin_3
+		}
+		6 = {
+			add_building = ca_admin_4
+			add_building = ct_admin_4
+			add_building = tp_admin_4
+		}
+		7 = {
+		}
+		8 = {
+			add_building = ca_admin_5
+			add_building = ct_admin_5
+			add_building = tp_admin_5
+		}
+	}
+}

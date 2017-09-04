@@ -1,0 +1,18 @@
+dkzoroastrian.1;Sedreh Pushi ritual;;;;;;;;;;;;;x
+dkzoroastrian.1.desc;Today I partake in Sedreh Pushi, an ancient initiation ritual. Form this day on I will be a proud member of the Zoroastrian flock;;;;;;;;;;;;;x
+dkzoroastrian.11.name;Ask my father for advice;;;;;;;;;;;;;x
+dkzoroastrian.2;Sedreh Pushi ritual;;;;;;;;;;;;;x
+dkzoroastrian.2.desc;Today your child partakes in a Sedreh Pushi, an initiation ceremony. [From.GetSheHe] will don a shirt (sudreh), girdle (kusti) and a covering for the head and begin a new life as a member of the Zoroastrian flock. You can use this opportunity to teach [From.GetHerHim] something about your faith.;;;;;;;;;;;;;x
+dkzoroastrian.21.name;Talk to [From.GetHerHim] about Asha, righteousness;;;;;;;;;;;;;x
+dkzoroastrian.22.name;Talk to [From.GetHerHim] about Khshatr, divine power;;;;;;;;;;;;;x
+dkzoroastrian.23.name;Talk to [From.GetHerHim] about Armaiti, devotion;;;;;;;;;;;;;x
+dkzoroastrian.24.name;Talk to [From.GetHerHim] about Vohu Manah, holy spirit;;;;;;;;;;;;;x
+dkzoroastrian.25.name;I have nothing to teach [From.GetHerHim];;;;;;;;;;;;;x
+undergo_cleansing_ritual;Undergo Cleansing ritual (Bareshnum);;;;;;;;;;;;;x
+undergo_cleansing_ritual_desc;Pure body leads to pure heart which leads to pure spirit.;;;;;;;;;;;;;x
+make_sacrifice_mithra;Make a large sacrifice to Mithra;;;;;;;;;;;;;x
+make_sacrifice_parendi;Make a large sacrifice to Parendi;;;;;;;;;;;;;x
+make_sacrifice_chisti;Make a large sacrifice to Chisti;;;;;;;;;;;;;x
+make_sacrifice_mithra_desc;Mithra is a divinity associated with war.;;;;;;;;;;;;;x
+make_sacrifice_parendi_desc;Parendi is a divinity associated with riches.;;;;;;;;;;;;;x
+make_sacrifice_chisti_desc;Chisti is a divinity associated with wisdom.;;;;;;;;;;;;;x

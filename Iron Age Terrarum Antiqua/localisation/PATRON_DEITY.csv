@@ -1,0 +1,118 @@
+patrons_zoroastrian_main;Adopt A Zoroastrian Patron Deity;;;;;;;;;;;;x
+patrons_zoroastrian_main_desc;Adopt a deity from the Zoroastrian faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.1.desc;Choose a patron deity to adopt from the Zoroastrian faith:;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.1.a;Ahura Mazda;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.1.b;Mithra;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.1.c;Armaiti;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.2.desc;Choose a patron deity to adopt from the Zoroastrian faith:;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.2.a;Anahita;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.2.b;Sraosha;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.2.c;Airyaman;;;;;;;;;;;;x
+PATRONS_ZOROASTRIAN_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_greek_main;Adopt An Olympian Patron Deity;;;;;;;;;;;;x
+patrons_greek_main_desc;Adopt a deity from the Olympian faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.1.desc;Choose a patron deity to adopt from the Olympian faith:;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.1.a;Zeus;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.1.b;Hera;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.1.c;Demeter;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.2.desc;Choose a patron deity to adopt from the Olympian faith:;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.2.a;Athena;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.2.b;Ares;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.2.c;Apollon;;;;;;;;;;;;x
+PATRONS_GREEK_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_buddhism_main;Adopt A Patron Buddha;;;;;;;;;;;;x
+patrons_buddhism_main_desc;Adopt a Buddha from the Buddhist faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_BUDDHISM_MAIN.1.desc;Choose a patron Buddha to adopt from the Buddhist faith:;;;;;;;;;;;;x
+PATRONS_BUDDHISM_MAIN.1.a;The Kakusandha Buddha;;;;;;;;;;;;x
+PATRONS_BUDDHISM_MAIN.1.b;The Konagamana Buddha;;;;;;;;;;;;x
+PATRONS_BUDDHISM_MAIN.1.c;The Kassapa Buddha;;;;;;;;;;;;x
+PATRONS_BUDDHISM_MAIN.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_BUDDHISM_MAIN.2.desc;Choose a patron Buddha to adopt from the Buddhist faith:;;;;;;;;;;;;x
+PATRONS_BUDDHISM_MAIN.2.a;The Shakyamuni Buddha;;;;;;;;;;;;x
+PATRONS_BUDDHISM_MAIN.2.b;The Maitreya Buddha;;;;;;;;;;;;x
+PATRONS_BUDDHISM_MAIN.2.c;On second thoughts...;;;;;;;;;;;;x
+patrons_hinduism_main;Adopt A Hindu Patron Deity;;;;;;;;;;;;x
+patrons_hinduism_main_desc;Adopt a deity from the Hindu faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.1.desc;Choose a patron deity to adopt from the Hindu faith:;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.1.a;Indra;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.1.b;Agni;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.1.c;Varuna;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.2.desc;Choose a patron deity to adopt from the Hindu faith:;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.2.a;Mitra;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.2.b;Shiva;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.2.c;Vishnu;;;;;;;;;;;;x
+PATRONS_HINDUISM_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_scythian_main;Adopt A Scythian Patron Deity;;;;;;;;;;;;x
+patrons_scythian_main_desc;Adopt a deity from the Scythian faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.1.desc;Choose a patron deity to adopt from the Scythian faith:;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.1.a;Papaios;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.1.b;Tabiti;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.1.c;Agin;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.2.desc;Choose a patron deity to adopt from the Scythian faith:;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.2.a;Oitosyros;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.2.b;Api;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.2.c;Thagimasidas;;;;;;;;;;;;x
+PATRONS_SCYTHIAN_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_armenian_main;Adopt An Armenian Patron Deity;;;;;;;;;;;;x
+patrons_armenian_main_desc;Adopt a deity from the Armenian faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.1.desc;Choose a patron deity to adopt from the Armenian faith:;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.1.a;Aramazd;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.1.b;Anahit;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.1.c;Vahagn;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.2.desc;Choose a patron deity to adopt from the Armenian faith:;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.2.a;Astghik;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.2.b;Nane;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.2.c;Mihr;;;;;;;;;;;;x
+PATRONS_ARMENIAN_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_pontic_main;Adopt A Greco-Persian Patron Deity;;;;;;;;;;;;x
+patrons_pontic_main_desc;Adopt a deity from the Greco-Persian faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_PONTIC_MAIN.1.desc;Choose a patron deity to adopt from the Greco-Persian faith:;;;;;;;;;;;;x
+PATRONS_PONTIC_MAIN.1.a;Zeus Stratios;;;;;;;;;;;;x
+PATRONS_PONTIC_MAIN.1.b;Men Pharnacou;;;;;;;;;;;;x
+PATRONS_PONTIC_MAIN.1.c;Cybele;;;;;;;;;;;;x
+PATRONS_PONTIC_MAIN.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_PONTIC_MAIN.2.desc;Choose a patron deity to adopt from the Greco-Persian faith:;;;;;;;;;;;;x
+PATRONS_PONTIC_MAIN.2.a;Apollo;;;;;;;;;;;;x
+PATRONS_PONTIC_MAIN.2.b;Mithras;;;;;;;;;;;;x
+PATRONS_PONTIC_MAIN.2.c;On second thoughts...;;;;;;;;;;;;x
+patrons_marduk_cult;Adopt A Mesopotamian Patron Deity;;;;;;;;;;;;x
+patrons_marduk_cult_desc;Adopt a deity from the Mesopotamian faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.1.desc;Choose a patron deity to adopt from the Mesopotamian faith:;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.1.a;Marduk;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.1.b;Ashur;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.1.c;Nabu;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.2.desc;Choose a patron deity to adopt from the Mesopotamian faith:;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.2.a;Ishtar;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.2.b;Anu;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.2.c;Nergal;;;;;;;;;;;;x
+PATRONS_MARDUK_CULT.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_roman_main;Adopt A Greco-Italic Patron Deity;;;;;;;;;;;;x
+patrons_roman_main_desc;Adopt a deity from the Greco-Italic faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.1.desc;Choose a patron deity to adopt from the Greco-Italic faith:;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.1.a;Jupiter;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.1.b;Juno;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.1.c;Ceres;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.2.desc;Choose a patron deity to adopt from the Greco-Italic faith:;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.2.a;Minerva;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.2.b;Mars;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.2.c;Apollo;;;;;;;;;;;;x
+PATRONS_ROMAN_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_etruscan_main;Adopt An Etruscan Patron Deity;;;;;;;;;;;;x
+patrons_etruscan_main_desc;Adopt a deity from the Etruscan faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.1.desc;Choose a patron deity to adopt from the Etruscan faith:;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.1.a;Tinia;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.1.b;Uni;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.1.c;Menrva;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.2.desc;Choose a patron deity to adopt from the Etruscan faith:;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.2.a;Cel;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.2.b;Aritimi;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.2.c;Pacha;;;;;;;;;;;;x
+PATRONS_ETRUSCAN_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x

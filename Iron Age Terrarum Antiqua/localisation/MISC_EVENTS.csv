@@ -1,0 +1,33 @@
+war_won_effect.1.desc;I have won the war against my tyrannical liege! I am now in a position to make demands against him.;;;;;;;;;;;;x
+war_won_effect.11.name;It is time for a new king!;;;;;;;;;;;;x
+war_won_effect.12.name;I will start my own kingdom!;;;;;;;;;;;;x
+war_won_effect.13.name;The palace treasury will be mine!;;;;;;;;;;;;x
+war_won_effect.2.desc;My [GetFromRelation], [From.GetTitledName], has thoroughly beaten me in the war and in the ensuing chaos decided to put [From.GetHerHis] favorite candidate on my throne!;;;;;;;;;;;;x
+war_won_effect.21.name;[From.GetSheHe] will regret this!;;;;;;;;;;;;x
+war_won_effect.3.desc;My [GetFromRelation], [From.GetTitledName], has occupied my palace and forced me to let [From.GetHerHim] declare [From.GetHerHim]self independent!;;;;;;;;;;;;x
+war_won_effect.31.name;I will bring [From.GetHerHim] back into the fold!;;;;;;;;;;;;x
+war_won_effect.4.desc;My [GetFromRelation], [From.GetTitledName], has managed to break into the treasury and took a large part of it for [From.GetHerHim]self!;;;;;;;;;;;;x
+war_won_effect.41.name;[From.GetSheHe] will pay for this!;;;;;;;;;;;;x
+misc.0.desc;[Root.GetName] now has an allied culture.;;;;;;;;;;;;x
+misc.1.desc;[Root.GetName] now has a foreign culture.;;;;;;;;;;;;x
+misc.2.desc;[Root.GetName] now has our culture!;;;;;;;;;;;;x
+misc.3.desc;[Root.GetName] now has a moderate population.;;;;;;;;;;;;x
+misc.4.desc;[Root.GetName] now has a steppe population.;;;;;;;;;;;;x
+misc.5.desc;Good harvests as well as times of peace has had a good effect on the populace of [Root.GetName]. The population has steadily increased during the previous years and we are able to reap the benefits!;;;;;;;;;;;;x
+misc.5.name;Excellent!;;;;;;;;;;;;x
+misc.6.desc;Disease, war or other factors have made the populace of [Root.GetName] dwindle. The population has decreased to the point of where we get less soldiers and taxes from them.;;;;;;;;;;;;x
+misc.6.name;We need to do something!;;;;;;;;;;;;x
+misc.7.desc;[Root.GetName] now has a minimal population.;;;;;;;;;;;;x
+misc.8.desc;[Root.GetName] now has a low population.;;;;;;;;;;;;x
+misc.10.desc;[Root.GetName] now has a large population!;;;;;;;;;;;;x
+misc.11.desc;[Root.GetName] now has a huge population!;;;;;;;;;;;;x
+misc.12.desc;Welcome to Diadochi Kings! This mod is still a work in process, so if you see any historical inaccuracies, bugs or if you have any suggestions, please do tell us either on our Steam workshop page or in our ParadoxPlaza thread.\n\nHave fun playing our mod!;;;;;;;;;;;;x
+misc.121.name;Ok;;;;;;;;;;;;x
+DEATH_OF_A_DYNASTY;Death of a Dynasty;;;;;;;;;;;;x
+succession.3.desc;With the death of [From.GetTitledName], the [From.GetOnlyDynastyName] have died out in the male line. Before [From.GetHerHis] body became cold, [From.GetHerHis] vassals were already declaring themselves kings. [From.PrimaryTitle.GetBaseName] is now nothing more than a bunch of squabbling kingdoms.;;;;;;;;;;;;x
+succession.3.opta;Now is our time to become kings!;;;;;;;;;;;;x
+succession.4.desc;As I feel less and less alive by the minute, I remember that I am the last male member of my family. Whoever succeeds me will have a tough time legitimising their rule. My vassals will likely try to take the throne by force.;;;;;;;;;;;;x
+succession.4.opta;I wish you luck, [Root.Heir.GetTitledName]. You will need it.;;;;;;;;;;;;x
+ALL_VASSALS_GET_CLAIM;All vassals of [Root.GetTitledName] get a claim on [Root.PrimaryTitle.GetBaseName].;;;;;;;;;;;;x
+succession.5.desc;With the death of [From.GetTitledName], the [From.GetOnlyDynastyName] have died out in the male line. While [From.Heir.GetTitledName] may have become [From.PrimaryTitle.GetRulerTitle], [From.Heir.GetHerHis] legitimacy is dubious. The vassals will be sure to try to take the throne by force.;;;;;;;;;;;;x
+succession.5.opta;I will sit on the throne eventually...;;;;;;;;;;;;x

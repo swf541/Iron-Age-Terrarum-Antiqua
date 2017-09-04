@@ -1,0 +1,11 @@
+performed_ashvamedha = {
+	monthly_character_piety = 1.0
+	monthly_character_prestige = 1.0
+	icon = 2
+}
+expelled_missionary = {
+	icon = 2
+}
+refused_missionary_conversion = {
+	icon = 2
+}

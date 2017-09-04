@@ -1,0 +1,4 @@
+become_king_of_sicily;Declare Yourself the King of Sicily;;;;;;;;;;;;x
+become_king_of_sicily_desc;You have brought a significant part of the Sicily under your control. You can now declare yourself ruler of the entire island.;;;;;;;;;;;;x
+king_of_sicily_control_east_sicily;[Root.GetTitledName] must control all of eastern Sicily.\n;;;;;;;;;;;;x
+king_of_sicily_control_western_sicily;[Root.GetTitledName] must control all of western and central Sicily.\n;;;;;;;;;;;;x

@@ -1,0 +1,52 @@
+# Define mercenary types here now instead of in the static_composition.txt file
+# Also remember to tell the landed title to use this mercenary type instead.
+# Several titles can refer to the same type as well now.
+
+d_mamertines_composition = {
+	levy_size = 1
+	heavy_infantry = 200
+	pikemen = 100
+	light_cavalry = 50
+	light_infantry = 200
+}
+d_cretan_composition = {
+	levy_size = 1
+	archers = 500
+}
+d_greek_cav_composition = {
+	levy_size = 1
+	light_cavalry = 300
+	knights = 200
+}
+d_thracian_cav_composition = {
+	levy_size = 1
+	light_cavalry = 500
+}
+d_thracian_peltasts_composition = {
+	levy_size = 1
+	light_infantry = 400
+	heavy_infantry = 150
+}
+d_pontic_spearmen_composition = {
+	levy_size = 1
+	pikemen = 600
+}
+d_carian_warband_composition = {
+	levy_size = 1
+	light_infantry = 350
+	pikemen = 250
+}
+d_greek_skirmishers_composition = {
+	levy_size = 1
+	light_infantry = 550
+}
+d_greek_pikemen_composition = {
+	levy_size = 1
+	pikemen = 500
+}
+
+## Must exist or else dynamic mercenary band might fail for nomads!
+default_culture_band_composition = {
+	levy_size = 1
+	light_infantry = 100
+}

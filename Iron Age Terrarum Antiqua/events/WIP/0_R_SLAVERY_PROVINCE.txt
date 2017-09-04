@@ -1,0 +1,792 @@
+namespace = slavpop
+
+#Province maintainance events 0-999
+#Slaves captured after siege win 1000-1999
+#Slaves captured after major battle 2000-2999
+#Factors increasing slave revolts 3000-3999
+#Slave revolts 4000-4999
+
+# # # # # # # # # # # # # # # #
+# PROVINCE MAINTAINANCE EVENTS #
+# # # # # # # # # # # # # # # #
+
+# Kickoff
+province_event = {
+	id = slavpop.0
+	desc = slavpop.0.desc
+	picture = GFX_evt_child_reading # No actual picture needed
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					religion = zoroastrian_main
+					religion = zurvanism
+				}
+			}
+			set_variable = {
+				which = "slave_pop"
+				value = 0
+			}
+			add_province_modifier = {
+				name = slavery_population_small
+				duration = -1
+			}
+			break = yes
+		}
+		set_variable = {
+			which = "slave_pop"
+			value = 5000
+		}
+		# Randomizing as much as I can
+		if = {
+			limit = { num_of_settlements = 2 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 3 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 4 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 5 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 6 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 7 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+
+
+
+		random_province_character = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 0
+							NOT = { age = 1 }
+						}
+						AND = {
+							age = 10
+							NOT = { age = 11 }
+						}
+						AND = {
+							age = 20
+							NOT = { age = 21 }
+						}
+						AND = {
+							age = 30
+							NOT = { age = 31 }
+						}
+						AND = {
+							age = 40
+							NOT = { age = 41 }
+						}
+						AND = {
+							age = 50
+							NOT = { age = 51 }
+						}
+						AND = {
+							age = 60
+							NOT = { age = 61 }
+						}
+						AND = {
+							age = 70
+							NOT = { age = 71 }
+						}
+						AND = {
+							age = 80
+							NOT = { age = 81 }
+						}
+						AND = {
+							age = 90
+							NOT = { age = 91 }
+						}
+						AND = {
+							age = 100
+							NOT = { age = 101 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.001
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 1
+							NOT = { age = 2 }
+						}
+						AND = {
+							age = 11
+							NOT = { age = 12 }
+						}
+						AND = {
+							age = 21
+							NOT = { age = 22 }
+						}
+						AND = {
+							age = 31
+							NOT = { age = 32 }
+						}
+						AND = {
+							age = 41
+							NOT = { age = 42 }
+						}
+						AND = {
+							age = 51
+							NOT = { age = 52 }
+						}
+						AND = {
+							age = 61
+							NOT = { age = 62 }
+						}
+						AND = {
+							age = 71
+							NOT = { age = 72 }
+						}
+						AND = {
+							age = 81
+							NOT = { age = 82 }
+						}
+						AND = {
+							age = 91
+							NOT = { age = 92 }
+						}
+						AND = {
+							age = 101
+							NOT = { age = 102 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.011
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 2
+							NOT = { age = 3 }
+						}
+						AND = {
+							age = 12
+							NOT = { age = 13 }
+						}
+						AND = {
+							age = 22
+							NOT = { age = 23 }
+						}
+						AND = {
+							age = 32
+							NOT = { age = 33 }
+						}
+						AND = {
+							age = 42
+							NOT = { age = 43 }
+						}
+						AND = {
+							age = 52
+							NOT = { age = 53 }
+						}
+						AND = {
+							age = 62
+							NOT = { age = 63 }
+						}
+						AND = {
+							age = 72
+							NOT = { age = 73 }
+						}
+						AND = {
+							age = 82
+							NOT = { age = 83 }
+						}
+						AND = {
+							age = 92
+							NOT = { age = 93 }
+						}
+						AND = {
+							age = 102
+							NOT = { age = 103 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.022
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 3
+							NOT = { age = 4 }
+						}
+						AND = {
+							age = 13
+							NOT = { age = 14 }
+						}
+						AND = {
+							age = 23
+							NOT = { age = 24 }
+						}
+						AND = {
+							age = 33
+							NOT = { age = 34 }
+						}
+						AND = {
+							age = 43
+							NOT = { age = 44 }
+						}
+						AND = {
+							age = 53
+							NOT = { age = 54 }
+						}
+						AND = {
+							age = 63
+							NOT = { age = 64 }
+						}
+						AND = {
+							age = 73
+							NOT = { age = 74 }
+						}
+						AND = {
+							age = 83
+							NOT = { age = 84 }
+						}
+						AND = {
+							age = 93
+							NOT = { age = 94 }
+						}
+						AND = {
+							age = 103
+							NOT = { age = 104 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.033
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 4
+							NOT = { age = 5 }
+						}
+						AND = {
+							age = 14
+							NOT = { age = 15 }
+						}
+						AND = {
+							age = 24
+							NOT = { age = 25 }
+						}
+						AND = {
+							age = 34
+							NOT = { age = 35 }
+						}
+						AND = {
+							age = 44
+							NOT = { age = 45 }
+						}
+						AND = {
+							age = 54
+							NOT = { age = 55 }
+						}
+						AND = {
+							age = 64
+							NOT = { age = 65 }
+						}
+						AND = {
+							age = 74
+							NOT = { age = 75 }
+						}
+						AND = {
+							age = 84
+							NOT = { age = 85 }
+						}
+						AND = {
+							age = 94
+							NOT = { age = 95 }
+						}
+						AND = {
+							age = 104
+							NOT = { age = 105 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.044
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 5
+							NOT = { age = 6 }
+						}
+						AND = {
+							age = 15
+							NOT = { age = 16 }
+						}
+						AND = {
+							age = 25
+							NOT = { age = 26 }
+						}
+						AND = {
+							age = 35
+							NOT = { age = 36 }
+						}
+						AND = {
+							age = 45
+							NOT = { age = 46 }
+						}
+						AND = {
+							age = 55
+							NOT = { age = 56 }
+						}
+						AND = {
+							age = 65
+							NOT = { age = 66 }
+						}
+						AND = {
+							age = 75
+							NOT = { age = 76 }
+						}
+						AND = {
+							age = 85
+							NOT = { age = 86 }
+						}
+						AND = {
+							age = 95
+							NOT = { age = 96 }
+						}
+						AND = {
+							age = 105
+							NOT = { age = 106 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.055
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 6
+							NOT = { age = 7 }
+						}
+						AND = {
+							age = 16
+							NOT = { age = 17 }
+						}
+						AND = {
+							age = 26
+							NOT = { age = 27 }
+						}
+						AND = {
+							age = 36
+							NOT = { age = 37 }
+						}
+						AND = {
+							age = 46
+							NOT = { age = 47 }
+						}
+						AND = {
+							age = 56
+							NOT = { age = 57 }
+						}
+						AND = {
+							age = 66
+							NOT = { age = 67 }
+						}
+						AND = {
+							age = 76
+							NOT = { age = 77 }
+						}
+						AND = {
+							age = 86
+							NOT = { age = 87 }
+						}
+						AND = {
+							age = 96
+							NOT = { age = 97 }
+						}
+						AND = {
+							age = 106
+							NOT = { age = 107 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.066
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 7
+							NOT = { age = 8 }
+						}
+						AND = {
+							age = 17
+							NOT = { age = 18 }
+						}
+						AND = {
+							age = 27
+							NOT = { age = 28 }
+						}
+						AND = {
+							age = 37
+							NOT = { age = 38 }
+						}
+						AND = {
+							age = 47
+							NOT = { age = 48 }
+						}
+						AND = {
+							age = 57
+							NOT = { age = 58 }
+						}
+						AND = {
+							age = 67
+							NOT = { age = 68 }
+						}
+						AND = {
+							age = 77
+							NOT = { age = 78 }
+						}
+						AND = {
+							age = 87
+							NOT = { age = 88 }
+						}
+						AND = {
+							age = 97
+							NOT = { age = 98 }
+						}
+						AND = {
+							age = 107
+							NOT = { age = 108 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.077
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 8
+							NOT = { age = 9 }
+						}
+						AND = {
+							age = 18
+							NOT = { age = 19 }
+						}
+						AND = {
+							age = 28
+							NOT = { age = 29 }
+						}
+						AND = {
+							age = 38
+							NOT = { age = 39 }
+						}
+						AND = {
+							age = 48
+							NOT = { age = 49 }
+						}
+						AND = {
+							age = 58
+							NOT = { age = 59 }
+						}
+						AND = {
+							age = 68
+							NOT = { age = 69 }
+						}
+						AND = {
+							age = 78
+							NOT = { age = 79 }
+						}
+						AND = {
+							age = 88
+							NOT = { age = 89 }
+						}
+						AND = {
+							age = 98
+							NOT = { age = 99 }
+						}
+						AND = {
+							age = 108
+							NOT = { age = 109 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.088
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							age = 9
+							NOT = { age = 10 }
+						}
+						AND = {
+							age = 19
+							NOT = { age = 20 }
+						}
+						AND = {
+							age = 29
+							NOT = { age = 30 }
+						}
+						AND = {
+							age = 39
+							NOT = { age = 40 }
+						}
+						AND = {
+							age = 49
+							NOT = { age = 50 }
+						}
+						AND = {
+							age = 59
+							NOT = { age = 60 }
+						}
+						AND = {
+							age = 69
+							NOT = { age = 70 }
+						}
+						AND = {
+							age = 79
+							NOT = { age = 80 }
+						}
+						AND = {
+							age = 89
+							NOT = { age = 90 }
+						}
+						AND = {
+							age = 99
+							NOT = { age = 100 }
+						}
+						AND = {
+							age = 109
+							NOT = { age = 110 }
+						}
+					}
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.099
+					}
+				}
+			}
+		}
+
+
+
+		add_province_modifier = {
+			name = slavery_population_medium
+			duration = -1
+		}
+	}
+}
+
+##########################
+# POPULATION MAINTENANCE #
+##########################
+
+character_event = {
+	id = slavpop.10
+	desc = AI_desc
+	picture = GFX_evt_child_reading # Will not be seen
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		independent = yes
+	}
+
+	immediate = {
+		any_realm_province = {
+			province_event = { id = slavpop.11 }
+		}
+	}
+}
+
+province_event = {
+	id = slavpop.11
+	desc = AI_desc
+	picture = GFX_evt_child_reading # Will not be seen
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	option = {
+		name = AI_desc
+		random_list = {
+			25 = { # Population grows
+				multiply_variable = {
+					which = "slave_pop"
+					value = 1.03
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.03
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.03
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.01
+					}
+				}
+			}
+			50 = { # Population remains stable
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.01
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 0.99
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.01
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 0.99
+					}
+				}
+
+			}
+			25 = { # Population decreases
+				multiply_variable = {
+					which = "slave_pop"
+					value = 0.97
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 0.97
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 0.99
+					}
+				}
+			}
+		}
+		if = {
+			limit = { has_province_modifier = slavery_population_small }
+			remove_province_modifier = slavery_population_small
+			add_province_modifier = {
+				name = slavery_population_small
+				duration = -1
+			}
+		}
+		if = {
+			limit = { has_province_modifier = slavery_population_medium }
+			remove_province_modifier = slavery_population_medium
+			add_province_modifier = {
+				name = slavery_population_medium
+				duration = -1
+			}
+		}
+	}
+}

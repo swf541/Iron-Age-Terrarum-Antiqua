@@ -1,0 +1,417 @@
+obj_take_amphipolis_macedonia = {
+	type = character
+	
+	creation_effect = {
+		c_amphipolis = {
+			add_claim = ROOT
+		}
+	}
+	allow = {
+		primary_title = {
+			OR = {
+				title = k_macedon
+				title = e_macedonia
+				title = k_s_macedon
+			}
+		}
+		NOT = {
+			c_amphipolis = {
+				holder_scope = {
+					OR = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}
+						top_liege = {
+							primary_title = {
+								OR = {
+									title = k_macedon
+									title = e_macedonia
+									title = k_s_macedon
+								}
+							}	
+						}
+					}
+				}
+			}
+		}
+		independent = yes
+	}
+	chance = {
+		factor = 100
+	}
+	success = {
+		c_amphipolis = {
+			holder_scope = {
+				OR = {
+					primary_title = {
+						OR = {
+							title = k_macedon
+							title = e_macedonia
+							title = k_s_macedon
+						}
+					}
+					top_liege = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}	
+					}
+				}
+			}
+		}
+	}
+	abort = {
+	}
+	abort_effect = {
+		c_amphipolis = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		prestige = 50
+		wealth = 50
+	}
+}
+
+obj_take_ano_makedonia_macedonia = {
+	type = character
+	
+	creation_effect = {
+		# No claims since this can be achieved by Cultural Liberation CB
+	}
+	
+	allow = {
+		primary_title = {
+			OR = {
+				title = k_macedon
+				title = e_macedonia
+				title = k_s_macedon
+			}
+		}
+		not = {
+			c_pyli = {
+				holder_scope = {
+					OR = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}
+						top_liege = {
+							primary_title = {
+								OR = {
+									title = k_macedon
+									title = e_macedonia
+									title = k_s_macedon
+								}
+							}	
+						}
+					}
+				}
+			}
+			c_orestis = {
+				holder_scope = {
+					OR = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}
+						top_liege = {
+							primary_title = {
+								OR = {
+									title = k_macedon
+									title = e_macedonia
+									title = k_s_macedon
+								}
+							}	
+						}
+					}
+				}
+			}
+		}
+		independent = yes
+	}
+	chance = {
+		factor = 100
+	}
+	success = {
+		c_pyli = {
+			holder_scope = {
+				OR = {
+					primary_title = {
+						OR = {
+							title = k_macedon
+							title = e_macedonia
+							title = k_s_macedon
+						}
+					}
+					top_liege = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}	
+					}
+				}
+			}
+		}
+		c_orestis = {
+			holder_scope = {
+				OR = {
+					primary_title = {
+						OR = {
+							title = k_macedon
+							title = e_macedonia
+							title = k_s_macedon
+						}
+					}
+					top_liege = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}	
+					}
+				}
+			}
+		}
+	}
+	abort = {
+	}
+	abort_effect = {
+	}
+	effect = {
+		prestige = 50
+		wealth = 50
+	}
+}
+obj_subdue_paeonians_macedonia = {
+	type = character
+	
+	creation_effect = {
+		d_paeonia = {
+			add_claim = ROOT
+		}
+	}
+	
+	allow = {
+		primary_title = {
+			OR = {
+				title = k_macedon
+				title = e_macedonia
+				title = k_s_macedon
+			}
+		}
+		not = {
+			d_paeonia = {
+				holder_scope = {
+					OR = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}
+						top_liege = {
+							primary_title = {
+								OR = {
+									title = k_macedon
+									title = e_macedonia
+									title = k_s_macedon
+								}
+							}	
+						}
+					}
+				}
+			}
+		}
+		independent = yes
+	}
+	chance = {
+		factor = 100
+	}
+	success = {
+		d_paeonia = {
+			holder_scope = {
+				OR = {
+					primary_title = {
+						OR = {
+							title = k_macedon
+							title = e_macedonia
+							title = k_s_macedon
+						}
+					}
+					top_liege = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}	
+					}
+				}
+			}
+		}
+	}
+	abort = {
+	}
+	abort_effect = {
+		d_paeonia = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		prestige = 50
+		wealth = 50
+	}
+}
+obj_protect_thessaly_macedonia = {
+	type = character
+	
+	creation_effect = {
+		c_larissa = {
+			add_claim = ROOT
+		}
+		c_trikka = {
+			add_claim = ROOT
+		}
+	}
+	
+	allow = {
+		primary_title = {
+			OR = {
+				title = k_macedon
+				title = e_macedonia
+				title = k_s_macedon
+			}
+		}
+		not = {
+			c_larissa = {
+				holder_scope = {
+					OR = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}
+						top_liege = {
+							primary_title = {
+								OR = {
+									title = k_macedon
+									title = e_macedonia
+									title = k_s_macedon
+								}
+							}	
+						}
+					}
+				}
+			}
+			c_trikka = {
+				holder_scope = {
+					OR = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}
+						top_liege = {
+							primary_title = {
+								OR = {
+									title = k_macedon
+									title = e_macedonia
+									title = k_s_macedon
+								}
+							}	
+						}
+					}
+				}
+			}
+		}
+		independent = yes
+	}
+	chance = {
+		factor = 100
+	}
+	success = {
+		c_larissa = {
+			holder_scope = {
+				OR = {
+					primary_title = {
+						OR = {
+							title = k_macedon
+							title = e_macedonia
+							title = k_s_macedon
+						}
+					}
+					top_liege = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}	
+					}
+				}
+			}
+		}
+		c_trikka = {
+			holder_scope = {
+				OR = {
+					primary_title = {
+						OR = {
+							title = k_macedon
+							title = e_macedonia
+							title = k_s_macedon
+						}
+					}
+					top_liege = {
+						primary_title = {
+							OR = {
+								title = k_macedon
+								title = e_macedonia
+								title = k_s_macedon
+							}
+						}	
+					}
+				}
+			}
+		}
+	}
+	abort = {
+	}
+	abort_effect = {
+		c_larissa = {
+			remove_claim = ROOT
+		}
+		c_trikka = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		prestige = 50
+		wealth = 50
+	}
+}

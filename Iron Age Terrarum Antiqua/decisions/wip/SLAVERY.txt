@@ -1,0 +1,247 @@
+targetted_decisions = {
+	enslave = {
+		filter = court
+		ai_target_filter = court
+
+		from_potential = {						
+			is_ruler = yes
+			prisoner = no
+			age = 10
+			NOT = { # Zoroastrianism forbids slavery
+				OR = {
+					religion = zoroastrian_main
+					religion = zurvanism
+				}
+			}
+		}
+		potential = {
+			prisoner = yes
+			NOT = { trait = slave }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			hidden_tooltip = {
+				character_event = {
+					id = slavery.1
+				}
+				prisoner = no
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	free_slave = {
+		filter = court
+		ai_target_filter = court
+
+		from_potential = {
+			is_ruler = yes
+			prisoner = no
+			age = 10
+		}
+		potential = {
+			trait = slave
+			NOT = { has_character_flag = for_sale }
+		}
+		allow = {
+			always = yes
+		}
+		revoke_allowed = {
+			always = no
+		}
+		effect = {
+			hidden_tooltip = {
+				character_event = {
+					id = slavery.3
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					ROOT = {
+						NOT = { dynasty = FROM }
+					}
+					FROM = {
+						NOT = { # Zoroastrianism forbids slavery
+							OR = {
+								religion = zoroastrian_main
+								religion = zurvanism
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	sell_slave = {
+		filter = court
+		ai_target_filter = court
+
+		from_potential = {
+			is_ruler = yes
+			prisoner = no
+			is_adult = yes
+		}
+		potential = {
+			trait = slave			
+			NOT = { has_character_flag = for_sale }
+		}
+		allow = {
+			always = yes
+		}
+		revoke_allowed = {
+			always = no
+		}
+		effect = {
+			hidden_tooltip = {
+				ROOT = {
+					character_event = {
+						id = slavery.5
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					FROM = {
+						any_courtier = {
+							trait = slave
+							count = 5
+						}
+					}
+				}
+			}
+			modifier = { # Free him instead
+				factor = 0
+				OR = {
+					ROOT = {
+						NOT = { dynasty = FROM }
+					}
+					FROM = {
+						NOT = { # Zoroastrianism forbids slavery
+							OR = {
+								religion = zoroastrian_main
+								religion = zurvanism
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	undo_sell_slave = {
+		filter = court
+		ai_target_filter = court
+
+		from_potential = {
+			is_ruler = yes
+			prisoner = no
+			is_adult = yes
+		}
+		potential = {
+			trait = slave
+			has_character_flag = for_sale
+		}		
+		allow = {
+			always = yes
+		}
+		revoke_allowed = {
+			always = no
+		}
+		effect = {
+			hidden_tooltip = {
+				clr_character_flag = for_sale
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+			}
+			modifier = {
+				factor = 10
+				NOT = {
+					FROM = {
+						any_courtier = {
+							trait = slave
+							count = 5
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					ROOT = {
+						NOT = { dynasty = FROM }
+					}
+					FROM = {
+						NOT = { # Zoroastrianism forbids slavery
+							OR = {
+								religion = zoroastrian_main
+								religion = zurvanism
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	buy_slave = {
+		filter = all
+		ai_target_filter = realm
+
+		from_potential = {
+			is_ruler = yes
+			prisoner = no
+			is_adult = yes
+		}
+		potential = {
+			trait = slave
+			has_character_flag = for_sale
+			NOT = {
+				host = { character = FROM }
+			}
+		}
+		allow = {
+			FROM = {
+				wealth = 100
+			}
+		}
+		revoke_allowed = {
+			always = yes
+		}
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = slavery.7 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.01
+				FROM = {
+					any_courtier = {
+						trait = slave
+						count = 5
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+DUE_TO; due to ;;;;;;;;;;;;;x
+SLAVE_TITLE;[target_slave.GetFullName]:;;;;;;;;;;;;;x
+SLAVE_SEPERATOR;------------------------;;;;;;;;;;;;;x
+SLAVE_TOTAL;Total worth: ;;;;;;;;;;;;;x
+SLAVE_TOTAL_WORTH;§G[target_slave.worth.GetValue]§!¤;;;;;;;;;;;;;x
+SLAVE_NOT_WORTH_ANYTHING;§RNot worth anything§!;;;;;;;;;;;;;x
+###TRAITS;
+STRESSED;stressfullness;;;;;;;;;;;;;x
+DEPRESSED;depression;;;;;;;;;;;;;x
+LUNATIC;lunacy;;;;;;;;;;;;;x
+GENERAL_ILLNESS;general illness;;;;;;;;;;;;;x
+LEPER;lepracy;;;;;;;;;;;;;x
+WOUNDED;wounds;;;;;;;;;;;;;x
+MAIMED;maiming;;;;;;;;;;;;;x
+INFIRM_OR_INCAPABLE;infirmness or incapability;;;;;;;;;;;;;x
+SMALL_CONGENITAL_DEFECT;a small congenital defect;;;;;;;;;;;;;x
+DWARF;dwarfism;;;;;;;;;;;;;x
+SLOW;being a dumbdumb;;;;;;;;;;;;;x
+IMBECILE;being a dimwit!;;;;;;;;;;;;;x
+INBRED;inbreeding;;;;;;;;;;;;;x
+WEAK;weakness;;;;;;;;;;;;;x
+SLOTHFUL;sloth;;;;;;;;;;;;;x
+ENVIOUS;envy;;;;;;;;;;;;;x
+DECEITFUL;deceit;;;;;;;;;;;;;x
+AMBITIOUS;ambition;;;;;;;;;;;;;x
+CONTENT;loyalty;;;;;;;;;;;;;x
+HONEST;honesty;;;;;;;;;;;;;x
+PATIENT;patience;;;;;;;;;;;;;x
+GENIUS;brilliance;;;;;;;;;;;;;x
+QUICK;wit;;;;;;;;;;;;;x
+STRONG;strength;;;;;;;;;;;;;x
+DILIGENT;diligence;;;;;;;;;;;;;x
+###AGE;
+VERY_YOUNG_AGE;being very young;;;;;;;;;;;;;x
+YOUNG_AGE;being young;;;;;;;;;;;;;x
+PRIME_AGE;being in [target_slave.GetHerHis] prime;;;;;;;;;;;;;x
+OLD_AGE;being old;;;;;;;;;;;;;x
+VERY_OLD_AGE;being very old;;;;;;;;;;;;;x
+###AMOUNTS;
+AMOUNT_5_POS;§G5§!¤;;;;;;;;;;;;;x
+AMOUNT_10_POS;§G10§!¤;;;;;;;;;;;;;x
+AMOUNT_15_POS;§G15§!¤;;;;;;;;;;;;;x
+AMOUNT_20_POS;§G20§!¤;;;;;;;;;;;;;x
+AMOUNT_25_POS;§G25§!¤;;;;;;;;;;;;;x
+AMOUNT_30_POS;§G30§!¤;;;;;;;;;;;;;x
+AMOUNT_40_POS;§G40§!¤;;;;;;;;;;;;;x
+AMOUNT_50_POS;§G50§!¤;;;;;;;;;;;;;x
+AMOUNT_100_POS;§G100§!¤;;;;;;;;;;;;;x
+AMOUNT_5_NEG;§R-5§!¤;;;;;;;;;;;;;x
+AMOUNT_10_NEG;§R-10§!¤;;;;;;;;;;;;;x
+AMOUNT_15_NEG;§R-15§!¤;;;;;;;;;;;;;x
+AMOUNT_20_NEG;§R-20§!¤;;;;;;;;;;;;;x
+AMOUNT_25_NEG;§R-25§!¤;;;;;;;;;;;;;x
+AMOUNT_30_NEG;§R-30§!¤;;;;;;;;;;;;;x
+AMOUNT_40_NEG;§R-40§!¤;;;;;;;;;;;;;x
+AMOUNT_50_NEG;§R-50§!¤;;;;;;;;;;;;;x
+AMOUNT_100_NEG;§R-100§!¤;;;;;;;;;;;;;x

@@ -1,0 +1,623 @@
+namespace = PATRONS_ZOROASTRIAN_MAIN
+namespace = PATRONS_GREEK_MAIN
+namespace = PATRONS_BUDDHISM_MAIN
+namespace = PATRONS_HINDUISM_MAIN
+namespace = PATRONS_SCYTHIAN_MAIN
+namespace = PATRONS_ARMENIAN_MAIN
+namespace = PATRONS_PONTIC_MAIN
+namespace = PATRONS_MARDUK_CULT
+namespace = PATRONS_ROMAN_MAIN
+namespace = PATRONS_ETRUSCAN_MAIN
+
+# Zoroastrian
+character_event = {
+	id = PATRONS_ZOROASTRIAN_MAIN.1
+	desc = PATRONS_ZOROASTRIAN_MAIN.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ZOROASTRIAN_MAIN.1.a
+		add_trait = patron_ahura_mazda
+	}
+	
+	option = {
+		name = PATRONS_ZOROASTRIAN_MAIN.1.b
+		add_trait = patron_mithra
+		ai_chance = {
+			factor = 1
+			modifier = { 
+				factor = 2
+				or = {
+					culture = bactrian
+					culture = parthian
+					culture = sogdian
+					culture = arian
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = PATRONS_ZOROASTRIAN_MAIN.1.c
+		add_trait = patron_armaiti
+	}
+	
+	option = {
+		name = PATRONS_ZOROASTRIAN_MAIN.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ZOROASTRIAN_MAIN.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_ZOROASTRIAN_MAIN.2
+	desc = PATRONS_ZOROASTRIAN_MAIN.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ZOROASTRIAN_MAIN.2.a
+		add_trait = patron_anahita
+	}
+	
+	option = {
+		name = PATRONS_ZOROASTRIAN_MAIN.2.b
+		add_trait = patron_sraosha
+	}
+	
+	option = {
+		name = PATRONS_ZOROASTRIAN_MAIN.2.c
+		add_trait = patron_airyaman
+	}
+	
+	option = {
+		name = PATRONS_ZOROASTRIAN_MAIN.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_ZOROASTRIAN_MAIN.1 } }
+	}
+}
+
+# Olympian
+character_event = {
+	id = PATRONS_GREEK_MAIN.1
+	desc = PATRONS_GREEK_MAIN.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_GREEK_MAIN.1.a
+		add_trait = patron_zeus
+	}
+	
+	option = {
+		name = PATRONS_GREEK_MAIN.1.b
+		add_trait = patron_hera
+	}
+	
+	option = {
+		name = PATRONS_GREEK_MAIN.1.c
+		add_trait = patron_demeter
+	}
+	
+	option = {
+		name = PATRONS_GREEK_MAIN.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_GREEK_MAIN.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_GREEK_MAIN.2
+	desc = PATRONS_GREEK_MAIN.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_GREEK_MAIN.2.a
+		add_trait = patron_athena
+	}
+	
+	option = {
+		name = PATRONS_GREEK_MAIN.2.b
+		add_trait = patron_ares
+	}
+	
+	option = {
+		name = PATRONS_GREEK_MAIN.2.c
+		add_trait = patron_apollo
+	}
+	
+	option = {
+		name = PATRONS_GREEK_MAIN.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_GREEK_MAIN.1 } }
+	}
+}
+
+# Buddhism
+character_event = {
+	id = PATRONS_BUDDHISM_MAIN.1
+	desc = PATRONS_BUDDHISM_MAIN.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_BUDDHISM_MAIN.1.a
+		add_trait = patron_kakusandha
+	}
+	
+	option = {
+		name = PATRONS_BUDDHISM_MAIN.1.b
+		add_trait = patron_konagamana
+	}
+	
+	option = {
+		name = PATRONS_BUDDHISM_MAIN.1.c
+		add_trait = patron_kassapa
+	}
+	
+	option = {
+		name = PATRONS_BUDDHISM_MAIN.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_BUDDHISM_MAIN.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_BUDDHISM_MAIN.2
+	desc = PATRONS_BUDDHISM_MAIN.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_BUDDHISM_MAIN.2.a
+		add_trait = patron_shakyamuni
+	}
+	
+	option = {
+		name = PATRONS_BUDDHISM_MAIN.2.b
+		add_trait = patron_maitreya
+	}
+	
+	option = {
+		name = PATRONS_BUDDHISM_MAIN.2.c
+		hidden_tooltip = { character_event = { id = PATRONS_BUDDHISM_MAIN.1 } }
+	}
+}
+
+# Hinduism
+character_event = {
+	id = PATRONS_HINDUISM_MAIN.1
+	desc = PATRONS_HINDUISM_MAIN.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_HINDUISM_MAIN.1.a
+		add_trait = patron_indra
+	}
+	
+	option = {
+		name = PATRONS_HINDUISM_MAIN.1.b
+		add_trait = patron_agni
+	}
+	
+	option = {
+		name = PATRONS_HINDUISM_MAIN.1.c
+		add_trait = patron_varuna
+	}
+	
+	option = {
+		name = PATRONS_HINDUISM_MAIN.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_HINDUISM_MAIN.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_HINDUISM_MAIN.2
+	desc = PATRONS_HINDUISM_MAIN.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_HINDUISM_MAIN.2.a
+		add_trait = patron_mitra
+	}
+	
+	option = {
+		name = PATRONS_HINDUISM_MAIN.2.b
+		add_trait = patron_shiva
+	}
+	
+	option = {
+		name = PATRONS_HINDUISM_MAIN.2.c
+		add_trait = patron_vishnu
+	}
+	
+	option = {
+		name = PATRONS_HINDUISM_MAIN.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_HINDUISM_MAIN.1 } }
+	}
+}
+
+# Scythian
+character_event = {
+	id = PATRONS_SCYTHIAN_MAIN.1
+	desc = PATRONS_SCYTHIAN_MAIN.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_SCYTHIAN_MAIN.1.a
+		add_trait = patron_papaios
+	}
+	
+	option = {
+		name = PATRONS_SCYTHIAN_MAIN.1.b
+		add_trait = patron_tabiti
+	}
+	
+	option = {
+		name = PATRONS_SCYTHIAN_MAIN.1.c
+		add_trait = patron_agin
+	}
+	
+	option = {
+		name = PATRONS_SCYTHIAN_MAIN.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_SCYTHIAN_MAIN.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_SCYTHIAN_MAIN.2
+	desc = PATRONS_SCYTHIAN_MAIN.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_SCYTHIAN_MAIN.2.a
+		add_trait = patron_oitosyros
+	}
+	
+	option = {
+		name = PATRONS_SCYTHIAN_MAIN.2.b
+		add_trait = patron_api
+	}
+	
+	option = {
+		name = PATRONS_SCYTHIAN_MAIN.2.c
+		add_trait = patron_thagimasidas
+	}
+	
+	option = {
+		name = PATRONS_SCYTHIAN_MAIN.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_SCYTHIAN_MAIN.1 } }
+	}
+}
+
+# Armenian
+character_event = {
+	id = PATRONS_ARMENIAN_MAIN.1
+	desc = PATRONS_ARMENIAN_MAIN.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ARMENIAN_MAIN.1.a
+		add_trait = patron_aramazd
+	}
+	
+	option = {
+		name = PATRONS_ARMENIAN_MAIN.1.b
+		add_trait = patron_anahit
+	}
+	
+	option = {
+		name = PATRONS_ARMENIAN_MAIN.1.c
+		add_trait = patron_vahagn
+	}
+	
+	option = {
+		name = PATRONS_ARMENIAN_MAIN.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ARMENIAN_MAIN.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_ARMENIAN_MAIN.2
+	desc = PATRONS_ARMENIAN_MAIN.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ARMENIAN_MAIN.2.a
+		add_trait = patron_astghik
+	}
+	
+	option = {
+		name = PATRONS_ARMENIAN_MAIN.2.b
+		add_trait = patron_nane
+	}
+	
+	option = {
+		name = PATRONS_ARMENIAN_MAIN.2.c
+		add_trait = patron_mihr
+	}
+	
+	option = {
+		name = PATRONS_ARMENIAN_MAIN.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_ARMENIAN_MAIN.1 } }
+	}
+}
+
+# Greco-Persian/Pontic
+character_event = {
+	id = PATRONS_PONTIC_MAIN.1
+	desc = PATRONS_PONTIC_MAIN.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_PONTIC_MAIN.1.a
+		add_trait = patron_zeus_stratios
+	}
+	
+	option = {
+		name = PATRONS_PONTIC_MAIN.1.b
+		add_trait = patron_men_pharnacou
+	}
+	
+	option = {
+		name = PATRONS_PONTIC_MAIN.1.c
+		add_trait = patron_cybele
+	}
+	
+	option = {
+		name = PATRONS_PONTIC_MAIN.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_PONTIC_MAIN.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_PONTIC_MAIN.2
+	desc = PATRONS_PONTIC_MAIN.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_PONTIC_MAIN.2.a
+		add_trait = patron_apollo_pontic
+	}
+	
+	option = {
+		name = PATRONS_PONTIC_MAIN.2.b
+		add_trait = patron_mithras
+	}
+	
+	option = {
+		name = PATRONS_PONTIC_MAIN.2.c
+		hidden_tooltip = { character_event = { id = PATRONS_PONTIC_MAIN.1 } }
+	}
+}
+
+# Mesopotamian
+character_event = {
+	id = PATRONS_MARDUK_CULT.1
+	desc = PATRONS_MARDUK_CULT.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_MARDUK_CULT.1.a
+		add_trait = patron_marduk
+		ai_chance = {
+			factor = 1
+			modifier = { 
+				factor = 2
+				culture = akkadian
+			}
+		}
+	}
+	
+	option = {
+		name = PATRONS_MARDUK_CULT.1.b
+		add_trait = patron_ashur
+		ai_chance = {
+			factor = 1
+			modifier = { 
+				factor = 2
+				culture = aramaic
+			}
+		}
+	}
+	
+	option = {
+		name = PATRONS_MARDUK_CULT.1.c
+		add_trait = patron_nabu
+		ai_chance = {
+			factor = 1
+			modifier = { 
+				factor = 2
+				culture = akkadian
+			}
+		}
+	}
+	
+	option = {
+		name = PATRONS_MARDUK_CULT.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_MARDUK_CULT.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_MARDUK_CULT.2
+	desc = PATRONS_MARDUK_CULT.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_MARDUK_CULT.2.a
+		add_trait = patron_ishtar
+	}
+	
+	option = {
+		name = PATRONS_MARDUK_CULT.2.b
+		add_trait = patron_anu
+	}
+	
+	option = {
+		name = PATRONS_MARDUK_CULT.2.c
+		add_trait = patron_nergal
+	}
+	
+	option = {
+		name = PATRONS_MARDUK_CULT.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_MARDUK_CULT.1 } }
+	}
+}
+
+# Roman/Greco-Italic
+character_event = {
+	id = PATRONS_ROMAN_MAIN.1
+	desc = PATRONS_ROMAN_MAIN.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ROMAN_MAIN.1.a
+		add_trait = patron_jupiter
+	}
+	
+	option = {
+		name = PATRONS_ROMAN_MAIN.1.b
+		add_trait = patron_juno
+	}
+	
+	option = {
+		name = PATRONS_ROMAN_MAIN.1.c
+		add_trait = patron_ceres
+	}
+	
+	option = {
+		name = PATRONS_ROMAN_MAIN.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ROMAN_MAIN.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_ROMAN_MAIN.2
+	desc = PATRONS_ROMAN_MAIN.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ROMAN_MAIN.2.a
+		add_trait = patron_minerva
+	}
+	
+	option = {
+		name = PATRONS_ROMAN_MAIN.2.b
+		add_trait = patron_mars
+	}
+	
+	option = {
+		name = PATRONS_ROMAN_MAIN.2.c
+		add_trait = patron_apollo_roman
+	}
+	
+	option = {
+		name = PATRONS_ROMAN_MAIN.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_ROMAN_MAIN.1 } }
+	}
+}
+
+# Etruscan
+character_event = {
+	id = PATRONS_ETRUSCAN_MAIN.1
+	desc = PATRONS_ETRUSCAN_MAIN.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETRUSCAN_MAIN.1.a
+		add_trait = patron_tinia
+	}
+	
+	option = {
+		name = PATRONS_ETRUSCAN_MAIN.1.b
+		add_trait = patron_uni
+	}
+	
+	option = {
+		name = PATRONS_ETRUSCAN_MAIN.1.c
+		add_trait = patron_menrva
+	}
+	
+	option = {
+		name = PATRONS_ETRUSCAN_MAIN.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETRUSCAN_MAIN.2 } }
+	}
+}
+
+character_event = {
+	id = PATRONS_ETRUSCAN_MAIN.2
+	desc = PATRONS_ETRUSCAN_MAIN.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETRUSCAN_MAIN.2.a
+		add_trait = patron_cel
+	}
+	
+	option = {
+		name = PATRONS_ETRUSCAN_MAIN.2.b
+		add_trait = patron_aritimi
+	}
+	
+	option = {
+		name = PATRONS_ETRUSCAN_MAIN.2.c
+		add_trait = patron_pacha
+	}
+	
+	option = {
+		name = PATRONS_ETRUSCAN_MAIN.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETRUSCAN_MAIN.1 } }
+	}
+}

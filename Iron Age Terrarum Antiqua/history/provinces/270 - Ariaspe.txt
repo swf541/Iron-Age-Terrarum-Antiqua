@@ -1,0 +1,15 @@
+# 270 - Ariaspe
+
+# County Title
+title = c_ariaspe
+
+# Settlements
+max_settlements = 1
+b_ariaspe_ariaspe = castle
+
+# Misc
+culture = arian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

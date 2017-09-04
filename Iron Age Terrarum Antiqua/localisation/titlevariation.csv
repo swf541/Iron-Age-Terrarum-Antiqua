@@ -1,0 +1,226 @@
+# HELLENIC;;;;;;;;;;;;;;
+family_palace_baron_hellenic;Domos Genous;;;;;;;;;;;;;x
+city_king_hellenic;Archon Eponymos;;;;;;;;;;;;;x
+city_duke_hellenic;Archon Eponymos;;;;;;;;;;;;;x
+duke_hellenic;Tyrannos;;;;;;;;;;;;;x
+duke_female_hellenic;Tyrannis;;;;;;;;;;;;;x
+duchy_of_hellenic;Tyrannis of;;;;;;;;;;;;;x
+count_hellenic;Archon;;;;;;;;;;;;;x
+count_female_hellenic;Archontis;;;;;;;;;;;;;x
+county_of_hellenic;Arche of;;;;;;;;;;;;;x
+king_hellenic;Basileus;;;;;;;;;;;;;x
+king_female_hellenic;Basilis;;;;;;;;;;;;;x
+kingdom_of_hellenic;Basileia of;;;;;;;;;;;;;x
+emperor_hellenic;Megas Basileus;;;;;;;;;;;;;x
+emperor_female_hellenic;Megale Basilis;;;;;;;;;;;;;x
+empire_of_hellenic;Megale Basileia of;;;;;;;;;;;;;x
+job_chancellor_hellenic;Proxenos;;;;;;;;;;;;;x
+job_marshal_hellenic;Strategos;;;;;;;;;;;;;x
+job_treasurer_hellenic;Polemarchos;;;;;;;;;;;;;x
+job_spymaster_hellenic;Kataskopos;;;;;;;;;;;;;x
+job_spiritual_hellenic;Archiereus;;;;;;;;;;;;;x
+city_job_chancellor_hellenic;Proxenos;;;;;;;;;;;;;x
+city_job_marshal_hellenic;Strategos;;;;;;;;;;;;;x
+city_job_treasurer_hellenic;Polemarchos;;;;;;;;;;;;;x
+city_job_spymaster_hellenic;Kataskopos;;;;;;;;;;;;;x
+city_job_spiritual_hellenic;Archiereus;;;;;;;;;;;;;x
+# IRANIAN;;;;;;;;;;;;;;
+empire_persian;Shahanshahr;;;;;;;;;;;;;x
+kingdom_persian;Shahr;;;;;;;;;;;;;x
+duchy_persian;Xshasha;;;;;;;;;;;;;x
+empire_bactrian;Shahanshahr;;;;;;;;;;;;;x
+kingdom_bactrian;Shahr;;;;;;;;;;;;;x
+duchy_bactrian;Xshasha;;;;;;;;;;;;;x
+empire_chorasmian;Shahanshahr;;;;;;;;;;;;;x
+kingdom_chorasmian;Shahr;;;;;;;;;;;;;x
+duchy_chorasmian;Xshasha;;;;;;;;;;;;;x
+emperor_persian;Shahanshah;;;;;;;;;;;;;x
+king_persian;Shah;;;;;;;;;;;;;x
+duke_persian;Xshashapavan;;;;;;;;;;;;;x
+count_persian;Marzban;;;;;;;;;;;;;x
+baron_persian;Argbadh;;;;;;;;;;;;;x
+temple_baron_persian;Athravan;;;;;;;;;;;;;x
+city_baron_persian;Dihqan;;;;;;;;;;;;;x
+empire_of_persian;Shahanshahr of;;;;;;;;;;;;;x
+kingdom_of_persian;Shahr of;;;;;;;;;;;;;x
+duchy_of_persian;Xshasha of;;;;;;;;;;;;;x
+county_of_persian;Marzbanr of;;;;;;;;;;;;;x
+barony_of_persian;Argbadhr of;;;;;;;;;;;;;x
+temple_barony_of_persian;Atashkada of;;;;;;;;;;;;;x
+job_chancellor_persian;Vuzorg Farmadar;;;;;;;;;;;;;x
+job_marshal_persian;Eran Spahbod;;;;;;;;;;;;;x
+job_treasurer_persian;Ho Tokhshan Bod;;;;;;;;;;;;;x
+job_spymaster_persian;Spasaka;;;;;;;;;;;;;x
+job_spiritual_persian;Dastur;;;;;;;;;;;;;x
+emperor_bactrian;Shahanshah;;;;;;;;;;;;;x
+king_bactrian;Shah;;;;;;;;;;;;;x
+duke_bactrian;Xshashapavan;;;;;;;;;;;;;x
+count_bactrian;Marzban;;;;;;;;;;;;;x
+baron_bactrian;Argbadh;;;;;;;;;;;;;x
+temple_baron_bactrian;Athravan;;;;;;;;;;;;;x
+city_baron_bactrian;Dihqan;;;;;;;;;;;;;x
+empire_of_bactrian;Shahanshahr of;;;;;;;;;;;;;x
+kingdom_of_bactrian;Shahr of;;;;;;;;;;;;;x
+duchy_of_bactrian;Xshasha of;;;;;;;;;;;;;x
+county_of_bactrian;Marzbanr of;;;;;;;;;;;;;x
+barony_of_bactrian;Argbadhr of;;;;;;;;;;;;;x
+temple_barony_of_bactrian;Atashkada of;;;;;;;;;;;;;x
+job_chancellor_bactrian;Vuzorg Farmadar;;;;;;;;;;;;;x
+job_marshal_bactrian;Eran Spahbod;;;;;;;;;;;;;x
+job_treasurer_bactrian;Ho Tokhshan Bod;;;;;;;;;;;;;x
+job_spymaster_bactrian;Spasaka;;;;;;;;;;;;;x
+job_spiritual_bactrian;Dastur;;;;;;;;;;;;;x
+emperor_scythian;Xola-Xayasa;;;;;;;;;;;;;x
+king_scythian;Arpaxais;;;;;;;;;;;;;x
+duke_scythian;Colaxais;;;;;;;;;;;;;x
+count_scythian;Lipoxais;;;;;;;;;;;;;x
+baron_scythian;Batyasko;;;;;;;;;;;;;x
+city_baron_scythian;Aluthpada;;;;;;;;;;;;;x
+temple_baron_scythian;Leipari;;;;;;;;;;;;;x
+empire_of_scythian;Adapa of;;;;;;;;;;;;;x
+kingdom_of_scythian;Katipa of;;;;;;;;;;;;;x
+duchy_of_scythian;Paradatapa of;;;;;;;;;;;;;x
+county_of_scythian;Arparadata of;;;;;;;;;;;;;x
+barony_of_scythian;Arkol of;;;;;;;;;;;;;x
+city_barony_of_scythian;Lokol of;;;;;;;;;;;;;x
+temple_barony_of_scythian;Lewlekol of;;;;;;;;;;;;;x
+emperor_sarmatian;Xola-Xayasa;;;;;;;;;;;;;x
+king_sarmatian;Arpaxais;;;;;;;;;;;;;x
+duke_sarmatian;Colaxais;;;;;;;;;;;;;x
+count_sarmatian;Lipoxais;;;;;;;;;;;;;x
+baron_sarmatian;Batyasko;;;;;;;;;;;;;x
+city_baron_sarmatian;Aluthpada;;;;;;;;;;;;;x
+temple_baron_sarmatian;Leipari;;;;;;;;;;;;;x
+empire_of_sarmatian;Adapa of;;;;;;;;;;;;;x
+kingdom_of_sarmatian;Katipa of;;;;;;;;;;;;;x
+duchy_of_sarmatian;Paradatapa of;;;;;;;;;;;;;x
+county_of_sarmatian;Arparadata of;;;;;;;;;;;;;x
+barony_of_sarmatian;Arkol of;;;;;;;;;;;;;x
+city_barony_of_sarmatian;Lokol of;;;;;;;;;;;;;x
+temple_barony_of_sarmatian;Lewlekol of;;;;;;;;;;;;;x
+kingdom_scythian;Katipa;;;;;;;;;;;;;x
+duchy_scythian;Paradatapa;;;;;;;;;;;;;x
+kingdom_sarmatian;Katipa;;;;;;;;;;;;;x
+duchy_sarmatian;Paradatapa;;;;;;;;;;;;;x
+emperor_median;Shahanshah;;;;;;;;;;;;;x
+king_median;Shah;;;;;;;;;;;;;x
+duke_median;Xshashapavan;;;;;;;;;;;;;x
+count_median;Marzban;;;;;;;;;;;;;x
+baron_median;Argbadh;;;;;;;;;;;;;x
+temple_baron_median;Athravan;;;;;;;;;;;;;x
+city_baron_median;Dihqan;;;;;;;;;;;;;x
+empire_of_median;Shahanshahr of;;;;;;;;;;;;;x
+kingdom_of_median;Shahr of;;;;;;;;;;;;;x
+duchy_of_median;Xshasha of;;;;;;;;;;;;;x
+county_of_median;Marzbanr of;;;;;;;;;;;;;x
+barony_of_median;Argbadhr of;;;;;;;;;;;;;x
+temple_barony_of_median;Atashkada of;;;;;;;;;;;;;x
+job_chancellor_median;Vuzorg Farmadar;;;;;;;;;;;;;x
+job_marshal_median;Eran Spahbod;;;;;;;;;;;;;x
+job_treasurer_median;Ho Tokhshan Bod;;;;;;;;;;;;;x
+job_spymaster_median;Spasaka;;;;;;;;;;;;;x
+job_spiritual_median;Dastur;;;;;;;;;;;;;x
+# INDIAN;;;;;;;;;;;;;;
+emperor_indian;Samraat;;;;;;;;;;;;;x
+emperor_female_indian;Samrajni;;;;;;;;;;;;;x
+king_indian;Maharaja;;;;;;;;;;;;;x
+king_female_indian;Maharani;;;;;;;;;;;;;x
+duke_indian;Raja;;;;;;;;;;;;;x
+duke_female_indian;Rani;;;;;;;;;;;;;x
+count_indian;Sardar;;;;;;;;;;;;;x
+baron_indian;Jagirdar;;;;;;;;;;;;;x
+city_baron_indian;Jagirdar;;;;;;;;;;;;;x
+temple_baron_indian;Jagirdar;;;;;;;;;;;;;x
+empire_of_indian;Samraj of;;;;;;;;;;;;;x
+kingdom_of_indian;Maharaj of;;;;;;;;;;;;;x
+duchy_of_indian;Raj of;;;;;;;;;;;;;x
+county_of_indian;Sar of;;;;;;;;;;;;;x
+barony_of_indian;Jagir of;;;;;;;;;;;;;x
+city_barony_of_indian;Agrahar of;;;;;;;;;;;;;x
+temple_barony_of_indian;Mandira of;;;;;;;;;;;;;x
+empire_indian;Samraj;;;;;;;;;;;;;x
+kingdom_indian;Maharaj;;;;;;;;;;;;;x
+duchy_indian;Raj;;;;;;;;;;;;;x
+job_chancellor_indian;Pandit;;;;;;;;;;;;;x
+job_marshal_indian;Senani;;;;;;;;;;;;;x
+job_treasurer_indian;Samagrahiti;;;;;;;;;;;;;x
+job_spymaster_indian;Kshata;;;;;;;;;;;;;x
+job_spiritual_indian;Purohit;;;;;;;;;;;;;x
+emperor_tamil;Samraat;;;;;;;;;;;;;x
+emperor_female_tamil;Samrajni;;;;;;;;;;;;;x
+king_tamil;Maharaja;;;;;;;;;;;;;x
+king_female_tamil;Maharani;;;;;;;;;;;;;x
+duke_tamil;Ventar;;;;;;;;;;;;;x
+duke_female_tamil;Ventarani;;;;;;;;;;;;;x
+count_tamil;Velir;;;;;;;;;;;;;x
+baron_tamil;Jagirdar;;;;;;;;;;;;;x
+city_baron_tamil;Jagirdar;;;;;;;;;;;;;x
+temple_baron_tamil;Jagirdar;;;;;;;;;;;;;x
+empire_of_tamil;Samraj of;;;;;;;;;;;;;x
+kingdom_of_tamil;Maharaj of;;;;;;;;;;;;;x
+duchy_of_tamil;Nadu of;;;;;;;;;;;;;x
+county_of_tamil;Vel of;;;;;;;;;;;;;x
+barony_of_tamil;Jagir of;;;;;;;;;;;;;x
+city_barony_of_tamil;Agrahar of;;;;;;;;;;;;;x
+temple_barony_of_tamil;Mandira of;;;;;;;;;;;;;x
+empire_tamil;Samraj;;;;;;;;;;;;;x
+kingdom_tamil;Maharaj;;;;;;;;;;;;;x
+duchy_tamil;Nadu;;;;;;;;;;;;;x
+# THRACO-DACIAN;;;;;;;;;;;;;;
+barony_of_dacian;Military Dava of;;;;;;;;;;;;;x
+city_barony_of_dacian;Dava of;;;;;;;;;;;;;x
+temple_barony_of_dacian;Sacred Dava of;;;;;;;;;;;;;x
+city_baron_dacian;Tarabostes Arkhon;;;;;;;;;;;;;x
+temple_baron_dacian;High Priest;;;;;;;;;;;;;x
+baron_dacian;Tarabostes;;;;;;;;;;;;;x
+count_dacian;Megas Zibythides;;;;;;;;;;;;;x
+duke_dacian;Megistos Zibythides;;;;;;;;;;;;;x
+king_dacian;Rezas;;;;;;;;;;;;;x
+county_of_dacian;Txhema of;;;;;;;;;;;;;x
+duchy_of_dacian;Ark-Txhema of;;;;;;;;;;;;;x
+kingdom_of_dacian;Basileion of;;;;;;;;;;;;;x
+emperor_dacian;Merrezas;;;;;;;;;;;;;x
+barony_of_thracian;Deiza of;;;;;;;;;;;;;x
+city_barony_of_thracian;Bria of;;;;;;;;;;;;;x
+temple_barony_of_thracian;Sacred Bria of;;;;;;;;;;;;;x
+city_baron_thracian;Tarabostes Arkhon;;;;;;;;;;;;;x
+temple_baron_thracian;High Priest;;;;;;;;;;;;;x
+baron_thracian;Zibythides;;;;;;;;;;;;;x
+count_thracian;Megas Zibythides;;;;;;;;;;;;;x
+duke_thracian;Megistos Zibythides;;;;;;;;;;;;;x
+king_thracian;Rezas;;;;;;;;;;;;;x
+county_of_thracian;Txhema of;;;;;;;;;;;;;x
+duchy_of_thracian;Ark-Txhema of;;;;;;;;;;;;;x
+kingdom_of_thracian;Basileion of;;;;;;;;;;;;;x
+emperor_thracian;Merrezas;;;;;;;;;;;;;x
+kingdom_thracian;Basileion;;;;;;;;;;;;;x
+duchy_thracian;Ark-Txhema;;;;;;;;;;;;;x
+kingdom_dacian;Basileion;;;;;;;;;;;;;x
+duchy_dacian;Ark-Txhema;;;;;;;;;;;;;x
+# TOCHARIAN;;;;;;;;;;;;;;
+king_tocharian;Lánt;;;;;;;;;;;x;;
+kingdom_of_tocharian;Lánti of;;;;;;;;;;;x;;
+duke_tocharian;Kamartike;;;;;;;;;;;x;;
+duchy_of_tocharian;Kamarttanne of;;;;;;;;;;;x;;
+count_tocharian;Keninta;;;;;;;;;;;x;;
+county_of_tocharian;Keniye of;;;;;;;;;;;x;;
+job_marshal_tocharian;Ksatriye;;;;;;;;;;;x;;
+emperor_tocharian;Nakta;;;;;;;;;;;x;;
+temple_baron_tocharian;Yankune;;;;;;;;;;;x;;
+job_spiritual_tocharian;Tsaske;;;;;;;;;;;x;;
+job_spymaster_tocharian;Lyak;;;;;;;;;;;x;;
+job_treasurer_tocharian;Serve;;;;;;;;;;;x;;
+job_chancellor_tocharian;Aisaumye;;;;;;;;;;;x;;
+city_barony_of_tocharian;Riye of;;;;;;;;;;;x;;
+barony_of_tocharian;Srukalne of;;;;;;;;;;;x;;
+baron_tocharian;Sruka;;;;;;;;;;;x;;
+city_baron_tocharian;Tas;;;;;;;;;;;x;;
+temple_barony_of_tocharian;Devakul of;;;;;;;;;;;x;;
+# ETRUSCAN;;;;;;;;;;;x;;;
+king_etruscan;Lauchum;;;;;;;;;;;x;;
+kingdom_of_etruscan;Tudthi of;;;;;;;;;;;x;;
+count_etruscan;Zilach;;;;;;;;;;;x;;
+county_of_etruscan;Methlum of;;;;;;;;;;;x;;
+# MISCELLANEOUS;;;;;;;;;;;;;;
+temple_barony_of;Temple of;;;;;;;;;;;;;x
+king_celtiberian;Reikis;;;;;;;;;;;;;

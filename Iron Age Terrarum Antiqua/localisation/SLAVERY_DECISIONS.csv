@@ -1,0 +1,22 @@
+enslave;Enslave [Root.GetTitledFirstName];;;;;;;;;;;;;x
+enslave_desc;Turn [Root.GetTitledFirstName] into your personal property. If [Root.GetSheHe] has titles, his heir will inherit them.;;;;;;;;;;;;;x
+free_slave;Free [Root.GetTitledFirstName];;;;;;;;;;;;;x
+free_slave_desc;[Root.GetTitledFirstName] will no longer be your slave and will move to the court of a member of his dynasty.;;;;;;;;;;;;;x
+sell_slave;Put [Root.GetTitledFirstName] up for sale;;;;;;;;;;;;;x
+sell_slave_desc;Make it known that [Root.GetTitledFirstname] is up for sale and have you advisors value [Root.GetHerHim].;;;;;;;;;;;;;x
+undo_sell_slave;Remove from sale;;;;;;;;;;;;;x
+undo_sell_slave_desc;Make it known that [Root.GetTitledFirstName] is no longer up for purchase.;;;;;;;;;;;;;x
+buy_slave;Buy [Root.GetFirstName];;;;;;;;;;;;;x
+buy_slave_desc;[Root.GetFirstName] might make a useful servant. We should offer to buy [Root.GetHerHim].;;;;;;;;;;;;;x
+slavery.1.desc;My captor, [From.GetTitledFirstName], has decided to enslave me. Since I have become a slave [Root.Heir.GetFirstName] will inherit my titles.;;;;;;;;;;;;;x
+slavery.1.opta;I hope he does well in my stead;;;;;;;;;;;;;x
+slavery.2.desc;My [GetFromRelation] [From.GetName] has been enslaved by [FromFrom.GetTitledFirstName]. I have taken over [From.GetHerHis] titles in [From.GetHerHis] stead.;;;;;;;;;;;;;x
+slavery.2.opta;We will get [From.GetHerHim] back someday;;;;;;;;;;;;;x
+slavery.4.desc;My [GetFromRelation] [From.GetName] was freed by [FromFrom.GetTitledFirstName]. [From.GetSheHe] will be seeking refuge with one of our kinsmen,;;;;;;;;;;;;;x
+slavery.4.opta;Glory to the family!;;;;;;;;;;;;;x
+slavery.6.desc;My financial advisors have valued [target_slave.GetFullName] based on [target_slave.GetHerHis] personality and physical traits.;;;;;;;;;;;;;x
+slavery.6.opta;Let's put [target_slave.GetFullName] up for sale.;;;;;;;;;;;;;x
+slavery.6.optb;Actually, I have changed my mind. Don't put [target_slave.GetFullName] up for sale.;;;;;;;;;;;;;x
+slavery.8.desc;I have shown an interest in buying [target_slave.GetFullName].;;;;;;;;;;;;;x
+slavery.8.opta;Buy [target_slave.GetHerHim];;;;;;;;;;;;;x
+slavery.8.optb;[target_slave.GetFirstName] isn't worth it.;;;;;;;;;;;;;x

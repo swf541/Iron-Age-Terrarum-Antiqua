@@ -1,0 +1,233 @@
+# Represents an personal estate
+family_palace = {
+	
+	# Mansion line #	
+	# Farmhouse
+	fp_mansion_1 = {
+		desc = fp_mansion_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 730 # 2 years
+		ai_creation_factor = 105
+		
+		levy_size = 0.1
+		tax_income = 2
+		
+		extra_tech_building_start = 10.0
+	}
+	
+	# Mansion
+	fp_mansion_2 = {
+		desc = fp_mansion_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fp_mansion_1
+		gold_cost = 200
+		build_time = 1460
+		ai_creation_factor = 104
+		
+		levy_size = 0.2
+		tax_income = 6
+		max_tradeposts = 1
+		
+		extra_tech_building_start = 10.0
+	}
+	
+	# Grand Mansion
+	fp_mansion_3 = {
+		desc = fp_mansion_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fp_mansion_2
+		gold_cost = 400
+		build_time = 2190
+		ai_creation_factor = 103
+		
+		levy_size = 0.3
+		tax_income = 8
+		max_tradeposts = 2
+		
+		extra_tech_building_start = 10.0
+	}
+	
+	# Palace
+	fp_mansion_4 = {
+		desc = fp_mansion_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fp_mansion_3
+		gold_cost = 500
+		build_time = 2190
+		ai_creation_factor = 102
+		
+		levy_size = 0.4
+		tax_income = 10
+		max_tradeposts = 3
+		
+		extra_tech_building_start = 10.0
+	}
+	
+	# Military(Retinues) ##
+	# Armory
+	fp_military_1 = {
+		desc = fp_military_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { fp_mansion_1 }
+		gold_cost = 150
+		build_time = 365 # 1 year
+		ai_creation_factor = 99
+		
+		retinuesize = 300
+		
+		extra_tech_building_start = 10.0
+	}
+	# Military warehouse
+	fp_military_2 = {
+		desc = fp_military_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fp_military_1
+		prerequisites = { fp_mansion_2 }
+		gold_cost = 200
+		build_time = 730 # 2 years
+		ai_creation_factor = 98
+		
+		retinuesize = 600
+		
+		extra_tech_building_start = 10.0
+	}
+	# Grand warehouse
+	fp_military_3 = {
+		desc = fp_military_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fp_military_2
+		prerequisites = { fp_mansion_3 }
+		gold_cost = 300
+		build_time = 1460 # 5 years
+		ai_creation_factor = 99
+		
+		retinuesize = 1000
+		
+		extra_tech_building_start = 10.0
+	}
+	
+	# Farms
+	# Farm
+	fp_farms_1 = {
+		desc = fp_farms_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		ai_creation_factor = 105
+		
+		tax_income = 4
+		
+		extra_tech_building_start = 10.0
+	}
+	# Slave farms
+	fp_farms_2 = {
+		desc = fp_farms_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fp_farms_1
+		gold_cost = 250
+		build_time = 547 # 1.5 years
+		ai_creation_factor = 103
+		
+		tax_income = 9
+		
+		extra_tech_building_start = 10.0
+	}
+	# Crop rotation
+	fp_farms_3 = {
+		desc = fp_farms_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fp_farms_2
+		gold_cost = 300
+		build_time = 547 # 1,5 years
+		ai_creation_factor = 101
+		
+		tax_income = 12
+		
+		extra_tech_building_start = 10.0
+	}
+	
+	# Tombs
+	# Graveyard
+	fp_tomb_1 = {
+		desc = fp_tomb_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { fp_mansion_1 }
+		gold_cost = 150
+		build_time = 182 # 0.5 years
+		ai_creation_factor = 100
+		
+		monthly_character_prestige = 0.10
+		
+		extra_tech_building_start = 10.0
+	}
+	# Tomb
+	fp_tomb_2 = {
+		desc = fp_tomb_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fp_tomb_1
+		prerequisites = { fp_mansion_2 }
+		gold_cost = 250
+		build_time = 365 # 1 year
+		ai_creation_factor = 99
+		
+		monthly_character_prestige = 0.5
+		
+		extra_tech_building_start = 10.0
+	}
+	# Mausoleum
+	fp_tomb_3 = {
+		desc = fp_tomb_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = fp_tomb_2
+		gold_cost = 600
+		build_time = 3650 # 10 years
+		ai_creation_factor = 95
+		
+		monthly_character_prestige = 1.0
+		
+		extra_tech_building_start = 10.0
+	}
+	
+	# Temple
+	# Sacred enclosure
+	fp_temple_1 = {
+		desc = fp_temple_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 150
+		build_time = 365 # 1 year
+		ai_creation_factor = 100
+		
+		monthly_character_piety = 0.1
+		
+		extra_tech_building_start = 10.0
+	}
+	# Shrine
+	fp_temple_2 = {
+		desc = fp_temple_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { fp_mansion_1 }
+		upgrades_from = fp_temple_1
+		gold_cost = 200
+		build_time = 730 # 2 years
+		ai_creation_factor = 99
+		
+		monthly_character_piety = 0.2
+		
+		extra_tech_building_start = 10.0
+	}
+	# Temple
+	fp_temple_3 = {
+		desc = fp_temple_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { fp_mansion_3 }
+		upgrades_from = fp_temple_2
+		gold_cost = 500
+		build_time = 3650 # 2 years
+		ai_creation_factor = 95
+		
+		monthly_character_piety = 0.75
+		
+		extra_tech_building_start = 10.0
+	}
+}	

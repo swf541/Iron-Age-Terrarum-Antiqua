@@ -1,0 +1,48 @@
+imbecile = {
+	birth = 50
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -30
+	
+	opposites =  {
+		slow
+		quick
+		genius
+	}
+	
+	diplomacy = -8
+	intrigue = -8
+	stewardship = -8
+	martial = -8
+	learning = -8
+	
+	combat_rating = -3
+	
+	ai_rationality = -30
+	
+	vassal_opinion = -10
+
+	incapacitating = yes
+	
+	male_insult = INSULT_IMBECILE
+	female_insult = INSULT_IMBECILE
+	male_insult_adj = INSULT_IDIOT
+	female_insult_adj = INSULT_IDIOT
+}
+maimed = {
+	is_health = yes
+	
+	opposites =  {
+		wounded
+	}
+	
+	combat_rating = -4
+	
+	sex_appeal_opinion = -15
+	same_opinion = 10
+	
+	martial = -2
+	#health = -2
+	
+	male_insult_adj = INSULT_CRIPPLE
+}

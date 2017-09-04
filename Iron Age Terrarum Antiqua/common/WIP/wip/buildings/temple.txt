@@ -1,0 +1,416 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+temple = {
+	# Communes
+	tp_commune_1 ={
+		desc = tp_commune_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 85
+		
+		# start = { always = yes }
+	}
+	tp_commune_2 = {
+		desc = tp_commune_2_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
+		upgrades_from = tp_commune_1
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 84
+		
+		# start = { always = no }
+	}
+	tp_commune_3 = {
+		desc = tp_commune_3_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_commune_2
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 83
+		
+		# start = { always = no }
+	}
+	tp_commune_4 = {
+		desc = tp_commune_4_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_commune_3
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 82
+		
+		# start = { always = no }
+	}
+	tp_commune_5 = {
+		desc = tp_commune_5_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_commune_4
+		gold_cost = 100
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 81
+		
+		# start = { always = no }
+	}
+	
+	# Shrines
+	tp_shrine_1 = {
+		desc = tp_shrine_1_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 0 }
+		gold_cost = 75
+		build_time = 365
+		monthly_character_piety = 0.05
+		ai_creation_factor = 100
+		
+		# start = { always = yes }
+	}
+	tp_shrine_2 = {
+		desc = tp_shrine_2_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
+		upgrades_from = tp_shrine_1
+		gold_cost = 75
+		build_time = 365
+		monthly_character_piety = 0.05
+		ai_creation_factor = 99
+		
+		# start = { always = no }
+	}
+	tp_shrine_3 = {
+		desc = tp_shrine_3_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_shrine_2
+		gold_cost = 75
+		build_time = 365
+		monthly_character_piety = 0.05
+		ai_creation_factor = 98
+		
+		# start = { always = no }
+	}
+	tp_shrine_4 = {
+		desc = tp_shrine_4_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_shrine_3
+		gold_cost = 75
+		build_time = 365
+		monthly_character_piety = 0.05
+		ai_creation_factor = 97
+		
+		# start = { always = no }
+	}
+	tp_shrine_5 = {
+		desc = tp_shrine_5_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_shrine_4
+		gold_cost = 75
+		build_time = 365
+		monthly_character_piety = 0.05
+		ai_creation_factor = 96
+		
+		# start = { always = no }
+	}
+	
+	# Shrine Revenue
+	tp_shrine_rev_1 = {
+		desc = tp_shrine_rev_1
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
+		gold_cost = 125
+		build_time = 365
+		tax_income = 2.5
+		ai_creation_factor = 90
+		
+		# start = { always = no }
+	}
+	tp_shrine_rev_2 = {
+		desc = tp_shrine_rev_2_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 3 }
+		upgrades_from = tp_shrine_rev_1
+		gold_cost = 125
+		build_time = 365
+		tax_income = 2.5
+		ai_creation_factor = 89
+		
+		# start = { always = no }
+	}
+	tp_shrine_rev_3 = {
+		desc = tp_shrine_rev_3_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 5 }
+		upgrades_from = tp_shrine_rev_2
+		gold_cost = 125
+		build_time = 365
+		tax_income = 2.5
+		ai_creation_factor = 88
+		
+		# start = { always = no }
+	}
+	tp_shrine_rev_4 = {
+		desc = tp_shrine_rev_4_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 6 }
+		upgrades_from = tp_shrine_rev_3
+		gold_cost = 125
+		build_time = 365
+		tax_income = 2.5
+		ai_creation_factor = 87
+		
+		# start = { always = no }
+	}
+	tp_shrine_rev_5 = {
+		desc = tp_shrine_rev_5_desc
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 8 }
+		upgrades_from = tp_shrine_rev_4
+		gold_cost = 125
+		build_time = 365
+		tax_income = 2.5
+		ai_creation_factor = 86
+		
+		# start = { always = no }
+	}
+	
+	# Ports
+	tp_port_1 = {
+		desc = tp_port_1_desc
+		trigger = { TECH_NAVAL = 0 }
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 60
+		
+		# start = { always = yes }
+	}
+	tp_port_2 = {
+		desc = tp_port_2_desc
+		trigger = { TECH_NAVAL = 2 }
+		upgrades_from = tp_port_1
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 59
+		
+		# start = { always = no }
+	}
+	tp_port_3 = {
+		desc = tp_port_3_desc
+		trigger = { TECH_NAVAL = 3 }
+		upgrades_from = tp_port_2
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 58
+		
+		# start = { always = no }
+	}
+	tp_port_4 = {
+		desc = tp_port_4_desc
+		trigger = { TECH_NAVAL = 4 }
+		upgrades_from = tp_port_3
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 57
+		
+		# start = { always = no }
+	}
+	tp_port_5 = {
+		desc = tp_port_5_desc
+		trigger = { TECH_NAVAL = 5 }
+		upgrades_from = tp_port_4
+		port = yes
+		gold_cost = 150
+		build_time = 365
+		galleys = 3
+		tax_income = 2
+		ai_creation_factor = 56
+		
+		# start = { always = no }
+	}
+	
+	# State Aministration
+	tp_admin_1 = {
+		desc = tp_admin_1_desc
+		trigger = { TECH_LEGALISM = 2 }
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		ai_creation_factor = 70
+		
+		# start = { always = no }
+	}
+	tp_admin_2 = {
+		desc = tp_admin_2_desc
+		trigger = { TECH_LEGALISM = 3 }
+		upgrades_from = tp_admin_1
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		ai_creation_factor = 69
+		
+		# start = { always = no }
+	}
+	tp_admin_3 = {
+		desc = tp_admin_3_desc
+		trigger = { TECH_LEGALISM = 5 }
+		upgrades_from = tp_admin_2
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		ai_creation_factor = 68
+		
+		# start = { always = no }
+	}
+	tp_admin_4 = {
+		desc = tp_admin_4_desc
+		trigger = { TECH_LEGALISM = 6 }
+		upgrades_from = tp_admin_3
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		ai_creation_factor = 67
+		
+		# start = { always = no }
+	}
+	tp_admin_5 = {
+		desc = tp_admin_5_desc
+		trigger = { TECH_LEGALISM = 8 }
+		upgrades_from = tp_admin_4
+		gold_cost = 150
+		build_time = 365
+		tax_income = 1.5
+		ai_creation_factor = 66
+		
+		# start = { always = no }
+	}
+	
+	# Farms
+	tp_farm_1 = {
+		desc = tp_farm_1_desc
+		trigger = { TECH_CONSTRUCTION = 2 }
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		ai_creation_factor = 75
+		
+		# start = { always = no }
+	}
+	tp_farm_2 = {
+		desc = tp_farm_2_desc
+		trigger = { TECH_CONSTRUCTION = 3 }
+		upgrades_from = tp_farm_1
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		ai_creation_factor = 74
+		
+		# start = { always = no }
+	}
+	tp_farm_3 = {
+		desc = tp_farm_3_desc
+		trigger = { TECH_CONSTRUCTION = 4 }
+		upgrades_from = tp_farm_2
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		ai_creation_factor = 73
+		
+		# start = { always = no }
+	}
+	tp_farm_4 = {
+		desc = tp_farm_4_desc
+		trigger = { TECH_CONSTRUCTION = 5 }
+		upgrades_from = tp_farm_3
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		ai_creation_factor = 72
+		
+		# start = { always = no }
+	}
+	tp_farm_5 = {
+		desc = tp_farm_5_desc
+		trigger = { TECH_CONSTRUCTION = 6 }
+		upgrades_from = tp_farm_4
+		gold_cost = 100
+		build_time = 365
+		tax_income = 1
+		ai_creation_factor = 71
+		
+		# start = { always = no }
+	}
+	
+	# Roads
+	tp_road_1 = {
+		desc = tp_road_1_desc
+		trigger = { TECH_CONSTRUCTION = 2 }
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.5
+		ai_creation_factor = 40
+		
+		# start = { always = no }
+	}
+	tp_road_2 = {
+		desc = tp_road_2_desc
+		trigger = { TECH_CONSTRUCTION = 3 }
+		upgrades_from = tp_road_1
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.5
+		ai_creation_factor = 39
+		
+		# start = { always = no }
+	}
+	tp_road_3 = {
+		desc = tp_road_3_desc
+		trigger = { TECH_CONSTRUCTION = 4 }
+		upgrades_from = tp_road_2
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.5
+		ai_creation_factor = 38
+		
+		# start = { always = no }
+	}
+	tp_road_4 = {
+		desc = tp_road_4_desc
+		trigger = { TECH_CONSTRUCTION = 5 }
+		upgrades_from = tp_road_3
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.5
+		ai_creation_factor = 37
+		
+		# start = { always = no }
+	}
+	tp_road_5 = {
+		desc = tp_road_5_desc
+		trigger = { TECH_CONSTRUCTION = 6 }
+		upgrades_from = tp_road_4
+		gold_cost = 50
+		build_time = 365
+		tax_income = 0.5
+		ai_creation_factor = 36
+		
+		# start = { always = no }
+	}
+}

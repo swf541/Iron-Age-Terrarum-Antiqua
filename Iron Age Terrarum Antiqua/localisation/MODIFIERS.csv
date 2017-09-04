@@ -1,0 +1,24 @@
+opinion_realm_foreign_culture;Barbarian;;;;;;;;;;;;;x
+opinion_failed_liberation;Failed Liberation;;;;;;;;;;;;;x
+wrong_culture;Allied Culture;;;;;;;;;;;;x
+wrong_culture_desc;Rulers often treated culture similar but different from their own as involuntary allies. Rome set up permanent alliances with the various Italian peoples until they were given Roman citizenship after the Social war.;;;;;;;;;;;;x
+wrong_cultural_group;Foreign Culture;;;;;;;;;;;;x
+wrong_cultural_group_desc;Rulers often mistrusted people not from their culture and therefore they were reluctant to use them as troops in their armies. They reasoned that if they armed these people, they could rise up and indeed that did happen to the Ptolemies after the battle of Raphia.;;;;;;;;;;;;x
+minimal_population;Minimal Population;;;;;;;;;;;;x
+minimal_population_desc;There are [Location.province_pop.GetValue] citizens here. One can ride for hours here without encountering any human life. The sparsity of the populace makes taxation and levying troops difficult.;;;;;;;;;;;;x
+low_population;Low Population;;;;;;;;;;;;x
+low_population_desc;There are [Location.province_pop.GetValue] citizens here. Although much of this area is not populated, you can find the occasional farm. There may even be small farmer villages and the rare city.;;;;;;;;;;;;x
+medium_population;Medium Population;;;;;;;;;;;;x
+medium_population_desc;There are [Location.province_pop.GetValue] citizens here. Many farms can be found in this area and the occasional settlement is expanding into the rural land.;;;;;;;;;;;;x
+large_population;Large Population;;;;;;;;;;;;x
+large_population_desc;There are [Location.province_pop.GetValue] citizens here. Large amounts of cities are starting to form. Farms are becoming larger and fewer and many former farmers are going to the cities to earn their bread as their jobs are taken over by slaves.;;;;;;;;;;;;x
+huge_population;Huge Population;;;;;;;;;;;;x
+huge_population_desc;There are [Location.province_pop.GetValue] citizens here. Cities occupy the largest amount of land in this province and some have perhaps fused to become one larger city. Farms are held by rich landowners who use slaves to work on the farm.;;;;;;;;;;;;x  
+low_resource;Low Supply;;;;;;;;;;;;x
+low_resource_desc;This province is picked clean. There's barely any food here anymore.;;;;;;;;;;;;x
+medium_resource;Moderate Supply;;;;;;;;;;;;x
+medium_resource_desc;This province still has a moderate supply of food, although it is less easy to find.;;;;;;;;;;;;x
+high_resource;High Supply;;;;;;;;;;;;x
+high_resource_desc;Food is in abundant supply here. People don't have to travel too long distances to get food either.;;;;;;;;;;;;x
+performed_ashvamedha;Performed Ashvamedha;;;;;;;;;;;;x
+performed_ashvamedha_desc;This character has performed the Ashvamedha, the great horse sacrifice.;;;;;;;;;;;;x

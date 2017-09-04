@@ -1,0 +1,294 @@
+namespace = succession
+
+# Try to force the succession of some titles
+
+# Pythia
+character_event = {
+	id = succession.1
+	desc = AI
+	picture = GFX_evt_child_reading
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		any_demesne_title = {
+			OR = {
+				title = b_delphi_delphi
+				title = d_delphi
+			}
+		}
+		religion = greek_main
+		female = yes
+		has_character_flag = is_pythia
+	}
+	weight_multiplier = {
+		days = 1
+	}
+	option = {
+		name = AI
+		create_random_priest = {
+			dynasty = 0
+			random_traits = yes
+			add_trait = celibate
+			culture = doric
+			religion = greek_main
+			female = yes
+			age = 50
+		}
+		new_character = {
+			inherit = ROOT
+			set_character_flag = is_pythia
+		}
+	}
+}
+
+#####################################
+# DYNASTIC EXTINCTION: INDEPENDENCE #
+#####################################
+
+# on_death
+character_event = {
+	id = succession.2
+	desc = succession.2.desc
+	picture = GFX_evt_child_reading # Placeholder
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		ai = yes
+		is_female = no
+		independent = yes
+		is_feudal = yes
+		NOT = { # No male dynasty members left
+			any_dynasty_member = {
+				is_female = no
+			}
+		}
+		has_regent = yes
+		primary_title = {
+			OR = {
+				tier = EMPEROR
+				tier = KING
+			}
+		}
+	}
+
+	option = {
+		name = succession.2.opta
+		if = {
+			limit = {
+				num_of_count_titles = 2
+			}
+			any_demesne_title = {
+				limit = {
+					tier = COUNT
+					NOT = {
+						location = {
+							ROOT = {
+								capital_scope = {
+									province = ROOT
+								}
+							}
+						}
+					}
+				}
+				location = {
+					any_neighbor_province = {
+						owner = {
+							if = {
+								limit = {
+									NOT = { character = ROOT }
+									is_liege_or_above = ROOT
+								}
+								save_event_target_as = vassal_transfer_character
+							}
+						}
+					}
+				}
+				grant_title = event_target:vassal_transfer_character
+				clear_event_target = vassal_transfer_character
+			}
+		}
+		if = {
+			limit = {
+				num_of_count_titles = 2
+			}
+			any_demesne_title = {
+				limit = {
+					tier = COUNT
+					NOT = {
+						location = {
+							ROOT = {
+								capital_scope = {
+									province = ROOT
+								}
+							}
+						}
+					}
+				}
+				location = {
+					any_neighbor_province = {
+						owner = {
+							if = {
+								limit = {
+									NOT = { character = ROOT }
+									is_liege_or_above = ROOT
+								}
+								save_event_target_as = vassal_transfer_character
+							}
+						}
+					}
+				}
+				grant_title = event_target:vassal_transfer_character
+				clear_event_target = vassal_transfer_character
+			}
+		}
+		if = {
+			limit = {
+				num_of_count_titles = 2
+			}
+			any_demesne_title = {
+				limit = {
+					tier = COUNT
+					NOT = {
+						location = {
+							ROOT = {
+								capital_scope = {
+									province = ROOT
+								}
+							}
+						}
+					}
+				}
+				location = {
+					any_neighbor_province = {
+						owner = {
+							if = {
+								limit = {
+									NOT = { character = ROOT }
+									is_liege_or_above = ROOT
+								}
+								save_event_target_as = vassal_transfer_character
+							}
+						}
+					}
+				}
+				grant_title = event_target:vassal_transfer_character
+				clear_event_target = vassal_transfer_character
+			}
+		}
+		any_vassal = {
+			narrative_event = { id = succession.3 }
+		}	
+		any_demesne_title = {
+			limit = {
+				NOT = { tier = COUNT }
+			}
+			destroy_landed_title = THIS
+		}
+		capital_scope = {
+			random_neighbor_province = {
+				owner = {
+					save_event_target_as = vassal_transfer_character
+				}
+			}
+			owner = {
+				any_demesne_title = {
+					limit = {
+						tier = COUNT
+					}
+					grant_title = event_target:vassal_transfer_character
+				}
+			}
+			clear_event_target = vassal_transfer_character
+		}
+	}
+}
+
+# Message to vassals
+narrative_event = {
+	id = succession.3
+	title = DEATH_OF_A_DYNASTY
+	desc = succession.3.desc
+	picture = GFX_evt_death
+
+	is_triggered_only = yes
+
+	option = {
+		name = succession.3.opta
+	}
+}
+
+###############################
+# DYNASTIC EXTINCTION: CLAIMS #
+###############################
+
+# on_death
+character_event = {
+	id = succession.4
+	title = succession.4.desc
+	picture = GFX_evt_death
+
+	is_triggered_only = yes
+
+	trigger = {
+		independent = yes
+		is_feudal = yes
+		NOT = { has_landed_title = k_rome }
+		NOT = { # No male dynasty members left
+			any_dynasty_member = {
+				is_female = no
+			}
+		}
+		OR = {
+			ai = no			
+			has_regent = no
+		}
+		primary_title = {
+			OR = {
+				tier = EMPEROR
+				tier = KING
+				tier = DUKE
+			}
+		}
+	}
+
+	option = {
+		name = succession.4.opta
+
+		custom_tooltip = {
+			text = ALL_VASSALS_GET_CLAIM
+			any_vassal = {
+				limit = { higher_tier_than = BARON }
+				ROOT = {
+					primary_title = {
+						random_list = {
+							50 = {
+								add_claim = PREVPREV
+							}
+							50 = {
+								add_pressed_claim = PREVPREV
+							}
+						}
+					}
+				}
+				narrative_event = { id = succession.5 }
+			}
+		}
+	}
+}
+
+# Message to vassals
+narrative_event = {
+	id = succession.5
+	title = DEATH_OF_A_DYNASTY
+	desc = succession.5.desc
+	picture = GFX_evt_death
+
+	is_triggered_only = yes
+
+	option = {
+		name = succession.5.opta
+	}
+}

@@ -1,0 +1,129 @@
+kings_peace;King's Peace;;;;;;;;;;;;;;x
+kings_peace_desc;The King's Peace determines to what extent de jure vassals can wage war inside and outside the realm.;;;;;;;;;;;;;;x
+kings_peace_0;No King's Peace;;;;;;;;;;;;;;x
+kings_peace_0_option;None;;;;;;;;;;;;;;x
+kings_peace_0_desc;Vassals are able to wage war freely inside and outside the realm.;;;;;;;;;;;;;;x
+kings_peace_1;Internal King's Peace;;;;;;;;;;;;;;x
+kings_peace_1_option;Internal;;;;;;;;;;;;;;x
+kings_peace_1_desc;Vassals are unable to wage war against other characters in the realm, but can still wage war against other realms.;;;;;;;;;;;;;;x
+kings_peace_2;External King's Peace;;;;;;;;;;;;;;x
+kings_peace_2_option;External;;;;;;;;;;;;;;x
+kings_peace_2_desc;Vassals are unable to wage war against other characters in the realm or other realms.;;;;;;;;;;;;;;x
+revocation;Revokation;;;;;;;;;;;;;;x
+revocation_desc;Revokation refers to the King's ability to revoke a vassal's title.;;;;;;;;;;;;;;x
+revocation_0;No Revokation;;;;;;;;;;;;;;x
+revocation_0_option;None;;;;;;;;;;;;;;x
+revocation_0_desc;The King is unable to revoke any titles.;;;;;;;;;;;;;;x
+revocation_1;Title Revokation;;;;;;;;;;;;;;x
+revocation_1_option;Title;;;;;;;;;;;;;;x
+revocation_1_desc;The King is able to revoke titles, although his vassals will be upset if he has no valid reason.;;;;;;;;;;;;;;x
+nomad_settled;Lifestyle;;;;;;;;;;;;;;x
+nomad_settled_desc;There were big differences in the lifestyles of the ancient peoples. The people on the Steppe preferred a nomadic lifestyle while the 'civilised' world preferred an agricultural lifestyle.;;;;;;;;;;;;;;x
+nomad_settled_0;Nomadic Lifestyle;;;;;;;;;;;;;;x
+nomad_settled_0_option;Nomadic;;;;;;;;;;;;;;x
+nomad_settled_0_desc;These people follow a nomadic lifestyle. They live on the land until it can no longer sustain them. They prefer pastoralism, so they have to move around with their herds of livestock.;;;;;;;;;;;;;;x
+nomad_settled_1;Settled Lifestyle;;;;;;;;;;;;;;x
+nomad_settled_1_option;Settled;;;;;;;;;;;;;;x
+nomad_settled_1_desc;These people follow a settled lifestyle. They practice agriculture so they don't have to move around the land like the nomads do.;;;;;;;;;;;;;;x
+feudal_emphasis;Feudal Emphasis;;;;;;;;;;;;;;x
+feudal_emphasis_desc;Feudal Emphasis changes the focus of the nobility.;;;;;;;;;;;;;;x
+feudal_emphasis_0;More Levies;;;;;;;;;;;;;;x
+feudal_emphasis_0_option;+Levies;;;;;;;;;;;;;;x
+feudal_emphasis_0_desc;The nobility will provide a lot more levies in exchange for a large reduction in taxes.;;;;;;;;;;;;;;x
+feudal_emphasis_1;Levies;;;;;;;;;;;;;;x
+feudal_emphasis_1_option;Levies;;;;;;;;;;;;;;x
+feudal_emphasis_1_desc;The nobility will provide a more levies in exchange for a reduction in taxes.;;;;;;;;;;;;;;x
+feudal_emphasis_2;Balanced;;;;;;;;;;;;;;x
+feudal_emphasis_2_option;None;;;;;;;;;;;;;;x
+feudal_emphasis_2_desc;The nobility will provide an equal amount of taxes and levies.;;;;;;;;;;;;;;x
+feudal_emphasis_3;Taxes;;;;;;;;;;;;;;x
+feudal_emphasis_3_option;Taxes;;;;;;;;;;;;;;x
+feudal_emphasis_3_desc;The nobility will provide more taxes in exchange for a reduction in levies.;;;;;;;;;;;;;;x
+feudal_emphasis_4;More Taxes;;;;;;;;;;;;;;x
+feudal_emphasis_4_option;+Taxes;;;;;;;;;;;;;;x
+feudal_emphasis_4_desc;The nobility will provide a lot more taxes in exchange for a large reduction in levies.;;;;;;;;;;;;;;x
+feudal_obligations;Feudal Obligations;;;;;;;;;;;;;;x
+feudal_obligations_desc;Feudal Obligations changes the obligations of the nobility.;;;;;;;;;;;;;;x
+feudal_obligations_0;Minimal Feudal Obligations;;;;;;;;;;;;;;x
+feudal_obligations_0_option;Minimal;;;;;;;;;;;;;;x
+feudal_obligations_0_desc;The nobility has little obligations.;;;;;;;;;;;;;;x
+feudal_obligations_1;Low Feudal Obligations;;;;;;;;;;;;;;x
+feudal_obligations_1_option;Low;;;;;;;;;;;;;;x
+feudal_obligations_1_desc;The nobility has a low amount of obligations.;;;;;;;;;;;;;;x
+feudal_obligations_2;Medium Feudal Obligations;;;;;;;;;;;;;;x
+feudal_obligations_2_option;Medium;;;;;;;;;;;;;;x
+feudal_obligations_2_desc;The nobility has a moderate amount of obligations.;;;;;;;;;;;;;;x
+feudal_obligations_3;High Feudal Obligations;;;;;;;;;;;;;;x
+feudal_obligations_3_option;High;;;;;;;;;;;;;;x
+feudal_obligations_3_desc;The nobility has a high amount of obligations.;;;;;;;;;;;;;;x
+feudal_obligations_4;Harsh Feudal Obligations;;;;;;;;;;;;;;x
+feudal_obligations_4_option;Harsh;;;;;;;;;;;;;;x
+feudal_obligations_4_desc;The nobility has a harsh amount of obligations.;;;;;;;;;;;;;;x
+city_emphasis;City Emphasis;;;;;;;;;;;;;;x
+city_emphasis_desc;City Emphasis changes the focus of the cities.;;;;;;;;;;;;;;x
+city_emphasis_0;More Levies;;;;;;;;;;;;;;x
+city_emphasis_0_option;+Levies;;;;;;;;;;;;;;x
+city_emphasis_0_desc;The cities will provide a lot more levies in exchange for a large reduction in taxes.;;;;;;;;;;;;;;x
+city_emphasis_1;Levies;;;;;;;;;;;;;;x
+city_emphasis_1_option;Levies;;;;;;;;;;;;;;x
+city_emphasis_1_desc;The cities will provide a more levies in exchange for a reduction in taxes.;;;;;;;;;;;;;;x
+city_emphasis_2;Balanced;;;;;;;;;;;;;;x
+city_emphasis_2_option;None;;;;;;;;;;;;;;x
+city_emphasis_2_desc;The cities will provide an equal amount of taxes and levies.;;;;;;;;;;;;;;x
+city_emphasis_3;Taxes;;;;;;;;;;;;;;x
+city_emphasis_3_option;Taxes;;;;;;;;;;;;;;x
+city_emphasis_3_desc;The cities will provide more taxes in exchange for a reduction in levies.;;;;;;;;;;;;;;x
+city_emphasis_4;More Taxes;;;;;;;;;;;;;;x
+city_emphasis_4_option;+Taxes;;;;;;;;;;;;;;x
+city_emphasis_4_desc;The cities will provide a lot more taxes in exchange for a large reduction in levies.;;;;;;;;;;;;;;x
+city_obligations;City Obligations;;;;;;;;;;;;;;x
+city_obligations_desc;City Obligations changes the obligations of the cities.;;;;;;;;;;;;;;x
+city_obligations_0;Minimal City Obligations;;;;;;;;;;;;;;x
+city_obligations_0_option;Minimal;;;;;;;;;;;;;;x
+city_obligations_0_desc;The cities have little obligations.;;;;;;;;;;;;;;x
+city_obligations_1;Low City Obligations;;;;;;;;;;;;;;x
+city_obligations_1_option;Low;;;;;;;;;;;;;;x
+city_obligations_1_desc;The cities have a low amount of obligations.;;;;;;;;;;;;;;x
+city_obligations_2;Medium City Obligations;;;;;;;;;;;;;;x
+city_obligations_2_option;Medium;;;;;;;;;;;;;;x
+city_obligations_2_desc;The cities have a moderate amount of obligations.;;;;;;;;;;;;;;x
+city_obligations_3;High City Obligations;;;;;;;;;;;;;;x
+city_obligations_3_option;High;;;;;;;;;;;;;;x
+city_obligations_3_desc;The cities have a high amount of obligations.;;;;;;;;;;;;;;x
+city_obligations_4;Harsh City Obligations;;;;;;;;;;;;;;x
+city_obligations_4_option;Harsh;;;;;;;;;;;;;;x
+city_obligations_4_desc;The cities have a harsh amount of obligations.;;;;;;;;;;;;;;x
+temple_emphasis;Temple Emphasis;;;;;;;;;;;;;;x
+temple_emphasis_desc;Temple Emphasis changes the focus of the temples.;;;;;;;;;;;;;;x
+temple_emphasis_0;More Levies;;;;;;;;;;;;;;x
+temple_emphasis_0_option;+Levies;;;;;;;;;;;;;;x
+temple_emphasis_0_desc;The temples will provide a lot more levies in exchange for a large reduction in taxes.;;;;;;;;;;;;;;x
+temple_emphasis_1;Levies;;;;;;;;;;;;;;x
+temple_emphasis_1_option;Levies;;;;;;;;;;;;;;x
+temple_emphasis_1_desc;The temples will provide a more levies in exchange for a reduction in taxes.;;;;;;;;;;;;;;x
+temple_emphasis_2;Balanced;;;;;;;;;;;;;;x
+temple_emphasis_2_option;None;;;;;;;;;;;;;;x
+temple_emphasis_2_desc;The temples will provide an equal amount of taxes and levies.;;;;;;;;;;;;;;x
+temple_emphasis_3;Taxes;;;;;;;;;;;;;;x
+temple_emphasis_3_option;Taxes;;;;;;;;;;;;;;x
+temple_emphasis_3_desc;The temples will provide more taxes in exchange for a reduction in levies.;;;;;;;;;;;;;;x
+temple_emphasis_4;More Taxes;;;;;;;;;;;;;;x
+temple_emphasis_4_option;+Taxes;;;;;;;;;;;;;;x
+temple_emphasis_4_desc;The temples will provide a lot more taxes in exchange for a large reduction in levies.;;;;;;;;;;;;;;x
+temple_obligations;Temple Obligations;;;;;;;;;;;;;;x
+temple_obligations_desc;Temple Obligations changes the obligations of the temples.;;;;;;;;;;;;;;x
+temple_obligations_0;Minimal Temple Obligations;;;;;;;;;;;;;;x
+temple_obligations_0_option;Minimal;;;;;;;;;;;;;;x
+temple_obligations_0_desc;The temples have little obligations.;;;;;;;;;;;;;;x
+temple_obligations_1;Low Temple Obligations;;;;;;;;;;;;;;x
+temple_obligations_1_option;Low;;;;;;;;;;;;;;x
+temple_obligations_1_desc;The temples have a low amount of obligations.;;;;;;;;;;;;;;x
+temple_obligations_2;Medium Temple Obligations;;;;;;;;;;;;;;x
+temple_obligations_2_option;Medium;;;;;;;;;;;;;;x
+temple_obligations_2_desc;The temples have a moderate amount of obligations.;;;;;;;;;;;;;;x
+temple_obligations_3;High Temple Obligations;;;;;;;;;;;;;;x
+temple_obligations_3_option;High;;;;;;;;;;;;;;x
+temple_obligations_3_desc;The temples have a high amount of obligations.;;;;;;;;;;;;;;x
+temple_obligations_4;Harsh Temple Obligations;;;;;;;;;;;;;;x
+temple_obligations_4_option;Harsh;;;;;;;;;;;;;;x
+temple_obligations_4_desc;The temples have a harsh amount of obligations.;;;;;;;;;;;;;;x

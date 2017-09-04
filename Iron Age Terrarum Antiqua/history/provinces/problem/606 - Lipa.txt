@@ -1,0 +1,15 @@
+# 606 - Lipa
+
+# County Title
+title = c_lipa
+
+# Settlements
+max_settlements = 1
+b_kokand_lipa = castle
+
+# Misc
+culture = sogdian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

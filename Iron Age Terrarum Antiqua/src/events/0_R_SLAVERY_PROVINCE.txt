@@ -1,0 +1,328 @@
+namespace = slavpop
+
+#Province maintainance events 0-999
+#Slaves captured after siege win 1000-1999
+#Slaves captured after major battle 2000-2999
+#Factors increasing slave revolts 3000-3999
+#Slave revolts 4000-4999
+
+# # # # # # # # # # # # # # # #
+# PROVINCE MAINTAINANCE EVENTS #
+# # # # # # # # # # # # # # # #
+
+# Kickoff
+province_event = {
+	id = slavpop.0
+	desc = slavpop.0.desc
+	picture = GFX_evt_child_reading # No actual picture needed
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					religion = zoroastrian_main
+					religion = zurvanism
+				}
+			}
+			set_variable = {
+				which = "slave_pop"
+				value = 0
+			}
+			add_province_modifier = {
+				name = slavery_population_small
+				duration = -1
+			}
+			break = yes
+		}
+		set_variable = {
+			which = "slave_pop"
+			value = 5000
+		}
+		# Randomizing as much as I can
+		if = {
+			limit = { num_of_settlements = 2 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 3 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 4 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 5 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 6 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 7 }
+			multiply_variable = {
+				which = "slave_pop"
+				value = 1.5
+			}
+		}
+
+
+
+		random_province_character = {
+			if = {
+				limit = {
+					$condition_character_age_ends_with(0)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.001
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(1)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.011
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(2)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.022
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(3)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.033
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(4)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.044
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(5)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.055
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(6)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.066
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(7)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.077
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(8)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.088
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(9)
+				}
+				location = {
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.099
+					}
+				}
+			}
+		}
+
+
+
+		add_province_modifier = {
+			name = slavery_population_medium
+			duration = -1
+		}
+	}
+}
+
+##########################
+# POPULATION MAINTENANCE #
+##########################
+
+character_event = {
+	id = slavpop.10
+	desc = AI_desc
+	picture = GFX_evt_child_reading # Will not be seen
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		independent = yes
+	}
+
+	immediate = {
+		any_realm_province = {
+			province_event = { id = slavpop.11 }
+		}
+	}
+}
+
+province_event = {
+	id = slavpop.11
+	desc = AI_desc
+	picture = GFX_evt_child_reading # Will not be seen
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	option = {
+		name = AI_desc
+		random_list = {
+			25 = { # Population grows
+				multiply_variable = {
+					which = "slave_pop"
+					value = 1.03
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.03
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.03
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.01
+					}
+				}
+			}
+			50 = { # Population remains stable
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.01
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 0.99
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 1.01
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 0.99
+					}
+				}
+
+			}
+			25 = { # Population decreases
+				multiply_variable = {
+					which = "slave_pop"
+					value = 0.97
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 0.97
+					}
+				}
+				random = {
+					chance = 20
+					multiply_variable = {
+						which = "slave_pop"
+						value = 0.99
+					}
+				}
+			}
+		}
+		$update_province_modifier(slavery_population_small, -1)
+		$update_province_modifier(slavery_population_medium, -1)
+	}
+}

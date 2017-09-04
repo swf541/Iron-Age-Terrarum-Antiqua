@@ -1,0 +1,122 @@
+decisions = {
+	become_king_of_sicily = {
+		is_high_prio = yes
+		potential = {
+			higher_tier_than = DUKE
+			NOT = {	trait = king_of_sicily }
+			has_regent = no
+			capital_scope = {
+				county = {
+					OR = {
+						title = c_syracuse
+						title = c_selinus
+						title = c_sicels
+						title = c_gela
+						title = c_elymians
+						title = c_lilybaeum
+						title = c_himera
+						title = c_messana
+					}
+				}
+			}
+			independent = yes
+			is_feudal = yes # Tyrants only
+			OR = {
+				culture_group = hellenic
+				culture = punic
+			}
+		}
+		allow = {
+			prisoner = no
+			age = 16
+			OR = {
+				AND = {
+					custom_tooltip = {
+						text = king_of_sicily_control_east_sicily
+						hidden_tooltip = {
+							c_syracuse = {
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+							c_messana = {
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+							c_sicels = {
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+							c_gela = {
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+						}
+					}
+					culture_group = hellenic
+				}
+				AND = {
+					custom_tooltip = {
+						text = king_of_sicily_control_western_sicily
+						hidden_tooltip = {
+							c_elymians = {
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+							c_lilybaeum = {
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+							c_himera = {
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+							c_selinus = {
+								holder_scope = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+						}
+					}
+					culture = punic
+				}
+			}
+		}
+		effect = {
+			add_trait = king_of_sicily
+			add_claim = d_elymians
+			add_claim = d_sicels
+			add_claim = d_sicani
+		}
+	}
+}

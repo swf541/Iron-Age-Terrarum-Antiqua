@@ -1,0 +1,37 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_buddhist_pagoda"
+		texturefile = "gfx\\event_pictures\\buddhist_pagoda.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_monk_eastern_group"
+		texturefile = "gfx\\event_pictures\\monk_eastern_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_icon_eastern_group"
+		texturefile = "gfx\\event_pictures\icon_eastern_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_death_eastern_group"
+		texturefile = "gfx\\event_pictures\death_eastern_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_vegetarian"
+		texturefile = "gfx\\event_pictures\vegetarian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_zoroastrian_fire"
+		texturefile = "gfx\\event_pictures\\zoroastrian_fire.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_indian_market"
+		texturefile = "gfx\\event_pictures\indian_market.tga"
+		allwaystransparent = yes
+	}
+}

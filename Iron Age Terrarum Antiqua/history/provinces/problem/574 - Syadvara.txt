@@ -1,0 +1,15 @@
+# 574 - Syadvara
+
+# County Title
+title = c_syadvara
+
+# Settlements
+max_settlements = 1
+b_syadvara_syadvara = tribal
+
+# Misc
+culture = scythian
+religion = zoroastrian_main
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,54 @@
+hidden_consul_modifier = {
+	# Keeps track of the time or if a consul is elected legitimately
+	icon = 1
+}
+wrong_culture = {
+	icon = 31
+	levy_size = -0.1
+}
+wrong_cultural_group = {
+	icon = 31
+	levy_size = -0.33
+}
+
+# POPULATION
+minimal_population = {
+	icon = 36
+	levy_size = -0.5
+	local_tax_modifier = -0.75
+	local_revolt_risk = -0.075
+}
+low_population = {
+	icon = 36
+	levy_size = -0.25
+	local_tax_modifier = -0.35
+	local_revolt_risk = -0.3
+}
+medium_population = {
+	icon = 18
+	# Standard amount
+}
+large_population = {
+	icon = 18
+	levy_size = 0.5
+	local_tax_modifier = 0.5
+	local_revolt_risk = 0.02
+}
+huge_population = { 
+	icon = 18
+	levy_size = 1
+	local_tax_modifier = 1
+	local_revolt_risk = 0.05
+}
+
+# NOMAD RESOURCE
+low_resource = {
+	levy_size = -0.25
+	local_tax_modifier = -0.5
+}
+medium_resource = {
+}
+high_resource = {
+	levy_size = 0.1
+	local_tax_modifier = 0.25
+}
