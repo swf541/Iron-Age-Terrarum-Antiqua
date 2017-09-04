@@ -10,7 +10,7 @@ b_hanmi_hanmi = castle # Keriya
 b_jingjue_hanmi = city # Niya
 
 culture = tocharian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

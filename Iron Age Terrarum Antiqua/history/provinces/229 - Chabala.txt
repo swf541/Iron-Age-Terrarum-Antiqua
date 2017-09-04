@@ -11,7 +11,7 @@ b_nyudi_chabala = city
 
 # Misc
 culture = albanian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

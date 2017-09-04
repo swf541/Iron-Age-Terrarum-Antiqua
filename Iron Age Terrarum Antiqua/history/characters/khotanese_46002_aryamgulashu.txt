@@ -2,7 +2,7 @@
 460101 = {
 	name = "Kushtana" # Made up
 	dynasty = 46002 # Aryamgulashu
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = khotanese
 	395.1.1 = { # 381 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 460102 = {
 	name = "Samgaka" # Made up
 	dynasty = 46002 # Aryamgulashu
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = khotanese
 	father = 460101
 	419.1.1 = { # 357 BC

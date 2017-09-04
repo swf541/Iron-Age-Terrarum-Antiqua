@@ -12,7 +12,7 @@ b_khurramabad_nemavand = castle
 
 # Misc
 culture = elamite
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

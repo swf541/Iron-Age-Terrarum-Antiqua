@@ -2,7 +2,7 @@
 90101 = {
 	name = "Phrataphernes" # Phrataphernes, satrap of Parthia and Hyrcania
 	dynasty = 9002 # Phrataphernes
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	
 	add_trait = kind
@@ -17,7 +17,7 @@
 90102 = {
 	name = "Pharsman" # Son of Phrataphernes
 	dynasty = 9002 # Phrataphernes
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90101
 	435.1.1 = { # 341 BC Made up

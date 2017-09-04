@@ -13,7 +13,7 @@ b_sheytanabad_adar_gushnasp = temple
 
 # Misc
 culture = median
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

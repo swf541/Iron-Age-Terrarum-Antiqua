@@ -45,18 +45,18 @@ PATRONS_HINDUISM_MAIN.2.a;Mitra;;;;;;;;;;;;x
 PATRONS_HINDUISM_MAIN.2.b;Shiva;;;;;;;;;;;;x
 PATRONS_HINDUISM_MAIN.2.c;Vishnu;;;;;;;;;;;;x
 PATRONS_HINDUISM_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
-patrons_scythian_main;Adopt A Scythian Patron Deity;;;;;;;;;;;;x
-patrons_scythian_main_desc;Adopt a deity from the Scythian faith to act as your patron.;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.1.desc;Choose a patron deity to adopt from the Scythian faith:;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.1.a;Papaios;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.1.b;Tabiti;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.1.c;Agin;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.1.d;There are others...;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.2.desc;Choose a patron deity to adopt from the Scythian faith:;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.2.a;Oitosyros;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.2.b;Api;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.2.c;Thagimasidas;;;;;;;;;;;;x
-PATRONS_SCYTHIAN_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_ossetian_pagan;Adopt A Scythian Patron Deity;;;;;;;;;;;;x
+patrons_ossetian_pagan_desc;Adopt a deity from the Scythian faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.1.desc;Choose a patron deity to adopt from the Scythian faith:;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.1.a;Papaios;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.1.b;Tabiti;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.1.c;Agin;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.2.desc;Choose a patron deity to adopt from the Scythian faith:;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.2.a;Oitosyros;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.2.b;Api;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.2.c;Thagimasidas;;;;;;;;;;;;x
+PATRONS_ossetian_pagan.2.d;On second thoughts...;;;;;;;;;;;;x
 patrons_armenian_main;Adopt An Armenian Patron Deity;;;;;;;;;;;;x
 patrons_armenian_main_desc;Adopt a deity from the Armenian faith to act as your patron.;;;;;;;;;;;;x
 PATRONS_ARMENIAN_MAIN.1.desc;Choose a patron deity to adopt from the Armenian faith:;;;;;;;;;;;;x

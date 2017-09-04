@@ -2,7 +2,7 @@
 340201 = {
 	name = "Idanthyrsus" # Made up
 	dynasty = 34003 # Maiotai
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = sarmatian
 	father = 340202
 	430.1.1 = { # 346 BC
@@ -15,7 +15,7 @@
 340202 = {
 	name = "Spalahores" # Made up
 	dynasty = 34003 # Maiotai
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = sarmatian
 	400.1.1 = { # 376 BC
 		birth="yes"

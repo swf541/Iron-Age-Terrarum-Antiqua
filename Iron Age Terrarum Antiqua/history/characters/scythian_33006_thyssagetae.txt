@@ -2,7 +2,7 @@
 330501 = {
 	name = "Azes" # Made up
 	dynasty = 33006 # Thyssagetai
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	father = 330503
 	428.1.1 = { # 348 BC
@@ -15,7 +15,7 @@
 330502 = {
 	name = "Sariakos" # Made up
 	dynasty = 33006 # Thyssagetai
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	father = 330501
 	448.1.1 = { # 328 BC
@@ -28,7 +28,7 @@
 330503 = {
 	name = "Scylurus" # Made up
 	dynasty = 33006 # Thyssagetai
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	399.1.1 = { # 377 BC
 		birth="yes"

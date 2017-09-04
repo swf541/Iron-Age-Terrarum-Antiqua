@@ -2,7 +2,7 @@
 90301 = {
 	name = "Kuru" # Cyrus the Great, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90317
 	
@@ -28,7 +28,7 @@
 90302 = {
 	name = "Kambuyija" # Cambyses II, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90301
 	
@@ -49,7 +49,7 @@
 90303 = {
 	name = "Bardiya" # Bardiya, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90301
 	
@@ -69,7 +69,7 @@
 90304 = {
 	name = "Vishtaspa" # Hystaspes, father of Darius the Great
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90319
 	206.1.1 = { # 570 BC Made up
@@ -82,7 +82,7 @@
 90305 = {
 	name = "Darayavahu" # Darius the Great, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90304
 	
@@ -106,7 +106,7 @@
 90306 = {
 	name = "Xshayarshan" # Xerxes the Great, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90305
 	
@@ -130,7 +130,7 @@
 90307 = {
 	name = "Artaxshasa" # Artaxerxes I, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90306
 	
@@ -149,7 +149,7 @@
 90308 = {
 	name = "Xshayarshan" # Xerxes II, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90307
 	308.1.1 = { # 468 BC Made up
@@ -168,7 +168,7 @@
 90309 = {
 	name = "Sogdianus" # Sogdianus, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90307
 	313.1.1 = { # 463 BC Made up
@@ -186,7 +186,7 @@
 90310 = {
 	name = "Darayavahu" # Darius II, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90307
 	
@@ -206,7 +206,7 @@
 90311 = {
 	name = "Artaxshasa" # Artaxerxes II, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90310
 	
@@ -226,7 +226,7 @@
 90312 = {
 	name = "Artaxshasa" # Artaxerxes III, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90311
 	
@@ -251,7 +251,7 @@
 90313 = {
 	name = "Artaxshasa" # Artaxerxes IV, Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90312
 	
@@ -272,7 +272,7 @@
 90314 = {
 	name = "Darayavahu" # Darius III, last Persian emperor
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	
 	add_trait = duelist
@@ -295,7 +295,7 @@
 90315 = {
 	name ="Cishpi" # Teispes, King of Anshan
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	91.1.1 = { # 685 BC Made up
 		birth="yes"
@@ -307,7 +307,7 @@
 90316 = {
 	name = "Kuru" # Cyrus, King of Anshan
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90315
 	116.1.1 = { # 660 BC Made up
@@ -320,7 +320,7 @@
 90317 = {
 	name = "Kambuyija" # Cambyses I, King of Anshan
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90316
 	
@@ -336,7 +336,7 @@
 90318 = {
 	name = "Ariyamna" # Ariaramnes
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90315
 	120.1.1 = { # 656 BC Made up
@@ -349,7 +349,7 @@
 90319 = {
 	name = "Arshama" # Arsames
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90318
 	166.1.1 = { # 610 BC
@@ -362,7 +362,7 @@
 90320 = {
 	name = "Artaxshasa" # Artaxerxes V Bessus
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	
 	add_trait = ambitious
@@ -379,7 +379,7 @@
 90321 = {
 	name = "Fravarti" # Made up Achaemenid Satrap of Persia
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	393.1.1 = { # 383 BC made up
 		birth="yes"
@@ -391,7 +391,7 @@
 90322 = {
 	name = "Vahyazdata" # Made up Achaemenid Satrap of Media
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	395.1.1 = { # 381 BC made up
 		birth="yes"
@@ -403,7 +403,7 @@
 90323 = {
 	name = "Spithridates" # Last Achaemenid satrap of Lydia
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	400.1.1 = { # 376 BC made up
 		birth="yes"
@@ -417,7 +417,7 @@
 90324 = {
 	name = "Kuru" # Made up Achaemenid Satrap of Babylon
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	393.1.1 = { # 383 BC made up
 		birth="yes"
@@ -429,7 +429,7 @@
 90325 = {
 	name = "Oxydates" # First Alexandrian satrap of Media
 	dynasty = 9004 # Achaemenid
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	415.1.1 = { # 361 BC Made up
 		birth="yes"

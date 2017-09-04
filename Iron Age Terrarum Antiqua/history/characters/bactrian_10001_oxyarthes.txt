@@ -2,7 +2,7 @@
 100001 = {
 	name = "Raoxshna"
 	dynasty = 10001 # Oxyarthes
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = bactrian
 	#employer = 801 # Philip III
 	father = 100002
@@ -27,7 +27,7 @@
 100002 = {
 	name = "Hushyaothna" # Oxyartes, satrap of Paropamisia and father of Roxane
 	dynasty = 10001 # Oxyarthes
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = bactrian
 	408.1.1 = { # 368 BC Made up
 		birth="yes"

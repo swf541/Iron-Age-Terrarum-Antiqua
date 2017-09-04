@@ -2,7 +2,7 @@
 240001 = {
 	name = "Apama" # Wife of Seleukos
 	dynasty = 24001 # Spitamenes
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = sogdian
 	female = yes
 	432.1.1 = { # 344 BC Made up

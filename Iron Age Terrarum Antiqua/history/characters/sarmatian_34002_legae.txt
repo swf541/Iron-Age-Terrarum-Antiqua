@@ -2,7 +2,7 @@
 340101 = {
 	name = "Palacus" # Made up
 	dynasty = 34002 # Legae
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = sarmatian
 	father = 340102
 	430.1.1 = { # 346 BC
@@ -15,7 +15,7 @@
 340102 = {
 	name = "Scyles" # Made up
 	dynasty = 34002 # Legae
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = sarmatian
 	398.1.1 = { # 378 BC
 		birth="yes"

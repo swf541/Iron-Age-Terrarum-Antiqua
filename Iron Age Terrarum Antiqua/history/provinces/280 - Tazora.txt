@@ -11,7 +11,7 @@ b_gauzaca_tazora = temple
 
 # Misc
 culture = arian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

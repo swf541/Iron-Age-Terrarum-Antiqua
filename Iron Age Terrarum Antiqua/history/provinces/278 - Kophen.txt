@@ -13,7 +13,7 @@ b_arigaeum_kophen = city
 
 # Misc
 culture = arian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

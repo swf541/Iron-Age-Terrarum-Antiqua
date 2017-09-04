@@ -12,7 +12,7 @@ b_gumo_wensu = temple
 b_wensu_shule = city
 
 culture = khotanese
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

@@ -2,7 +2,7 @@
 90601 = {
 	name = "Mazaces" # Last Persian satrap of Egypt
 	dynasty = 9007 # Mazaces
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	403.1.1 = { # 373 BC made up
 		birth="yes"

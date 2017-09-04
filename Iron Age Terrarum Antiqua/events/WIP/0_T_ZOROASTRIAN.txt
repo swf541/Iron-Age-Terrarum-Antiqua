@@ -13,8 +13,8 @@ character_event = {
 
 	trigger = {
 		or = {
-			religion = zoroastrian_main
-			religion = zurvanism
+			religion = zoroastrian
+			religion = zurvanite
 		}
 		father = { is_alive = yes }
 		NOT = {

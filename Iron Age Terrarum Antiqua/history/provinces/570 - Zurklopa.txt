@@ -9,7 +9,7 @@ b_zurklopa_zurklopa = tribal
 
 # Misc
 culture = scythian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

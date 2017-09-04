@@ -9,7 +9,7 @@ b_lithinos_pyrgos_lithinos = castle
 
 # Misc
 culture = khotanese
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

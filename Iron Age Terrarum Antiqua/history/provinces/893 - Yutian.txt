@@ -10,7 +10,7 @@ b_yutian_yutian = castle # Khotan
 b_qule_yutian = city
 
 culture = khotanese
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

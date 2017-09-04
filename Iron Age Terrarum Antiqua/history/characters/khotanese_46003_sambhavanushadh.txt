@@ -2,7 +2,7 @@
 460201 = {
 	name = "Simhyi" # Made up
 	dynasty = 46003 # Shambhavanushadh
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = khotanese
 	395.1.1 = { # 381 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 460202 = {
 	name = "Vidakai" # Made up
 	dynasty = 46003 # Shambhavanushadh
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = khotanese
 	father = 460201
 	419.1.1 = { # 357 BC

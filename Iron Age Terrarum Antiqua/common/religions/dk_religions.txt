@@ -42,9 +42,9 @@ egyptian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -105,9 +105,9 @@ egyptian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -179,9 +179,9 @@ north_african_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -253,9 +253,9 @@ illyrian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -327,9 +327,9 @@ daco_thracian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -391,9 +391,9 @@ daco_thracian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -465,9 +465,9 @@ celtic_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -539,9 +539,9 @@ punic_religion = {
 		#intermarry = punic_main
 		#intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -600,9 +600,9 @@ punic_religion = {
 		#intermarry = punic_main
 		#intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -629,7 +629,7 @@ punic_religion = {
 		intermarry = dravidian_main
 	}
 }
-indo_iranian_religion = {
+zoroastrian_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade # Should be changed or removed entirely
@@ -638,7 +638,7 @@ indo_iranian_religion = {
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
 
-	zoroastrian_main = {
+	zoroastrian = {
 		graphical_culture = westerngfx
 		icon = 10
 		color = { 0.3 0.6 0.3 }
@@ -668,9 +668,9 @@ indo_iranian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		#intermarry = zoroastrian_main
-		#intermarry = zurvanism
-		#intermarry = scythian_main
+		#intermarry = zoroastrian
+		#intermarry = zurvanite
+		#intermarry = ossetian_pagan
 		#intermarry = hinduism_main
 		#intermarry = armenian_main	
 		
@@ -696,7 +696,7 @@ indo_iranian_religion = {
 						
 		intermarry = dravidian_main
 	}
-	zurvanism = {
+	zurvanite = {
 		graphical_culture = westerngfx
 
 		icon = 11
@@ -727,9 +727,9 @@ indo_iranian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		#intermarry = zoroastrian_main
-		#intermarry = zurvanism
-		#intermarry = scythian_main
+		#intermarry = zoroastrian
+		#intermarry = zurvanite
+		#intermarry = ossetian_pagan
 		#intermarry = hinduism_main
 		#intermarry = armenian_main	
 		
@@ -755,68 +755,109 @@ indo_iranian_religion = {
 						
 		intermarry = dravidian_main
 	}
-	scythian_main = {
-		graphical_culture = westerngfx
+	
+	ossetian_pagan_reformed = {
+		graphical_culture = mongolgfx
+
 		icon = 110
-		color = { 0.3 0.8 0.3 }
-		crusade_name = "CRUSADE"
-		scripture_name = PLACEHOLDER
-		god_names = {
-			GOD_TABITI GOD_PAPAIOS GOD_API GOD_OITOSYROS GOD_ARGIMPASA GOD_THAGIMASIDAS GOD_ARES
-		}
-		can_grant_divorce = yes
-		can_call_crusade = no
-		priests_can_marry = no
-		#allow_looting = yes
-		#peace_prestige_loss = yes # Lose Prestige while at peace
-		raised_vassal_opinion_loss = no
-		defensive_attrition = yes
+		heresy_icon = 185
 		
+		color = { 0.8 0.65 0.8 }
+		
+		unit_modifier = {
+			levy_size = 0.15
+			retinuesize_perc = 0.10
+			
+			key = "OFF_RELIGION"
+		}
+		
+		allow_looting = yes
 		max_consorts = 3
 		
-		intermarry = kemetic	
-		intermarry = atenist
+		short_reign_opinion_year_mult = 3 # The default is 2
 		
-		intermarry = berber_main
+		aggression = 2.0 # AI aggression factor
 		
-		intermarry = illyrian_main
+		crusade_name = "HOLY_WAR"
 		
-		intermarry = thracian_main
-		intermarry = zalmoxism
+		high_god_name = GOD_XUCAU
+		god_names = {
+			GOD_XUCAU GOD_UASTYRDZHI GOD_UACILLA
+			GOD_DONBETTYR  GOD_FÆLVÆRA 
+			GOD_ÆFSATI  GOD_BARASTYR 
+			GOD_HUYÆNDON_ÆLDAR  GOD_TUTYR
+		}
+		evil_god_names = {
+			GOD_SAUBARAG  GOD_ALARDY
+		}
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_NART_SAGAS
+		priests_can_marry = yes
 		
-		intermarry = celtic_main
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
 		
-		intermarry = punic_main
-		intermarry = canaanite_main	
-		
-		#intermarry = zoroastrian_main
-		#intermarry = zurvanism
-		#intermarry = scythian_main
-		#intermarry = hinduism_main
-		#intermarry = armenian_main	
-		
-		#intermarry = judaism_main	
-		
-		intermarry = jainism_main
-		intermarry = buddhism_main
-		
-		intermarry = georgian_main	
-		
-		intermarry = anatolian_main
-		intermarry = phrygian_main
-		
-		intermarry = marduk_cult	
-		
-		intermarry = arabic_main
-		
-		intermarry = greek_main
-		intermarry = roman_main
-		intermarry = pontic_main
-								
-		#intermarry = etruscan_main	
-						
-		intermarry = dravidian_main
+		intermarry = zoroastrian_group
 	}
+	
+	ossetian_pagan = {
+		graphical_culture = mongolgfx
+
+		icon = 110
+		heresy_icon = 185
+		
+		color = { 0.75 0.6 0.75 }
+		
+		unit_modifier = {
+			levy_size = 0.15
+			retinuesize_perc = 0.10
+			
+			key = "OFF_RELIGION"
+		}
+		
+		allow_looting = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		max_consorts = 3
+		reformed = ossetian_pagan_reformed
+		
+		short_reign_opinion_year_mult = 3 # The default is 2
+		
+		aggression = 2.0 # AI aggression factor
+		
+		crusade_name = "HOLY_WAR"
+		
+		high_god_name = GOD_XUCAU
+		god_names = {
+			GOD_XUCAU GOD_UASTYRDZHI GOD_UACILLA
+			GOD_DONBETTYR  GOD_FÆLVÆRA 
+			GOD_ÆFSATI  GOD_BARASTYR 
+			GOD_HUYÆNDON_ÆLDAR  GOD_TUTYR
+		}
+		evil_god_names = {
+			GOD_SAUBARAG  GOD_ALARDY
+		}
+		
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_NART_SAGAS
+		priests_can_marry = yes
+		
+		dislike_tribal_organization = yes
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+		
+		intermarry = zoroastrian_group
+	}
+
 	hinduism_main = {
 		graphical_culture = westerngfx
 		icon = 55
@@ -847,9 +888,9 @@ indo_iranian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		#intermarry = zoroastrian_main
-		#intermarry = zurvanism
-		#intermarry = scythian_main
+		#intermarry = zoroastrian
+		#intermarry = zurvanite
+		#intermarry = ossetian_pagan
 		#intermarry = hinduism_main
 		#intermarry = armenian_main	
 		
@@ -905,9 +946,9 @@ indo_iranian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		#intermarry = zoroastrian_main
-		#intermarry = zurvanism
-		#intermarry = scythian_main
+		#intermarry = zoroastrian
+		#intermarry = zurvanite
+		#intermarry = ossetian_pagan
 		#intermarry = hinduism_main
 		#intermarry = armenian_main	
 		
@@ -998,9 +1039,9 @@ indian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1055,9 +1096,9 @@ indian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1123,9 +1164,9 @@ caucasian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1191,9 +1232,9 @@ anatolian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1249,9 +1290,9 @@ anatolian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1317,9 +1358,9 @@ mesopotamian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1385,9 +1426,9 @@ arabic_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1458,9 +1499,9 @@ greek_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1520,9 +1561,9 @@ greek_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1583,9 +1624,9 @@ greek_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1684,9 +1725,9 @@ dravidian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1758,9 +1799,9 @@ lusitanian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1832,9 +1873,9 @@ iberian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		
@@ -1910,9 +1951,9 @@ aquitanian_religion = {
 		intermarry = punic_main
 		intermarry = canaanite_main	
 		
-		intermarry = zoroastrian_main
-		intermarry = zurvanism
-		intermarry = scythian_main
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
 		intermarry = hinduism_main
 		intermarry = armenian_main	
 		

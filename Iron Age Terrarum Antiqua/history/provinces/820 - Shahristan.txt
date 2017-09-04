@@ -11,7 +11,7 @@ b_dahan_i_golaman_shahristan = temple
 
 # Misc
 culture = arian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

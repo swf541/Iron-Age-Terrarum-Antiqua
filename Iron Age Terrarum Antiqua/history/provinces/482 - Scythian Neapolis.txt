@@ -12,7 +12,7 @@ b_scythian_neapolis_scythian_neapolis = tribal
 
 # Misc
 culture = scythian
-religion = scythian_main
+religion = ossetian_pagan
 
 # History
 # Can be filled when things change around the province

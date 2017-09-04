@@ -11,7 +11,7 @@ b_batkent_alexandria_eschate = city
 
 # Misc
 culture = sogdian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

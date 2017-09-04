@@ -2,7 +2,7 @@
 330401 = {
 	name = "Ailios" # Made up
 	dynasty = 33005 # Apasiakai
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	father = 330402
 	436.1.1 = { # 352 BC
@@ -15,7 +15,7 @@
 330402 = {
 	name = "Saulius" # Made up
 	dynasty = 33005 # Apasiakai
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	father = 330403
 	416.1.1 = { # 360 BC
@@ -28,7 +28,7 @@
 330403 = {
 	name = "Ailios" # Made up
 	dynasty = 33005 # Apasiakai
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	391.1.1 = { # 386 BC
 		birth="yes"

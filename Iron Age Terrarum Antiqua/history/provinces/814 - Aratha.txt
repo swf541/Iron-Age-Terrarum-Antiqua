@@ -11,7 +11,7 @@ b_maruca_aratha = castle
 
 # Misc
 culture = bactrian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

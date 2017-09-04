@@ -2,7 +2,7 @@
 460001 = {
 	name = "Kimashana" # Made up
 	dynasty = 46001 # Nipandakanushadh
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = khotanese
 	395.1.1 = { # 381 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 460002 = {
 	name = "Irasamga" # Made up
 	dynasty = 46001 # Nipandakanushadh
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = khotanese
 	father = 460001
 	419.1.1 = { # 357 BC

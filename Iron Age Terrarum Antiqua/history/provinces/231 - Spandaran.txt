@@ -12,7 +12,7 @@ b_mish_sparandaran = castle
 
 # Misc
 culture = median
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

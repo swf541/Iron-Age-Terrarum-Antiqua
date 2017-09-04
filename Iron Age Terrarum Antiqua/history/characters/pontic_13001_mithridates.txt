@@ -2,7 +2,7 @@
 130001 = {
 	name = "Mithridates" # Mithridates of Cius
 	dynasty = 13001 # Mithridates
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	
 	add_trait = deceitful
@@ -20,7 +20,7 @@
 130002 = {
 	name = "Mithridates" # Mithridates, first king of Pontus
 	dynasty = 13001 # Mithridates
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 130001
 	

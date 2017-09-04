@@ -13,7 +13,7 @@ b_varpna_artacoana = city
 
 # Misc
 culture = bactrian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

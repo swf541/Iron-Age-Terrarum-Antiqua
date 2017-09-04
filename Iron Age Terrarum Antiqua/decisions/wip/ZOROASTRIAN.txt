@@ -12,8 +12,8 @@ decisions = {
 			is_female = no
 			prisoner = no
 			OR = {
-				religion = zoroastrian_main
-				religion = zurvanism
+				religion = zoroastrian
+				religion = zurvanite
 			}
 			OR = {
 				NOT = { has_character_flag = made_sacrifice_1 }
@@ -69,8 +69,8 @@ decisions = {
 			is_female = no
 			prisoner = no
 			OR = {
-				religion = zoroastrian_main
-				religion = zurvanism
+				religion = zoroastrian
+				religion = zurvanite
 			}
 			OR = {
 				NOT = { has_character_flag = made_sacrifice_1 }
@@ -126,8 +126,8 @@ decisions = {
 			is_female = no
 			prisoner = no
 			OR = {
-				religion = zoroastrian_main
-				religion = zurvanism
+				religion = zoroastrian
+				religion = zurvanite
 			}
 			OR = {
 				NOT = { has_character_flag = made_sacrifice_1 }
@@ -183,8 +183,8 @@ decisions = {
 			is_female = no
 			prisoner = no
 			OR = {
-				religion = zoroastrian_main
-				religion = zurvanism
+				religion = zoroastrian
+				religion = zurvanite
 			}
 			OR = {
 				NOT = { has_character_flag = undergoing_cleansing_ritual }

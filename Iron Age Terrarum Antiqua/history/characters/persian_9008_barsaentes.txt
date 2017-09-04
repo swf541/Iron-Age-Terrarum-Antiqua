@@ -2,7 +2,7 @@
 90701 = {
 	name = "Barsaentes" # Last Achaemenid of Arachosia
 	dynasty = 9008 # Barsaentes
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	395.1.1 = { # 381 BC made up
 		birth="yes"

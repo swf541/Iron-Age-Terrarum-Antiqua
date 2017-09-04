@@ -11,7 +11,7 @@ b_barbalana_chaurina = city
 
 # Misc
 culture = parthian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

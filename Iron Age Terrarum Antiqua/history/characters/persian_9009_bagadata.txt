@@ -3,7 +3,7 @@
 	name = "Bagadata" # Bagadat I, Seleucid satrap of Persis. Later rebelled
 	dynasty = 9009
 	culture = persian
-	religion = zoroastrian_main
+	religion = zoroastrian
 	
 	437.1.1 = { # 339 BC, Made up
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Wahbarz" # Oborzos, son of Bagadata
 	dynasty = 9009
 	culture = persian
-	religion = zoroastrian_main
+	religion = zoroastrian
 	
 	father = 90801
 	

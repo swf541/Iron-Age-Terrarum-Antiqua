@@ -12,8 +12,8 @@ dynasty_decisions = {
 			is_ruler = yes
 			OR = {
 				religion_group = egyptian_religion
-				religion = zoroastrian_main
-				religion = zurvanism
+				religion = zoroastrian
+				religion = zurvanite
 				religion = armenian_main
 				religion_group = greek_religion
 			}
@@ -164,8 +164,8 @@ dynasty_decisions = {
 			is_ruler = yes
 			OR = {
 				religion_group = egyptian_religion
-				religion = zoroastrian_main
-				religion = zurvanism
+				religion = zoroastrian
+				religion = zurvanite
 				religion = armenian_main
 				religion_group = greek_religion
 			}
@@ -316,8 +316,8 @@ decisions = {
 			ai = no
 			OR = {
 				religion_group = egyptian_religion
-				religion = zoroastrian_main
-				religion = zurvanism
+				religion = zoroastrian
+				religion = zurvanite
 				religion = armenian_main
 				religion_group = greek_religion
 			}
@@ -370,8 +370,8 @@ decisions = {
 			is_ruler = yes
 			OR = {
 				religion_group = egyptian_religion
-				religion = zoroastrian_main
-				religion = zurvanism
+				religion = zoroastrian
+				religion = zurvanite
 				religion = armenian_main
 				religion_group = greek_religion
 			}

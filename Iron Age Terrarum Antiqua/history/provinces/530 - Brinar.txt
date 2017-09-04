@@ -9,7 +9,7 @@ b_brinar_brinar = tribal
 
 # Misc
 culture = sarmatian
-religion = scythian_main
+religion = ossetian_pagan
 
 # History
 # Can be filled when things change around the province

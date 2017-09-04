@@ -10,7 +10,7 @@ b_yulishi_yulishi = castle
 b_further_jushi_yulishi = city
 
 culture = tocharian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

@@ -13,7 +13,7 @@ b_canasis_pura = castle
 
 # Misc
 culture = persian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

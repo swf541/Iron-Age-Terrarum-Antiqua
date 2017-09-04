@@ -9,7 +9,7 @@ b_madulupa_madulupa = tribal
 
 # Misc
 culture = sarmatian
-religion = scythian_main
+religion = ossetian_pagan
 
 # History
 # Can be filled when things change around the province

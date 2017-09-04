@@ -2,7 +2,7 @@
 370901 = {
 	name = "Kuuna" # Made up
 	dynasty = 37040
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = tocharian
 	388.1.1 = { # 388 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 370902 = {
 	name = "Samghaparana" # Made up
 	dynasty = 37040
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = tocharian
 	father = 370901
 	420.1.1 = { # 356 BC

@@ -9,7 +9,7 @@ b_xola_xayasa_xola_xayasa = tribal
 
 # Misc
 culture = scythian
-religion = scythian_main
+religion = ossetian_pagan
 
 # History
 # Can be filled when things change around the province

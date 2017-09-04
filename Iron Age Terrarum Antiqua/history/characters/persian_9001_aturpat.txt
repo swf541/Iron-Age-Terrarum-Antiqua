@@ -2,7 +2,7 @@
 90001 = {
 	name = "Aturpat" # Atropates, satrap of Lesser Media
 	dynasty = 9001 # Aturpat
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	
 	add_trait = content
@@ -17,7 +17,7 @@
 90002 = {
 	name = "Frenay" # Unnamed daughter of Atropates, wife of Perdiccas
 	dynasty = 9001 # Aturpat
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	female = yes
 	father = 90001
@@ -34,7 +34,7 @@
 90003 = {
 	name = "Bardiya" # Made up king of Atropatene
 	dynasty = 9001 # Aturpat
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90001
 	443.1.1 = { # Made up

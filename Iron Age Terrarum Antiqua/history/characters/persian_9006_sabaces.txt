@@ -2,7 +2,7 @@
 90501 = {
 	name = "Sabaces" # Satrap of Egypt to 333 BC
 	dynasty = 9006 # Sabaces
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	403.1.1 = { # 373 BC made up
 		birth="yes"

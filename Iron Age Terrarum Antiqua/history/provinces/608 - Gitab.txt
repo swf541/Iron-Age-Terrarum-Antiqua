@@ -11,7 +11,7 @@ b_gitab_gitab = tribal
 
 # Misc
 culture = scythian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

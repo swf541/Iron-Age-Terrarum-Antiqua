@@ -13,7 +13,7 @@ b_khuvar_rhagai = castle
 
 # Misc
 culture = parthian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

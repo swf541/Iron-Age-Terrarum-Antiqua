@@ -2,7 +2,7 @@
 370201 = {
 	name = "Goboziko" # Made up
 	dynasty = 37009
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = tocharian
 	399.1.1 = { # 377 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 370202 = {
 	name = "Tsina" # Made up
 	dynasty = 37009
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = tocharian
 	father = 370201
 	428.1.1 = { # 348 BC

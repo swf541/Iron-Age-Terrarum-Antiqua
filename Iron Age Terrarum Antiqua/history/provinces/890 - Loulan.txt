@@ -10,7 +10,7 @@ b_loulan_loulan = castle # Kroran
 b_moshan_loulan = city
 
 culture = tocharian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

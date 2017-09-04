@@ -2,7 +2,7 @@ namespace = PATRONS_ZOROASTRIAN_MAIN
 namespace = PATRONS_GREEK_MAIN
 namespace = PATRONS_BUDDHISM_MAIN
 namespace = PATRONS_HINDUISM_MAIN
-namespace = PATRONS_SCYTHIAN_MAIN
+namespace = PATRONS_ossetian_pagan
 namespace = PATRONS_ARMENIAN_MAIN
 namespace = PATRONS_PONTIC_MAIN
 namespace = PATRONS_MARDUK_CULT
@@ -254,60 +254,60 @@ character_event = {
 
 # Scythian
 character_event = {
-	id = PATRONS_SCYTHIAN_MAIN.1
-	desc = PATRONS_SCYTHIAN_MAIN.1.desc
+	id = PATRONS_ossetian_pagan.1
+	desc = PATRONS_ossetian_pagan.1.desc
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = PATRONS_SCYTHIAN_MAIN.1.a
+		name = PATRONS_ossetian_pagan.1.a
 		add_trait = patron_papaios
 	}
 	
 	option = {
-		name = PATRONS_SCYTHIAN_MAIN.1.b
+		name = PATRONS_ossetian_pagan.1.b
 		add_trait = patron_tabiti
 	}
 	
 	option = {
-		name = PATRONS_SCYTHIAN_MAIN.1.c
+		name = PATRONS_ossetian_pagan.1.c
 		add_trait = patron_agin
 	}
 	
 	option = {
-		name = PATRONS_SCYTHIAN_MAIN.1.d
-		hidden_tooltip = { character_event = { id = PATRONS_SCYTHIAN_MAIN.2 } }
+		name = PATRONS_ossetian_pagan.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ossetian_pagan.2 } }
 	}
 }
 
 character_event = {
-	id = PATRONS_SCYTHIAN_MAIN.2
-	desc = PATRONS_SCYTHIAN_MAIN.2.desc
+	id = PATRONS_ossetian_pagan.2
+	desc = PATRONS_ossetian_pagan.2.desc
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = PATRONS_SCYTHIAN_MAIN.2.a
+		name = PATRONS_ossetian_pagan.2.a
 		add_trait = patron_oitosyros
 	}
 	
 	option = {
-		name = PATRONS_SCYTHIAN_MAIN.2.b
+		name = PATRONS_ossetian_pagan.2.b
 		add_trait = patron_api
 	}
 	
 	option = {
-		name = PATRONS_SCYTHIAN_MAIN.2.c
+		name = PATRONS_ossetian_pagan.2.c
 		add_trait = patron_thagimasidas
 	}
 	
 	option = {
-		name = PATRONS_SCYTHIAN_MAIN.2.d
-		hidden_tooltip = { character_event = { id = PATRONS_SCYTHIAN_MAIN.1 } }
+		name = PATRONS_ossetian_pagan.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_ossetian_pagan.1 } }
 	}
 }
 

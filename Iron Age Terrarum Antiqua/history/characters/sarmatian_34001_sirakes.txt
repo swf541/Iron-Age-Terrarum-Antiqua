@@ -2,7 +2,7 @@
 340001 = {
 	name = "Akrosander" # Made up
 	dynasty = 34001 # Sirakes
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = sarmatian
 	father = 340002
 	419.1.1 = { # 357 BC
@@ -15,7 +15,7 @@
 340002 = {
 	name = "Azes" # Made up
 	dynasty = 34001 # Sirakes
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = sarmatian
 	395.1.1 = { # 381 BC
 		birth="yes"

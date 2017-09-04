@@ -2,7 +2,7 @@
 330601 = {
 	name = "Vonones" # Made up
 	dynasty = 33007 # Tauroi
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	father = 330604
 	435.1.1 = { # 341 BC
@@ -15,7 +15,7 @@
 330602 = {
 	name = "Atheas" # King who fought and was defeated by Philip of Macedon
 	dynasty = 33007 # Tauroi
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	347.1.1 = { # 429 BC
 		birth="yes"
@@ -30,7 +30,7 @@
 330603 = {
 	name = "Moga" # Made up
 	dynasty = 33007 # Tauroi
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	father = 330602
 	376.1.1 = { # 400 BC made up
@@ -43,7 +43,7 @@
 330604 = {
 	name = "Omarg" # Made up
 	dynasty = 33007 # Tauroi
-	religion = scythian_main
+	religion = ossetian_pagan
 	culture = scythian
 	father = 330603
 	400.1.1 = { # 376 BC made up

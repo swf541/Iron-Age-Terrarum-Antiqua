@@ -119,9 +119,9 @@ e_persia = {
 				color= { 200 0 50 }
 				color2= { 255 255 255 }
 				
-				holy_site = zoroastrian_main
+				holy_site = zoroastrian
 				holy_site = armenian_main
-				holy_site = zurvanism
+				holy_site = zurvanite
 				holy_site = pontic_main
 			
 				b_gaza_adar_gushnasp = {
@@ -338,9 +338,9 @@ e_persia = {
 				color= { 200 25 75 }
 				color2= { 255 255 255 }
 				
-				holy_site = zoroastrian_main
+				holy_site = zoroastrian
 				holy_site = armenian_main
-				holy_site = zurvanism
+				holy_site = zurvanite
 				holy_site = pontic_main
 				
 				b_susia_susia = {
@@ -472,9 +472,9 @@ e_persia = {
 				color= { 225 0 75 }
 				color2= { 255 255 255 }
 				
-				holy_site = zoroastrian_main
+				holy_site = zoroastrian
 				holy_site = armenian_main
-				holy_site = zurvanism
+				holy_site = zurvanite
 				holy_site = pontic_main
 				
 				b_pasargadae_pasargadae = {
@@ -689,8 +689,8 @@ e_persia = {
 				color= { 235 10 75 }
 				color2= { 255 255 255 }
 				
-				holy_site = zoroastrian_main
-				holy_site = zurvanism
+				holy_site = zoroastrian
+				holy_site = zurvanite
 				
 				b_shahristan_shahristan = {
 				}
@@ -813,9 +813,9 @@ e_persia = {
 			median = Baxtrish
 			arian = Baxtrish
 						
-			holy_site = zoroastrian_main
+			holy_site = zoroastrian
 			holy_site = armenian_main
-			holy_site = zurvanism
+			holy_site = zurvanite
 		
 			c_bactra = {
 				color= { 175 0 50 }

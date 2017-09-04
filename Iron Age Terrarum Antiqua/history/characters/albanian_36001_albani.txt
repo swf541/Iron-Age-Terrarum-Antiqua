@@ -3,7 +3,7 @@
 	name = "Parnajom" # Made Up
 	dynasty = 36001
 	culture = albanian
-	religion = zoroastrian_main
+	religion = zoroastrian
 	371.1.1 = {
 		birth="yes" # 405 BC Made Up
 	}
@@ -15,7 +15,7 @@
 	name = "Artavazd" # Made Up
 	dynasty = 36001
 	culture = albanian
-	religion = zoroastrian_main
+	religion = zoroastrian
 	403.1.1 = { # 373 BC Made Up
 		birth="yes"
 	}
@@ -27,7 +27,7 @@
 	name = "Rusa" # Made Up
 	dynasty = 36001
 	culture = albanian
-	religion = zoroastrian_main
+	religion = zoroastrian
 	455.1.1 = {
 		birth="yes" # 321 BC Made Up
 	}

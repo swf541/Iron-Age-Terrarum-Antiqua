@@ -2,7 +2,7 @@
 90201 = {
 	name = "Barsine" # Barsine, supposed lover of Alexander
 	dynasty = 9003 # Artabazus
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	female = yes
 	father = 90205
@@ -41,7 +41,7 @@
 90203 = {
 	name = "Artacama" # Second of wife of Ptolemy
 	dynasty = 9003 # Artabazus
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	father = 90205
 	female = yes
@@ -58,7 +58,7 @@
 90204 = {
 	name = "Amastris" # Amastris, wife of Lysimachus
 	dynasty = 9003 # Artabazus
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	female = yes
 	435.1.1 = { # Made up
@@ -74,7 +74,7 @@
 90205 = {
 	name = "Artavazhda" # Artabazos, temporary satrap of Bactria
 	dynasty = 9003 # Artabazus
-	religion = zoroastrian_main
+	religion = zoroastrian
 	culture = persian
 	387.1.1 = { # 389 BC
 		birth="yes"

@@ -23,8 +23,8 @@ province_event = {
 		if = {
 			limit = {
 				OR = {
-					religion = zoroastrian_main
-					religion = zurvanism
+					religion = zoroastrian
+					religion = zurvanite
 				}
 			}
 			set_variable = {

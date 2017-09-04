@@ -12,7 +12,7 @@ b_kutili_khiva = temple
 
 # Misc
 culture = chorasmian
-religion = zoroastrian_main
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province
