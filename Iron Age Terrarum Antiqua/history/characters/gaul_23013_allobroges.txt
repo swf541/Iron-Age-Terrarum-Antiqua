@@ -3,7 +3,7 @@
 	name = "Cavarus" # Made up
 	dynasty = 23013 # Allobroges
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 231103
 	405.1.1 = { # Made up
 		birth="yes" # 371 BC
@@ -16,7 +16,7 @@
 	name = "Cavarinus" # Allobroges Made up
 	dynasty = 23013 # Allobroges
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 231101
 	433.1.1 = { # 343 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Ambiorix" # Made up
 	dynasty = 23013 # Allobroges
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	379.1.1 = { # Made up
 		birth="yes" # 397 BC
 	}

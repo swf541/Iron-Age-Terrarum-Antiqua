@@ -3,7 +3,7 @@
 	name = "Critasirus" # Made up
 	dynasty = 23017 # Sevaces
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 231503
 	433.1.1 = { # Made up
 		birth="yes" # 343 BC
@@ -16,7 +16,7 @@
 	name = "Tasgetius" # Sevaces Made up
 	dynasty = 23017 # Sevaces
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 231501
 	451.1.1 = { # 325 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Vercingetorix" # Made up
 	dynasty = 23017 # Sevaces
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	394.1.1 = { # Made up
 		birth="yes" # 382 BC
 	}

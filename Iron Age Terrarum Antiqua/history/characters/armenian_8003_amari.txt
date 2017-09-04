@@ -2,7 +2,7 @@
 80201 = {
 	name = "Sarduri" # Ruler of Amaras, made up
 	dynasty = 8003 # Amari
-	religion = armenian_main
+	religion = armenian_pagan
 	culture = armenian
 	father = 80203 # Aramu
 	409.1.1 = { # Made up
@@ -15,7 +15,7 @@
 80202 = {
 	name = "Tigran" # Ruler of Amaras, made up
 	dynasty = 8003 # Amari
-	religion = armenian_main
+	religion = armenian_pagan
 	culture = armenian
 	father = 80201
 	429.1.1 = { # 347 BC
@@ -28,7 +28,7 @@
 80203 = {
 	name = "Aramu" # Ruler of Amaras, made up
 	dynasty = 8003 # Amari
-	religion = armenian_main
+	religion = armenian_pagan
 	culture = armenian
 	373.1.1 = {
 		birth="yes" # 403 BC Made Up

@@ -11,7 +11,7 @@ b_kolchoi_kumari = city
 
 # Misc
 culture = tamil
-religion = jainism_main
+religion = jain
 
 # History
 # Can be filled when things change around the province

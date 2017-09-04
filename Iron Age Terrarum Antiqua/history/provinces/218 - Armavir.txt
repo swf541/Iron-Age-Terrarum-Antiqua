@@ -16,7 +16,7 @@ b_doubios_armavir = castle
 
 # Misc
 culture = armenian
-religion = armenian_main
+religion = armenian_pagan
 
 # History
 # Can be filled when things change around the province

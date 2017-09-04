@@ -14,7 +14,7 @@ b_gabaon_jerusalem = castle
 
 # Misc
 culture = israelite
-religion = judaism_main
+religion = jewish
 
 # History
 # Can be filled when things change around the province

@@ -11,7 +11,7 @@ b_aoritos_massaka = city
 
 # Misc
 culture = gandhari
-religion = buddhism_main
+religion = buddhist
 
 # History
 # Can be filled when things change around the province

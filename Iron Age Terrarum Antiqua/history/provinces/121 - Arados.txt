@@ -15,7 +15,7 @@ b_raphaneai_arados = castle
 
 # Misc
 culture = punic
-religion = canaanite_main
+religion = canaanite_pagan
 
 # History
 # Can be filled when things change around the province

@@ -18,7 +18,7 @@ b_ricina_luna = castle
 
 # Misc
 culture = ligurian
-religion = celtic_main
+religion = celtic_pagan
 
 # History
 # Can be filled when things change around the province

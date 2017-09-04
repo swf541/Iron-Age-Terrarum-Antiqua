@@ -3,7 +3,7 @@
 	name = "Cotus" # Made up
 	dynasty = 23016 # Salassi
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 231403
 	382.1.1 = { # Made up
 		birth="yes" # 394 BC
@@ -16,7 +16,7 @@
 	name = "Lucterius" # Salassi Made up
 	dynasty = 23016 # Salassi
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 231401
 	410.1.1 = { # 366 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Orgetorix" # Made up
 	dynasty = 23016 # Salassi
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	359.1.1 = { # Made up
 		birth="yes" # 417 BC
 	}

@@ -9,7 +9,7 @@ b_turbes_turbes = castle
 
 # Misc
 culture = celtiberian
-religion = celtic_main
+religion = celtic_pagan
 
 
 

@@ -11,7 +11,7 @@ b_vadodara_bhrigukaksha = castle
 
 # Misc
 culture = shauraseni
-religion = jainism_main
+religion = jain
 
 # History
 # Can be filled when things change around the province

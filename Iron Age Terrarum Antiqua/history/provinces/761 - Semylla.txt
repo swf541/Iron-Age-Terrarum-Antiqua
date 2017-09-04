@@ -11,7 +11,7 @@ b_mandagara_semylla = city
 
 # Misc
 culture = maharashtri
-religion = buddhism_main
+religion = buddhist
 
 # History
 # Can be filled when things change around the province

@@ -11,7 +11,7 @@ b_paithana_pratishtana = city
 
 # Misc
 culture = maharashtri
-religion = jainism_main
+religion = jain
 
 # History
 # Can be filled when things change around the province

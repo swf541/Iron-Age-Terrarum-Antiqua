@@ -3,7 +3,7 @@
 	name = "Donnotaurus" # Eravisci leader, made up
 	dynasty = 23006 # Eravisci
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230402
 	438.1.1 = {
 		birth="yes" # 338 BC, Made up
@@ -16,7 +16,7 @@
 	name = "Eporedix" # Eravisci, Made up
 	dynasty = 23006 # Eravisci
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230403
 	418.1.1 = {
 		birth="yes" # 358 BC
@@ -29,7 +29,7 @@
 	name = "Divisiacus" # Eravisci, Made up
 	dynasty = 23006 # Eravisci
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	383.1.1 = {
 		birth="yes" # 393 BC
 	}

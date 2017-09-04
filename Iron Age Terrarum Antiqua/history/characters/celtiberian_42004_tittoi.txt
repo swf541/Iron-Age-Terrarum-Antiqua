@@ -3,7 +3,7 @@
 	name = "Retogenes" # Made up Titti leader
 	dynasty = 42004
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	385.1.1 = { # 391 BC, Made up
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Suisetarten" # Made up Titti leader
 	dynasty = 42004
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	415.1.1 = { # 361 BC, Made up
 		birth="yes"

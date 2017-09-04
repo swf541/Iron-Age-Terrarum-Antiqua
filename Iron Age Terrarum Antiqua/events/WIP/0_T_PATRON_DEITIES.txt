@@ -3,7 +3,7 @@ namespace = PATRONS_GREEK_MAIN
 namespace = PATRONS_BUDDHISM_MAIN
 namespace = PATRONS_HINDUISM_MAIN
 namespace = PATRONS_ossetian_pagan
-namespace = PATRONS_ARMENIAN_MAIN
+namespace = PATRONS_armenian_pagan
 namespace = PATRONS_PONTIC_MAIN
 namespace = PATRONS_MARDUK_CULT
 namespace = PATRONS_ROMAN_MAIN
@@ -313,60 +313,60 @@ character_event = {
 
 # Armenian
 character_event = {
-	id = PATRONS_ARMENIAN_MAIN.1
-	desc = PATRONS_ARMENIAN_MAIN.1.desc
+	id = PATRONS_armenian_pagan.1
+	desc = PATRONS_armenian_pagan.1.desc
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = PATRONS_ARMENIAN_MAIN.1.a
+		name = PATRONS_armenian_pagan.1.a
 		add_trait = patron_aramazd
 	}
 	
 	option = {
-		name = PATRONS_ARMENIAN_MAIN.1.b
+		name = PATRONS_armenian_pagan.1.b
 		add_trait = patron_anahit
 	}
 	
 	option = {
-		name = PATRONS_ARMENIAN_MAIN.1.c
+		name = PATRONS_armenian_pagan.1.c
 		add_trait = patron_vahagn
 	}
 	
 	option = {
-		name = PATRONS_ARMENIAN_MAIN.1.d
-		hidden_tooltip = { character_event = { id = PATRONS_ARMENIAN_MAIN.2 } }
+		name = PATRONS_armenian_pagan.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_armenian_pagan.2 } }
 	}
 }
 
 character_event = {
-	id = PATRONS_ARMENIAN_MAIN.2
-	desc = PATRONS_ARMENIAN_MAIN.2.desc
+	id = PATRONS_armenian_pagan.2
+	desc = PATRONS_armenian_pagan.2.desc
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = PATRONS_ARMENIAN_MAIN.2.a
+		name = PATRONS_armenian_pagan.2.a
 		add_trait = patron_astghik
 	}
 	
 	option = {
-		name = PATRONS_ARMENIAN_MAIN.2.b
+		name = PATRONS_armenian_pagan.2.b
 		add_trait = patron_nane
 	}
 	
 	option = {
-		name = PATRONS_ARMENIAN_MAIN.2.c
+		name = PATRONS_armenian_pagan.2.c
 		add_trait = patron_mihr
 	}
 	
 	option = {
-		name = PATRONS_ARMENIAN_MAIN.2.d
-		hidden_tooltip = { character_event = { id = PATRONS_ARMENIAN_MAIN.1 } }
+		name = PATRONS_armenian_pagan.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_armenian_pagan.1 } }
 	}
 }
 

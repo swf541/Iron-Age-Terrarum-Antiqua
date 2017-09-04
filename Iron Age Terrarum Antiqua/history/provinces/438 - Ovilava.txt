@@ -12,7 +12,7 @@ b_lauriacum_ovilava = city
 
 # Misc
 culture = gaul
-religion = celtic_main
+religion = celtic_pagan
 
 # History
 # Can be filled when things change around the province

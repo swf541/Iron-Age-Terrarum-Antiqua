@@ -5,7 +5,7 @@ decisions = {
 		potential = {
 			is_ruler = yes
 			higher_tier_than = DUKE
-			religion = hinduism_main
+			religion = hindu
 			NOT = {	has_character_flag = held_ashvamedha }
 		}
 		allow = {
@@ -39,9 +39,9 @@ decisions = {
 		potential = {
 			is_ruler = yes
 			OR = {
-				religion = hinduism_main
-				religion = buddhism_main
-				religion = jainism_main
+				religion = hindu
+				religion = buddhist
+				religion = jain
 			}
 			NOT = { trait = vegetarian }
 		}
@@ -121,7 +121,7 @@ decisions = {
 		potential = {
 			is_ruler = yes
 			is_theocracy = no
-			religion = buddhism_main
+			religion = buddhist
 			NOT = { has_character_modifier = participated_in_meditation_retreat }
 			NOT = { has_character_flag = going_on_meditation_retreat }
 			higher_tier_than = BARON
@@ -220,7 +220,7 @@ decisions = {
 	visit_buddhist_temple = {
 		potential = {
 			is_ruler = yes
-			religion = buddhism_main
+			religion = buddhist
 			NOT = { has_character_modifier = visit_buddhist_temple_timer }
 			NOT = { has_character_modifier = visited_buddhist_temple }
 			NOT = { has_character_flag = visiting_buddhist_temple }
@@ -279,7 +279,7 @@ decisions = {
 	dedicate_holy_site = {
 		potential = {
 			is_ruler = yes
-			religion = buddhism_main
+			religion = buddhist
 			NOT = { has_character_modifier = built_buddhist_stupa }
 			NOT = { has_character_modifier = built_buddhist_temple }
 			NOT = { has_character_modifier = built_buddhist_monastery }

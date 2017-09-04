@@ -2,7 +2,7 @@
 120101 = {
 	name = "Purushottama" # Porus, satrap of Indus
 	dynasty = 12141 # Puru
-	religion = hinduism_main
+	religion = hindu
 	culture = shauraseni
 	
 	add_trait = skilled_tactician
@@ -17,7 +17,7 @@
 120102 = {
 	name = "Malayketu" # Porus' successor
 	dynasty = 12141 # Puru
-	religion = hinduism_main
+	religion = hindu
 	culture = shauraseni
 	442.1.1 = { # 334 BC made up
 		birth="yes"

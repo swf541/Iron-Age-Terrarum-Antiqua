@@ -2,7 +2,7 @@
 120401 = {
 	name = "Pandukabhaya" # Founder of the Anuradhapura kKingdom
 	dynasty = 12143
-	religion = hinduism_main
+	religion = hindu
 	culture = sinhala
 	
 	add_trait = humble
@@ -17,7 +17,7 @@
 120402 = {
 	name = "Mutasiva"
 	dynasty = 12143
-	religion = hinduism_main
+	religion = hindu
 	culture = sinhala
 	father = 120401
 	383.1.1 = { # 393 BC made up
@@ -30,7 +30,7 @@
 120403 = {
 	name = "Devanampiya Tissa"
 	dynasty = 12143
-	religion = hinduism_main
+	religion = hindu
 	culture = sinhala
 	father = 120402
 	439.1.1 = { # 337 BC made up

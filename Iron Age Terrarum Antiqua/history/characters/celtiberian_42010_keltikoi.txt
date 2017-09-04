@@ -3,7 +3,7 @@
 	name = "Kasilos" # Made up Celtici leader
 	dynasty = 42010
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	385.1.1 = { # 391 BC, Made up
 		birth="yes"
@@ -17,7 +17,7 @@
 	name = "Bilinos" # Made up Celtici leader
 	dynasty = 42010
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 420901
 	
@@ -33,7 +33,7 @@
 	name = "Ablon" # Made up Celtici leader
 	dynasty = 42010
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 420902
 	

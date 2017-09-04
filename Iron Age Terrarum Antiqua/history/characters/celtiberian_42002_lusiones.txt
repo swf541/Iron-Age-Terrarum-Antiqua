@@ -3,7 +3,7 @@
 	name = "Hilerno" # Made up Lusiones leader
 	dynasty = 42002
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	386.1.1 = { # 390 BC, Made up
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Elaukos" # Made up Lusiones leader
 	dynasty = 42002
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	416.1.1 = { # 360 BC, Made up
 		birth="yes"

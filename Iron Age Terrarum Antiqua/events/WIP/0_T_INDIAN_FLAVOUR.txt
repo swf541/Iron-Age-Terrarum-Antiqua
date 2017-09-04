@@ -92,8 +92,8 @@ character_event = { # Buddhist arrives at court
 		}
 		not = {
 			or = {
-				religion = buddhism_main
-				religion = jainism_main
+				religion = buddhist
+				religion = jain
 			}
 			has_character_modifier = expelled_missionary
 			any_courtier = {
@@ -148,7 +148,7 @@ character_event = { # Buddhist arrives at court
 			random_traits = yes
 			culture = vedic
 			dynasty = random
-			religion = buddhism_main
+			religion = buddhist
 			female = no
 			age = 30
 			attributes = {
@@ -255,13 +255,13 @@ character_event = { # Courtier converts to Buddhism (Courtier event)
 						trait = zealous
 						trait = cruel
 					}
-					religion = buddhism_main
+					religion = buddhist
 					is_ruler = yes
 				}
 				age = 16
 			}
 		}
-		religion = buddhism_main
+		religion = buddhist
 		liege = {
 			character_event = { id = sramana_missionary.3 }
 		}
@@ -315,13 +315,13 @@ character_event = { # Ruler is offered conversion
 	
 	option = { # Accept conversion
 		name = sramana_missionary.4.a
-		religion = buddhism_main
+		religion = buddhist
 		piety = 100
 		create_random_priest = {
 			random_traits = yes
 			dynasty = random
 			culture = ROOT
-			religion = buddhism_main
+			religion = buddhist
 			female = no
 			age = 32
 			attributes = {
@@ -379,8 +379,8 @@ character_event = { # Jain arrives at court
 		}
 		not = {
 			or = {
-				religion = buddhism_main
-				religion = jainism_main
+				religion = buddhist
+				religion = jain
 			}
 			has_character_modifier = expelled_missionary
 			any_courtier = {
@@ -435,7 +435,7 @@ character_event = { # Jain arrives at court
 			random_traits = yes
 			culture = vedic
 			dynasty = random
-			religion = jainism_main
+			religion = jain
 			female = no
 			age = 30
 			attributes = {
@@ -542,13 +542,13 @@ character_event = { # Courtier converts to Jainism (Courtier event)
 						trait = zealous
 						trait = cruel
 					}
-					religion = jainism_main
+					religion = jain
 					is_ruler = yes
 				}
 				age = 16
 			}
 		}
-		religion = jainism_main
+		religion = jain
 		liege = {
 			character_event = { id = sramana_missionary.7 }
 		}
@@ -602,13 +602,13 @@ character_event = { # Ruler is offered conversion
 	
 	option = { # Accept conversion
 		name = sramana_missionary.8.a
-		religion = jainism_main
+		religion = jain
 		piety = 100
 		create_random_priest = {
 			random_traits = yes
 			dynasty = random
 			culture = ROOT
-			religion = jainism_main
+			religion = jain
 			female = no
 			age = 32
 			attributes = {

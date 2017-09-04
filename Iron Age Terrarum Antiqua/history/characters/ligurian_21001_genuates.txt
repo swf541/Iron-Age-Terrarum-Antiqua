@@ -2,7 +2,7 @@
 210001 = {
 	name = "Andecomborius" # Ligurian leader, Made up
 	dynasty = 21001 # Genuates
-	religion = celtic_main
+	religion = celtic_pagan
 	culture = ligurian
 	father = 210003
 	421.1.1 = { # 355 BC Made up
@@ -15,7 +15,7 @@
 210002 = {
 	name = "Cavarus" # Ligurian Made up
 	dynasty = 21001 # Genuates
-	religion = celtic_main
+	religion = celtic_pagan
 	culture = ligurian
 	father = 210001
 	453.1.1 = { # 323 BC
@@ -28,7 +28,7 @@
 210003 = {
 	name = "Acco" # Ligurian Made up
 	dynasty = 21001 # Genuates
-	religion = celtic_main
+	religion = celtic_pagan
 	culture = ligurian
 	376.1.1 = { # 400 BC
 		birth="yes"

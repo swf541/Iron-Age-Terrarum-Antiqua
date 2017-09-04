@@ -10,7 +10,7 @@ b_modoutou_mahatitta = city
 
 # Misc
 culture = sinhala
-religion = hinduism_main
+religion = hindu
 
 # History
 # Can be filled when things change around the province

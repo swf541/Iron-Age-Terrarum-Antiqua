@@ -9,7 +9,7 @@ b_balistali_balistali = castle
 
 # Misc
 culture = maharashtri
-religion = buddhism_main
+religion = buddhist
 
 # History
 # Can be filled when things change around the province

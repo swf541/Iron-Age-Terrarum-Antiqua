@@ -9,7 +9,7 @@ b_sapta_saraswati_sapta_saraswati = castle
 
 # Misc
 culture = shauraseni
-religion = hinduism_main
+religion = hindu
 
 # History
 # Can be filled when things change around the province

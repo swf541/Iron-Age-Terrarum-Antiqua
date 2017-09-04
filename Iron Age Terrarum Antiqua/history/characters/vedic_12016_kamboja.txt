@@ -2,7 +2,7 @@
 121501 = {
 	name = "Nayapala" # Made up
 	dynasty = 12002
-	religion = buddhism_main
+	religion = buddhist
 	culture = gandhari
 	396.1.1 = { # 380 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 121502 = {
 	name = "Pingala" # Made up
 	dynasty = 12002
-	religion = buddhism_main
+	religion = buddhist
 	culture = gandhari
 	father = 121501
 	422.1.1 = { # 354 BC

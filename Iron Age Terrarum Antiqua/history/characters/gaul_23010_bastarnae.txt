@@ -3,7 +3,7 @@
 	name = "Acco" # Made up
 	dynasty = 23010 # Bastarnae
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230803
 	421.1.1 = { # 355 BC
 		birth = "421.1.1"
@@ -16,7 +16,7 @@
 	name = "Liscus" # Bastarnae, made up
 	dynasty = 23010 # Bastarnae
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230801
 	448.1.1 = { # 328 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Teutomatus" # Made up
 	dynasty = 23010 # Bastarnae
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	379.1.1 = {
 		birth="yes" # 397 BC Made Up
 	}

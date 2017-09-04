@@ -12,7 +12,7 @@ b_langobriga_talabriga = castle
 
 # Misc
 culture = celtiberian
-religion = celtic_main
+religion = celtic_pagan
 
 # History
 # Can be filled when things change around the province

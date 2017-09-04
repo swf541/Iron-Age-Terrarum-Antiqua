@@ -11,7 +11,7 @@ b_katadoupe_navadwipa = city
 
 # Misc
 culture = vedic # Magadhi
-religion = buddhism_main
+religion = buddhist
 
 # History
 # Can be filled when things change around the province

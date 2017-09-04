@@ -3,7 +3,7 @@
 	name = "Elazunos" # Made up Carpetani leader
 	dynasty = 42007
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	384.1.1 = { # 392 BC, Made up
 		birth="yes"
@@ -17,7 +17,7 @@
 	name = "Belsu" # Made up Carpetani leader
 	dynasty = 42007
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 420601
 	
@@ -33,7 +33,7 @@
 	name = "Kado" # Made up Carpetani leader
 	dynasty = 42007
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 420602
 	
@@ -49,7 +49,7 @@
 	name = "Belsu" # Made up Carpetani leader
 	dynasty = 42007
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 420603
 	

@@ -12,7 +12,7 @@ b_niga_sanua = castle
 
 # Misc
 culture = georgian
-religion = georgian_main
+religion = georgian_pagan
 
 # History
 # Can be filled when things change around the province

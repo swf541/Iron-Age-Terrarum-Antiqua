@@ -10,7 +10,7 @@ b_eragassa_dantipura = castle
 
 # Misc
 culture = maharashtri
-religion = hinduism_main
+religion = hindu
 
 # History
 # Can be filled when things change around the province

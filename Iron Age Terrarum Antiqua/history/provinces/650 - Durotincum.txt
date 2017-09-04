@@ -10,7 +10,7 @@ b_catorissium_durotincum = castle
 
 # Misc
 culture = gaul
-religion = celtic_main
+religion = celtic_pagan
 
 # History
 # Can be filled when things change around the province

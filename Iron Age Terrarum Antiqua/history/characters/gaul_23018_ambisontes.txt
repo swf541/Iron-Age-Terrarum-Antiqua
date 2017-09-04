@@ -3,7 +3,7 @@
 	name = "Ambiorix" # Made up
 	dynasty = 23018 # Ambisontes
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	378.1.1 = {
 		birth="yes" # 398 BC
 	}
@@ -15,7 +15,7 @@
 	name = "Critasirus" # Made up
 	dynasty = 23018 # Ambisontes
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	414.1.1 = {
 		birth="yes" # 362 BC
 	}
@@ -27,7 +27,7 @@
 	name = "Divico" # Made up
 	dynasty = 23018 # Ambisontes
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	445.1.1 = {
 		birth="yes" # 321 BC
 	}

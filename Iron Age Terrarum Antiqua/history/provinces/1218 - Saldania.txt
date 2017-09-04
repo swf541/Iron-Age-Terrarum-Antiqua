@@ -10,7 +10,7 @@ b_morecanodounon_saldania = city
 
 # Misc
 culture = celtiberian
-religion = celtic_main
+religion = celtic_pagan
 
 
 

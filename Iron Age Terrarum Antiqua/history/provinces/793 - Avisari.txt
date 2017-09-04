@@ -9,7 +9,7 @@ b_avisari_avisari = castle
 
 # Misc
 culture = gandhari
-religion = buddhism_main
+religion = buddhist
 
 # History
 # Can be filled when things change around the province

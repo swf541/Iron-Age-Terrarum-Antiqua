@@ -9,7 +9,7 @@ b_uttara_osali_uttara_osali = castle
 
 # Misc
 culture = telegu
-religion = jainism_main
+religion = jain
 
 # History
 # Can be filled when things change around the province

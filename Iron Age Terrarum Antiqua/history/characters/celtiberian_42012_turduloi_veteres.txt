@@ -3,7 +3,7 @@
 	name = "Ordumeles" # Made up Turduli Vetteres leader
 	dynasty = 42012
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	385.1.1 = { # 391 BC, Made up
 		birth="yes"
@@ -17,7 +17,7 @@
 	name = "Ordumeles" # Made up Turduli Vetteres leader
 	dynasty = 42012
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 421101
 	
@@ -33,7 +33,7 @@
 	name = "Kasilos" # Made up Turduli Vetteres leader
 	dynasty = 42012
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 421102
 	

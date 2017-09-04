@@ -2,7 +2,7 @@
 230001 = {
 	name = "Brennus" # Senones leader, Made up
 	dynasty = 23001 # Senones
-	religion = celtic_main
+	religion = celtic_pagan
 	culture = gaul
 	father = 230004
 	421.1.1 = { # 355 BC Made up
@@ -16,7 +16,7 @@
 	name = "Bathanatos" # Senones Made up
 	dynasty = 23001 # Senones
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230001
 	438.1.1 = { # 338 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Diviciacus" # Made up
 	dynasty = 23001 # Senones
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	358.1.1 = { # Made up
 		birth="yes" # 418 BC
 	}
@@ -41,7 +41,7 @@
 	name = "Cavarinus" # Made up
 	dynasty = 23001 # Senones
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230003
 	385.1.1 = { # Made up
 		birth="yes" # 391 BC

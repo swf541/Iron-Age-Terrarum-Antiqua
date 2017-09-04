@@ -2,7 +2,7 @@
 121701 = {
 	name = "Devasena" # Made up
 	dynasty = 12115
-	religion = jainism_main
+	religion = jain
 	culture = maharashtri
 	399.1.1 = { # 377 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 121702 = {
 	name = "Prithvisena" # Made up
 	dynasty = 12115
-	religion = jainism_main
+	religion = jain
 	culture = maharashtri
 	father = 121701
 	424.1.1 = { # 352 BC

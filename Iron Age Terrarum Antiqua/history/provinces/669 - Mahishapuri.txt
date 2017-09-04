@@ -12,7 +12,7 @@ b_tyndis_mahishapuri = city
 
 # Misc
 culture = tamil
-religion = hinduism_main
+religion = hindu
 
 # History
 # Can be filled when things change around the province

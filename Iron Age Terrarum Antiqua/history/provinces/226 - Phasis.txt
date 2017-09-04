@@ -13,7 +13,7 @@ b_onogouris_phasis = temple
 
 # Misc
 culture = georgian
-religion = georgian_main
+religion = georgian_pagan
 
 # History
 # Can be filled when things change around the province

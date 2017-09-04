@@ -103,9 +103,9 @@ character_event = {
 	
 	trigger = {
 		AND = {
-			NOT = { religion = hinduism_main }
-			NOT = { religion = buddhism_main }
-			NOT = { religion = jainism_main }
+			NOT = { religion = hindu }
+			NOT = { religion = buddhist }
+			NOT = { religion = jain }
 		}
 		trait = vegetarian
 	}
@@ -138,9 +138,9 @@ character_event = {
 	trigger = {
 		is_theocracy = yes
 		OR = {
-			religion = hinduism_main
-			religion = buddhism_main
-			religion = jainism_main
+			religion = hindu
+			religion = buddhist
+			religion = jain
 		}
 		NOT = { trait = vegetarian }
 	}
@@ -153,9 +153,9 @@ character_event = {
 		name = vegetarian.3.a
 		trigger = {
 			OR = {
-				religion = hinduism_main
-				religion = buddhism_main
-				religion = jainism_main
+				religion = hindu
+				religion = buddhist
+				religion = jain
 			}
 		}
 		add_trait = vegetarian
@@ -603,9 +603,9 @@ character_event = {
 			NOT = { trait = zealous }
 			NOT = { trait = kind }
 			OR = {
-				religion = hinduism_main
-				religion = buddhism_main
-				religion = jainism_main
+				religion = hindu
+				religion = buddhist
+				religion = jain
 			}
 			OR = {
 				trait = gregarious
@@ -724,9 +724,9 @@ character_event = {
 				NOT = { trait = zealous }
 				NOT = { trait = kind }
 				OR = {
-					religion = hinduism_main
-					religion = buddhism_main
-					religion = jainism_main
+					religion = hindu
+					religion = buddhist
+					religion = jain
 				}
 				OR = {
 					trait = gregarious
@@ -795,9 +795,9 @@ character_event = {
 				NOT = { trait = zealous }
 				NOT = { trait = kind }
 				OR = {
-					religion = hinduism_main
-					religion = buddhism_main
-					religion = jainism_main
+					religion = hindu
+					religion = buddhist
+					religion = jain
 				}
 				OR = {
 					trait = gregarious
@@ -1618,9 +1618,9 @@ character_event = {
 			NOT = { has_character_flag = converted_to_vegetarianism }
 			is_adult = yes
 			OR = {
-				religion = hinduism_main
-				religion = buddhism_main
-				religion = jainism_main
+				religion = hindu
+				religion = buddhist
+				religion = jain
 			}			
 			OR = {
 				trait = zealous
@@ -1714,9 +1714,9 @@ character_event = {
 				NOT = { has_character_flag = converted_to_vegetarianism }
 				is_adult = yes
 				OR = {
-					religion = hinduism_main
-					religion = buddhism_main
-					religion = jainism_main
+					religion = hindu
+					religion = buddhist
+					religion = jain
 				}			
 				OR = {
 					trait = zealous
@@ -2176,9 +2176,9 @@ character_event = {
 					trait = zealous
 				}
 				OR = {
-					religion = hinduism_main
-					religion = buddhism_main
-					religion = jainism_main
+					religion = hindu
+					religion = buddhist
+					religion = jain
 				}
 			}
 		}
@@ -2288,9 +2288,9 @@ character_event = {
 						trait = zealous
 					}
 					OR = {
-						religion = hinduism_main
-						religion = buddhism_main
-						religion = jainism_main
+						religion = hindu
+						religion = buddhist
+						religion = jain
 					}
 				}
 			}
@@ -2339,9 +2339,9 @@ character_event = {
 						trait = zealous
 					}
 					OR = {
-						religion = hinduism_main
-						religion = buddhism_main
-						religion = jainism_main
+						religion = hindu
+						religion = buddhist
+						religion = jain
 					}
 				}
 			}
@@ -2390,9 +2390,9 @@ character_event = {
 						trait = zealous
 					}
 					OR = {
-						religion = hinduism_main
-						religion = buddhism_main
-						religion = jainism_main
+						religion = hindu
+						religion = buddhist
+						religion = jain
 					}
 				}
 			}

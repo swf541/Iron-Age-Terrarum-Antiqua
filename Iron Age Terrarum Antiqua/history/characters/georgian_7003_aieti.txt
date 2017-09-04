@@ -2,7 +2,7 @@
 70201 = {
 	name = "Aku"
 	dynasty = 7003 # Aieti
-	religion = georgian_main
+	religion = georgian_pagan
 	culture = georgian
 	father = 70203
 	412.1.1 = {
@@ -15,7 +15,7 @@
 70202 = {
 	name = "Kuji" # King of Colchis
 	dynasty = 7003 # Aieti
-	religion = georgian_main
+	religion = georgian_pagan
 	culture = georgian
 	father = 70201
 	439.1.1 = { # Made up
@@ -28,7 +28,7 @@
 70203 = {
 	name = "Mirian" # Colchis, Made Up
 	dynasty = 7003 # Aieti
-	religion = georgian_main
+	religion = georgian_pagan
 	culture = georgian
 	378.1.1 = { 
 		birth="yes" # 398 BC Made Up

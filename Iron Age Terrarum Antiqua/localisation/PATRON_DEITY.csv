@@ -57,18 +57,18 @@ PATRONS_ossetian_pagan.2.a;Oitosyros;;;;;;;;;;;;x
 PATRONS_ossetian_pagan.2.b;Api;;;;;;;;;;;;x
 PATRONS_ossetian_pagan.2.c;Thagimasidas;;;;;;;;;;;;x
 PATRONS_ossetian_pagan.2.d;On second thoughts...;;;;;;;;;;;;x
-patrons_armenian_main;Adopt An Armenian Patron Deity;;;;;;;;;;;;x
-patrons_armenian_main_desc;Adopt a deity from the Armenian faith to act as your patron.;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.1.desc;Choose a patron deity to adopt from the Armenian faith:;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.1.a;Aramazd;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.1.b;Anahit;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.1.c;Vahagn;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.1.d;There are others...;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.2.desc;Choose a patron deity to adopt from the Armenian faith:;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.2.a;Astghik;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.2.b;Nane;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.2.c;Mihr;;;;;;;;;;;;x
-PATRONS_ARMENIAN_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_armenian_pagan;Adopt An Armenian Patron Deity;;;;;;;;;;;;x
+patrons_armenian_pagan_desc;Adopt a deity from the Armenian faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_armenian_pagan.1.desc;Choose a patron deity to adopt from the Armenian faith:;;;;;;;;;;;;x
+PATRONS_armenian_pagan.1.a;Aramazd;;;;;;;;;;;;x
+PATRONS_armenian_pagan.1.b;Anahit;;;;;;;;;;;;x
+PATRONS_armenian_pagan.1.c;Vahagn;;;;;;;;;;;;x
+PATRONS_armenian_pagan.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_armenian_pagan.2.desc;Choose a patron deity to adopt from the Armenian faith:;;;;;;;;;;;;x
+PATRONS_armenian_pagan.2.a;Astghik;;;;;;;;;;;;x
+PATRONS_armenian_pagan.2.b;Nane;;;;;;;;;;;;x
+PATRONS_armenian_pagan.2.c;Mihr;;;;;;;;;;;;x
+PATRONS_armenian_pagan.2.d;On second thoughts...;;;;;;;;;;;;x
 patrons_pontic_main;Adopt A Greco-Persian Patron Deity;;;;;;;;;;;;x
 patrons_pontic_main_desc;Adopt a deity from the Greco-Persian faith to act as your patron.;;;;;;;;;;;;x
 PATRONS_PONTIC_MAIN.1.desc;Choose a patron deity to adopt from the Greco-Persian faith:;;;;;;;;;;;;x

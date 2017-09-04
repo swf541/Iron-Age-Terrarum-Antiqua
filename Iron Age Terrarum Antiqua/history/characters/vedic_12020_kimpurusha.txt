@@ -2,7 +2,7 @@
 121901 = {
 	name = "Sihahanu" # Made up
 	dynasty = 12057
-	religion = buddhism_main
+	religion = buddhist
 	culture = vedic
 	395.1.1 = { # 381 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 121902 = {
 	name = "Sthita" # Made up
 	dynasty = 12057
-	religion = buddhism_main
+	religion = buddhist
 	culture = vedic
 	father = 121901
 	422.1.1 = { # 354 BC

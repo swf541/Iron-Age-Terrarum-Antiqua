@@ -13,7 +13,7 @@ b_aser_gaza = temple
 
 # Misc
 culture = israelite
-religion = judaism_main
+religion = jewish
 
 # History
 # Can be filled when things change around the province

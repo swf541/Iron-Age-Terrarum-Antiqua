@@ -3,7 +3,7 @@
 	name = "Terkinos" # Made up Oretani leader
 	dynasty = 42008
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	380.1.1 = { # 396 BC, Made up
 		birth="yes"
@@ -17,7 +17,7 @@
 	name = "Elguismio" # Made up Oretani leader
 	dynasty = 42008
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 420701
 	
@@ -33,7 +33,7 @@
 	name = "Karbelos" # Made up Oretani leader
 	dynasty = 42008
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 420702
 	

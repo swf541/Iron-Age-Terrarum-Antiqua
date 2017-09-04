@@ -3,7 +3,7 @@
 	name = "Botilkos" # Made up Cantabri leader
 	dynasty = 42015
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	384.1.1 = { # 392 BC, Made up
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Touto" 
 	dynasty = 42015
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	444.1.1 = { 
 		birth="yes"

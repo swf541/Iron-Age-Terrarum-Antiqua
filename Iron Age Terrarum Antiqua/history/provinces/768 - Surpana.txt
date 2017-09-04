@@ -9,7 +9,7 @@ b_surpana_surpana = castle
 
 # Misc
 culture = maharashtri
-religion = jainism_main
+religion = jain
 
 # History
 # Can be filled when things change around the province

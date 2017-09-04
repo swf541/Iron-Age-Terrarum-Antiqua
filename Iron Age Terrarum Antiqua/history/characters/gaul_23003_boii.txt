@@ -2,7 +2,7 @@
 230201 = {
 	name = "Teutomatus" # Boii leader, Made up
 	dynasty = 23003 # Boii
-	religion = celtic_main
+	religion = celtic_pagan
 	culture = gaul
 	father = 230203
 	421.1.1 = { # 355 BC Made up
@@ -16,7 +16,7 @@
 	name = "Donnotaurus" # Boii Made up
 	dynasty = 23003 # Boii
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230201
 	445.1.1 = { # 331 BC
 		birth="yes"
@@ -28,7 +28,7 @@
 230203 = {
 	name = "Iccius" # Boii leader, Made up
 	dynasty = 23003 # Boii
-	religion = celtic_main
+	religion = celtic_pagan
 	culture = gaul
 	396.1.1 = {
 		birth="yes" # 380 BC

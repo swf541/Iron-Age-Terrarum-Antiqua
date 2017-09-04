@@ -12,7 +12,7 @@ b_saivala_agastyavati = temple
 
 # Misc
 culture = maharashtri
-religion = jainism_main
+religion = jain
 
 # History
 # Can be filled when things change around the province

@@ -3,7 +3,7 @@
 	name = "Jaddua" # High priest during Alexander's invasion
 	dynasty = 38001
 	culture = israelite
-	religion = judaism_main
+	religion = jewish
 	
 	380.1.1 = { # 396 BC, Made up
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Onias" # High priest after Jaddua
 	dynasty = 38001
 	culture = israelite
-	religion = judaism_main
+	religion = jewish
 	
 	father = 380001
 	
@@ -31,7 +31,7 @@
 	name = "Manasseh" # Son of Jaddua, High priest after Eleazar
 	dynasty = 38001
 	culture = israelite
-	religion = judaism_main
+	religion = jewish
 	
 	father = 380001
 	
@@ -46,7 +46,7 @@
 	name = "Simon" # High Priest after Onias
 	dynasty = 38001
 	culture = israelite
-	religion = judaism_main
+	religion = jewish
 	
 	father = 380002
 	
@@ -61,7 +61,7 @@
 	name = "Eleazar" # High Priest after Simon
 	dynasty = 38001
 	culture = israelite
-	religion = judaism_main
+	religion = jewish
 	
 	father = 380002
 	

@@ -3,7 +3,7 @@
 	name = "Ambiorix" # Breuci leader, Made up
 	dynasty = 23008 # Breuci
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230603
 	406.1.1 = { # 370 BC
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Iccius" # Breuci Made up
 	dynasty = 23008 # Breuci
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230601
 	436.1.1 = { # 340 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Artas" # Breuci
 	dynasty = 23008 # Breuci
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	380.1.1 = {
 		birth="yes" # 396 BC
 	}

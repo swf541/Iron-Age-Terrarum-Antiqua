@@ -10,7 +10,7 @@ b_bata_srirangam = castle
 
 # Misc
 culture = tamil
-religion = jainism_main
+religion = jain
 
 # History
 # Can be filled when things change around the province

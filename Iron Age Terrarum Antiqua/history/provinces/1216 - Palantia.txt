@@ -9,7 +9,7 @@ b_palantia_palantia= castle
 
 # Misc
 culture = celtiberian
-religion = celtic_main
+religion = celtic_pagan
 
 
 

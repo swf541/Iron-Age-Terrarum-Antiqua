@@ -2,7 +2,7 @@
 120001 = {
 	name = "Ambhi" # Taxiles, satrap of Punjab
 	dynasty = 12001 # Gandhara
-	religion = buddhism_main
+	religion = buddhist
 	culture = gandhari
 	
 	add_trait = humble

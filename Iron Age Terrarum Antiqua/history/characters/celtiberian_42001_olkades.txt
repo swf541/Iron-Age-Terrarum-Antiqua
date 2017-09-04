@@ -3,7 +3,7 @@
 	name = "Eskutino" # Made up Olcades leader
 	dynasty = 42001
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	385.1.1 = { # 391 BC, Made up
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Builbos" # Made up Olcades leader
 	dynasty = 42001
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	416.1.1 = { # 360 BC, Made up
 		birth="yes"

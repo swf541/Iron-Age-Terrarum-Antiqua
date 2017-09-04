@@ -2,7 +2,7 @@
 121301 = {
 	name = "Mahapadma" # Mahapadma Nanda
 	dynasty = 12144
-	religion = hinduism_main
+	religion = hindu
 	culture = vedic
 	add_trait = cruel
 	add_trait = ambitious
@@ -17,7 +17,7 @@
 121302 = {
 	name = "Dhana" # Dhana Nanda
 	dynasty = 12144
-	religion = jainism_main
+	religion = jain
 	culture = vedic
 	father = 121301
 	add_trait = cruel
@@ -33,7 +33,7 @@
 121303 = {
 	name = "Pandhuka"
 	dynasty = 12144
-	religion = hinduism_main
+	religion = hindu
 	culture = vedic
 	father = 121301
 	add_trait = cruel
@@ -49,7 +49,7 @@
 121304 = {
 	name = "Panghupati"
 	dynasty = 12144
-	religion = hinduism_main
+	religion = hindu
 	culture = vedic
 	father = 121301
 	add_trait = cruel
@@ -65,7 +65,7 @@
 121305 = {
 	name = "Bhutapala"
 	dynasty = 12144
-	religion = hinduism_main
+	religion = hindu
 	culture = vedic
 	father = 121301
 	add_trait = cruel
@@ -81,7 +81,7 @@
 121306 = {
 	name = "Rashtrapala"
 	dynasty = 12144
-	religion = hinduism_main
+	religion = hindu
 	culture = vedic
 	father = 121301
 	add_trait = cruel
@@ -97,7 +97,7 @@
 121307 = {
 	name = "Govishanaka"
 	dynasty = 12144
-	religion = hinduism_main
+	religion = hindu
 	culture = vedic
 	father = 121301
 	add_trait = cruel
@@ -113,7 +113,7 @@
 121308 = {
 	name = "Dashasidhaka"
 	dynasty = 12144
-	religion = hinduism_main
+	religion = hindu
 	culture = vedic
 	father = 121301
 	add_trait = cruel
@@ -129,7 +129,7 @@
 121309 = {
 	name = "Kaivarta"
 	dynasty = 12144
-	religion = hinduism_main
+	religion = hindu
 	culture = vedic
 	father = 121301
 	add_trait = cruel
@@ -145,7 +145,7 @@
 121310 = {
 	name = "Mahendra"
 	dynasty = 12144
-	religion = hinduism_main
+	religion = hindu
 	culture = vedic
 	father = 121301
 	add_trait = cruel

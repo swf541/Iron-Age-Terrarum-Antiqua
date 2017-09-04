@@ -9,7 +9,7 @@ b_rohitaswa_rohitaswa = castle
 
 # Misc
 culture = vedic # Magadhi
-religion = hinduism_main
+religion = hindu
 
 # History
 # Can be filled when things change around the province

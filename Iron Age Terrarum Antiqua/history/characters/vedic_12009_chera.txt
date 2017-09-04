@@ -2,7 +2,7 @@
 120801 = {
 	name = "Parthivachudamani" # Made up
 	dynasty = 12137
-	religion = hinduism_main
+	religion = hindu
 	culture = tamil
 	393.1.1 = { # 383 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 120802 = {
 	name = "Palaik" # made up
 	dynasty = 12137
-	religion = hinduism_main
+	religion = hindu
 	culture = tamil
 	father = 120801
 	421.1.1 = { # 355 BC
@@ -27,7 +27,7 @@
 120803 = {
 	name = "Perumpoot" # Made up
 	dynasty = 12137
-	religion = hinduism_main
+	religion = hindu
 	culture = tamil
 	father = 120802
 	444.1.1 = { # 332 BC

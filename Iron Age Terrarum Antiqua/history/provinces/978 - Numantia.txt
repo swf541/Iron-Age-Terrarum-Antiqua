@@ -13,7 +13,7 @@ b_terkakom_numantia = temple
 
 # Misc
 culture = celtiberian
-religion = celtic_main
+religion = celtic_pagan
 
 
 

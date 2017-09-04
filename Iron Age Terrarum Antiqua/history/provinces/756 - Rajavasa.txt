@@ -10,7 +10,7 @@ b_anantanaga_rajavasa = city
 
 # Misc
 culture = gandhari
-religion = buddhism_main
+religion = buddhist
 
 # History
 # Can be filled when things change around the province

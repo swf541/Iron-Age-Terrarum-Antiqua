@@ -11,7 +11,7 @@ b_prayaga_sringivera = city
 
 # Misc
 culture = vedic # Magadhi
-religion = hinduism_main
+religion = hindu
 
 # History
 # Can be filled when things change around the province

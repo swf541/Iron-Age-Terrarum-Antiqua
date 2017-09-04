@@ -2,7 +2,7 @@
 80101 = {
 	name = "Arkha" # Ruler of Ani Kamah, Made up
 	dynasty = 8002 # Kamani
-	religion = armenian_main
+	religion = armenian_pagan
 	culture = armenian
 	414.1.1 = { # Made up
 		birth="yes" # 362 BC

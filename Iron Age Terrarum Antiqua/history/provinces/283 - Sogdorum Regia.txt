@@ -11,7 +11,7 @@ b_sogdorum_regia_sogdorum_regia = city
 
 # Misc
 culture = shauraseni
-religion = hinduism_main
+religion = hindu
 
 # History
 # Can be filled when things change around the province

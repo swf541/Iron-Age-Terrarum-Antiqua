@@ -10,7 +10,7 @@ b_sita_mithila = castle
 
 # Misc
 culture = vedic # Magadhi
-religion = buddhism_main
+religion = buddhist
 
 # History
 # Can be filled when things change around the province

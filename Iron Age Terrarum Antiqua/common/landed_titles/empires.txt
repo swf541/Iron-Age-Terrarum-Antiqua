@@ -120,7 +120,7 @@ e_persia = {
 				color2= { 255 255 255 }
 				
 				holy_site = zoroastrian
-				holy_site = armenian_main
+				holy_site = armenian_pagan
 				holy_site = zurvanite
 				holy_site = pontic_main
 			
@@ -339,7 +339,7 @@ e_persia = {
 				color2= { 255 255 255 }
 				
 				holy_site = zoroastrian
-				holy_site = armenian_main
+				holy_site = armenian_pagan
 				holy_site = zurvanite
 				holy_site = pontic_main
 				
@@ -473,7 +473,7 @@ e_persia = {
 				color2= { 255 255 255 }
 				
 				holy_site = zoroastrian
-				holy_site = armenian_main
+				holy_site = armenian_pagan
 				holy_site = zurvanite
 				holy_site = pontic_main
 				
@@ -814,7 +814,7 @@ e_persia = {
 			arian = Baxtrish
 						
 			holy_site = zoroastrian
-			holy_site = armenian_main
+			holy_site = armenian_pagan
 			holy_site = zurvanite
 		
 			c_bactra = {

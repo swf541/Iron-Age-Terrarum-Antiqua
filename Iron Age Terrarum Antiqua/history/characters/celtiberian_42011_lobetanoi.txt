@@ -3,7 +3,7 @@
 	name = "Retukenos" # Made up Lobetani leader
 	dynasty = 42011
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	383.1.1 = { # 393 BC, Made up
 		birth="yes"
@@ -17,7 +17,7 @@
 	name = "Adingibas" # Made up Lobetani leader
 	dynasty = 42011
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 421001
 	
@@ -33,7 +33,7 @@
 	name = "Bodo" # Made up Lobetani leader
 	dynasty = 42011
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 421002
 	
@@ -49,7 +49,7 @@
 	name = "Retukenos" # Made up Lobetani leader
 	dynasty = 42011
 	culture = celtiberian
-	religion = celtic_main
+	religion = celtic_pagan
 	
 	father = 421003
 	

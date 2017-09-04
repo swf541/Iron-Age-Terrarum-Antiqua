@@ -2,7 +2,7 @@
 121601 = {
 	name = "Svami" # Made up
 	dynasty = 12119
-	religion = jainism_main
+	religion = jain
 	culture = telegu
 	381.1.1 = { # 395 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 121602 = {
 	name = "Sundara" # Made up
 	dynasty = 12119
-	religion = jainism_main
+	religion = jain
 	culture = telegu
 	father = 121601
 	410.1.1 = { # 366 BC
@@ -27,7 +27,7 @@
 121603 = {
 	name = "Simuka" # Made up
 	dynasty = 12119
-	religion = jainism_main
+	religion = jain
 	culture = telegu
 	father = 121602
 	434.1.1 = { # 342 BC

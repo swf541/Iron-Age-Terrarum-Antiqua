@@ -2,7 +2,7 @@
 120201 = {
 	name = "Pitambara" # King of Saurastra Made up
 	dynasty = 12047 # Saurashtra
-	religion = jainism_main
+	religion = jain
 	culture = shauraseni
 	father = 120202
 	411.1.1 = { # 365 BC
@@ -15,7 +15,7 @@
 120202 = {
 	name = "Gopinatha" # King of Saurastra Made up
 	dynasty = 12047 # Saurashtra
-	religion = jainism_main
+	religion = jain
 	culture = shauraseni
 	391.1.1 = { # 386 BC 
 		birth="yes"
@@ -27,7 +27,7 @@
 120203 = {
 	name = "Bhishma" # King of Saurastra Made up
 	dynasty = 12047 # Saurashtra
-	religion = jainism_main
+	religion = jain
 	culture = shauraseni
 	438.1.1 = { # 338 BC
 		birth="yes"

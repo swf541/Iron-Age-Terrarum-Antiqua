@@ -14,12 +14,12 @@ k_bosphorus = {
 			
 			holy_site = berber_main
 			holy_site = illyrian_main
-			holy_site = celtic_main
+			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
-			holy_site = hinduism_main
-			holy_site = jainism_main
-			holy_site = buddhism_main
-			holy_site = georgian_main
+			holy_site = hindu
+			holy_site = jain
+			holy_site = buddhist
+			holy_site = georgian_pagan
 			holy_site = phrygian_main
 			holy_site = arabic_main
 			holy_site = dravidian_main
@@ -44,12 +44,12 @@ k_bosphorus = {
 			
 			holy_site = berber_main
 			holy_site = illyrian_main
-			holy_site = celtic_main
+			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
-			holy_site = hinduism_main
-			holy_site = jainism_main
-			holy_site = buddhism_main
-			holy_site = georgian_main
+			holy_site = hindu
+			holy_site = jain
+			holy_site = buddhist
+			holy_site = georgian_pagan
 			holy_site = phrygian_main
 			holy_site = arabic_main
 			holy_site = dravidian_main
@@ -70,12 +70,12 @@ k_bosphorus = {
 			
 			holy_site = berber_main
 			holy_site = illyrian_main
-			holy_site = celtic_main
+			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
-			holy_site = hinduism_main
-			holy_site = jainism_main
-			holy_site = buddhism_main
-			holy_site = georgian_main
+			holy_site = hindu
+			holy_site = jain
+			holy_site = buddhist
+			holy_site = georgian_pagan
 			holy_site = phrygian_main
 			holy_site = arabic_main
 			holy_site = dravidian_main
@@ -96,12 +96,12 @@ k_bosphorus = {
 			
 			holy_site = berber_main
 			holy_site = illyrian_main
-			holy_site = celtic_main
+			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
-			holy_site = hinduism_main
-			holy_site = jainism_main
-			holy_site = buddhism_main
-			holy_site = georgian_main
+			holy_site = hindu
+			holy_site = jain
+			holy_site = buddhist
+			holy_site = georgian_pagan
 			holy_site = phrygian_main
 			holy_site = arabic_main
 			holy_site = dravidian_main
@@ -122,12 +122,12 @@ k_bosphorus = {
 			
 			holy_site = berber_main
 			holy_site = illyrian_main
-			holy_site = celtic_main
+			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
-			holy_site = hinduism_main
-			holy_site = jainism_main
-			holy_site = buddhism_main
-			holy_site = georgian_main
+			holy_site = hindu
+			holy_site = jain
+			holy_site = buddhist
+			holy_site = georgian_pagan
 			holy_site = phrygian_main
 			holy_site = arabic_main
 			holy_site = dravidian_main
@@ -2584,7 +2584,7 @@ k_syria = {
 			color= { 0 85 90 }
 			color2= { 255 255 255 }
 			
-			holy_site = canaanite_main
+			holy_site = canaanite_pagan
 			holy_site = punic_main
 
 			b_arados_arados = {
@@ -2691,7 +2691,7 @@ k_syria = {
 			color= { 160 140 255 }
 			color2= { 255 255 255 }
 			
-			holy_site = canaanite_main
+			holy_site = canaanite_pagan
 			holy_site = punic_main
 
 			b_sidon_sidon = {
@@ -2709,7 +2709,7 @@ k_syria = {
 			color= { 150 150 255 }
 			color2= { 255 255 255 }
 			
-			holy_site = canaanite_main
+			holy_site = canaanite_pagan
 			holy_site = punic_main
 
 			b_tyrus_tyrus = {
@@ -2732,7 +2732,7 @@ k_syria = {
 			color= { 140 165 225 }
 			color2= { 255 255 255 }
 
-			holy_site = canaanite_main
+			holy_site = canaanite_pagan
 			holy_site = punic_main
 			
 			b_dora_apollonia_israel = {
@@ -2748,7 +2748,7 @@ k_syria = {
 			color= { 150 175 225 }
 			color2= { 255 255 255 }
 
-			holy_site = judaism_main
+			holy_site = jewish
 			
 			b_samaria_samaria = {
 			}
@@ -2798,7 +2798,7 @@ k_syria = {
 			color= { 150 175 255 }
 			color2= { 255 255 255 }
 			
-			holy_site = judaism_main
+			holy_site = jewish
 
 			b_jerusalem_jerusalem = {
 			}
@@ -2817,8 +2817,8 @@ k_syria = {
 			color= { 160 175 245 }
 			color2= { 255 255 255 }
 			
-			holy_site = judaism_main
-			holy_site = canaanite_main
+			holy_site = jewish
+			holy_site = canaanite_pagan
 
 			b_beersheba_beersheba = {
 			}
@@ -3470,7 +3470,7 @@ k_armenia = {
 			color= { 200 0 50 }
 			color2= { 255 255 255 }
 			
-			holy_site = armenian_main
+			holy_site = armenian_pagan
 			
 			b_armavir_armavir = {
 			}
@@ -4936,7 +4936,7 @@ k_nabataea = {
 			color= { 190 150 10 }
 			color2= { 255 255 255 }
 			
-			holy_site = judaism_main
+			holy_site = jewish
 		
 			b_madaba_madaba = {
 			}
@@ -5013,7 +5013,7 @@ k_nabataea = {
 			color= { 165 135 0 }
 			color2= { 255 255 255 }
 			
-			holy_site = judaism_main
+			holy_site = jewish
 		
 			b_gadara_gadara = {
 			}

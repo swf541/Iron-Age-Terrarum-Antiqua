@@ -223,9 +223,9 @@ decisions = {
 				trait = patron_pacha
 			}
 			or = {
-				religion = buddhism_main
+				religion = buddhist
 				capital_scope = {
-					religion = buddhism_main
+					religion = buddhist
 				}
 			}
 		}
@@ -302,9 +302,9 @@ decisions = {
 				trait = patron_pacha
 			}
 			or = {
-				religion = hinduism_main
+				religion = hindu
 				capital_scope = {
-					religion = hinduism_main
+					religion = hindu
 				}
 			}
 		}
@@ -394,7 +394,7 @@ decisions = {
 			character_event = { id = PATRONS_ossetian_pagan.1 }
 		}
 	}
-	patrons_armenian_main = {
+	patrons_armenian_pagan = {
 		is_high_prio = yes
 		potential = {
 			higher_tier_than = duke
@@ -460,9 +460,9 @@ decisions = {
 				trait = patron_pacha
 			}
 			or = {
-				religion = armenian_main
+				religion = armenian_pagan
 				capital_scope = {
-					religion = armenian_main
+					religion = armenian_pagan
 				}
 			}
 		}
@@ -470,7 +470,7 @@ decisions = {
 			prisoner = no
 		}
 		effect = {
-			character_event = { id = PATRONS_ARMENIAN_MAIN.1 }
+			character_event = { id = PATRONS_armenian_pagan.1 }
 		}
 	}
 	patrons_pontic_main = {

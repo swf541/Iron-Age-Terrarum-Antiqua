@@ -3,7 +3,7 @@
 	name = "Diviciacus" # Made up
 	dynasty = 23015 # Sequani
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 231303
 	441.1.1 = { # Made up
 		birth="yes" # 335 BC
@@ -16,7 +16,7 @@
 	name = "Divico" # Sequani Made up
 	dynasty = 23015 # Sequani
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 231301
 	464.1.1 = { # 312 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Dumnorix" # Made up
 	dynasty = 23015 # Sequani
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 231304
 	418.1.1 = { # Made up
 		birth="yes" # 358 BC
@@ -42,7 +42,7 @@
 	name = "Eporedix" # Made up
 	dynasty = 23015 # Sequani
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	382.1.1 = { # Made up
 		birth="yes" # 394 BC
 	}

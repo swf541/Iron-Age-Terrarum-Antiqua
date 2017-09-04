@@ -98,7 +98,7 @@ bad_priest_buddhist = {
 vegetarian = {
 	potential = {
 		OR = {
-			religion = hinduism_main
+			religion = hindu
 			religion_group = indian_religion
 		}
 	}
@@ -114,7 +114,7 @@ vegetarian = {
 retreat_veteran = {
 	potential = {
 		OR = {
-			religion = hinduism_main
+			religion = hindu
 			religion_group = indian_religion
 		}
 	}
@@ -134,7 +134,7 @@ retreat_veteran = {
 retreat_master = {
 	potential = {
 		OR = {
-			religion = hinduism_main
+			religion = hindu
 			religion_group = indian_religion
 		}
 	}
@@ -154,7 +154,7 @@ retreat_master = {
 on_retreat = {
 	potential = {
 		OR = {
-			religion = hinduism_main
+			religion = hindu
 			religion_group = indian_religion
 		}
 	}

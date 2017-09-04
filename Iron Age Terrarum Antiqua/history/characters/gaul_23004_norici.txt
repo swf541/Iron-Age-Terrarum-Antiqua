@@ -3,7 +3,7 @@
 	name = "Liscus" # Norici leader, Made up
 	dynasty = 23004 # Norici
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230303
 	421.1.1 = {
 		birth="yes" # 355 BC, Made up
@@ -16,7 +16,7 @@
 	name = "Cavarus" # Norici Made up
 	dynasty = 23004 # Norici
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230301
 	445.1.1 = { # 331 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Conconnetodumnus" # Norici Made up
 	dynasty = 23004 # Norici
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	387.1.1 = { # 389 BC
 		birth="yes"
 	}

@@ -12,7 +12,7 @@ b_briteiros_bracara = temple
 
 # Misc
 culture = gallaecian
-religion = celtic_main
+religion = celtic_pagan
 
 # History
 # Can be filled when things change around the province

@@ -2,7 +2,7 @@
 70001 = {
 	name = "Parnavazi"
 	dynasty = 7001 # Parnavazi
-	religion = georgian_main
+	religion = georgian_pagan
 	culture = georgian
 	father = 70002
 	
@@ -18,7 +18,7 @@
 70002 = {
 	name = "Uplos"
 	dynasty = 7001 # Parnavazi
-	religion = georgian_main
+	religion = georgian_pagan
 	culture = georgian
 	father = 70003
 	413.1.1 = {
@@ -34,7 +34,7 @@
 70003 = {
 	name = "Mtskhetos"
 	dynasty = 7001 # Parnavazi
-	religion = georgian_main
+	religion = georgian_pagan
 	culture = georgian
 	377.1.1 = {
 		birth="yes" # 399 BC Made Up

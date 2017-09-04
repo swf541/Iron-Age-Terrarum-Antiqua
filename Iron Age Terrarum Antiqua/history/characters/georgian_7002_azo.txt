@@ -2,7 +2,7 @@
 70101 = {
 	name = "Azo"
 	dynasty = 7002 # Azo
-	religion = georgian_main
+	religion = georgian_pagan
 	culture = georgian
 	
 	add_trait = cruel

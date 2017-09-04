@@ -9,7 +9,7 @@ b_mulasthana_mallorum = castle
 
 # Misc
 culture = shauraseni
-religion = hinduism_main
+religion = hindu
 
 # History
 # Can be filled when things change around the province

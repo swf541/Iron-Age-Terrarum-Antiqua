@@ -22,5 +22,5 @@ religion = illyrian_main
 # Can be filled when things change around the province
 446.1.1 = { # 330 BC
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 }

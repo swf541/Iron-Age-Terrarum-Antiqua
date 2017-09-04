@@ -5,9 +5,9 @@ decisions = {
 			is_female = no
 			culture = vedic
 			or = {
-				religion = jainism_main
-				religion = buddhism_main
-				religion = hinduism_main
+				religion = jain
+				religion = buddhist
+				religion = hindu
 			}
 			higher_tier_than = KING
 			NOT = {

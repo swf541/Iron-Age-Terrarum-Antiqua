@@ -9,7 +9,7 @@ b_aracelium_aracelium= castle
 
 # Misc
 culture = celtiberian
-religion = celtic_main
+religion = celtic_pagan
 
 
 

@@ -3,7 +3,7 @@
 	name = "Intudiomaros" # Azili leader, made up
 	dynasty = 23007 # Azili
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230503
 	420.1.1 = {
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Tasgetius" # Azili Made up
 	dynasty = 23007 # Azili
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	father = 230501
 	437.1.1 = { # 339 BC
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Divico" # Azili leader, made up
 	dynasty = 23007 # Azili
 	culture = gaul
-	religion = celtic_main
+	religion = celtic_pagan
 	395.1.1 = { # 381 BC
 		birth="yes"
 	}
