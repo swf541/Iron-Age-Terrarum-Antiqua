@@ -1,0 +1,8 @@
+government_flavor = {
+	name = gov_muslim_aristocratic_monarchy
+	graphics = GFX_evt_emissary_arabic
+	priority = 1
+	trigger = {
+
+	}
+}
