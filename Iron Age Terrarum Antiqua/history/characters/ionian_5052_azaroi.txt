@@ -2,7 +2,7 @@
 54601 = {
 	name = "Tremison" # Azara, Made Up
 	dynasty = 5052 # Azaroi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	377.1.1 = {
 		birth="yes" # 399 BC
@@ -14,7 +14,7 @@
 54602 = {
 	name = "Eutropios" # Azara, Made Up
 	dynasty = 5052 # Azaroi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 54601
 	408.1.1 = {
@@ -27,7 +27,7 @@
 54603 = {
 	name = "Pelagios" # Azara, Made Up
 	dynasty = 5052 # Azaroi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 54602
 	435.1.1 = {
@@ -40,7 +40,7 @@
 54604 = {
 	name = "Euripides" # Azara, Made Up
 	dynasty = 5052 # Azaroi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 54603
 	458.1.1 = {

@@ -2,7 +2,7 @@
 52801 = {
 	name = "Basileios" # Tanais, Made up
 	dynasty = 5034 # Tanaioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	444.1.1 = {
 		birth="yes" # 332 BC, Made up
@@ -14,7 +14,7 @@
 52802 = {
 	name = "Demosthenes" # Tanais, Made up
 	dynasty = 5034 # Tanaioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 52801 # Basileios
 	474.1.1 = {

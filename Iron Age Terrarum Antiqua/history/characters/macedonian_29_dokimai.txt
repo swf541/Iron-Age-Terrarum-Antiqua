@@ -2,7 +2,7 @@
 2801 = {
 	name = "Antigonos" # Perdikkan satrap of Babylon
 	dynasty = 29 # Dokimai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	404.1.1 = { # Made up
 		birth="yes" # 372 BC

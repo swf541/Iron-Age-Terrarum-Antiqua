@@ -2,7 +2,7 @@
 401 = {
 	name = "Antigonos" # Antigonus, the one eyed
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 406
 	
@@ -36,7 +36,7 @@
 402 = {
 	name = "Demetrios" # Demetrius Poliorcetes, son of Antigonus
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 401
 	mother = 2601
@@ -83,7 +83,7 @@
 403 = {
 	name = "Philippos" # Son of Antigonus
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 401
 	mother = 2601
@@ -100,7 +100,7 @@
 404 = {
 	name = "Telephoros" # Nephew of Antigonos
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 405
 	
@@ -117,7 +117,7 @@
 405 = {
 	name = "Harpalas" # Uncle of Antigonos
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 407
 	
@@ -136,7 +136,7 @@
 406 = {
 	name = "Philippos" # Father of Antigonos
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 407
 	377.1.1 = { # Made up
@@ -151,7 +151,7 @@
 407 = {
 	name = "Macharas" # Grandfather of Antigonos
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	355.1.1 = { # Made up
 		birth="yes" # 421 BC
@@ -163,7 +163,7 @@
 408 = {
 	name = "Antigonos" # Gonatas
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 402
 	mother = 3
@@ -188,7 +188,7 @@
 409 = {
 	name = "Phila" # Sister of Macharas and wife of Philip II
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 	389.1.1 = { # Made up
@@ -201,7 +201,7 @@
 410 = {
 	name = "Stratonike" # Daughter of Demetrius Poliorketes and wife of Seleucus I and Antiochus I
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 402 # Demetrius
 	mother = 3 # Phila
@@ -216,7 +216,7 @@
 411 = {
 	name = "Ptolemaios" # Nephew of Antigonos
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 405
 	
@@ -238,7 +238,7 @@
 412 = {
 	name = "Alexandros" # Son of Demetrios
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 402 # Demetrios
@@ -256,7 +256,7 @@
 413 = {
 	name = "Demetrios" # The Fair
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 402 # Demetrios
@@ -282,7 +282,7 @@
 414 = {
 	name = "Phila" # Daughter of Demetrios I
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -303,7 +303,7 @@
 415 = {
 	name = "Demetrios" # II Aetolicus
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 408 # Antigonus II
@@ -333,7 +333,7 @@
 416 = {
 	name = "Philippos" # V
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 415 # Demetrios II
@@ -351,7 +351,7 @@
 417 = {
 	name = "Apama" # II
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -371,7 +371,7 @@
 418 = {
 	name = "Antigonos" # Doson
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 413 # Demetrios the Fair
@@ -391,7 +391,7 @@
 419 = {
 	name = "Echekrates" # Son of Demetrios the Fair
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 413 # Demetrios the Fair
@@ -411,7 +411,7 @@
 420 = {
 	name = "Antigonos" # Son of Echekrates, brief king of Macedonia
 	dynasty = 5 # Antigonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 419 # Echekrates

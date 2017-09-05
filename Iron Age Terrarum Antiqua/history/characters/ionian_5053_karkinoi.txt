@@ -2,7 +2,7 @@
 54701 = {
 	name = "Hesperos" # Karkine, Made Up
 	dynasty = 5053 # Karkinoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	390.1.1 = {
 		birth="yes" # 386 BC
@@ -14,7 +14,7 @@
 54702 = {
 	name = "Eumenes" # Karkine, Made Up
 	dynasty = 5053 # Karkinoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 54701
 	414.1.1 = {
@@ -27,7 +27,7 @@
 54703 = {
 	name = "Hilarion" # Karkine, Made Up
 	dynasty = 5053 # Karkinoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 54702
 	445.1.1 = {

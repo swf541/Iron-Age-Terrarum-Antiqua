@@ -2,7 +2,7 @@
 801 = {
 	name = "Philippos" # Philip III
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 803 # Philip II
 	
@@ -26,7 +26,7 @@
 802 = {
 	name = "Alexandros" # Alexander the Great
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 803 # Philip II
 	mother = 10011
@@ -59,7 +59,7 @@
 803 = {
 	name = "Philippos" # Philip II
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father =  804 # Amyntas III
 		
@@ -86,7 +86,7 @@
 804 = {
 	name = "Amyntas" # Amyntas III
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = charismatic_negotiator
@@ -101,7 +101,7 @@
 805 = {
 	name = "Alexandros" # Alexander II
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 804 # Amyntas III
 	389.1.1 = { # 387 BC Made up
@@ -116,7 +116,7 @@
 806 = {
 	name = "Perdikkas" # Perdiccas III
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 804 # Amyntas III
 	
@@ -134,7 +134,7 @@
 807 = {
 	name = "Amyntas" # Amyntas IV
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 806 # Perdiccas III
 	411.1.1 = { # 365 BC
@@ -150,7 +150,7 @@
 808 = {
 	name = "Alexandros" # Alexander IV
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	#employer = 801 # Philip III
 	father = 802 # Alexander the Great
@@ -173,7 +173,7 @@
 809 = {
 	name = "Kleopatra" # Alexander's sister
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	employer = 801 # Philip III
 	female = yes
@@ -198,7 +198,7 @@
 810 = {
 	name = "Thessalonike" # Daughter of Philip II
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 	father = 803 # Philip II
@@ -214,7 +214,7 @@
 811 = {
 	name = "Kleomenes" # First satrap of Egypt
 	dynasty = 9 # Argeadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = greedy

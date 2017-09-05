@@ -2,7 +2,7 @@
 29901 = {
 	name = "Doris" # Wife of Dionysius the Elder
 	dynasty = 0 # Lowborn	
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	female = yes
 	357.1.1 = { # 419 BC Made Up
@@ -15,7 +15,7 @@
 29902 = {
 	name = "Nysaios" # Tyrant of Syracuse
 	dynasty = 0 # Lowborn	
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	374.1.1 = { # 402 BC Made Up
 		birth="yes"
@@ -27,7 +27,7 @@
 29903 = {
 	name = "Pythia" # Pythia of Delphi
 	dynasty = 0 # Lowborn
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	
 	female = yes
@@ -46,7 +46,7 @@
 29904 = {
 	name = "Nikaia" # Wife of Alexander(Grandson of Craterus)
 	dynasty = 0 # Lowborn
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 
 	female = yes

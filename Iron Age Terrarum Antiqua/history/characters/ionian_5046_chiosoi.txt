@@ -2,7 +2,7 @@
 54001 = {
 	name = "Sosigenes" # Ruler of Chios, Made up
 	dynasty = 5046 # Choisoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	397.1.1 = {
 		birth="yes" # 379 BC
@@ -14,7 +14,7 @@
 54002 = {
 	name = "Theodoulos" # Ruler of Chios, Made up
 	dynasty = 5046 # Choisoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 54001
 	430.1.1 = {
@@ -27,7 +27,7 @@
 54003 = {
 	name = "Sosigenes" # Ruler of Chios, Made up
 	dynasty = 5046 # Choisoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 54002
 	451.1.1 = {

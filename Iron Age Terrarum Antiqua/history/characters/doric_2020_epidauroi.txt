@@ -2,7 +2,7 @@
 21901 = {
 	name = "Demokritos" # Rhodes
 	dynasty = 2020 # Epidauroi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	401.1.1 = { # 375 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 21902 = {
 	name = "Xenon" # Rhodes
 	dynasty = 2020 # Epidauroi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 21901
 	430.1.1 = { # 346 BC Made up

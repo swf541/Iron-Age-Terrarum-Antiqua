@@ -144,9 +144,9 @@ decisions = {
 				trait = patron_pacha
 			}
 			or = {
-				religion = greek_main
+				religion = hellenic_pagan
 				capital_scope = {
-					religion = greek_main
+					religion = hellenic_pagan
 				}
 			}
 		}

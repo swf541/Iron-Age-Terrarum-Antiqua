@@ -2,7 +2,7 @@
 20801 = {
 	name = "Hippolytos" # Byzantion
 	dynasty = 2009 # Therioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	390.1.1 = { # 386 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 20802 = {
 	name = "Kyrillos" # Byzantion
 	dynasty = 2009 # Therioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20801
 	421.1.1 = { # 355 BC Made up

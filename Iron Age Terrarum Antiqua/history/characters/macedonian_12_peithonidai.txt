@@ -2,7 +2,7 @@
 1101 = { 
 	name = "Peithon" # Peithon, satrap of Greater Media
 	dynasty = 12 # Peithonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = tough_soldier

@@ -11,7 +11,7 @@ b_charax_kerkinitis = city
 
 # Misc
 culture = ionian
-religion = greek_main
+religion = hellenic_pagan
 
 # History
 # Can be filled when things change around the province

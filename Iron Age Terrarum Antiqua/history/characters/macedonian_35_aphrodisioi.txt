@@ -3,7 +3,7 @@
 	name = "Aphrodisias" # Seleucid general. Used as small count in Phrygia
 	dynasty = 35
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	445.1.1 = { # 331 BC, Made up
 		birth="yes"

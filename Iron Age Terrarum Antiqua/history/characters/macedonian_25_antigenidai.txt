@@ -2,7 +2,7 @@
 2401 = {
 	name = "Antigenes" # Later satrap of Susiana
 	dynasty = 25 # Antigenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = tough_soldier

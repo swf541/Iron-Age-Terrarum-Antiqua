@@ -2,7 +2,7 @@
 21301 = {
 	name = "Zephyros" # Tarentum
 	dynasty = 2014 # Tarantinoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	390.1.1 = { # 386 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 21302 = {
 	name = "Linos" # Tarentum
 	dynasty = 2014 # Tarantinoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 21301
 	429.1.1 = { # 347 BC Made up

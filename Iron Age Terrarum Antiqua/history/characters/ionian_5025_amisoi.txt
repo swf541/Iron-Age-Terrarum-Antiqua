@@ -2,7 +2,7 @@
 51901 = {
 	name = "Iason" # Ruler of Amisos, Made up
 	dynasty = 5025 # Amisoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 51902
 	437.1.1 = { # Made up
@@ -15,7 +15,7 @@
 51902 = {
 	name = "Androkles" # Ruler of Amisos, Made up	
 	dynasty = 5025 # Amisoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	403.1.1 = {
 		birth="yes" # 373 BC

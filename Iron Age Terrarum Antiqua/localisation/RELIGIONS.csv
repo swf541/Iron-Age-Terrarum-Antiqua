@@ -145,7 +145,7 @@ GOD_POSEIDON;Poseidon;Poseidon;;;;;;;;;;;;x
 GOD_HERA;Hera;Hera;;;;;;;;;;;;x
 GOD_ZEUS;Zeus;Zeus;;;;;;;;;;;;x
 greek_religion;Hellenic;Hellenic;;;;;;;;;;;;x
-greek_main;Olympian;Olympian;;;;;;;;;;;;x
+hellenic_pagan;Olympian;Olympian;;;;;;;;;;;;x
 GOD_JUNO;Juno;;;;;;;;;;;;x;
 GOD_VESTA;Vesta;;;;;;;;;;;;x;
 GOD_MINERVA;Minerva;;;;;;;;;;;;x;

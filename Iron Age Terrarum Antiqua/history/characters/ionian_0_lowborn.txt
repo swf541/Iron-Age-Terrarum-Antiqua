@@ -2,7 +2,7 @@
 59901 = {
 	name = "Kalippos" # Tyrant of Syracuse
 	dynasty = 0 # Lowborn
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	389.1.1 = {  
 		birth="yes" # 387 BC Made Up
@@ -17,7 +17,7 @@
 59902 = {
 	name = "AI" # Added to fix a bug that has the last dying character in the dynasty view before they are even born.
 	dynasty = 0
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	1.1.1 = {
@@ -30,7 +30,7 @@
 59903 = {
 	name = "Eurydike" # of Athens, wife of Demetrius I
 	dynasty = 0
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	female = yes
 
@@ -46,7 +46,7 @@
 59904 = {
 	name = "Lamia" # of Athens, had affair with Demetrius I
 	dynasty = 0
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	female = yes
 	

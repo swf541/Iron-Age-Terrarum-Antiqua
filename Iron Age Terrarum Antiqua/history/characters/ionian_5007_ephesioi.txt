@@ -2,7 +2,7 @@
 50601 = {
 	name = "Lykourgos" # Tyras
 	dynasty = 5007 # Ephesioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	397.1.1 = { # 381 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 50602 = {
 	name = "Demosthenes" # Tyras
 	dynasty = 5007 # Ephesioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50601
 	425.1.1 = { # 351 BC Made up

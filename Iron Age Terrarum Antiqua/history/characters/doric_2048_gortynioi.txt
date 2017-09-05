@@ -3,7 +3,7 @@
 	name = "Ekphantos" # Made up
 	dynasty = 2048
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	377.1.1 = { # 399 BC
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Neophytos" # Made up
 	dynasty = 2048
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 
 	father = 24701
 	
@@ -31,7 +31,7 @@
 	name = "Neophytos" # Made up
 	dynasty = 2048
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 
 	father = 24702
 	
@@ -46,7 +46,7 @@
 	name = "Ekphantos" # Made up
 	dynasty = 2048
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 
 	father = 24703
 	

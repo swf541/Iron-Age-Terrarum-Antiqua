@@ -2,7 +2,7 @@
 24001 = {
 	name = "Dionysios" # Dionysius the Elder, Tyrant of Syracuse
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24004
 	
@@ -26,7 +26,7 @@
 24002 = {
 	name = "Dionysios" # Dionysius II of Syracuse
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24001 # Dionysius the Elder
 	mother = 29901 # Doris
@@ -48,7 +48,7 @@
 24003 = {
 	name = "Hipparinos" # Tyrant of Syracuse
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24001 # Dionysius the Elder
 	mother = 24104 # Aristomache
@@ -65,7 +65,7 @@
 24004 = {
 	name = "Dionysios" # Made up father of Dionysius the Elder
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	319.1.1 = {
 		birth="yes" # 457 BC Made Up
@@ -77,7 +77,7 @@
 24005 = { 
 	name = "Leptines" # Brother of Dionysius the Elder  
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24004
 	
@@ -97,7 +97,7 @@
 24006 = {
 	name = "Leptines" # Son of Letines 
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	
 	add_trait = tough_soldier
@@ -113,7 +113,7 @@
 24007 = {
 	name = "Sophrosyne" # Daughter of Dionysius the Elder 
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	female = yes
 	father = 24001 # Dionysius the Elder
@@ -130,7 +130,7 @@
 24008 = {
 	name = "Arete" # Daughter of Dionysius the Elder
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	female = yes
 	father = 24001 # Dionysius the Elder
@@ -148,7 +148,7 @@
 	name = "Thearides" # Son of Dionysius the Elder
 	# Source: Plutarch, Life of Dion
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24001 # Dionysius the Elder
 	mother = 29901 # Doris
@@ -165,7 +165,7 @@
 24010 = {
 	name = "Apollokrates" # Son of Dionysius II
 	dynasty = 2041 # Dionysidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24002 # Dionysios II
 	mother = 24007 # Sophrosyne

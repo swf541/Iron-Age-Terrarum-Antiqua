@@ -2,7 +2,7 @@
 1701 = {
 	name = "Krateros" # Krateros, 'guardian' of Philotas
 	dynasty = 18 # Krateridai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1704
 	#employer = 501 # Philotas
@@ -31,7 +31,7 @@
 1702 = {
 	name = "Krateros" # Son of Craterus, the general
 	dynasty = 18 # Krateridai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1701 # Krateros
 	mother = 3 # Phila
@@ -49,7 +49,7 @@
 1703 = {
 	name = "Alexandros" # Grandson of Craterus, the general
 	dynasty = 18 # Krateridai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1702 # Craterus the son
 	
@@ -74,7 +74,7 @@
 1704 = {
 	name = "Alexandros" # Father of Craterus, the general
 	dynasty = 18 # Krateridai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	368.1.1 = { # Made up
@@ -87,7 +87,7 @@
 1705 = {
 	name = "Amphoteros" # Brother of Craterus, the general
 	dynasty = 18 # Krateridai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1704

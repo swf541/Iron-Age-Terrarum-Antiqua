@@ -1,0 +1,4 @@
+extreme_devotion = {
+	manichean_opinion = 40
+	customizer = no
+}

@@ -2,7 +2,7 @@
 20001 = {
 	name = "Kleomenes" # Cleomenes II, King of Sparta
 	dynasty = 2001 # Agiadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	396.1.1 = { # 380 BC, made up
 		birth="yes" 
@@ -14,7 +14,7 @@
 20002 = {
 	name = "Akrotatos" # Acrotatus I, son of Cleomenes II
 	dynasty = 2001 # Agiadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20001
 	
@@ -30,7 +30,7 @@
 20003 = {
 	name = "Areios" # Areus I, Agiad king of Sparta
 	dynasty = 2001 # Agiadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20002
 	439.1.1 = { # Made up
@@ -43,7 +43,7 @@
 20004 = {
 	name = "Kleonymos" # Brief ruler of Corfu, son of Cleomenes II
 	dynasty = 2001 # Agiadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20001
 	

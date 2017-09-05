@@ -2,7 +2,7 @@
 30201 = {
 	name = "Arkesilas" # Arkesilas, Satrap of Assyria
 	dynasty = 3003 # Arkesilidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	400.1.1 = { # 376 BC
 		birth="yes"

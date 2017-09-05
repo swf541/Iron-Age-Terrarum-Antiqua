@@ -2,7 +2,7 @@
 52701 = {
 	name = "Alexis" # Kerkinitis, Made up
 	dynasty = 5033 # Kerkinitoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 52704
 	416.1.1 = {
@@ -15,7 +15,7 @@
 52702 = {
 	name = "Zephyros" # Kerkinitis, Made up
 	dynasty = 5033 # Kerkinitoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 52701 # Alexis
 	451.1.1 = {
@@ -28,7 +28,7 @@
 52703 = {
 	name = "Chrysanthe" # Kerkinitis, Made up	
 	dynasty = 5033 # Kerkinitoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 52702 # Zephyros
 	female = yes
@@ -42,7 +42,7 @@
 52704 = {
 	name = "Perikles" # Kerkinitis, Made up
 	dynasty = 5033 # Kerkinitoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	391.1.1 = {
 		birth="yes" # 385 BC

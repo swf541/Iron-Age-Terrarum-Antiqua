@@ -2,7 +2,7 @@
 10001 = {
 	name = "Aiakides" # Aeacides, King of Epirus
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 10003 # Arybbas
 	mother = 10007 # Troas
@@ -18,7 +18,7 @@
 10002 = {
 	name = "Neoptolemos" # Neoptolemus, satrap of Armenia
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	
 	add_trait = strong # First to scale the walls of Gaza
@@ -41,7 +41,7 @@
 10003 = {
 	name = "Arybbas" # Arybbas, King of Epirus
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 10006
 	384.1.1 = { # 394 BC Made up
@@ -57,7 +57,7 @@
 10004 = {
 	name = "Alketas" # Alcetas II, King of Epirus
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 10003	# Arybbas
 	mother = 10007 # Troas
@@ -76,7 +76,7 @@
 10005 = {
 	name = "Neoptolemos" # Neoptolemus I, King of Epirus
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 10006
 	381.1.1 = { # 397 BC Made up
@@ -89,7 +89,7 @@
 10006 = {
 	name = "Alketas" # Alcetas I, King of Epirus
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	356.1.1 = { # 422 BC Made up
 		birth="yes"
@@ -101,7 +101,7 @@
 10007 = {
 	name = "Troas" # Troas, daughter of Neoptolemus I
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	female = yes
 	father = 10005 # Neoptolemus I
@@ -118,7 +118,7 @@
 10008 = {
 	name = "Alexandros" # Alexander I, King of Epirus
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 10005
 	
@@ -139,7 +139,7 @@
 10009 = {
 	name = "Neoptolemos" # Neoptolemus II, King of Epirus
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 10008 # Alexander I
 	mother = 809 # Kleopatra of Macedon
@@ -153,7 +153,7 @@
 10010 = {
 	name = "Pyrrhos" # The famous Pyrrhus of Epirus
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 10001 # Aiakides
 	
@@ -189,7 +189,7 @@
 10011 = {
 	name = "Olympias" # Alexander's mother
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 10005 # Neoptolemus I
 	female = yes
@@ -210,7 +210,7 @@
 10012 = {
 	name = "Deidameia" # Sister of Pyrrhus, married Demetrius
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 10001 # Aiakides
 	female = yes
@@ -228,7 +228,7 @@
 10013 = {
 	name = "Ptolemaios"
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 
 	father = 10010 # Pyrrhus
@@ -246,7 +246,7 @@
 10014 = {
 	name = "Olympias" # II
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	female = yes
 
@@ -264,7 +264,7 @@
 10015 = {
 	name = "Alexandros" # II
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 
 	father = 10010 # Pyrrhus
@@ -283,7 +283,7 @@
 10016 = {
 	name = "Hellenos"
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 
 	father = 10010 # Pyrrhus
@@ -301,7 +301,7 @@
 10017 = {
 	name = "Pyrrhos" # II
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 
 	father = 10015 # Alexander II
@@ -317,7 +317,7 @@
 10018 = {
 	name = "Ptolemaios" # I
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 
 	father = 10015 # Alexander II
@@ -333,7 +333,7 @@
 10019 = {
 	name = "Pthia" # Wife of Demetrius II
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 
 	father = 10015 # Alexander II
@@ -352,7 +352,7 @@
 10020 = {
 	name = "Deidameia" # Last Aeacid queen of Epirus
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	female = yes
 
@@ -368,7 +368,7 @@
 10021 = {
 	name = "Nereis" # Wife of Gelo of Syracuse
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	female = yes
 
@@ -386,7 +386,7 @@
 10022 = {
 	name = "Pyrrhos" # III
 	dynasty = 1001 # Aiakidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 
 	father = 10018 # Ptolemaios I

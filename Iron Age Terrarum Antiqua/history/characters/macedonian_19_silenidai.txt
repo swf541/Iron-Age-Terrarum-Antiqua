@@ -2,7 +2,7 @@
 1801 = {
 	name = "Ophellas" # Governor of Cyrene
 	dynasty = 19 # Silenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = ambitious

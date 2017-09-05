@@ -2,7 +2,7 @@
 1201 = {
 	name = "Peukestas" # Peucestas, satrap of Persia
 	dynasty = 13 # Peukestidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = hedonist

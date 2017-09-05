@@ -2,7 +2,7 @@
 54201 = {
 	name = "Hieronymos" # Cyrene, Made Up
 	dynasty = 5048 # Kyrenoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	400.1.1 = {
 		birth="yes" # 376 BC Made Up

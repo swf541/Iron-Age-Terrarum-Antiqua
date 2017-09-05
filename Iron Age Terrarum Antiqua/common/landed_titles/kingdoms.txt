@@ -989,7 +989,7 @@ k_lydia = {
 			color= { 0 135 135 }
 			color2= { 255 255 255 }
 			
-			holy_site = greek_main
+			holy_site = hellenic_pagan
 			holy_site = anatolian_main
 			
 			b_ephesus_ephesus = {
@@ -1102,7 +1102,7 @@ k_lydia = {
 			color= { 10 85 75 }
 			color2= { 255 255 255 }
 			
-			holy_site = greek_main
+			holy_site = hellenic_pagan
 			
 			b_miletus_miletus = {
 			}
@@ -3754,7 +3754,7 @@ k_macedon = {
 			color= { 210 90 50 }
 			color2= { 255 255 255 }
 			
-			holy_site = greek_main
+			holy_site = hellenic_pagan
 			holy_site = pontic_main
 			
 			b_aigai_pieria = {
@@ -4408,7 +4408,7 @@ k_greece = {
 			color= { 100 165 245 }
 			color2= { 255 255 255 }
 			
-			holy_site = greek_main
+			holy_site = hellenic_pagan
 			holy_site = pontic_main
 		
 			b_elis_olympia = {
@@ -4499,7 +4499,7 @@ k_greece = {
 			color= { 90 210 255 }
 			color2= { 255 255 255 }
 			
-			holy_site = greek_main
+			holy_site = hellenic_pagan
 		
 			b_kythinion_delphi = {
 			}

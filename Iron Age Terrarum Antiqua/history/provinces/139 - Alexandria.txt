@@ -23,7 +23,7 @@ religion = kemetic
 # Can be filled when things change around the province
 445.1.1 = { # founding of Alexandria
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 	b_alexandria_alexandria = castle
 	capital = b_alexandria_alexandria
 }

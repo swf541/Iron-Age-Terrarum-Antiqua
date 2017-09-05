@@ -16,7 +16,7 @@ b_praisos_knossos = castle
 
 # Misc
 culture = doric
-religion = greek_main
+religion = hellenic_pagan
 
 # History
 # Can be filled when things change around the province

@@ -2,7 +2,7 @@
 2101 = {
 	name = "Nikanor" # Later satrap of Cappadocia
 	dynasty = 22 # Stageiritai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = tough_soldier

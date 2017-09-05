@@ -2,7 +2,7 @@
 22401 = {
 	name = "Xenon" # Ruler of Knossos, Made up
 	dynasty = 2025 # Knossioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 22402
 	439.1.1 = { # Made up
@@ -15,7 +15,7 @@
 22402 = {
 	name = "Xenon" # Ruler of Knossos, Made up
 	dynasty = 2025 # Knossioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	407.1.1 = { # 369 BC, Made up
 		birth="yes"

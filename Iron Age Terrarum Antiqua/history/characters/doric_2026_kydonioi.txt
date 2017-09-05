@@ -2,7 +2,7 @@
 22501 = {
 	name = "Hieronymos" # Ruler of Kydonia, Made up
 	dynasty = 2026 # Kydonioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 22503
 	411.1.1 = { # Made up
@@ -15,7 +15,7 @@
 22502 = {
 	name = "Archelaos" # Ruler of Kydonia, Made up
 	dynasty = 2026 # Kydonioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 22501
 	429.1.1 = { # Made up
@@ -28,7 +28,7 @@
 22503 = {
 	name = "Leonidas" # Ruler of Kydonia, Made up
 	dynasty = 2026 # Kydonioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	375.1.1 = { # Made up
 		birth="yes" # 401 BC

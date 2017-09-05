@@ -10,7 +10,7 @@ b_rhode_emporion = castle
 
 # Misc
 culture = ionian
-religion = greek_main
+religion = hellenic_pagan
 
 
 

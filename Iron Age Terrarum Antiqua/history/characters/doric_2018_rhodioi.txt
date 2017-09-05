@@ -2,7 +2,7 @@
 21701 = {
 	name = "Euripides" # Rhodes
 	dynasty = 2018 # Rhodioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	387.1.1 = { # 389 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 21702 = {
 	name = "Theodoros" # Rhodes
 	dynasty = 2018 # Rhodioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 21701
 	421.1.1 = { # 355 BC Made up

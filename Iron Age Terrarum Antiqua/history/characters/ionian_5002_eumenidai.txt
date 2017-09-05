@@ -2,7 +2,7 @@
 50101 = {
 	name = "Eumenes" # Eumenes of Cardia, Satrap of Cappadocia
 	dynasty = 5002 # Eumenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	stewardship = 8

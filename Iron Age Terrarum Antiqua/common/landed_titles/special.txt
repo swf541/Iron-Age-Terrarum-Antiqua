@@ -806,184 +806,184 @@ d_r_cyrene = {
 
 b_korinthoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_pyloi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_olympoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_leukoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_zakynthoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 
 # TYRAS:
 
 b_tyroi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_chalkoi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_miletoi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_ephesoi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_marmaroi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 
 # OLBIA:
 
 b_chalkidikoi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_skyroi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_lemnoi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_ithakoi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_kythiroi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 
 # BYZANTION:
 
 b_megaroi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_theroi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_argoloi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_lakonoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_sikeloi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 
 # TARENTUM:
 
 b_spartoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_tarentoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_kalipoloi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_metapontoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_sipontoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 
 # ATHENS:
 
 b_hyperidai = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_aischinidai = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_demosthenidai = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_lykourgidai = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_eboulidai = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 
 # RHODES:
 
 b_rhodoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_delphoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_epidauroi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_kosoi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_messenioi = {
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 }
 
 # CYRENE
 
 b_battiadai = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_kyrenioi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_euesperidai = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_barkoi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 b_darnioi = {
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 }
 
 # Carthage

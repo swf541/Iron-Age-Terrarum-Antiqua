@@ -2,7 +2,7 @@
 23801 = {
 	name = "Loukianos" # Ruler of Messene, Made up
 	dynasty = 2039 # Messenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	389.1.1 = {
 		birth="yes" # 387 BC
@@ -14,7 +14,7 @@
 23802 = {
 	name = "Loukianos" # Ruler of Messene, Made up
 	dynasty = 2039 # Messenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 23801
 	423.1.1 = {
@@ -27,7 +27,7 @@
 23803 = {
 	name = "Loukianos" # Ruler of Messene, Made up
 	dynasty = 2039 # Messenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 23802
 	444.1.1 = {

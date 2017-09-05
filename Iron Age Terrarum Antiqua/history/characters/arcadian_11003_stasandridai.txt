@@ -2,7 +2,7 @@
 110101 = {
 	name = "Stasandros" # Satrap of Aria after Triparadisus
 	dynasty = 11003 # Stasandridai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = arcadian
 	398.1.1 = {
 		birth="yes"

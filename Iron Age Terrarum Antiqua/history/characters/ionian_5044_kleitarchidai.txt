@@ -2,7 +2,7 @@
 53801 = {
 	name = "Kleitarchos" # Tyrant of Eretria
 	dynasty = 5044 # Kleitarchidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	395.1.1 = { # Made up
 		birth="yes" # 381 BC

@@ -2,7 +2,7 @@
 701 = {
 	name = "Archon" # Archon, Satrap of Babylon
 	dynasty = 8 # Archontidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	429.1.1 = {
 		birth="yes" # 347 BC, Made up. Archon is first mentioned in Alexanders campaign in India

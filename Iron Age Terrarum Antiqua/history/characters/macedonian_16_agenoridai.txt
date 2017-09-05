@@ -2,7 +2,7 @@
 1501 = {
 	name = "Peithon" # Peithon, satrap of Gandhara
 	dynasty = 16 # Agenoridai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	416.1.1 = { # 360 BC Made up
 		birth="yes"

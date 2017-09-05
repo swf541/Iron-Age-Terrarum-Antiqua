@@ -2,7 +2,7 @@
 21501 = {
 	name = "Hyakinthos" # Tarentum
 	dynasty = 2016 # Metapontioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	400.1.1 = { # 376 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 21502 = {
 	name = "Agapetos" # Tarentum
 	dynasty = 2016 # Metapontioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 21501
 	430.1.1 = { # 346 BC Made up

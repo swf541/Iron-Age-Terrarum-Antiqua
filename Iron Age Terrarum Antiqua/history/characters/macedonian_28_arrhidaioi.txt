@@ -2,7 +2,7 @@
 2701 = {
 	name = "Arrhidaios" # Later satrap of Mysia
 	dynasty = 28 # Arrhidaioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	415.1.1 = {
 		birth="yes"

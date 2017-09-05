@@ -3,7 +3,7 @@
 	name="Demodamas" # Demodamas of Miletus
 	dynasty = 5054
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	444.1.1 = { # 332 BC, Made up
 		birth="yes"

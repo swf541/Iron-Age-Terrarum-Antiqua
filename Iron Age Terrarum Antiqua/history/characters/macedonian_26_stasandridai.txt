@@ -2,7 +2,7 @@
 2501 = {
 	name = "Stasandros" # Later satrap of Aria
 	dynasty = 26 # Stasandridai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	420.1.1 = { # 356 BC Made up
 		birth="yes"

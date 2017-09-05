@@ -2,7 +2,7 @@
 51001 = {
 	name = "Kleon" # Olbia
 	dynasty = 5011 # Lemnioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	387.1.1 = { # 389 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 51002 = {
 	name = "Epaphros" # Olbia
 	dynasty = 5011 # Lemnioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 51001
 	414.1.1 = { # 362 BC Made up

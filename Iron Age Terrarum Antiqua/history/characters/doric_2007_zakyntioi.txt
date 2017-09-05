@@ -2,7 +2,7 @@
 20601 = {
 	name = "Nikanor" # Syracuse
 	dynasty = 2007 # Zakyntioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	382.1.1 = { # 394 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 20602 = {
 	name = "Leontios" # Syracuse
 	dynasty = 2007 # Zakyntioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20601
 	435.1.1 = { # 341 BC Made up

@@ -2,7 +2,7 @@
 53201 = {
 	name = "Atrometos" # Father of Aischines
 	dynasty = 5038 # Aischinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	363.1.1 = { # Made up
 		birth="yes" # 413 BC
@@ -14,7 +14,7 @@
 53202 = {
 	name = "Aischines" # Politician in Athens
 	dynasty = 5038 # Aischinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53201
 	
@@ -30,7 +30,7 @@
 53203 = {
 	name = "Linos" # Politician in Athens, Made up
 	dynasty = 5038 # Aischinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53202
 	430.1.1 = {
@@ -43,7 +43,7 @@
 53204 = {
 	name = "Hermes" # Politician in Athens, Made up
 	dynasty = 5038 # Aischinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53203
 	458.1.1 = {

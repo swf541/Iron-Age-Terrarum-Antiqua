@@ -2,7 +2,7 @@
 30501 = {
 	name = "Thrasydaios" # Ruler of Larissa
 	dynasty = 3006 # Aleuadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	393.1.1 = { # Made up
 		birth="yes" # 383 BC

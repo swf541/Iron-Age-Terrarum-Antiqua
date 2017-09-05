@@ -2,7 +2,7 @@
 52901 = { 
 	name = "Hierax" # Amphipolitan envoy to Athens, ruler of Amphipolis
 	dynasty = 5035 # Amphipoloi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	400.1.1 = { # Made up
 		birth="yes" # 376 BC

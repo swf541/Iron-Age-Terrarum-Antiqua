@@ -15,7 +15,7 @@ b_agira = castle
 
 # Misc
 culture = doric
-religion = greek_main
+religion = hellenic_pagan
 
 # History
 439.1.1 = { b_agira = city } # 337 BC

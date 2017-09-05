@@ -2,7 +2,7 @@
 53601 = {
 	name = "Tremison" # Tyrant of Eretria
 	dynasty = 5042 # Eretrioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	369.1.1 = { # Made up
 		birth="yes" # 407 BC 
@@ -14,7 +14,7 @@
 53602 = {
 	name = "Ploutarchos" # Tyrant of Eretria
 	dynasty = 5042 # Eretrioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53601
 	

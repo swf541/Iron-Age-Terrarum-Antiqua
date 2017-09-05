@@ -2,7 +2,7 @@
 53401 = {
 	name = "Lykophron" # Father of Lykourgos
 	dynasty = 5040 # Lykourgidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	348.1.1 = {
 		birth="yes" # 428 BC
@@ -14,7 +14,7 @@
 53402 = {
 	name = "Lykourgos" # Athenian Politician
 	dynasty = 5040 # Lykourgidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53401
 	
@@ -31,7 +31,7 @@
 53403 = {
 	name = "Habron" # Son of Lykourgos
 	dynasty = 5040 # Lykourgidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53402
 	415.1.1 = { # Made up
@@ -44,7 +44,7 @@
 53404 = {
 	name = "Lykophron" # Made up
 	dynasty = 5040 # Lykourgidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53403
 	458.1.1 = {

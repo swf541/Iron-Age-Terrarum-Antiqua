@@ -17,7 +17,7 @@ b_casmenai_gela = city
 
 # Misc
 culture = doric
-religion = greek_main
+religion = hellenic_pagan
 
 # History
 439.1.1 = { b_gela = city } # 337 BC

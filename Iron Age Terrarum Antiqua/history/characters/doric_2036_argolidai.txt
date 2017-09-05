@@ -2,7 +2,7 @@
 23501 = {
 	name = "Agapios" # Ruler of Argolis, Made up
 	dynasty = 2036 # Argolidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	402.1.1 = {
 		birth="yes" # 374 BC
@@ -14,7 +14,7 @@
 23502 = {
 	name = "Agapios" # Ruler of Argolis, Made up
 	dynasty = 2036 # Argolidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 23501
 	447.1.1 = {

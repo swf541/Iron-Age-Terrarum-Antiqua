@@ -17,7 +17,7 @@ character_event = {
 				title = d_delphi
 			}
 		}
-		religion = greek_main
+		religion = hellenic_pagan
 		female = yes
 		has_character_flag = is_pythia
 	}
@@ -31,7 +31,7 @@ character_event = {
 			random_traits = yes
 			add_trait = celibate
 			culture = doric
-			religion = greek_main
+			religion = hellenic_pagan
 			female = yes
 			age = 50
 		}

@@ -2,7 +2,7 @@
 52001 = {
 	name = "Zephyros" # Ruler of Polemonion, Made up
 	dynasty = 5026 # Polemonioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	401.1.1 = { # Made up
 		birth="yes" # 375 BC
@@ -14,7 +14,7 @@
 52002 = {
 	name = "Euphemios" # Ruler of Polemonion, Made up
 	dynasty = 5026 # Polemonioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	432.1.1 = {
 		birth="yes" # 344 BC

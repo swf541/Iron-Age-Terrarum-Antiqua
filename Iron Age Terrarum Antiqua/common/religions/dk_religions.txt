@@ -62,7 +62,7 @@ egyptian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -125,7 +125,7 @@ egyptian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -199,7 +199,7 @@ north_african_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -273,7 +273,7 @@ illyrian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -347,7 +347,7 @@ daco_thracian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -658,7 +658,7 @@ punic_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -806,7 +806,7 @@ zoroastrian_group = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -865,7 +865,7 @@ zoroastrian_group = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -1026,7 +1026,7 @@ zoroastrian_group = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -1228,7 +1228,7 @@ indian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -1285,7 +1285,7 @@ indian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -1467,7 +1467,7 @@ anatolian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -1525,7 +1525,7 @@ anatolian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -1593,7 +1593,7 @@ mesopotamian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -1661,7 +1661,7 @@ arabic_religion = {
 		
 		#intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -1679,7 +1679,7 @@ greek_religion = {
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
 	
-	greek_main = {
+	hellenic_pagan = {
 		graphical_culture = westerngfx
 
 		icon = 16
@@ -1734,7 +1734,7 @@ greek_religion = {
 		
 		intermarry = arabic_main
 		
-		#intermarry = greek_main
+		#intermarry = hellenic_pagan
 		#intermarry = roman_main
 		#intermarry = pontic_main
 								
@@ -1796,7 +1796,7 @@ greek_religion = {
 		
 		intermarry = arabic_main
 		
-		#intermarry = greek_main
+		#intermarry = hellenic_pagan
 		#intermarry = roman_main
 		#intermarry = pontic_main
 								
@@ -1859,7 +1859,7 @@ greek_religion = {
 		
 		intermarry = arabic_main
 		
-		#intermarry = greek_main
+		#intermarry = hellenic_pagan
 		#intermarry = roman_main
 		#intermarry = pontic_main
 								
@@ -1960,7 +1960,7 @@ dravidian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -2034,7 +2034,7 @@ lusitanian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -2108,7 +2108,7 @@ iberian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								
@@ -2186,7 +2186,7 @@ aquitanian_religion = {
 		
 		intermarry = arabic_main
 		
-		intermarry = greek_main
+		intermarry = hellenic_pagan
 		intermarry = roman_main
 		intermarry = pontic_main
 								

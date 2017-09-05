@@ -2,7 +2,7 @@
 22301 = {
 	name = "Kratesipolis" # Wife of Alexander, son of Polyperchon
 	dynasty = 2024 # Kratesipoloi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	female = yes
 	

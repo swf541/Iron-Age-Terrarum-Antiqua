@@ -2,7 +2,7 @@
 22101 = {
 	name = "Apollonaris" # Rhodes
 	dynasty = 2022 # Messenioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	388.1.1 = { # 388 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 22102 = {
 	name = "Erasmos" # Rhodes
 	dynasty = 2022 # Messenioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 22101
 	412.1.1 = { # 364 BC Made up

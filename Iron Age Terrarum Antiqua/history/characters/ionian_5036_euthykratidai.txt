@@ -2,7 +2,7 @@
 53001 = {
 	name = "Euthykrates" # Chief official of Olynthus, ruler of Chalcidice
 	dynasty = 5036 # Euthykratidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	add_trait = deceitful

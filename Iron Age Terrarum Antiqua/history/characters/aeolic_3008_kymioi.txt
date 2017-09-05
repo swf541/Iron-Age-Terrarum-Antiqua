@@ -3,7 +3,7 @@
 	name = "Herakleides" # of Cyme, Lysimachid governor of Heracleia Pontika
 	dynasty = 3008
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	449.1.1 = { # 327 BC, Made up
 		birth="yes"

@@ -2,7 +2,7 @@
 21401 = {
 	name = "Prokopios" # Tarentum 
 	dynasty = 2015 # Kallipolioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	403.1.1 = { # 373 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 21402 = {
 	name = "Hesiod" # Tarentum
 	dynasty = 2015 # Kallipolioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 21401
 	427.1.1 = { # 349 BC Made up

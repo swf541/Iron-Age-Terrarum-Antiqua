@@ -2,7 +2,7 @@
 20401 = {
 	name = "Pankratios" # Syracuse
 	dynasty = 2005 # Olympioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	397.1.1 = { # 379 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 20402 = {
 	name = "Agathon" # Syracuse
 	dynasty = 2005 # Olympioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20401
 	417.1.1 = { # 359 BC Made up

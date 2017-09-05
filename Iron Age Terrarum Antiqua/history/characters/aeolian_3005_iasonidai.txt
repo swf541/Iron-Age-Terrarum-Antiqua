@@ -2,7 +2,7 @@
 30401 = {
 	name = "Lykophron" # Of Pherae
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	327.1.1 = { # Made up
 		birth="yes" # 449 BC
@@ -14,7 +14,7 @@
 30402 = {
 	name = "Iason" # Of Pherae
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30401
 	
@@ -33,7 +33,7 @@
 30403 = {
 	name = "Polydoros" # Of Pherae, brother of Jason
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30401
 	355.1.1 = { # Made up
@@ -49,7 +49,7 @@
 30404 = {
 	name = "Alexandros" # brother of Jason
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30401
 	359.1.1 = { # Made up
@@ -62,7 +62,7 @@
 30405 = {
 	name = "Polyphron" # brother of Jason
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30401
 	
@@ -81,7 +81,7 @@
 30406 = {
 	name = "Alexandros" # Alexander of Pherae
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30402
 	
@@ -109,7 +109,7 @@
 30407 = {
 	name = "Tisiphonos" # Later Tyrant of Pherae
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30403
 	390.1.1 = { # Made up
@@ -122,7 +122,7 @@
 30408 = {
 	name = "Pytholaos" # Brother of Tisiphonos
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30403
 	397.1.1 = { # Made up
@@ -135,7 +135,7 @@
 30409 = {
 	name = "Lykophron" # Brother of Tisiphonos
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30403
 	399.1.1 = { # Made up
@@ -148,7 +148,7 @@
 30410 = {
 	name = "Thebe" # Sister of Tisiphonos and wife of Alexandros
 	dynasty = 3005 # Iasonidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30403
 	female = yes

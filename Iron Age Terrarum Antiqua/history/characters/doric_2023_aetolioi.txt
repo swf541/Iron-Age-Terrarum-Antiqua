@@ -2,7 +2,7 @@
 22201 = {
 	name = "Eutychios" # Strategos of the Aetolian league, Made up
 	dynasty = 2023 # Aetolioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 22204
 	422.1.1 = { # Made up
@@ -15,7 +15,7 @@
 22202 = {
 	name = "Apollonaris" # Strategos of the Aetolian League, Made up
 	dynasty = 2023 # Aetolioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 22201
 	451.1.1 = { # Made up
@@ -28,7 +28,7 @@
 22203 = {
 	name = "Diodoros" # Strategos of the Aetolian League, Made up
 	dynasty = 2023 # Aetolioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 22201
 	463.1.1 = { # Made up
@@ -41,7 +41,7 @@
 22204 = {
 	name = "Kleisthenes" # Leader of the Aetolian League, made up
 	dynasty = 2023 # Aetolioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	386.1.1 = { # Made up
 		birth="yes" # 390 BC

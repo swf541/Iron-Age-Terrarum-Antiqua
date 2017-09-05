@@ -12,7 +12,7 @@ b_pylos_messene = castle
 
 # Misc
 culture = doric
-religion = greek_main
+religion = hellenic_pagan
 
 # History
 # Can be filled when things change around the province

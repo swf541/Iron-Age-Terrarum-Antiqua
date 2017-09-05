@@ -2,7 +2,7 @@
 22801 = {
 	name = "Hiketas" # Tyrant of Syracuse
 	dynasty = 2029 # Syrakousoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	451.1.1 = { # Made up
 		birth="yes" # 325 BC

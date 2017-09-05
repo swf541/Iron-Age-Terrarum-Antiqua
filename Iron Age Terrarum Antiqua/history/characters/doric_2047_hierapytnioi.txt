@@ -3,7 +3,7 @@
 	name = "Kleomenes" # Made up
 	dynasty = 2047
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	363.1.1 = { # 413 BC
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Iason" # Made up
 	dynasty = 2047
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 
 	father = 24601
 	
@@ -31,7 +31,7 @@
 	name = "Hieron" # Made up
 	dynasty = 2047
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 
 	father = 24602
 	
@@ -46,7 +46,7 @@
 	name = "Iason" # Made up
 	dynasty = 2047
 	culture = doric
-	religion = greek_main
+	religion = hellenic_pagan
 
 	father = 24603
 	

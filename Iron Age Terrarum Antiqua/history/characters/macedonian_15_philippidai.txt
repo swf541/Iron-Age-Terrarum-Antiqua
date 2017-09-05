@@ -2,7 +2,7 @@
 1401 = {
 	name = "Philippos" # Philip, satrap of Bactria and Sogdiana
 	dynasty = 15 # Philippidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	420.1.1 = { # 356 BC Made up
 		birth="yes"

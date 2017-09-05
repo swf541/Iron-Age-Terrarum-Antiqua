@@ -2,7 +2,7 @@
 20701 = {
 	name = "Sosigenes" # Byzantion
 	dynasty = 2008 # Megarioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	392.1.1 = { # 374 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 20702 = {
 	name = "Zotikos" # Byzantion
 	dynasty = 2008 # Megarioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20701
 	420.1.1 = { # 354 BC Made up

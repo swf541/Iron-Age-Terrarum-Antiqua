@@ -2,7 +2,7 @@
 53501 = {
 	name = "Euboulos" # Athenian politician
 	dynasty = 5041 # Euboulidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	add_trait = midas_touched
@@ -17,7 +17,7 @@
 53502 = {
 	name = "Euboulos" # Made up
 	dynasty = 5041 # Euboulidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53501
 	403.1.1 = {
@@ -30,7 +30,7 @@
 53503 = {
 	name = "Zephyros" # Made up
 	dynasty = 5041 # Euboulidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53502
 	440.1.1 = {

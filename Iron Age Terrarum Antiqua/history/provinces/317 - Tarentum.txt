@@ -15,7 +15,7 @@ b_tarentum = city
 
 # Misc
 culture = doric
-religion = greek_main
+religion = hellenic_pagan
 
 # History
 # Can be filled when things change around the province

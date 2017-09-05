@@ -2,7 +2,7 @@
 2901 = {
 	name = "Kleitos" # Cleitus the Black
 	dynasty = 30 # Dropidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = ambitious

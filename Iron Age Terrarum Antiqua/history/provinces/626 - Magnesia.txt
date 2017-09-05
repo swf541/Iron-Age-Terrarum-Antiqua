@@ -15,7 +15,7 @@ b_rhizous_magnesia = city
 
 # Misc
 culture = aeolian
-religion = greek_main
+religion = hellenic_pagan
 
 # History
 # Can be filled when things change around the province

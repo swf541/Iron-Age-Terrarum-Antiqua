@@ -2,7 +2,7 @@
 54501 = {
 	name = "Eirenaios" # Cyrene, Made Up
 	dynasty = 5051 # Darnioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	403.1.1 = {
 		birth="yes" # 373 BC Made Up
@@ -14,7 +14,7 @@
 54502 = {
 	name = "Eumenes" # Cyrene, Made Up
 	dynasty = 5051 # Darnioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 54501
 	429.1.1 = {

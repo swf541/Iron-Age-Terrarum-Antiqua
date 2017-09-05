@@ -2,7 +2,7 @@
 24401 = {
 	name = "Chariton" # Malis, Made Up
 	dynasty = 2045 # Malidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	365.1.1 = {
 		birth="yes" # 411 BC, Made Up
@@ -14,7 +14,7 @@
 24402 = {
 	name = "Euphranor" # Malis, Made Up
 	dynasty = 2045 # Malidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24401
 	390.1.1 = {
@@ -27,7 +27,7 @@
 24403 = {
 	name = "Euphranor" # Malis, Made Up
 	dynasty = 2045 # Malidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24402
 	431.1.1 = {
@@ -40,7 +40,7 @@
 24404 = {
 	name = "Euphranor" # Malis, Made Up
 	dynasty = 2045 # Malidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24403
 	457.1.1 = {

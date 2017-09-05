@@ -2,7 +2,7 @@
 51601 = {
 	name = "Demetrios" # Cassandrian tyrant ruling over Athens
 	dynasty = 5022 # Phalerioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	426.1.1 = {
 		birth="yes" # 350 BC

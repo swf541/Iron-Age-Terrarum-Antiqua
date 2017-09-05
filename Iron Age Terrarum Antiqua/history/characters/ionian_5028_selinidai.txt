@@ -2,7 +2,7 @@
 52201 = {
 	name = "Anaxagoras" # Selinus, made up
 	dynasty = 5028 # Selinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 52202
 	418.1.1 = { # 358 BC
@@ -15,7 +15,7 @@
 52202 = {
 	name = "Alexios" # Selinus, made up
 	dynasty = 5028
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	376.1.1 = { 
 		birth="yes" # 400 BC Made Up

@@ -2,7 +2,7 @@
 20901 = {
 	name = "Isidoros" # Byzantion
 	dynasty = 2010 # Argioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	404.1.1 = { # 372 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 20902 = {
 	name = "Hermolaos" # Byzantion
 	dynasty = 2010 # Argioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20901
 	418.1.1 = { # 358 BC Made up

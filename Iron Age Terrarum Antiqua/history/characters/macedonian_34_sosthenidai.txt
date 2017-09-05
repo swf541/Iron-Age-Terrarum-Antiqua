@@ -3,7 +3,7 @@
 	name = "Sosthenes" # Lysimachian officer and king of macedonia in the interregnum
 	dynasty = 34
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	438.1.1 = { # 338 BC, Made up
 		birth="yes"

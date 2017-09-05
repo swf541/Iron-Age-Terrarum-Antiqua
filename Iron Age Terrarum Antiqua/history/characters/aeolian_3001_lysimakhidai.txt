@@ -2,7 +2,7 @@
 30001 = {
 	name = "Lysimachos" # Lysimachus, Strategos of Thrace, later king of Anatolia and Macedonia
 	dynasty = 3001 # Lysimakhidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	
 	martial = 8
@@ -41,7 +41,7 @@
 	name = "Agathokles" # Lysimachus' son. Later killed by his father
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30001
 	mother = 5
@@ -65,7 +65,7 @@
 	name = "Arsinoe" # Arsinoe I
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30001
 	mother = 5
@@ -83,7 +83,7 @@
 	name = "Eurydike" # Daughter of Lysimachus
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30001
 	mother = 5
@@ -100,7 +100,7 @@
 	name = "Alexandros" # Son of Lysimachus
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30001
 	
@@ -118,7 +118,7 @@
 	name = "Ptolemaios" # I Epigone
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30001
 	mother = 603
@@ -136,7 +136,7 @@
 	name = "Lysimachos" # Son of Lysimachus
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30001
 	mother = 603
@@ -157,7 +157,7 @@
 	name = "Philippos" # Son of Lysimachus
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30001
 	mother = 603
@@ -178,7 +178,7 @@
 	name = "Lysimachos" # Son of Ptolemy Epigone
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30006
 	
@@ -195,7 +195,7 @@
 	name = "Ptolemaios" # Son of Lysimachos
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30009
 	
@@ -212,7 +212,7 @@
 	name = "Epigonos" # Son of Ptolemy Epigone
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30006
 	
@@ -229,7 +229,7 @@
 	name = "Antipatros" # Son of Epigonos
 	dynasty = 3001
 	culture = aeolian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	father = 30011
 	

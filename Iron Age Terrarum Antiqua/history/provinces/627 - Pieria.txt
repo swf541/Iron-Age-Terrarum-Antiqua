@@ -13,7 +13,7 @@ b_pimpleia_pieria = city
 
 # Misc
 culture = macedonian
-religion = greek_main
+religion = hellenic_pagan
 
 # History
 # Can be filled when things change around the province

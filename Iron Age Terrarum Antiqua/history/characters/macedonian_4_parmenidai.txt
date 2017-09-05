@@ -2,7 +2,7 @@
 301 = {
 	name = "Asandros" # Asander, Satrap of Caria, grandson of Parmenion
 	dynasty = 4 # Parmenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = misguided_warrior

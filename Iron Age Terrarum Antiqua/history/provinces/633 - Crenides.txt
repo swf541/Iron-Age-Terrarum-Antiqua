@@ -25,5 +25,5 @@ religion = thracian_main
 	remove_settlement = b_crenides_crenides
 	capital = b_philippi_crenides
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 }

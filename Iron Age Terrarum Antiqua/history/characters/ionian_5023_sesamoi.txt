@@ -2,7 +2,7 @@
 51701 = {
 	name = "Eukleides" # Initial ruler of Sesamus, Made up
 	dynasty = 5023 # Sesamoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	432.1.1 = { # Made up
 		birth="yes" # 344 BC

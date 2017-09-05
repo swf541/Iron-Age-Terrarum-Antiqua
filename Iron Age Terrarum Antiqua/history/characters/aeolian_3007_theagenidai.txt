@@ -2,7 +2,7 @@
 30601 = {
 	name = "Theogenes" # Ruler of Boeotia
 	dynasty = 3007 # Theagenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	383.1.1 = { # Made up
 		birth="yes" # 393 BC
@@ -14,7 +14,7 @@
 30602 = {
 	name = "Ophellas" # Made up
 	dynasty = 3007 # Theagenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30601
 	417.1.1 = {
@@ -27,7 +27,7 @@
 30603 = {
 	name = "Theogenes" # Ruler of Boeotia, Made up
 	dynasty = 3007 # Theagenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	father = 30602
 	439.1.1 = {

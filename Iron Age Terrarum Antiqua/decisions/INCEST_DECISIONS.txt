@@ -34,7 +34,7 @@ dynasty_decisions = {
 				AND = {
 					is_female = no
 					OR = {
-						religion = greek_main
+						religion = hellenic_pagan
 						religion = pontic_main
 					}
 					NOT = {
@@ -75,7 +75,7 @@ dynasty_decisions = {
 								AND = {
 									is_female = no
 									OR = {
-										religion = greek_main
+										religion = hellenic_pagan
 										religion = pontic_main
 									}
 									NOT = {
@@ -186,7 +186,7 @@ dynasty_decisions = {
 				AND = {
 					is_female = no
 					OR = {
-						religion = greek_main
+						religion = hellenic_pagan
 						religion = pontic_main
 					}
 					NOT = {
@@ -422,7 +422,7 @@ decisions = {
 								AND = {
 									is_female = no
 									OR = {
-										religion = greek_main
+										religion = hellenic_pagan
 										religion = pontic_main
 									}
 									NOT = {

@@ -2,7 +2,7 @@
 24501 = {
 	name = "Nearkhos" # Made Up
 	dynasty = 2046
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric	
 	393.1.1 = { # 383 BC
 		birth="yes" 
@@ -14,7 +14,7 @@
 24502 = {
 	name = "Agapios" # Made Up
 	dynasty = 2046
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric	
 	father = 24501
 	428.1.1 = { # 348 BC

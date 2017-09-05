@@ -2,7 +2,7 @@
 50501 = {
 	name = "Hieronymos" # Tyras
 	dynasty = 5006 # Miletioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	387.1.1 = { # 389 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 50502 = {
 	name = "Iason" # Tyras
 	dynasty = 5006 # Miletioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50501
 	433.1.1 = { # 343 BC Made up

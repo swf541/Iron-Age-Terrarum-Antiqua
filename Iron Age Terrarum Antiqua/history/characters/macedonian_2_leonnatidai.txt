@@ -2,7 +2,7 @@
 101 = {
 	name = "Leonnatos" # Leonnatus, Satrap of Mysia(Hellespontine Phrygia)
 	dynasty = 2 # Leonnatidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = ambitious

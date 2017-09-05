@@ -17,7 +17,7 @@ b_arisba_lesbos = castle
 # Misc
 culture = aeolian
 
-religion = greek_main
+religion = hellenic_pagan
 
 
 

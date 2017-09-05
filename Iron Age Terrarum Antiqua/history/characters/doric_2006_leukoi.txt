@@ -2,7 +2,7 @@
 20501 = {
 	name = "Demetrios" # Syracuse
 	dynasty = 2006 # Leukoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	390.1.1 = { # 386 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 20502 = {
 	name = "Hippokrates" # Syracuse
 	dynasty = 2006 # Leukoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20501
 	434.1.1 = { # 344 BC Made up

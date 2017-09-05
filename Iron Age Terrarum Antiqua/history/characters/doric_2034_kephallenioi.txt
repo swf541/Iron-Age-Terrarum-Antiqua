@@ -2,7 +2,7 @@
 23301 = {
 	name = "Galenos" # Ruler of Cephalonia, Made up
 	dynasty = 2034 # Kephallenioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	365.1.1 = {
 		birth="yes" # 411 BC 
@@ -14,7 +14,7 @@
 23302 = {
 	name = "Epiktetos" # Ruler of Cephalonia, Made up
 	dynasty = 2034 # Kephallenioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 23301
 	404.1.1 = { # Made up
@@ -27,7 +27,7 @@
 23303 = {
 	name = "Epiktetos" # Ruler of Cephalonia, Made up
 	dynasty = 2034 # Kephallenioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 23302
 	435.1.1 = {
@@ -40,7 +40,7 @@
 23304 = {
 	name = "Paramonos" # Ruler of Cephalonia, Made up
 	dynasty = 2034 # Kephallenioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 23303
 	457.1.1 = { 

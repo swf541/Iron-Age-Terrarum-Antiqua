@@ -19,7 +19,7 @@
 90202 = {
 	name = "Heracles" # Heracles of Macedon, supposed bastard of Alexander
 	dynasty = 9003 # Artabazus
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = persian
 	mother = 90201
 	

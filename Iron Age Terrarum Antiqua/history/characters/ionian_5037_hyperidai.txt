@@ -2,7 +2,7 @@
 53101 = {
 	name = "Glaokippos" # Father of Hyperides
 	dynasty = 5037 # Hyperidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	354.1.1 = { # Made up
 		birth="yes" # 422 BC
@@ -14,7 +14,7 @@
 53102 = {
 	name = "Hyperides" # Politician in Athens
 	dynasty = 5037 # Hyperidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53101
 	
@@ -33,7 +33,7 @@
 53103 = {
 	name = "Athanasios" # Politician in Athens, Made up
 	dynasty = 5037 # Hyperidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53102
 	421.1.1 = {
@@ -46,7 +46,7 @@
 53104 = {
 	name = "Hyperides" # Politician in Athens, Made up
 	dynasty = 5037 # Hyperidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53103
 	444.1.1 = {

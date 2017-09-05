@@ -2,7 +2,7 @@
 1301 = {
 	name = "Tlepolemos" # Tlepolemus, satrap of Carmania
 	dynasty = 14 # Tlepolemaioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	414.1.1 = { # 362 BC Made up
 		birth="yes"

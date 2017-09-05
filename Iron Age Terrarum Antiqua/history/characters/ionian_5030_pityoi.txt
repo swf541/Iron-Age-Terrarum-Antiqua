@@ -2,7 +2,7 @@
 52401 = {
 	name = "Nikephoros" # Pityous, Made up
 	dynasty = 5030 # Pityoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 52403
 	428.1.1 = {
@@ -15,7 +15,7 @@
 52402 = {
 	name = "Theodoros" # Pityous, Made up
 	dynasty = 5030
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 52401
 	467.1.1 = {
@@ -28,7 +28,7 @@
 52403 = {
 	name = "Nikandros" # Pityous, Made up
 	dynasty = 5030
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	382.1.1 = {
 		birth="yes" # 394 BC

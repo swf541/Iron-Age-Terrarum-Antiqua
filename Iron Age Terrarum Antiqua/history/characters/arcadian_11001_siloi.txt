@@ -2,7 +2,7 @@
 110001 = {
 	name = "Stasanor" # Stasanor, satrap of Drangiana and Aria
 	dynasty = 11001 # Siloi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = arcadian
 	
 	add_trait = just

@@ -2,7 +2,7 @@
 50301 = {
 	name = "Alkaios" # Tyras, Made Up
 	dynasty = 5004 # Tyrioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50303
 	377.1.1 = { # 399 BC Made up
@@ -15,7 +15,7 @@
 50302 = {
 	name = "Hippolytos" # Tyras, Made Up
 	dynasty = 5004 # Tyrioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50301
 	420.1.1 = { # 356 BC Made up
@@ -28,7 +28,7 @@
 50303 = {
 	name = "Heliodoros" # Tyras, Made Up
 	dynasty = 5004 # Tyrioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	352.1.1 = {
 		birth="yes" # 424 BC Made Up

@@ -2,7 +2,7 @@
 2001 = {
 	name = "Kleitos" # the White, Later satrap of Lydia
 	dynasty = 21 # Leukoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	
 	add_trait = wroth

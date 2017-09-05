@@ -2,7 +2,7 @@
 21001 = {
 	name = "Demosthenes" # Byzantion
 	dynasty = 2011 # Lakones
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	382.1.1 = { # 394 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 21002 = {
 	name = "Themistokles" # Byzantion
 	dynasty = 2011 # Lakones
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 21001
 	413.1.1 = { # 363 BC Made up

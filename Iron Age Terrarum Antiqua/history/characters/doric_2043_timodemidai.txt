@@ -2,7 +2,7 @@
 24201 = {
 	name = "Timodemos" # Father of Timoleon
 	dynasty = 2043 # Timodemidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	340.1.1 = { # 436 BC Made Up
 		birth="yes"
@@ -14,7 +14,7 @@
 24202 = {
 	name = "Timophanes" # Brother of Timoleon
 	dynasty = 2043 # Timodemidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24201
 	
@@ -33,7 +33,7 @@
 24203 = {
 	name = "Timoleon" # Timoleon
 	dynasty = 2043 # Timodemidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24201
 	

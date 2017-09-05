@@ -3,7 +3,7 @@
 	name = "Patrokles" # Patrokles, the explorer-general. Used as Satrap of Parthia
 	dynasty = 31
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	436.1.1 = { # 340 BC, Made up
 		birth="yes"

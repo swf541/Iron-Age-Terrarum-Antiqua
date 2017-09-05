@@ -2,7 +2,7 @@
 50001 = {
 	name = "Dionysios" # Tyrant of Heracleia Pontika
 	dynasty = 5001 # Klearkhidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50004
 	
@@ -23,7 +23,7 @@
 50002 = {
 	name = "Klearkhos" # Clearchus II of Heracleia Pontica
 	dynasty = 5001 # Klearkhidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50001
 	mother = 90204
@@ -44,7 +44,7 @@
 50003 = {
 	name = "Oxyathres" # Son of Dionysius of Heracleia
 	dynasty = 5001 # Klearkhidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50001
 	mother = 90204
@@ -65,7 +65,7 @@
 50004 = {
 	name = "Klearkhos" # Tyrant of Heracleia Pontika
 	dynasty = 5001 # Klearkhidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50005
 	
@@ -86,7 +86,7 @@
 50005 = {
 	name = "Klearkhos" # Father of Clearchus, Made Up
 	dynasty = 5001 # Klearkhidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	344.1.1 = {
 		birth="yes" # 423 BC, Made Up
@@ -98,7 +98,7 @@
 50006 = {
 	name = "Satyros" # Tyrant of Heracleia Pontika
 	dynasty = 5001 # Klearkhidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50005
 	
@@ -115,7 +115,7 @@
 50007 = {
 	name = "Timotheos" # Tyrant of Heracleia Pontika
 	dynasty = 5001 # Klearkhidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 50004
 	

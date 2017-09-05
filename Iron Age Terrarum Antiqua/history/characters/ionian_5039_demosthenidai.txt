@@ -2,7 +2,7 @@
 53301 = {
 	name = "Demosthenes" # Father of the famous Demosthenes
 	dynasty = 5039 # Demosthenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	366.1.1 = { # Made up
 		birth="yes" # 410 BC
@@ -14,7 +14,7 @@
 53302 = {
 	name = "Demosthenes" # Politician in Athens
 	dynasty = 5039 # Demosthenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53301
 	
@@ -32,7 +32,7 @@
 53303 = {
 	name = "Nikandros" # Politician in Athens, Made up
 	dynasty = 5039 # Demosthenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53302
 	428.1.1 = {
@@ -45,7 +45,7 @@
 53304 = {
 	name = "Demosthenes" # Politician in Athens, Made up
 	dynasty = 5039 # Demosthenidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53303
 	453.1.1 = {

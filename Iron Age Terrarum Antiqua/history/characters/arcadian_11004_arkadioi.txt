@@ -2,7 +2,7 @@
 110201 = {
 	name = "Aphrodisios" # Ruler of Arcadia, Made up
 	dynasty = 11004 # Arkadioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = arcadian
 	365.1.1 = {
 		birth="yes" # 411 BC
@@ -14,7 +14,7 @@
 110202 = {
 	name = "Theodoulos"
 	dynasty = 11004 # Arkadioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = arcadian
 	father = 110201
 	388.1.1 = {
@@ -27,7 +27,7 @@
 110203 = {
 	name = "Tychon" # Ruler of Arcadia, Made up
 	dynasty = 11004 # Arkadioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = arcadian
 	father = 110202
 	420.1.1 = {

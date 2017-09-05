@@ -2,7 +2,7 @@
 901 = {
 	name = "Perdikkas" # Perdiccas, Regent
 	dynasty = 10 # Orestai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	#employer = 801 # Philip III
 	

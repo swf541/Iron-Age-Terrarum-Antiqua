@@ -31,7 +31,7 @@ d_cretan = {
 	
 	capital = 8 # Kydonia
 	
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	mercenary = yes
 	strength_growth_per_century = 0.33
@@ -58,7 +58,7 @@ d_greek_cav = {
 	
 	capital = 20 # Delphi
 	
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	mercenary = yes
 	strength_growth_per_century = 0.33
@@ -139,7 +139,7 @@ d_pontic_spearmen = {
 	
 	capital = 56 # Phanagoria
 	
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	mercenary = yes
 	strength_growth_per_century = 0.33
@@ -193,7 +193,7 @@ d_greek_skirmishers = {
 	
 	capital = 26 # Olympia
 	
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	mercenary = yes
 	strength_growth_per_century = 0.33
@@ -220,7 +220,7 @@ d_greek_pikemen = {
 	
 	capital = 4 # Andros
 	
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	mercenary = yes
 	strength_growth_per_century = 0.33

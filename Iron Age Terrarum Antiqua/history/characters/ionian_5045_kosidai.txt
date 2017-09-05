@@ -2,7 +2,7 @@
 53901 = {
 	name = "Kosamas" # Ruler of Kos, Made up
 	dynasty = 5045 # Kosidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	370.1.1 = {
 		birth="yes" # 406 BC
@@ -14,7 +14,7 @@
 53902 = {
 	name = "Kosamas" # Ruler of Kos, Made up
 	dynasty = 5045 # Kosidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53901
 	407.1.1 = {
@@ -27,7 +27,7 @@
 53903 = {
 	name = "Kosamas" # Ruler of Kos, Made up
 	dynasty = 5045 # Kosidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53902
 	433.1.1 = {
@@ -40,7 +40,7 @@
 53904 = {
 	name = "Gennadios" # Ruler of Kos, Made up
 	dynasty = 5045 # Kosidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 53903
 	452.1.1 = {

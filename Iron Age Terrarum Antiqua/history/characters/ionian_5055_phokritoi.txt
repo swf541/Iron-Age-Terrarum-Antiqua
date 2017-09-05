@@ -3,7 +3,7 @@
 	name = "Phokritos" # Governor of Heracleia Pontika
 	dynasty = 5055
 	culture = ionian
-	religion = greek_main
+	religion = hellenic_pagan
 	
 	454.1.1 = { # 322 BC, Made up
 		birth="yes"

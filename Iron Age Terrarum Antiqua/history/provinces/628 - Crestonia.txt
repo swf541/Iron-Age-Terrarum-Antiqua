@@ -12,6 +12,6 @@ b_skotoussa_crestonia = city
 
 # Misc
 culture = macedonian
-religion = greek_main
+religion = hellenic_pagan
 
 # History

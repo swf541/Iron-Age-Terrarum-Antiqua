@@ -2,7 +2,7 @@
 30101 = {
 	name = "Laomedon" # Laomedon, Satrap of Syria
 	dynasty = 3002 # Larikhidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = aeolian
 	
 	add_trait = underhanded_rogue # Laomedon was put in charge of the persian prisoners due to his knowledge of the language

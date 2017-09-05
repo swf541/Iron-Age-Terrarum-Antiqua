@@ -2,7 +2,7 @@
 51401 = {
 	name = "Eukleides" # Ruler of Pharos, Made up
 	dynasty = 5020 # Pharoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 51402
 	380.1.1 = { # 396 BC, Made up
@@ -15,7 +15,7 @@
 51402 = {
 	name = "Taurosthenes" # Ruler of Pharos, Made up
 	dynasty = 5020 # Pharoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	357.1.1 = { # 419 BC, Made up
 		birth="yes"
@@ -27,7 +27,7 @@
 51403 = {
 	name = "Eukleides" # Ruler of Pharos, Made up
 	dynasty = 5020 # Pharoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 51401
 	422.1.1 = { # 354 BC, Made up
@@ -40,7 +40,7 @@
 51404 = {
 	name = "Gennadios" # Ruler of Pharos, Made up
 	dynasty = 5020 # Pharoi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 51403
 	445.1.1 = { # 331 BC, Made up

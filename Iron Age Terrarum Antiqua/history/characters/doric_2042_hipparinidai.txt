@@ -2,7 +2,7 @@
 24101 = {
 	name = "Hipparinos" # Father of Dion
 	dynasty = 2042 # Hipparinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	342.1.1 = {
 		birth="yes" # 434 BC Made Up
@@ -14,7 +14,7 @@
 24102 = {
 	name = "Dion" # Adviser to the Dionysiuses and later Tyrant
 	dynasty = 2042 # Hipparinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24101
 	
@@ -37,7 +37,7 @@
 24103 = {
 	name = "Megacles" # Brother of Dion
 	dynasty = 2042 # Hipparinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24101
 	371.1.1 = {
@@ -50,7 +50,7 @@
 24104 = {
 	name = "Aristomache" # Wife of Dionysius the Elder, Sister of Dion
 	dynasty = 2042 # Hipparinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24101
 	female = yes
@@ -64,7 +64,7 @@
 24105 = {
 	name = "Aretaios" # Son of Dion
 	dynasty = 2042 # Hipparinidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 24102 # Dion
 	mother = 24008 # Arete 

@@ -2,7 +2,7 @@
 1 = {	
 	name = "Antipatros" # Antipater, Regent of Macedon
 	dynasty = 1 # Antipatridai
-	religion = greek_main 
+	religion = hellenic_pagan 
 	culture = macedonian
 	father = 15 # Iollas
 	
@@ -25,7 +25,7 @@
 2 = {
 	name = "Kassandros" # Cassander, son of Antipater
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1 # Antipater
 	#employer = 801 # Philip III
@@ -50,7 +50,7 @@
 3 = {
 	name = "Phila" # Daughter of Antipater
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 	father = 1
@@ -68,7 +68,7 @@
 4 = {
 	name = "Eurydike" # Daughter of Antipater, later wife of Ptolemy
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 	father = 1
@@ -82,7 +82,7 @@
 5 = {
 	name = "Nikaia" # Daughter of Antipater
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 	father = 1
@@ -96,7 +96,7 @@
 6 = {
 	name = "Iollas" # Son of Antipater
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1
 	425.1.1 = { # 351 BC Made up
@@ -112,7 +112,7 @@
 7 = {
 	name = "Pleistarkhos" # Son of Antipater
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1
 	
@@ -131,7 +131,7 @@
 8 = {
 	name = "Philippos" # Son of Antipater
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1
 	
@@ -150,7 +150,7 @@
 9 = {
 	name = "Nikanor" # Son of Antipater
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1
 	445.1.1 = { # 331 BC Made up
@@ -169,7 +169,7 @@
 10 = {
 	name = "Alexarchos" # Son of Antipater
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1
 	447.1.1 = { # 329 BC Made up
@@ -185,7 +185,7 @@
 11 = {
 	name = "Triparadeisos" # Son of Antipater
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1
 	450.1.1 = { # 326 BC Made up
@@ -201,7 +201,7 @@
 12 = {
 	name = "Philippos" # IV
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 2 # Kassandros
 	mother = 810 # Thessalonike
@@ -220,7 +220,7 @@
 13 = {
 	name = "Antipatros" # II
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 2 # Kassandros
 	mother = 810 # Thessalonike
@@ -244,7 +244,7 @@
 14 = {
 	name = "Alexandros" # V
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 2 # Kassandros
 	mother = 810 # Thessalonike
@@ -268,7 +268,7 @@
 15 = {
 	name = "Iollas" # Father of Antipater(the regent)
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	356.1.1 = { # Made up
 		birth="yes" # 420 BC
@@ -280,7 +280,7 @@
 16 = { 
 	name = "Kassandros" # Brother of Antipater(the regent)
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 15 # Iollas
 	391.1.1 = { # Made up
@@ -296,7 +296,7 @@
 17 = {
 	name = "Antigon" # Antigone, mother of Berenike I
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 16
 	female = yes
@@ -310,7 +310,7 @@
 18 = {
 	name = "Antipatros" # Son of Philip, brother of Cassander(King of Macedonia)
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 8
 	add_trait = diadochi_king
@@ -324,7 +324,7 @@
 19 = {
 	name = "Berenike" # Of Egypt
 	dynasty = 1
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	mother = 17
 	female = yes

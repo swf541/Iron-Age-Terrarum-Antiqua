@@ -2,7 +2,7 @@
 23901 = {
 	name = "Hermokrates" # Ruler of Epidamnos, Made up
 	dynasty = 2040 # Epidamnioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	367.1.1 = { # 409 BC
 		birth="yes"
@@ -14,7 +14,7 @@
 23902 = {
 	name = "Chariton" # Ruler of Epidamnos, Made up
 	dynasty = 2040 # Epidamnioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 23901
 	396.1.1 = { # 380 BC, Made up
@@ -27,7 +27,7 @@
 23903 = {
 	name = "Hermokrates" # Ruler of Epidamnos, Made up
 	dynasty = 2040 # Epidamnioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 23902
 	422.1.1 = { # 354 BC, Made up

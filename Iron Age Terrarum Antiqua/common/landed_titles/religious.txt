@@ -28,7 +28,7 @@ d_delphi = {
 	foa = "PYTHIA_FOA"
 	short_name = yes
 	
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	
 	female_names = {

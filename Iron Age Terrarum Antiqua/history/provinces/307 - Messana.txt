@@ -16,7 +16,7 @@ b_tauromenium_messana = castle
 
 # Misc
 culture = ionian
-religion = greek_main
+religion = hellenic_pagan
 
 # History
 459.1.1 = { b_messana = castle }

@@ -2,7 +2,7 @@
 1001 = {
 	name = "Seleukos"
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	#employer = 801 # Philip III
 	father = 1004 # Antiochos
@@ -42,7 +42,7 @@
 1002 = {
 	name = "Antiochos" # Antiochus, son of Seleucus
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1001
 	mother = 240001
@@ -69,7 +69,7 @@
 1003 = {
 	name = "Seleukos" # Grandfather of Seleucus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	359.1.1 = { # Made up
 		birth="yes" # 417 BC
@@ -81,7 +81,7 @@
 1004 = {
 	name = "Antiochos" # Father of Seleucus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1003
 	
@@ -97,7 +97,7 @@
 1005 = {
 	name = "Ptolemaios" # Uncle of Seleucus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1003
 	
@@ -116,7 +116,7 @@
 1006 = {
 	name = "Didymeia" # Sister of Seleucus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 	father = 1004
@@ -130,7 +130,7 @@
 1007 = {
 	name = "Achaios" # Son of Seleucus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1001
 	mother = 240001
@@ -148,7 +148,7 @@
 1008 = {
 	name = "Apama" # Daughter of Seleucus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1001
 	mother = 240001
@@ -163,7 +163,7 @@
 1009 = {
 	name = "Laodike" # Daughter of Seleucus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1001
 	mother = 240001
@@ -181,7 +181,7 @@
 1010 = {
 	name = "Phila" # Daughter of Seleucus I by Stratonike
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1001 # Seleucus
 	mother = 410 # Stratonike
@@ -196,7 +196,7 @@
 1011 = {
 	name = "Seleukos" # Son of Antiochus I, executed for rebellion
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1002 # Antiochus
 	mother = 410 # Stratonike
@@ -217,7 +217,7 @@
 1012 = {
 	name = "Antiochos" # Antiochus II
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1002 # Antiochus
 	mother = 410 # Stratonike
@@ -247,7 +247,7 @@
 1013 = {
 	name = "Laodike" # Daughter of Antiochus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1002 # Antiochus
 	mother = 410 # Stratonike
@@ -262,7 +262,7 @@
 1014 = {
 	name = "Apama" # Daughter of Antiochus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1002 # Antiochus
 	mother = 410 # Stratonike
@@ -282,7 +282,7 @@
 1015 = {
 	name = "Stratonike" # Daughter of Antiochus I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1002 # Antiochus
 	mother = 410 # Stratonike
@@ -304,7 +304,7 @@
 1016 = {
 	name = "Antiochis" # Daughter of Achaios
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -320,7 +320,7 @@
 1017 = {
 	name = "Alexandros" # Son of Achaios
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1007 # Achaios
@@ -335,7 +335,7 @@
 1018 = {
 	name = "Laodike" # the First, Daughter of Achaios
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	female = yes
@@ -357,7 +357,7 @@
 1019 = {
 	name = "Andromachos" # Son of Achaios
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1007 # Achaios
@@ -372,7 +372,7 @@
 1020 = {
 	name = "Achaios" # Son of Andromachos, rebelled against Antiochos III
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1019 # Andromachos
@@ -393,7 +393,7 @@
 1021 = {
 	name = "Laodike" # the Second, Daughter of Andromachos, mother of Antiochos III
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -411,7 +411,7 @@
 1022 = {
 	name = "Seleukos" # II
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1012 # Antiochos II
@@ -427,7 +427,7 @@
 1023 = {
 	name = "Antiochos" # Hierax
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1012 # Antiochos II
@@ -448,7 +448,7 @@
 1024 = {
 	name = "Apama" # Daughter of Antiochos II
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -465,7 +465,7 @@
 1025 = {
 	name = "Stratonike" # of Cappadocia, Daughter of Antiochos II
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -483,7 +483,7 @@
 1026 = {
 	name = "Laodike" # Pontic wife, Daughter of Antiochos II
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -501,7 +501,7 @@
 1027 = {
 	name = "Antiochos" # Son of Antiochos II by Berenike, killed by Laodike I
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1012 # Antiochos II
@@ -522,7 +522,7 @@
 1028 = {
 	name = "Seleukos" # III, Son of Seleucus II
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1022 # Seleucus II
@@ -540,7 +540,7 @@
 1029 = {
 	name = "Antiochos" # III, The great
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1022 # Seleucus II
@@ -561,7 +561,7 @@
 1030 = {
 	name = "Antiochis" # Daughter of Seleucus II, Marries Armenian ruler
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -580,7 +580,7 @@
 1031 = {
 	name = "Antiochos" # Son of Antiochus III
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1029 # Antiochus III
@@ -599,7 +599,7 @@
 1032 = {
 	name = "Seleukos" # Seleucus IV
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1029 # Antiochus III
@@ -620,7 +620,7 @@
 1033 = {
 	name = "Ardys" # Son of Antiochus III
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1029 # Antiochus III
@@ -636,7 +636,7 @@
 1034 = {
 	name = "Apama" # Daughter of Antiochus III, name unknown
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -654,7 +654,7 @@
 1035 = {
 	name = "Laodike" # Laodice IV
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -674,7 +674,7 @@
 1036 = {
 	name = "Kleopatra" # Syra
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -691,7 +691,7 @@
 1037 = {
 	name = "Antiochis" # Of Cappadocia
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	female = yes
 
@@ -709,7 +709,7 @@
 1038 = {
 	name = "Mithridates" # Antiochus IV
 	dynasty = 11 # Seleukidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 
 	father = 1029 # Antiochus III

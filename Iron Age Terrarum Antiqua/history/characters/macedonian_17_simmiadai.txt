@@ -2,7 +2,7 @@
 1601 = {
 	name = "Polyperchon" # Polyperchon, eventual regent 
 	dynasty = 17 # Simmiadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	#employer = 1 # Antipater
 	
@@ -21,7 +21,7 @@
 1602 = {
 	name = "Alexandros" # Son of Polyperchon
 	dynasty = 17 # Simmiadai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = macedonian
 	father = 1601 # Polyperchon
 	

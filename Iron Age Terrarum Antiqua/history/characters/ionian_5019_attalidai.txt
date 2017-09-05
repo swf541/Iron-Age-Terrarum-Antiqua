@@ -2,7 +2,7 @@
 51301 = {
 	name = "Philetairos" # Founder of the Attalid dynasty
 	dynasty = 5019 # Attalidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	add_trait = charitable
@@ -27,7 +27,7 @@
 51302 = {
 	name = "Attalos" # Father of Philetairos
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	402.1.1 = { # 374 BC, Made up
@@ -40,7 +40,7 @@
 51303 = {
 	name = "Eumenes" # Father of Eumenes I
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51302
@@ -58,7 +58,7 @@
 51304 = {
 	name = "Eumenes" # Eumenes I
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51303
@@ -82,7 +82,7 @@
 51305 = {
 	name = "Philetairos" # Brother of Eumenes I
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51303
@@ -99,7 +99,7 @@
 51306 = {
 	name = "Attalos" # Grandfather of Attalus I
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51302
@@ -117,7 +117,7 @@
 51307 = {
 	name = "Attalos" # Father of Attalus I
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51306
@@ -135,7 +135,7 @@
 51308 = {
 	name = "Eumenes" # Uncle of Attalus I
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51306
@@ -152,7 +152,7 @@
 51309 = {
 	name = "Attalos" # Attalus I
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51307
@@ -177,7 +177,7 @@
 51310 = {
 	name = "Eumenes" # Eumenes II
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51309
@@ -197,7 +197,7 @@
 51311 = {
 	name = "Attalos" # Attalus III
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51310
@@ -216,7 +216,7 @@
 51312 = {
 	name = "Eumenes" # III, also known as Aristonicus
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51310
@@ -237,7 +237,7 @@
 51313 = {
 	name = "Attalos" # II
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51309
@@ -257,7 +257,7 @@
 51314 = {
 	name = "Philetairos" # Son of Attalus I
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51309
@@ -274,7 +274,7 @@
 51315 = {
 	name = "Athenaios" # Son of Attalus I
 	dynasty = 5019
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	
 	father = 51309

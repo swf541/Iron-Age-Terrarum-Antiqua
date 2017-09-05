@@ -2,7 +2,7 @@
 22701 = {
 	name = "Agathokles" # King of Sicily
 	dynasty = 2028 # Agathoklidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	
 	health = 3 # Plagued by ill-health
@@ -20,7 +20,7 @@
 22702 = {
 	name = "Lanassa" # Daughter of Agathocles, wife of Pyrrhus and Demetrius
 	dynasty = 2028 # Agathoklidai
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	female = yes
 	father = 22701

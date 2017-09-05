@@ -2,7 +2,7 @@
 51201 = {
 	name = "Platon" # Olbia
 	dynasty = 5013 # Kytherioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	393.1.1 = { # 383 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 51202 = {
 	name = "Gennadios" # Olbia
 	dynasty = 5013 # Kytherioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = ionian
 	father = 51201
 	425.1.1 = { # 351 BC Made up

@@ -2,7 +2,7 @@
 20201 = {
 	name = "Tychon" # Syracuse
 	dynasty = 2003 # Korinthioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	397.1.1 = { # 379 BC Made up
 		birth="yes"
@@ -14,7 +14,7 @@
 20202 = {
 	name = "Euphemios" # Syracuse
 	dynasty = 2003 # Korinthioi
-	religion = greek_main
+	religion = hellenic_pagan
 	culture = doric
 	father = 20201 # Tychon
 	444.1.1 = { # 332 BC Made up

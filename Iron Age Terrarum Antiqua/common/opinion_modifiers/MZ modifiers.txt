@@ -1,0 +1,159 @@
+pf_lcut_ruler = {
+	opinion = 0
+	months = 1
+}
+opinion_nowruz = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_nowruz = {
+	opinion = -10
+	months = 12
+}
+
+opinion_sadah = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_sadah = {
+	opinion = -10
+	months = 12
+}
+opinion_ludi_solis = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_ludi_solis = {
+	opinion = -10
+	months = 12
+}
+
+opinion_mihragan = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_mihragan = {
+	opinion = -10
+	months = 12
+}
+
+opinion_ameysia = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_ameysia = {
+	opinion = -10
+	months = 12
+}
+
+opinion_donibane = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_donibane = {
+	opinion = -10
+	months = 12
+}
+
+opinion_urgoiena = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_urgoiena = {
+	opinion = -10
+	months = 12
+}
+
+opinion_djiorgwyba = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_djiorgwyba = {
+	opinion = -10
+	months = 12
+}
+
+opinion_mìlad_az_zaman = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_mìlad_az_zaman = {
+	opinion = -10
+	months = 12
+}
+opinion_sabian_tammuz = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_sabian_tammuz = {
+	opinion = -10
+	months = 12
+}
+opinion_reaction_nehushtan = {
+	opinion = 50
+	months = 300
+}
+opinion_priestly_reaction_nehushtan = {
+	opinion = -50
+	months = 300
+}
+
+opinion_dawanay = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_dawanay = {
+	opinion = -10
+	months = 12
+}
+
+opinion_jirjis = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_jirjis = {
+	opinion = -10
+	months = 12
+}
+
+opinion_kha_b_nisan = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_kha_b_nisan = {
+	opinion = -10
+	months = 12
+}
+
+opinion_laylat_an_nur = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_laylat_an_nur = {
+	opinion = -10
+	months = 12
+}
+
+opinion_ìd_tabrìk_al_annam = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_ìd_tabrìk_al_annam = {
+	opinion = -10
+	months = 12
+}

@@ -3,7 +3,7 @@
 	name = "Amyntas" # Father of Philippos
 	dynasty = 36 
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 
 	392.1.1 = { # Made up
 		birth="yes" # 384 BC
@@ -16,7 +16,7 @@
 	name = "Philippos" # Father of Magas
 	dynasty = 36 
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 
 	father = 3501
 
@@ -34,7 +34,7 @@
 	name = "Magas" # King of Cyrene
 	dynasty = 36 
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 
 	father = 3502 # Philippos
 	mother = 19 # Berenike of Egypt
@@ -53,7 +53,7 @@
 	name = "Antigone" # Wife of Pyrrhus
 	dynasty = 36 
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 	female = yes
 
 	father = 3502 # Philippos
@@ -71,7 +71,7 @@
 	name = "Theoxena" # Wife of Agathocles
 	dynasty = 36 
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 	female = yes
 
 	father = 3502 # Philippos
@@ -88,7 +88,7 @@
 	name = "Berenike" # Wife of Ptolemy III
 	dynasty = 36 
 	culture = macedonian
-	religion = greek_main
+	religion = hellenic_pagan
 	female = yes
 
 	father = 3503 # Magas
