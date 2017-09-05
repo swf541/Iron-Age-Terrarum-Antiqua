@@ -1,0 +1,443 @@
+invasion = {
+	name = CB_NAME_INVASION
+	war_name = WAR_NAME_INVASION	
+	sprite = 1 # Placeholder
+	truce_days = 3650
+	is_permanent = yes
+	check_all_titles = yes # if permanent, setting this to true will check against all of someones titles, including vassal held titles
+
+	can_use = {
+		ROOT = {
+			NOT = { tier = COUNT }
+			tier = FROM
+			independent = yes
+			martial = 20
+			trait = ambitious
+		}
+		FROM = {
+			independent = yes
+		}
+	}
+
+	can_use_title = {
+		FROM = {
+			primary_title = {
+				title = PREVPREV
+			}
+			any_realm_province = {
+				any_neighbor_province = {
+					OR = {
+						AND = {
+							has_owner = yes
+							owner = {
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
+								}
+							}
+						}
+						AND = {
+							is_land = no
+							any_neighbor_province = {
+								has_owner = yes
+								owner = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	on_success = {
+		if = {
+			limit = { 
+				FROM = { tier = EMPEROR } 
+			}
+			ROOT = { prestige = 5000 }
+			FROM = { prestige = -5000 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = KING }
+			}
+			ROOT = { prestige = 1000 }
+			FROM = { prestige = -1000 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = DUKE }
+			}
+			ROOT = { prestige = 500 }
+			FROM = { prestige = -500 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = COUNT }
+			}
+			ROOT = { prestige = 100 }
+			FROM = { prestige = -100 }
+		}
+		custom_tooltip = {
+			text = invasion_occupy_occupied_settlements
+			hidden_tooltip = {		
+				ROOT = {		
+					occupy_minors_of_occupied_settlements = FROM
+					gain_all_occupied_titles = FROM
+				}
+			}
+		}
+		custom_tooltip = {
+			text = invasion_vassalize_all_vassals
+			hidden_tooltip = {
+				FROM = {
+					any_vassal = {
+						limit = { 
+							NOT = { tier = BARON }
+						}
+						set_defacto_liege = ROOT
+					}
+				}
+			}
+		}
+		hidden_tooltip = {
+			FROM = {
+				any_demesne_title = {
+					limit = { tier = ROOT }
+					destroy_landed_title = THIS
+				}
+				set_defacto_liege = ROOT
+			}
+		}
+	}
+	on_fail = {
+		if = {
+			limit = { 
+				FROM = { tier = EMPEROR } 
+			}
+			ROOT = { prestige = -1000 }
+			FROM = { prestige = 500 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = KING }
+			}
+			ROOT = { prestige = -200 }
+			FROM = { prestige = 100 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = DUKE }
+			}
+			ROOT = { prestige = -100 }
+			FROM = { prestige = 50 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = COUNT }
+			}
+			ROOT = { prestige = -50 }
+			FROM = { prestige = 25 }
+		}
+	}
+	on_reverse_demand = {
+		if = {
+			limit = { 
+				FROM = { tier = EMPEROR } 
+			}
+			ROOT = { prestige = -5000 }
+			FROM = { prestige = 5000 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = KING }
+			}
+			ROOT = { prestige = -1000 }
+			FROM = { prestige = 1000 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = DUKE }
+			}
+			ROOT = { prestige = -500 }
+			FROM = { prestige = 500 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = COUNT }
+			}
+			ROOT = { prestige = -100 }
+			FROM = { prestige = 100 }
+		}
+		ROOT = {
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 8.0
+			}
+		}
+	}
+	
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Invade on behalf of vassal
+invasion_other = {
+	name = CB_NAME_INVASION_OTHER
+	war_name = WAR_NAME_INVASION_OTHER
+	sprite = 1 # Placeholder
+	truce_days = 3650
+	is_permanent = yes
+	check_all_titles = yes # if permanent, setting this to true will check against all of someones titles, including vassal held titles
+
+	can_use_gui = {
+		ROOT = {
+			independent = yes
+			martial = 20
+			trait = ambitious
+		}
+		FROM = { independent = yes }
+	}
+
+	can_use_title = {
+		FROM = {
+			primary_title = {
+				title = PREVPREV
+			}
+			any_realm_province = {
+				any_neighbor_province = {
+					OR = {
+						AND = {
+							has_owner = yes
+							owner = {
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
+								}
+							}
+						}
+						AND = {
+							is_land = no
+							any_neighbor_province = {
+								has_owner = yes
+								owner = {
+									OR = {
+										character = ROOT
+										is_liege_or_above = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ROOT = {
+			any_vassal = {
+				tier = FROM
+				capital_scope = {
+					county = {
+						de_jure_liege_or_above = PREVPREVPREVPREV
+					}
+				}
+			}
+		}
+	}
+	on_success = {
+		if = {
+			limit = {
+				FROM = { tier = KING }
+			}
+			ROOT = { prestige = 1000 }
+			FROM = { prestige = -1000 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = DUKE }
+			}
+			ROOT = { prestige = 500 }
+			FROM = { prestige = -500 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = COUNT }
+			}
+			ROOT = { prestige = 100 }
+			FROM = { prestige = -100 }
+		}
+		custom_tooltip = {
+			text = invasion_other_occupy_occupied_settlements
+			hidden_tooltip = {
+				ROOT = {
+					random_vassal = {
+						limit = { 
+							tier = FROM 
+							capital_scope = {
+								county = {
+									de_jure_liege_or_above = FROM
+								}
+							}
+						}
+						occupy_minors_of_occupied_settlements = FROM
+						gain_all_occupied_titles = FROM
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = invasion_other_vassalize_all_vassals
+			hidden_tooltip = {
+				ROOT = {
+					random_vassal = {
+						limit = { 
+							tier = FROM 
+							capital_scope = {
+								county = {
+									de_jure_liege_or_above = FROM
+								}
+							}
+						}
+						FROM = {
+							any_vassal = {
+								limit = { 
+									NOT = { tier = BARON }
+								}
+								set_defacto_liege = PREVPREV
+							}
+						}
+					}
+				}
+			}
+		}
+		hidden_tooltip = {
+			ROOT = {
+				random_vassal = {
+					limit = { 
+						tier = FROM 
+						capital_scope = {
+							county = {
+								de_jure_liege_or_above = FROM
+							}
+						}
+					}					
+					FROM = {
+						any_demesne_title = {
+							limit = { tier = PREVPREV }
+							destroy_landed_title = THIS
+						}
+						set_defacto_liege = PREV
+					}
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		if = {
+			limit = { 
+				FROM = { tier = EMPEROR } 
+			}
+			ROOT = { prestige = -1000 }
+			FROM = { prestige = 500 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = KING }
+			}
+			ROOT = { prestige = -200 }
+			FROM = { prestige = 100 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = DUKE }
+			}
+			ROOT = { prestige = -100 }
+			FROM = { prestige = 50 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = COUNT }
+			}
+			ROOT = { prestige = -50 }
+			FROM = { prestige = 25 }
+		}
+	}
+	on_reverse_demand = {
+		if = {
+			limit = { 
+				FROM = { tier = EMPEROR } 
+			}
+			ROOT = { prestige = -5000 }
+			FROM = { prestige = 5000 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = KING }
+			}
+			ROOT = { prestige = -1000 }
+			FROM = { prestige = 1000 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = DUKE }
+			}
+			ROOT = { prestige = -500 }
+			FROM = { prestige = 500 }
+		}
+		if = {
+			limit = {
+				FROM = { tier = COUNT }
+			}
+			ROOT = { prestige = -100 }
+			FROM = { prestige = 100 }
+		}
+		ROOT = {
+			transfer_scaled_wealth = {
+				to = FROM
+				value = 8.0
+			}
+		}
+	}
+	
+	attacker_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	attacker_ai_defeat_worth = {
+		factor = 100
+	}
+
+	defender_ai_victory_worth = {
+		factor = -1 # always accept
+	}
+	
+	defender_ai_defeat_worth = {
+		factor = 100
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
