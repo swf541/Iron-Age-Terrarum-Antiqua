@@ -748,9 +748,7 @@ excommunicated = {
 	child_insult_adj = INSULT_EVIL
 }
 kinslayer = {
-	potential = {
-		NOT = { religion_group = muslim }
-	}
+
 
 	diplomacy = -3
 	
@@ -1145,10 +1143,7 @@ scholar = {
 	opposites = {
 		faqih
 	}
-	potential = {
-		NOT = { religion_group = muslim }
-	}
-	
+
 	learning = 3
 	
 	same_opinion = 10
@@ -1326,9 +1321,6 @@ lustful = {
 chaste = {
 	personality = yes
 	
-	potential = {
-		NOT = { religion_group = muslim }
-	}
 	
 	opposites =  {
 		lustful

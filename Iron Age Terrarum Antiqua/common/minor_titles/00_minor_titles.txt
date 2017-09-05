@@ -178,13 +178,6 @@ title_commander = {
 			AND = {
 				OR = {
 					is_female = no
-					AND = {
-						OR = {
-							religion = messalian
-							religion = cathar
-						}
-						liege = { religion = ROOT }
-					}
 					liege = {
 						OR = {
 							primary_title = {

@@ -1,0 +1,27 @@
+feudal_governments = {
+
+	dk_republic_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			FORT
+		}
+		allowed_holdings_culture = { }
+		accepts_liege_governments = { }
+		free_revoke_on_governments_religion = { }
+		potential = {
+			primary_title = {
+				title = k_rome
+			}
+			is_patrician = no
+		}
+		
+		color = { 255 255 255 }
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+	}
+}
