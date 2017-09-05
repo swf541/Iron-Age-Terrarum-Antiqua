@@ -1109,7 +1109,7 @@ zoroastrian_group = {
 		allow_in_ruler_designer = no
 	}		
 }
-abrahamic_religion = {
+jewish_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade # Should be changed or removed entirely
