@@ -8,6 +8,10 @@
 468.1.1 = { # 308 BC, Ophellas dies
 	holder = 601 # Ptolemy
 }
-491.1.1 = { # 285 BC
-	holder = 602 # Ptolemy II
+490.1.1 = { # 286 BC
+	holder = 3503 # Magas
+}
+500.1.1 = { # 276 BC, Magas rebels and becomes a king
+	liege = 0
+	holder = 0
 }

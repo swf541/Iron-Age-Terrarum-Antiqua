@@ -10,6 +10,24 @@
 	holder = 601 # Ptolemy
 	liege = e_egypt
 }
-491.1.1 = { # 285 BC
-	holder = 602 # Ptolemy II
+490.1.1 = { # 286 BC
+	holder = 3503 # Magas
+	liege = d_cyrene
+}
+500.1.1 = { # 276 BC, Magas rebels and becomes a king
+	holder = 3503 # Magas
+	liege = k_cyrene
+}
+526.1.1 = { # 250 BC, Demetrius the fair takes over
+	holder = 413 # Demetrius the Fair
+}
+527.1.1 = { # 249 BC, Ptolemies return by dowry
+	holder = 606 # Ptolemy III
+	liege = e_egypt
+}
+554.1.1 = { # 222 BC
+	holder = 610 # Ptolemy IV
+}
+572.7.1 = { # 204 BC
+	holder = 615 # Ptolemy V
 }

@@ -23,3 +23,12 @@
 	holder = 55001 # Eumenes
 	liege = 0
 }
+511.1.1 = { # 265 BC
+	holder = 130003 # Ariobarzanes I
+}
+525.1.1 = { # 251 BC
+	holder = 130004 # Mithradates II
+}
+567.1.1 = { # 209 BC
+	holder = 130005 # Mithradates III
+}

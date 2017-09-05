@@ -29,3 +29,27 @@
 495.2.1 = {
 	liege = e_syria
 }
+513.1.1 = { # 263 BC
+	holder = 51304 # Eumenes I
+}
+515.1.1 = { # 261 BC
+	liege = 0
+}
+535.1.1 = { # 241 BC
+	holder = 51309 # Attalus I
+}
+538.1.1 = { # 238 BC
+	liege = k_pergamum # Attalus I becomes king
+}
+579.1.1 = { # 197 BC
+	holder = 51310 # Eumenes II
+}
+617.1.1 = { # 159 BC
+	holder = 51313 # Attalos II
+}
+638.1.1 = { # 138 BC
+	holder = 51311 # Attalos III
+}
+643.1.1 = { # 133 BC
+	#Pergamon passes to Rome
+}

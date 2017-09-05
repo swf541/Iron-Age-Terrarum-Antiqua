@@ -34,3 +34,30 @@
 495.8.1 = {
 	holder = 1002 # Antiochos
 }
+505.1.1 = { # 271 BC
+	holder = 602 # Ptolemy II
+	liege = e_egypt
+}
+518.1.1 = { # 258 BC
+	holder = 1012 # Antiochos II Theos
+	liege = e_syria
+}
+530.1.1 = { # 246 BC
+	holder = 1022 # Seleukos II Kallinikos
+}
+532.1.1 = { # 244 BC, Hierax' rebellion
+	holder = 1023 # Antiochos Hierax
+	liege = k_lydia
+}
+547.3.1 = { # 228 BC
+	holder = 51309 # Attalus I
+	liege = k_pergamum
+}
+554.8.1 = { # 222 BC
+	holder = 1020 # Achaios
+	liege = k_lydia
+}
+561.3.1 = { # 215 BC
+	holder = 51309 # Attalus I
+	liege = k_pergamum
+}

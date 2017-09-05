@@ -23,10 +23,15 @@
 	holder = 3301
 	liege = d_phrygia
 }
-495.2.1 = {
-	holder = 1001 # Seleukos
-	liege = e_syria
+495.2.1 = { # 281 BC, Defeat of Lysimachus
+	holder = 3101 # Lysias
+	liege = d_lycaonia
 }
-495.8.1 = {
-	holder = 1002 # Antiochos
+548.1.1 = { # 227 BC
+	holder = 51309 # Attalus I
+	liege = k_pergamum
+}
+553.4.1 = { # 223 BC
+	holder = 3101 # Lysias
+	liege = d_lycaonia
 }

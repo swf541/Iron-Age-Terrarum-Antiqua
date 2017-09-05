@@ -1,15 +1,15 @@
-patrons_zoroastrian_main;Adopt A Zoroastrian Patron Deity;;;;;;;;;;;;x
-patrons_zoroastrian_main_desc;Adopt a deity from the Zoroastrian faith to act as your patron.;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.1.desc;Choose a patron deity to adopt from the Zoroastrian faith:;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.1.a;Ahura Mazda;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.1.b;Mithra;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.1.c;Armaiti;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.1.d;There are others...;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.2.desc;Choose a patron deity to adopt from the Zoroastrian faith:;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.2.a;Anahita;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.2.b;Sraosha;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.2.c;Airyaman;;;;;;;;;;;;x
-PATRONS_ZOROASTRIAN_MAIN.2.d;On second thoughts...;;;;;;;;;;;;x
+patrons_zoroastrian;Adopt A Zoroastrian Patron Deity;;;;;;;;;;;;x
+patrons_zoroastrian_desc;Adopt a deity from the Zoroastrian faith to act as your patron.;;;;;;;;;;;;x
+PATRONS_zoroastrian.1.desc;Choose a patron deity to adopt from the Zoroastrian faith:;;;;;;;;;;;;x
+PATRONS_zoroastrian.1.a;Ahura Mazda;;;;;;;;;;;;x
+PATRONS_zoroastrian.1.b;Mithra;;;;;;;;;;;;x
+PATRONS_zoroastrian.1.c;Armaiti;;;;;;;;;;;;x
+PATRONS_zoroastrian.1.d;There are others...;;;;;;;;;;;;x
+PATRONS_zoroastrian.2.desc;Choose a patron deity to adopt from the Zoroastrian faith:;;;;;;;;;;;;x
+PATRONS_zoroastrian.2.a;Anahita;;;;;;;;;;;;x
+PATRONS_zoroastrian.2.b;Sraosha;;;;;;;;;;;;x
+PATRONS_zoroastrian.2.c;Airyaman;;;;;;;;;;;;x
+PATRONS_zoroastrian.2.d;On second thoughts...;;;;;;;;;;;;x
 patrons_greek_main;Adopt An Olympian Patron Deity;;;;;;;;;;;;x
 patrons_greek_main_desc;Adopt a deity from the Olympian faith to act as your patron.;;;;;;;;;;;;x
 PATRONS_GREEK_MAIN.1.desc;Choose a patron deity to adopt from the Olympian faith:;;;;;;;;;;;;x

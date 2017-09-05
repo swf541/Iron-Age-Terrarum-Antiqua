@@ -120,3 +120,88 @@
 		}
 	}
 }
+
+# Offspring of Nikomedes I
+40009 = {
+	name = "Prousias" # Son of Nikomedes I
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+
+	father = 40005 # Nikomedes
+
+	500.1.1 = { # 276 BC, Made up
+		birth="yes"
+	}
+	519.1.1 = { # 257 BC, Made up
+		death="yes"
+	}
+}
+40010 = {
+	name = "Ziaelas" # King of Bithynia
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+
+	father = 40005 # Nikomedes
+
+	503.1.1 = { # 273 BC, Made up
+		birth="yes"
+	}
+	548.1.1 = { # 228 BC
+		death="yes"
+	}
+}
+40011 = {
+	name = "Lysandra" # Daughter of Nikomedes I
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	female = yes
+
+	father = 40005 # Nikomedes
+
+	507.1.1 = { # 269 BC, Made up
+		birth="yes"
+	}
+	553.1.1 = { # 223 BC, Made up
+		death="yes"
+	}
+}
+
+# Offspring of Ziaelas
+40012 = {
+	name = "Prousias" # Prusias I
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+
+	father = 40010 # Ziaelas
+
+	533.1.1 = { # 243 BC
+		birth="yes"
+	}
+	547.1.1 = { # 229 BC
+		add_spouse = 417 # Apama Antigonidai
+	}
+	594.1.1 = { # 182 BC
+		death="yes"
+	}
+}
+40013 = {
+	name = "Sura" # Daughter of Ziaelas, Name unknown
+	dynasty = 4001 # Bithyni
+	religion = thracian_main
+	culture = thracian
+	female = yes
+
+	father = 40010 # Ziaelas
+
+	531.1.1 = { # 245 BC
+		birth="yes"
+	}
+	# 229 BC, Marries Antiochos Hierax
+	585.1.1 = { # 191 BC, Made up
+		death="yes"
+	}
+}

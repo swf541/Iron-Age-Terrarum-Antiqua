@@ -31,3 +31,16 @@
 491.1.1 = { # 285 BC
 	holder = 602 # Ptolemy II
 }
+530.1.1 = { # 246 BC
+	holder = 408 # Antigonos Gonatas
+	liege = e_macedonia
+}
+537.1.1 = { # 237 BC
+	holder = 415 # Demetrios II Aetolicus
+}
+547.1.1 = { # 229 BC
+	holder = 418 # Antigonos III Doson
+}
+555.1.1 = { # 221 BC
+	holder = 416 # Philippos V
+}

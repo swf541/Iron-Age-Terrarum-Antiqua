@@ -29,3 +29,16 @@
 	holder = 3001 # Patrokles
 	liege = d_parthia
 }
+512.1.1 = { # 264 BC
+	holder = 480001 # Andragoras
+}
+537.1.1 = { # 239 BC
+	holder = 480101 # Arsaces I
+	liege = k_parthia
+}
+565.1.1 = { # 211 BC
+	holder = 480103 # Artabanus I
+}
+591.1.1 = { # 185 BC
+	holder = 480104 # Priapatius I
+}

@@ -22,6 +22,7 @@
 	dynasty = 13001 # Mithridates
 	religion = zoroastrian
 	culture = persian
+
 	father = 130001
 	
 	martial = 10 # Needed to have Pontus survive against Cappadocian rushing
@@ -35,6 +36,94 @@
 		give_nickname = nick_ktistes
 	}
 	510.1.1 = { # 266 BC
+		death="yes"
+	}
+}
+130003 = {
+	name = "Ariobarzanes" # I
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian
+	culture = persian
+
+	father = 130002
+	
+	467.1.1 = { # 309 BC Made up
+		birth="yes"
+	}
+	525.1.1 = { # 251 BC, Made up-ish
+		death="yes"
+	}
+}
+130004 = {
+	name = "Mithridates" # II
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian
+	culture = persian
+
+	father = 130003
+	
+	498.1.1 = { # 278 BC Made up
+		birth="yes"
+	}
+	532.1.1 = { # 244 BC
+		add_spouse = 1026 # Laodike of Pontus
+	}
+	567.1.1 = { # 209 BC, Made up-ish
+		death="yes"
+	}
+}
+
+# Offspring of Mithridates II
+
+130005 = {
+	name = "Mithridates" # III
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian
+	culture = persian
+
+	father = 130004
+	mother = 1026 # Laodike of Pontus
+	
+	534.1.1 = { # 242 BC Made up
+		birth="yes"
+	}
+	583.1.1 = { # 193 BC, Made up-ish
+		death="yes"
+	}
+}
+130006 = {
+	name = "Laodike" # Wife of Antiochus III
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian
+	culture = persian
+	female = yes
+
+	father = 130004
+	mother = 1026 # Laodike of Pontus
+	
+	536.1.1 = { # 240 BC Made up
+		birth="yes"
+	}
+	# 221 BC, marries Antiochus III
+	583.1.1 = { # 191 BC
+		death="yes"
+	}
+}
+130007 = {
+	name = "Laodike" # Wife of Achaeus
+	dynasty = 13001 # Mithridates
+	religion = zoroastrian
+	culture = persian
+	female = yes
+
+	father = 130004
+	mother = 1026 # Laodike of Pontus
+	
+	537.1.1 = { # 239 BC Made up
+		birth="yes"
+	}
+	# 221 BC, marries Achaeus
+	580.1.1 = { # 196 BC
 		death="yes"
 	}
 }

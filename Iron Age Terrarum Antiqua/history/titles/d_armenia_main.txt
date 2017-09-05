@@ -8,3 +8,13 @@
 459.1.1 = {
 	holder = 80002 # Orontes III
 }
+516.1.1 = { # 260 BC
+	holder = 80006 # Arsames I
+}
+538.1.1 = { # 228 BC
+	holder = 80007 # Orontes IV
+}
+564.1.1 = { # 212 BC
+	holder = 80301 # Artaxias I
+	liege = e_syria
+}

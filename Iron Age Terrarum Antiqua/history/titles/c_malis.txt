@@ -17,3 +17,10 @@
 492.1.1 = { # 284 BC
 	holder = 24404 # Malidai
 }
+499.1.1 = { # 277 BC
+	liege = e_macedonia
+}
+503.1.1 = { # 273 BC
+	holder = 22203 # Diodoros, Made up
+	liege = d_aetolia
+}

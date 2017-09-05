@@ -45,3 +45,5 @@
 # 440001-450000 for Gallaecian characters -- Split
 # 450001-460000 for Aquitanian characters -- Split
 # 460001-470000 for Khotanese characters -- Split
+# 470001-480000 for Galatian characters -- Split
+# 480001-490000 for Parthian characters -- Split

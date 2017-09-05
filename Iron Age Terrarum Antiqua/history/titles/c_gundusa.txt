@@ -30,7 +30,15 @@
 	holder = 60002 # Ariarathes II
 	liege = d_cappadocia
 }
-495.8.1 = {
-	holder = 80005 # Sames
-	liege = d_sophene
+496.1.1 = { # 280 BC
+	holder = 60004 # Ariamnes I
+}
+514.1.1 = { # 262 BC
+	holder = 60005 # Ariarathes III
+}
+527.1.1 = { # 249 BC
+	liege = k_cappadocia
+}
+556.1.1 = { # 220 BC
+	holder = 60006 # Ariarathes IV
 }

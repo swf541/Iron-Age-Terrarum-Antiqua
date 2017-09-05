@@ -20,13 +20,25 @@
 	liege = e_asia
 }
 475.1.1 = { # 301 BC
-	holder = 3301
-	liege = d_phrygia
+	holder = 601 # Ptolemy
+	liege = e_egypt
 }
-495.2.1 = {
-	holder = 1001 # Seleukos
-	liege = e_syria
+491.1.1 = { # 285 BC
+	holder = 602 # Ptolemy II
 }
-495.8.1 = {
-	holder = 1002 # Antiochos
+523.1.1 = { # 253 BC
+	holder = 3101 # Lysias
+	liege = d_lycaonia
+}
+548.1.1 = { # 227 BC
+	holder = 51309 # Attalus I
+	liege = k_pergamum
+}
+553.4.1 = { # 223 BC
+	holder = 1020 # Achaios
+	liege = k_lydia
+}
+553.6.1 = { # 223 BC
+	holder = 3101 # Lysias
+	liege = d_lycaonia
 }

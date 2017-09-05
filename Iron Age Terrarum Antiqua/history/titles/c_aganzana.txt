@@ -9,24 +9,21 @@
 448.1.1 = { # 328 BC
 	holder = 90001 # Aturpat
 }
-453.6.10 = {
-	holder = 1101
+453.6.10 = { # 323 BC
+	liege = k_atropatene
 }
-462.1.1 = {
-	holder = 401 # Antigonus
-	liege = k_s_phrygia
+480.1.1 = { # 296 BC
+	holder = 90003 # Bardiya
 }
-467.1.1 = {
-	liege = e_asia
+509.1.1 = { # 267 BC
+	holder = 90004 # Aturpat
 }
-468.1.1 = {
-	holder = 1001 # Seleukos
-	liege = e_syria
+518.1.1 = { # 258 BC
+	holder = 90005 # Darayavahu
 }
-482.1.1 = {
-	holder = 1002 # Antiochos
-	liege = k_s_persia
+552.1.1 = { # 224 BC
+	holder = 90006 # Darayavahu
 }
-495.8.1 = {
-	liege = e_syria
+555.1.1 = { # 221 BC
+	holder = 90007 # Artabazanes
 }

@@ -8,3 +8,12 @@
 495.8.1 = {
 	liege = e_syria
 }
+512.1.1 = { # 264 BC
+	holder = 480001 # Andragoras
+}
+531.1.1 = { # 245 BC
+	liege = 0
+}
+538.1.1 = { # 238 BC
+	holder = 0
+}

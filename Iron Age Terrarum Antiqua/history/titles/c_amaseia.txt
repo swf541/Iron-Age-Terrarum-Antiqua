@@ -25,7 +25,16 @@
 467.1.1 = {
 	liege = e_asia
 }
-475.1.1 = {
+475.1.1 = { # 301 BC
 	holder = 130002 # Mithradates Ktistes
-	liege = d_pontus
+	liege = k_pontus
+}
+510.1.1 = { # 266 BC
+	holder = 130003 # Ariobarzanes I
+}
+525.1.1 = { # 251 BC
+	holder = 130004 # Mithradates II
+}
+567.1.1 = { # 209 BC
+	holder = 130005 # Mithradates III
 }

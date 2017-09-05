@@ -22,3 +22,6 @@
 491.1.1 = { # 285 BC
 	holder = 53503 # Zephyros, fictional
 }
+499.1.1 = { # 277 BC
+	liege = e_macedonia
+}

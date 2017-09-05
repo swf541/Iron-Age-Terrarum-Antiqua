@@ -1,4 +1,4 @@
-namespace = PATRONS_ZOROASTRIAN_MAIN
+namespace = PATRONS_zoroastrian
 namespace = PATRONS_GREEK_MAIN
 namespace = PATRONS_BUDDHISM_MAIN
 namespace = PATRONS_HINDUISM_MAIN
@@ -11,20 +11,20 @@ namespace = PATRONS_ETRUSCAN_MAIN
 
 # Zoroastrian
 character_event = {
-	id = PATRONS_ZOROASTRIAN_MAIN.1
-	desc = PATRONS_ZOROASTRIAN_MAIN.1.desc
+	id = PATRONS_zoroastrian.1
+	desc = PATRONS_zoroastrian.1.desc
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = PATRONS_ZOROASTRIAN_MAIN.1.a
+		name = PATRONS_zoroastrian.1.a
 		add_trait = patron_ahura_mazda
 	}
 	
 	option = {
-		name = PATRONS_ZOROASTRIAN_MAIN.1.b
+		name = PATRONS_zoroastrian.1.b
 		add_trait = patron_mithra
 		ai_chance = {
 			factor = 1
@@ -41,42 +41,42 @@ character_event = {
 	}
 	
 	option = {
-		name = PATRONS_ZOROASTRIAN_MAIN.1.c
+		name = PATRONS_zoroastrian.1.c
 		add_trait = patron_armaiti
 	}
 	
 	option = {
-		name = PATRONS_ZOROASTRIAN_MAIN.1.d
-		hidden_tooltip = { character_event = { id = PATRONS_ZOROASTRIAN_MAIN.2 } }
+		name = PATRONS_zoroastrian.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_zoroastrian.2 } }
 	}
 }
 
 character_event = {
-	id = PATRONS_ZOROASTRIAN_MAIN.2
-	desc = PATRONS_ZOROASTRIAN_MAIN.2.desc
+	id = PATRONS_zoroastrian.2
+	desc = PATRONS_zoroastrian.2.desc
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = PATRONS_ZOROASTRIAN_MAIN.2.a
+		name = PATRONS_zoroastrian.2.a
 		add_trait = patron_anahita
 	}
 	
 	option = {
-		name = PATRONS_ZOROASTRIAN_MAIN.2.b
+		name = PATRONS_zoroastrian.2.b
 		add_trait = patron_sraosha
 	}
 	
 	option = {
-		name = PATRONS_ZOROASTRIAN_MAIN.2.c
+		name = PATRONS_zoroastrian.2.c
 		add_trait = patron_airyaman
 	}
 	
 	option = {
-		name = PATRONS_ZOROASTRIAN_MAIN.2.d
-		hidden_tooltip = { character_event = { id = PATRONS_ZOROASTRIAN_MAIN.1 } }
+		name = PATRONS_zoroastrian.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_zoroastrian.1 } }
 	}
 }
 

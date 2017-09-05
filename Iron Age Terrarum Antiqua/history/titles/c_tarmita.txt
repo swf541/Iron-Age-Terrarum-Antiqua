@@ -29,3 +29,22 @@
 	holder = 54801 # Demodamas of Miletus
 	liege = d_bactria
 }
+518.1.1 = { # 258 BC
+	holder = 3601 # Diodotos I
+}
+530.1.1 = { # 246 BC
+	liege = k_bactria
+}
+537.1.1 = { # 239 BC
+	holder = 3602 # Diodotos II
+}
+538.1.1 = { # 238 BC
+	holder = 30802 # Euthydemos I
+	liege = d_sogdiana
+}
+553.1.1 = { # 223 BC
+	liege = k_bactria
+}
+576.1.1 = { # 200 BC
+	holder = 30803 # Demetrios I
+}

@@ -32,5 +32,6 @@
 	liege = e_syria
 }
 495.8.1 = {
-	holder = 1002 # Antiochos
+	holder = 0
+	liege = 0
 }

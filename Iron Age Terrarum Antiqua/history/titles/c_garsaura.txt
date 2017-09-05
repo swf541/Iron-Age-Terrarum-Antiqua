@@ -27,3 +27,10 @@
 	holder = 3101 # Lysias
 	liege = d_lycaonia
 }
+527.1.1 = { # 249 BC
+	holder = 60005 # Ariarathes III
+	liege = k_cappadocia
+}
+556.1.1 = { # 220 BC
+	holder = 60006 # Ariarathes IV
+}

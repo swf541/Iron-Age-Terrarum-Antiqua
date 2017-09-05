@@ -23,3 +23,9 @@
 490.1.1 = { # 286 BC
 	holder = 23803
 }
+499.1.1 = { # 277 BC
+	liege = e_macedonia
+}
+503.1.1 = { # 273 BC
+	liege = 0
+}

@@ -167,14 +167,23 @@
 	457.1.1 = {
 		birth="yes" # 319 BC
 	}
+	478.1.1 = { # 298 BC
+		add_spouse = 3504 # Antigone
+	}
 	481.1.1 = { # 295 BC
 		add_spouse = 22702 # Lanassa
+	}
+	484.1.1 = { # 292 BC
+		add_spouse = 140005 # Bircenna
 	}
 	485.1.1 = { # 291 BC
 		remove_spouse = 22702 # Lanassa married Demetrius
 	}
-	504.1.1 = {
-		death="yes" # 272 BC
+	504.6.1 = {
+		death = { # 272 BC
+			death_reason = death_battle
+			killer = 408 # Antigonos II Gonatas
+		}
 	}
 }
 10011 = {
@@ -195,6 +204,199 @@
 	460.1.15 = { # 316 BC
 		death = {
 			death_reason = death_execution
+		}
+	}
+}
+10012 = {
+	name = "Deidameia" # Sister of Pyrrhus, married Demetrius
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	father = 10001 # Aiakides
+	female = yes
+	
+	452.1.1 = { # 324 BC, made up
+		birth="yes"
+	}
+	# 306 BC, marries Demetrius
+	476.1.1 = { # 300 BC
+		death="yes"
+	}
+}
+
+# Offspring of Pyrrhus
+10013 = {
+	name = "Ptolemaios"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+
+	father = 10010 # Pyrrhus
+	mother = 3504 # Antigone
+
+	481.1.1 = { # 295 BC
+		birth="yes"
+	}
+	504.5.1 = { # 272 BC
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+10014 = {
+	name = "Olympias" # II
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	female = yes
+
+	father = 10010 # Pyrrhus
+	mother = 3504 # Antigone
+
+	483.1.1 = { # 293 BC, Made up
+		birth="yes"
+	}
+	# 270 BC, marries Alexander II
+	543.1.1 = { # 233 BC, Made up-ish
+		death="yes"
+	}
+}
+10015 = {
+	name = "Alexandros" # II
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+
+	father = 10010 # Pyrrhus
+	mother = 22702 # Lanassa
+
+	482.1.1 = { # 294 BC, Made up
+		birth="yes"
+	}
+	506.1.1 = { # 270 BC
+		add_spouse = 10014 # Olympias II
+	}
+	534.1.1 = { # 242 BC
+		death="yes"
+	}
+}
+10016 = {
+	name = "Hellenos"
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+
+	father = 10010 # Pyrrhus
+	mother = 140005 # Bircenna
+
+	487.1.1 = { # 289 BC, Made up
+		birth="yes"
+	}
+	523.1.1 = { # 253 BC, Made up
+		death="yes"
+	}
+}
+
+# Offspring of Alexander II
+10017 = {
+	name = "Pyrrhos" # II
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+
+	father = 10015 # Alexander II
+	mother = 10014 # Olympias II
+
+	507.1.1 = { # 269 BC, Made up
+		birth="yes"
+	}
+	539.1.1 = { # 237 BC
+		death="yes"
+	}
+}
+10018 = {
+	name = "Ptolemaios" # I
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+
+	father = 10015 # Alexander II
+	mother = 10014 # Olympias II
+
+	509.1.1 = { # 267 BC, Made up
+		birth="yes"
+	}
+	541.1.1 = { # 235 BC
+		death="yes"
+	}
+}
+10019 = {
+	name = "Pthia" # Wife of Demetrius II
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+
+	father = 10015 # Alexander II
+	mother = 10014 # Olympias II
+
+	515.1.1 = { # 261 BC, Made up
+		birth="yes"
+	}
+	# 239 BC, marries Demetrius II
+	563.1.1 = { # 213 BC, Made up
+		death="yes"
+	}
+}
+
+# Offspring of Pyrrhos II
+10020 = {
+	name = "Deidameia" # Last Aeacid queen of Epirus
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	female = yes
+
+	father = 10017 # Pyrrhos II
+
+	524.1.1 = { # 252 BC, Made up
+		birth="yes"
+	}
+	543.1.1 = { # 233 BC
+		death="yes"
+	}
+}
+10021 = {
+	name = "Nereis" # Wife of Gelo of Syracuse
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+	female = yes
+
+	father = 10017 # Pyrrhos II
+
+	526.1.1 = { # 250 BC, Made up
+		birth="yes"
+	}
+	577.1.1 = { # 199 BC, Made up
+		death="yes"
+	}
+}
+
+# Offspring of Ptolemaios I
+10022 = {
+	name = "Pyrrhos" # III
+	dynasty = 1001 # Aiakidai
+	religion = greek_main
+	culture = doric
+
+	father = 10018 # Ptolemaios I
+
+	530.1.1 = { # 246 BC, Made up
+		birth="yes"
+	}
+	541.4.1 = { # 235 BC
+		death = {
+			death_reason = death_murder
 		}
 	}
 }

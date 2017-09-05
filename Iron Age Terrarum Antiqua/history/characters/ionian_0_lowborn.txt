@@ -27,3 +27,33 @@
 		death="yes"
 	}
 }
+59903 = {
+	name = "Eurydike" # of Athens, wife of Demetrius I
+	dynasty = 0
+	religion = greek_main
+	culture = ionian
+	female = yes
+
+	446.1.1 = { # 330 BC, Made up
+		birth="yes"
+	}
+	# 314 BC, marries Ophellas
+	# 308 BC, marries Demetrius I
+	495.1.1 = { # 281 BC, Made up
+		death="yes"
+	}
+}
+59904 = {
+	name = "Lamia" # of Athens, had affair with Demetrius I
+	dynasty = 0
+	religion = greek_main
+	culture = ionian
+	female = yes
+	
+	437.1.1 = { # 339 BC, Made up
+		birth="yes"
+	}
+	499.1.1 = { # 277 BC, Made up
+		death="yes"
+	}
+}

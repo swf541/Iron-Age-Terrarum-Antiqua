@@ -16,9 +16,6 @@
 467.1.1 = {
 	liege = k_odrysia
 }
-495.1.1 = {
-	holder = 604 # Ptolemaios Keraunos
-}
 495.2.1 = {
 	holder = 40102 # Cotys II
 }

@@ -61,6 +61,9 @@
 	498.1.1 = { # Made up
 		birth="yes" # 278 BC
 	}
+	521.1.1 = { # 255 BC
+		add_spouse = 29904 # Nikaia
+	}
 	529.1.1 = {
 		death = {
 			death_reason = death_murder
@@ -86,7 +89,9 @@
 	dynasty = 18 # Krateridai
 	religion = greek_main
 	culture = macedonian
+
 	father = 1704
+
 	409.1.1 = { # Made up
 		birth="yes" # 367 BC
 	}

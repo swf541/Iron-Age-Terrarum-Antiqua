@@ -20,3 +20,21 @@
 	holder = 1007 # Achaios
 	liege = d_pisidia
 }
+518.1.1 = { # 258 BC
+	holder = 1017 # Alexandros
+}
+547.1.1 = { # 229 BC
+	holder = 1019 # Andromachos
+}
+548.1.1 = { # 227 BC
+	holder = 51309 # Attalus I
+	liege = k_pergamum
+}
+553.9.1 = { # 223 BC
+	holder = 1020 # Achaios
+	liege = k_lydia
+}
+560.9.1 = { # 216 BC
+	holder = 1029 # Antiochos III Megas
+	liege = e_syria
+}

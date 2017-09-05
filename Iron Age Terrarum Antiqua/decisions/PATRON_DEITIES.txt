@@ -1,5 +1,5 @@
 decisions = {
-	patrons_zoroastrian_main = {
+	patrons_zoroastrian = {
 		is_high_prio = yes
 		potential = {
 			higher_tier_than = duke
@@ -75,7 +75,7 @@ decisions = {
 			prisoner = no
 		}
 		effect = {
-			character_event = { id = PATRONS_ZOROASTRIAN_MAIN.1 }
+			character_event = { id = PATRONS_zoroastrian.1 }
 		}
 	}
 	patrons_greek_main = {

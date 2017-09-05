@@ -34,3 +34,20 @@
 495.8.1 = {
 	holder = 1002 # Antiochos
 }
+497.1.1 = { # 279 BC
+	holder = 602 # Ptolemy II
+	liege = e_egypt
+}
+530.1.1 = { # 246 BC
+	holder = 606 # Ptolemy III
+}
+554.1.1 = { # 222 BC
+	holder = 610 # Ptolemy IV
+}
+572.7.1 = { # 204 BC
+	holder = 615 # Ptolemy V
+}
+575.7.1 = { # 201 BC
+	holder = 416 # Philippos V
+	liege = e_macedonia
+}

@@ -43,3 +43,55 @@
 		death="yes"
 	}
 }
+60004 = {
+	name = "Ariyamna" # Ariamnes I
+	dynasty = 6001 # Datama
+	religion = anatolian_main
+	culture = cappadocian
+
+	father = 60002
+
+	459.1.1 = { # Made up
+		birth="yes" # 317 BC
+	}
+	514.1.1 = { 
+		death="yes" # 262 BC
+	}
+}
+60005 = {	
+	name = "Aryawratha" # Ariarathes III
+	dynasty = 6001 # Datama
+	religion = anatolian_main
+	culture = cappadocian
+	
+	father = 60004
+
+	486.1.1 = { # Made up
+		birth="yes" # 290 BC
+	}
+	527.1.1 = { # Marries Stratonike of Cappadocia, 249 BC
+		add_spouse = 1025 # Stratonike
+	}
+	556.1.1 = {
+		death="yes" # 220 BC
+	}
+}
+60006 = {
+	name = "Aryawratha" # Ariarathes IV
+	dynasty = 6001 # Datama
+	religion = anatolian_main
+	culture = cappadocian
+
+	father = 60005
+	mother = 1025 # Stratonike
+
+	535.1.1 = { # Made up
+		birth="yes" # 241 BC
+	}
+	579.1.1 = { # 197 BC
+		add_spouse = 1037 # Antiochis, daughter of Antiochus III
+	}
+	613.1.1 = {
+		death="yes" # 163 BC
+	}
+}

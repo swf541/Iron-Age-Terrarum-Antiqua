@@ -31,3 +31,6 @@
 473.8.1 = { # 303 BC
 	liege = e_asia
 }
+499.1.1 = { # 277 BC
+	liege = e_macedonia
+}

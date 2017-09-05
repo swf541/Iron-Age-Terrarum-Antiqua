@@ -4,3 +4,9 @@
 454.1.1 = {
 	holder = 0
 }
+527.1.1 = { # 249 BC
+	holder = 60005 # Ariarathes III
+}
+556.1.1 = { # 220 BC
+	holder = 60006 # Ariarathes IV
+}

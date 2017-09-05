@@ -15,3 +15,15 @@
 467.1.1 = {
 	holder = 0
 }
+499.1.1 = { # 277 BC
+	holder = 408 # Antigonos II Gonatas
+}
+537.1.1 = { # 237 BC
+	holder = 415 # Demetrios II Aetolicus
+}
+547.1.1 = { # 229 BC
+	holder = 418 # Antigonos III Doson
+}
+555.1.1 = { # 221 BC
+	holder = 416 # Philippos V
+}

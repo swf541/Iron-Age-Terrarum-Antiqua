@@ -1,20 +1,17 @@
-417.1.1 = {
-	holder = 80003 # Orontes
-	liege = k_p_armenia
+415.1.1 = { # 361 BC
+	holder = 70203 # Mirian
+	liege = d_colchis
 }
-432.1.1 = {
-	holder = 90314 # Darius III of Persia
+428.1.1 = { # 348 BC
+	holder = 70201 # Aku, King of Colchis
 }
-440.1.1 = {
-	holder = 80004 # Orontes, son of the other Orontes
+471.1.1 = { # 305 BC
+	holder = 70202 # Kuji
 }
-445.10.1 = { # 332 BC
-	holder = 80001 # Mithrenes
-	liege = k_s_armenia
+496.1.1 = { # 280 BC
+	holder = 70001 # Parnavaz
+	liege = k_georgia
 }
-453.6.10 = {
-	liege = d_armenia_main
-}
-459.1.1 = {
-	holder = 80002 # Orontes III
+540.1.1 = { # 236 BC
+	holder = 70004 # Saurmag
 }
