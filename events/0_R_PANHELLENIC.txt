@@ -1,0 +1,87 @@
+namespace = dkpanhellenic
+
+### Olympic games ###
+character_event = {
+	id = dkpanhellenic.1
+	desc = dkpanhellenic.1.desc
+	picture = GFX_evt_child_reading
+	
+	trigger = {
+		has_landed_title = b_olympia_elis
+		NOT = {
+			26 = { # 26 is Elis
+				has_province_modifier = olympics_prov
+			}
+		}
+		month = 1
+		NOT = {
+			month = 2
+		}
+		year = 456
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		26 = { # 26 is Elis
+			add_province_modifier = {
+				name = olympics_prov
+				duration = 1460 # 4 Years
+			}
+		}
+	}
+	
+	option = {
+		name = dkpanhellenic.10.name # Send out invitations
+		set_global_flag = olympics_invitations
+	}
+}
+
+# Participate in Olympics?
+character_event = {
+	id = dkpanhellenic.2
+	desc = dkpanhellenic.2.desc
+	picture = GFX_evt_child_reading
+	
+	trigger = {
+		NOT = {
+			OR = {
+				has_character_flag = denied_olympics
+				has_character_flag = participating_olympics
+			}
+		}
+		has_global_flag = olympics_invitations
+		culture_group = hellenic
+	}
+	
+	option = {
+		name = dkpanhellenic.20.name # Yes
+		ai_chance = {
+			factor = 1
+		}
+		
+		set_character_flag = participating_in_olympics
+		
+		if = {
+			limit = {
+				ROOT = {
+					primary_title = {
+						higher_tier_than = BARON
+					}
+				}
+			}
+			prestige = 50
+		}
+	}
+	option = {
+		name = dkpanhellenic.21.name # No
+		ai_chance = {
+			factor = 1
+		}
+		
+		set_character_flag = denied_olympics
+	}
+}
+

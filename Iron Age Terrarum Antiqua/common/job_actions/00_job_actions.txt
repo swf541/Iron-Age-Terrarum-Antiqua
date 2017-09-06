@@ -27,7 +27,7 @@ action_improve_relations = {
 	}
 	
 	
-	events = { }
+	events = { 910 911 }
 }
 
 action_clan_sentiment = {
@@ -58,7 +58,7 @@ action_clan_sentiment = {
 		}
 	}
 	
-	events = {  }
+	events = { 20235 }
 }
 
 action_fabricate_claims = {
@@ -80,7 +80,7 @@ action_fabricate_claims = {
 		is_within_diplo_range = FROM
 	}
 	
-	events = {  }
+	events = { 913 914 }
 }
 
 action_sow_dissent = {
@@ -97,7 +97,7 @@ action_sow_dissent = {
 		is_within_diplo_range = FROM
 	}
 	
-	events = { }
+	events = { 916 917 }
 }
 
 action_statecraft = {
@@ -111,7 +111,7 @@ action_statecraft = {
 
 	offmap = yes
 	
-	events = {  } 
+	events = { MNM.78000 MNM.78003 } 
 }
 
 # Steward
@@ -133,7 +133,7 @@ action_squeeze_peasants = {
 	
 	local_tax_modifier = 0.025
 	
-	events = { }
+	events = { 920 921 }
 }
 
 action_collect_tribute = {
@@ -166,7 +166,7 @@ action_collect_tribute = {
 		}
 	}
 	
-	events = {  }
+	events = { 20225 }
 }
 
 action_settle_tribe = {
@@ -185,7 +185,7 @@ action_settle_tribe = {
 		NOT = { culture = FROM }
 	}
 	
-	events = { }
+	events = { 925 20206 }
 }
 
 action_oversee_construction = {
@@ -202,7 +202,7 @@ action_oversee_construction = {
 	
 	local_build_time_modifier = -0.025
 	
-	events = {  }
+	events = { 923 924 }
 }
 
 action_advance_eco_tech = {
@@ -243,7 +243,7 @@ action_build_legend = {
 	
 	monthly_character_prestige = 0.1
 	
-	events = {  }
+	events = { 20208 }
 }
 
 action_administer_realm = {
@@ -255,7 +255,7 @@ action_administer_realm = {
 
 	offmap = yes
 	
-	events = { }
+	events = { MNM.70005 MNM.78007 }
 }
 
 # Spymaster
@@ -277,7 +277,7 @@ action_uncover_plots = {
 
 	plot_discovery_chance = 0.01
 	
-	events = { }
+	events = { 929 931 9000 9020 }
 }
 
 action_uncover_plots_offmap = {
@@ -291,7 +291,7 @@ action_uncover_plots_offmap = {
 
 	plot_discovery_chance = 0.01
 	
-	events = { }
+	events = { MNM.70022 MNM.70024 MNM.70023 }
 }
 
 action_study_technology = {
@@ -309,7 +309,7 @@ action_study_technology = {
 		is_within_diplo_range = FROM
 	}
 	
-	events = { }
+	events = { 932 933 }
 }
 
 action_organize_spies = {
@@ -330,7 +330,7 @@ action_organize_spies = {
 	
 	plot_power_modifier = 0.005
 	
-	events = {  }
+	events = { 935 936 }
 }
 
 action_organize_spies_mystics = {
@@ -349,7 +349,7 @@ action_organize_spies_mystics = {
 	
 	plot_power_modifier = 0.005
 	
-	events = {  }
+	events = { 935 936 931 9000 9020 }
 }
 
 action_sabotage_province = {
@@ -370,7 +370,7 @@ action_sabotage_province = {
 		is_within_diplo_range = FROM
 	}
 	
-	events = {  }
+	events = { MNM.70020 933 }
 }
 
 # Marshal
@@ -392,7 +392,7 @@ action_advance_mil_tech = {
 	
 	tech_growth_modifier_military = 0.05
 	
-	events = { }
+	events = { 938 939 }
 }
 
 action_organize_raid = {
@@ -410,7 +410,7 @@ action_organize_raid = {
 		}
 	}
 	
-	events = {  }
+	events = { 20221 }
 }
 
 action_train_troops = {
@@ -431,7 +431,7 @@ action_train_troops = {
 	levy_size = 0.025
 	levy_reinforce_rate = 0.05
 	
-	events = {  }
+	events = { 941 942 }
 }
 
 action_train_troops_nomadic = {
@@ -488,7 +488,7 @@ action_organize_army = {
 	
 	attribute_cap = 25
 	
-	events = {  } 
+	events = { MNM.70010 MNM.70012 MNM.70015 } 
 }
 
 # Court Chaplain
@@ -540,7 +540,7 @@ action_inquisition = {
 		}
 	}
 
-	events = {  }
+	events = { 900 901 902 903 }
 }
 
 action_improve_rel_relations = {
@@ -565,7 +565,7 @@ action_improve_rel_relations = {
 		is_within_diplo_range = FROM
 	}
 	
-	events = {  }
+	events = { 906 907 }
 }
 
 action_advance_cul_tech = {
@@ -589,7 +589,7 @@ action_advance_cul_tech = {
 	
 	tech_growth_modifier_culture = 0.05
 	
-	events = {  }
+	events = { 926 927 }
 }
 
 action_build_zeal = {
@@ -609,7 +609,7 @@ action_build_zeal = {
 	
 	monthly_character_piety = 0.05
 	
-	events = {  }
+	events = { 20218 }
 }
 
 action_hunt_heretics = {
@@ -623,7 +623,7 @@ action_hunt_heretics = {
 
 	offmap = yes
 	
-	events = {  }
+	events = { MNM.70100 }
 }
 
 # Lord Spiritual (Muslim only)
@@ -642,5 +642,5 @@ action_charity = {
 	
 	local_revolt_risk = -0.01
 	
-	events = {  }
+	events = { 20040 20043 20048 20050 }
 }

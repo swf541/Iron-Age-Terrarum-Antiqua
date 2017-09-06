@@ -1,0 +1,2769 @@
+namespace = slavery
+
+#
+# NOTIFICATIONS
+#
+
+# Character is notified he is becoming a slave
+character_event = {
+	id = slavery.1
+	desc = slavery.1.desc
+	picture = GFX_evt_child_reading # Placeholder
+	
+	is_triggered_only = yes # Triggered by decision: enslave
+	
+	option = {
+		name = slavery.1.opta
+		
+		if = {
+			limit = {
+				is_ruler = yes
+			}
+			current_heir = {
+				character_event = {
+					id = slavery.2
+				}
+			}
+			abdicate = yes # Slaves can't rule
+		}
+		add_trait = slave
+		move_character = FROM
+	}
+}
+
+# Heir is notified
+character_event = {
+	id = slavery.2
+	desc = slavery.2.desc
+	picture = GFX_evt_child_reading # Placeholder
+	
+	is_triggered_only = yes # Triggered by slavery.1
+	
+	option = {
+		name = slavery.2.opta
+		
+		custom_tooltip = {
+			FROM = {
+				add_trait = slave
+			}
+		}
+	}
+}
+
+
+# Slave is notified he is now free
+character_event = {
+	id = slavery.3
+	desc = AI
+	picture = GFX_evt_child_reading # Placeholder
+	
+	is_triggered_only = yes # Triggered by decision: free_slave
+	
+	option = {
+		name = AI
+		
+		remove_trait = slave
+		any_dynasty_member = {
+			character_event = {
+				id = slavery.4
+			}
+		}
+		random_dynasty_member = {
+			limit = {
+				is_ruler = yes
+			}
+			ROOT = {
+				move_character = PREV
+			}
+		}
+	}
+}
+
+# Dynasty members are notified
+character_event = {
+	id = slavery.4
+	desc = slavery.4.desc
+	picture = GFX_evt_child_reading # Placeholder
+	
+	is_triggered_only = yes # Triggered by slavery.3
+	
+	option = {
+		name = slavery.4.opta
+	}
+}
+
+##############
+# sell_slave #
+##############
+
+# Set slave as event_target
+character_event = {
+	id = slavery.5
+	desc = AI
+	picture = GFX_evt_child_reading # AI Event
+
+	is_triggered_only = yes # Triggered by sell_slave decision
+
+	option = {
+		name = AI
+		save_event_target_as = target_slave
+		hidden_tooltip = {
+			event_target:target_slave = {
+				set_variable = {
+					which = worth
+					value = 0
+				}
+			}
+		}
+		custom_tooltip = { text = SLAVE_TITLE } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 14
+					NOT = { age = 25 }
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 15
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 25
+					NOT = { age = 40 }
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 40
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = content
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 25
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = honest
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = patient
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = genius
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 30
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = quick
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 15
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = strong
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 25
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = diligent
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 20
+					}
+				}
+			}
+		}
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					NOT = { age = 14 }
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 5
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 40
+					NOT = { age = 60 }
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 60
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = stressed
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = lunatic
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 25
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = ill
+						trait = pneumonic
+						trait = syphilitic
+					}
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = leper
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 20
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = wounded
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = maimed
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 15
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = infirm
+						trait = incapable
+					}
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 100
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = clubfooted
+						trait = harelip
+						trait = hunchback
+						trait = lisp
+						trait = stutter
+					}
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 5
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = dwarf
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 100
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slow
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = imbecile
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 100
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = inbred
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = weak
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slothful
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = envious
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = deceitful
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = ambitious
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 25
+					}
+				}
+			}
+		}
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					check_variable = {
+						which = worth
+						value = 1
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_TOTAL_WORTH }
+		}
+		if = {
+			limit = {
+				NOT = {
+					event_target:target_slave = {
+						check_variable = {
+							which = worth
+							value = 1
+						}
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_NOT_WORTH_ANYTHING }
+		}
+		host = {
+			character_event = {
+				id = slavery.6
+			}
+		}
+	}
+}
+
+# Sale event
+character_event = {
+	id = slavery.6
+	desc = slavery.6.desc
+	picture = GFX_evt_child_reading # Placeholder
+
+	is_triggered_only = yes # Triggered by slavery.5
+
+	option = {
+		name = slavery.6.opta # Sell
+		ai_chance = {
+			factor = 1
+		}
+		event_target:target_slave = {
+			set_character_flag = for_sale
+		}
+		custom_tooltip = { text = SLAVE_TITLE } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 14
+					NOT = { age = 25 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = YOUNG_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 25
+					NOT = { age = 40 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_40_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = PRIME_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = content
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = CONTENT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = honest
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = HONEST } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = patient
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = PATIENT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = genius
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_30_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = GENIUS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = quick
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = QUICK } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = strong
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = STRONG } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = diligent
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_20_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DILIGENT } custom_tooltip = { text = ENTER }
+		}
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					NOT = { age = 14 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_5_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = VERY_YOUNG_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 40
+					NOT = { age = 60 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = OLD_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 60
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = VERY_OLD_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = stressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = STRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DEPRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = lunatic
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = LUNATIC } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DEPRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = ill
+						trait = pneumonic
+						trait = syphilitic
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = GENERAL_ILLNESS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = leper
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_20_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = LEPER } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = wounded
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = WOUNDED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = maimed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = MAIMED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = infirm
+						trait = incapable
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DWARF } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = clubfooted
+						trait = harelip
+						trait = hunchback
+						trait = lisp
+						trait = stutter
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_5_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SMALL_CONGENITAL_DEFECT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = dwarf
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DWARF } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slow
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SLOW } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = imbecile
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = IMBECILE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = inbred
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = INBRED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = weak
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = WEAK } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slothful
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SLOTHFUL } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = envious
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = ENVIOUS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = deceitful
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DECEITFUL } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = ambitious
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = AMBITIOUS } custom_tooltip = { text = ENTER }
+		}		
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					check_variable = {
+						which = worth
+						value = 1
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_TOTAL_WORTH }
+		}
+		if = {
+			limit = {
+				NOT = {
+					event_target:target_slave = {
+						check_variable = {
+							which = worth
+							value = 1
+						}
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_NOT_WORTH_ANYTHING }
+		}
+	}
+	option = {
+		name = slavery.6.optb # Don't sell
+		ai_chance = {
+			factor = 1
+		}
+		custom_tooltip = { text = SLAVE_TITLE } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 14
+					NOT = { age = 25 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = YOUNG_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 25
+					NOT = { age = 40 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_40_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = PRIME_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = content
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = CONTENT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = honest
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = HONEST } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = patient
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = PATIENT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = genius
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_30_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = GENIUS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = quick
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = QUICK } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = strong
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = STRONG } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = diligent
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_20_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DILIGENT } custom_tooltip = { text = ENTER }
+		}
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					NOT = { age = 14 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_5_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = VERY_YOUNG_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 40
+					NOT = { age = 60 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = OLD_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 60
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = VERY_OLD_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = stressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = STRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DEPRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = lunatic
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = LUNATIC } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DEPRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = ill
+						trait = pneumonic
+						trait = syphilitic
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = GENERAL_ILLNESS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = leper
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_20_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = LEPER } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = wounded
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = WOUNDED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = maimed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = MAIMED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = infirm
+						trait = incapable
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DWARF } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = clubfooted
+						trait = harelip
+						trait = hunchback
+						trait = lisp
+						trait = stutter
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_5_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SMALL_CONGENITAL_DEFECT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = dwarf
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DWARF } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slow
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SLOW } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = imbecile
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = IMBECILE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = inbred
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = INBRED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = weak
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = WEAK } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slothful
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SLOTHFUL } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = envious
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = ENVIOUS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = deceitful
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DECEITFUL } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = ambitious
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = AMBITIOUS } custom_tooltip = { text = ENTER }
+		}		
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					check_variable = {
+						which = worth
+						value = 1
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_TOTAL_WORTH }
+		}
+		if = {
+			limit = {
+				NOT = {
+					event_target:target_slave = {
+						check_variable = {
+							which = worth
+							value = 1
+						}
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_NOT_WORTH_ANYTHING }
+		}
+	}
+}
+
+##########
+# BUYING #
+##########
+character_event = {
+	id = slavery.7
+	desc = AI
+	picture = GFX_evt_child_reading # Placeholder
+
+	is_triggered_only = yes # Triggered by buy_slave decision
+
+	option = {
+		name = AI
+
+		save_event_target_as = target_slave
+		hidden_tooltip = {
+			event_target:target_slave = {
+				set_variable = {
+					which = worth
+					value = 0
+				}
+			}
+		}
+		custom_tooltip = { text = SLAVE_TITLE } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 14
+					NOT = { age = 25 }
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 15
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 25
+					NOT = { age = 40 }
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 40
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = content
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 25
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = honest
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = patient
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = genius
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 30
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = quick
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 15
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = strong
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 25
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = diligent
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					change_variable = {
+						which = worth
+						value = 20
+					}
+				}
+			}
+		}
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					NOT = { age = 14 }
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 5
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 40
+					NOT = { age = 60 }
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 60
+				}
+			}			
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = stressed
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = lunatic
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 25
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = ill
+						trait = pneumonic
+						trait = syphilitic
+					}
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = leper
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 20
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = wounded
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = maimed
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 15
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = infirm
+						trait = incapable
+					}
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 100
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = clubfooted
+						trait = harelip
+						trait = hunchback
+						trait = lisp
+						trait = stutter
+					}
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 5
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = dwarf
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 100
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slow
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = imbecile
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 100
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = inbred
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = weak
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slothful
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 50
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = envious
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = deceitful
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 10
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = ambitious
+				}
+			}
+			hidden_tooltip = {
+				event_target:target_slave = {
+					subtract_variable = {
+						which = worth
+						value = 25
+					}
+				}
+			}
+		}
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					check_variable = {
+						which = worth
+						value = 1
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_TOTAL_WORTH }
+		}
+		if = {
+			limit = {
+				NOT = {
+					event_target:target_slave = {
+						check_variable = {
+							which = worth
+							value = 1
+						}
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_NOT_WORTH_ANYTHING }
+		}
+		FROMFROM = {
+			character_event = {
+				id = slavery.8
+			}
+		}
+	}
+}
+
+# Actual event that shows up for the character
+character_event = {
+	id = slavery.8
+	desc = slavery.8.desc
+	picture = GFX_evt_child_reading
+
+	is_triggered_only = yes # Triggered by slavery.7
+
+	option = {
+		name = slavery.8.opta # Buy
+		ai_chance = {
+			factor = 1
+		}
+
+		custom_tooltip = { text = SLAVE_TITLE } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 14
+					NOT = { age = 25 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = YOUNG_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 25
+					NOT = { age = 40 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_40_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = PRIME_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = content
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = CONTENT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = honest
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = HONEST } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = patient
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = PATIENT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = genius
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_30_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = GENIUS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = quick
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = QUICK } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = strong
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = STRONG } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = diligent
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_20_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DILIGENT } custom_tooltip = { text = ENTER }
+		}
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					NOT = { age = 14 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_5_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = VERY_YOUNG_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 40
+					NOT = { age = 60 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = OLD_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 60
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = VERY_OLD_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = stressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = STRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DEPRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = lunatic
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = LUNATIC } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DEPRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = ill
+						trait = pneumonic
+						trait = syphilitic
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = GENERAL_ILLNESS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = leper
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_20_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = LEPER } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = wounded
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = WOUNDED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = maimed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = MAIMED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = infirm
+						trait = incapable
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DWARF } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = clubfooted
+						trait = harelip
+						trait = hunchback
+						trait = lisp
+						trait = stutter
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_5_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SMALL_CONGENITAL_DEFECT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = dwarf
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DWARF } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slow
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SLOW } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = imbecile
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = IMBECILE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = inbred
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = INBRED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = weak
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = WEAK } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slothful
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SLOTHFUL } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = envious
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = ENVIOUS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = deceitful
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DECEITFUL } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = ambitious
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = AMBITIOUS } custom_tooltip = { text = ENTER }
+		}
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				NOT = {
+					event_target:target_slave = {
+						check_variable = {
+							which = worth
+							value = 1
+						}
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_NOT_WORTH_ANYTHING }
+			hidden_tooltip = {
+				event_target:target_slave = {
+					move_character = ROOT
+					clr_character_flag = for_sale
+				}
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					check_variable = {
+						which = worth
+						value = 1
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_TOTAL_WORTH }
+		}
+		#
+		# Deducting wealth
+		#
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 14
+					NOT = { age = 25 }
+				}
+			}
+			hidden_tooltip = {
+				wealth = -15
+				event_target:target_slave = {
+					host = { wealth = 15 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 25
+					NOT = { age = 40 }
+				}
+			}
+			hidden_tooltip = {
+				wealth = -40
+				event_target:target_slave = {
+					host = { wealth = 40 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = content }
+			}
+			hidden_tooltip = {
+				wealth = -25
+				event_target:target_slave = {
+					host = { wealth = 25 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = honest }
+			}
+			hidden_tooltip = {
+				wealth = -10
+				event_target:target_slave = {
+					host = { wealth = 10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = patient }
+			}
+			hidden_tooltip = {
+				wealth = -10
+				event_target:target_slave = {
+					host = { wealth = 10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = genius }
+			}
+			hidden_tooltip = {
+				wealth = -30
+				event_target:target_slave = {
+					host = { wealth = 30 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = quick }
+			}
+			hidden_tooltip = {
+				wealth = -15
+				event_target:target_slave = {
+					host = { wealth = 15 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = strong }
+			}
+			hidden_tooltip = {
+				wealth = -25
+				event_target:target_slave = {
+					host = { wealth = 25 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = diligent }
+			}
+			hidden_tooltip = {
+				wealth = -20
+				event_target:target_slave = {
+					host = { wealth = 20 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					NOT = { age = 14 }
+				}
+			}
+			hidden_tooltip = {
+				wealth = 5
+				event_target:target_slave = {
+					host = { wealth = -5 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 40
+					NOT = { age = 60 }
+				}
+			}
+			hidden_tooltip = {
+				wealth = 10
+				event_target:target_slave = {
+					host = { wealth = -10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { age = 60 }
+			}
+			hidden_tooltip = {
+				wealth = 50
+				event_target:target_slave = {
+					host = { wealth = -50 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = stressed }
+			}
+			hidden_tooltip = {
+				wealth = 10
+				event_target:target_slave = {
+					host = { wealth = -10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = depressed }
+			}
+			hidden_tooltip = {
+				wealth = 10
+				event_target:target_slave = {
+					host = { wealth = -10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = lunatic }
+			}
+			hidden_tooltip = {
+				wealth = 25
+				event_target:target_slave = {
+					host = { wealth = -25 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = depressed }
+			}
+			hidden_tooltip = {
+				wealth = 10
+				event_target:target_slave = {
+					host = { wealth = -10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = ill
+						trait = pneumonic
+						trait = syphilitic
+					}
+				}
+			}
+			hidden_tooltip = {
+				wealth = 10
+				event_target:target_slave = {
+					host = { wealth = -10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = leper }
+			}
+			hidden_tooltip = {
+				wealth = 20
+				event_target:target_slave = {
+					host = { wealth = -20 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = wounded }
+			}
+			hidden_tooltip = {
+				wealth = 10
+				event_target:target_slave = {
+					host = { wealth = -10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = maimed }
+			}
+			hidden_tooltip = {
+				wealth = 15
+				event_target:target_slave = {
+					host = { wealth = -15 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = infirm
+						trait = incapable
+					}
+				}
+			}
+			hidden_tooltip = {
+				wealth = 100
+				event_target:target_slave = {
+					host = { wealth = -100 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = clubfooted
+						trait = harelip
+						trait = hunchback
+						trait = lisp
+						trait = stutter
+					}
+				}
+			}
+			hidden_tooltip = {
+				wealth = 5
+				event_target:target_slave = {
+					host = { wealth = -5 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = dwarf }
+			}
+			hidden_tooltip = {
+				wealth = 100
+				event_target:target_slave = {
+					host = { wealth = -100 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = slow }
+			}
+			hidden_tooltip = {
+				wealth = 50
+				event_target:target_slave = {
+					host = { wealth = -50 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = imbecile }
+			}
+			hidden_tooltip = {
+				wealth = 100
+				event_target:target_slave = {
+					host = { wealth = -100 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = inbred }
+			}
+			hidden_tooltip = {
+				wealth = 50
+				event_target:target_slave = {
+					host = { wealth = -50 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = weak }
+			}
+			hidden_tooltip = {
+				wealth = 50
+				event_target:target_slave = {
+					host = { wealth = -50 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = slothful }
+			}
+			hidden_tooltip = {
+				wealth = 50
+				event_target:target_slave = {
+					host = { wealth = -50 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = envious }
+			}
+			hidden_tooltip = {
+				wealth = 10
+				event_target:target_slave = {
+					host = { wealth = -10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = deceitful }
+			}
+			hidden_tooltip = {
+				wealth = 10
+				event_target:target_slave = {
+					host = { wealth = -10 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				event_target:target_slave = { trait = ambitious }
+			}
+			hidden_tooltip = {
+				wealth = 25
+				event_target:target_slave = {
+					host = { wealth = -25 }
+				}
+			}
+		}
+		hidden_tooltip = {
+			event_target:target_slave = {
+				move_character = ROOT
+				clr_character_flag = for_sale
+			}
+		}
+	}
+	option = {
+		name = slavery.8.optb # Don't buy
+		ai_chance = {
+			factor = 1
+		}
+		custom_tooltip = { text = SLAVE_TITLE } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 14
+					NOT = { age = 25 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = YOUNG_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 25
+					NOT = { age = 40 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_40_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = PRIME_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = content
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = CONTENT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = honest
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = HONEST } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = patient
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = PATIENT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = genius
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_30_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = GENIUS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = quick
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = QUICK } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = strong
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = STRONG } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = diligent
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_20_POS } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DILIGENT } custom_tooltip = { text = ENTER }
+		}
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					NOT = { age = 14 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_5_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = VERY_YOUNG_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 40
+					NOT = { age = 60 }
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = OLD_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					age = 60
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = VERY_OLD_AGE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = stressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = STRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DEPRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = lunatic
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = LUNATIC } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = depressed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DEPRESSED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = ill
+						trait = pneumonic
+						trait = syphilitic
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = GENERAL_ILLNESS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = leper
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_20_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = LEPER } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = wounded
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = WOUNDED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = maimed
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_15_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = MAIMED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = infirm
+						trait = incapable
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DWARF } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					OR = {
+						trait = clubfooted
+						trait = harelip
+						trait = hunchback
+						trait = lisp
+						trait = stutter
+					}
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_5_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SMALL_CONGENITAL_DEFECT } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = dwarf
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DWARF } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slow
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SLOW } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = imbecile
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_100_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = IMBECILE } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = inbred
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = INBRED } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = weak
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = WEAK } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = slothful
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_50_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = SLOTHFUL } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = envious
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = ENVIOUS } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = deceitful
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_10_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = DECEITFUL } custom_tooltip = { text = ENTER }
+		}
+		if = {
+			limit = {
+				event_target:target_slave = {
+					trait = ambitious
+				}
+			}
+			custom_tooltip = { text = TAB } custom_tooltip = { text = AMOUNT_25_NEG } custom_tooltip = { text = DUE_TO } custom_tooltip = { text = AMBITIOUS } custom_tooltip = { text = ENTER }
+		}		
+		custom_tooltip = { text = SLAVE_SEPERATOR } custom_tooltip = { text = ENTER }
+		if = {
+			limit = {
+				event_target:target_slave = {
+					check_variable = {
+						which = worth
+						value = 1
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_TOTAL_WORTH }
+		}
+		if = {
+			limit = {
+				NOT = {
+					event_target:target_slave = {
+						check_variable = {
+							which = worth
+							value = 1
+						}
+					}
+				}
+			}
+			custom_tooltip = { text = SLAVE_TOTAL } custom_tooltip = { text = SLAVE_NOT_WORTH_ANYTHING }
+		}
+	}
+}

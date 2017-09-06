@@ -1,0 +1,85 @@
+namespace = dkregent
+
+# Regent wants to become his lieges guardian
+character_event = {
+	id = dkregent.1
+	desc = "dkregent.1.desc"
+	picture = GFX_child_reading # Placeholder
+	
+	trigger = {
+		has_minor_title = title_regent
+		liege = {
+			NOT = {
+				guardian = {
+					character = ROOT
+				}
+				age = 16
+			}
+		}
+		NOT = {
+			any_courtier = {
+				has_guardian = yes
+				guardian = {
+					character = ROOT
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = "dkregent.10.name" # I will become his guardian
+		ai_chance = {
+			factor = 3
+		}
+		
+		liege = {
+			character_event = {
+				id = dkregent.2
+			}
+		}
+	}
+	option = {
+		name = "dkregent.11.name" # He's better off with the other guy
+		ai_chance = {
+			factor =1
+		}
+		
+		piety = 10
+	}
+}
+
+# Liege responds
+character_event = {
+	id = dkregent.2
+	desc = "dkregent.2.desc"
+	picture = GFX_child_reading # Placeholder
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "dkregent.20.name" # Accept
+		ai_chance = {
+			factor = 1
+		}
+		
+		set_guardian = FROM
+	}
+	option = {
+		name = "dkregent.21.name" # Decline
+		ai_chance = {
+			factor = 1
+		}
+		
+		FROM = {
+			opinion = {
+				modifier = opinion_declined_guardianship_request
+				who = ROOT
+				years = 2
+			}
+		}
+	}
+}

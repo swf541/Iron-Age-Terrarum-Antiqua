@@ -1,0 +1,279 @@
+namespace = roman_election
+
+# Event index:
+	# roman_election.1: Regular roman election
+	# roman_election.2: Consul is elected
+		# roman_election.3: Notification if Consul is serving first term
+		# roman_election.4: Notification if Consul is serving second term
+	# roman_election.5: Consul is incapable, demands new election
+		# roman_election.6: Notification that consul is incapable
+	# roman_election.7: Character can't have claims on the republic
+
+# Regular roman election
+character_event = {
+	id = roman_election.1
+	desc = "roman_election.1.desc"
+	picture = GFX_evt_child_reading
+	
+	trigger = {
+		war = no
+		culture = latin
+		primary_title = {
+			title = k_rome
+		}
+		NOT = {
+			has_character_modifier = hidden_consul_modifier
+			has_global_flag = roman_election
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "roman_election.11.name"
+		set_global_flag = roman_election
+	}
+}
+
+# Consul is elected
+character_event = {
+	id = roman_election.2
+	desc = "roman_election.2.desc"
+	picture = GFX_evt_child_reading
+	
+	trigger = {
+		trait = senator
+		higher_tier_than = BARON
+		has_global_flag = roman_election
+		liege = {
+			primary_title = {
+				title = k_rome
+			}
+		}
+		NOT = {
+			trait = incapable
+			has_character_flag = consul_second_term
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 0.9
+			OR = {
+				has_job_title = job_chancellor
+				has_job_title = job_marshal
+				has_job_title = job_treasurer
+				has_job_title = job_spymaster
+				has_job_title = job_spiritual
+			}
+		}
+		modifier = {
+			factor = 1.25
+			has_landed_title = k_rome
+		}
+	}
+	option = {
+		name = "roman_election.21.name"
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_character_flag = consul_first_term
+				}
+				any_realm_character = {
+					limit = {
+						trait = senator
+					}
+					character_event = {
+						id = roman_election.3
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							k_rome = {
+								holder_scope = {
+									character = ROOT
+								}
+							}
+						}
+					}
+					k_rome = {
+						holder_scope = {
+							character_event = {
+								id = roman_election.3
+							}
+						}
+					}
+				}
+				set_character_flag = consul_second_term
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_character_flag = consul_first_term
+					}
+				}			
+				any_realm_character = {
+					limit = {
+						trait = senator
+					}
+					character_event = {
+						id = roman_election.4
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							k_rome = {
+								holder_scope = {
+									character = ROOT
+								}
+							}
+						}
+					}
+					k_rome = {
+						holder_scope = {
+							character_event = {
+								id = roman_election.4
+							}
+						}
+					}
+				}
+				set_character_flag = consul_first_term
+			}
+		}
+		k_rome = {
+			usurp_title = ROOT
+		}
+		c_roma = {
+			usurp_title = ROOT
+		}
+		add_character_modifier = {
+			name = hidden_consul_modifier
+			hidden = yes
+			duration = 1825 # 5 years
+		}
+		clr_global_flag = roman_election
+	}
+}
+
+# Notification if consul will be serving second term
+character_event = {
+	id = roman_election.3
+	desc = "roman_election.3.desc"
+	picture = GFX_evt_child_reading
+	
+	is_triggered_only = yes
+	only_playable = yes # Only sent to playable characters
+	
+	option = {
+		name = "roman_election.31.name"
+	}
+}
+
+# Notification if consul will be serving first term
+character_event = {
+	id = roman_election.4
+	desc = "roman_election.4.desc"
+	picture = GFX_evt_child_reading
+	
+	is_triggered_only = yes
+	only_playable = yes # Only sent to playable characters
+	
+	option = {
+		name = "roman_election.41.name"
+	}
+}
+
+# Incapable consul demands a new election
+character_event = {
+	id = roman_election.5
+	desc = "roman_election.5.desc"
+	picture = GFX_evt_child_reading
+	
+	trigger = {
+		war = no
+		primary_title = {
+			title = k_rome
+		}
+		trait = incapable
+		NOT = {
+			has_global_flag = roman_election
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "roman_election.51.name"
+		set_global_flag = roman_election
+		remove_character_modifier = hidden_consul_modifier
+		remove_trait = senator
+		
+		any_vassal = {
+			limit = {
+				trait = senator
+			}
+			character_event = {
+				id = roman_election.6
+			}
+		}
+	}
+}
+
+# Notification that election is held because consul is incapable
+character_event = {
+	id = roman_election.6
+	desc = "roman_election.6.desc"
+	picture = GFX_evt_child_reading
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "roman_election.61.name"
+	}
+}
+
+# Character can't have claims on the republic!
+character_event = {
+	id = roman_election.7
+	desc = "roman_election.7.desc"
+	picture = GFX_evt_child_reading
+	
+	trigger = {
+		k_rome = {
+			has_holder = yes
+		}
+		any_claim = {
+			OR = {
+				title = k_rome
+				title = c_roma
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "roman_election.71.name"
+		any_claim = {
+			limit = {
+				title = k_rome
+			}
+			remove_claim = ROOT
+		}
+		any_claim = {
+			limit = {
+				title = c_roma
+			}
+			remove_claim = ROOT
+		}
+	}
+}

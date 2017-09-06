@@ -1,0 +1,403 @@
+##########################################
+###Zoroastrian decisions by Maestro Ugo###
+##########################################
+
+decisions = {
+
+
+#####Convert to Zoroastrianism
+	convert_to_zoroastrianism = {
+	potential = {
+			is_ruler = yes
+			age = 16
+			prisoner = no
+			#religion_group = muslim
+			NOT = { religion_group = zoroastrian_group }
+			culture_group = iranian
+			NOT = {trait = zealous}
+			NOT = {piety = 50}
+		}
+		allow = {
+			war = no
+			OR = {
+				AND = {
+					any_demesne_province = {
+					religion_group = zoroastrian_group
+						}
+					NOT = { religion_authority = 0.35 }
+					}
+				NOT = { religion_authority = 0.20 }
+			}
+			prisoner = no
+		}
+		effect = {
+			religion = zoroastrian
+			piety = -200
+			wealth = -100
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 2.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+		}
+	}
+	patron_deity_zor = {
+		is_high_prio = yes
+		potential = {
+			is_playable = yes
+			is_landed = yes
+			age = 16
+			NOT = { 
+				trait = incapable
+				trait = infirm
+				trait = possessed 
+			}
+			NOT = {
+				has_character_modifier = patron_spenta_mainyu
+				has_character_modifier = patron_anahita
+				has_character_modifier = patron_mithra
+				has_character_modifier = patron_sraosha
+				has_character_modifier = patron_tishtrya
+				has_character_modifier = patron_werethrayna		
+				has_character_modifier = patron_zurvan
+			}
+            #NOT = { religion = yazidi }
+			#NOT = { religion = manichean }
+			religion_group = zoroastrian_group
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_ZOR.3 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factOR = 1
+			modifier = {
+				factOR = 0.1
+			}
+			modifier = {
+				factOR = 0.2
+				trait = slothful
+			}
+			modifier = {
+				factOR = 0.1
+				trait = cynical
+			}
+		}
+	}
+###Sacrifices
+	make_sacrifice_mithra = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			is_female = no
+			prisoner = no
+			religion_group = zoroastrian_group
+			#not = { religion = manichean }
+			OR = {
+				NOT = { has_character_flag = made_sacrifice_1 }
+				had_character_flag = { flag = made_sacrifice_1 days = 1825 }
+			}
+			war = no
+		}
+		allow = {
+			prisoner = no
+			piety = 100
+		}
+		effect = {
+			scaled_wealth = -0.3
+			piety = -30
+			clr_character_flag = made_sacrifice_1
+			set_character_flag = made_sacrifice_1
+			add_character_modifier = {
+				name = zoroastrian_sacrifice_mithra
+				duration = 365
+				}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 3.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					piety = 100
+				}
+			}
+		}
+	}
+
+	make_sacrifice_parendi = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			is_female = no
+			prisoner = no
+			religion_group = zoroastrian_group
+			#not = { religion = manichean }
+			OR = {
+				NOT = { has_character_flag = made_sacrifice_1 }
+				had_character_flag = { flag = made_sacrifice_1 days = 1825 }
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+			piety = 100
+		}
+		effect = {
+			scaled_wealth = -0.3
+			piety = -30
+			clr_character_flag = made_sacrifice_1
+			set_character_flag = made_sacrifice_1
+			add_character_modifier = {
+				name = zoroastrian_sacrifice_parendi
+				duration = 365
+				}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 3.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					piety = 100
+				}
+			}
+		}
+	}
+
+	make_sacrifice_chisti = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			is_female = no
+			prisoner = no
+			religion_group = zoroastrian_group
+			#not = { religion = manichean }
+			OR = {
+				NOT = { has_character_flag = made_sacrifice_1 }
+				had_character_flag = { flag = made_sacrifice_1 days = 1825 }
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+			piety = 100
+		}
+		effect = {
+			scaled_wealth = -0.3
+			piety = -30
+			clr_character_flag = made_sacrifice_1
+			set_character_flag = made_sacrifice_1
+			add_character_modifier = {
+				name = zoroastrian_sacrifice_chisti
+				duration = 365
+				}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 3.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					piety = 100
+				}
+			}
+		}
+	}
+
+#####Cleansing ritual
+	undergo_cleansing_ritual = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			is_female = no
+			prisoner = no
+			religion_group = zoroastrian_group
+			OR = {
+				NOT = { has_character_flag = undergoing_cleansing_ritual }
+				had_character_flag = { flag = undergoing_cleansing_ritual days = 1825 }
+			}
+		}
+		allow = {
+			war = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			scaled_wealth = 0.30
+			prisoner = no
+		}
+		effect = {
+			scaled_wealth = -0.30
+			piety = 25
+			clr_character_flag = undergoing_cleansing_ritual
+			set_character_flag = undergoing_cleansing_ritual
+			add_character_modifier = {
+				name = zoroastrian_cleansing
+				duration = 365
+				}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 10.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+			modifier = {
+				factor = 0
+				piety = 100
+			}
+		}
+	}
+
+	celebrate_nowruz = {
+		is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			age = 16
+			religion_group = zoroastrian_group
+			prisoner = no
+			#not = { religion = manichean }
+			NOT = {
+				trait = in_hiding
+				any_demesne_title = { is_occupied = yes }
+				has_character_modifier = held_nowruz_feast_timer
+				liege = { has_character_flag = holding_nowruz_feast }
+				has_character_flag = holding_nowruz_feast
+				has_character_flag = planning_nowruz_feast
+			}
+		}
+		allow = {
+			war = no
+			wealth = 50
+			prestige = 100
+			has_regent = no
+		}
+		effect = {
+			wealth = -50
+			set_character_flag = planning_nowruz_feast
+			custom_tooltip = {
+				text = prepare_nowruz_feast
+				hidden_tooltip = { 
+					character_event = { id = ZOR.700 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 730
+					}
+				}
+			}
+		}
+	}
+}
+	
+
+
+
+
+
+
+
+
+
