@@ -1,0 +1,57 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#The society name
+samo_thrace_society;The Samo-Thracian Mysteries;;;;;;;;;;;;;x
+#The society description
+samo_thrace_society_desc;Write description here.;;;;;;;;;;;;;x
+#Leader description
+samo_thrace_society_leader_desc;The description of the leader of the society.;;;;;;;;;;;;;x
+#Name of the ranks
+samo_thrace_society_rank_1_female;Samo-Thracian Myesis;;;;;;;;;;;;;x
+samo_thrace_society_rank_2_female;Samo-Thracian Epopteia;;;;;;;;;;;;;x
+samo_thrace_society_rank_3_female;Priestess;;;;;;;;;;;;;x
+samo_thrace_society_rank_4_female;Sybil;;;;;;;;;;;;;x
+samo_thrace_society_rank_1_male;Samo-Thracian Myesis;;;;;;;;;;;;;x
+samo_thrace_society_rank_2_male;Samo-Thracian Epopteia;;;;;;;;;;;;;x
+samo_thrace_society_rank_3_male;Samo-Thracian Priest;;;;;;;;;;;;;x
+#Name of the currency
+samo_thrace_society_currency;Faith;;;;;;;;;;;;;x
+#Rank up button name
+request_to_rank_up_within_samo_thrace_society;Request to rank up.;;;;;;;;;;;;;x
+#For tooltip that require being a member
+IS_samo_thrace_society_TRIGGER;Is a member of the Samo-Thracian Mysteries.;;;;;;;;;;;;;x
+
+#Name of the decision
+samo_thrace_society_power_1;Trade Faith for gold!;;;;;;;;;;;;;x
+#Tooltip of the decision
+samo_thrace_society_power_1_desc;Trade Faith for gold, the description.;;;;;;;;;;;;;x
+#Tooltip of the decision in the society menu
+samo_thrace_society_power_1_power_desc;Trade Faith for gold, the power description.;;;;;;;;;;;;;x
+ 
+#This event is for joining
+EVTDESC_SAMOTHRACE_102;You want to join The Samo-Thracian Mysteries?;;;;;;;;;;;;;x
+EVTOPTA_SAMOTHRACE_102;Yes sir.;;;;;;;;;;;;;x
+EVTOPTB_SAMOTHRACE_102;I'm not so sure anymore.;;;;;;;;;;;;;x
+
+#This event is for rank up
+EVTDESC_SAMOTHRACE_122;Greetings [Root.GetSocietyRank] [Root.GetFirstName],\nYou can rank up. [Root.Society.GetName].\n\nSigned,\n[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;;;;x
+EVTOPTA_EVTDESC_SAMOTHRACE_122_122;Great.;;;;;;;;;;;;;x
+
+#Name for a quest
+quest_samo_thrace_quest_1;Press the button;;;;;;;;;;;;;x
+#Name for a quest if there is no quest target
+quest_samo_thrace_quest_1_fallback;Press the button;;;;;;;;;;;;;x
+quest_samo_thrace_quest_1_desc;Press the button and gain gold!;;;;;;;;;;;;;x
+quest_samo_thrace_quest_1_tooltip;Press the button in the intrige menu.;;;;;;;;;;;;;x
+
+#Start Quest event
+EVTDESC_SAMOTHRACE_141;You want a quest?;;;;;;;;;;;;;x
+
+#End Quest event
+EVTDESC_SAMOTHRACE_142;You want to complete or fail the quest?;;;;;;;;;;;;;x
+EVTOPTA_SAMOTHRACE_142;Complete it.;;;;;;;;;;;;;x
+EVTOPTB_SAMOTHRACE_142;Fail it..;;;;;;;;;;;;;x
+
+#End Quest event
+EVTDESC_SAMOTHRACE_150;Here be the event text.;;;;;;;;;;;;;x
+EVTOPTA_SAMOTHRACE_150;Choice 1.;;;;;;;;;;;;;x
+EVTOPTB_SAMOTHRACE_150;Choice 2..;;;;;;;;;;;;;x

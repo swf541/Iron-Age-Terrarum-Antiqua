@@ -70,38 +70,6 @@ decisions = {
 		}
 	}
 
-	attempt_to_join_the_samo_thracian_mysteries  = {
-		potential = {
-			or = {
-				religion_group = greek_religion
-				religion = hellenic_pagan
-			}
-			age = 16
-			NOT = { trait = on_pilgrimage }
-			NOT = { has_character_flag = attempting_to_join_the_samo_thracian_mysteries_1 }
-			NOT = { trait = samo_thracian_initiate }
-			NOT = { trait = samo_thracian_epopteia }
-		}
-		allow = {
-
-		}
-		effect = {
-			set_character_flag = attempting_to_join_the_samo_thracian_mysteries_1
-			add_trait = on_pilgrimage
-			character_event = { id = SMO.1 }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				ai = yes
-				OR = {
-					NOT = { scaled_wealth = 10.0 }
-					piety = 0
-				}
-			}
-		}
-	}
 	attempt_to_join_the_cult_of_the_seven_rays  = {
 		potential = {
 			or = {

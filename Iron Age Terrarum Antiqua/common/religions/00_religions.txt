@@ -1551,7 +1551,7 @@ pagan_group = {
 		dislike_tribal_organization = yes
 	}
 	
-	hellenic_pagan = {
+	hellenic_pagan_reformed = {
 		graphical_culture = westerngfx
 		
 		pre_reformed = yes
