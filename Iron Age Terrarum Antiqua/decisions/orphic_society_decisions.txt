@@ -1,22 +1,12 @@
 society_decisions = { #only available to members of a society
-	request_to_rank_up_within_samo_thrace_society = { #pressing rank up button
+	request_to_rank_up_within_orphic_society = { #pressing rank up button
 
 		hide_in_decisions_list = yes # This is shown in the Society View
 		
 		potential = {
 			hidden_tooltip = {
 				society_rank <= 3 #is not max rank
-				days_in_society > 365 #days requirement\
-				OR = {
-					AND = {
-						society_rank <= 2 #is not max rank				
-						is_female = no
-					}
-					AND = {
-						society_rank <= 3 #is not max rank				
-						is_female = no					
-					}
-				}
+				days_in_society > 365 #days requirement
 				is_in_society = yes #obviously
 				OR = { #Players can always rank up (if they have the power), AI won't if there is no room
 					ai = no
@@ -83,7 +73,7 @@ society_decisions = { #only available to members of a society
 			hidden_tooltip = {
 				save_event_target_as = rank_up_target #mark the character as the one ranking up
 				set_character_flag = has_sent_request_to_rank_up
-				character_event = { id = SAMOTHRACE.120 days = 20 random = 10 } # sends hidden delayed event to self, which then sends request to Leader of the society
+				character_event = { id = ORPHICSOC.120 days = 20 random = 10 } # sends hidden delayed event to self, which then sends request to Leader of the society
 				
 			}
 		}
@@ -98,10 +88,10 @@ society_decisions = { #only available to members of a society
 	}
 	
 	#Decision "power" for rank 1
-	samo_thrace_society_power_1 = {
+	orphic_society_power_1 = {
 
 		potential = { #who can see it
-			society_member_of = samo_thrace_society #which society
+			society_member_of = orphic_society #which society
 		}
 
 		allow = { #requirement to press it
@@ -115,7 +105,7 @@ society_decisions = { #only available to members of a society
 				limit = {
 					has_quest = quest_tutorial_quest_1
 				}
-				character_event = { id = SAMOTHRACE.142 }
+				character_event = { id = ORPHICSOC.142 }
 			}
 		}
 

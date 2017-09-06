@@ -1,0 +1,63 @@
+#Look at the vanilla folder for the other society pictures which will be more appropriate than my smiley faces.
+spriteTypes = {
+	
+	spriteType = { #The 4 ranks pictures
+		name = "GFX_orphic_society_ranks" #make sure that to replace the orphic_society in every name by the code name of your society
+		texturefile = "gfx\\interface\\societies\\rank_icons_orphic_society.dds"
+		noOfFrames = 4
+	}
+	
+	spriteType = { #The rank you are
+		name = "GFX_orphic_society_ranks_highlight"
+		texturefile = "gfx\\interface\\societies\\rank_icons_orphic_society_highlight.dds"
+		noOfFrames = 4
+	}
+	
+	spriteType = { #The ranks when not available
+		name = "GFX_orphic_society_ranks_locked"
+		texturefile = "gfx\\interface\\societies\\rank_icons_orphic_society_locked.dds"
+		noOfFrames = 4
+	}
+	##### orphic_society #####
+	
+	spriteType = { #the background of the society menu
+		name = "GFX_society_main_background_orphic_society"
+		texturefile = "gfx\\interface\\societies\\society_bg_orphic_society.dds"
+	}
+	
+	spriteType = { #the background of the side menu with the members/other societies
+		name = "GFX_society_expansion_background_orphic_society"
+		texturefile = "gfx\\interface\\societies\\society_exp_bg_orphic_society.dds"
+	}
+	
+	spriteType = { #icons on the socities list
+		name = "GFX_icon_small_orphic_society"
+		texturefile = "gfx\\interface\\societies\\symbol_small_orphic_society.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = { #where the influence of the society is written
+		name = "GFX_society_influence_orphic_society"
+		texturefile = "gfx\\interface\\societies\\society_influence_orphic_society.dds"
+	}
+	
+	spriteType = { #circle around members
+		name = "GFX_society_portrait_ring_orphic_society"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_orphic_society.dds"
+	}
+	
+	spriteType = { #circle around members
+		name = "GFX_society_portrait_ring_small_orphic_society"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_small_orphic_society.dds"
+	}
+	
+	spriteType = { #where your society currency is written
+		name = "GFX_society_currency_orphic_society"
+		texturefile = "gfx\\interface\\societies\\society_currency_orphic_society.dds"
+	}
+	
+	spriteType = { #the background for the society event
+		name = "GFX_event_window_society_quest_background_orphic_society"
+		textureFile = "gfx/interface/society_quest/mission_bg_orphic_society.dds"
+	}
+}

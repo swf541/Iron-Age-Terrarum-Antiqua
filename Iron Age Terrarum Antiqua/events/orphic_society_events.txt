@@ -1,51 +1,51 @@
-namespace = SAMOTHRACE
+namespace = ORPHICSOC
 
 ########################JOINING############################
 
 #From on_character_ask_to_join_society
 character_event = {
-    id = SAMOTHRACE.100
+    id = ORPHICSOC.100
 	hide_window = yes
     is_triggered_only = yes
     trigger = {
-    	FROM = { leader = { society_member_of = samo_thrace_society } } #target is the leader pf the society
+    	FROM = { leader = { society_member_of = orphic_society } } #target is the leader pf the society
     }
     immediate = {
-    	FROM = { leader = { character_event = { id = SAMOTHRACE.101 } } } #receive event
+    	FROM = { leader = { character_event = { id = ORPHICSOC.101 } } } #receive event
     }
 }
 
 #Ping event
 character_event = {
-    id = SAMOTHRACE.101
+    id = ORPHICSOC.101
 	hide_window = yes
     is_triggered_only = yes
     immediate = {
-    	FROM = { letter_event = { id = SAMOTHRACE.102 } } #send event back 
+    	FROM = { letter_event = { id = ORPHICSOC.102 } } #send event back 
     }
 }
 
 #Welcome letter
 letter_event = {
-    id = SAMOTHRACE.102
-    desc = EVTDESC_SAMOTHRACE_102
+    id = ORPHICSOC.102
+    desc = EVTDESC_ORPHICSOC_102
     border = GFX_event_letter_frame_war
 	
     is_triggered_only = yes
 
     option = { #join the society
-        name = EVTOPTA_SAMOTHRACE_102
-		join_society = samo_thrace_society
+        name = EVTOPTA_ORPHICSOC_102
+		join_society = orphic_society
     }
     option = { #don't
-        name = EVTOPTB_SAMOTHRACE_102
+        name = EVTOPTB_ORPHICSOC_102
     }
 }
 
 ########################AI JOIN AND AI RANK UP###########################
 
 character_event = { #force the AI to join a society
-	id = SAMOTHRACE.110
+	id = ORPHICSOC.110
 	hide_window = yes
 	
 	only_rulers = yes #leave that unless you want random courtiers in the society
@@ -57,7 +57,7 @@ character_event = { #force the AI to join a society
 				ai = yes
 				prisoner = no
 				NOT = { trait = incapable }
-				society_member_of = samo_thrace_society
+				society_member_of = orphic_society
 				society_rank <= 2
 				society_can_rank_up = yes
 			}
@@ -78,7 +78,7 @@ character_event = { #force the AI to join a society
 				# controls_religion = no
 				# block_general_event_trigger = no
 			# }
-			# character_event = { id = SAMOTHRACE.111 }
+			# character_event = { id = ORPHICSOC.111 }
 		# }
 		if = { #force the joining event on AI
 			limit = {
@@ -90,13 +90,13 @@ character_event = { #force the AI to join a society
 				controls_religion = no
 				block_general_event_trigger = no
 			}
-			character_event = { id = SAMOTHRACE.111 }
+			character_event = { id = ORPHICSOC.111 }
 		}
 	}
 }
 
 character_event = { #AI join event
-	id = SAMOTHRACE.111
+	id = ORPHICSOC.111
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -107,13 +107,13 @@ character_event = { #AI join event
 			}
 			10 = { # try to join a society 10% of the time
 				trigger = { #meet the requirement
-					can_join_society = samo_thrace_society
+					can_join_society = orphic_society
 				}
 				modifier = { #things that will make 10% of the time bigger, can be anything 
 					factor = 2
 					prestige = 200
 				}
-				join_society = samo_thrace_society #join the society
+				join_society = orphic_society #join the society
 				random_list = { # Artificially increase society influence for balance purposes
 					75 = {
 						modifier = {
@@ -146,7 +146,7 @@ character_event = { #AI join event
 
 # Hidden start: Send the rank-up request to the current Grandmaster (delayed event on self, from decision to rank up)
 character_event = {
-	id = SAMOTHRACE.120
+	id = ORPHICSOC.120
 
 	hide_window = yes
 
@@ -164,7 +164,7 @@ character_event = {
 					is_society_grandmaster = yes
 					same_society_as = ROOT
 				}
-				character_event = { id = SAMOTHRACE.121 } # send request to Grand Master.
+				character_event = { id = ORPHICSOC.121 } # send request to Grand Master.
 			}
 		}
 		if = { #if he's not a member
@@ -176,21 +176,21 @@ character_event = {
 
 # Grandmaster gets the rank-up request
 character_event = {
-	id = SAMOTHRACE.121
+	id = ORPHICSOC.121
 	
 	hide_window = yes
 
 	is_triggered_only = yes
 
 	immediate = {
-		event_target:rank_up_target = { letter_event = { id = SAMOTHRACE.122 } } #send it back
+		event_target:rank_up_target = { letter_event = { id = ORPHICSOC.122 } } #send it back
 	}
 }
 
 #Grand master approves my request
 letter_event = {
-	id = SAMOTHRACE.122
-	desc = EVTDESC_SAMOTHRACE_122
+	id = ORPHICSOC.122
+	desc = EVTDESC_ORPHICSOC_122
 	border = GFX_event_letter_frame_war
 
 	trigger = {
@@ -202,7 +202,7 @@ letter_event = {
 
 	#Rank up approved
 	option = {
-		name = EVTOPTA_SAMOTHRACE_122
+		name = EVTOPTA_ORPHICSOC_122
 		if = { limit = { society_rank < 4 } #if not max rank, rank up
 			society_rank_up = 1
 		}
@@ -214,7 +214,7 @@ letter_event = {
 
 #Mission tombola, this is where an hidden event choose a quest. I have made only one quest, do look for other mission tombola in the vanilla files for more example.
 character_event = {
-    id = SAMOTHRACE.130
+    id = ORPHICSOC.130
     hide_window = yes
 
     is_triggered_only = yes
@@ -222,7 +222,7 @@ character_event = {
 	is_in_society = yes
 
 	trigger = {
-		society_member_of = samo_thrace_society
+		society_member_of = orphic_society
 		has_any_quest = no #cannot have more than 1 shown
 		NOT = { has_character_modifier = quest_cooldown_timer } #to avoid spam and delay it for people who refused a quest.
 		NOT = { is_inaccessible_trigger = yes }
@@ -284,7 +284,7 @@ character_event = {
 		#Has I have only 1 mission this random_list is unnecessary, but you will need it if you make more than one mission.
     	random_list = {
 			100 = { #press the button, the mission
-				event_target:quest_collaborator = { character_event = { id = SAMOTHRACE.140 days = 7 random = 7 } } #will send the quest to the quest_collaborator, which will offer it back to you.
+				event_target:quest_collaborator = { character_event = { id = ORPHICSOC.140 days = 7 random = 7 } } #will send the quest to the quest_collaborator, which will offer it back to you.
 			}
 			
 			50 = { # AI bypasses missions at times and goes directly to success/failure, increase the 50 if you add more mission or you could delete this whole { }.
@@ -338,23 +338,23 @@ character_event = {
 
 #This is the quest_collaborator receiving the mission and giving it back to you.
 character_event = {
-    id = SAMOTHRACE.140
+    id = ORPHICSOC.140
     hide_window = yes #instant event, no need to show it
     is_triggered_only = yes
-    immediate = { FROM = { society_quest_event = { id = SAMOTHRACE.141 days = 7 random = 7 } } }
+    immediate = { FROM = { society_quest_event = { id = ORPHICSOC.141 days = 7 random = 7 } } }
 }
 
 #This event is set as a society_quest_event, not character_event. This is the accept or refuse the quest event, the next parts of the quest use the regular character_event.
 society_quest_event = {
-    id = SAMOTHRACE.141
-    desc = EVTDESC_SAMOTHRACE_141
+    id = ORPHICSOC.141
+    desc = EVTDESC_ORPHICSOC_141
 
     is_triggered_only = yes
    
     option = { 
 		name = ACCEPT
 
-		set_quest = quest_samo_thrace_quest_1 #use this if the quest has no real target, look at other quests made by Paradox if you want something more complicated that target someone/something
+		set_quest = quest_tutorial_quest_1 #use this if the quest has no real target, look at other quests made by Paradox if you want something more complicated that target someone/something
 
 	}
 
@@ -374,24 +374,24 @@ society_quest_event = {
 
 #Training quest, start of the flavor event chain, the quest_collaborator/training_partner receive from the decision
 character_event = {
-    id = SAMOTHRACE.142
-    desc = EVTDESC_SAMOTHRACE_142
+    id = ORPHICSOC.142
+    desc = EVTDESC_ORPHICSOC_142
     picture = GFX_evt_throne_room
     border = GFX_event_normal_frame_war
 
     is_triggered_only = yes
 
     option = { #Quest will success
-        name = EVTOPTA_SAMOTHRACE_142
+        name = EVTOPTA_ORPHICSOC_142
 		
-		clr_quest = quest_samo_thrace_quest_1 #remove the quest
+		clr_quest = quest_tutorial_quest_1 #remove the quest
 		add_mission_succeed_influence_effect = yes #quest add society influence
 		change_society_currency = 100 #reward
     }
     option = { #Quest will failed
-        name = EVTOPTB_SAMOTHRACE_142
+        name = EVTOPTB_ORPHICSOC_142
 		
-		clr_quest = quest_samo_thrace_quest_1 #remove the quest
+		clr_quest = quest_tutorial_quest_1 #remove the quest
 		add_mission_fail_influence_effect = yes #quest remove society influence
 		change_society_currency = -100 #penalty
     }
@@ -399,21 +399,21 @@ character_event = {
 
 #Society only quest that trigger every 2 years
 character_event = {
-    id = SAMOTHRACE.150
-    desc = EVTDESC_SAMOTHRACE_150
+    id = ORPHICSOC.150
+    desc = EVTDESC_ORPHICSOC_150
     picture = GFX_evt_throne_room
     border = GFX_event_normal_frame_war
 
     is_triggered_only = yes
 
 	trigger = {
-		society_member_of = samo_thrace_society #Use this to limit events and decisions to your society with trigger
+		society_member_of = orphic_society #Use this to limit events and decisions to your society with trigger
 	}
 	
     option = {
-        name = EVTOPTA_SAMOTHRACE_150
+        name = EVTOPTA_ORPHICSOC_150
     }
     option = {
-        name = EVTOPTB_SAMOTHRACE_150
+        name = EVTOPTB_ORPHICSOC_150
     }
 }
