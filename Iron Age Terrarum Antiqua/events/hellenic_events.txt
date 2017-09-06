@@ -1,0 +1,463 @@
+namespace = PA
+
+# Local Temple Event
+character_event = {
+	id = PA.10206
+	desc = EVTDESCPA.10206
+	picture = GFX_evt_emissary
+	
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		has_dlc = "The Old Gods"
+		religion = hellenic_pagan
+	}
+
+	mean_time_to_happen = {
+		months = 180
+	}
+	
+	option = {
+		name = OPTAPA_10206
+		wealth = -50
+		piety = 50
+	}
+	option = {
+		name = OPTBPA_10206
+		piety = -50
+	}
+}
+
+# The Odyssey Event
+character_event = {
+	id = PA.10207
+	desc = EVTDESCPA.10207
+	picture = GFX_evt_emissary
+	
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		has_dlc = "The Old Gods"
+		religion = hellenic_pagan
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+	}
+	
+	option = {
+		name = OPTAPA_10207
+		wealth = -50
+		prestige = 50
+	}
+	option = {
+		name = OPTBPA_10207
+		prestige = -50
+	}
+}
+
+# The Iliad Event
+character_event = {
+	id = PA.10208
+	desc = EVTDESCPA.10208
+	picture = GFX_evt_emissary
+	
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		has_dlc = "The Old Gods"
+		religion = hellenic_pagan
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+	}
+	
+	option = {
+		name = OPTAPA_10208
+		wealth = -50
+		prestige = 50
+	}
+	option = {
+		name = OPTBPA_10208
+		prestige = -50
+	}
+}
+
+# Augur Gives Good Luck
+character_event = {
+	id = PA.10209
+	desc = EVTDESCPA.10209
+	picture = GFX_evt_religious_exultation
+	
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+        trigger = {
+		is_ruler = yes
+		has_dlc = "The Old Gods"
+		religion = hellenic_pagan
+		NOT = { has_character_modifier = good_augury }
+		NOT = { has_character_modifier = terrible_augury }
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = OPTPA_100209
+		add_character_modifier = {
+			name = good_augury
+			duration = 365
+
+		}
+	}
+}
+
+# Augur Gives Bad Luck
+character_event = {
+	id = PA.10210
+	desc = EVTDESCPA.10210
+	picture = GFX_evt_ritual_scroll
+
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		has_dlc = "The Old Gods"
+		religion = hellenic_pagan
+		NOT = { has_character_modifier = good_augury }
+		NOT = { has_character_modifier = terrible_augury }
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = OPTPA_100210
+		add_character_modifier = {
+			name = terrible_augury
+			duration = 365
+
+		}
+	}
+}
+
+# Cult of Antinous
+character_event = {
+	id = PA.10211
+	desc = EVTDESCPA.10211
+	picture = GFX_evt_ritual_scroll
+	
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_female = no
+		OR = {
+		    trait = fair
+		    trait = homosexual
+		}
+		has_dlc = "The Old Gods"
+		religion = hellenic_pagan
+		NOT = { trait = cultist }
+		NOT = { has_character_flag = no_cults }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = OPTAPA_10211
+		add_trait = cultist
+	}
+
+	option = {
+		name = OPTBPA_10211
+	}
+
+	option = {
+		name = OPTCPA_10211
+		custom_tooltip = {
+			 text = disable_cult_events
+		}
+		set_character_flag = no_cults
+	}
+}
+
+# Cult of Sappho
+character_event = {
+	id = PA.10212
+	desc = EVTDESCPA.10212
+	picture = GFX_evt_ritual_scroll
+
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_female = yes
+		OR = {
+		    trait = poet
+		    trait = homosexual
+		}
+		has_dlc = "The Old Gods"
+		religion = hellenic_pagan
+		NOT = { trait = cultist }
+		NOT = { has_character_flag = no_cults }
+        }
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = OPTAPA_10212
+		add_trait = cultist
+	}
+
+	option = {
+		name = OPTBPA_10212
+	}
+
+	option = {
+		name = OPTCPA_10212
+		custom_tooltip = {
+			text = disable_cult_events
+		}
+		set_character_flag = no_cults
+	}
+}
+
+# Cult of Mithras
+character_event = {
+	id = PA.10213
+	desc = EVTDESCPA.10213
+	picture = GFX_evt_ritual_scroll
+
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_female = no
+		OR = {
+		    trait = strong
+		    trait = hunter
+		    trait = falconer
+		}
+		has_dlc = "The Old Gods"
+		religion = hellenic_pagan
+		NOT = { trait = cultist }
+		NOT = { has_character_flag = no_cults }
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = OPTAPA_10213
+		add_trait = cultist
+	}
+
+	option = {
+		name = OPTBPA_10213
+	}
+
+	option = {
+		name = OPTCPA_10214
+		custom_tooltip = {
+			text = disable_cult_events
+		}
+		set_character_flag = no_cults
+	}
+}
+
+# Cult of Bacchus
+character_event = {
+	id = PA.10214
+	desc = EVTDESCPA.10214
+	picture = GFX_evt_ritual_scroll
+
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		OR = {
+			trait = lustful
+		    trait = drunkard
+		    trait = gluttonous
+		}
+		has_dlc = "The Old Gods"
+		religion = hellenic_pagan
+		NOT = { trait = cultist }
+		NOT = { has_character_flag = no_cults }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = OPTAPA_10214
+			add_trait = cultist
+	}
+
+	option = {
+		name = OPTBPA_10214
+	}
+
+	option = {
+		name = OPTCPA_10214
+		custom_tooltip = {
+			text = disable_cult_events
+		}
+		set_character_flag = no_cults
+	}
+}
+
+# Cult of Sol Invictus
+character_event = {
+	id = PA.10215
+	desc = EVTDESCPA.10215
+	picture = GFX_evt_ritual_scroll
+
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		OR = {
+		   trait = just
+		   trait = strong
+		   trait = ambitious
+		}
+		has_dlc = "The Old Gods"
+			religion = hellenic_pagan
+			NOT = { trait = cultist }
+			NOT = { has_character_flag = no_cults }
+        }
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = OPTAPA_10215
+			add_trait = cultist
+	}
+
+	option = {
+		name = OPTBPA_10215
+	}
+
+	option = {
+		name = OPTCPA_10215
+		custom_tooltip = {
+			text = disable_cult_events
+		}
+		set_character_flag = no_cults
+	}
+}
+
+# Sacrifice Event
+character_event = {
+	id = PA.10216
+	desc = EVTDESCPA.10216
+	picture = GFX_evt_ritual_scroll
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OPTAPA_10216
+		wealth = -100
+		hidden_tooltip = {
+			character_event = { id = PA.10217 }
+		}                  
+	}
+	option = {
+		name = OPTBPA_10216
+		wealth = -50
+		hidden_tooltip = {
+			character_event = { id = PA.10218 }
+		} 
+	}
+	option = {
+		name = OPTCPA_10216
+		hidden_tooltip = {
+			character_event = { id = PA.10219 }
+		} 
+	}
+}
+
+# Sacrifice Event
+character_event = {
+	id = PA.10217
+	desc = EVTDESCPA.10217
+	picture = GFX_evt_religious_exultation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OPTPA_100217
+		piety = 100
+		add_character_modifier = {
+			name = hellenic_sacrifice_bull
+			duration = 365
+		}
+	}
+}
+
+# Sacrifice Event
+character_event = {
+	id = PA.10218
+	desc = EVTDESCPA.10218
+	picture = GFX_evt_religious_exultation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OPTPA_100218
+		piety = 50
+		add_character_modifier = {
+			name = hellenic_sacrifice_lamb
+				duration = 365
+		}
+	}
+}
+
+# Sacrifice Event
+character_event = {
+	id = PA.10219
+	desc = EVTDESCPA.10219
+	picture = GFX_evt_peasants
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OPTPA_100219
+		piety = -100
+		add_character_modifier = {
+		name = hellenic_sacrifice_nothing
+			duration = 365
+		}
+	}
+}
