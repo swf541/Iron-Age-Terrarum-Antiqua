@@ -9,7 +9,6 @@ on_startup = {
 #character
 on_yearly_pulse = {
 	events = {
-		HL.1030 # Wolf Child growing older, rumors of real mother being a wolf
 		63106 # (Safety flag clearance check event)
 		ZE.1100 # Disobedient daughter is unhappy
 		ZE.9000 # Ally not contributing in war
