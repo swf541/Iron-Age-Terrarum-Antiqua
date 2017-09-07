@@ -1,6 +1,6 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 #The society name
-orphic_society;The Orpbic Society;;;;;;;;;;;;;x
+orphic_society;The Orphic Society;;;;;;;;;;;;;x
 #The society description
 orphic_society_desc;Write description here.;;;;;;;;;;;;;x
 #Leader description
@@ -13,20 +13,20 @@ orphic_society_rank_4_female;High Priestess;;;;;;;;;;;;;x
 orphic_society_rank_1_male;Initiate;;;;;;;;;;;;;x
 orphic_society_rank_2_male;Adept;;;;;;;;;;;;;x
 orphic_society_rank_3_male;Master;;;;;;;;;;;;;x
-orphic_society_rank_4_male;High Priestess;;;;;;;;;;;;;x
+orphic_society_rank_4_male;High Priest;;;;;;;;;;;;;x
 #Name of the currency
 orphic_society_currency;Faith;;;;;;;;;;;;;x
 #Rank up button name
 request_to_rank_up_within_orphic_society;Request to rank up.;;;;;;;;;;;;;x
 #For tooltip that require being a member
-IS_orphic_society_TRIGGER;Is a member of the Orpbic Society.;;;;;;;;;;;;;x
+IS_orphic_society_TRIGGER;Is a member of the Orphic Society.;;;;;;;;;;;;;x
 
 #Name of the decision
-orphic_society_power_1;Trade Orpbic Points for gold!;;;;;;;;;;;;;x
+orphic_society_power_1;Trade Orphic Points for gold!;;;;;;;;;;;;;x
 #Tooltip of the decision
-orphic_society_power_1_desc;Trade Orpbic Points for gold, the description.;;;;;;;;;;;;;x
+orphic_society_power_1_desc;Trade Orphic Points for gold, the description.;;;;;;;;;;;;;x
 #Tooltip of the decision in the society menu
-orphic_society_power_1_power_desc;Trade Orpbic Points for gold, the power description.;;;;;;;;;;;;;x
+orphic_society_power_1_power_desc;Trade Orphic Points for gold, the power description.;;;;;;;;;;;;;x
  
 #This event is for joining
 EVTDESC_ORPHICSOC_102;You want to join my glorious society?;;;;;;;;;;;;;x
@@ -38,11 +38,11 @@ EVTDESC_ORPHICSOC_122;Greetings [Root.GetSocietyRank] [Root.GetFirstName],\nYou 
 EVTOPTA_EVTDESC_ORPHICSOC_122_122;Great.;;;;;;;;;;;;;x
 
 #Name for a quest
-quest_Orpbic_quest_1;Press the button;;;;;;;;;;;;;x
+quest_Orphic_quest_1;Press the button;;;;;;;;;;;;;x
 #Name for a quest if there is no quest target
-quest_Orpbic_quest_1_fallback;Press the button;;;;;;;;;;;;;x
-quest_Orpbic_quest_1_desc;Press the button and gain gold!;;;;;;;;;;;;;x
-quest_Orpbic_quest_1_tooltip;Press the button in the intrige menu.;;;;;;;;;;;;;x
+quest_Orphic_quest_1_fallback;Press the button;;;;;;;;;;;;;x
+quest_Orphic_quest_1_desc;Press the button and gain gold!;;;;;;;;;;;;;x
+quest_Orphic_quest_1_tooltip;Press the button in the intrige menu.;;;;;;;;;;;;;x
 
 #Start Quest event
 EVTDESC_ORPHICSOC_141;You want a quest?;;;;;;;;;;;;;x
