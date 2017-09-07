@@ -1,0 +1,52 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#The society name
+vestal_virgin_society;The Vestal Virgins;;;;;;;;;;;;;x
+#The society description
+vestal_virgin_society_desc;Write description here.;;;;;;;;;;;;;x
+#Leader description
+vestal_virgin_society_leader_desc;The description of the leader of the society.;;;;;;;;;;;;;x
+#Name of the ranks
+vestal_virgin_society_rank_1_female;Vestalis;;;;;;;;;;;;;x
+vestal_virgin_society_rank_2_female;Virgo Vestalis Maxima;;;;;;;;;;;;;x
+#Name of the currency
+vestal_virgin_society_currency;Purity Points;;;;;;;;;;;;;x
+#Rank up button name
+request_to_rank_up_within_vestal_virgin_society;Request to rank up.;;;;;;;;;;;;;x
+#For tooltip that require being a member
+IS_vestal_virgin_society_TRIGGER;Is a member of the Vestal Virgins.;;;;;;;;;;;;;x
+
+#Name of the decision
+vestal_virgin_society_power_1;Trade Purity Points for gold!;;;;;;;;;;;;;x
+#Tooltip of the decision
+vestal_virgin_society_power_1_desc;Trade Purity Points for gold, the description.;;;;;;;;;;;;;x
+#Tooltip of the decision in the society menu
+vestal_virgin_society_power_1_power_desc;Trade Purity Points for gold, the power description.;;;;;;;;;;;;;x
+ 
+#This event is for joining
+EVTDESC_VESTAL_102;You want to join my glorious society?;;;;;;;;;;;;;x
+EVTOPTA_VESTAL_102;Yes sir.;;;;;;;;;;;;;x
+EVTOPTB_VESTAL_102;I'm not so sure anymore.;;;;;;;;;;;;;x
+
+#This event is for rank up
+EVTDESC_VESTAL_122;Greetings [Root.GetSocietyRank] [Root.GetFirstName],\nYou can rank up. [Root.Society.GetName].\n\nSigned,\n[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;;;;x
+EVTOPTA_EVTDESC_VESTAL_122_122;Great.;;;;;;;;;;;;;x
+
+#Name for a quest
+quest_tutorial_quest_1;Press the button;;;;;;;;;;;;;x
+#Name for a quest if there is no quest target
+quest_tutorial_quest_1_fallback;Press the button;;;;;;;;;;;;;x
+quest_tutorial_quest_1_desc;Press the button and gain gold!;;;;;;;;;;;;;x
+quest_tutorial_quest_1_tooltip;Press the button in the intrige menu.;;;;;;;;;;;;;x
+
+#Start Quest event
+EVTDESC_VESTAL_141;You want a quest?;;;;;;;;;;;;;x
+
+#End Quest event
+EVTDESC_VESTAL_142;You want to complete or fail the quest?;;;;;;;;;;;;;x
+EVTOPTA_VESTAL_142;Complete it.;;;;;;;;;;;;;x
+EVTOPTB_VESTAL_142;Fail it..;;;;;;;;;;;;;x
+
+#End Quest event
+EVTDESC_VESTAL_150;Here be the event text.;;;;;;;;;;;;;x
+EVTOPTA_VESTAL_150;Choice 1.;;;;;;;;;;;;;x
+EVTOPTB_VESTAL_150;Choice 2..;;;;;;;;;;;;;x

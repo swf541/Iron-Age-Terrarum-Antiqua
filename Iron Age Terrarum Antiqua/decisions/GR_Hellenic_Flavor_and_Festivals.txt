@@ -320,3 +320,38 @@ decisions = {
 		}
 	}
 }
+targetted_decisions = {
+	select_vestal_virgin = {
+	  is_high_prio = yes 
+	  filter = court 
+	  ai_target_filter = court 
+		
+		from_potential = {
+			has_landed_title = k_rome
+			NOT = {
+				is_society_rank_full = { 
+					society = vestal_virgin_society
+					rank = 1
+				}
+			}
+		}
+		potential = {
+			is_female = yes
+			age = 6
+			NOT = { age = 16 }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			join_society = vestal_virgin_society
+			set_character_flag = vestal_virgin	
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+}
