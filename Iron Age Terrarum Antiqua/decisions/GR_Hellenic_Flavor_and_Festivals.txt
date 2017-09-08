@@ -354,4 +354,36 @@ targetted_decisions = {
 			factor = 0.1
 		}
 	}
+	appoint_new_senator = {
+	  is_high_prio = yes 
+	  filter = realm 
+	  ai_target_filter = realm 
+		
+		from_potential = {
+			has_landed_title = k_rome
+			NOT = {
+				is_society_rank_full = { 
+					society = roman_republic_society
+					rank = 1
+				}
+			}
+		}
+		potential = {
+			is_female = no
+			age = 20
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			join_society = roman_republic_society
+			set_character_flag = roman_senator	
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
