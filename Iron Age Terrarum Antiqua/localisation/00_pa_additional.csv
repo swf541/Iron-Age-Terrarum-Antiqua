@@ -184,7 +184,7 @@ k_slovakia_adj;Slovak;;;;;;;;;x
 d_pressburg;Pressburg;;;;;;;;;x 
 d_pressburg_adj;Pressburger;;;;;;;;;x 
 RETTYPE_CUL_PUNIC;North African Elephants;;;;;;;;;x 
-CB_NAME_IMPERIAL6;Imperial Reconquest of [Title.GetBaseName];;;;;;;;;x 
+CB_NAME_IMPERIAL6;Conquest of [Title.GetBaseName];;;;;;;;;x 
 WAR_NAME_IMPERIAL6;$ORDER$$FIRST_ADJ$ Imperial Reconquest of $OTHER_TITLE$;;;;;;;;;x 
 imperial_reconquest6_desc;The lost territory of the Carthaginian Empire must be reclaimed! §Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by §Y$TARGET$§! within the de jure §Y$TITLE$§!;;;;;;;;;x 
 title_nokhor;Nokhor;;;;;;;;;x 
