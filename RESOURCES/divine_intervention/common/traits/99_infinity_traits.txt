@@ -1,0 +1,4 @@
+human_target = {
+	random = no
+	cached = yes
+}

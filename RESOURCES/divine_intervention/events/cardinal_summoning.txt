@@ -1,0 +1,53 @@
+namespace = cardinal_summoning
+
+character_event = {
+	id = cardinal_summoning.0
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		FROMFROM = { character_event = { id = cardinal_summoning.1 } }
+	}
+}
+character_event = {
+	id = cardinal_summoning.1
+	is_triggered_only = yes
+	hide_new = yes
+	
+	picture = "GFX_evt_stone_church"
+	border = "GFX_event_normal_frame_religion"
+	desc = "cardinal_summoning.1DESC"
+	
+	option = {
+		name = "cardinal_summoning.1OPT"
+		hidden_tooltip = {
+			FROM =  { inherit = event_target:sede_vacante }
+			event_target:sede_vacante = {
+				set_father = 0
+				death = yes
+			}
+		}
+	}
+	after = {
+		#if the summoned priest has actually been promoted to cardinal, make the NAP/alliance stuff
+		FROM = { #FROM is the new cardinal
+			if = {
+				limit = {
+					trait = cardinal_icon
+					liege = {
+						NOT = { #prevent the pope from making a pact with himself
+							character = ROOT
+						}
+					}
+				}
+				liege = {
+					opinion = { modifier = in_non_aggression_pact_di who = ROOT }
+					opinion = { modifier = former_liege_of_cardinal_di who = FROM }
+					reverse_opinion = { modifier = in_non_aggression_pact_di who = ROOT }
+					add_alliance = { who = ROOT years = 1000 }
+					
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+namespace = divInt
+
+#Upgrade trait on promotion - the traits include can_marry = no
+character_event = {
+	id = divInt.2
+	hide_window = yes
+	only_rulers = yes
+	religion = catholic
+	is_triggered_only = yes
+	
+	trigger = {
+		controls_religion = yes
+	}
+	
+	immediate = {
+		remove_trait = cardinal_icon
+		add_trait = papal_icon
+		set_government_type = religious_head
+	}
+}

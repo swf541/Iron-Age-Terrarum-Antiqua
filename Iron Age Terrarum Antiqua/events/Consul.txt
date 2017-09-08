@@ -1,0 +1,107 @@
+namespace = CONSUL
+
+character_event = {
+	id = CONSUL.1
+	desc = EVTDESCCONSUL.1
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	
+	trigger = {
+		has_landed_title = k_rome
+		NOT = {
+			society_member_of = roman_republic_society
+			is_society_grandmaster = yes		
+		}
+	}
+	
+	immediate = {
+		any_realm_character = {					
+			limit = {	
+				society_rank = { 							
+					society = roman_republic_society 				
+					rank = 3
+				}				
+			}
+			create_character = {
+				name = Biff
+				culture = ROOT
+				religion = ROOT
+				dynasty = THIS
+				random_traits = no
+				female = no
+				age = 20
+				health = 10
+				attributes = {
+					stewardship = 1
+					intrigue = 1
+				}
+				trait = dynasty_save
+				employer = PREV
+				save_event_target_as = target_dynasty_keeper
+			}
+			new_character = {
+				save_event_target_as = target_dynasty_keeper
+			}
+		}
+		any_realm_character = {					
+			limit = {	
+				society_rank = { 							
+					society = roman_republic_society 				
+					rank = 3
+				}				
+			}
+			dynasty = ROOT
+			k_rome = { holder_scope = { abdicate_to = PREVPREV } }
+			dynasty = event_target:target_dynasty_keeper
+		}	
+
+		any_realm_character = {					
+			limit = {	
+				society_rank = { 							
+					society = roman_republic_society 				
+					rank = 3
+				}				
+			}
+			event_target:target_dynasty_keeper = {
+				k_rome = { holder_scope = { dynasty = PREVPREV } }
+				dynasty = mother_bastard
+				banish = yes
+				death = { death_reason = death_accident }
+			}
+		}	
+		any_realm_character = {					
+			limit = {	
+				trait = dynasty_save			
+			}
+			k_rome = { holder_scope = { dynasty = PREVPREV } }
+			dynasty = mother_bastard
+			death = { death_reason = death_accident }
+		}	
+		event_target:target_dynasty_keeper = {
+		  character_event = { id = CONSUL.3 }
+		}
+	}
+}
+
+character_event = {
+	id = CONSUL.3
+	desc = EVTDESCCONSUL.3
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	#ai = no
+	option = {
+		name = EVTOPTACONSUL.3
+		FROM = {
+			dynasty = ROOT
+		}
+		dynasty = mother_bastard
+		banish = yes
+		death = { death_reason = death_accident }
+	}
+}

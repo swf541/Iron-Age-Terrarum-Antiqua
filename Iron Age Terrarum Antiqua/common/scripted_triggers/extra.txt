@@ -1,0 +1,15 @@
+roman_consul_retirement_trigger = { #trigger for who members
+	custom_tooltip = {
+		has_landed_title = k_rome
+		NOT = {
+			society_member_of = roman_republic_society
+			is_society_grandmaster = yes		
+		}
+	}
+}
+roman_consul_canidate_trigger = { #trigger for who members
+	custom_tooltip = {
+		society_member_of = roman_republic_society
+		is_society_grandmaster = yes		
+	}
+}

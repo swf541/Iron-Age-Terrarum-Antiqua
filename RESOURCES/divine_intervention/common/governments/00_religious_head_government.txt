@@ -1,0 +1,34 @@
+feudal_governments = {
+
+
+
+	religious_head = {
+		preferred_holdings = { TEMPLE }
+		allowed_holdings = {
+			TEMPLE
+			CASTLE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		
+		frame_suffix = "_theocracy"
+		title_prefix = "temple_"
+		potential = {
+			has_landed_title = k_papal_state
+		}
+		
+		color = { 220 220 220 }
+		
+		can_create_kingdoms = yes
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+
+		can_build_tribal = no
+	}
+}

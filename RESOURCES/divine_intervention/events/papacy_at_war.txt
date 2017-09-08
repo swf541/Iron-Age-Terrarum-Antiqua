@@ -1,0 +1,95 @@
+namespace = papacy_at_war
+
+#Fired from on_war_started: applies opinion modifiers to catholics towards a catholic attacking the pope.
+# From = Attacker, Root = Defender
+character_event = {
+	id = papacy_at_war.1
+	
+	only_playable = yes
+	is_triggered_only = yes
+	ai = no # Since the mod is intended to play as the pope
+	
+	trigger = {
+		has_landed_title = k_papal_state
+		FROM = {	#actually, it might also make sense to apply the opinion modifiers towards any character who attacks the pope independently of religion. 
+			religion = ROOT
+		}
+	}
+	
+	picture = xxx
+	desc = papacy_at_war.1DESC
+	
+	option = {
+		name = papacy_at_war.1OPT
+		FROM = {
+			add_character_modifier = {
+				name = attacked_the_pope
+				duration = 3650 # 10 years, in days
+			}
+		}
+		
+	}
+}
+
+
+#Fired from on_war_started: hidden event given to a catholic defending against the pope, so that the pope gets the visible event
+# From = Attacker, Root = Defender
+character_event = {
+	id = papacy_at_war.2
+	
+	only_rulers = yes
+	is_triggered_only = yes
+	hide_window = yes
+		
+	trigger = {
+		FROM = {
+			has_landed_title = k_papal_state
+		}
+		religion = catholic
+		#ROOT not excomunicated
+		NOT = {
+			excommunicated_for = FROM
+		}
+		#ROOT is not an antipope or liege of an antipope - Not sure how to script that.
+		any_war = {
+			defender = { character = ROOT }
+			attacker = { character = FROM }
+			nor = {
+				using_cb = depose_antipope
+				using_cb = cb_install_antiking # unsure about this one
+				using_cb = dejure_county_claim
+				using_cb = dejure_barony_claim
+				using_cb = other_dejure_county_claim
+				using_cb = other_dejure_barony_claim
+				using_cb = cb_faction_independence # christian should not get angry on the pope biding for independence
+				using_cb = bid_for_independence
+				using_cb = excommunicated_ruler
+			}
+		}
+	}
+	immediate = {
+		FROM = {
+			character_event = { id = papacy_at_war.3 }
+		}
+	}
+}
+
+
+#Fired from event papacy_at_war.2 gives everyone an opinion malus against the agressive pope.
+character_event = {
+	id = papacy_at_war.3
+	
+	only_playable = yes
+	is_triggered_only = yes
+	ai = no # Since the mod is intended to play as the pope
+	picture = xxx
+	desc = papacy_at_war.3DESC
+		
+	option = {
+		name = papacy_at_war.3OPT
+		add_character_modifier = {
+			name = warmonger_pope
+			duration = 3650 # 10 years, in days
+		}
+	}
+}

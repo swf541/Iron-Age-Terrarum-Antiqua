@@ -1,0 +1,4 @@
+cardinal_summoning.1DESC;You have summoned [Root.GetFullName] so that you can name him cardinal before you send him back to his episcopal see.;;;;;;;;;;;;;x
+cardinal_summoning.1OPT;Send him back.;;;;;;;;;;;;;x
+summon_cleric_to_court;Summon priest;;;;;;;;;;;;;x
+summon_cleric_to_court_desc;[Root.GetFullName] will be summoned to the papal court.;;;;;;;;;;;;;x

@@ -1,0 +1,86 @@
+namespace = infinity
+
+character_event = {
+	id = infinity.1
+	desc = EVTDESCinfinity.1
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	
+	trigger = {
+		roman_consul_retirement_trigger = yes
+		
+	}
+	
+	immediate = {
+		random_society_member = {					
+			limit = {
+				society_member_of = roman_republic_society
+				rank = 3			
+			}
+			character_event = {
+				id = infinity.2
+			}					
+		}
+	}
+}
+character_event = {
+	id = infinity.2
+	desc = EVTDESCinfinity.2
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAinfinity.2
+		create_character = {
+			name = Biff
+			culture = ROOT
+			religion = ROOT
+			dynasty = ROOT
+			random_traits = no
+			female = no
+			age = 20
+			health = 10
+			attributes = {
+				stewardship = 1
+				intrigue = 1
+			}
+			employer = ROOT
+		}
+		new_character = {
+			ROOT = {
+				dynasty = FROM
+			}
+			character_event = {
+				id = infinity.3
+				days = 1
+			}
+		}
+	}
+}
+character_event = {
+	id = infinity.3
+	desc = EVTDESCinfinity.3
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	#ai = no
+	option = {
+		name = EVTOPTAinfinity.3
+		FROM = {
+			dynasty = ROOT
+			k_rome = { abdicate_to = FROM }	
+		}
+		dynasty = mother_bastard
+		death = { death_reason = death_accident }
+	}
+}
+			
+
+	

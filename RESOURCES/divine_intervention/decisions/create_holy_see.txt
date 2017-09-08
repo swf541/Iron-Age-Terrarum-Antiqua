@@ -1,0 +1,45 @@
+decisions = {
+
+	form_the_holy_see = {
+		only_independent = yes
+		is_high_prio = yes
+		
+		potential = {
+			is_playable = yes
+			independent = yes
+			religion = catholic
+			e_holy_see = {
+			has_holder = no
+			}
+		}
+		allow = {
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+			prestige = 1000
+			realm_size = 180
+			has_landed_title = k_papal_state
+			scaled_wealth = 2
+		}
+		effect = {
+			scaled_wealth = -2
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+			primary_title = {
+				e_holy_see = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+					add_law = succ_papal_succession
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0 #Just in case the AI is for some reason controlling the papacy at any point.
+		}
+	}
+}

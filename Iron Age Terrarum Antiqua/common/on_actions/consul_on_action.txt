@@ -1,0 +1,6 @@
+on_death = {
+	events = {
+		CONSUL.1
+	}
+}
+

@@ -1,7 +1,18 @@
 # Patron Deities
 
 # Zoroastrian
-
+dynasty_save = {
+	learning = 1
+	diplomacy = 2
+	
+	general_opinion = 5
+	same_opinion = 10
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.15
+	
+	customizer = no
+	random = no
+}
 patron_ahura_mazda = {
 	learning = 1
 	diplomacy = 2
