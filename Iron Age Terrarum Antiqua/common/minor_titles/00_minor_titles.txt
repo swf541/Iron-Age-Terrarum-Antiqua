@@ -3271,3 +3271,46 @@ title_hermetics_apprentice = {
 
 	message = yes
 }
+
+title_consul_republic = {
+	is_high_prio = yes
+	dignity = 0.050
+	grant_limit = 1
+	opinion_effect = 10
+	monthly_salary = 0.00
+	monthly_prestige = 0.75
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_landed_title = k_rome
+	}
+	
+	allowed_to_hold = {
+		society_rank = { 							
+			society = roman_republic_society 				
+			rank = 2
+		}			
+	}
+	revoke_trigger = {
+		FROM = {
+			primary_title = {
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+
+	}
+	retire_effect = {
+	}
+
+	message = yes
+}

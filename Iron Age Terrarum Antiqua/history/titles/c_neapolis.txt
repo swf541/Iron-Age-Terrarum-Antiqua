@@ -1,5 +1,6 @@
 393.1.1 = { # 383 BC
 	holder = 22902 # Limos
+	liege = k_rome
 }
 441.1.1 = { # 335 BC
 	holder = 22901 # Herodes

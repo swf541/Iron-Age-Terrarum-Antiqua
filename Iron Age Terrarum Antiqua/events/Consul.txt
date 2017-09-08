@@ -105,3 +105,49 @@ character_event = {
 		death = { death_reason = death_accident }
 	}
 }
+character_event = {
+	id = CONSUL.4
+	desc = EVTDESCCONSUL.4
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = k_rome
+		any_realm_character = {		
+			society_rank = { 							
+				society = roman_republic_society 				
+				rank = 2
+			}
+			NOT = {
+				society_rank = { 							
+					society = roman_republic_society 				
+					rank = 2
+				}	
+			}
+			NOT = { has_minor_title = title_consul_republic }
+		}
+	}
+	mean_time_to_happen = {
+		days = 1 
+	}
+	option = {
+		name = EVTOPTACONSUL.3
+		any_realm_character = {		
+			limit = {
+				society_rank = { 							
+					society = roman_republic_society 				
+					rank = 2
+				}
+				NOT = {
+					society_rank = { 							
+						society = roman_republic_society 				
+						rank = 2
+					}	
+				}
+			}
+		}
+		give_minor_title = title_consul_republic
+	}
+}
