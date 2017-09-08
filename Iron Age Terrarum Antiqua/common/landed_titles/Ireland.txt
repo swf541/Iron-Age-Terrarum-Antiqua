@@ -1,0 +1,61 @@
+k_ireland = {
+	color= { 50 250 50 }
+	color2= { 255 255 255 }
+	
+	capital = 
+	
+	d_dal_riata = {
+		color= { 70 290 40 }
+		color2= { 255 255 255 }
+		
+		capital = 1415
+		
+		c_robogdia = {
+			color= { 70 145 40 }
+			color2= { 255 255 255 }
+		
+			b_robogdia1 = { }
+			b_robogdia2 = { }
+			b_robogdia3 = { }
+			b_robogdia4 = { }
+			b_robogdia5 = { }
+			b_robogdia6 = { }
+			b_robogdia7 = { }
+		}
+		c_darinia = {
+			color= { 40 165 40 }
+			color2= { 255 255 255 }
+		
+			b_darinia1 = { }
+			b_darinia2 = { }
+			b_darinia3 = { }
+			b_darinia4 = { }
+			b_darinia5 = { }
+			b_darinia6 = { }
+			b_darinia7 = { }
+		}
+		c_ouenniknonia = {
+			color= { 20 185 20 }
+			color2= { 255 255 255 }
+		
+			b_ouenniknonia1 = { }
+			b_ouenniknonia2 = { }
+			b_ouenniknonia3 = { }
+			b_ouenniknonia4 = { }
+			b_ouenniknonia5 = { }
+			b_ouenniknonia6 = { }
+			b_ouenniknonia7 = { }
+		}
+		c_ulutia = {
+			color= { 33 200 20 }
+			color2= { 255 255 255 }
+		
+			b_ulutia1 = { }
+			b_ulutia2 = { }
+			b_ulutia3 = { }
+			b_ulutia4 = { }
+			b_ulutia5 = { }
+			b_ulutia6 = { }
+			b_ulutia7 = { }
+	}
+}
