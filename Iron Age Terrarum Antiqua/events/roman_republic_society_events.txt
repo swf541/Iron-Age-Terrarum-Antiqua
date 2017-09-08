@@ -424,13 +424,36 @@ character_event = {
 	hide_window = yes
     is_triggered_only = yes
     trigger = {
-		 society_rank = { 							
-			society = roman_republic_society 		
-			rank >= 2 								
-		}  
+		has_landed_title = k_rome
 		NOT = { has_character_flag = roman_consul }
+		set_character_flag = consul
     }
     immediate = {
     	set_character_flag = roman_consul
+		any_realm_character = {					
+			limit = {	
+				society_rank = { 							
+					society = roman_republic_society 				
+					rank = 2
+				}				
+			}
+			set_character_flag = roman_consul
+			set_character_flag = consul
+		}
+    }
+}
+character_event = {
+    id = ROMEREP.2
+	hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+		has_character_flag = consul
+		NOT = {
+			society_member_of = roman_republic_society	
+		}
+    }
+    immediate = {
+		join_society = roman_republic_society
+		set_character_flag = roman_senator	
     }
 }

@@ -44,7 +44,7 @@ roman_republic_society = { #society code name
 	
 	society_rank = { #society ranks
 		level = 1 #lowest rank
-		limit = 50 #max member of that rank
+		limit = 300 #max member of that rank
 		startup_limit = 50 #amount of member at the start if enabled
 		modifier = { #modifiers of that rank, like opinion or cheaper holding construction
 			church_opinion = -5
