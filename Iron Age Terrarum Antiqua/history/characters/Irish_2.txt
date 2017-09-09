@@ -427,7 +427,7 @@ trait="zealous"
 }
 
 123122={
-name="Clemens_Clement"
+name="Clemens"
 dynasty=223002
 dna="hamgpikpned"
 culture=irish
