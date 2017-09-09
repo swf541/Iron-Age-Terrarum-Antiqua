@@ -10,6 +10,7 @@ namespace = PATRONS_TEN
 namespace = PATRONS_YAZ
 namespace = PATRONS_BAS
 namespace = PATRONS_OSE
+namespace = PATRONS_ELA
 
 #AZTEC1
 character_event = {
@@ -1183,5 +1184,121 @@ character_event = {
 	option = {
 		name = PATRONS_OSE.5.d
 		hidden_tooltip = { character_event = { id = PATRONS_OSE.1 } }
+	}
+}
+#Elamite1
+character_event = {
+	id = PATRONS_ELA.1
+	desc = PATRONS_ELA.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ELA.1.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_inshushinak
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ELA.1.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_pinikir	#Also Gets a Festival In November each year, the week-long festival of Djiorgwyba is celebrated in Uastyrdzhi's honour (and, indeed, gives the name to the month in Elamite).[3] A one-year-old bullock is sacrificed. To indicate that the victim belongs to the god, its right horn is cut off long before, forbidding any herdsman to swear on it.
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ELA.1.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_kiririsha	#Add Festival For
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ELA.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ELA.2 } }
+	}
+}
+
+#Elamite2
+character_event = {
+	id = PATRONS_ELA.2
+	desc = PATRONS_ELA.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ELA.2.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_khumban
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ELA.2.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_shimut
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ELA.2.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_manzat
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ELA.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_ELA.3 } }
+	}
+}
+
+#Elamite3
+character_event = {
+	id = PATRONS_ELA.3
+	desc = PATRONS_ELA.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ELA.3.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_nahunte
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ELA.3.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_jabru
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ELA.3.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_parti
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ELA.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_ELA.1 } }
 	}
 }

@@ -756,6 +756,100 @@ zoroastrian_group = {
 	ai_convert_same_group = 0 # never try to convert
 	ai_convert_other_group = 0 # never try to convert
 
+	elamite_pagan = {
+		graphical_culture = westerngfx
+
+		icon = 112
+		color = { 259 710 200 }	
+		
+		crusade_name = "GREAT_HOLY_WAR"
+		scripture_name = THE_STELES
+		
+		reformed = elamite_pagan_reformed		
+
+		high_god_name = Inshushinak	
+		
+		god_names = {
+			Inshushinak Pinikir Kiririsha Khumban Shimut Manzat Nāhunte Jabru Parti
+		}
+
+		evil_god_names = {
+			THE_DARKNESS THE_DARK_SPIRITS
+		}
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_wives = 4
+		pc_marriage = yes
+		bs_marriage = yes
+		can_call_crusade = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
+		intermarry = hindu
+		intermarry = armenian_pagan		
+	}		
+	elamite_pagan_reformed = { # Elamite
+		graphical_culture = persiangfx
+		icon = 112
+		heresy_icon = 132		
+		color = { 279 730 300 }	
+		
+		crusade_name = "GREAT_HOLY_WAR"
+		scripture_name = THE_STELES
+
+		high_god_name = Inshushinak	
+		
+		god_names = {
+			GOD_Inshushinak GOD_Pinikir GOD_Kiririsha GOD_Khumban GOD_Shimut GOD_Manzat GOD_Nāhunte GOD_Jabru GOD_Parti
+		}
+
+		evil_god_names = {
+			THE_DARKNESS THE_DARK_SPIRITS
+		}
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			light_infantry_offensive = 0.2
+			light_infantry_defensive = 0.2
+			light_cavalry_offensive = 0.3
+			light_cavalry_defensive = 0.3	
+	
+			key = "OFF_RELIGION"
+		}
+		
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_wives = 4
+		pc_marriage = yes
+		bs_marriage = yes
+		can_call_crusade = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		allow_in_ruler_designer = no	
+
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
+		intermarry = hindu
+		intermarry = armenian_pagan			
+	}	
+	
+	
 	zoroastrian = {
 		graphical_culture = westerngfx
 		icon = 10

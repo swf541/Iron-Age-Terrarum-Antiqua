@@ -1,0 +1,38 @@
+decisions = {
+	patrons_ela = {
+		potential = {
+            is_playable = yes
+            age = 16
+            not = { trait = incapable }
+			OR = {
+				religion = elamite_pagan_reformed
+				religion = elamite_pagan
+			}
+			NOT = { has_character_flag = elamite_patron_selected }
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			set_character_flag = elamite_patron_selected
+			character_event = { id = PATRONS_ELA.1 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factOR = 1
+			modifier = {
+				factOR = 0.1
+			}
+			modifier = {
+				factOR = 0.2
+				trait = slothful
+			}
+			modifier = {
+				factOR = 0.1
+				trait = cynical
+			}
+		}
+	}
+}
