@@ -114,4 +114,102 @@ k_ireland = {
 			b_manapia7 = { }
 		}
 	}
+	d_connachta = {
+		color= { 23 222 22 }
+		color2= { 255 255 255 }	
+		
+		capital = 1417
+		
+		c_connachta = {
+			color= { 44 210 33 }
+			color2= { 255 255 255 }
+		
+			b_connachta1 = { }
+			b_connachta2 = { }
+			b_connachta3 = { }
+			b_connachta4 = { }
+			b_connachta5 = { }
+			b_connachta6 = { }
+			b_connachta7 = { }
+		}		
+		c_erdinia = {
+			color= { 44 190 55 }
+			color2= { 255 255 255 }
+		
+			b_erdinia1 = { }
+			b_erdinia2 = { }
+			b_erdinia3 = { }
+			b_erdinia4 = { }
+			b_erdinia5 = { }
+			b_erdinia6 = { }
+			b_erdinia7 = { }
+		}	
+		c_nagnatia = {
+			color= { 44 180 44 }
+			color2= { 255 255 255 }
+		
+			b_nagnatia1 = { }
+			b_nagnatia2 = { }
+			b_nagnatia3 = { }
+			b_nagnatia4 = { }
+			b_nagnatia5 = { }
+			b_nagnatia6 = { }
+			b_nagnatia7 = { }
+		}			
+	}
+	d_erainn = {
+		color= { 23 222 22 }
+		color2= { 255 255 255 }	
+		
+		capital = 1417
+		
+		c_auteinia = {
+			color= { 52 215 14 }
+			color2= { 255 255 255 }
+		
+			b_auteinia1 = { }
+			b_auteinia2 = { }
+			b_auteinia3 = { }
+			b_auteinia4 = { }
+			b_auteinia5 = { }
+			b_auteinia6 = { }
+			b_auteinia7 = { }
+		}	
+		c_uairmumhain = {
+			color= { 44 215 62 }
+			color2= { 255 255 255 }
+		
+			b_uairmumhain1 = { }
+			b_uairmumhain2 = { }
+			b_uairmumhain3 = { }
+			b_uairmumhain4 = { }
+			b_uairmumhain5 = { }
+			b_uairmumhain6 = { }
+			b_uairmumhain7 = { }
+		}	
+		c_deismumhain = {
+			color= { 11 210 33 }
+			color2= { 255 255 255 }
+		
+			b_deismumhain1 = { }
+			b_deismumhain2 = { }
+			b_deismumhain3 = { }
+			b_deismumhain4 = { }
+			b_deismumhain5 = { }
+			b_deismumhain6 = { }
+			b_deismumhain7 = { }
+		}	
+		c_gangania = {
+			color= { 44 233 33 }
+			color2= { 255 255 255 }
+		
+			b_gangania1 = { }
+			b_gangania2 = { }
+			b_gangania3 = { }
+			b_gangania4 = { }
+			b_gangania5 = { }
+			b_gangania6 = { }
+			b_gangania7 = { }
+		}	
+	}
 }
