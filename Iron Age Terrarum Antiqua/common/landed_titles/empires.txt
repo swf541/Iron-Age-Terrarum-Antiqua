@@ -381,7 +381,8 @@ e_persia = {
 			c_madhar = {
 				color= { 215 10 50 }
 				color2= { 255 255 255 }
-				
+				holy_site = elamite_pagan_reformed
+				holy_site = elamite_pagan						
 				b_madhar_madhar = {
 				}
 				b_nina_madhar = {
@@ -392,6 +393,9 @@ e_persia = {
 			c_soloke = {
 				color= { 235 10 50 }
 				color2= { 255 255 255 }
+				
+				holy_site = elamite_pagan_reformed
+				holy_site = elamite_pagan
 				
 				b_soloke_soloke = {
 				}
@@ -405,6 +409,9 @@ e_persia = {
 			c_susa = {
 				color= { 225 0 50 }
 				color2= { 255 255 255 }
+				
+				holy_site = elamite_pagan_reformed
+				holy_site = elamite_pagan
 				
 				b_susa_susa = {
 				}
@@ -422,7 +429,8 @@ e_persia = {
 			c_nemavand = {
 				color= { 235 0 60 }
 				color2= { 255 255 255 }
-				
+				holy_site = elamite_pagan_reformed
+				holy_site = elamite_pagan				
 				b_nemavand_nemavand = {
 				}
 				b_harsin_nemavand = {

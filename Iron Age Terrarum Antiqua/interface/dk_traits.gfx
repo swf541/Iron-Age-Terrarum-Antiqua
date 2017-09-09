@@ -7,6 +7,20 @@ SpriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_enarei"
+		texturefile = "gfx/traits/mystic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_chosen_by_wasilla"
+		texturefile = "gfx/traits/mystic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_senator"
 		texturefile = "gfx/traits/senator.tga"
 		noOfFrames = 1

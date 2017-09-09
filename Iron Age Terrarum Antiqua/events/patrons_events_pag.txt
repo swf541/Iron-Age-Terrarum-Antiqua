@@ -1207,7 +1207,7 @@ character_event = {
 		name = PATRONS_ELA.1.b
 		set_character_flag = patron_chosen
 		add_character_modifier = {
-			name = patron_pinikir	#Also Gets a Festival In November each year, the week-long festival of Djiorgwyba is celebrated in Uastyrdzhi's honour (and, indeed, gives the name to the month in Elamite).[3] A one-year-old bullock is sacrificed. To indicate that the victim belongs to the god, its right horn is cut off long before, forbidding any herdsman to swear on it.
+			name = patron_pinikir
 			duration = -1
 		}
 	}
@@ -1215,7 +1215,7 @@ character_event = {
 		name = PATRONS_ELA.1.c
 		set_character_flag = patron_chosen
 		add_character_modifier = {
-			name = patron_kiririsha	#Add Festival For
+			name = patron_kiririsha
 			duration = -1
 		}
 	}

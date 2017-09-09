@@ -1,4 +1,4 @@
-453.6.10 = { # 323 BC
+453.1.10 = { # 323 BC
 	holder = 90001 # Atropates, king of Atropatene
 	liege = e_macedonia
 }
