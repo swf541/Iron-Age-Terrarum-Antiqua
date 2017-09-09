@@ -59,7 +59,7 @@ mother=123702
 }
 
 123704={
-name="Abél_Abel"
+name="Abél"
 dynasty=223007
 dna="jbppkpefpjh"
 culture=irish
@@ -100,7 +100,7 @@ mother=123702
 }
 
 123706={
-name="Emer_Emer"
+name="Emer"
 female=yes
 dynasty=223009
 dna="hbjkfginddi"
@@ -344,7 +344,7 @@ mother=123713
 }
 
 123718={
-name="Brigit_Brigit"
+name="Brigit"
 female=yes
 dynasty=223012
 dna="jnnfapoopdm"
@@ -701,7 +701,7 @@ mother=123732
 }
 
 123735={
-name="Eithne_Eithne"
+name="Eithne"
 female=yes
 dynasty=223017
 dna="lpjkdaaljha"
@@ -1007,7 +1007,7 @@ trait="zealous"
 }
 
 123750={
-name="Dubhghall_Dugald"
+name="Dubhghall"
 dynasty=223007
 dna="enjedhopaeh"
 culture=irish
@@ -1191,7 +1191,7 @@ mother=123755
 }
 
 123759={
-name="Lucia_Lucia"
+name="Lucia"
 female=yes
 dynasty=223023
 dna="cefkjohgdlf"
@@ -1250,7 +1250,7 @@ mother=123759
 }
 
 123762={
-name="Eithne_Eithne"
+name="Eithne"
 female=yes
 dynasty=223007
 dna="edfejohadlm"

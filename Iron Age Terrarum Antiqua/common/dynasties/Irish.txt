@@ -1,43 +1,43 @@
 # 22001-23000 for venetic dynasties
 
 223001 = {
-	name = "Dal Riata"
+	name ="Dal Riata"
 	culture = irish
 }
 223002 = {
-	name = "Cruithin"
+	name ="Cruithin"
 	culture = irish
 }
 223003 = {
-	name = "Dal Fiatach"
+	name ="Dal Fiatach"
 	culture = irish
 }
 223004 = {
-	name = "Ulaid"
+	name ="Ulaid"
 	culture = irish
 }
 223005 = {
-	name = "Monaig"
+	name ="Monaig"
 	culture = irish
 }
 223006 = {
-	name = "Brigantes"
+	name ="Brigantes"
 	culture = irish
 }
 223007 = {
-	name = "Domnainn"
+	name ="Domnainn"
 	culture = irish
 }
 223008 = {
-	name = "Uaithne"
+	name ="Uaithne"
 	culture = irish
 }
 223009 = {
-	name = "Erainn"
+	name ="Erainn"
 	culture = irish
 }
 223010 = {
-	name = "Nagnatae"
+	name ="Nagnatae"
 	culture = irish
 }
 #Stop Here For Tribal Placement
@@ -120,4 +120,8 @@
 {
 	name="Ua Briain"
 	culture="irish"
+}
+223026 = {
+	name ="Coraind"
+	culture = irish
 }

@@ -60,7 +60,7 @@ mother=123202
 }
 
 123204={
-name="Sláíne_Slaine"
+name="Sláíne"
 female=yes
 dynasty=223005
 dna="blfogbbnekp"
@@ -227,7 +227,7 @@ trait="syphilitic"
 }
 
 123212={
-name="Dubhghall_Dugald"
+name="Dubhghall"
 dynasty=223003
 dna="ocdojnnnikj"
 culture=irish
@@ -311,7 +311,7 @@ mother=123211
 }
 
 123216={
-name="Emer_Emer"
+name="Emer"
 female=yes
 dynasty=223008
 dna="pncgpendncl"
@@ -330,7 +330,7 @@ trait="cynical"
 }
 
 123217={
-name="Gormflaith_Gormflaith"
+name="Gormflaith"
 female=yes
 dynasty=223003
 dna="ocfmjnnnikl"
@@ -351,7 +351,7 @@ mother=123216
 }
 
 123218={
-name="Fergus_Fergus"
+name="Fergus"
 dynasty=223003
 dna="pndojnndikl"
 culture=irish
@@ -433,7 +433,7 @@ mother=123216
 }
 
 123222={
-name="Muirne_Morna"
+name="Muirnena"
 female=yes
 dynasty=223009
 dna="edjfiolicbn"
@@ -520,7 +520,7 @@ mother=123222
 }
 
 123226={
-name="Mór_Mor"
+name="Mór"
 female=yes
 dynasty=223003
 dna="enjfbnndikn"
@@ -563,7 +563,7 @@ trait="content"
 }
 
 123228={
-name="Máire_Maria"
+name="Máire"
 female=yes
 dynasty=223003
 dna="emdfpnncfkl"
@@ -586,7 +586,7 @@ mother=123227
 }
 
 123229={
-name="Donncuan_Duncan"
+name="Donncuan"
 dynasty=223003
 dna="emifinmdfbb"
 culture=irish
@@ -691,7 +691,7 @@ mother=123230
 }
 
 123234={
-name="Dúnchad_Duncan"
+name="Dúnchad"
 dynasty=223003
 dna="emibinmohkb"
 culture=irish
@@ -980,7 +980,7 @@ mother=123245
 }
 
 123248={
-name="Diarmait_Dermid"
+name="Diarmait"
 dynasty=223003
 dna="fmfapglgakk"
 culture=irish
@@ -1080,7 +1080,7 @@ mother=123251
 }
 
 123253={
-name="Finnlagh_Findlay"
+name="Finnlagh"
 dynasty=223003
 dna="bmikambgabj"
 culture=irish
@@ -1142,7 +1142,7 @@ mother=123251
 }
 
 123256={
-name="Art_Arthur"
+name="Art"
 dynasty=223003
 dna="jmejfhmhabl"
 culture=irish
@@ -1203,7 +1203,7 @@ mother=123257
 }
 
 123259={
-name="Finnguala_Finnguala"
+name="Finnguala"
 female=yes
 dynasty=223003
 dna="bloiapnlebi"
@@ -1244,7 +1244,7 @@ mother=123257
 }
 
 123261={
-name="Éamonn_Edmund "
+name="Éamonn"
 dynasty=223003
 dna="bkojajnlekk"
 culture=irish
@@ -1328,7 +1328,7 @@ mother=123263
 }
 
 123265={
-name="Cairbre_Carbrey"
+name="Cairbre"
 dynasty=223003
 dna="jliihjninbd"
 culture=irish
@@ -1348,7 +1348,7 @@ mother=123263
 }
 
 123266={
-name="Éogan_Eugene"
+name="Éogan"
 dynasty=223003
 dna="joiihjnijbh"
 culture=irish
@@ -1368,7 +1368,7 @@ mother=123263
 }
 
 123267={
-name="Sláíne_Slaine"
+name="Sláíne"
 female=yes
 dynasty=223018
 dna="ofijgpcenaf"
@@ -1429,7 +1429,7 @@ trait="ill"
 }
 
 123270={
-name="Colmán_Nicholas"
+name="Colmán"
 dynasty=223003
 dna="jfiedonidph"
 culture=irish

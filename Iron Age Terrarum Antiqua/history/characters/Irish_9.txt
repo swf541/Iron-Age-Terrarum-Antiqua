@@ -1,5 +1,5 @@
 123901={
-name="Cennétig_Kentigern"
+name="Cennétig"
 dynasty=223009
 dna="khggpbkbdfg"
 culture=irish
@@ -121,7 +121,7 @@ mother=123904
 }
 
 123907={
-name="Ailpín_Alwin"
+name="Ailpín"
 dynasty=223009
 dna="ihaecoefafg"
 culture=irish
@@ -206,7 +206,7 @@ mother=123909
 }
 
 123911={
-name="Cennétig_Kentigern"
+name="Cennétig"
 dynasty=223009
 dna="ifhgemeagcd"
 culture=irish
@@ -226,7 +226,7 @@ mother=123909
 }
 
 123912={
-name="Énri_Henry"
+name="Énri"
 dynasty=223009
 dna="iahoemebdfd"
 culture=irish
@@ -376,7 +376,7 @@ mother=123916
 }
 
 123919={
-name="Martha_Martha"
+name="Martha"
 female=yes
 dynasty=223009
 dna="ifhmgbeagll"
@@ -566,7 +566,7 @@ trait="honest"
 }
 
 123928={
-name="Bhátair_Walter"
+name="Bhátair"
 dynasty=223009
 dna="behikimlgln"
 culture=irish
@@ -610,7 +610,7 @@ mother=123927
 }
 
 123930={
-name="Selbach "
+name="Selbach"
 dynasty=223009
 dna="bmnfcnnhgln"
 culture=irish
@@ -673,7 +673,7 @@ mother=123931
 }
 
 123933={
-name="Emer_Emer"
+name="Emer"
 female=yes
 dynasty=223009
 dna="iehckimcgle"
@@ -693,7 +693,7 @@ mother=123931
 }
 
 123934={
-name="Abél_Abel"
+name="Abél"
 dynasty=223009
 dna="behckimcgdn"
 culture=irish
@@ -798,7 +798,7 @@ mother=123936
 }
 
 123939={
-name="Brigit_Brigit"
+name="Brigit"
 female=yes
 dynasty=223009
 dna="ofpckemhpdn"
@@ -818,7 +818,7 @@ mother=123936
 }
 
 123940={
-name="Brigit_Brigit"
+name="Brigit"
 female=yes
 dynasty=223019
 dna="pcfdokcbgnc"
@@ -977,7 +977,7 @@ mother=123945
 }
 
 123948={
-name="Mór_Mor"
+name="Mór"
 female=yes
 dynasty=223021
 dna="llilekfghpk"
@@ -1225,7 +1225,7 @@ mother=123956
 }
 
 123960={
-name="Máire_Maria"
+name="Máire"
 female=yes
 dynasty=223025
 dna="aafcigfpgia"
@@ -1313,7 +1313,7 @@ mother=123961
 }
 
 123964={
-name="Éamonn_Edmund "
+name="Éamonn"
 dynasty=223009
 dna="fmfplllhpap"
 culture=irish

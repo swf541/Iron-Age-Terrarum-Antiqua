@@ -86,7 +86,7 @@ mother=123602
 }
 
 123605={
-name="Sláíne_Slaine"
+name="Sláíne"
 female=yes
 dynasty=223006
 dna="fgphdiikmid"
@@ -187,7 +187,7 @@ mother=123607
 }
 
 123610={
-name="Conán_Conan"
+name="Conán"
 dynasty=223006
 dna="igkhddphmdh"
 culture=irish
@@ -289,7 +289,7 @@ mother=123612
 }
 
 123615={
-name="Conn_Conn"
+name="Conn"
 dynasty=223006
 dna="ipkhbfpcbgh"
 culture=irish
@@ -370,7 +370,7 @@ trait="patient"
 }
 
 123619={
-name="Fearchar_Farquhar"
+name="Fearchar"
 dynasty=223006
 dna="jpdepljdbff"
 culture=irish
@@ -430,7 +430,7 @@ mother=123618
 }
 
 123622={
-name="Artúr_Arthur"
+name="Artúr"
 dynasty=223006
 dna="jbdhblpgngf"
 culture=irish
@@ -451,7 +451,7 @@ mother=123618
 }
 
 123623={
-name="Art_Arthur"
+name="Art"
 dynasty=223006
 dna="ipkhpfpcnah"
 culture=irish
@@ -536,7 +536,7 @@ mother=123625
 }
 
 123627={
-name="Nuala_Finnguala"
+name="Nuala"
 female=yes
 dynasty=223012
 dna="gacipoonmmd"
@@ -666,7 +666,7 @@ mother=123631
 }
 
 123633={
-name="Ualtar_Walter"
+name="Ualtar"
 dynasty=223006
 dna="gmcbpnombfo"
 culture=irish
@@ -705,7 +705,7 @@ mother=123631
 }
 
 123635={
-name="Martha_Martha"
+name="Martha"
 female=yes
 dynasty=223014
 dna="afbemcfofhb"
@@ -1008,7 +1008,7 @@ mother=123645
 }
 
 123650={
-name="Martha_Martha"
+name="Martha"
 female=yes
 dynasty=223018
 dna="emajdnnoihi"
@@ -1236,7 +1236,7 @@ mother=123658
 }
 
 123661={
-name="Muadhnait_Mona"
+name="Muadhnaitgangania"
 female=yes
 dynasty=223006
 dna="bocidaabdfb"
@@ -1275,7 +1275,7 @@ trait="content"
 }
 
 123663={
-name="Abél_Abel"
+name="Abél"
 dynasty=223006
 dna="bbiocalknfk"
 culture=irish
@@ -1356,7 +1356,7 @@ mother=123664
 }
 
 123667={
-name="Donnchad_Duncan"
+name="Donnchad"
 dynasty=223006
 dna="llilclpkeia"
 culture=irish

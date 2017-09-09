@@ -18,7 +18,7 @@ trait="gregarious"
 }
 
 1231002={
-name="Muadhnait_Mona"
+name="Muadhnait"
 female=yes
 dynasty=223011
 dna="ijblmeleiij"
@@ -380,7 +380,7 @@ mother=1231018
 }
 
 1231020={
-name="Éua_Eva"
+name="Éua"
 female=yes
 dynasty=223010
 dna="gdijajojgbf"
@@ -486,7 +486,7 @@ mother=1231021
 }
 
 1231025={
-name="Gilla-Ruad_Gilroy "
+name="Gilla-Ruad"
 dynasty=223010
 dna="gccggkjlghm"
 culture=irish
@@ -545,7 +545,7 @@ mother=1231026
 }
 
 1231028={
-name="Éua_Eva"
+name="Éua"
 female=yes
 dynasty=223010
 dna="obgcgenagha"
@@ -685,7 +685,7 @@ trait="shy"
 }
 
 1231035={
-name="Lucia_Lucia"
+name="Lucia"
 female=yes
 dynasty=223020
 dna="dmjfkbagaka"
@@ -730,7 +730,7 @@ mother=1231035
 }
 
 1231037={
-name="Conán_Conan"
+name="Conán"
 dynasty=223010
 dna="olgjkaagaoa"
 culture=irish
@@ -753,7 +753,7 @@ mother=1231035
 }
 
 1231038={
-name="Conn_Conn"
+name="Conn"
 dynasty=223010
 dna="bmjfkaakplf"
 culture=irish
@@ -791,7 +791,7 @@ trait="mystic"
 }
 
 1231040={
-name="Suibne_Sweeny"
+name="Suibne"
 dynasty=223010
 dna="jlcfedajoem"
 culture=irish
@@ -831,7 +831,7 @@ mother=1231039
 }
 
 1231042={
-name="Siothrún_Godfrey"
+name="Siothrún"
 dynasty=223010
 dna="olgnkkaiafm"
 culture=irish
@@ -937,7 +937,7 @@ mother=1231043
 }
 
 1231047={
-name="Máirgred_Margaret"
+name="Máirgred"
 female=yes
 dynasty=223023
 dna="iedhjnklpfp"
@@ -958,7 +958,7 @@ trait="just"
 }
 
 1231048={
-name="Bran_Bran"
+name="Bran"
 dynasty=223010
 dna="ieofjdaljfm"
 culture=irish
@@ -1129,7 +1129,7 @@ mother=1231053
 }
 
 1231056={
-name="Mór_Mor"
+name="Mór"
 female=yes
 dynasty=223010
 dna="fjefjmahicp"
@@ -1169,7 +1169,7 @@ trait="thrifty_clerk"
 }
 
 1231058={
-name="Gofraid_Godfrey"
+name="Gofraid"
 dynasty=223010
 dna="fcpookahemm"
 culture=irish

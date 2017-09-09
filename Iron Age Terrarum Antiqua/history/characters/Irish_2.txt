@@ -613,7 +613,7 @@ mother=123125
 }
 
 123131={
-name="Máire_Maria"
+name="Máire"
 female=yes
 dynasty=223009
 dna="gondcemjgoi"
@@ -1355,7 +1355,7 @@ mother=123165
 }
 
 123167={
-name="Muirenn_Murron"
+name="Muirenn"
 female=yes
 dynasty=223017
 dna="aniipbnghgo"
@@ -1567,7 +1567,7 @@ mother=123174
 }
 
 123177={
-name="Donncuan_Duncan"
+name="Donncuan"
 dynasty=223002
 dna="aagdoendhao"
 culture=irish

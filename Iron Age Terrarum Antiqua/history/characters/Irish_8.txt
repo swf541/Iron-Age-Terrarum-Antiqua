@@ -203,7 +203,7 @@ trait="flamboyant_schemer"
 }
 
 123811={
-name="Art_Arthur"
+name="Art"
 dynasty=223008
 dna="lekjjlojmac"
 culture=irish
@@ -490,7 +490,7 @@ trait="patient"
 }
 
 123825={
-name="Gormflaith_Gormflaith"
+name="Gormflaith"
 female=yes
 dynasty=223008
 dna="glkflnjdndi"
@@ -571,7 +571,7 @@ mother=123824
 }
 
 123829={
-name="Éua_Eva"
+name="Éua"
 female=yes
 dynasty=223008
 dna="kdmfglgcldg"
@@ -741,7 +741,7 @@ mother=123833
 }
 
 123837={
-name="Aibilín_Eva"
+name="Aibilín"
 female=yes
 dynasty=223017
 dna="ddkecdcigdl"
@@ -763,7 +763,7 @@ trait="stressed"
 }
 
 123838={
-name="Donnucán_Duncan"
+name="Donnucán"
 dynasty=223008
 dna="bckehncingc"
 culture=irish
@@ -784,7 +784,7 @@ mother=123837
 }
 
 123839={
-name="Muirenn_Murron"
+name="Muirenn"
 female=yes
 dynasty=223008
 dna="dckicdcngdj"
@@ -1069,7 +1069,7 @@ mother=123851
 }
 
 123853={
-name="Muadhnait_Mona"
+name="Muadhnaitgangania"
 female=yes
 dynasty=223021
 dna="biakfphpmai"
@@ -1286,7 +1286,7 @@ mother=123859
 }
 
 123863={
-name="Éamonn_Edmund
+name="Éamonn
 dynasty=223008
 dna="hhjkknjpood"
 culture=irish
@@ -1405,7 +1405,7 @@ trait="honest"
 }
 
 123869={
-name="Muirenn_Murron"
+name="Muirenn"
 female=yes
 dynasty=223008
 dna="kmkgbakmola"

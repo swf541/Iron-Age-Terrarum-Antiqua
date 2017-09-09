@@ -227,7 +227,7 @@ trait="grey_eminence"
 }
 
 123412={
-name="Columb_Nicholas"
+name="Columb"
 dynasty=223005
 dna="pekonibajcn"
 culture=irish
@@ -591,7 +591,7 @@ mother=123424
 }
 
 123429={
-name="Aibilín_Eva"
+name="Aibilín"
 female=yes
 dynasty=223011
 dna="efngllajfnc"
@@ -651,7 +651,7 @@ mother=123429
 }
 
 123432={
-name="Diarmait_Dermid"
+name="Diarmait"
 dynasty=223005
 dna="lgnneaajhnc"
 culture=irish
@@ -672,7 +672,7 @@ mother=123429
 }
 
 123433={
-name="Martha_Martha"
+name="Martha"
 female=yes
 dynasty=223012
 dna="kdobmpnegdm"
@@ -742,7 +742,7 @@ mother=123433
 }
 
 123436={
-name="Muirne_Morna"
+name="Muirnena"
 female=yes
 dynasty=223013
 dna="lgihcochbeh"
@@ -947,7 +947,7 @@ mother=123442
 }
 
 123446={
-name="Eithne_Eithne"
+name="Eithne"
 female=yes
 dynasty=223015
 dna="ichaiomgngc"
@@ -967,7 +967,7 @@ trait="shy"
 }
 
 123447={
-name="Gormflaith_Gormflaith"
+name="Gormflaith"
 female=yes
 dynasty=223016
 dna="knldnfpnknl"
@@ -1006,7 +1006,7 @@ mother=123447
 }
 
 123449={
-name="Carlus_Charles"
+name="Carlus"
 dynasty=223005
 dna="knldnapnlmb"
 culture=irish
@@ -1025,7 +1025,7 @@ mother=123447
 }
 
 123450={
-name="Muirenn_Murron"
+name="Muirenn"
 female=yes
 dynasty=223017
 dna="dimcplmihek"
@@ -1271,7 +1271,7 @@ mother=123456
 }
 
 123462={
-name="Eithne_Eithne"
+name="Eithne"
 female=yes
 dynasty=223019
 dna="kfelkeeehfj"
@@ -1291,7 +1291,7 @@ trait="trusting"
 }
 
 123463={
-name="Eithne_Eithne"
+name="Eithne"
 female=yes
 dynasty=223005
 dna="kfelkfeepen"
@@ -1399,7 +1399,7 @@ mother=123462
 }
 
 123468={
-name="Éua_Eva"
+name="Éua"
 female=yes
 dynasty=223020
 dna="ndjaliooikg"
@@ -1505,7 +1505,7 @@ trait="proud"
 }
 
 123473={
-name="Fearchar_Farquhar"
+name="Fearchar"
 dynasty=223005
 dna="cdgafemonfb"
 culture=irish

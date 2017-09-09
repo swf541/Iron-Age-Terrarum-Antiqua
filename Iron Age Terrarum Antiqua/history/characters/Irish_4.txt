@@ -170,7 +170,7 @@ mother=123305
 }
 
 123309={
-name="Art_Arthur"
+name="Art"
 dynasty=223004
 dna="dlnahnbhgeg"
 culture=irish
@@ -316,7 +316,7 @@ mother=123314
 }
 
 123316={
-name="Gormlaith_Gormflaith"
+name="Gormlaith"
 female=yes
 dynasty=223009
 dna="fgkaafmnhkm"
@@ -378,7 +378,7 @@ mother=123316
 }
 
 123319={
-name="Eithne_Eithne"
+name="Eithne"
 female=yes
 dynasty=223010
 dna="nhnikgfjfgp"
@@ -466,7 +466,7 @@ mother=123319
 }
 
 123323={
-name="Muadhnait_Mona"
+name="Muadhnaitgangania"
 female=yes
 dynasty=223004
 dna="ngniagfehip"
@@ -487,7 +487,7 @@ mother=123319
 }
 
 123324={
-name="Bhátair_Walter"
+name="Bhátair"
 dynasty=223004
 dna="nakikffefbp"
 culture=irish
@@ -528,7 +528,7 @@ trait="ill"
 }
 
 123326={
-name="Bran_Bran"
+name="Bran"
 dynasty=223004
 dna="bkejkgfjbhp"
 culture=irish
@@ -549,7 +549,7 @@ mother=123325
 }
 
 123327={
-name="Aibilín_Eva"
+name="Aibilín"
 female=yes
 dynasty=223012
 dna="hghkfegigag"
@@ -648,7 +648,7 @@ trait="detached_priest"
 }
 
 123332={
-name="Suibne_Sweeny"
+name="Suibne"
 dynasty=223004
 dna="knenkjpdegp"
 culture=irish
@@ -958,7 +958,7 @@ mother=123344
 }
 
 123347={
-name="Ualan_Valentin "
+name="Ualan_Valentin"
 dynasty=223004
 dna="pacnpbionml"
 culture=irish
@@ -1064,7 +1064,7 @@ mother=123350
 }
 
 123352={
-name="Muirne_Morna"
+name="Muirnena"
 female=yes
 dynasty=223018
 dna="gojbicedlbh"
@@ -1183,7 +1183,7 @@ mother=123352
 }
 
 123358={
-name="Mór_Mor"
+name="Mór"
 female=yes
 dynasty=223019
 dna="aefifmninbd"
@@ -1224,7 +1224,7 @@ mother=123358
 }
 
 123360={
-name="Suibne_Sweeny"
+name="Suibne"
 dynasty=223004
 dna="aabipdoikpd"
 culture=irish
@@ -1287,7 +1287,7 @@ mother=123358
 }
 
 123363={
-name="Martha_Martha"
+name="Martha"
 female=yes
 dynasty=223020
 dna="lfegmnaimdg"
@@ -1432,7 +1432,7 @@ trait="brave"
 }
 
 123370={
-name="Selbach "
+name="Selbach"
 dynasty=223004
 dna="lboafhieldh"
 culture=irish
@@ -1535,7 +1535,7 @@ mother=123369
 }
 
 123375={
-name="Gormflaith_Gormflaith"
+name="Gormflaith"
 female=yes
 dynasty=223022
 dna="bhkenkjgooe"
@@ -1660,7 +1660,7 @@ mother=123375
 }
 
 123381={
-name="Sinech "
+name="Sinech"
 female=yes
 dynasty=223004
 dna="lhkenkjgooe"

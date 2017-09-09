@@ -79,7 +79,7 @@ mother=123002
 }
 
 123005={
-name="Dubhghall_Dugald"
+name="Dubhghall"
 dynasty=223001
 dna="lmkhlkhigjn"
 culture=irish
@@ -99,7 +99,7 @@ mother=123002
 }
 
 123006={
-name="Conn_Conn"
+name="Conn"
 dynasty=223001
 dna="bbkblkpiffn"
 culture=irish
@@ -288,7 +288,7 @@ mother=123012
 }
 
 123015={
-name="Brigit_Brigit"
+name="Brigit"
 female=yes
 dynasty=223001
 dna="fdgnaidinma"
@@ -412,7 +412,7 @@ mother=123018
 }
 
 123021={
-name="Énri_Henry"
+name="Énri"
 dynasty=223001
 dna="ciknoekjehi"
 culture=irish
@@ -433,7 +433,7 @@ mother=123018
 }
 
 123022={
-name="Dubhghall_Dugald"
+name="Dubhghall"
 dynasty=223001
 dna="fegeoekbghk"
 culture=irish
@@ -476,7 +476,7 @@ mother=123018
 }
 
 123024={
-name="Mór_Mor"
+name="Mór"
 female=yes
 dynasty=223001
 dna="pjlmnnoognc"
@@ -679,7 +679,7 @@ mother=123029
 }
 
 123034={
-name="Sláíne_Slaine"
+name="Sláíne"
 female=yes
 dynasty=223001
 dna="bkdgpaheoco"
@@ -701,7 +701,7 @@ trait="proud"
 }
 
 123035={
-name="Muirne_Morna"
+name="Muirnena"
 female=yes
 dynasty=223001
 dna="lalkfgnllci"
@@ -803,7 +803,7 @@ mother=123035
 }
 
 123040={
-name="Diarmait_Dermid"
+name="Diarmait"
 dynasty=223001
 dna="ljlkdnocdnn"
 culture=irish
@@ -965,7 +965,7 @@ trait="brave"
 }
 
 123048={
-name="Dubhghall_Dugald"
+name="Dubhghall"
 dynasty=223001
 dna="mjdopnkclna"
 culture=irish
@@ -1136,7 +1136,7 @@ mother=123054
 }
 
 123056={
-name="Muirenn_Murron"
+name="Muirenn"
 female=yes
 dynasty=223001
 dna="mpmhgdlfpek"
@@ -1361,7 +1361,7 @@ mother=123063
 }
 
 123067={
-name="Bhátair_Walter"
+name="Bhátair"
 dynasty=223001
 dna="oplfjdgfneg"
 culture=irish
@@ -1402,7 +1402,7 @@ mother=123063
 }
 
 123069={
-name="Martha_Martha"
+name="Martha"
 female=yes
 dynasty=223001
 dna="bbnnfombhmm"
@@ -1468,7 +1468,7 @@ mother=123069
 }
 
 123072={
-name="Gofraid_Godfrey"
+name="Gofraid"
 dynasty=223001
 dna="bblnfpkfmig"
 culture=irish
@@ -1777,7 +1777,7 @@ trait="stressed"
 }
 
 123087={
-name="Ualtar_Walter"
+name="Ualtar"
 dynasty=223001
 dna="nmnlllhiecb"
 culture=irish
