@@ -24,3 +24,15 @@ PATRONS_ELA.1.a;Inshushinak, National God of Elam. God of Snakes and Water;;;;;;
 PATRONS_ELA.1.b;Pinikir, Fertility Deity and Defender of Susa;;;;;;x
 PATRONS_ELA.1.c;Kiririsha, The Divine Mother;;;;;;x
 k_elamite_pagan_reformed;Kingdom of Elam;;;;;;x
+sacrifice_inshushinak;Sacrificed to Inshushinak;;;;;;;x
+sacrifice_inshushinak_desc;Sacrificed to Inshushinak;;;;;;;x
+sacrifice_pinikir;Sacrificed to Pinikir;;;;;;;x
+sacrifice_pinikir_desc;Sacrificed to Pinikir;;;;;;;x
+sacrifice_kiririsha;Sacrificed to Kiririsha;;;;;;;x
+sacrifice_kiririsha_desc;Sacrificed to Kiririsha;;;;;;;x
+make_sacrifice_kiririsha;Make a Sacrifice to Kiririsha;;;;;x
+make_sacrifice_pinikir;Make a Sacrifice to Pinikir;;;;;x
+make_sacrifice_inshushinak;Make a Sacrifice to Inshushinak;;;;;x
+make_sacrifice_kiririsha_desc;Make a sacrifice to our Divine Mother;;;;;x
+make_sacrifice_pinikir_desc;Make a sacrifice to the Mother Deity of Fertility and defender of Susa;;;;;x
+make_sacrifice_inshushinak_desc;Make a sacrifice to the our National Deity Inshushinak;;;;;x
