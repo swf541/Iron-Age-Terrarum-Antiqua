@@ -1,0 +1,50 @@
+k_scotland = {
+	color= { 215 65 165 }
+	color2= { 255 255 255 }
+	
+	# capital =
+	
+	d_hebrides = {
+		color= { 165 15 75 }
+		color2= { 255 255 255 }
+		
+		capital = 1406 #Epidia
+		
+		c_dumna = {
+			color= { 250 200 65 }
+			color2= { 255 255 255 }
+		
+			b_dumna1 = { }
+			b_dumna2 = { }
+			b_dumna3 = { }
+			b_dumna4 = { }
+			b_dumna5 = { }
+			b_dumna6 = { }
+			b_dumna7 = { }
+		}
+		c_epidia = {
+			color= { 50 10 20 }
+			color2= { 255 255 255 }
+		
+			b_epidia1 = { }
+			b_epidia2 = { }
+			b_epidia3 = { }
+			b_epidia4 = { }
+			b_epidia5 = { }
+			b_epidia6 = { }
+			b_epidia7 = { }
+		}
+		c_kreonia = {
+			color= { 185 235 90 }
+			color2= { 255 255 255 }
+		
+			b_kreonia1 = { }
+			b_kreonia2 = { }
+			b_kreonia3 = { }
+			b_kreonia4 = { }
+			b_kreonia5 = { }
+			b_kreonia6 = { }
+			b_kreonia7 = { }
+		}
+	}
+}
