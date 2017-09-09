@@ -510,6 +510,9 @@ technology = {
 		d_connachta
 		d_erainn
 		d_hebrides
+		d_caledonia
+		d_cait
+		d_fortriu
 	}
 	417 = {
 		military = 1
