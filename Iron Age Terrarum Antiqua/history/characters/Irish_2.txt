@@ -15,11 +15,11 @@ trait="gregarious"
 trait="envious"
 400.1.1={birth=yes}
 418.9.12 = {add_spouse=123102}
-420.12.5={death=yes}
+425.12.5={death=yes}
 }
 
 123102={
-name="Sinech "
+name="Sinech"
 female=yes
 dynasty=223003
 dna="aapamgfdgnf"
@@ -1690,7 +1690,7 @@ mother=123179
 }
 
 123183={
-name="Sinech "
+name="Sinech"
 female=yes
 dynasty=223020
 dna="gfedbnanolj"
