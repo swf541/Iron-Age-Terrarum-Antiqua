@@ -12,6 +12,7 @@ patron_khumban;Patronizes Khumban;;;;;;;x
 patron_kiririsha;Patronizes Kiririsha;;;;;;;x
 patron_pinikir;Patronizes Pinikir;;;;;;;x
 patron_inshushinak;Patronizes Inshushinak;;;;;;;x
+PATRONS_ELA.1.d;What are my other options?;;;;;;x
 PATRONS_ELA.2.d;What are my other options?;;;;;;x
 PATRONS_ELA.1;Select a Patron Deity;;;;;x
 PATRONS_ELA.3.a;Nahunte, the Solar Deity;;;;;x
@@ -37,3 +38,4 @@ make_sacrifice_kiririsha_desc;Make a sacrifice to our Divine Mother;;;;;x
 make_sacrifice_pinikir_desc;Make a sacrifice to the Mother Deity of Fertility and defender of Susa;;;;;x
 make_sacrifice_inshushinak_desc;Make a sacrifice to the our National Deity Inshushinak;;;;;x
 BM_APEX;Apex of the Macedonian Empire;;;;;;;;;x
+PATRONS_ELA.1.desc;Select a Patron Deity;;;;;;x
