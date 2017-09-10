@@ -99,7 +99,7 @@ vegetarian = {
 	potential = {
 		OR = {
 			religion = hindu
-			religion_group = indian_religion
+			religion_group = indian_group
 		}
 	}
 	
@@ -115,7 +115,7 @@ retreat_veteran = {
 	potential = {
 		OR = {
 			religion = hindu
-			religion_group = indian_religion
+			religion_group = indian_group
 		}
 	}
 	opposites =  {
@@ -135,7 +135,7 @@ retreat_master = {
 	potential = {
 		OR = {
 			religion = hindu
-			religion_group = indian_religion
+			religion_group = indian_group
 		}
 	}
 	opposites =  {
@@ -155,7 +155,7 @@ on_retreat = {
 	potential = {
 		OR = {
 			religion = hindu
-			religion_group = indian_religion
+			religion_group = indian_group
 		}
 	}
 	

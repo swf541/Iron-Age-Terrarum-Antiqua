@@ -12,7 +12,6 @@ decisions = {
 			prisoner = no
 			NOT = {
 				trait = in_hiding
-				any_demesne_title = { is_occupied = yes }
 				has_character_modifier = held_ludi_solis_timer
 				liege = { has_character_flag = holding_ludi_solis }
 				has_character_flag = holding_ludi_solis
