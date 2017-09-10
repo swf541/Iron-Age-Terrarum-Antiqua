@@ -1286,7 +1286,7 @@ mother=123859
 }
 
 123863={
-name="Éamonn
+name="Éamonn"
 dynasty=223008
 dna="hhjkknjpood"
 culture=irish

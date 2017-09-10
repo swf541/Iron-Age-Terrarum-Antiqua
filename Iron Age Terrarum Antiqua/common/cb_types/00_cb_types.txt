@@ -2321,37 +2321,8 @@ tribal_invasion = {
 	can_use_title = {
 		ROOT = {
 			is_nomadic = no
-			OR = {
-				AND = {
-					has_dlc = "Horse Lords"
-					higher_tier_than = COUNT
-					OR = {
-						has_character_flag = horde_invader
-						AND = {
-							independent = yes
-							OR = {
-								culture_group = altaic
-								culture_group = magyar
-								culture_group = mesoamerican
-							}
-						}
-					}
-				}
-					OR = {
-						has_horde_culture = yes
-						has_character_flag = horde_invader
-						FROM = {
-							NOT = { religion_group = pagan_group } # Should subjugate these instead
-						}
-					}
-				}
-				AND = {
-					mercenary = yes
-					NOT = {
-						num_of_titles = 2
-					}
-				}
-			}
+			independent = yes
+			is_tribal = yes
 		}
 		
 		ROOT = {
@@ -4660,8 +4631,8 @@ viking_invasion = {
 	
 	can_use_title = {
 		culture_group = celtic
-		num_of_realm_counties = 2
-		NOT = { num_of_realm_counties = 6 }
+		realm_size = 2
+		NOT = { realm_size = 15 }
 	}
 	
 	is_valid_title = {

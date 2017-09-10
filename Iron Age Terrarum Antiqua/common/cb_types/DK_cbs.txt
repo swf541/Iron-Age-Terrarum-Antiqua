@@ -14,10 +14,7 @@ cultural_liberation = {
 				culture = FROM
 			}
 			NOT = {
-				#is_tribal = yes
-				primary_title = {
-					has_law = nomad_settled_0
-				}
+				is_tribal = yes
 			}
 		}
 		FROM = {
@@ -42,7 +39,7 @@ cultural_liberation = {
 		}
 	}
 	can_use_title = {
-		any_direct_de_jure_vassal_title = {
+		any_de_jure_vassal_title = {
 			# Attacker needs a border or is 2 seas away
 			location = {
 				any_neighbor_province = {
@@ -140,7 +137,7 @@ cultural_liberation = {
 		}
 	}
 	is_valid_title = {
-		any_direct_de_jure_vassal_title = {
+		any_de_jure_vassal_title = {
 			location = {
 				owner = {
 					OR = {
@@ -186,7 +183,7 @@ cultural_liberation = {
 					culture_group = FROM
 				}
 			}
-			any_direct_de_jure_vassal_title = {
+			any_de_jure_vassal_title = {
 				limit = {
 					location = {
 						culture = ROOT
@@ -259,7 +256,7 @@ cultural_liberation = {
 					}
 				}
 			}
-			any_direct_de_jure_vassal_title = {
+			any_de_jure_vassal_title = {
 				limit = {
 					location = {
 						culture_group = ROOT
