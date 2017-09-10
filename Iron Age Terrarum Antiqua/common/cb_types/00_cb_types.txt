@@ -8810,18 +8810,6 @@ nomad_invasion = {
 					}
 				}
 			}
-			
-			if = {
-				limit = { 
-					has_dlc = "Legacy of Rome"
-					OR = { 
-						has_landed_title = e_byzantium
-						has_landed_title = e_roman_empire
-					}
-					religion_group = christian
-				}
-				hidden_tooltip = { character_event = { id = LoR.30 days = 12 } }
-			}
 		}
 		any_defender = {
 			limit = { character = FROM }
@@ -8854,70 +8842,6 @@ nomad_invasion = {
 		
 		modifier = {
 			factor = 0.9 # Prefer using CB's without on_add costs
-		}
-		
-		# Try to guide the Hordes in the right direction
-		modifier = {
-			factor = 0.1
-			ROOT = {
-				OR = {
-					dynasty = 613 # Seljuks
-					dynasty = 800 # Timurids
-					primary_title = { title = e_il-khanate }
-				}
-			}
-			OR = {
-				empire = {
-					NOT = {
-						OR = {
-							title = e_persia
-							title = e_byzantium
-							title = e_arabia
-						}
-					}
-				}
-				FROM = {
-					primary_title = { title = e_golden_horde }
-					NOT = { year = 1300 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			ROOT = {
-				primary_title = { title = e_golden_horde }
-			}
-			OR = {
-				empire = {
-					OR = {
-						title = e_persia
-						title = e_byzantium
-						title = e_arabia
-					}
-				}
-				FROM = {
-					primary_title = { title = e_il-khanate }
-					NOT = { year = 1300 }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			ROOT = {
-				culture = hungarian
-				primary_title = {
-					OR = {
-						title = k_hungary
-						title = e_carpathia
-					}
-				}
-			}
-			empire = {
-				OR = {
-					title = e_tartaria
-					title = e_russia
-				}
-			}
 		}
 	}
 }
