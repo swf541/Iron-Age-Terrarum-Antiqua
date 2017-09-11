@@ -755,6 +755,99 @@ zoroastrian_group = {
 	
 	ai_convert_same_group = 1 # never try to convert
 	ai_convert_other_group = 1 # never try to convert
+
+	elamite_pagan = {
+		graphical_culture = westerngfx
+
+		icon = 112
+		color = { 259 710 200 }	
+		
+		crusade_name = "GREAT_HOLY_WAR"
+		scripture_name = THE_STELES
+		
+		reformed = elamite_pagan_reformed		
+
+		high_god_name = Inshushinak	
+		
+		god_names = {
+			Inshushinak Pinikir Kiririsha Khumban Shimut Manzat Nāhunte Jabru Parti
+		}
+
+		evil_god_names = {
+			THE_DARKNESS THE_DARK_SPIRITS
+		}
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_wives = 4
+		pc_marriage = yes
+		bs_marriage = yes
+		can_call_crusade = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
+		intermarry = hindu
+		intermarry = armenian_pagan		
+	}		
+	elamite_pagan_reformed = { # Elamite
+		graphical_culture = persiangfx
+		icon = 112
+		heresy_icon = 132		
+		color = { 279 730 300 }	
+		
+		crusade_name = "GREAT_HOLY_WAR"
+		scripture_name = THE_STELES
+
+		high_god_name = Inshushinak	
+		
+		god_names = {
+			GOD_Inshushinak GOD_Pinikir GOD_Kiririsha GOD_Khumban GOD_Shimut GOD_Manzat GOD_Nāhunte GOD_Jabru GOD_Parti
+		}
+
+		evil_god_names = {
+			THE_DARKNESS THE_DARK_SPIRITS
+		}
+		
+		piety_name = PIETY
+		priest_title = PRIEST
+		
+		unit_modifier = {
+			levy_size = 0.3
+			
+			light_infantry_offensive = 0.2
+			light_infantry_defensive = 0.2
+			light_cavalry_offensive = 0.3
+			light_cavalry_defensive = 0.3	
+	
+			key = "OFF_RELIGION"
+		}
+		
+		allow_rivermovement = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_wives = 4
+		pc_marriage = yes
+		bs_marriage = yes
+		can_call_crusade = yes
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		allow_in_ruler_designer = no	
+
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
+		intermarry = hindu
+		intermarry = armenian_pagan			
+	}	
 	
 	
 	zoroastrian = {
@@ -1602,100 +1695,6 @@ mesopotamian_religion = {
 						
 		intermarry = dravidian_main
 	}
-
-	elamite_pagan_reformed = { # Elamite
-		graphical_culture = persiangfx
-		icon = 112
-		heresy_icon = 132		
-		color = { 279 730 300 }	
-		
-		crusade_name = "GREAT_HOLY_WAR"
-		scripture_name = THE_STELES
-
-		high_god_name = Inshushinak	
-		
-		god_names = {
-			GOD_Inshushinak GOD_Pinikir GOD_Kiririsha GOD_Khumban GOD_Shimut GOD_Manzat GOD_Nāhunte GOD_Jabru GOD_Parti
-		}
-
-		evil_god_names = {
-			THE_DARKNESS THE_DARK_SPIRITS
-		}
-		
-		piety_name = PIETY
-		priest_title = PRIEST
-		
-		unit_modifier = {
-			levy_size = 0.3
-			
-			light_infantry_offensive = 0.2
-			light_infantry_defensive = 0.2
-			light_cavalry_offensive = 0.3
-			light_cavalry_defensive = 0.3	
-	
-			key = "OFF_RELIGION"
-		}
-		
-		allow_rivermovement = yes
-		priests_can_marry = yes
-		female_temple_holders = yes
-		max_wives = 4
-		pc_marriage = yes
-		bs_marriage = yes
-		can_call_crusade = yes
-		
-		religious_clothing_head = 5
-		religious_clothing_priest = 5
-		allow_in_ruler_designer = no	
-
-		intermarry = zoroastrian
-		intermarry = zurvanite
-		intermarry = ossetian_pagan
-		intermarry = hindu
-		intermarry = armenian_pagan			
-	}
-	elamite_pagan = {
-		graphical_culture = westerngfx
-
-		icon = 112
-		color = { 270 680 250 }	
-		
-		crusade_name = "GREAT_HOLY_WAR"
-		scripture_name = THE_STELES
-		
-
-		high_god_name = GOD_Inshushinak	
-		
-		god_names = {
-			GOD_Inshushinak GOD_Pinikir GOD_Kiririsha GOD_Khumban GOD_Shimut GOD_Manzat GOD_Nāhunte GOD_Jabru GOD_Parti
-		}
-
-		evil_god_names = {
-			THE_DARKNESS THE_DARK_SPIRITS
-		}
-		
-		piety_name = PIETY
-		priest_title = PRIEST
-		
-		allow_rivermovement = yes
-		priests_can_marry = yes
-		female_temple_holders = yes
-		max_wives = 4
-		pc_marriage = yes
-		bs_marriage = yes
-		can_call_crusade = yes
-		reformed = norse_pagan_reformed
-		reformer_head_of_religion = yes #make the character that reforms this religion the head of the new reformed faith
-		
-		religious_clothing_head = 5
-		religious_clothing_priest = 5
-		
-		intermarry = zoroastrian
-		intermarry = zurvanite
-		intermarry = ossetian_pagan
-		intermarry = hindu
-		intermarry = armenian_pagan		
-	}			
 }
 arabic_religion = {
 	has_coa_on_barony_only = yes
