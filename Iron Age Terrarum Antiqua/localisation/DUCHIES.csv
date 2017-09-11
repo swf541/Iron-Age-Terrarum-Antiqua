@@ -677,7 +677,15 @@ d_callaeci;Kallaikoi;;;;;;;;;;;;x
 d_callaeci_adj;Kallaikian;;;;;;;;;;;;x
 d_vascones;Uaskones;;;;;;;;;;;;x
 d_vascones_adj;Uaskonian;;;;;;;;;;;;x
-d_hebrides;Creones;;;;;;;;;;;;x
-d_cait;Cornovii;;;;;;;;;;;x
-d_caledonia;Caledonii;;;;;;;;;;;x
-d_fortriu;Venicones;;;;;;;;;;;;x
+d_hebrides;The Hebrides;;;;;;;;;;;;x
+d_hebrides_adj;Hebridian;;;;;;;;;;;x
+d_cait;Cait;;;;;;;;;;;x
+d_cait_adj;Caitian;;;;;;;;;;;x
+d_caledonia;Caledonia;;;;;;;;;;;x
+d_caledonia_adj;Caledonian;;;;;;;;;;;x
+d_circind;Circind;;;;;;;;;;;;x
+d_circind_adj;Circindian;;;;;;;;;;;x
+d_colanica;Colanica;;;;;;;;;;;x
+d_colanica_adj;Colanican;;;;;;;;;;;x
+d_damnonia;Damnonia;;;;;;;;;;;x
+d_damnonia_adj;Damnonian;;;;;;;;;;;x
