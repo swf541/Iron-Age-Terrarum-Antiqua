@@ -16,7 +16,7 @@ b_mallo_meroe = city
 
 # Misc
 culture = nubian
-religion = kemetic
+religion = egyptian_pagan
 
 # History
 # Can be filled when things change around the province

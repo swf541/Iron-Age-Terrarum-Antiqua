@@ -4,7 +4,7 @@
 	name = "Nefaarud" # Nepherites I of Egypt, rules 399-393 BCE
 	dynasty = 35002
 	culture = egyptian
-	religion = kemetic
+	religion = egyptian_pagan
 	331.1.1 = { # 445 BC, made up
 		birth="yes"
 	}
@@ -16,7 +16,7 @@
 	name = "Pasherienmut" #Muthis/Psammuthes, rules 393-392 BCE, tenuous existence 
 	dynasty = 35002
 	culture = egyptian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 350016
 	351.1.1 = { # 425 BC, made up
 		birth="yes"
@@ -29,7 +29,7 @@
 	name = "Akoris" #Hakor, rules 393-380
 	dynasty = 35002
 	culture = egyptian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 350016 #debatable, could be son, grandson, or separate dynasty
 	353.1.1 = { # 423 BC, made up
 		birth="yes"
@@ -42,7 +42,7 @@
 	name = "Nefaarud" #Nepherites II, rules 380 BCE and is killed by Nectanebo I
 	dynasty = 35002
 	culture = egyptian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 350018
 	372.1.1 = { # 404 BC, made up
 		birth="yes"

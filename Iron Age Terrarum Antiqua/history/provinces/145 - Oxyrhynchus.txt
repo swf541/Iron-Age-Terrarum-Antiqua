@@ -13,7 +13,7 @@ b_terbe_oxyrhynchus = temple
 
 # Misc
 culture = egyptian
-religion = kemetic
+religion = egyptian_pagan
 
 # History
 # Can be filled when things change around the province
