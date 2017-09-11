@@ -141,7 +141,7 @@ trait="gluttonous"
 }
 
 123808={
-name="Beccán
+name="Beccán"
 dynasty=223008
 dna="lckgfkgbnnf"
 culture=irish
@@ -285,7 +285,7 @@ mother=123813
 }
 
 123815={
-name="Clemens_Clement"
+name="Clemens"
 dynasty=223008
 dna="kekpcodhmac"
 culture=irish
