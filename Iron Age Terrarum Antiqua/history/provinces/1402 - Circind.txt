@@ -5,7 +5,7 @@ title = c_circind
 
 # Settlements
 max_settlements = 4
-b_circind = tribal
+b_circind1 = tribal
 
 # Misc
 culture = pictish
