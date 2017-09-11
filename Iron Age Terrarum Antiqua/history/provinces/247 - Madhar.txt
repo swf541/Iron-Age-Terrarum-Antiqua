@@ -11,7 +11,7 @@ b_khurra_madhar = temple
 
 # Misc
 culture = elamite
-religion = elamite_pagan
+religion = zoroastrian
 
 # History
 # Can be filled when things change around the province

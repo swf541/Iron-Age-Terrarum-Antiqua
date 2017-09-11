@@ -4,18 +4,3 @@ on_death = {
 	}
 }
 
-on_birth = {
-	events = {
-		ENA.1
-	}
-}
-on_yearly_pulse = {
-	random_events = {
-		1 = ENA.2
-	}
-}
-on_reform_religion = {
-	events = {
-		ENA.1000
-	}
-}

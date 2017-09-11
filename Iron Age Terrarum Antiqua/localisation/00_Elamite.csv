@@ -3,24 +3,3 @@ patrons_ela;Select Patron Deity;;;;;;;;x
 patrons_ela_desc;Select Elamite Patron Deity;;;;;;x
 elamite_pagan;Elamite Pagan;;;;;x
 elamite_pagan_reformed;Elamite;;;;;;;x
-patron_parti;Patronizes Parti;;;;;;;x
-patron_jabru;Patronizes Jabru;;;;;;;x
-patron_nahunte;Patronizes Nahunte;;;;;;;x
-patron_manzat;Patronizes Manzat;;;;;;;x
-patron_shimut;Patronizes Shimut;;;;;;;x
-patron_khumban;Patronizes Khumban;;;;;;;x
-patron_kiririsha;Patronizes Kiririsha;;;;;;;x
-patron_pinikir;Patronizes Pinikir;;;;;;;x
-patron_inshushinak;Patronizes Inshushinak;;;;;;;x
-PATRONS_ELA.2.d;What are my other options?;;;;;;x
-PATRONS_ELA.1;Select a Patron Deity;;;;;x
-PATRONS_ELA.3.a;Nahunte, the Solar Deity;;;;;x
-PATRONS_ELA.3.b;Jabru, the Ruler of the Underworld;;;;;x
-PATRONS_ELA.3.c;Parti, a Mother Goddess;;;;;x
-PATRONS_ELA.2.a;Khumban, the Sky Deity;;;;;x
-PATRONS_ELA.2.b;Shimut, the Messenger of the Gods;;;;x
-PATRONS_ELA.2.c;Manzat, the wife of Shimut;;;;x
-PATRONS_ELA.1.a;Inshushinak, National God of Elam. God of Snakes and Water;;;;;;x
-PATRONS_ELA.1.b;Pinikir, Fertility Deity and Defender of Susa;;;;;;x
-PATRONS_ELA.1.c;Kiririsha, The Divine Mother;;;;;;x
-k_elamite_pagan_reformed;Kingdom of Elam;;;;;;x

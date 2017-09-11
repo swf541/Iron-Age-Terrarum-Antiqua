@@ -29,10 +29,6 @@ theocracy_governments = {
 					religion_group = abrahamic_main
 				}
 			}
-			NOT = {
-				controls_religion = yes
-				religion = elamite_pagan_reformed
-			}
 			is_patrician = no
 		}
 		
