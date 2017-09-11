@@ -10,7 +10,7 @@ b_gialo_augila = temple
 
 # Misc
 culture = egyptian
-religion = egyptian_pagan
+religion = kemetic
 
 # History
 # Can be filled when things change around the province
