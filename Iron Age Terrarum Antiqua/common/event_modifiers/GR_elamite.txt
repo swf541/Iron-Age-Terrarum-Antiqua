@@ -54,25 +54,3 @@ patron_inshushinak = {
 	learning = 1
 	diplomacy = 1
 }
-
-sacrifice_inshushinak = {
-	icon = 43
-	same_religion_opinion = 10
-	monthly_character_prestige = 1
-	land_morale = 0.1
-	levy_reinforce_rate = 0.1
-}
-
-sacrifice_pinikir = {
-	icon = 43
-	sex_appeal_opinion = 10
-	fertility = 0.10
-	global_tax_modifier = 0.05
-}
-
-sacrifice_kiririsha = {
-	icon = 43
-	land_morale = 0.15
-	levy_reinforce_rate = 0.15s
-	fertility = 0.10
-}

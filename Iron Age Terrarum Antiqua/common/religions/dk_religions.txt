@@ -4,8 +4,8 @@ egyptian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	kemetic = {
 		graphical_culture = westerngfx
@@ -140,8 +140,8 @@ north_african_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	berber_main = {
 		graphical_culture = westerngfx
@@ -214,8 +214,8 @@ illyrian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	illyrian_main = {
 		graphical_culture = westerngfx
@@ -288,8 +288,8 @@ daco_thracian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	thracian_main = {
 		graphical_culture = westerngfx
@@ -457,8 +457,8 @@ celtic_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	celtic_pagan = {
 		graphical_culture = westerngfx
@@ -599,8 +599,8 @@ punic_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	punic_main = {
 		graphical_culture = westerngfx
@@ -753,8 +753,8 @@ zoroastrian_group = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 
 	elamite_pagan = {
 		graphical_culture = westerngfx
@@ -1209,8 +1209,8 @@ jewish_group = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	jewish = {
 		graphical_culture = westerngfx
@@ -1270,8 +1270,8 @@ indian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	jain = {
 		graphical_culture = westerngfx
@@ -1394,8 +1394,8 @@ caucasian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	georgian_pagan = {
 		graphical_culture = westerngfx
@@ -1508,8 +1508,8 @@ anatolian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	anatolian_main = {
 		graphical_culture = westerngfx
@@ -1634,8 +1634,8 @@ mesopotamian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	marduk_cult = { # Mesopotamian
 		graphical_culture = westerngfx
@@ -1702,8 +1702,8 @@ arabic_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	arabic_main = {
 		graphical_culture = westerngfx
@@ -1770,8 +1770,8 @@ greek_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	hellenic_pagan = {
 		graphical_culture = westerngfx
@@ -1968,8 +1968,8 @@ italian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	etruscan_main = {
 		graphical_culture = westerngfx
@@ -1997,8 +1997,8 @@ dravidian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	dravidian_main = {
 		graphical_culture = westerngfx
@@ -2069,8 +2069,8 @@ lusitanian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	lusitanian_main = {
 		graphical_culture = westerngfx
@@ -2143,8 +2143,8 @@ iberian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	iberian_main = {
 		graphical_culture = westerngfx
@@ -2221,8 +2221,8 @@ aquitanian_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
+	ai_convert_same_group = 0 # never try to convert
+	ai_convert_other_group = 0 # never try to convert
 	
 	aquitanian_main = {
 		graphical_culture = westerngfx
