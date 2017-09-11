@@ -12,7 +12,7 @@ b_gerra_pelusium = castle
 
 # Misc
 culture = egyptian
-religion = egyptian_pagan
+religion = kemetic
 
 # History
 # Can be filled when things change around the province

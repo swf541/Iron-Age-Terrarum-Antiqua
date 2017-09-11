@@ -13,7 +13,7 @@ b_boon_pachoras = castle
 
 # Misc
 culture = nubian
-religion = egyptian_pagan
+religion = kemetic
 
 # History
 # Can be filled when things change around the province

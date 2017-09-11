@@ -4,7 +4,7 @@
 	name = "Nekthnebef" # Nectanebo II of egypt
 	dynasty = 35001
 	culture = egyptian
-	religion = egyptian_pagan
+	religion = kemetic
 	father = 350002
 	add_trait = zealous
 	add_trait = tough_soldier
@@ -20,7 +20,7 @@
 	name = "Tjahepimu" #father of Nectanebo II
 	dynasty = 35001
 	culture = egyptian
-	religion = egyptian_pagan
+	religion = kemetic
 	father = 350003
 	
 	374.1.1 = { # 402 BC, made up
@@ -34,7 +34,7 @@
 	name = "Nekthnebef" #Nekthnebef, 30th dynasty, 380-362 BCE
 	dynasty = 35001
 	culture = egyptian
-	religion = egyptian_pagan
+	religion = kemetic
 	add_trait = just
 	add_trait = tough_soldier
 	stewardship = 12
@@ -49,7 +49,7 @@
 	name = "Djedhor" #Teos/Tachos, after 360 BC lives in Persia
 	dynasty = 35001
 	culture = egyptian
-	religion = egyptian_pagan
+	religion = kemetic
 	add_trait = cruel
 	add_trait = greedy
 	father = 350003
@@ -67,7 +67,7 @@
 	name = "Khedebneithirbinet" #purported child of Djedhor
 	dynasty = 35001
 	culture = egyptian
-	religion = egyptian_pagan
+	religion = kemetic
 	father = 350004
 	396.1.1 = { # 380 BC, made up
 		birth="yes"

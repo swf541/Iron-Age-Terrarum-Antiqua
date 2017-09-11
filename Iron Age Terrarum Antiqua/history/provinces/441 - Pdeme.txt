@@ -12,7 +12,7 @@ b_acina_pdeme = city
 
 # Misc
 culture = nubian
-religion = egyptian_pagan
+religion = kemetic
 
 # History
 # Can be filled when things change around the province

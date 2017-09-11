@@ -1,4 +1,4 @@
-453.1.10 = {
+453.6.10 = {
 	holder = 1301 # Tlepolemos
 	liege="e_macedonia"
 }

@@ -14,7 +14,7 @@ b_kastron_thebon_thebes_egypt = castle
 
 # Misc
 culture = egyptian
-religion = egyptian_pagan
+religion = kemetic
 
 # History
 # Can be filled when things change around the province
