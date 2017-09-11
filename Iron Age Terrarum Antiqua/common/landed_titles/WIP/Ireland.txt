@@ -1,0 +1,117 @@
+k_ireland = {
+	color= { 50 250 50 }
+	color2= { 255 255 255 }
+	
+	capital = 1421
+	
+	d_dal_riata = {
+		color= { 70 290 40 }
+		color2= { 255 255 255 }
+		
+		capital = 1415
+		
+		c_robogdia = {
+			color= { 70 145 40 }
+			color2= { 255 255 255 }
+		
+			b_robogdia1 = { }
+			b_robogdia2 = { }
+			b_robogdia3 = { }
+			b_robogdia4 = { }
+			b_robogdia5 = { }
+			b_robogdia6 = { }
+			b_robogdia7 = { }
+		}
+		c_darinia = {
+			color= { 40 165 40 }
+			color2= { 255 255 255 }
+		
+			b_darinia1 = { }
+			b_darinia2 = { }
+			b_darinia3 = { }
+			b_darinia4 = { }
+			b_darinia5 = { }
+			b_darinia6 = { }
+			b_darinia7 = { }
+		}
+		c_ouenniknonia = {
+			color= { 20 185 20 }
+			color2= { 255 255 255 }
+		
+			b_ouenniknonia1 = { }
+			b_ouenniknonia2 = { }
+			b_ouenniknonia3 = { }
+			b_ouenniknonia4 = { }
+			b_ouenniknonia5 = { }
+			b_ouenniknonia6 = { }
+			b_ouenniknonia7 = { }
+		}
+		c_ulutia = {
+			color= { 33 200 20 }
+			color2= { 255 255 255 }
+		
+			b_ulutia1 = { }
+			b_ulutia2 = { }
+			b_ulutia3 = { }
+			b_ulutia4 = { }
+			b_ulutia5 = { }
+			b_ulutia6 = { }
+			b_ulutia7 = { }
+		}
+	}
+	d_tara = {
+		color= { 70 290 60 }
+		color2= { 255 255 255 }
+		
+		capital = 1421
+		
+		c_eblana = {
+			color= { 20 200 20 }
+			color2= { 255 255 255 }
+		
+			b_eblana1 = { }
+			b_eblana2 = { }
+			b_eblana3 = { }
+			b_eblana4 = { }
+			b_eblana5 = { }
+			b_eblana6 = { }
+			b_eblana7 = { }
+		}
+		c_kaukia = {
+			color= { 20 160 20 }
+			color2= { 255 255 255 }
+		
+			b_kaukia1 = { }
+			b_kaukia2 = { }
+			b_kaukia3 = { }
+			b_kaukia4 = { }
+			b_kaukia5 = { }
+			b_kaukia6 = { }
+			b_kaukia7 = { }
+		}
+		c_koriondia = {
+			color= { 20 170 20 }
+			color2= { 255 255 255 }
+		
+			b_koriondia1 = { }
+			b_koriondia2 = { }
+			b_koriondia3 = { }
+			b_koriondia4 = { }
+			b_koriondia5 = { }
+			b_koriondia6 = { }
+			b_koriondia7 = { }
+		}
+		c_manapia = {
+			color= { 44 210 33 }
+			color2= { 255 255 255 }
+		
+			b_manapia1 = { }
+			b_manapia2 = { }
+			b_manapia3 = { }
+			b_manapia4 = { }
+			b_manapia5 = { }
+			b_manapia6 = { }
+			b_manapia7 = { }
+		}
+	}
+}

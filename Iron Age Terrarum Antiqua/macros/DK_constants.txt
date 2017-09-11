@@ -1,1 +1,0 @@
-placeholder = GFX_evt_child_reading
