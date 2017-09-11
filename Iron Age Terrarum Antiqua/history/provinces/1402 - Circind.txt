@@ -1,0 +1,19 @@
+# 978 - Numantia
+
+# County Title
+title = c_circind
+
+# Settlements
+max_settlements = 4
+b_circind = tribal
+
+# Misc
+culture = pictish
+religion = celtic_pagan
+
+
+
+
+
+# History
+# Can be filled when things change around the province
