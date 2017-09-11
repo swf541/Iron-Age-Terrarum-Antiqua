@@ -157,22 +157,3 @@ opinion_refused_ìd_tabrìk_al_annam = {
 	opinion = -10
 	months = 12
 }
-opinion_isia = {
-	opinion = 15
-	months = 12
-}
-
-opinion_refused_isia = {
-	opinion = -10
-	months = 12
-}
-
-opinion_sarapia = {
-	opinion = 15
-	months = 12
-}
-
-opinion_refused_sarapia = {
-	opinion = -10
-	months = 12
-}

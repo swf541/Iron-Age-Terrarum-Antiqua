@@ -7,7 +7,7 @@ egyptian_religion = {
 	ai_convert_same_group = 1 # never try to convert
 	ai_convert_other_group = 1 # never try to convert
 	
-	egyptian_pagan = {
+	kemetic = {
 		graphical_culture = westerngfx
 
 		icon = 53
@@ -27,7 +27,7 @@ egyptian_religion = {
 		female_temple_holders = yes
 		max_consorts = 3
 		
-		#intermarry = egyptian_pagan	
+		#intermarry = kemetic	
 		#intermarry = atenist
 		
 		intermarry = berber_main
@@ -72,7 +72,7 @@ egyptian_religion = {
 	}
 	atenist = {		
 		graphical_culture = westerngfx
-		parent = egyptian_pagan
+		parent = kemetic
 
 		icon = 53
 		color = { 0.9 0.9 0.6 }
@@ -90,7 +90,7 @@ egyptian_religion = {
 		female_temple_holders = yes
 		max_consorts = 3
 		
-		#intermarry = egyptian_pagan	
+		#intermarry = kemetic	
 		#intermarry = atenist
 		
 		intermarry = berber_main
@@ -164,7 +164,7 @@ north_african_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		#intermarry = berber_main
@@ -238,7 +238,7 @@ illyrian_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -312,7 +312,7 @@ daco_thracian_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -620,10 +620,10 @@ punic_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan		
+		intermarry = kemetic		
 		intermarry = berber_main
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -865,7 +865,7 @@ zoroastrian_group = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -924,7 +924,7 @@ zoroastrian_group = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1085,7 +1085,7 @@ zoroastrian_group = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1287,7 +1287,7 @@ indian_religion = {
 		priests_can_marry = no
 		female_temple_holders = yes
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1344,7 +1344,7 @@ indian_religion = {
 		priests_can_marry = no
 		female_temple_holders = yes
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1526,7 +1526,7 @@ anatolian_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1584,7 +1584,7 @@ anatolian_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1652,7 +1652,7 @@ mesopotamian_religion = {
 		female_temple_holders = yes
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1720,7 +1720,7 @@ arabic_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1793,7 +1793,7 @@ greek_religion = {
 		
 		max_wives = 4
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1855,7 +1855,7 @@ greek_religion = {
 		can_hold_temples = yes
 		max_consorts = 2
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -1918,7 +1918,7 @@ greek_religion = {
 
 		max_wives = 4
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -2019,7 +2019,7 @@ dravidian_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -2093,7 +2093,7 @@ lusitanian_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -2167,7 +2167,7 @@ iberian_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main
@@ -2245,7 +2245,7 @@ aquitanian_religion = {
 		
 		max_consorts = 3
 		
-		intermarry = egyptian_pagan	
+		intermarry = kemetic	
 		intermarry = atenist
 		
 		intermarry = berber_main

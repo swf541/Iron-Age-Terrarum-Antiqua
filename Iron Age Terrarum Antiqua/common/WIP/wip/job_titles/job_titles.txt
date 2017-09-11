@@ -195,7 +195,7 @@ job_spiritual = {
 		OR = {
 			is_female = no
 			religion = marduk_cult
-			religion = egyptian_pagan
+			religion = kemetic
 		}
 			
 		NOT = { trait = incapable }

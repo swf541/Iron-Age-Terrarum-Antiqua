@@ -2084,7 +2084,7 @@ k_egypt = {
 			egyptian = "Ra Katit"
 			
 			
-			holy_site = egyptian_pagan
+			holy_site = kemetic
 			holy_site = atenist
 			
 			b_alexandria_alexandria = {
@@ -2116,7 +2116,7 @@ k_egypt = {
 			
 			egyptian = "Men Nefer"
 			
-			holy_site = egyptian_pagan
+			holy_site = kemetic
 			holy_site = atenist
 			
 			b_memphis_memphis = {
@@ -2300,7 +2300,7 @@ k_egypt = {
 			color2= { 255 255 255 }
 			egyptian = "Hut-Sekhem"
 			
-			holy_site = egyptian_pagan
+			holy_site = kemetic
 			holy_site = atenist
 			
 			b_diospolis_mikra_diospolis_mikra = {
@@ -2336,7 +2336,7 @@ k_egypt = {
 			color2= { 255 255 255 }
 			egyptian = "Waset"
 			
-			holy_site = egyptian_pagan
+			holy_site = kemetic
 			holy_site = atenist
 			
 			b_thebes_thebes_egypt = {
@@ -2377,7 +2377,7 @@ k_egypt = {
 			color2= { 255 255 255 }
 			egyptian = "Swenett"
 			
-			holy_site = egyptian_pagan
+			holy_site = kemetic
 			
 			b_syene_syene = {
 				egyptian = "Swenett"
