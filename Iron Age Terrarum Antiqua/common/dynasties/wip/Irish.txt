@@ -41,83 +41,68 @@
 	culture = irish
 }
 #Stop Here For Tribal Placement
-223011=
-{
+223011={
 	name="Mac Carthaigh"
 	culture="irish"
 }
-223012=
-{
+223012={
 	name="Ua Braenain"
 	culture="irish"
 }
-223013=
-{
+223013={
 	name="Ua Néill Noígiallaich"
 	culture="irish"
 }
-223014=
-{
+223014={
 	name="Ua Murchada"
 	culture="irish"
 }
-223015=
-{
+223015={
 	name="Sithrigi"
 	culture="irish"
 
 }
-223016=
-{
+223016={
 	name="Mac Murchada"
 	culture="irish"
 }
-223017=
-{
+223017={
 	name="Lorc"
 	culture="irish"
 }
-223018=
-{
+223018={
 	name="Boru"
 	culture="irish"
 }
-223019=
-{
+223019={
 	name="Crovan"
 	culture="irish"
 }
-223020=
-{
+223020={
 	name="Ua Fáeláin"
 	culture="irish"
 
 }
-223021=
-{
+223021={
 	name="Ua Néill Móir"
 	culture="irish"
 }
-223022=
-{
+223022={
 	name="Mac Diarmaida"
 	culture="irish"
 
 }
-223023=
-{
+223023={
 	name="Mac Máil na mBó"
 	culture="irish"
 
 }
-223024=
-{
+223024={
 	name="Ua Tuathail"
 	culture="irish"
 
 }
-223025=
-{
+223025={
 	name="Ua Briain"
 	culture="irish"
 }
