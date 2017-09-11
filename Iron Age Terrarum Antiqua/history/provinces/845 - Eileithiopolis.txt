@@ -11,7 +11,7 @@ b_contra_latopolin_eileithiopolis = city
 
 # Misc
 culture = egyptian
-religion = kemetic
+religion = egyptian_pagan
 
 # History
 # Can be filled when things change around the province

@@ -2,7 +2,7 @@
 	holder = 1301 # Tlepolemos
 	liege="e_macedonia"
 }
-453.6.10 = {
+453.1.10 = {
 	holder = 90101 # Phrataphernes
 }
 454.1.1 = {

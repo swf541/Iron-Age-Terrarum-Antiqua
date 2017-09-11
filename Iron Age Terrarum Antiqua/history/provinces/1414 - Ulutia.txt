@@ -1,0 +1,19 @@
+# 978 - Numantia
+
+# County Title
+title = c_ulutia
+
+# Settlements
+max_settlements = 5
+b_ulutia1 = tribal
+
+# Misc
+culture = irish
+religion = celtic_pagan
+
+
+
+
+
+# History
+# Can be filled when things change around the province

@@ -1,0 +1,19 @@
+# 978 - Numantia
+
+# County Title
+title = c_koriondia
+
+# Settlements
+max_settlements = 4
+b_koriondia1 = tribal
+
+# Misc
+culture = irish
+religion = celtic_pagan
+
+
+
+
+
+# History
+# Can be filled when things change around the province

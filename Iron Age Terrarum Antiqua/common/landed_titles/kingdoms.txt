@@ -16,6 +16,7 @@ k_bosphorus = {
 			holy_site = illyrian_main
 			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
+			holy_site = ossetian_pagan_reformed
 			holy_site = hindu
 			holy_site = jain
 			holy_site = buddhist
@@ -46,6 +47,7 @@ k_bosphorus = {
 			holy_site = illyrian_main
 			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
+			holy_site = ossetian_pagan_reformed
 			holy_site = hindu
 			holy_site = jain
 			holy_site = buddhist
@@ -72,6 +74,7 @@ k_bosphorus = {
 			holy_site = illyrian_main
 			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
+			holy_site = ossetian_pagan_reformed
 			holy_site = hindu
 			holy_site = jain
 			holy_site = buddhist
@@ -98,6 +101,7 @@ k_bosphorus = {
 			holy_site = illyrian_main
 			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
+			holy_site = ossetian_pagan_reformed
 			holy_site = hindu
 			holy_site = jain
 			holy_site = buddhist
@@ -124,6 +128,7 @@ k_bosphorus = {
 			holy_site = illyrian_main
 			holy_site = celtic_pagan
 			holy_site = ossetian_pagan
+			holy_site = ossetian_pagan_reformed
 			holy_site = hindu
 			holy_site = jain
 			holy_site = buddhist
@@ -2079,7 +2084,7 @@ k_egypt = {
 			egyptian = "Ra Katit"
 			
 			
-			holy_site = kemetic
+			holy_site = egyptian_pagan
 			holy_site = atenist
 			
 			b_alexandria_alexandria = {
@@ -2111,7 +2116,7 @@ k_egypt = {
 			
 			egyptian = "Men Nefer"
 			
-			holy_site = kemetic
+			holy_site = egyptian_pagan
 			holy_site = atenist
 			
 			b_memphis_memphis = {
@@ -2295,7 +2300,7 @@ k_egypt = {
 			color2= { 255 255 255 }
 			egyptian = "Hut-Sekhem"
 			
-			holy_site = kemetic
+			holy_site = egyptian_pagan
 			holy_site = atenist
 			
 			b_diospolis_mikra_diospolis_mikra = {
@@ -2331,7 +2336,7 @@ k_egypt = {
 			color2= { 255 255 255 }
 			egyptian = "Waset"
 			
-			holy_site = kemetic
+			holy_site = egyptian_pagan
 			holy_site = atenist
 			
 			b_thebes_thebes_egypt = {
@@ -2372,7 +2377,7 @@ k_egypt = {
 			color2= { 255 255 255 }
 			egyptian = "Swenett"
 			
-			holy_site = kemetic
+			holy_site = egyptian_pagan
 			
 			b_syene_syene = {
 				egyptian = "Swenett"
@@ -3117,7 +3122,8 @@ k_babylonia = {
 		c_babylon = {
 			color= { 0 50 225 }
 			color2= { 255 255 255 }
-			
+			holy_site = elamite_pagan_reformed
+			holy_site = elamite_pagan			
 			holy_site = marduk_cult
 			
 			b_babylon_babylon = {

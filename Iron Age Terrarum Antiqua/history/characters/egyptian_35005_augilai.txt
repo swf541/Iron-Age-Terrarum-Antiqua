@@ -3,7 +3,7 @@
 	name = "Duaenre" # Made up
 	dynasty = 35005
 	culture = egyptian
-	religion = kemetic
+	religion = egyptian_pagan
 
 	405.1.1 = { # 371 BC
 		birth="yes"
@@ -16,7 +16,7 @@
 	name = "Ahmose" # Made up
 	dynasty = 35005
 	culture = egyptian
-	religion = kemetic
+	religion = egyptian_pagan
 
 	father = 350031
 
@@ -31,7 +31,7 @@
 	name = "Duaenre" # Made up
 	dynasty = 35005
 	culture = egyptian
-	religion = kemetic
+	religion = egyptian_pagan
 
 	father = 350032
 

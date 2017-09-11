@@ -11,7 +11,7 @@ b_mounesis_kysis = city
 
 # Misc
 culture = egyptian
-religion = kemetic
+religion = egyptian_pagan
 
 # History
 # Can be filled when things change around the province
