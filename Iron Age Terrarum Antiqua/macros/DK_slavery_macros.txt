@@ -1,0 +1,7 @@
+$condition_has_slavery_population_modifiers()
+	OR = {
+		has_province_modifier = slavery_population_small
+		has_province_modifier = slavery_population_medium
+		has_province_modifier = slavery_population_large
+	}
+$done

@@ -1,0 +1,47 @@
+Includes compatch for 2.2.1
+
+Additions:
+- Added lots of positions
+- Dynamic province localisation for Egypt
+- Added Chorasmian and Saka cultures
+- Added Achaios, Lysias, Eupolemos, Bagadates, Demodamas of Miletus, Aphrodisias and Patrokles as Seleucid vassals
+- Added Sosthenes and Agathocles as lysimachid vassals
+- Added rulers for Heracleia Pontika and Amastris after Lysimachos' defeat
+- Added Iranian title localisation
+- Added a few more Orontids, ruling over Commagene
+- Added WIP bathymetry and improved terrain
+- Added the Kohen Gadol
+- Added Susima, Vitashoka and Ashoka as governors
+- Added a WIP King of Asia modifier aimed to represent historically stable states controlling large parts of Asia
+- Added all Attalid and Lysimachid dynasty members
+- Added provinces in the Tarim Basin
+- Added Cultural Liberation and Diadochi CB
+- Added 150+ flags
+- Added the Pythia of Delphi. Doesn't do that much at the moment
+- Added decisions to replace incest so we can script the AI for that
+- Added icons for traits
+- Added the 29th and 30th dynasties of Egypt. Currently not in title history though
+- Added rulers in the Saharan provinces
+
+Fixes:
+- Fixed the Cappadocian invasion to account for titles introduced in previous patches
+- Fixed a few title histories in Bactria
+- Fixed a bug where the barony of Philippi wasn't de jure in Krenides
+
+Tweaks:
+- Changed menu camera perspective
+- Iranians now use Dynasty title names
+- Reduced benefits from population modifiers
+- Decreased female marriage age to 14
+- Most realms now default to Primogeniture since Gavelkind seems broken
+- Increased vassal limit and demesne size
+- Removed k_cappadocia under Seleucid rule and gave them d_cappadocia instead.
+- Moved c_mursa to d_pelso
+- Changed greek title localisation a bit
+- Removed incapable from Philip III. He will still need a regent though
+- Removed claims from 'Reclaim Ano Makedonia' mission since that is handled by cultural liberation
+- Buffed Egyptian and nerfed Phoenician buildings
+- Patricians can now build trade posts from the start of the game
+- Removed health reduction from maimed
+- Eumenes no longer gets the 'Recently conquered modifiers'
+- Rulers with the Diadochi trait are much more willing to go to war

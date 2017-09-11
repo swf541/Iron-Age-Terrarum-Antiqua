@@ -1,0 +1,41 @@
+#CODE;ENGLISH;;;;;;;;;x 
+patrons_ela;Select Patron Deity;;;;;;;;x
+patrons_ela_desc;Select Elamite Patron Deity;;;;;;x
+elamite_pagan;Elamite Pagan;;;;;x
+elamite_pagan_reformed;Elamite;;;;;;;x
+patron_parti;Patronizes Parti;;;;;;;x
+patron_jabru;Patronizes Jabru;;;;;;;x
+patron_nahunte;Patronizes Nahunte;;;;;;;x
+patron_manzat;Patronizes Manzat;;;;;;;x
+patron_shimut;Patronizes Shimut;;;;;;;x
+patron_khumban;Patronizes Khumban;;;;;;;x
+patron_kiririsha;Patronizes Kiririsha;;;;;;;x
+patron_pinikir;Patronizes Pinikir;;;;;;;x
+patron_inshushinak;Patronizes Inshushinak;;;;;;;x
+PATRONS_ELA.1.d;What are my other options?;;;;;;x
+PATRONS_ELA.2.d;What are my other options?;;;;;;x
+PATRONS_ELA.1;Select a Patron Deity;;;;;x
+PATRONS_ELA.3.a;Nahunte, the Solar Deity;;;;;x
+PATRONS_ELA.3.b;Jabru, the Ruler of the Underworld;;;;;x
+PATRONS_ELA.3.c;Parti, a Mother Goddess;;;;;x
+PATRONS_ELA.2.a;Khumban, the Sky Deity;;;;;x
+PATRONS_ELA.2.b;Shimut, the Messenger of the Gods;;;;x
+PATRONS_ELA.2.c;Manzat, the wife of Shimut;;;;x
+PATRONS_ELA.1.a;Inshushinak, National God of Elam. God of Snakes and Water;;;;;;x
+PATRONS_ELA.1.b;Pinikir, Fertility Deity and Defender of Susa;;;;;;x
+PATRONS_ELA.1.c;Kiririsha, The Divine Mother;;;;;;x
+k_elamite_pagan_reformed;Kingdom of Elam;;;;;;x
+sacrifice_inshushinak;Sacrificed to Inshushinak;;;;;;;x
+sacrifice_inshushinak_desc;Sacrificed to Inshushinak;;;;;;;x
+sacrifice_pinikir;Sacrificed to Pinikir;;;;;;;x
+sacrifice_pinikir_desc;Sacrificed to Pinikir;;;;;;;x
+sacrifice_kiririsha;Sacrificed to Kiririsha;;;;;;;x
+sacrifice_kiririsha_desc;Sacrificed to Kiririsha;;;;;;;x
+make_sacrifice_kiririsha;Make a Sacrifice to Kiririsha;;;;;x
+make_sacrifice_pinikir;Make a Sacrifice to Pinikir;;;;;x
+make_sacrifice_inshushinak;Make a Sacrifice to Inshushinak;;;;;x
+make_sacrifice_kiririsha_desc;Make a sacrifice to our Divine Mother;;;;;x
+make_sacrifice_pinikir_desc;Make a sacrifice to the Mother Deity of Fertility and defender of Susa;;;;;x
+make_sacrifice_inshushinak_desc;Make a sacrifice to the our National Deity Inshushinak;;;;;x
+BM_APEX;Apex of the Macedonian Empire;;;;;;;;;x
+PATRONS_ELA.1.desc;Select a Patron Deity;;;;;;x

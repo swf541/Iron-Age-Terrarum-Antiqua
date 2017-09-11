@@ -7,7 +7,7 @@ title = c_madhar
 max_settlements = 3
 b_madhar_madhar = castle
 b_nina_madhar = city
-b_khurra_madhar = city
+b_khurra_madhar = temple
 
 # Misc
 culture = elamite

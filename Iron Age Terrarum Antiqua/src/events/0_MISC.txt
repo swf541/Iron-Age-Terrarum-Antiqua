@@ -1,0 +1,397 @@
+namespace = misc
+
+##########################
+# Wrong culture (group)  #
+##########################
+
+# Wrong culture
+#province_event = {
+#	id = misc.0
+#	desc = "misc.0.desc"
+#	picture = GFX_evt_child_reading
+#	
+#	notification = yes
+#	
+#	trigger = {
+#		NOT = {
+#			has_province_modifier = wrong_culture
+#		}
+#		OR = {
+#			owner = {
+#				NOT = {
+#					culture = ROOT
+#				}
+#				culture_group = ROOT
+#			}
+#			AND = { # Cappadocian has lots of Iranian influences
+#				culture = cappadocian
+#				owner = {
+#					culture_group = iranian
+#				}
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {
+#		add_province_modifier = {
+#			name = wrong_culture
+#			duration = -1
+#		}
+#		remove_province_modifier = wrong_cultural_group
+#	}
+#}
+
+# Wrong culture group
+# province_event = {
+#	id = misc.1
+#	desc = "misc.1.desc"
+#	picture = GFX_evt_child_reading
+#	
+#	notification = yes
+#	
+#	trigger = {
+#		NOT = {
+#			has_province_modifier = wrong_cultural_group
+#			owner = {
+#				culture_group = ROOT
+#			}
+#			AND = { # Cappadocian has lots of Iranian influences
+#				culture = cappadocian
+#				owner = {
+#					culture_group = iranian
+#				}
+#			}
+#		}
+#	}
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {
+#		add_province_modifier = {
+#			name = wrong_cultural_group
+#			duration = -1
+#		}
+#		remove_province_modifier = wrong_culture
+#	}
+#}
+
+# Right culture
+#province_event = {
+#	id = misc.2
+#	desc = "misc.2.desc"
+#	picture = GFX_evt_child_reading
+#	
+#	notification = yes
+#	
+#	trigger = {
+#		OR = {
+#			has_province_modifier = wrong_culture
+#			has_province_modifier = wrong_cultural_group
+#		}
+#		owner = {
+#			culture = ROOT
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {		
+#		remove_province_modifier = wrong_culture
+#		remove_province_modifier = wrong_cultural_group
+#	}
+#	
+#	option = {
+#		name = "misc.2.name"
+#	}
+#}
+
+# Population increases
+province_event = {
+	id = misc.5
+	desc = "misc.5.desc"
+	picture = GFX_evt_castle_construction
+	
+	trigger = {
+		NOT = {
+			has_province_modifier = huge_population
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = { # Bordering province has higher population
+			factor = 0.75
+			OR = {
+				AND = {
+					has_province_modifier = minimal_population
+					any_neighbor_province = {
+						OR = {
+							has_province_modifier = low_population
+							has_province_modifier = medium_population
+							has_province_modifier = large_population
+							has_province_modifier = huge_population
+						}
+					}
+				}
+				AND = {
+					has_province_modifier = low_population
+					any_neighbor_province = {
+						OR = {
+							has_province_modifier = medium_population
+							has_province_modifier = large_population
+							has_province_modifier = huge_population
+						}
+					}
+				}
+				AND = {
+					has_province_modifier = medium_population
+					any_neighbor_province = {
+						OR = {
+							has_province_modifier = large_population
+							has_province_modifier = huge_population
+						}
+					}
+				}
+				AND = {
+					has_province_modifier = large_population
+					any_neighbor_province = {
+						has_province_modifier = huge_population
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			has_trade_post = yes
+		}
+	}
+	
+	option = {
+		name = "misc.5.name"
+		if = {
+			limit = {
+				has_province_modifier = large_population
+			}
+			remove_province_modifier = large_population
+			add_province_modifier = {
+				name = huge_population
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				has_province_modifier = medium_population
+			}
+			remove_province_modifier = medium_population
+			add_province_modifier = {
+				name = large_population
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				has_province_modifier = low_population
+			}
+			remove_province_modifier = low_population
+			add_province_modifier = {
+				name = medium_population
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				has_province_modifier = minimal_population
+			}
+			remove_province_modifier = minimal_population
+			add_province_modifier = {
+				name = low_population
+				duration = -1
+			}
+		}
+	}
+}
+
+# Population decreases
+province_event = {
+	id = misc.6
+	desc = "misc.6.desc"
+	picture = GFX_evt_burning_house
+	
+	trigger = {
+		NOT = {
+			has_province_modifier = minimal_population
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1320
+		modifier = {
+			factor = 0.1
+			has_epidemic = yes
+		}
+		modifier = {
+			factor = 0.5
+			has_siege = yes
+		}
+	}
+	
+	option = {
+		name = "misc.6.name"
+		if = {
+			limit = {
+				has_province_modifier = low_population
+			}
+			remove_province_modifier = low_population
+			add_province_modifier = {
+				name = minimal_population
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				has_province_modifier = medium_population
+			}
+			remove_province_modifier = medium_population
+			add_province_modifier = {
+				name = low_population
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				has_province_modifier = large_population
+			}
+			remove_province_modifier = large_population
+			add_province_modifier = {
+				name = medium_population
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				has_province_modifier = huge_population
+			}
+			remove_province_modifier = huge_population
+			add_province_modifier = {
+				name = large_population
+				duration = -1
+			}
+		}
+	}
+}
+
+# Add high supply to recently conquered steppe provinces
+province_event = {
+	id = misc.8
+	desc = "misc.8.desc"
+	picture = GFX_evt_child_reading
+	
+	notification = yes
+	
+	trigger = {
+		OR = {
+			has_province_modifier = minimal_population
+			has_province_modifier = low_population
+			has_province_modifier = medium_population
+			has_province_modifier = large_population
+			has_province_modifier = huge_population
+		}
+		OR = {
+			culture = scythian
+			culture = sarmatian
+		}
+		NOT = {
+			OR = {
+				has_province_modifier = high_resource
+				has_province_modifier = medium_resource
+				has_province_modifier = low_resource
+			}
+		}
+		owner = {
+			top_liege = {
+				primary_title = { has_law = nomad_settled_0 }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	immediate = {
+		add_province_modifier = {
+			name = high_resource
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "misc.8.name"
+	}
+}
+
+###########
+# STARTUP #
+###########
+
+character_event = {
+	id = misc.12
+	desc = misc.12.desc
+	picture = GFX_evt_child_reading
+	major = yes
+	
+	is_triggered_only = yes # Called from on_actions > on_chronicle_start
+	
+	option = {
+		name = "OK"
+		set_global_flag = slawslocked
+
+		hidden_tooltip = {
+			any_independent_ruler = {
+				any_realm_province = {
+					if = {
+						limit = {
+							NOT = {
+								$condition_has_population_modifiers()
+							}
+						}
+						province_event = { id = provpop.0 }
+					}
+					if = {
+						limit = {
+							NOT = {
+								$condition_has_slavery_population_modifiers()
+							}
+						}
+						province_event = { id = slavpop.0 }
+					}
+				}
+			}
+			any_realm_province = {
+				if = {
+					limit = {
+						NOT = {
+							$condition_has_population_modifiers()
+						}
+					}
+					province_event = { id = provpop.0 }
+				}
+				if = {
+					limit = {
+						NOT = {
+							$condition_has_slavery_population_modifiers()
+						}
+					}
+					province_event = { id = slavpop.0 }
+				}
+			}
+		}
+	}
+}

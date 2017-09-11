@@ -1,0 +1,43 @@
+Ck2Macro is a command-line macro processor for Crusader Kings II scripts.
+    (ck2macro v0.8.01b, created by dave489571)
+
+Syntax:
+
+    ck2macro.exe [input-path] [output-path] [macro-path] [path-file]
+
+Parameters:
+
+    input-path
+        Path containing the input files (unprocessed scripts).
+        Default value is ./src
+    output-path
+        Path for the output files (to place processed scripts).
+        Default value is ./
+    macro-path
+        Path for the macro files.
+        Default value is ./macros
+    path-file
+        Path for the file containing the paths to process.
+        Default value is ck2macro_paths.txt in the path of the ck2macro.exe
+        executable.
+    
+Other options:
+    
+    /? or /help
+        Displays this help file.
+    /inpath
+        Specifies that the next parameter is the input-path.
+    /outpath
+        Specifies that the next parameter is the output-path.
+    /macropath
+        Specifies that the next parameter is the macro-path.
+    /pathfile
+        Specifies that the next parameter is the path-file.
+    /cleardst
+        Clears destination paths in the output-path before processing scripts.
+        Where the path-file mentions specific files or search patterns, these
+        will be deleted in the destination directories. Where the path-file
+        mentions directories, all .txt files in that destination directory will
+        be deleted. BE CAREFUL WITH THIS AND CHECK THE PATHS FILE FIRST
+        TO BE SURE YOU WON'T OVERWRITE ANYTHING IMPORTANT. By default this
+        option is off.

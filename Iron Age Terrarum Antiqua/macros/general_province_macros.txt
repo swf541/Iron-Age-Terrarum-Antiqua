@@ -1,0 +1,49 @@
+# Removes modifier if province has it
+$if_has_province_modifier_remove(modifier)
+	if = {
+		limit = { has_province_modifier = %modifier% }
+		remove_province_modifier = %modifier%
+	}
+$done
+
+# Adds modifier if province doesn't have it
+$if_not_has_province_modifier_add(modifier, duration)
+	if = {
+		limit = {
+			NOT = { has_province_modifier = %modifier% }
+		}
+		add_province_modifier = {
+			name = %modifier%
+			duration = %duration%
+		}
+	}
+$done
+
+# Returns true if the province is directly owned by 'character'
+$is_province_owned_by(character)
+	owner = {
+		character = %character%
+	}
+$done
+
+# Returns true if the province is directly or indirectly owned by 'character'
+$is_province_owned_by_or_above(character)
+	owner = {
+		OR = {
+			character = %character%
+			is_liege_or_above = %character%
+		}
+	}
+$done
+
+# Update a province modifier(Sometimes you want to update them to have correct dynamic localisation)
+$update_province_modifier(modifier,duration)
+	if = {
+		limit = { has_province_modifier = %modifier% }
+		remove_province_modifier = %modifier%
+		add_province_modifier = {
+			name = %modifier%
+			duration = %duration%
+		}
+	}
+$done

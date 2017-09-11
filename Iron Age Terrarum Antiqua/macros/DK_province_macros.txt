@@ -1,0 +1,10 @@
+population_modifier_lower_bound = 25000
+population_modifier_upper_bound = 75000
+
+$condition_has_population_modifiers()
+	OR = {
+		has_province_modifier = low_population
+		has_province_modifier = medium_population
+		has_province_modifier = large_population
+	}
+$done

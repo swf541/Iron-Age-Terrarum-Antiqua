@@ -1,0 +1,266 @@
+namespace = provpop
+
+#Kickoff
+province_event = {
+	id = provpop.0
+	desc = AI_desc
+	picture = %placeholder%
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					culture = scythian
+					culture = sarmatian
+				}
+				owner = {
+					top_liege = {
+						primary_title = { has_law = nomad_settled_0 }
+					}
+				}				
+			}
+			set_variable = {
+				which = "province_pop"
+				value = 1500
+			}			
+			add_province_modifier = {
+				name = high_resource
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				NOT = {					
+					OR = {
+						culture = scythian
+						culture = sarmatian
+					}
+					owner = {
+						top_liege = {
+							primary_title = { has_law = nomad_settled_0 }
+						}
+					}
+				}
+			}
+			set_variable = {
+				which = "province_pop"
+				value = 4500
+			}
+		}
+
+		# Randomizing as much as I can
+		if = {
+			limit = { num_of_settlements = 2 }
+			multiply_variable = {
+				which = "province_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 3 }
+			multiply_variable = {
+				which = "province_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 4 }
+			multiply_variable = {
+				which = "province_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 5 }
+			multiply_variable = {
+				which = "province_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 6 }
+			multiply_variable = {
+				which = "province_pop"
+				value = 1.5
+			}
+		}
+		if = {
+			limit = { num_of_settlements = 7 }
+			multiply_variable = {
+				which = "province_pop"
+				value = 1.5
+			}
+		}
+
+
+
+		random_province_character = {
+			if = {
+				limit = {
+					$condition_character_age_ends_with(0)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.001
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(1)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.011
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(2)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.022
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(3)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.033
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(4)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.044
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(5)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.055
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(6)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.066
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(7)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.077
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(8)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.088
+					}
+				}
+			}
+			if = {
+				limit = {
+					$condition_character_age_ends_with(9)
+				}
+				location = {
+					multiply_variable = {
+						which = "province_pop"
+						value = 1.099
+					}
+				}
+			}
+		}
+
+
+		$if_has_province_modifier_remove(minimal_population)
+		$if_has_province_modifier_remove(low_population)
+		$if_has_province_modifier_remove(medium_population)
+		$if_has_province_modifier_remove(large_population)
+		$if_has_province_modifier_remove(huge_population)
+
+
+		if = {
+			limit = {
+				NOT = {
+					check_variable = {
+						which = "province_pop"
+						value = %population_modifier_lower_bound%
+					}
+				}
+			}
+			add_province_modifier = {
+				name = low_population
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					which = "province_pop"
+					value = %population_modifier_lower_bound%
+				}
+				NOT = {
+					check_variable = {
+						which = "province_pop"
+						value = %population_modifier_upper_bound%
+					}
+				}
+			}
+			add_province_modifier = {
+				name = medium_population
+				duration = -1
+			}
+		}
+		if = {
+			limit = {					
+				check_variable = {
+					which = "province_pop"
+					value = %population_modifier_upper_bound%
+				}
+			}
+			add_province_modifier = {
+				name = large_population
+				duration = -1
+			}
+		}
+	}
+}

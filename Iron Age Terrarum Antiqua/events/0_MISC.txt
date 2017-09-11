@@ -238,7 +238,9 @@ province_event = {
 		}
 		modifier = {
 			factor = 0.5
-			has_siege = yes
+			any_province_holding = {
+				has_siege = yes
+			}
 		}
 	}
 
