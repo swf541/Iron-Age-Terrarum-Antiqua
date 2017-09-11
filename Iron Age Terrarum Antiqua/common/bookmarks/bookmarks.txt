@@ -48,7 +48,7 @@ bm_end_of_an_era = {
 bm_apex = {
 	name = "BM_APEX"
 	desc = "BM_APEX_DESC"
-	date = 453.1.10
+	date = 453.6.10
 	selectable_character = {
 		id = 802
 	}	
