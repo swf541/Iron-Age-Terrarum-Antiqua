@@ -2439,7 +2439,11 @@ decisions = {
 	find_guru = {
 		only_playable = yes
 		potential = {
-			religion_group = indian_group
+			OR = {
+				religion = hindu
+				religion = buddhist
+				religion = jain
+			}
 			is_playable = yes
 			is_adult = yes
 			OR = {

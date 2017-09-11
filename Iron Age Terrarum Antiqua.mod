@@ -22,6 +22,8 @@ replace_path = "common\societies"
 replace_path = "localisation\customizable_localisation"
 replace_path = "common\objectives"
 
+replace_path = "common\buildings"
+
 replace_path = "events"
 
 replace_path = "map"

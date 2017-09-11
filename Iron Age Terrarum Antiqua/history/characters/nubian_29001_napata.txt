@@ -3,7 +3,7 @@
 	name = "Nastasen" # King of Kush, 335 - 315 BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290012 # Harsiotef
 	400.1.1 = { # Made up
 		birth="yes" # 376 BC
@@ -16,7 +16,7 @@
 	name = "Gatisen" # King of Kush, 315 - ?? BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290001
 	425.1.1 = { # Made up
 		birth="yes" # 351 BC
@@ -29,7 +29,7 @@
 	name = "Iry-Amun" # King of Kush, ?? - ?? BC, Also known as Aryamani
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290002
 	447.1.1 = { # Made up
 		birth="yes" # 329 BC
@@ -42,7 +42,7 @@
 	name = "Kash" # King of Kush, ?? - ?? BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290003
 	474.1.1 = { # Made up
 		birth="yes" # 302 BC
@@ -55,7 +55,7 @@
 	name = "Piankhi-yerike-qa" # King of Kush, ?? - ?? BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290003
 	481.1.1 = { # Made up
 		birth="yes" # 295 BC
@@ -68,7 +68,7 @@
 	name = "Sabrakamani" # King of Kush, ?? - ?? BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290002
 	465.1.1 = { # Made up
 		birth="yes" # 311 BC
@@ -81,7 +81,7 @@
 	name = "Nasakhma" # King of Kush, 468 - 463 BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	279.1.1 = {
 		birth="yes" # 497 BC Made Up
 	}
@@ -93,7 +93,7 @@
 	name = "Malewiebamani" # King of Kush, 463 - 435 BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290007 # Nasakhma
 	308.1.1 = {
 		birth="yes" # 468 BC Made Up
@@ -106,7 +106,7 @@
 	name = "Talakhamani" # King of Kush, 435 - 431 BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290007 # Nasakhma
 	310.1.1 = {
 		birth="yes" # 466 BC Made Up
@@ -119,7 +119,7 @@
 	name = "Amaninetererike" # King of Kush, 431 - 405 BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290008 # Malewiebamani
 	332.1.1 = {
 		birth="yes" # 444 BC Made Up
@@ -132,7 +132,7 @@
 	name = "Baskakeren" # King of Kush, 405 - 404 BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290008 # Malewiebamani
 	338.1.1 = {
 		birth="yes" # 438 BC Made Up
@@ -145,7 +145,7 @@
 	name = "Harsiotef" # King of Kush, 404 - 369 BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290010 # Amaninetererike
 	353.1.1 = {
 		birth="yes" # 423 BC Made Up
@@ -158,7 +158,7 @@
 	name = "Khayu" # King of Kush, 369 - 350 BC, Name made up
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290010 # Amaninetererike
 	362.1.1 = { 
 		birth="yes" # 414 BC Made Up
@@ -171,7 +171,7 @@
 	name = "Akhraten" # King of Kush, 350 - 335 BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290012 # Harsiotef
 	384.1.1 = {
 		birth="yes" # 392 BC Made Up
@@ -184,7 +184,7 @@
 	name = "Amanibakhi" # King of Kush, 335 - 333 BC
 	dynasty = 29001 # Napatan dynasty
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290014 # Akhraten
 	418.1.1 = {
 		birth="yes" # 358 BC Made Up

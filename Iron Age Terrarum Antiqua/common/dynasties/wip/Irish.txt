@@ -1,0 +1,127 @@
+# 22001-23000 for venetic dynasties
+
+223001 = {
+	name ="Dal Riata"
+	culture = irish
+}
+223002 = {
+	name ="Cruithin"
+	culture = irish
+}
+223003 = {
+	name ="Dal Fiatach"
+	culture = irish
+}
+223004 = {
+	name ="Ulaid"
+	culture = irish
+}
+223005 = {
+	name ="Monaig"
+	culture = irish
+}
+223006 = {
+	name ="Brigantes"
+	culture = irish
+}
+223007 = {
+	name ="Domnainn"
+	culture = irish
+}
+223008 = {
+	name ="Uaithne"
+	culture = irish
+}
+223009 = {
+	name ="Erainn"
+	culture = irish
+}
+223010 = {
+	name ="Nagnatae"
+	culture = irish
+}
+#Stop Here For Tribal Placement
+223011=
+{
+	name="Mac Carthaigh"
+	culture="irish"
+}
+223012=
+{
+	name="Ua Braenain"
+	culture="irish"
+}
+223013=
+{
+	name="Ua Néill Noígiallaich"
+	culture="irish"
+}
+223014=
+{
+	name="Ua Murchada"
+	culture="irish"
+}
+223015=
+{
+	name="Sithrigi"
+	culture="irish"
+
+}
+223016=
+{
+	name="Mac Murchada"
+	culture="irish"
+}
+223017=
+{
+	name="Lorc"
+	culture="irish"
+}
+223018=
+{
+	name="Boru"
+	culture="irish"
+}
+223019=
+{
+	name="Crovan"
+	culture="irish"
+}
+223020=
+{
+	name="Ua Fáeláin"
+	culture="irish"
+
+}
+223021=
+{
+	name="Ua Néill Móir"
+	culture="irish"
+}
+223022=
+{
+	name="Mac Diarmaida"
+	culture="irish"
+
+}
+223023=
+{
+	name="Mac Máil na mBó"
+	culture="irish"
+
+}
+223024=
+{
+	name="Ua Tuathail"
+	culture="irish"
+
+}
+223025=
+{
+	name="Ua Briain"
+	culture="irish"
+}
+223026 = {
+	name ="Coraind"
+	culture = irish
+}
