@@ -1,4 +1,4 @@
-max_provinces = 1486
+max_provinces = 1492
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
