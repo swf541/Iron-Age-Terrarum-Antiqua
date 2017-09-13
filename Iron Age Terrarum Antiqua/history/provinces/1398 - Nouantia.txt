@@ -8,12 +8,12 @@ max_settlements = 4
 b_nouantia1 = tribal
 
 # Misc
-culture = irish
-religion = celtic_pagan
-
-
-
-
 
 # History
 # Can be filled when things change around the province
+culture = irish
+religion = celtic_pagan
+1.1.1 = {
+culture = irish
+religion = celtic_pagan
+}
