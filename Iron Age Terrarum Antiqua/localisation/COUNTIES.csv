@@ -158,7 +158,7 @@ c_miletus_adj;Milesian;;;;;;;;;;;;;x
 PROV83;Halikarnassos;;;;;;;;;;;;;x
 c_halicarnassus_adj;Halikarnesian;;;;;;;;;;;;;x
 PROV84;Telmessos;;;;;;;;;;;;;x
-c_telmessos_adj;Telmesian;;;;;;;;;;;;;x\;
+c_telmessos_adj;Telmesian;;;;;;;;;;;;;x
 PROV85;Xanthos;;;;;;;;;;;;;x
 c_xanthos_adj;Xanthosian;;;;;;;;;;;;;x
 PROV86;Termessos;;;;;;;;;;;;;x
@@ -2302,6 +2302,7 @@ PROV1559;Beisonancum;;;;;;;;;;;;;;;;x
 PROV1560;Caviniacum;;;;;;;;;;;;;;;;x
 PROV1561;Nasagus;;;;;;;;;;;;;;;;x
 PROV1562;Tullum;;;;;;;;;;;;;;;;x
+PROV1563;Ad Duodecimum;;;;;;;x
 ;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;
