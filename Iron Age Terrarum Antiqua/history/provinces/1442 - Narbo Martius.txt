@@ -1,0 +1,14 @@
+# 74 - Sala
+
+# County Title
+title = c_narbo_martius
+
+# Settlements
+max_settlements = 7
+b_narbo_martius1 = tribal
+
+# Misc
+culture = gaul
+religion = celtic_pagan
+
+# History

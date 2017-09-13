@@ -1,0 +1,14 @@
+# 74 - Sala
+
+# County Title
+title = c_boii
+
+# Settlements
+max_settlements = 4
+b_boii1 = tribal
+
+# Misc
+culture = aquitanian
+religion = aquitanian_main
+
+# History

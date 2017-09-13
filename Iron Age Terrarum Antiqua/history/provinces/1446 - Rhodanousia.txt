@@ -1,0 +1,14 @@
+# 74 - Sala
+
+# County Title
+title = c_rhodanousia
+
+# Settlements
+max_settlements = 5
+b_rhodanousia1 = tribal
+
+# Misc
+culture = gaul
+religion = celtic_pagan
+
+# History

@@ -1,0 +1,14 @@
+# 74 - Sala
+
+# County Title
+title = c_burdigala
+
+# Settlements
+max_settlements = 4
+b_burdigala1 = tribal
+
+# Misc
+culture = aquitanian
+religion = aquitanian_main
+
+# History

@@ -1,0 +1,14 @@
+# 74 - Sala
+
+# County Title
+title = c_lapurdum
+
+# Settlements
+max_settlements = 4
+b_lapurdum1 = tribal
+
+# Misc
+culture = aquitanian
+religion = aquitanian_main
+
+# History

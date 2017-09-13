@@ -1,0 +1,14 @@
+# 74 - Sala
+
+# County Title
+title = c_elimberrum
+
+# Settlements
+max_settlements = 4
+b_elimberrum1 = tribal
+
+# Misc
+culture = gaul
+religion = celtic_pagan
+
+# History

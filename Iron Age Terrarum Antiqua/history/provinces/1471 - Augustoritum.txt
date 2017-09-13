@@ -1,0 +1,14 @@
+# 74 - Sala
+
+# County Title
+title = c_augustoritum
+
+# Settlements
+max_settlements = 6
+b_augustoritum1 = tribal
+
+# Misc
+culture = gaul
+religion = celtic_pagan
+
+# History

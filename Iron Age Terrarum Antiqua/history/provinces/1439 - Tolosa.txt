@@ -1,0 +1,14 @@
+# 74 - Sala
+
+# County Title
+title = c_tolosa
+
+# Settlements
+max_settlements = 7
+b_tolosa1 = tribal
+
+# Misc
+culture = gaul
+religion = celtic_pagan
+
+# History

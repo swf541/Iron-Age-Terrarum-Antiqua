@@ -1,0 +1,628 @@
+k_viennensis = {
+	color= { 50 255 50 }
+	color2= { 255 255 255 }
+	
+	capital = 416
+	
+	d_gallia_inter_fluvio = {
+		color= { 50 255 0 }
+		color2= { 255 255 255 }
+		
+		c_arausio = {
+			color= { 50 255 0 }
+			color2= { 255 255 255 }
+			
+			b_arausio_arausio = {
+			}
+			b_avennio_arausio = {
+			}
+			b_senomagos_arausio = {
+			}
+			b_vasio_arausio = {
+			}
+			b_vindalium_arausio = {
+			}
+		}
+		c_segustero = {
+			color= { 50 245 10 }
+			color2= { 255 255 255 }
+			
+			b_segustero_segustero = {
+			}
+			b_mons_seleucus_segustero = {
+			}
+			b_noiomagos_segustero = {
+			}
+		}
+		c_valentia = {
+			color= { 60 255 10 }
+			color2= { 255 255 255 }
+			
+			b_valentia_valentia = {
+			}
+			b_soio_valentia = {
+			}
+			b_umbennum_valentia = {
+			}
+			b_abla_helviorum_valentia = {
+			}
+		}
+		c_lucus = {
+			color= { 40 245 0 }
+			color2= { 255 255 255 }
+			
+			b_lucus_lucus = {
+			}
+			b_vologatae_lucus = {
+			}
+			b_dea_vocontiorum_lucus = {
+			}
+			b_altonum_lucus = {
+			}
+		}
+	}
+	d_gallia_transalpina = {
+		color= { 50 225 0 }
+		color2= { 255 255 255 }
+		
+		c_nice = {
+			color= { 60 215 0 }
+			color2= { 255 255 255 }
+			
+			b_nice_nice = {
+			}
+			b_heracles_monoikos_nice = {
+			}
+			b_antipolis_nice = {
+			}
+			b_navelis_nice = {
+			}
+		}
+		c_massilia = {
+			color= { 50 225 0 }
+			color2= { 255 255 255 }
+			
+			b_massilia_massilia = {
+			}
+			b_olbia_massilia = {
+			}
+			b_borma_massilia = {
+			}
+			b_taurois_massilia = {
+			}
+			b_citharista_massilia = {
+			}
+			b_carsicis_massilia = {
+			}
+		}
+		c_arelate = {
+			color= { 40 225 10 }
+			color2= { 255 255 255 }
+			
+			b_arelate_arelate = {
+			}
+			b_rhodanousia_arelate = {
+			}
+			b_tarusco_arelate = {
+			}
+			b_ugenum_arelate = {
+			}
+		}
+		c_aquae_sextae = {
+			color= { 50 235 10 }
+			color2= { 255 255 255 }
+			
+			b_endremont_aquae_sextae = {
+			}
+			b_cabellio_aquae_sextae = {
+			}
+			b_glanum_aquae_sextae = {
+			}
+			b_aramo_aquae_sextae = {
+			}
+		}
+		c_eturamina = {
+			color= { 60 235 0 }
+			color2= { 255 255 255 }
+			
+			b_eturamina_eturamina = {
+			}
+			b_griselica_eturamina = {
+			}
+			b_sanitium_eturamina = {
+			}
+			b_salinae_eturamina = {
+			}
+		}
+		c_eburodunum = {
+			color= { 60 225 10 }
+			color2= { 255 255 255 }
+			
+			b_eburodunum_eburodunum = {
+			}
+			b_sedena_eburodunum = {
+			}
+			b_rigomagus_eburodunum = {
+			}
+			b_mustae_calmes_eburodunum = {
+			}
+		}
+	}
+	d_narbonensis = {
+		color= { 60 225 40 }
+		color2= { 255 255 255 }	
+		
+		capital = 1439
+		
+		c_nemausus = {
+			color= { 60 225 40 }
+			color2= { 255 255 255 }	
+
+			b_nemausus1 = { }
+			b_nemausus2 = { }
+			b_nemausus3 = { }
+			b_nemausus4 = { }
+			b_nemausus5 = { }
+			b_nemausus6 = { }
+			b_nemausus7 = { }
+		}
+		c_rhodanousia = {
+			color= { 75 200 20 }
+			color2= { 255 255 255 }	
+
+			b_rhodanousia1 = { }
+			b_rhodanousia2 = { }
+			b_rhodanousia3 = { }
+			b_rhodanousia4 = { }
+			b_rhodanousia5 = { }
+			b_rhodanousia6 = { }
+			b_rhodanousia7 = { }
+		}
+		c_luteva = {
+			color= { 33 233 33 }
+			color2= { 255 255 255 }	
+
+			b_luteva1 = { }
+			b_luteva2 = { }
+			b_luteva3 = { }
+			b_luteva4 = { }
+			b_luteva5 = { }
+			b_luteva6 = { }
+			b_luteva7 = { }
+		}
+		c_baeterrae = {
+			color= { 75 230 20 }
+			color2= { 255 255 255 }	
+
+			b_baeterrae1 = { }
+			b_baeterrae2 = { }
+			b_baeterrae3 = { }
+			b_baeterrae4 = { }
+			b_baeterrae5 = { }
+			b_baeterrae6 = { }
+			b_baeterrae7 = { }
+		}
+		c_magalona = {
+			color= { 99 190 90 }
+			color2= { 255 255 255 }	
+
+			b_magalona1 = { }
+			b_magalona2 = { }
+			b_magalona3 = { }
+			b_magalona4 = { }
+			b_magalona5 = { }
+			b_magalona6 = { }
+			b_magalona7 = { }
+		}
+		c_luteva = {
+			color= { 22 225 77 }
+			color2= { 255 255 255 }	
+
+			b_luteva1 = { }
+			b_luteva2 = { }
+			b_luteva3 = { }
+			b_luteva4 = { }
+			b_luteva5 = { }
+			b_luteva6 = { }
+			b_luteva7 = { }
+		}
+		c_elimberrum = {
+			color= { 82 200 100 }
+			color2= { 255 255 255 }	
+
+			b_elimberrum1 = { }
+			b_elimberrum2 = { }
+			b_elimberrum3 = { }
+			b_elimberrum4 = { }
+			b_elimberrum5 = { }
+			b_elimberrum6 = { }
+			b_elimberrum7 = { }
+		}
+		c_tolosa = {
+			color= { 22 222 30 }
+			color2= { 255 255 255 }	
+
+			b_tolosa1 = { }
+			b_tolosa2 = { }
+			b_tolosa3 = { }
+			b_tolosa4 = { }
+			b_tolosa5 = { }
+			b_tolosa6 = { }
+			b_tolosa7 = { }
+		}
+		c_consoranni = {
+			color= { 55 155 40 }
+			color2= { 255 255 255 }	
+
+			b_consoranni1 = { }
+			b_consoranni2 = { }
+			b_consoranni3 = { }
+			b_consoranni4 = { }
+			b_consoranni5 = { }
+			b_consoranni6 = { }
+			b_consoranni7 = { }
+		}
+		c_tarusco = {
+			color= { 120 225 20 }
+			color2= { 255 255 255 }	
+
+			b_tarusco1 = { }
+			b_tarusco2 = { }
+			b_tarusco3 = { }
+			b_tarusco4 = { }
+			b_tarusco5 = { }
+			b_tarusco6 = { }
+			b_tarusco7 = { }
+		}
+		c_narbo_martius = {
+			color= { 33 225 22 }
+			color2= { 255 255 255 }	
+
+			b_narbo_martius1 = { }
+			b_narbo_martius2 = { }
+			b_narbo_martius3 = { }
+			b_narbo_martius4 = { }
+			b_narbo_martius5 = { }
+			b_narbo_martius6 = { }
+			b_narbo_martius7 = { }
+		}
+		c_carcasso = {
+			color= { 12 225 55 }
+			color2= { 255 255 255 }	
+
+			b_carcasso1 = { }
+			b_carcasso2 = { }
+			b_carcasso3 = { }
+			b_carcasso4 = { }
+			b_carcasso5 = { }
+			b_carcasso6 = { }
+			b_carcasso7 = { }
+		}
+		c_ruscino = {
+			color= { 120 225 120 }
+			color2= { 255 255 255 }	
+
+			b_ruscino1 = { }
+			b_ruscino2 = { }
+			b_ruscino3 = { }
+			b_ruscino4 = { }
+			b_ruscino5 = { }
+			b_ruscino6 = { }
+			b_ruscino7 = { }
+		}
+	}
+	d_novempopulana = {
+		color= { 120 225 120 }
+		color2= { 255 255 255 }	
+
+		capital = 1434
+		
+		c_lapurdum = {
+			color= { 120 225 120 }
+			color2= { 255 255 255 }	
+
+			b_lapurdum1 = { }
+			b_lapurdum2 = { }
+			b_lapurdum3 = { }
+			b_lapurdum4 = { }
+			b_lapurdum5 = { }
+			b_lapurdum6 = { }
+			b_lapurdum7 = { }
+		}
+		c_boii = {
+			color= { 110 225 140 }
+			color2= { 255 255 255 }	
+
+			b_boii1 = { }
+			b_boii2 = { }
+			b_boii3 = { }
+			b_boii4 = { }
+			b_boii5 = { }
+			b_boii6 = { }
+			b_boii7 = { }
+		}
+		c_cossium = {
+			color= { 140 225 40 }
+			color2= { 255 255 255 }	
+
+			b_cossium1 = { }
+			b_cossium2 = { }
+			b_cossium3 = { }
+			b_cossium4 = { }
+			b_cossium5 = { }
+			b_cossium6 = { }
+			b_cossium7 = { }
+		}
+		c_iluro = {
+			color= { 77 225 88 }
+			color2= { 255 255 255 }	
+
+			b_iluro1 = { }
+			b_iluro2 = { }
+			b_iluro3 = { }
+			b_iluro4 = { }
+			b_iluro5 = { }
+			b_iluro6 = { }
+			b_iluro7 = { }
+		}
+		c_lugdunum_convenarum = {
+			color= { 99 225 67 }
+			color2= { 255 255 255 }	
+
+			b_lugdunum_convenarum1 = { }
+			b_lugdunum_convenarum2 = { }
+			b_lugdunum_convenarum3 = { }
+			b_lugdunum_convenarum4 = { }
+			b_lugdunum_convenarum5 = { }
+			b_lugdunum_convenarum6 = { }
+			b_lugdunum_convenarum7 = { }
+		}
+		c_elusa = {
+			color= { 32 225 57 }
+			color2= { 255 255 255 }	
+
+			b_elusa1 = { }
+			b_elusa2 = { }
+			b_elusa3 = { }
+			b_elusa4 = { }
+			b_elusa5 = { }
+			b_elusa6 = { }
+			b_elusa7 = { }
+		}
+		c_atura = {
+			color= { 44 225 66 }
+			color2= { 255 255 255 }	
+
+			b_atura1 = { }
+			b_atura2 = { }
+			b_atura3 = { }
+			b_atura4 = { }
+			b_atura5 = { }
+			b_atura6 = { }
+			b_atura7 = { }
+		}
+		c_beneharnum = {
+			color= { 60 225 80 }
+			color2= { 255 255 255 }	
+
+			b_beneharnum1 = { }
+			b_beneharnum2 = { }
+			b_beneharnum3 = { }
+			b_beneharnum4 = { }
+			b_beneharnum5 = { }
+			b_beneharnum6 = { }
+			b_beneharnum7 = { }
+		}
+		c_tarba = {
+			color= { 120 225 40 }
+			color2= { 255 255 255 }	
+
+			b_tarba1 = { }
+			b_tarba2 = { }
+			b_tarba3 = { }
+			b_tarba4 = { }
+			b_tarba5 = { }
+			b_tarba6 = { }
+			b_tarba7 = { }
+		}		
+	}
+	d_aquitania_ii = {
+		color= { 120 225 140 }
+		color2= { 255 255 255 }	
+		
+		capital = 1428
+		
+		c_burdigala = {
+			color= { 45 225 57 }
+			color2= { 255 255 255 }	
+
+			b_burdigala1 = { }
+			b_burdigala2 = { }
+			b_burdigala3 = { }
+			b_burdigala4 = { }
+			b_burdigala5 = { }
+			b_burdigala6 = { }
+			b_burdigala7 = { }
+		}
+		c_marciaco = {
+			color= { 75 225 44 }
+			color2= { 255 255 255 }	
+
+			b_marciaco1 = { }
+			b_marciaco2 = { }
+			b_marciaco3 = { }
+			b_marciaco4 = { }
+			b_marciaco5 = { }
+			b_marciaco6 = { }
+			b_marciaco7 = { }
+		}	
+		c_excisum = {
+			color= { 88 225 90 }
+			color2= { 255 255 255 }	
+
+			b_excisum1 = { }
+			b_excisum2 = { }
+			b_excisum3 = { }
+			b_excisum4 = { }
+			b_excisum5 = { }
+			b_excisum6 = { }
+			b_excisum7 = { }
+		}	
+		c_lestang = {
+			color= { 90 225 45 }
+			color2= { 255 255 255 }	
+
+			b_lestang1 = { }
+			b_lestang2 = { }
+			b_lestang3 = { }
+			b_lestang4 = { }
+			b_lestang5 = { }
+			b_lestang6 = { }
+			b_lestang7 = { }
+		}	
+		c_condatis = {
+			color= { 75 225 45 }
+			color2= { 255 255 255 }	
+
+			b_condatis1 = { }
+			b_condatis2 = { }
+			b_condatis3 = { }
+			b_condatis4 = { }
+			b_condatis5 = { }
+			b_condatis6 = { }
+			b_condatis7 = { }
+		}	
+		c_aginnum = {
+			color= { 77 210 88 }
+			color2= { 255 255 255 }	
+
+			b_aginnum1 = { }
+			b_aginnum2 = { }
+			b_aginnum3 = { }
+			b_aginnum4 = { }
+			b_aginnum5 = { }
+			b_aginnum6 = { }
+			b_aginnum7 = { }
+		}	
+		c_augustoritum = {
+			color= { 60 216 40 }
+			color2= { 255 255 255 }	
+
+			b_augustoritum1 = { }
+			b_augustoritum2 = { }
+			b_augustoritum3 = { }
+			b_augustoritum4 = { }
+			b_augustoritum5 = { }
+			b_augustoritum6 = { }
+			b_augustoritum7 = { }
+		}	
+		c_vesunna = {
+			color= { 77 195 88 }
+			color2= { 255 255 255 }	
+
+			b_vesunna1 = { }
+			b_vesunna2 = { }
+			b_vesunna3 = { }
+			b_vesunna4 = { }
+			b_vesunna5 = { }
+			b_vesunna6 = { }
+			b_vesunna7 = { }
+		}	
+		c_exidualum = {
+			color= { 12 225 57 }
+			color2= { 255 255 255 }	
+
+			b_exidualum1 = { }
+			b_exidualum2 = { }
+			b_exidualum3 = { }
+			b_exidualum4 = { }
+			b_exidualum5 = { }
+			b_exidualum6 = { }
+			b_exidualum7 = { }
+		}	
+		c_limonum = {
+			color= { 92 198 47 }
+			color2= { 255 255 255 }	
+
+			b_limonum1 = { }
+			b_limonum2 = { }
+			b_limonum3 = { }
+			b_limonum4 = { }
+			b_limonum5 = { }
+			b_limonum6 = { }
+			b_limonum7 = { }
+		}
+		c_geinum = {
+			color= { 77 187 40 }
+			color2= { 255 255 255 }	
+
+			b_geinum1 = { }
+			b_geinum2 = { }
+			b_geinum3 = { }
+			b_geinum4 = { }
+			b_geinum5 = { }
+			b_geinum6 = { }
+			b_geinum7 = { }
+		}
+		c_civitas_namnetum = {
+			color= { 125 211 40 }
+			color2= { 255 255 255 }	
+
+			b_civitas_namnetum1 = { }
+			b_civitas_namnetum2 = { }
+			b_civitas_namnetum3 = { }
+			b_civitas_namnetum4 = { }
+			b_civitas_namnetum5 = { }
+			b_civitas_namnetum6 = { }
+			b_civitas_namnetum7 = { }
+		}
+		c_santonon_limen = {
+			color= { 63 215 56 }
+			color2= { 255 255 255 }	
+
+			b_santonon_limen1 = { }
+			b_santonon_limen2 = { }
+			b_santonon_limen3 = { }
+			b_santonon_limen4 = { }
+			b_santonon_limen5 = { }
+			b_santonon_limen6 = { }
+			b_santonon_limen7 = { }
+		}
+		c_mediolanum_santonum = {
+			color= { 122 210 45 }
+			color2= { 255 255 255 }	
+
+			b_mediolanum_santonum1 = { }
+			b_mediolanum_santonum2 = { }
+			b_mediolanum_santonum3 = { }
+			b_mediolanum_santonum4 = { }
+			b_mediolanum_santonum5 = { }
+			b_mediolanum_santonum6 = { }
+			b_mediolanum_santonum7 = { }
+		}
+		c_becciacum = {
+			color= { 34 222 45 }
+			color2= { 255 255 255 }	
+
+			b_becciacum1 = { }
+			b_becciacum2 = { }
+			b_becciacum3 = { }
+			b_becciacum4 = { }
+			b_becciacum5 = { }
+			b_becciacum6 = { }
+			b_becciacum7 = { }
+		}
+		c_rauranum = {
+			color= { 100 200 40 }
+			color2= { 255 255 255 }	
+
+			b_rauranum1 = { }
+			b_rauranum2 = { }
+			b_rauranum3 = { }
+			b_rauranum4 = { }
+			b_rauranum5 = { }
+			b_rauranum6 = { }
+			b_rauranum7 = { }
+		}		
+	}
+}
