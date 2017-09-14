@@ -5,10 +5,7 @@ title = c_glandimirum
 
 # Settlements
 max_settlements = 4
-b_glandimirum_glandimirum = castle
-b_burbida_glandimirum = castle
-b_koilobriga_glandimirum = castle
-#b_salientes_glandimirum = city
+b_glandimirum_glandimirum = tribal
 
 
 # Misc

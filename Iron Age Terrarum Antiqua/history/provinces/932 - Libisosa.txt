@@ -5,8 +5,7 @@ title = c_libisosa
 
 # Settlements
 max_settlements = 2
-b_libisosa_libisosa = castle
-b_caput_libisosa = castle
+b_libisosa_libisosa = tribal
 
 # Misc
 culture = celtiberian

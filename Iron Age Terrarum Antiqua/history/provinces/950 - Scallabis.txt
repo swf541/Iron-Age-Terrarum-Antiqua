@@ -5,10 +5,7 @@ title = c_scallabis
 
 # Settlements
 max_settlements = 4
-b_scallabis_scallabis = castle
-b_sellium_scallabis = city
-b_londobris_scallabis = city
-#b_cos_scallabis = castle
+b_scallabis_scallabis = tribal
 
 
 # Misc

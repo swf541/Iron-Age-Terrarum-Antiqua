@@ -211,7 +211,7 @@ k_scotland = {
 		
 		capital = 1399 #Damnonia
 		
-		pictish = "Damnonii"
+		irish = "Damnonii"
 		
 		c_damnonia = {
 			color = { 173 44 96 }
@@ -229,7 +229,7 @@ k_scotland = {
 			color = { 227 247 196 }
 			color2={ 255 255 255 }
 			
-			pictish = "Novantae"
+			irish = "Novantae"
 			
 			b_nouantia1 = { }
 			b_nouantia2 = { }
@@ -243,7 +243,7 @@ k_scotland = {
 			color = { 228 77 75 }
 			color2={ 255 255 255 }
 			
-			pictish = "Selgovae"
+			irish = "Selgovae"
 			
 			b_blatobulgium1 = { }
 			b_blatobulgium2 = { }
@@ -252,6 +252,84 @@ k_scotland = {
 			b_blatobulgium5 = { }
 			b_blatobulgium6 = { }
 			b_blatobulgium7 = { }
+		}
+	}
+	d_gododdin = {
+		color = { 247 90 164 }
+		color2={ 255 255 255 }
+		
+		capital = 1395 #Guotodin
+		
+		irish = "Otadini"
+		
+		c_veluniate = {
+			color = { 17 103 236 }
+			color2={ 255 255 255 }
+			
+			b_veluniate1 = { }
+			b_veluniate2 = { }
+			b_veluniate3 = { }
+			b_veluniate4 = { }
+			b_veluniate5 = { }
+			b_veluniate6 = { }
+			b_veluniate7 = { }
+		}
+		c_guotodin = {
+			color = { 246 218 48 }
+			color2={ 255 255 255 }
+			
+			b_guotodin1 = { }
+			b_guotodin2 = { }
+			b_guotodin3 = { }
+			b_guotodin4 = { }
+			b_guotodin5 = { }
+			b_guotodin6 = { }
+			b_guotodin7 = { }
+		}
+		c_trimontium = {
+			color = { 122 215 187 }
+			color2={ 255 255 255 }
+			
+			b_trimontium1 = { }
+			b_trimontium2 = { }
+			b_trimontium3 = { }
+			b_trimontium4 = { }
+			b_trimontium5 = { }
+			b_trimontium6 = { }
+			b_trimontium7 = { }
+		}
+		c_bremenium = {
+			color = { 86 25 219 }
+			color2={ 255 255 255 }
+			
+			b_bremenium1 = { }
+			b_bremenium2 = { }
+			b_bremenium3 = { }
+			b_bremenium4 = { }
+			b_bremenium5 = { }
+			b_bremenium6 = { }
+			b_bremenium7 = { }
+		}
+	}
+	d_man = {
+		color = { 198 196 241 }
+		color2={ 255 255 255 }
+		
+		capital = 1419 #Manavia
+		
+		irish = "Manavia"
+		
+		c_manavia = {
+			color = { 198 77 90 }
+			color2={ 255 255 255 }
+			
+			b_manavia1 = { }
+			b_manavia2 = { }
+			b_manavia3 = { }
+			b_manavia4 = { }
+			b_manavia5 = { }
+			b_manavia6 = { }
+			b_manavia7 = { }
 		}
 	}
 }
