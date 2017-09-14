@@ -1,0 +1,14 @@
+# 74 - Sala
+
+# County Title
+title = c_dolum
+
+# Settlements
+max_settlements = 5
+b_dolum1 = tribal
+
+# Misc
+culture = gaul
+religion = celtic_pagan
+
+# History

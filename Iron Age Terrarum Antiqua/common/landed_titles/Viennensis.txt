@@ -625,4 +625,59 @@ k_viennensis = {
 			b_rauranum7 = { }
 		}		
 	}
+	d_aquitania = {
+		color= { 120 225 155 }
+		color2= { 255 255 255 }	
+		
+		capital = 1539
+		
+		c_avaricum = {
+			color= { 120 225 155 }
+			color2= { 255 255 255 }	
+
+			b_avaricum1 = { }
+			b_avaricum2 = { }
+			b_avaricum3 = { }
+			b_avaricum4 = { }
+			b_avaricum5 = { }
+			b_avaricum6 = { }
+			b_avaricum7 = { }
+		}		
+		c_argentomagus = {
+			color= { 160 225 140 }
+			color2= { 255 255 255 }	
+
+			b_argentomagus1 = { }
+			b_argentomagus2 = { }
+			b_argentomagus3 = { }
+			b_argentomagus4 = { }
+			b_argentomagus5 = { }
+			b_argentomagus6 = { }
+			b_argentomagus7 = { }
+		}
+		c_claudiomagus = {
+			color= { 44 225 40 }
+			color2= { 255 255 255 }	
+
+			b_claudiomagus1 = { }
+			b_claudiomagus2 = { }
+			b_claudiomagus3 = { }
+			b_claudiomagus4 = { }
+			b_claudiomagus5 = { }
+			b_claudiomagus6 = { }
+			b_claudiomagus7 = { }
+		}
+		c_dolum = {
+			color= { 60 225 88 }
+			color2= { 255 255 255 }	
+
+			b_dolum1 = { }
+			b_dolum2 = { }
+			b_dolum3 = { }
+			b_dolum4 = { }
+			b_dolum5 = { }
+			b_dolum6 = { }
+			b_dolum7 = { }
+		}		
+	}
 }
