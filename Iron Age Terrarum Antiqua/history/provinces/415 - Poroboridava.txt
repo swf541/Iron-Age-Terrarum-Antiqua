@@ -4,10 +4,7 @@
 title = c_poroboridava
 # Settlements
 max_settlements = 4
-b_poroboridava_poroboridava = castle
-b_poienesti_poroboridava = temple
-b_barbosi_poroboridava = city
-b_birsesti_poroboridava = castle
+b_poroboridava_poroboridava = tribal
 
 # Misc
 culture = gaul

@@ -5,15 +5,7 @@ title = c_placentia # for example c_corinth
 
 # Settlements
 max_settlements = 6 # Should be reevaluated
-b_placentia_placentia = castle
-b_veleia_placentia = city
-b_barderate_placentia = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_placentia_placentia = tribal
 
 # Misc
 culture = gaul

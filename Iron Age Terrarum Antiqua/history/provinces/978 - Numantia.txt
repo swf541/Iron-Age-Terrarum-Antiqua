@@ -5,11 +5,7 @@ title = c_numantia
 
 # Settlements
 max_settlements = 5
-b_numantia_numantia = castle
-b_okalakom_numantia = castle
-b_tabaniu_numantia = city
-b_bursau_numantia = city
-b_terkakom_numantia = temple
+b_numantia_numantia = tribal
 
 # Misc
 culture = celtiberian

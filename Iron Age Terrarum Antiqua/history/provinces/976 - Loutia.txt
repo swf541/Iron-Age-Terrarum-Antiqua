@@ -5,8 +5,7 @@ title = c_loutia
 
 # Settlements
 max_settlements = 2
-b_lutiakos_loutia = castle
-b_aratikos_loutia = temple
+b_lutiakos_loutia = tribal
 
 # Misc
 culture = celtiberian

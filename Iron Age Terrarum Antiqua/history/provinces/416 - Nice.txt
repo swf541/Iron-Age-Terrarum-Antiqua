@@ -5,10 +5,7 @@ title = c_nice
 
 # Settlements
 max_settlements = 4
-b_nice_nice = castle
-b_heracles_monoikos_nice = temple
-b_antipolis_nice = city
-b_navelis_nice = castle
+b_nice_nice = tribal
 
 # Misc
 culture = gaul
@@ -19,4 +16,8 @@ religion = celtic_pagan
 476.1.1 = { # 300 BC	
 	culture = ionian
 	religion = hellenic_pagan
+	b_nice_nice = castle
+	b_heracles_monoikos_nice = temple
+	b_antipolis_nice = city
+	b_navelis_nice = castle
 }

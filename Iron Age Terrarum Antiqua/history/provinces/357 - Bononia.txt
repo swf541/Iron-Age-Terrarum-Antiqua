@@ -5,15 +5,7 @@ title = c_bononia # for example c_corinth
 
 # Settlements
 max_settlements = 6 # Should be reevaluated
-b_bononia_bononia = castle
-b_mutina_bononia = temple
-b_campi_bononia = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_bononia_bononia = tribal
 
 # Misc
 culture = gaul

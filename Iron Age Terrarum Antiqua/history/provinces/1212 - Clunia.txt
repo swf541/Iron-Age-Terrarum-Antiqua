@@ -5,8 +5,7 @@ title = c_klunia
 
 # Settlements
 max_settlements = 2
-b_kolounioku_klunia = castle
-b_letaisama_klunia = city
+b_kolounioku_klunia = tribal
 
 
 # Misc

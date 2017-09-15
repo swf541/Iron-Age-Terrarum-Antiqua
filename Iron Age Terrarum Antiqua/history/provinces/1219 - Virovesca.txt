@@ -5,8 +5,7 @@ title = c_virovesca
 
 # Settlements
 max_settlements = 2
-b_virovesca_virovesca= castle
-b_sekobirikes_virovesca = castle
+b_virovesca_virovesca = tribal
 
 # Misc
 culture = celtiberian

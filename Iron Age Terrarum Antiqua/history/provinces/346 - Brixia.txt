@@ -5,15 +5,7 @@ title = c_brixia # for example c_corinth
 
 # Settlements
 max_settlements = 6 # Should be reevaluated
-b_brixia_brixia = castle
-b_bergomum_brixia = city
-b_spina_brixia = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_brixia_brixia = tribal
 
 # Misc
 culture = gaul

@@ -5,9 +5,7 @@ title = c_segustero
 
 # Settlements
 max_settlements = 3
-b_segustero_segustero = castle
-b_mons_seleucus_segustero = temple
-b_noiomagos_segustero = castle
+b_segustero_segustero = tribal
 
 # Misc
 culture = gaul

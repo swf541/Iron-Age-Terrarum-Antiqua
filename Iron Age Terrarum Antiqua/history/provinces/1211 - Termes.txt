@@ -5,8 +5,7 @@ title = c_termes
 
 # Settlements
 max_settlements = 2
-b_termes_termes = castle
-b_sekotias_termes = city
+b_termes_termes = tribal
 
 # Misc
 culture = celtiberian

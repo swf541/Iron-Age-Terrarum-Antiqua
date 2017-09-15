@@ -5,9 +5,7 @@ title = c_mursa
 
 # Settlements
 max_settlements = 3
-b_mursa_mursa = castle
-b_mursella_mursa = city
-b_donatlanis_mursa = temple
+b_mursa_mursa = tribal
 
 # Misc
 culture = illyrian

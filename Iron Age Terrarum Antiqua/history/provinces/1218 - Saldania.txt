@@ -5,8 +5,7 @@ title = c_saldania
 
 # Settlements
 max_settlements = 2
-b_saldania_saldania= castle
-b_morecanodounon_saldania = city
+b_saldania_saldania = tribal
 
 # Misc
 culture = celtiberian

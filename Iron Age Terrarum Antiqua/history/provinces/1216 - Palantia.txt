@@ -5,7 +5,7 @@ title = c_palantia
 
 # Settlements
 max_settlements = 1
-b_palantia_palantia= castle
+b_palantia_palantia = tribal
 
 # Misc
 culture = celtiberian
