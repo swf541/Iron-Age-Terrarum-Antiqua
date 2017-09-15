@@ -38,3 +38,21 @@ d_zun_pagan_reformed;The Cult of Zun;;;;;;;;;x
 d_darkhan_knights;The Darkhan Knights;;;;;;;;;x 
 d_guardians_nyame;The Guardians of Nyame;;;;;;;;;x 
 GOD_NYAME;Nyame;;;;;;;;;x 
+patrons_gre;Select Patron Deity;;;;;;;;;x
+patrons_gre_desc;Select Patron Deity;;;;;;;;;x
+patron_zeus;Patronizes Zeus;;;;;;;;;x
+patron_ares;Patronizes Ares;;;;;;;;;x
+patron_hades;Patronizes Hades;;;;;;;;;x
+patron_hermes;Patronizes Hermes;;;;;;;;;x
+patron_athena;Patronizes Athena;;;;;;;;;x
+patron_aphrodite;Patronizes Aphrodite;;;;;;;;;x
+PATRONS_GRE.1.desc;Select Patron Deity;;;;;;;x
+PATRONS_GRE.1.a;Zeus;;;;;;x
+PATRONS_GRE.1.b;Ares;;;;;;x
+PATRONS_GRE.1.c;Hades;;;;;x
+PATRONS_GRE.1.d;There are other choices as well;;;;;;x
+PATRONS_GRE.2.desc;Select A Pagan Deity;;;;;;x
+PATRONS_GRE.2.a;Hermes;;;;;;x
+PATRONS_GRE.2.b;Athena;;;;;;x
+PATRONS_GRE.2.c;Aphrodite;;;;;;x
+PATRONS_GRE.2.d;What were my previous choices?;;;;;;x

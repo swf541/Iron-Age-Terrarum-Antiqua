@@ -1,0 +1,33 @@
+#HELLENIC
+
+patron_zeus = {
+	icon = 43
+	diplomacy = 1
+	intrigue = -1
+}
+patron_ares = {
+	icon = 43
+	martial = 1
+	learning = -1
+}
+patron_hades = {
+	icon = 43
+	intrigue = 1
+	diplomacy = -1
+}
+patron_hermes = {
+	icon = 43
+	health = 1
+	stewardship = 1
+	martial = -1
+}
+patron_athena = {
+	icon = 43
+	learning = 1
+	stewardship = -1
+}
+patron_aphrodite = {
+	icon = 43
+	fertility = 0.1
+	general_opinion = 5
+}
