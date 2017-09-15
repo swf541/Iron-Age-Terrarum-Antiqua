@@ -495,3 +495,19 @@
 		}
 	}
 }
+
+20027 = {
+	name = "Areios II" # Areus I, Agiad king of Sparta
+	dynasty = 2001 # Agiadai
+	religion = hellenic_pagan
+	culture = doric
+
+	father = 20026
+
+	494.1.1 = { # Made up
+		birth="yes" # 512 reign began BC
+	}
+	522.1.1 = {
+		death="yes" # 265 BC
+	}
+}
