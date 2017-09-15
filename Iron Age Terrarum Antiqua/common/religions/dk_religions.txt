@@ -1615,10 +1615,10 @@ mesopotamian_religion = {
 		crusade_name = "GREAT_HOLY_WAR"
 		scripture_name = THE_STELES
 
-		high_god_name = Inshushinak	
+		high_god_name = GOD_INKSHUSHINAK	
 		
 		god_names = {
-			GOD_Inshushinak GOD_Pinikir GOD_Kiririsha GOD_Khumban GOD_Shimut GOD_Manzat GOD_Nāhunte GOD_Jabru GOD_Parti
+			GOD_INKSHUSHINAK GOD_PINIKIR GOD_KIRIRISHA GOD_KHUMBAN GOD_SHIMUT GOD_MANZAT GOD_NAHUNTE GOD_JABRU GOD_PARTI
 		}
 
 		evil_god_names = {
@@ -1667,10 +1667,10 @@ mesopotamian_religion = {
 		scripture_name = THE_STELES
 		
 
-		high_god_name = GOD_Inshushinak	
+		high_god_name = GOD_INKSHUSHINAK	
 		
 		god_names = {
-			GOD_Inshushinak GOD_Pinikir GOD_Kiririsha GOD_Khumban GOD_Shimut GOD_Manzat GOD_Nāhunte GOD_Jabru GOD_Parti
+			GOD_INKSHUSHINAK GOD_PINIKIR GOD_KIRIRISHA GOD_KHUMBAN GOD_SHIMUT GOD_MANZAT GOD_NAHUNTE GOD_JABRU GOD_PARTI
 		}
 
 		evil_god_names = {
