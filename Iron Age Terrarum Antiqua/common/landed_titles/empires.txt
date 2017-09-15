@@ -820,14 +820,14 @@ e_persia = {
 			parthian = Baxtrish
 			median = Baxtrish
 			arian = Baxtrish
-						
-			holy_site = zoroastrian
-			holy_site = armenian_pagan
-			holy_site = zurvanite
 		
 			c_bactra = {
 				color= { 175 0 50 }
 				color2= { 255 255 255 }
+
+				holy_site = zoroastrian
+				holy_site = armenian_pagan
+				holy_site = zurvanite
 			
 				b_bactra_bactra = {
 				}
