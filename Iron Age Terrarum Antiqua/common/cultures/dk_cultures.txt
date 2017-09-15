@@ -61,8 +61,6 @@ thracian_group = {
 	
 		modifier = thracian_culture_modifier
 	}
-}
-illyrian_group = {
 	illyrian = {
 		graphical_cultures = { byzantinegfx }
   
@@ -100,9 +98,9 @@ illyrian_group = {
 		from_dynasty_prefix = "of "
     
 		modifier = illyrian_culture_modifier
-	}
+	}	
 }
-celtic = {
+gallic = {
 	ligurian = {
 		graphical_cultures = { celticgfx }
   
@@ -145,6 +143,8 @@ celtic = {
 		dynasty_title_names = yes
 		modifier = celtic_culture_modifier
 	}
+}
+celtiberian_group = {
 	celtiberian = {
 		graphical_cultures = { celticgfx }
   
@@ -199,40 +199,7 @@ celtic = {
 		modifier = celtic_culture_modifier
 	}
 }
-levantine_group = { 
-	punic = {
-		graphical_cultures = { muslimgfx  }
-  
-		color = { 0.6 0.6 1 }
-
-		male_names = {
-			Abdashmon Abdenna Abdeshmun Abdimilki Abdmelqart Abdmilkot Abdosir Abdshed 
-			Abdshesm Abdusmun Abdzaphon Aderbaal Admagon Adonibaal Ahimilk Ahiram 
-			Ahotmilk Akbar Annobaal Anobaal Aqhat Ashdabor Ashtartyaton Ashtzaph 
-			Azrubaal Baalfadi Baalhanno Baalshillek Baalyaton Baraket Binmilqart Bodashtart 
-			Bodeshmun Bodinelqart Bodmelqart Bodtanit Bostar Danel_Daniel Eshmunamash Eshmunazar 
-			Eshmunkhilletz Eshmunshalokh Germelqart Hamilket Hamon Hannibaal Hanno Hasdrubaal Hiram 
-			Kanmi Khamelqart Khilletzbaal Khimilkât Magon Maharbaal Melqartpilles Menahilim 
-			Milkherem Milkpilles Milkyaton Mithonbaal Philosir Pimyaton Rib-Addi Sakarbaal 
-			Shafat Tabnit Tanubda Yaroah Yehawwielon Yutpan Zimrida
-		}
-		female_names = {
-			Abdosir Abdtanit Amatashtart Amatbaal Amma Ammobaal Amotmilqart Arashtibaal 
-			Arisha Arishat Arishot Arshut Ashdanot Ashdonbaal Ashmonrabti Astarte 
-			Azibal Barkitbaal Batnoam Birkana Birkanda Bisha Bitnima Demna 
-			Domina Elissa Emeshmun Hannah Imashmon Imashtart Mitunbaal Muttunbaal 
-			Pawly Quarta Saphanbaal Septy Shiba Sisa Ummashtart Yasha 
-			Zibqet        
-		}
-  
-		founder_named_dynasties = yes
-
-		male_patronym = "bin "
-		female_patronym = "bitt "
-		prefix = yes
-  
-		modifier = punic_culture_modifier
-	} 
+israelite_group {
 	israelite = {
 		graphical_cultures = { muslimgfx }
   
@@ -279,25 +246,43 @@ levantine_group = {
     
 		modifier = near_eastern_culture_modifier
 	}
-	nabataean = {
-		graphical_cultures = { muslimgfx }
+}	
+levantine_group = { 
+	punic = {
+		graphical_cultures = { muslimgfx  }
   
-		color = { 0.8 0.6 0 }
+		color = { 0.6 0.6 1 }
 
 		male_names = {
-			Abd'allah_Abd'allah Abd-Dushara_Abd-Dushara Adnun_Adnun Amat_Amat Aush'allah_Aush'allah Ausos_Ausos Cain_Cain Dani'el_Daniel 
-			Garm'alba'ali_Garm'alba'ali Hana_Hana Paran_Paran Rav'el_Rav'el Thaim'alba'ali_Thaim'alba'ali Tym-Dushara_Tym-Dushara Ushba'al_Ushba'al Wadal-L'el_Wadal-L'el 
-			Wahab-Allah_Wahab-Allah Waqi'ha'el_Waqi'ha'el Zabin_Zabin        
+			Abdashmon Abdenna Abdeshmun Abdimilki Abdmelqart Abdmilkot Abdosir Abdshed 
+			Abdshesm Abdusmun Abdzaphon Aderbaal Admagon Adonibaal Ahimilk Ahiram 
+			Ahotmilk Akbar Annobaal Anobaal Aqhat Ashdabor Ashtartyaton Ashtzaph 
+			Azrubaal Baalfadi Baalhanno Baalshillek Baalyaton Baraket Binmilqart Bodashtart 
+			Bodeshmun Bodinelqart Bodmelqart Bodtanit Bostar Danel_Daniel Eshmunamash Eshmunazar 
+			Eshmunkhilletz Eshmunshalokh Germelqart Hamilket Hamon Hannibaal Hanno Hasdrubaal Hiram 
+			Kanmi Khamelqart Khilletzbaal Khimilkât Magon Maharbaal Melqartpilles Menahilim 
+			Milkherem Milkpilles Milkyaton Mithonbaal Philosir Pimyaton Rib-Addi Sakarbaal 
+			Shafat Tabnit Tanubda Yaroah Yehawwielon Yutpan Zimrida
 		}
 		female_names = {
-			Amat'allahi_Amat'allahi Ammayu_Ammayu Aphityu_Aphityu Gamilat_Gamilat Hab-Allahi_Hab-Allahi Haganu_Haganu Hagru_Hagru Han-Allahi_Han-Allahi 
-			Huldu_Huldu Kalbu_Kalbu Nashgu_Nashgu Shalm-Lahi_Shalm-Lahi Shaqilat_Shaqilat Shumrahu_Shumrahu Walu_Walu Waqilu_Waqilu 
+			Abdosir Abdtanit Amatashtart Amatbaal Amma Ammobaal Amotmilqart Arashtibaal 
+			Arisha Arishat Arishot Arshut Ashdanot Ashdonbaal Ashmonrabti Astarte 
+			Azibal Barkitbaal Batnoam Birkana Birkanda Bisha Bitnima Demna 
+			Domina Elissa Emeshmun Hannah Imashmon Imashtart Mitunbaal Muttunbaal 
+			Pawly Quarta Saphanbaal Septy Shiba Sisa Ummashtart Yasha 
+			Zibqet        
 		}
   
-		from_dynasty_prefix = "of "
-    
-		modifier = arabic_culture_modifier
-	}
+		founder_named_dynasties = yes
+
+		male_patronym = "bin "
+		female_patronym = "bitt "
+		prefix = yes
+  
+		modifier = punic_culture_modifier
+	} 
+}
+mesopotamian_group = {
 	aramaic = {
 		graphical_cultures = { muslimgfx }
   
@@ -347,6 +332,8 @@ levantine_group = {
     
 		modifier = near_eastern_culture_modifier
 	}
+}
+arabic_group = {
 	arabic = {
 		graphical_cultures = { muslimgfx }
 		
@@ -366,7 +353,31 @@ levantine_group = {
     
 		modifier = arabic_culture_modifier
 	}
+	nabataean = {
+		graphical_cultures = { muslimgfx }
+  
+		color = { 0.8 0.6 0 }
+
+		male_names = {
+			Abd'allah_Abd'allah Abd-Dushara_Abd-Dushara Adnun_Adnun Amat_Amat Aush'allah_Aush'allah Ausos_Ausos Cain_Cain Dani'el_Daniel 
+			Garm'alba'ali_Garm'alba'ali Hana_Hana Paran_Paran Rav'el_Rav'el Thaim'alba'ali_Thaim'alba'ali Tym-Dushara_Tym-Dushara Ushba'al_Ushba'al Wadal-L'el_Wadal-L'el 
+			Wahab-Allah_Wahab-Allah Waqi'ha'el_Waqi'ha'el Zabin_Zabin        
+		}
+		female_names = {
+			Amat'allahi_Amat'allahi Ammayu_Ammayu Aphityu_Aphityu Gamilat_Gamilat Hab-Allahi_Hab-Allahi Haganu_Haganu Hagru_Hagru Han-Allahi_Han-Allahi 
+			Huldu_Huldu Kalbu_Kalbu Nashgu_Nashgu Shalm-Lahi_Shalm-Lahi Shaqilat_Shaqilat Shumrahu_Shumrahu Walu_Walu Waqilu_Waqilu 
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = arabic_culture_modifier
+	}	
 }
+
+south_semitic_group = {
+}
+
+
 anatolian_group = {
 	luwian = {
 		graphical_cultures = { byzantinegfx }

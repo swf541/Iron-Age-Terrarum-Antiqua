@@ -33,7 +33,6 @@ egyptian_religion = {
 		intermarry = berber_main
 		
 		intermarry = illyrian_main
-		
 		intermarry = thracian_main
 		intermarry = zalmoxism
 		
@@ -208,7 +207,7 @@ north_african_religion = {
 		intermarry = dravidian_main
 	}
 }
-illyrian_religion = {
+daco_thracian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade # Should be changed or removed entirely
@@ -216,7 +215,7 @@ illyrian_religion = {
 	
 	ai_convert_same_group = 1 # never try to convert
 	ai_convert_other_group = 1 # never try to convert
-	
+
 	illyrian_main = {
 		graphical_culture = westerngfx
 
@@ -281,15 +280,6 @@ illyrian_religion = {
 						
 		intermarry = dravidian_main
 	}
-}
-daco_thracian_religion = {
-	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
-	playable = yes
-	
-	ai_convert_same_group = 1 # never try to convert
-	ai_convert_other_group = 1 # never try to convert
 	
 	thracian_main = {
 		graphical_culture = westerngfx
@@ -747,6 +737,120 @@ punic_religion = {
 		allow_in_ruler_designer = no		
 	}
 }
+
+indo-iranian_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 1 # never try to convert
+	ai_convert_other_group = 1 # never try to convert
+	
+	ossetian_pagan_reformed = {
+		graphical_culture = mongolgfx
+
+		icon = 110
+		heresy_icon = 185
+		
+		color = { 0.8 0.65 0.8 }
+		
+		unit_modifier = {
+			levy_size = 0.15
+			retinuesize_perc = 0.10
+			
+			key = "OFF_RELIGION"
+		}
+		
+		allow_looting = yes
+		max_consorts = 3
+		
+		short_reign_opinion_year_mult = 3 # The default is 2
+		
+		aggression = 2.0 # AI aggression factor
+		
+		crusade_name = "HOLY_WAR"
+		
+		high_god_name = GOD_XUCAU
+		god_names = {
+			GOD_XUCAU GOD_UASTYRDZHI GOD_UACILLA
+			GOD_DONBETTYR  GOD_FÆLVÆRA 
+			GOD_ÆFSATI  GOD_BARASTYR 
+			GOD_HUYÆNDON_ÆLDAR  GOD_TUTYR
+		}
+		evil_god_names = {
+			GOD_SAUBARAG  GOD_ALARDY
+		}
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_NART_SAGAS
+		priests_can_marry = yes
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+		
+		intermarry = zoroastrian_group
+	}
+	
+	ossetian_pagan = {
+		graphical_culture = mongolgfx
+
+		icon = 110
+		heresy_icon = 185
+		
+		color = { 0.75 0.6 0.75 }
+		
+		unit_modifier = {
+			levy_size = 0.15
+			retinuesize_perc = 0.10
+			
+			key = "OFF_RELIGION"
+		}
+		
+		allow_looting = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		max_consorts = 3
+		reformed = ossetian_pagan_reformed
+		
+		short_reign_opinion_year_mult = 3 # The default is 2
+		
+		aggression = 2.0 # AI aggression factor
+		
+		crusade_name = "HOLY_WAR"
+		
+		high_god_name = GOD_XUCAU
+		god_names = {
+			GOD_XUCAU GOD_UASTYRDZHI GOD_UACILLA
+			GOD_DONBETTYR  GOD_FÆLVÆRA 
+			GOD_ÆFSATI  GOD_BARASTYR 
+			GOD_HUYÆNDON_ÆLDAR  GOD_TUTYR
+		}
+		evil_god_names = {
+			GOD_SAUBARAG  GOD_ALARDY
+		}
+		
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_NART_SAGAS
+		priests_can_marry = yes
+		
+		dislike_tribal_organization = yes
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+		
+		intermarry = zoroastrian_group
+	}
+}	
+	
+
 zoroastrian_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
@@ -874,167 +978,6 @@ zoroastrian_group = {
 						
 		intermarry = dravidian_main
 	}
-	
-	ossetian_pagan_reformed = {
-		graphical_culture = mongolgfx
-
-		icon = 110
-		heresy_icon = 185
-		
-		color = { 0.8 0.65 0.8 }
-		
-		unit_modifier = {
-			levy_size = 0.15
-			retinuesize_perc = 0.10
-			
-			key = "OFF_RELIGION"
-		}
-		
-		allow_looting = yes
-		max_consorts = 3
-		
-		short_reign_opinion_year_mult = 3 # The default is 2
-		
-		aggression = 2.0 # AI aggression factor
-		
-		crusade_name = "HOLY_WAR"
-		
-		high_god_name = GOD_XUCAU
-		god_names = {
-			GOD_XUCAU GOD_UASTYRDZHI GOD_UACILLA
-			GOD_DONBETTYR  GOD_FÆLVÆRA 
-			GOD_ÆFSATI  GOD_BARASTYR 
-			GOD_HUYÆNDON_ÆLDAR  GOD_TUTYR
-		}
-		evil_god_names = {
-			GOD_SAUBARAG  GOD_ALARDY
-		}
-		investiture = no
-		can_excommunicate = no
-		can_grant_divorce = yes
-		can_grant_claim = no
-		can_call_crusade = no
-		scripture_name = THE_NART_SAGAS
-		priests_can_marry = yes
-		
-		religious_clothing_head = 6
-		religious_clothing_priest = 4
-		
-		intermarry = zoroastrian_group
-	}
-	
-	ossetian_pagan = {
-		graphical_culture = mongolgfx
-
-		icon = 110
-		heresy_icon = 185
-		
-		color = { 0.75 0.6 0.75 }
-		
-		unit_modifier = {
-			levy_size = 0.15
-			retinuesize_perc = 0.10
-			
-			key = "OFF_RELIGION"
-		}
-		
-		allow_looting = yes
-		peace_prestige_loss = yes # Lose Prestige while at peace
-		raised_vassal_opinion_loss = no
-		max_consorts = 3
-		reformed = ossetian_pagan_reformed
-		
-		short_reign_opinion_year_mult = 3 # The default is 2
-		
-		aggression = 2.0 # AI aggression factor
-		
-		crusade_name = "HOLY_WAR"
-		
-		high_god_name = GOD_XUCAU
-		god_names = {
-			GOD_XUCAU GOD_UASTYRDZHI GOD_UACILLA
-			GOD_DONBETTYR  GOD_FÆLVÆRA 
-			GOD_ÆFSATI  GOD_BARASTYR 
-			GOD_HUYÆNDON_ÆLDAR  GOD_TUTYR
-		}
-		evil_god_names = {
-			GOD_SAUBARAG  GOD_ALARDY
-		}
-		
-		investiture = no
-		can_excommunicate = no
-		can_grant_divorce = yes
-		can_grant_claim = no
-		can_call_crusade = no
-		scripture_name = THE_NART_SAGAS
-		priests_can_marry = yes
-		
-		dislike_tribal_organization = yes
-		
-		religious_clothing_head = 6
-		religious_clothing_priest = 4
-		
-		intermarry = zoroastrian_group
-	}
-
-	hindu = {
-		graphical_culture = westerngfx
-		icon = 55
-		color = { 0.4 0.9 0.0 }
-		crusade_name = "CRUSADE"
-		scripture_name = THE_VEDAS
-		god_names = {
-			GOD_INDRA GOD_AGNI GOD_SOMA GOD_MITRA GOD_USHAS
-		}
-		can_grant_divorce = yes
-		can_call_crusade = no
-		priests_can_marry = yes
-		
-		max_consorts = 3
-		
-		intermarry = egyptian_pagan	
-		intermarry = atenist
-		
-		intermarry = berber_main
-		
-		intermarry = illyrian_main
-		
-		intermarry = thracian_main
-		intermarry = zalmoxism
-		
-		intermarry = celtic_pagan
-		
-		intermarry = punic_main
-		intermarry = canaanite_pagan	
-		
-		#intermarry = zoroastrian
-		#intermarry = zurvanite
-		#intermarry = ossetian_pagan
-		#intermarry = hindu
-		#intermarry = armenian_pagan	
-		
-		#intermarry = jewish	
-		
-		intermarry = jain
-		intermarry = buddhist
-		
-		intermarry = georgian_pagan	
-		
-		intermarry = anatolian_main
-		intermarry = phrygian_main
-		
-		intermarry = marduk_cult	
-		
-		intermarry = arabic_main
-		
-		intermarry = hellenic_pagan
-		intermarry = roman_main
-		intermarry = pontic_main
-								
-		#intermarry = etruscan_main	
-						
-		intermarry = dravidian_main
-	}
 	armenian_pagan = {
 		graphical_culture = westerngfx
 		icon = 88
@@ -1108,7 +1051,8 @@ zoroastrian_group = {
 		religious_clothing_priest = 5
 
 		allow_in_ruler_designer = no
-	}		
+	}			
+	
 }
 jewish_group = {
 	has_coa_on_barony_only = yes
@@ -1179,6 +1123,65 @@ indian_religion = {
 	
 	ai_convert_same_group = 1 # never try to convert
 	ai_convert_other_group = 1 # never try to convert
+
+	hindu = {
+		graphical_culture = westerngfx
+		icon = 55
+		color = { 0.4 0.9 0.0 }
+		crusade_name = "CRUSADE"
+		scripture_name = THE_VEDAS
+		god_names = {
+			GOD_INDRA GOD_AGNI GOD_SOMA GOD_MITRA GOD_USHAS
+		}
+		can_grant_divorce = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		
+		max_consorts = 3
+		
+		intermarry = egyptian_pagan	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_pagan
+		
+		intermarry = punic_main
+		intermarry = canaanite_pagan	
+		
+		#intermarry = zoroastrian
+		#intermarry = zurvanite
+		#intermarry = ossetian_pagan
+		#intermarry = hindu
+		#intermarry = armenian_pagan	
+		
+		#intermarry = jewish	
+		
+		intermarry = jain
+		intermarry = buddhist
+		
+		intermarry = georgian_pagan	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = hellenic_pagan
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
 	
 	jain = {
 		graphical_culture = westerngfx
