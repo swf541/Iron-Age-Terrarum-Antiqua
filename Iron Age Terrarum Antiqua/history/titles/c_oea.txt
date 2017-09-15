@@ -11,3 +11,7 @@
 467.1.1 = { # 309 BC
 	holder = 250102 # Bomilcar
 }
+500.1.1 = {
+	holder = 250004
+	liege = k_carthage
+}

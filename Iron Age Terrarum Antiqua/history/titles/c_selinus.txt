@@ -8,3 +8,7 @@
 450.1.1 = { # 326 BC
 	holder = 52201
 }
+500.1.1 = {
+	holder = 250004
+	liege = k_carthage
+}

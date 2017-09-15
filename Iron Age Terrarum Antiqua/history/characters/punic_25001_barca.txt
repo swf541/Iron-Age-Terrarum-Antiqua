@@ -37,3 +37,15 @@
 		death="yes" # 325 BC Made Up
 	}
 }
+250004 = {
+	name = "Hamilcar"
+	dynasty = 25001 # Barca
+	religion = punic_main
+	culture = punic
+	495.1.1 = { 
+		birth="yes" # 384 BC Made Up
+	}
+	548.1.1 = { 
+		death="yes" # 325 BC Made Up
+	}
+}

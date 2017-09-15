@@ -7,3 +7,6 @@
 483.1.1 = { # 303 BC
 	holder = 160102 # Pampo
 }
+500.1.1 = {
+	liege = k_rome
+}

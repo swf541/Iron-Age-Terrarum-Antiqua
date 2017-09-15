@@ -41,3 +41,40 @@
 		death="yes"
 	}
 }
+250404 = {
+	name = "Azrubaal"
+	dynasty = 2048
+	religion = punic_main
+	culture = punic
+	493.1.1 = { 
+		birth="yes" # 384 BC Made Up
+	}
+	548.1.1 = { 
+		death="yes" # 325 BC Made Up
+	}
+}
+
+250405 = {
+	name = "Milkyaton"
+	dynasty = 2049
+	religion = punic_main
+	culture = punic
+	497.1.1 = { 
+		birth="yes" # 384 BC Made Up
+	}
+	548.1.1 = { 
+		death="yes" # 325 BC Made Up
+	}
+}
+250406 = {
+	name = "Lucius" 
+	dynasty = 17024 
+	religion = roman_main
+	culture = latin
+	476.1.1 = { 
+		birth="yes" 
+	}
+	558.1.1 = { 
+		death="yes"
+	}
+}

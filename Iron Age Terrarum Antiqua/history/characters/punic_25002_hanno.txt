@@ -54,3 +54,20 @@
 		death="yes"
 	}
 }
+
+250105 = {
+	name = "Hanno II" # Hanno The Great, King of Carthage 340-337 BC
+	dynasty = 25002 # Hanno 
+	religion = punic_main
+	culture = punic
+	
+	add_trait = ambitious
+	add_trait = greedy
+	
+	470.1.1 = { # Made up
+		birth="yes" # 
+	}
+	555.1.1 = { # Made up
+		death="yes" 
+	}
+}

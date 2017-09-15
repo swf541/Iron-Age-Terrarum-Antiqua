@@ -196,3 +196,17 @@
 	name = "Astakioi"
 	culture = doric
 }
+2047 = {
+	name = "Hieroni"
+	culture = doric
+}
+2048 = {
+	name = "Grisco"
+	culture = punic
+}
+2049 = {
+	name = "Magonid"
+	culture = punic
+}
+
+

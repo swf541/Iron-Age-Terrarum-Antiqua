@@ -1007,3 +1007,11 @@ b_dido = {
 	culture = punic
 	religion = punic_main
 }
+b_grisco = {
+	culture = punic
+	religion = punic_main
+}
+b_magonid = {
+	culture = punic
+	religion = punic_main
+}
