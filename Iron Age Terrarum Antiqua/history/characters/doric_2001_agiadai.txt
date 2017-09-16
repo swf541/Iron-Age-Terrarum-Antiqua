@@ -176,8 +176,8 @@
 
 	father = 20009
 
-	add_trait fair
-	add_trait tough_soldier
+	add_trait = fair
+	add_trait = tough_soldier
 
 	261.1.1 = { # 515 BC, made up
 		birth="yes" 
