@@ -63,3 +63,16 @@
 		death="yes" # 340 BC
 	}
 }
+150006 = {
+	name = "Leon" # King of Paeonia
+	dynasty = 15001 # Agis
+	religion = illyrian_main
+	culture = paeonian
+	father = 150003
+	480.1.1 = { # Made up
+		birth="yes" # 314 BC
+	}
+	526.1.1 = {
+		death="yes" 
+	}
+}

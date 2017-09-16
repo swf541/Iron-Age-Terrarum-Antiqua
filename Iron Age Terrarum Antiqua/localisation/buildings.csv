@@ -394,3 +394,168 @@ fp_tomb_3;Mausoleum;;;;;;;;;;;;;x
 fp_temple_1;Sacred Enclosure;;;;;;;;;;;;;x
 fp_temple_2;Shrine;;;;;;;;;;;;;x
 fp_temple_3;Temple;;;;;;;;;;;;;x
+tb_stan_levy_1;Standard Levy;;;;;;;;;;;;;x
+tb_stan_levy_2;Standard Levy;;;;;;;;;;;;;x
+tb_stan_levy_3;Standard Levy;;;;;;;;;;;;;x
+tb_stan_levy_4;Standard Levy;;;;;;;;;;;;;x
+tb_stan_levy_5;Standard Levy;;;;;;;;;;;;;x
+tb_thrac_levy_1;Thracian Regional Levy;;;;;;;;;;;;;x
+tb_thrac_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_thrac_levy_2;Thracian Regional Levy;;;;;;;;;;;;;x
+tb_thrac_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_thrac_levy_3;Thracian Regional Levy;;;;;;;;;;;;;x
+tb_thrac_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_thrac_levy_4;Thracian Regional Levy;;;;;;;;;;;;;x
+tb_thrac_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_thrac_levy_5;Thracian Regional Levy;;;;;;;;;;;;;x
+tb_thrac_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_anat_levy_1;Anatolian Regional Levy;;;;;;;;;;;;;x
+tb_anat_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_anat_levy_2;Anatolian Regional Levy;;;;;;;;;;;;;x
+tb_anat_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_anat_levy_3;Anatolian Regional Levy;;;;;;;;;;;;;x
+tb_anat_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_anat_levy_4;Anatolian Regional Levy;;;;;;;;;;;;;x
+tb_anat_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_anat_levy_5;Anatolian Regional Levy;;;;;;;;;;;;;x
+tb_anat_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_illyr_levy_1;Illyrian Regional Levy;;;;;;;;;;;;;x
+tb_illyr_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_illyr_levy_2;Illyrian Regional Levy;;;;;;;;;;;;;x
+tb_illyr_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_illyr_levy_3;Illyrian Regional Levy;;;;;;;;;;;;;x
+tb_illyr_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_illyr_levy_4;Illyrian Regional Levy;;;;;;;;;;;;;x
+tb_illyr_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_illyr_levy_5;Illyrian Regional Levy;;;;;;;;;;;;;x
+tb_illyr_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_celt_levy_1;Celtic Regional Levy;;;;;;;;;;;;;x
+tb_celt_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_celt_levy_2;Celtic Regional Levy;;;;;;;;;;;;;x
+tb_celt_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_celt_levy_3;Celtic Regional Levy;;;;;;;;;;;;;x
+tb_celt_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_celt_levy_4;Celtic Regional Levy;;;;;;;;;;;;;x
+tb_celt_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_celt_levy_5;Celtic Regional Levy;;;;;;;;;;;;;x
+tb_celt_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_punic_levy_1;Punic Regional Levy;;;;;;;;;;;;;x
+tb_punic_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_punic_levy_2;Punic Regional Levy;;;;;;;;;;;;;x
+tb_punic_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_punic_levy_3;Punic Regional Levy;;;;;;;;;;;;;x
+tb_punic_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_punic_levy_4;Punic Regional Levy;;;;;;;;;;;;;x
+tb_punic_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_punic_levy_5;Punic Regional Levy;;;;;;;;;;;;;x
+tb_punic_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_near_levy_1;Near Eastern Regional Levy;;;;;;;;;;;;;x
+tb_near_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_near_levy_2;Near Eastern Regional Levy;;;;;;;;;;;;;x
+tb_near_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_near_levy_3;Near Eastern Regional Levy;;;;;;;;;;;;;x
+tb_near_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_near_levy_4;Near Eastern Regional Levy;;;;;;;;;;;;;x
+tb_near_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_near_levy_5;Near Eastern Regional Levy;;;;;;;;;;;;;x
+tb_near_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_arab_levy_1;Arabic Regional Levy;;;;;;;;;;;;;x
+tb_arab_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_arab_levy_2;Arabic Regional Levy;;;;;;;;;;;;;x
+tb_arab_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_arab_levy_3;Arabic Regional Levy;;;;;;;;;;;;;x
+tb_arab_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_arab_levy_4;Arabic Regional Levy;;;;;;;;;;;;;x
+tb_arab_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_arab_levy_5;Arabic Regional Levy;;;;;;;;;;;;;x
+tb_arab_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_afric_levy_1;African Regional Levy;;;;;;;;;;;;;x
+tb_afric_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_afric_levy_2;African Regional Levy;;;;;;;;;;;;;x
+tb_afric_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_afric_levy_3;African Regional Levy;;;;;;;;;;;;;x
+tb_afric_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_afric_levy_4;African Regional Levy;;;;;;;;;;;;;x
+tb_afric_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_afric_levy_5;African Regional Levy;;;;;;;;;;;;;x
+tb_afric_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iran_levy_1;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+tb_iran_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iran_levy_2;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+tb_iran_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iran_levy_3;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+tb_iran_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iran_levy_4;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+tb_iran_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iran_levy_5;Settled Iranian Regional Levy;;;;;;;;;;;;;x
+tb_iran_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_steppe_levy_1;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+tb_steppe_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_steppe_levy_2;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+tb_steppe_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_steppe_levy_3;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+tb_steppe_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_steppe_levy_4;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+tb_steppe_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_steppe_levy_5;Nomadic Iranian Regional Levy;;;;;;;;;;;;;x
+tb_steppe_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_india_levy_1;Indian Regional Levy;;;;;;;;;;;;;x
+tb_india_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_india_levy_2;Indian Regional Levy;;;;;;;;;;;;;x
+tb_india_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_india_levy_3;Indian Regional Levy;;;;;;;;;;;;;x
+tb_india_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_india_levy_4;Indian Regional Levy;;;;;;;;;;;;;x
+tb_india_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_india_levy_5;Indian Regional Levy;;;;;;;;;;;;;x
+tb_india_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_greek_levy_1;Hellenic Regional Levy;;;;;;;;;;;;;x
+tb_greek_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_greek_levy_2;Hellenic Regional Levy;;;;;;;;;;;;;x
+tb_greek_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_greek_levy_3;Hellenic Regional Levy;;;;;;;;;;;;;x
+tb_greek_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_greek_levy_4;Hellenic Regional Levy;;;;;;;;;;;;;x
+tb_greek_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_greek_levy_5;Hellenic Regional Levy;;;;;;;;;;;;;x
+tb_greek_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_italy_levy_1;Italic Regional Levy;;;;;;;;;;;;;x
+tb_italy_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_italy_levy_2;Italic Regional Levy;;;;;;;;;;;;;x
+tb_italy_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_italy_levy_3;Italic Regional Levy;;;;;;;;;;;;;x
+tb_italy_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_italy_levy_4;Italic Regional Levy;;;;;;;;;;;;;x
+tb_italy_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_italy_levy_5;Italic Regional Levy;;;;;;;;;;;;;x
+tb_italy_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_tyrh_levy_1;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+tb_tyrh_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_tyrh_levy_2;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+tb_tyrh_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_tyrh_levy_3;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+tb_tyrh_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_tyrh_levy_4;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+tb_tyrh_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_tyrh_levy_5;Tyrhenian Regional Levy;;;;;;;;;;;;;x
+tb_tyrh_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_grepe_levy_1;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+tb_grepe_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_grepe_levy_2;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+tb_grepe_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_grepe_levy_3;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+tb_grepe_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_grepe_levy_4;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+tb_grepe_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_grepe_levy_5;Greco-Persian Regional Levy;;;;;;;;;;;;;x
+tb_grepe_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iberian_levy_1;Iberian Regional Levy;;;;;;;;;;;;;x
+tb_iberian_levy_1_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iberian_levy_2;Iberian Regional Levy;;;;;;;;;;;;;x
+tb_iberian_levy_2_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iberian_levy_3;Iberian Regional Levy;;;;;;;;;;;;;x
+tb_iberian_levy_3_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iberian_levy_4;Iberian Regional Levy;;;;;;;;;;;;;x
+tb_iberian_levy_4_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
+tb_iberian_levy_5;Iberian Regional Levy;;;;;;;;;;;;;x
+tb_iberian_levy_5_desc;Recruitment center for forces fighting in the traditional style of the region.;;;;;;;;;;;;;x
