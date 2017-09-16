@@ -22,7 +22,6 @@ on_yearly_pulse = {
 		RIP.30317 # immortal crisis spreads
 		ROMEREP.1
 		ROMEREP.2
-		CONSUL.1
 	}
 
 	
@@ -2257,6 +2256,7 @@ on_new_holder_inheritance = {
 		RIP.11715 #Removes crown focus on new holder
 		533
 		738 # Black Pope achievement
+		#CONSUL.1
 	}
 }
 

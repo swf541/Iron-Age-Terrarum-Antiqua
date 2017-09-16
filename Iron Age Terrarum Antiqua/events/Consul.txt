@@ -6,7 +6,9 @@ character_event = {
 	
 	hide_window = yes
 	
-	is_triggered_only = yes
+	mean_time_to_happen = {
+		months = 12
+	}
 	
 	
 	trigger = {
