@@ -4,6 +4,7 @@ bm_rise_of_macedonia = {
 	date = 417.4.1
 	
 	era = yes						## Will be shown on Era screen.
+	custom_start=yes				# Will be shown when user opens mod.
 	picture = GFX_pick_era_image_1
 	
 	selectable_character = {
