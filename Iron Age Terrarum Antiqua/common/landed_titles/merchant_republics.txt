@@ -1,0 +1,346 @@
+# Republics
+k_r_athens = {
+	color= { 100 200 255 }
+	color2= { 255 255 255 }
+	
+	capital = 18 # Athens
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+k_r_syracuse = {
+	color = { 75 175 225 }
+	color2= { 255 255 255 }
+	
+	capital = 305 # Syracuse
+	culture = doric
+	
+	title = "BASILEUS"
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+k_r_tyras = {
+	color = { 100 0 25 }
+	color2= { 255 255 255 }
+	
+	capital = 52 # Tyras
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+k_r_olbia = {
+	color= { 90 10 15 }
+	color2= { 255 255 255 }
+	
+	capital = 53 # Olbia
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+d_r_byzantion = {
+	color= { 150 75 25 }
+	color2= { 255 255 255 }
+	
+	capital = 45 # Byzantion
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+k_r_tarentum = {
+	color= { 75 175 175 }
+	color2= { 255 255 255 }
+	
+	capital = 317 # Tarentum
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+d_r_athens = {
+	color= { 100 200 255 }
+	color2= { 255 255 255 }
+	
+	capital = 18 # Athens
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+d_r_rhodes = {
+	color= { 10 65 75 }
+	color2= { 255 255 255 }
+	
+	capital = 11 # Rhodes
+	culture = doric
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+d_r_cyrene = {
+	color= { 225 200 125 }
+	color2= { 255 255 255 }
+	
+	capital = 163 # Cyrene
+	culture = ionian
+	
+	dignity = 200
+	
+	allow = {
+		is_republic = yes
+	}
+}
+
+######################################
+# Historical Merchant Republic Palaces
+######################################
+
+# SYRACUSE:
+
+b_korinthoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_pyloi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_olympoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_leukoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_zakynthoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+
+# TYRAS:
+
+b_tyroi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_chalkoi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_miletoi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_ephesoi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_marmaroi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+
+# OLBIA:
+
+b_chalkidikoi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_skyroi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_lemnoi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_ithakoi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_kythiroi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+
+# BYZANTION:
+
+b_megaroi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_theroi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_argoloi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_lakonoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_sikeloi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+
+# TARENTUM:
+
+b_spartoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_tarentoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_kalipoloi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_metapontoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_sipontoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+
+# ATHENS:
+
+b_hyperidai = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_aischinidai = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_demosthenidai = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_lykourgidai = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_eboulidai = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+
+# RHODES:
+
+b_rhodoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_delphoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_epidauroi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_kosoi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+b_messenioi = {
+	culture = doric
+	religion = hellenic_pagan
+}
+
+# CYRENE
+
+b_battiadai = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_kyrenioi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_euesperidai = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_barkoi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+b_darnioi = {
+	culture = ionian
+	religion = hellenic_pagan
+}
+
+# Carthage
+b_magon = {
+	culture = punic
+	religion = punic_main
+}
+b_barca = {
+	culture = punic
+	religion = punic_main
+}
+b_hanno = {
+	culture = punic
+	religion = punic_main
+}
+b_hasdrubal = {
+	culture = punic
+	religion = punic_main
+}
+b_dido = {
+	culture = punic
+	religion = punic_main
+}
+b_grisco = {
+	culture = punic
+	religion = punic_main
+}
+b_magonid = {
+	culture = punic
+	religion = punic_main
+}
