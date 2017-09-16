@@ -5,12 +5,9 @@ title = c_genua
 
 # Settlements
 max_settlements = 4
-b_stalia_genua = castle
-b_hasta_genua = city
-b_coeba_genua = castle
-b_savo_genua = city
+b_stalia_genua = tribal
 
-#b_genua_genua = castle
+#b_genua_genua = tribal
 
 # Misc
 culture = ligurian
@@ -20,6 +17,6 @@ religion = celtic_pagan
 # Can be filled when things change around the province
 567.1.1 = { # 209 BC, Stalia destroyed by carthage
 	remove_settlement = b_stalia_genua
-	b_genua_genua = castle
+	b_genua_genua = tribal
 	capital = b_genua_genua
 }

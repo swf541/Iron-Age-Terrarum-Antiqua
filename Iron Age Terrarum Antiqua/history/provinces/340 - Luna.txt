@@ -5,10 +5,7 @@ title = c_luna # for example c_corinth
 
 # Settlements
 max_settlements = 6 # Should be reevaluated
-b_luna_luna = castle
-b_boron_luna = city
-b_segeste_luna = temple
-b_ricina_luna = castle
+b_luna_luna = tribal
 
 # Possible baronies: (Always add a # in front of a line with these!)
 #
