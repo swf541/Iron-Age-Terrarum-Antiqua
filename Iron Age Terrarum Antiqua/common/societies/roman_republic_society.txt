@@ -1,7 +1,7 @@
 roman_republic_society = { #society code name
 	primary_attribute = diplomacy  #Its main attribute
 	society_ranks_gfx = generic_ranks #which rank icon it will use
-	opinion_to_other_members = -10 #opinion from/of other member, see wiki for all the options
+	opinion_to_other_members = +10 #opinion from/of other member, see wiki for all the options
 	opinion_per_rank_above = +10
 	society_rank_up_decision = request_to_rank_up_within_society #decision trigered by the rank-up button
 	sound = hermetic_society_interface #sound effect, see the sound.sfx in the game folder if you want to change the sound
