@@ -26,3 +26,4 @@ decisions = {
 			add_trait = macedonian_pharaoh
 		}
 	}
+}

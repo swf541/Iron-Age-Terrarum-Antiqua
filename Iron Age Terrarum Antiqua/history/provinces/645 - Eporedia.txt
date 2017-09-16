@@ -5,9 +5,7 @@ title = c_eporedia
 
 # Settlements
 max_settlements = 3
-b_eporedia_eporedia = castle
-b_bugella_eporedia = city
-b_victumulae_eporedia = city
+b_eporedia_eporedia = tribal
 
 # Misc
 culture = gaul

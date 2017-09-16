@@ -13,7 +13,3 @@
 473.1.1 = { # 303 BC
 	holder = 230602
 }
-500.1.1 = {
-	holder = 250004
-	liege = k_carthage
-}

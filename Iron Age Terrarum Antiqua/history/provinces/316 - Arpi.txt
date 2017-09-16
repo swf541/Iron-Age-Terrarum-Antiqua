@@ -5,8 +5,7 @@ title = c_arpi # for example c_corinth
 
 # Settlements
 max_settlements = 6 # Should be reevaluated
-b_arpi = castle
-b_sipontum_arpi = city
+b_arpi = tribal
 
 # Possible baronies: (Always add a # in front of a line with these!)
 #

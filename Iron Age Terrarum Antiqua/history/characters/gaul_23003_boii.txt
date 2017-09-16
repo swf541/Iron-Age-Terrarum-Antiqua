@@ -37,3 +37,16 @@
 		death="yes" # 329 BC
 	}
 }
+230204 = {
+	name = "Litaviccus" # Boii leader, Made up
+	dynasty = 23003 # Boii
+	father = 230202
+	religion = celtic_pagan
+	culture = gaul
+	490.1.1 = { # 331 BC
+		birth="yes"
+	}
+	560.1.1 = { # 266 BC
+		death="yes"
+	}
+}

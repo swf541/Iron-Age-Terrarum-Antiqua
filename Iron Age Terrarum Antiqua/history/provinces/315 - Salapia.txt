@@ -5,9 +5,7 @@ title = c_salapia # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_salapia_salapia = castle
-b_acerina_salapia = city
-b_cannae_salapia = city
+b_salapia_salapia = tribal
 
 # Possible baronies: (Always add a # in front of a line with these!)
 # c_canusium_salapia

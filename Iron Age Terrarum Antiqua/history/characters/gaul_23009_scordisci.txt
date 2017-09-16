@@ -96,3 +96,19 @@
 		death="yes"
 	}
 }
+
+230708 = {
+	name = "Comontorius" # Gallic conqueror of the Balkans
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_pagan
+	
+	add_trait = tough_soldier
+	
+	476.1.1 = { # 312 BC made up
+		birth="yes"
+	}
+	550.1.1 = { # 259 BC made up
+		death="yes"
+	}
+}

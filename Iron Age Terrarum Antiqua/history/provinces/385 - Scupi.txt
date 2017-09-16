@@ -5,10 +5,7 @@ title = c_scupi
 
 # Settlements
 max_settlements = 4
-b_scupi_scupi = castle
-b_ulpiana_scupi = castle
-b_therauda_scupi = city
-b_vicinianum_scupi = temple
+b_scupi_scupi = tribal
 
 # Misc
 culture = illyrian
