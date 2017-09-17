@@ -35,3 +35,7 @@
 	name = "Bagadata"
 	culture = persian
 }
+9010 = {
+	name = "Parnaka" # Pharnacid dynasty, https://en.wikipedia.org/wiki/Pharnacid_dynasty
+	culture = persian
+}

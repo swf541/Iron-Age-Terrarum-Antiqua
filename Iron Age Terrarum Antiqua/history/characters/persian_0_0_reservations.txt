@@ -8,3 +8,4 @@
 	# 90601-90700 for the Mazaces dynasty
 	# 90701-90800 for the Barsaentes dynasty
 	# 90801-90900 for the Bagadata dynasty
+	# 90901-91000 for the Parnaka dynasty
