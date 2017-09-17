@@ -11,3 +11,7 @@
 465.1.1 = { # 311 BC
 	holder = 250302 # Menahilim
 } 
+500.1.1 = {
+	liege = k_carthage
+	holder = 250004
+}

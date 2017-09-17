@@ -56,7 +56,7 @@
 }
 
 250105 = {
-	name = "Hanno II" # Hanno The Great, King of Carthage 340-337 BC
+	name = "Hanno" # Hanno The Great, King of Carthage 340-337 BC
 	dynasty = 25002 # Hanno 
 	religion = punic_main
 	culture = punic
