@@ -6,3 +6,6 @@
 	holder = 420302 # Suisetarten
 	liege = d_titti
 }
+500.1.1 = {
+	holder = 420303
+}

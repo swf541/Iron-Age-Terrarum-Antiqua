@@ -25,3 +25,16 @@
 		death="yes"
 	}
 }
+430303 = {
+	name = "Leoni" # Made up Vettones leader
+	dynasty = 43004
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	468.1.1 = { # 346 BC, Made up
+		birth="yes"
+	}
+	536.1.1 = { # 276 BC
+		death="yes"
+	}
+}

@@ -25,3 +25,17 @@
 		death="yes"
 	}
 }
+420203 = {
+	name = "Ordumeles" # Made up Belli leader
+	dynasty = 42003
+	culture = celtiberian
+	religion = celtic_pagan
+	
+	484.1.1 = { # 350 BC, Made up
+		birth="yes"
+	}
+	562.1.1 = { # 270 BC
+		death="yes"
+	}
+}
+
