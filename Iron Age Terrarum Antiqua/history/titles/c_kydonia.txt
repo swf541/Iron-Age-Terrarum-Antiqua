@@ -7,3 +7,6 @@
 469.1.1 = { # 307 BC
 	holder = 22502 # Archelaos, Made up 
 }
+500.1.1 = {
+	holder = 22504
+}

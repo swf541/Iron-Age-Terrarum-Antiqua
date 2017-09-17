@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+21703 = {
+	name = "Myron" # Rhodes
+	dynasty = 2018 # Rhodioi
+	religion = hellenic_pagan
+	culture = doric
+	father = 21702
+	473.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	533.1.1 = { # 277 BC Made up
+		death="yes"
+	}
+}

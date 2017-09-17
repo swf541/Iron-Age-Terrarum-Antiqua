@@ -37,3 +37,16 @@
 		death="yes" # 337 BC
 	}
 }
+22504 = {
+	name = "Demokritos" # Ruler of Kydonia, Made up
+	dynasty = 2026 # Kydonioi
+	religion = hellenic_pagan
+	culture = doric
+	father = 22502
+	477.1.1 = { # Made up
+		birth="yes" # 347 BC
+	}
+	552.1.1 = { # Made up
+		death="yes" # 275 BC
+	}
+}

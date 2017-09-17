@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+330303 = {
+	name = "Scyles" # Made up
+	dynasty = 33004 # Massagetai
+	religion = ossetian_pagan
+	culture = scythian
+	father = 330301
+	485.1.1 = { # 356 BC
+		birth="yes"
+	}
+	563.1.1 = { # 280 BC
+		death="yes"
+	}
+}

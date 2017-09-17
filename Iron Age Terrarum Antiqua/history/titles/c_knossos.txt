@@ -4,3 +4,6 @@
 450.1.1 = { # 326 BC
 	holder = 22401 # Xenon, Made up
 }
+500.1.1 = {
+	holder = 22403
+}

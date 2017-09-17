@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+21803 = {
+	name = "Ophellas" # Rhodes
+	dynasty = 2019 # Delphioi
+	religion = hellenic_pagan
+	culture = doric
+	father = 21802
+	488.1.1 = { # 354 BC Made up
+		birth="yes"
+	}
+	562.1.1 = { # 274 BC Made up
+		death="yes"
+	}
+}

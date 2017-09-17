@@ -79,3 +79,17 @@
 		death="yes"
 	}
 }
+140006 = {
+	name = "Mytilus" # Monunius I, King of Dardania
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	father = 140004
+	
+	490.1.1 = { # 302 BC
+		birth="yes"
+	}
+	545.1.1 = { # 270 BC
+		death="yes"
+	}
+}

@@ -24,3 +24,16 @@
 		death="yes" 
 	}
 }
+22403 = {
+	name = "Ekphantos" # Ruler of Knossos, Made up
+	dynasty = 2025 # Knossioi
+	religion = hellenic_pagan
+	culture = doric
+	father = 22401
+	480.1.1 = { # Made up
+		birth="yes" # 337 BC
+	}
+	567.1.1 = { # Made up
+		death="yes" # 268 BC
+	}
+}
