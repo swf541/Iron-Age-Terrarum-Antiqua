@@ -37,3 +37,16 @@
 		death="yes" # 270 BC
 	}
 }
+23804 = {
+	name = "Agapios" # Ruler of Messene, Made up
+	dynasty = 2039 # Messenidai
+	religion = hellenic_pagan
+	culture = doric
+	father = 23802
+	488.1.1 = {
+		birth="yes" # 332 BC
+	}
+	566.1.1 = {
+		death="yes" # 270 BC
+	}
+}

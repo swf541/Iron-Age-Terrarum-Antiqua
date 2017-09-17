@@ -7,3 +7,6 @@
 459.1.1 = { # 317 BC Made up
 	holder = 320602 # Wabab-Allah
 }
+505.1.1 = {
+	holder = 320604
+}

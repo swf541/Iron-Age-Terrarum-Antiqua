@@ -88,3 +88,16 @@
 		death="yes"
 	}
 }
+320208 = {
+	name = "Tym-Dushara" # Hadramaut, Made up
+	dynasty = 32003
+	culture = arabic
+	religion = arabic_main
+	father = 320206
+	490.1.1 = {
+		birth="yes" # 314 BC, Made up
+	}
+	570.1.1 = {
+		death="yes" # 273 BC, Made up
+	}
+}

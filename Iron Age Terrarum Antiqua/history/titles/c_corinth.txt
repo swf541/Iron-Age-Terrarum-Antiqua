@@ -35,7 +35,7 @@
 }
 499.1.1 = { # 277 BC
 	holder = 1702 # Krateros, son of the general
-	liege = d_euboia
+	liege = d_achaea
 }
 513.1.1 = { # 263 BC
 	holder = 1703 # Alexandros, son of Krateros

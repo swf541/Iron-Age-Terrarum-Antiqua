@@ -20,5 +20,9 @@
 	liege = e_asia
 }
 499.1.1 = { # 277 BC
-	liege = e_macedonia
+	liege = d_achaea
+}
+500.1.1 = {
+	holder = 110204
+	liege = d_achaea
 }

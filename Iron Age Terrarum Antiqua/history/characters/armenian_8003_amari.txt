@@ -37,3 +37,16 @@
 		death="yes" # 323 BC Made Up
 	}
 }
+80204 = {
+	name = "Tigran" # Ruler of Amaras, made up
+	dynasty = 8003 # Amari
+	religion = armenian_pagan
+	culture = armenian
+	father = 80202
+	479.1.1 = { # 347 BC
+		birth="yes"
+	}
+	562.1.1 = { # 264 BC
+		death="yes"
+	}
+}

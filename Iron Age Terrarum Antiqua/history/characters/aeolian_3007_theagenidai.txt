@@ -37,3 +37,16 @@
 		death="yes" # 273 BC
 	}
 }
+30604 = {
+	name = "Anaxagoras" # Ruler of Boeotia, Made up
+	dynasty = 3007 # Theagenidai
+	religion = hellenic_pagan
+	culture = aeolian
+	father = 30603
+	471.1.1 = {
+		birth="yes" # 337 BC
+	}
+	547.1.1 = {
+		death="yes" # 273 BC
+	}
+}
