@@ -25,3 +25,16 @@
 		death="yes"
 	}
 }
+440003 = {
+	name = "Elkua" # Made up Callaeci leader
+	dynasty = 44001
+	culture = celtiberian
+	religion = celtic_pagan
+	
+	470.1.1 = { # 360 BC, Made up
+		birth="yes"
+	}
+	548.1.1 = { # 280 BC
+		death="yes"
+	}
+}

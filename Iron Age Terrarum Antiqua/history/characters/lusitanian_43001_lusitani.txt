@@ -25,3 +25,16 @@
 		death="yes"
 	}
 }
+430003 = {
+	name = "Bouiani" # Made up Lusitani leader
+	dynasty = 43001
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	480.1.1 = { # 356 BC, Made up
+		birth="yes"
+	}
+	553.1.1 = { # 276 BC
+		death="yes"
+	}
+}

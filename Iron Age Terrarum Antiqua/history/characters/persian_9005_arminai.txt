@@ -11,3 +11,16 @@
 		death="yes" # 271 BC
 	}
 }
+90402 = {
+	name = "Ardumanish" # Ruler of Chorsabia, Made up
+	dynasty = 9005 # Arminai
+	religion = zoroastrian
+	culture = persian
+	father = 90401
+	477.1.1 = { # Made up
+		birth="yes" # 353 BC
+	}
+	555.1.1 = { # Made up
+		death="yes" # 271 BC
+	}
+}

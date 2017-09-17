@@ -113,3 +113,16 @@
 		death="yes"
 	}
 }
+51510 = {
+	name = "Demetrios" # Ruler of Emporion, Made up
+	dynasty = 5021 # Massalioi
+	religion = hellenic_pagan
+	culture = ionian
+	father = 51509
+	414.1.1 = { # 361 BC
+		birth="yes"
+	}
+	501.1.1 = { # 274 BC
+		death="yes"
+	}
+}

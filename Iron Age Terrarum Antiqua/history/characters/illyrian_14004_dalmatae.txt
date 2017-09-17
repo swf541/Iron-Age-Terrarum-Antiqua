@@ -18,10 +18,10 @@
 	religion = illyrian_main
 	culture = illyrian
 	father = 140301
-	444.1.1 = { # 332 BC
+	455.1.1 = { # 332 BC
 		birth="yes"
 	}
-	496.1.1 = { # 280 BC
+	530.1.1 = { # 280 BC
 		death="yes"
 	}
 }

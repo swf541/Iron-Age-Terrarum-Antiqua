@@ -6,3 +6,6 @@
 	holder = 420402 # Tiokenesos
 	
 }
+500.1.1 = {
+	holder = 420403
+}

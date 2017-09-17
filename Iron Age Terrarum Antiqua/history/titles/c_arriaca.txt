@@ -6,3 +6,6 @@
 	holder = 420002 # Builbos
 	liege = d_olcades
 }
+500.1.1 = {
+	holder = 420003
+}

@@ -12,3 +12,6 @@
 	holder = 90401 # Martiya
 	liege = 0
 }
+505.1.1 = {
+	holder = 90402
+}

@@ -37,3 +37,16 @@
 		death="yes" # 330 BC
 	}
 }
+230104 = {
+	name = "Adiatunnus" # Insubres Made up
+	dynasty = 23002 # Insubres
+	culture = gaul
+	religion = celtic_pagan
+	father = 230102
+	490.1.1 = { # 335 BC
+		birth="yes"
+	}
+	570.1.1 = { # 275 BC
+		death="yes"
+	}
+}

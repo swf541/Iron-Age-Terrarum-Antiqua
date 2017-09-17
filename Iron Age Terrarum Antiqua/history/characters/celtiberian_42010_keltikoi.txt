@@ -44,3 +44,18 @@
 		death="yes"
 	}
 }
+420904 = {
+	name = "Akuios" # Made up Celtici leader
+	dynasty = 42010
+	culture = celtiberian
+	religion = celtic_pagan
+	
+	father = 420903
+	
+	477.1.1 = { 
+		birth="yes"
+	}
+	560.1.1 = { 
+		death="yes"
+	}
+}

@@ -44,3 +44,18 @@
 		death="yes"
 	}
 }
+390404 = {
+	name = "Isbataris" # Made up Ilercavones leader
+	dynasty = 39005
+	culture = iberian
+	religion = iberian_main
+	
+	father = 390403
+	
+	477.1.1 = { # 347 BC, Made up
+		birth="yes"
+	}
+	562.1.1 = { # 274 BC
+		death="yes"
+	}
+}

@@ -11,3 +11,15 @@
 		death="yes" # 279 BC
 	}
 }
+300002 = {
+	name = "Hattusilis" # Ruler of Gangra, made up
+	dynasty = 30001
+	religion = anatolian_main
+	culture = luwian
+	474.1.1 = { # Made up
+		birth="yes" # 343 BC
+	}
+	535.1.1 = { # Made up
+		death="yes" # 279 BC
+	}
+}

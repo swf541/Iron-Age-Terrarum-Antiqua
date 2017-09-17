@@ -38,3 +38,16 @@
 		death="yes"
 	}
 }
+400004 = {
+	name = "Argantodanos" # Made up Turdetani leader
+	dynasty = 40001
+	culture = turdetanian
+	religion = iberian_main
+	
+	484.1.1 = { # 333 BC
+		birth="yes"
+	}
+	567.1.1 = { # 265 BC
+		death="yes"
+	}
+}
