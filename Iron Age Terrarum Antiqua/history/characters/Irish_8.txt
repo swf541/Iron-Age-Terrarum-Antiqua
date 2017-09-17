@@ -141,7 +141,7 @@ trait="gluttonous"
 }
 
 123808={
-name="Beccán
+name="Beccán"
 dynasty=223008
 dna="lckgfkgbnnf"
 culture=irish

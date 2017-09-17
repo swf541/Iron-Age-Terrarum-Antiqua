@@ -2233,6 +2233,7 @@ arabic_religion = {
 						
 		intermarry = dravidian_main
 	}
+}
 south_semitic_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx

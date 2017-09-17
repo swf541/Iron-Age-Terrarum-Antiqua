@@ -6,7 +6,7 @@
 	religion = hellenic_pagan
 	culture = doric
 	
-	add_trait = brilliant_strategist
+	trait = brilliant_strategist
 
 	1.1.1 = { # 776 BC, made up
 		birth="yes" 
@@ -26,7 +26,7 @@
 
 	father = 20001
 
-	add_trait = brilliant_strategist
+	trait = brilliant_strategist
 
 	24.1.1 = { # 752 BC, made up
 		birth="yes" 
@@ -44,8 +44,8 @@
 
 	father = 20002
 
-	add_trait = brilliant_strategist
-	add_trait = brave
+	trait = brilliant_strategist
+	trait = brave
 
 	68.1.1 = { # 708 BC, made up
 		birth="yes" 
@@ -65,7 +65,7 @@
 
 	father = 20003
 
-	add_trait = skilled_tactician
+	trait = skilled_tactician
 
 	91.1.1 = { # 685 BC, made up
 		birth="yes" 
@@ -83,7 +83,7 @@
 
 	father = 20004
 
-	add_trait = skilled_tactician
+	trait = skilled_tactician
 
 	113.1.1 = { # 663 BC, made up
 		birth="yes" 
@@ -101,7 +101,7 @@
 
 	father = 20005
 
-	add_trait = skilled_tactician
+	trait = skilled_tactician
 
 	136.1.1 = { # 640 BC, made up
 		birth="yes" 
@@ -119,7 +119,7 @@
 
 	father = 20006
 
-	add_trait = skilled_tactician
+	trait = skilled_tactician
 
 	164.1.1 = { # 612 BC, made up
 		birth="yes" 
@@ -137,7 +137,7 @@
 
 	father = 20007
 
-	add_trait = brilliant_strategist
+	trait = brilliant_strategist
 
 	188.1.1 = { # 588 BC, made up
 		birth="yes" 
@@ -155,7 +155,7 @@
 
 	father = 20008
 
-	add_trait = brilliant_strategist
+	trait = brilliant_strategist
 
 	232.1.1 = { # 544 BC, made up
 		birth="yes" 
@@ -176,8 +176,8 @@
 
 	father = 20009
 
-	add_trait = fair
-	add_trait = tough_soldier
+	trait = fair
+	trait = tough_soldier
 
 	261.1.1 = { # 515 BC, made up
 		birth="yes" 
@@ -195,9 +195,9 @@
 
 	father = 20008
 
-	add_trait adventurer
-	add_trait brave
-	add_trait tough_soldier
+	trait = adventurer
+	trait = brave
+	trait = tough_soldier
 
 	234.1.1 = { # 536 BC, made up
 		birth="yes" 
@@ -215,11 +215,11 @@
 
 	father = 20008
 
-	add_trait brave
-	add_trait brilliant_strategist
-	add_trait quick
-	add_trait strategist
-	add_trait patient
+	trait =brave
+	trait =brilliant_strategist
+	trait =quick
+	trait =strategist
+	trait =patient
 
 	236.1.1 = { # 540 BC
 		birth="yes" 
@@ -248,7 +248,7 @@
 	father = 20012
 	mother = 20010
 
-	add_trait tough_soldier
+	trait =tough_soldier
 
 	287.1.1 = { # 489 BC, made up
 		birth="yes" 
@@ -265,7 +265,7 @@
 
 	father = 20008
 
-	add_trait tough_soldier
+	trait =tough_soldier
 
 	240.1.1 = { # 536 BC, made up
 		birth="yes" 
@@ -283,7 +283,7 @@
 
 	father = 20014
 
-	add_trait skilled_commander
+	trait =skilled_commander
 
 	264.1.1 = { # 512 BC, made up
 		birth="yes" 
@@ -303,7 +303,7 @@
 
 	father = 20015
 
-	add_trait tough_soldier
+	trait =tough_soldier
 
 	300.1.1 = { # 476 BC, made up
 		birth="yes" 
@@ -321,7 +321,7 @@
 
 	father = 20015
 
-	add_trait skilled_commander
+	trait =skilled_commander
 
 	277.1.1 = { # 499 BC, made up
 		birth="yes" 
@@ -339,7 +339,7 @@
 
 	father = 20016
 
-	add_trait tough_soldier
+	trait =tough_soldier
 
 	325.1.1 = { # 451 BC, made up
 		birth="yes" 
@@ -358,7 +358,7 @@
 
 	father = 20018
 
-	add_trait tough_soldier
+	trait =tough_soldier
 
 	364.1.1 = { # 412 BC, made up
 		birth="yes" 
@@ -376,7 +376,7 @@
 
 	father = 20019
 
-	add_trait misguided_warrior
+	trait =misguided_warrior
 
 	367.1.1 = { # 409 BC, made up
 		birth="yes" 
@@ -397,7 +397,7 @@
 
 	father = 20020
 
-	add_trait tough_soldier
+	trait = tough_soldier
 
 	386.1.1 = { # 390 BC, made up
 		birth="yes" 
@@ -431,7 +431,7 @@
 
 	father = 20022
 	
-	add_trait = cruel
+	trait = cruel
 	
 	416.1.1 = { # Made up
 		birth="yes" # 360 BC
@@ -467,8 +467,8 @@
 
 	father = 20022
 	
-	add_trait = wroth
-	add_trait = cruel
+	trait = wroth
+	trait = cruel
 	
 	432.1.1 = { # Made up
 		birth="yes" # 344 BC
