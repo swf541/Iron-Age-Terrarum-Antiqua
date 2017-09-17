@@ -1,11 +1,11 @@
 # 74 - Sala
 
 # County Title
-title = c_elusa
+title = c_atura
 
 # Settlements
 max_settlements = 4
-b_elusa1 = tribal
+b_atura1 = tribal
 
 # Misc
 culture = aquitanian
