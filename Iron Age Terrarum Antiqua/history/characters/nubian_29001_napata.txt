@@ -70,10 +70,10 @@
 	culture = nubian
 	religion = egyptian_pagan
 	father = 290002
-	465.1.1 = { # Made up
+	470.1.1 = { # Made up
 		birth="yes" # 311 BC
 	}
-	506.1.1 = {
+	540.1.1 = {
 		death="yes" # 270 BC
 	}
 }
