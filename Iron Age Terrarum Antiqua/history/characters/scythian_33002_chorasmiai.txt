@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+3306024 = {
+	name = "Spalahores" # King of Chorasmia
+	dynasty = 33002 # Chorasmiai
+	religion = zoroastrian
+	culture = chorasmian
+	father = 3306022
+	483.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	550.1.1 = { # 271 BC Made up
+		death="yes"
+	}
+}

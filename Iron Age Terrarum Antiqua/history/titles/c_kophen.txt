@@ -41,3 +41,6 @@
 	holder = 120303 # Susima Maurya
 	liege = d_gandhara
 }
+508.1.1 = {
+	holder = 120304
+}

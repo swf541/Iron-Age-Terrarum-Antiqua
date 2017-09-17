@@ -24,3 +24,18 @@
 		death="yes"
 	}
 }
+
+330203 = {
+	name = "Ailios" # Made up
+	dynasty = 33003 # Amyrgioi
+	religion = zoroastrian
+	culture = scythian
+	father = 330201
+	481.1.1 = { # 346 BC
+		birth="yes"
+	}
+	562.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+
