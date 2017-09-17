@@ -27,6 +27,9 @@
 }
 475.1.1 = { # 301 BC
 	holder = 130002 # Mithradates Ktistes
+	liege = d_pontus
+}
+496.1.1 = { # 280 BC
 	liege = k_pontus
 }
 510.1.1 = { # 266 BC

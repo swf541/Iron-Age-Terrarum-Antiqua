@@ -32,7 +32,7 @@
 	441.1.1 = { # 335 BC Made up
 		birth="yes"
 	}
-	495.1.1 = { # 281 BC
+	496.1.1 = { # 280 BC
 		give_nickname = nick_ktistes
 	}
 	510.1.1 = { # 266 BC

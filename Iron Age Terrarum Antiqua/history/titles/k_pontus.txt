@@ -1,4 +1,4 @@
-475.1.1 = { # 301 BC
+496.1.1 = { # 301 BC
 	holder = 130002 # Mithradates Ktistes
 }
 510.1.1 = { # 266 BC
