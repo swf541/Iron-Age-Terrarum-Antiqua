@@ -7,6 +7,6 @@
 469.1.1 = { # 307 BC
 	holder = 120403 # Devanampiya Tiss
 }
-519.1.1 = {
+510.1.1 = {
 	holder = 120404
 }
