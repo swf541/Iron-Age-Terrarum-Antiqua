@@ -24,3 +24,16 @@
 		death="yes" # 269 BC
 	}
 }
+51803 = {
+	name = "Scydrothemis" # Ruler of Sinope, Made up
+	dynasty = 5024 # Sinopeis
+	religion = hellenic_pagan
+	culture = ionian
+	father = 51802
+	471.1.1 = { # Made up
+		birth="yes" # 358 BC
+	}
+	545.1.1 = { # Made up
+		death="yes" # 269 BC
+	}
+}
