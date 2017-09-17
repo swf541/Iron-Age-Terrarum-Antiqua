@@ -50,3 +50,16 @@
 		death="yes"
 	}
 }
+260205 = {
+	name = "Mastanabalus" # Mauri king, Made up
+	dynasty = 26003 # Mauri
+	religion = berber_main
+	culture = berber
+	father = 260204
+	499.1.1 = { # 315 BC
+		birth="yes"
+	}
+	557.1.1 = { # 252 BC
+		death="yes"
+	}
+}

@@ -24,3 +24,16 @@
 		death="yes" # 325 BC Made Up
 	}
 }
+260003 = { 
+	name = "Igerus" # Massylii king, Made up
+	dynasty = 26001 # Massylii
+	religion = berber_main
+	culture = berber
+	father = 260001
+	475.1.1 = { # 364 BC Made up
+		birth="yes"
+	}
+	545.1.1 = { # 274 BC
+		death="yes"
+	}
+}

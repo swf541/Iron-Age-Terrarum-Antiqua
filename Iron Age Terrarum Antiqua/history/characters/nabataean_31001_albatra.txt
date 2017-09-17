@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+310004 = {
+	name = "Zelalsen" # Made up
+	dynasty = 31001 # Al-Batra
+	religion = arabic_main
+	culture = nabataean
+	father = 310001
+	484.1.1 = { # 345 BC Made up
+		birth="yes"
+	}
+	563.1.1 = { # 275 BC Made up
+		death="yes"
+	}
+}

@@ -37,3 +37,16 @@
 		death="yes" # 340 BC Made Up
 	}
 }
+260104 = {
+	name = "Aderbalus" # Masaesyli, Made up
+	dynasty = 26002 # Masaesyli
+	religion = berber_main
+	culture = berber
+	father = 260102
+	488.1.1 = { # 332 BC
+		birth="yes"
+	}
+	561.1.1 = { # 276 BC
+		death="yes"
+	}
+}
