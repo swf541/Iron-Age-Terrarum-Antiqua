@@ -1,14 +1,26 @@
-417.1.1 = { # 359 BC
-	holder = 90323
-	liege = k_p_lydia
+298.1.1 = { # 478 BC, given as reward of efforts during Persian invasion of Greece.
+    holder = 90902 # Artabazus I
+	liege = d_mysia
+}
+321.1.1 = { # 455 BC
+    holder = 90903 # Pharnabazus I
+}
+346.1.1 = { # 430 BC
+    holder = 90904 # Pharnaces II
+}
+354.1.1 = { # 422 BC
+    holder = 90905 # Pharnabazus II
+}
+389.1.1 = { # 387 BC
+    holder = 90906 # Ariobarzanes of Phrygia
+}
+414.1.1 = { # 362 BC
+	holder = 90907 # Ariobarzanes II
 }
 439.1.1 = { # 337 BC
 	holder = 130001 # Mithridates
 }
-442.1.1 = { # 334 BC
-	liege = e_persia
-}
-443.3.1 = { # 333 BC
+442.5.1 = { # 333 BC
 	liege = k_s_mysia
 }
 457.3.1 = { # 319 BC
