@@ -5,3 +5,6 @@
 460.1.1 = { # 316 BC
 	holder = 340001 # Akrosander
 }
+500.1.1 = {
+	holder = 340003
+}

@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+340103 = {
+	name = "Spalahores" # Made up
+	dynasty = 34002 # Legae
+	religion = ossetian_pagan
+	culture = sarmatian
+	father = 340101
+	477.1.1 = { # 346 BC
+		birth="yes"
+	}
+	562.1.1 = { # 269 BC
+		death="yes"
+	}
+}

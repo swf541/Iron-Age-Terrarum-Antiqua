@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+340003 = {
+	name = "Scyles" # Made up
+	dynasty = 34001 # Sirakes
+	religion = ossetian_pagan
+	culture = sarmatian
+	father = 340001
+	483.1.1 = { # 357 BC
+		birth="yes"
+	}
+	568.1.1 = { # 280 BC
+		death="yes"
+	}
+}
