@@ -156,9 +156,9 @@
 	trait=charitable 
 	trait=clubfooted 
 	father=1231104	#Drost
-	mother=1231154	#Lerthan
+	mother=1231155	#Lerthan
 	478.7.15={ birth=yes }
-	499.1.1={ add_spouse=1231155 }
+	499.1.1={ add_spouse=1231156 }
 	523.11.6={ death=yes }
 }
 1231108={
@@ -169,7 +169,7 @@
 	culture=irish 
 	religion=celtic_pagan
 	father=1231104	#Drost
-	mother=1231154	#Lerthan
+	mother=1231155	#Lerthan
 	482.8.3={ birth=yes }
 	534.10.7={ death=yes }
 }
@@ -181,7 +181,7 @@
 	culture=irish 
 	religion=celtic_pagan
 	father=1231104	#Drost
-	mother=1231154	#Lerthan
+	mother=1231155	#Lerthan
 	485.9.25={ birth=yes }
 	574.10.7={ death=yes }
 }
@@ -193,7 +193,7 @@
 	culture=irish 
 	religion=celtic_pagan
 	father=1231104	#Drost
-	mother=1231154	#Lerthan
+	mother=1231155	#Lerthan
 	488.11.24={ birth=yes }
 	557.1.13={ death=yes }
 }
@@ -215,7 +215,7 @@
 	trait=wroth 
 	trait=kind 
 	father=1231104	#Drost
-	mother=1231154	#Lerthan
+	mother=1231155	#Lerthan
 	490.1.17={ birth=yes }
 	527.7.11={ death=yes }
 }
