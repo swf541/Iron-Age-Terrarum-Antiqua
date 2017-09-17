@@ -30,10 +30,10 @@
 	religion = illyrian_main
 	culture = venetic
 	father = 220101
-	444.1.1 = {
+	451.1.1 = {
 		birth="yes" # 332 BC, Made up
 	}
-	503.1.1 = { # 273 BC
+	530.1.1 = { # 273 BC
 		death="yes"
 	}
 }

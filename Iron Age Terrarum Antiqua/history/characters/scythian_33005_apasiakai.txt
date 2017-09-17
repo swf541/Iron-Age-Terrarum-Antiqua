@@ -5,10 +5,10 @@
 	religion = ossetian_pagan
 	culture = scythian
 	father = 330402
-	436.1.1 = { # 352 BC
+	461.1.1 = { # 352 BC
 		birth="yes"
 	}
-	507.1.1 = { # 269 BC
+	522.1.1 = { # 269 BC
 		death="yes"
 	}
 }
