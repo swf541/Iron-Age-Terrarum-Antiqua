@@ -37,10 +37,10 @@
 	
 	father = 390002
 	
-	449.1.1 = { # 327 BC, Made up
+	463.1.1 = { # 327 BC, Made up
 		birth="yes"
 	}
-	503.1.1 = { # 273 BC
+	530.1.1 = { # 273 BC
 		death="yes"
 	}
 }

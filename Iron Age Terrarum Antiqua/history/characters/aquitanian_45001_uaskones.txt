@@ -25,3 +25,16 @@
 		death="yes"
 	}
 }
+450003 = {
+	name = "Abisunhar" # Made up Uaskones leader
+	dynasty = 45001
+	culture = aquitanian
+	religion = aquitanian_main
+	
+	480.1.1 = { # 360 BC, Made up
+		birth="yes"
+	}
+	570.1.1 = { # 280 BC
+		death="yes"
+	}
+}

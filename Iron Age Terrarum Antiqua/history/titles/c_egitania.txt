@@ -6,3 +6,6 @@
 	holder = 430002 # Ambatus
 	liege = d_lusitani
 }
+500.1.1 = {
+	holder = 430003
+}
