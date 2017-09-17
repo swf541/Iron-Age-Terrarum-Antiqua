@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+120703 = {
+	name = "Kadungon" # Made up, inspired by a real ruler
+	dynasty = 12134
+	religion = jain
+	culture = tamil
+	father = 120702
+	476.1.1 = { 
+		birth="yes"
+	}
+	548.1.1 = { 
+		death="yes"
+	}
+}

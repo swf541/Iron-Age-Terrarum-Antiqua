@@ -24,3 +24,17 @@
 		death="yes"
 	}
 }
+
+121903 = {
+	name = "Agnimitra" # Made up
+	dynasty = 12057
+	religion = buddhist
+	culture = vedic
+	father = 121902
+	474.1.1 = { # 354 BC
+		birth="yes"
+	}
+	533.1.1 = { # 268 BC
+		death="yes"
+	}
+}

@@ -38,7 +38,7 @@
 	}
 }
 120604 = {
-	name = "Perunar Killi" # Chola king
+	name = "Perunar Killi" # Chola king 
 	dynasty = 12133
 	religion = dravidian_main
 	culture = tamil
@@ -63,3 +63,18 @@
 		death="yes"
 	}
 }
+120606 = {
+	name = "Vijayalaya"
+	dynasty = 12133
+	religion = dravidian_main
+	culture = tamil
+	father = 120604
+	480.1.1 = { # 306 BC made up
+		birth="yes"
+	}
+	556.1.1 = { # 275 BC
+		death="yes"
+	}
+}
+
+ 
