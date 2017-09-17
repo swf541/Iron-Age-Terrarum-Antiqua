@@ -8,7 +8,7 @@
 495.8.1 = {
 	liege = e_syria
 }
-518.1.1 = { # 258 BC
+510.1.1 = { # 258 BC
 	holder = 3601 # Diodotos I
 }
 537.1.1 = { # 239 BC

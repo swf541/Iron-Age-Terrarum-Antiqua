@@ -29,7 +29,7 @@
 	holder = 54801 # Demodamas of Miletus
 	liege = d_bactria
 }
-518.1.1 = { # 258 BC
+510.1.1 = { # 258 BC
 	holder = 3601 # Diodotos I
 }
 530.1.1 = { # 246 BC
