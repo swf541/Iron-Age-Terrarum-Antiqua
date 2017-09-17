@@ -28,6 +28,9 @@
 443.1.1 = { # 333 BC
 	holder = 290001 # King Nastasen of the Napatan dynasty
 }
+506.1.1 = {
+	holder = 290016
+}
 461.1.1 = { # 315 BC
 	holder = 290002 # King Gatisen of the Napata dynasty
 }

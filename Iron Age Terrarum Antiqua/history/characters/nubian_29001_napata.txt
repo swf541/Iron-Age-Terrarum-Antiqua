@@ -70,10 +70,10 @@
 	culture = nubian
 	religion = egyptian_pagan
 	father = 290002
-	470.1.1 = { # Made up
+	465.1.1 = { # Made up
 		birth="yes" # 311 BC
 	}
-	540.1.1 = {
+	506.1.1 = {
 		death="yes" # 270 BC
 	}
 }
@@ -191,5 +191,18 @@
 	}
 	443.1.1 = {
 		death="yes" # 333 BC Made Up
+	}
+}
+290016 = {
+	name = "Arakamani" # King of Kush, ?? - ?? BC
+	dynasty = 29001 # Napatan dynasty
+	culture = nubian
+	religion = egyptian_pagan
+	father = 290006
+	485.1.1 = { # Made up
+		birth="yes" # 311 BC
+	}
+	516.1.1 = {
+		death="yes" # 270 BC
 	}
 }

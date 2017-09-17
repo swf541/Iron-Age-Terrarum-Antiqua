@@ -43,3 +43,6 @@
 494.1.1 = { # 381 BC
 	holder = 290006 # King Sabrakamani of the Napatan dynasty
 }
+506.1.1 = {
+	holder = 290016
+}
