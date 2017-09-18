@@ -195,4 +195,13 @@ bm_punic_wars = {
 	selectable_character = {
 		id = 1002
 	}
+	selectable_character = {
+		id = 250004
+	}
+	selectable_character = {
+		id = 250105
+	}
+	selectable_character = {
+		id = 250406
+	}
 }
