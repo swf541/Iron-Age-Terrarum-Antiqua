@@ -16,5 +16,6 @@
 	holder = 250102 # Bomilcar
 }
 496.1.1 = { # 309 BC
+	liege = k_carthage
 	holder = 250105
 }

@@ -17,10 +17,10 @@
 	dynasty = 27003
 	culture = dacian
 	religion = zalmoxism
-	433.1.1 = { # Made up
+	439.1.1 = { # Made up
 		birth="yes" # 443 BC
 	}
-	511.1.1 = { # Made up
+	515.1.1 = { # Made up
 		death="yes" # 265 BC
 	}
 }
