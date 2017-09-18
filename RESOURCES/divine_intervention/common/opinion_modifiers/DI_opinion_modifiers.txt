@@ -1,5 +1,0 @@
-
-in_non_aggression_pact_di = {
-	opinion = 10
-	non_aggression_pact = yes
-}

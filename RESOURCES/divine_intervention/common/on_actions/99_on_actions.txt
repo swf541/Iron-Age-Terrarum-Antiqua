@@ -1,6 +1,0 @@
-on_death = {
-	events = {
-		infinity.1
-	}
-}
-

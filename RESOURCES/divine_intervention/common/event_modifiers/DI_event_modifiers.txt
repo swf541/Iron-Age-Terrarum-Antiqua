@@ -1,9 +1,0 @@
-warmonger_pope = {
-	icon = 35
-	same_religion_opinion = -50
-}
-attacked_the_pope = {
-	icon = 35
-	same_religion_opinion = -50
-	prison_reason = yes
-}

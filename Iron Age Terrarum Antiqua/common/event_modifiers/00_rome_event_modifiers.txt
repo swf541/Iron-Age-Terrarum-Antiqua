@@ -5,6 +5,10 @@ lateran_treaty_cooldown = {
 	icon = 11
 }
 
+battlefield_fight = {
+	icon = 11
+}
+
 gladiator_mercenaries = {
 	general_opinion = -15
 	icon = 5
