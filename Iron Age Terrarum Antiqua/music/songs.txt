@@ -466,8 +466,8 @@ song = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				culture = roman
-				culture = romanobritish
+				culture_group = hellene
+				culture_group = italian
 			}
 		}
 		modifier = {
@@ -499,8 +499,8 @@ song = {
 		modifier = {
 			factor = 1.15
 			OR = {
-				culture = roman
-				culture = romanobritish
+				culture_group = hellene
+				culture_group = italian
 			}
 		}
 		modifier = {
