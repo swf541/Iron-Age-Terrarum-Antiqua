@@ -185,7 +185,9 @@ song = {
 		}
 		modifier = {
 			factor = 1.25
-			culture_group = celtic
+			culture_group = gallic
+			culture_group = brythonic
+			culture_group = celtiberian_group
 		}
 		modifier = {
 			factor = 0
@@ -245,7 +247,9 @@ song = {
 		}
 		modifier = {
 			factor = 0.9
-			NOT = { culture_group = celtic }
+			NOT = { culture_group = gallic }
+			NOT = { culture_group = brythonic }
+			NOT = { culture_group = celtiberian_group }
 		}
 	}
 }
@@ -328,7 +332,9 @@ song = {
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { culture_group = celtic }
+			NOT = { culture_group = gallic }
+			NOT = { culture_group = brythonic }
+			NOT = { culture_group = celtiberian_group }
 		}
 	}
 }
@@ -363,7 +369,9 @@ song = {
 		}
 		modifier = {
 			factor = 0.75
-			NOT = { culture_group = celtic }
+			NOT = { culture_group = gallic }
+			NOT = { culture_group = brythonic }
+			NOT = { culture_group = celtiberian_group }
 		}
 		modifier = {
 			factor = 1.25
@@ -393,7 +401,9 @@ song = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { culture_group = celtic }
+			NOT = { culture_group = gallic }
+			NOT = { culture_group = brythonic }
+			NOT = { culture_group = celtiberian_group }
 		}
 		modifier = {
 			factor = 1.35
@@ -525,7 +535,9 @@ song = {
 		}
 		modifier = {
 			factor = 1.15
-			culture_group = celtic
+			culture_group = gallic
+			culture_group = brythonic
+			culture_group = celtiberian_group		
 		}
 		modifier = {
 			factor = 0
@@ -543,8 +555,8 @@ song = {
 		modifier = {
 			factor = 1.15
 			OR = {
-				culture_group = imperiale
-				culture = romanobritish
+				culture_group = hellene
+				culture_group = italian
 				culture = armorican
 				culture = breton
 				culture = cumbrian
@@ -567,8 +579,8 @@ song = {
 			factor = 0
 			NOT = {
 				OR = {
-					culture_group = imperiale
-					culture = romanobritish
+					culture_group = hellene
+					culture_group = italian
 					religion_group = christian
 				}
 			}
@@ -590,7 +602,8 @@ song = {
 			factor = 0
 			NOT = {
 				OR = {
-					culture_group = imperiale
+					culture_group = hellene
+					culture_group = italian		
 					year = 700
 				}
 			}
@@ -608,7 +621,8 @@ song = {
 			factor = 0.2
 			NOT = {
 				OR = {
-					culture_group = imperiale
+					culture_group = hellene
+					culture_group = italian		
 					higher_tier_than = duke
 				}
 			}
@@ -633,7 +647,8 @@ song = {
 			factor = 0.5
 			NOT = {
 				OR = {
-					culture_group = imperiale
+					culture_group = hellene
+					culture_group = italian		
 					higher_tier_than = king
 				}
 			}
@@ -665,7 +680,8 @@ song = {
 		modifier = {
 			factor = 1.1
 			OR = {
-				culture_group = imperiale
+				culture_group = hellene
+				culture_group = italian				
 				higher_tier_than = king
 			}
 		}
