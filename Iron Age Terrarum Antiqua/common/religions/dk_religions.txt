@@ -2710,7 +2710,7 @@ italian_religion = {
 		crusade_name = "CRUSADE"
 		scripture_name = "THE_ORACLES"
 		god_names = {
-			GOD_TINIA GOD_UNI GOD_MENRVA GOD_CEL GOD_ARITIMI GOD_PACHA
+			GOD_TINIA GOD_UNI GOD_MENRVA GOD_CEL GOD_ARITIMI GOD_FUFLUNS
 		}
 		
 		can_grant_divorce = yes
