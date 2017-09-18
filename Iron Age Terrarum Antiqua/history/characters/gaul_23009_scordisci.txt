@@ -112,3 +112,15 @@
 		death="yes"
 	}
 }
+230709 = {
+	name = "Eporedix" # Scordisci Made up
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_pagan
+	480.1.1 = { # 336 BC
+		birth="yes"
+	}
+	555.1.1 = { # 268 BC
+		death="yes"
+	}
+}

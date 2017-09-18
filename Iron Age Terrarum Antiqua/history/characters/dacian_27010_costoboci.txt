@@ -50,3 +50,15 @@
 		death="yes" # 345 BC Made Up
 	}
 }
+270905 = {
+	name = "Rigozus" # Made up
+	dynasty = 27010 # Costoboci
+	culture = dacian
+	religion = zalmoxism
+	488.1.1 = {
+		birth="yes" # 422 BC Made Up
+	}
+	561.1.1 = {
+		death="yes" # 345 BC Made Up
+	}
+}

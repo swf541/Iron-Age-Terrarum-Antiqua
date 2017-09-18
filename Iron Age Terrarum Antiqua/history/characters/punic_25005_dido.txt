@@ -59,7 +59,7 @@
 	dynasty = 2049
 	religion = punic_main
 	culture = punic
-	497.1.1 = { 
+	495.1.1 = { 
 		birth="yes" # 384 BC Made Up
 	}
 	548.1.1 = { 

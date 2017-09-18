@@ -37,3 +37,16 @@
 		death="yes" # 274 BC, Made up
 	}
 }
+40304 = {
+	name = "Syrmus" # King of the Triballi, Made up
+	dynasty = 4004 # Triballi
+	religion = thracian_main
+	culture = thracian
+	father = 40303
+	477.1.1 = {
+		birth="yes" # 340 BC, Made up
+	}
+	533.1.1 = {
+		death="yes" # 274 BC, Made up
+	}
+}

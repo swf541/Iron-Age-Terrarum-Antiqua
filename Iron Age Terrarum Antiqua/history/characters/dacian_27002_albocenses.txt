@@ -23,3 +23,15 @@
 		death="yes" # 272 BC
 	}
 }
+2709013 = {
+	name = "Burebista" # Made up
+	dynasty = 27002
+	culture = dacian
+	religion = zalmoxism
+	488.1.1 = { # Made up
+		birth="yes" # 342 BC
+	}
+	557.1.1 = {
+		death="yes" # 272 BC
+	}
+}

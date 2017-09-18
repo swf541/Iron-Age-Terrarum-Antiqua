@@ -36,3 +36,15 @@
 		death="yes" # 340 BC Made Up
 	}
 }
+270604 = {
+	name = "Zyraxes" # Made up
+	dynasty = 27007
+	culture = dacian
+	religion = zalmoxism
+	486.1.1 = { # Made up
+		birth="yes" # 350 BC
+	}
+	567.1.1 = { # Made up
+		death="yes" # 275 BC
+	}
+}

@@ -36,3 +36,15 @@
 		death="yes" # 340 BC Made Up
 	}
 }
+270804 = {
+	name = "Mucatra" # Made up
+	dynasty = 27009 # Capri
+	culture = dacian
+	religion = zalmoxism
+	482.1.1 = { # Made up
+		birth="yes" # 350 BC
+	}
+	457.1.1 = { # Made up
+		death="yes" # 279 BC
+	}
+}
