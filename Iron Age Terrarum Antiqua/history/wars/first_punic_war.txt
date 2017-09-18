@@ -1,0 +1,17 @@
+name = "First Punic War"
+
+casus_belli = {
+	actor = 250406 # Ptolemy
+	recipient = 250004
+	casus_belli = rome_italian_unification_cb
+	landed_title = k_magna_graecia
+	date = 512.1.1 # 321 BC
+}
+512.1.1 = { # 321 BC	
+	add_attacker = 250406 # Ptolemy
+	add_defender = 250004 # Laomedon, Satrap of Syria
+}
+535.1.1 = { # 320 BC	
+	rem_attacker = 250406 # Ptolemy
+	rem_defender = 250004 # Laomedon, Satrap of Syria
+}

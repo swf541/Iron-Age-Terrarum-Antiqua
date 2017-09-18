@@ -30,7 +30,10 @@ rome_italian_unification_cb = {
 	}
 
 	can_use_title = {
-		title = k_italy
+		OR = {
+			title = k_italy
+			title = k_magna_graecia
+		}
 	}
 	
 	is_valid = {
