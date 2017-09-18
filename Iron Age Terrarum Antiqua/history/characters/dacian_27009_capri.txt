@@ -44,7 +44,7 @@
 	482.1.1 = { # Made up
 		birth="yes" # 350 BC
 	}
-	457.1.1 = { # Made up
+	557.1.1 = { # Made up
 		death="yes" # 279 BC
 	}
 }

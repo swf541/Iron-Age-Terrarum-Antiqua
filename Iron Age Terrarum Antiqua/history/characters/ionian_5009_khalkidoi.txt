@@ -17,10 +17,23 @@
 	religion = hellenic_pagan
 	culture = ionian
 	father = 50801
-	425.1.1 = { # 351 BC Made up
+	439.1.1 = { # 351 BC Made up
 		birth="yes"
 	}
-	496.1.1 = { # 280 BC Made up
+	520.1.1 = { # 280 BC Made up
+		death="yes"
+	}
+}
+50803 = {
+	name = "Praxiteles" # Olbia
+	dynasty = 5009 # Khalkidoi
+	religion = hellenic_pagan
+	culture = ionian
+	father = 50802
+	480.1.1 = { # 351 BC Made up
+		birth="yes"
+	}
+	562.1.1 = { # 280 BC Made up
 		death="yes"
 	}
 }

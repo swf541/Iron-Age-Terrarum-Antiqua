@@ -34,7 +34,7 @@
 	443.1.1 = {
 		birth="yes" # 333 BC, Made up
 	}
-	511.1.1 = {
+	518.1.1 = {
 		death="yes" # 265 BC, Made up
 	}
 }

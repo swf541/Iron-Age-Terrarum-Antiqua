@@ -344,3 +344,7 @@ b_magonid = {
 	culture = punic
 	religion = punic_main
 }
+b_hanno2 = {
+	culture = punic
+	religion = punic_main
+}

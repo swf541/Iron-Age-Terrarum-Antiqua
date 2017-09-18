@@ -7,3 +7,6 @@
 451.1.1 = { # 325 BC, Made up
 	holder = 52601 # Eukleides
 }
+512.1.1 = {
+	holder = 52602
+}
