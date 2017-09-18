@@ -176,3 +176,12 @@ opinion_refused_sarapia = {
 	opinion = -10
 	months = 12
 }
+opinion_nortia = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_nortia = {
+	opinion = -10
+	months = 12
+}

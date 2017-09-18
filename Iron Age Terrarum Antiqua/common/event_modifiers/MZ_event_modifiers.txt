@@ -126,3 +126,9 @@ held_laylat_an_nur_feast_timer = {
 held_ìd_tabrìk_al_annam_feast_timer = {
 	icon = 1
 }
+held_nortia_feast_timer = {
+	icon = 1
+}
+held_nortia_timer = {
+	icon = 1
+}

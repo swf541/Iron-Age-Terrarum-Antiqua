@@ -47,7 +47,7 @@ character_event = {
 				not = { religion = mandean }
 			}
 		}
-		set_character_flag = attending_ameysia
+		set_character_flag = attending_nortia
 		set_character_flag = do_not_disturb
 		hidden_tooltip = { character_event = { id = ETR.899 days = 100 } } # Safety catch flag clearing
 		if = {
@@ -71,7 +71,7 @@ character_event = {
 		FROM = {
 			character_event = { id = ETR.702 days = 5 tooltip = DIPLOWINDOW_REJECT }
 			opinion = {
-				modifier = opinion_refused_ameysia
+				modifier = opinion_refused_nortia
 				who = ROOT
 			}
 		}
@@ -91,7 +91,7 @@ character_event = {
 		name = EVTOPTA_ETR_702
 		tooltip = {
 			opinion = {
-				modifier = opinion_refused_ameysia
+				modifier = opinion_refused_nortia
 				who = FROM
 			}
 		}
@@ -112,10 +112,10 @@ character_event = {
 	option = {
 		name = EVTOPTA_ETR_703
 		custom_tooltip = {
-			text = ameysia_begins
+			text = nortia_begins
 			hidden_tooltip = {
 				any_vassal = {
-					limit = { has_character_flag = attending_ameysia }
+					limit = { has_character_flag = attending_nortia }
 					character_event = { id = ETR.704 }
 					character_event = { id = ETR.1 }
 				}
@@ -166,7 +166,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_ETR_703
-		custom_tooltip = { text = ameysia_begins }
+		custom_tooltip = { text = nortia_begins }
 	}
 }
 
@@ -188,7 +188,7 @@ character_event = {
 			text = feast_begins
 			hidden_tooltip = {
 				any_vassal = {
-					limit = { has_character_flag = attending_ameysia }
+					limit = { has_character_flag = attending_nortia }
 					character_event = { id = ETR.706 }
 				}
 				character_event = { id = ETR.707 days = 25 }
@@ -244,7 +244,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_ETR_705
-		set_character_flag = ameysia_feast_vassal
+		set_character_flag = nortia_feast_vassal
 		custom_tooltip = { text = feast_begins }
 	}
 }
@@ -263,26 +263,26 @@ character_event = {
 	option = {
 		name = EVTOPTA_ETR_707
 		any_vassal = {
-			limit = { has_character_flag = attending_ameysia }
+			limit = { has_character_flag = attending_nortia }
 			opinion = {
-				modifier = opinion_ameysia
+				modifier = opinion_nortia
 				who = ROOT
 			}
 		}
 		hidden_tooltip = {
 			any_vassal = {
-				limit = { has_character_flag = attending_ameysia }
+				limit = { has_character_flag = attending_nortia }
 				character_event = { id = ETR.708 }
 			}
 		}
 		add_character_modifier = {
-			name = held_ameysia_timer
+			name = held_nortia_timer
 			duration = 1825
 			hidden = yes
 		}
 		prestige = 100
 		piety = 100
-		clr_character_flag = holding_ameysia
+		clr_character_flag = holding_nortia
 		clr_character_flag = feast_drunkard
 		clr_character_flag = feast_gluttonous
 		clr_character_flag = feast_lunatic
@@ -303,8 +303,8 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_ETR_707
-		clr_character_flag = attending_ameysia
-		clr_character_flag = ameysia_feast_vassal
+		clr_character_flag = attending_nortia
+		clr_character_flag = nortia_feast_vassal
 		clr_character_flag = feast_drunkard
 		clr_character_flag = feast_gluttonous
 		clr_character_flag = feast_lunatic
@@ -329,10 +329,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = ameysia_feast_vassal
+		has_character_flag = nortia_feast_vassal
 		NOT = { has_character_flag = feast_drunkard }
 		liege = { 
-			has_character_flag = holding_ameysia
+			has_character_flag = holding_nortia
 			NOT = { has_character_flag = feast_drunkard }
 		}
 		trait = drunkard
@@ -377,7 +377,7 @@ character_event = {
 				character_event = { id = ETR.721 }
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 					}
 					character_event = { id = ETR.721 }
@@ -402,7 +402,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = drunkard }
 					}
@@ -413,7 +413,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						trait = drunkard
 					}
@@ -468,12 +468,12 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = ameysia_feast_vassal
+		has_character_flag = nortia_feast_vassal
 		liege = {
-			has_character_flag = holding_ameysia
+			has_character_flag = holding_nortia
 			NOT = { has_character_flag = feast_gluttonous }
 			any_vassal = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_gluttonous }
 				trait = gluttonous
 				NOT = { character = ROOT }
@@ -515,7 +515,7 @@ character_event = {
 			set_character_flag = feast_gluttonous
 			random_vassal = {
 				limit = {
-					has_character_flag = ameysia_feast_vassal
+					has_character_flag = nortia_feast_vassal
 					trait = gluttonous
 					NOT = { character = ROOT }
 				}
@@ -546,7 +546,7 @@ character_event = {
 				character_event = { id = ETR.725 }
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { 
 							character = ROOT 
 							character = FROM
@@ -570,7 +570,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { 
 							character = ROOT 
 							character = FROM
@@ -634,10 +634,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = ameysia_feast_vassal
+		has_character_flag = nortia_feast_vassal
 		NOT = { has_character_flag = feast_lunatic }
 		liege = { 
-			has_character_flag = holding_ameysia 
+			has_character_flag = holding_nortia 
 			NOT = { has_character_flag = feast_lunatic }
 		}
 		trait = lunatic
@@ -682,7 +682,7 @@ character_event = {
 				character_event = { id = ETR.727 }
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 					}
 					character_event = { id = ETR.727 }
@@ -707,7 +707,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = lunatic }
 					}
@@ -718,7 +718,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						trait = lunatic
 					}
@@ -776,10 +776,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = ameysia_feast_vassal
+		has_character_flag = nortia_feast_vassal
 		NOT = { has_character_flag = feast_lustful }
 		liege = { 
-			has_character_flag = holding_ameysia 
+			has_character_flag = holding_nortia 
 			NOT = { has_character_flag = feast_lustful }
 		}
 		trait = lustful
@@ -828,7 +828,7 @@ character_event = {
 				character_event = { id = ETR.729 }
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 					}
 					character_event = { id = ETR.729 }
@@ -853,7 +853,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = lustful }
 					}
@@ -864,7 +864,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						trait = lustful
 					}
@@ -889,7 +889,7 @@ character_event = {
 				character_event = { id = ETR.729 }
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 					}
 					character_event = { id = ETR.729 }
@@ -914,7 +914,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = lustful }
 					}
@@ -925,7 +925,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						trait = lustful
 					}
@@ -1000,12 +1000,12 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = ameysia_feast_vassal
+		has_character_flag = nortia_feast_vassal
 		NOT = { has_character_flag = feast_friendship }
 		liege = { 
-			has_character_flag = holding_ameysia
+			has_character_flag = holding_nortia
 			any_vassal = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_friendship }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  20 }
@@ -1047,7 +1047,7 @@ character_event = {
 		liege = { 
 			random_vassal = {
 				limit = {
-					has_character_flag = ameysia_feast_vassal
+					has_character_flag = nortia_feast_vassal
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  20 }
 				}
@@ -1132,16 +1132,16 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = ameysia_feast_vassal
+		has_character_flag = nortia_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
 		trait = homosexual
 		is_female = no
 		has_lover = no
 		liege = { 
-			has_character_flag = holding_ameysia
+			has_character_flag = holding_nortia
 			NOT = { has_character_flag = feast_homosexual }
 			any_vassal = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
@@ -1187,7 +1187,7 @@ character_event = {
 			set_character_flag = feast_homosexual
 			random_vassal = {
 				limit = {
-					has_character_flag = ameysia_feast_vassal
+					has_character_flag = nortia_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
@@ -1222,7 +1222,7 @@ character_event = {
 				character_event = { id = ETR.740 }
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = {
 							character = ROOT
 							character = FROM
@@ -1278,16 +1278,16 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = ameysia_feast_vassal
+		has_character_flag = nortia_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
 		trait = homosexual
 		is_female = yes
 		has_lover = no
 		liege = { 
-			has_character_flag = holding_ameysia
+			has_character_flag = holding_nortia
 			NOT = { has_character_flag = feast_homosexual }
 			any_vassal = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
@@ -1333,7 +1333,7 @@ character_event = {
 			set_character_flag = feast_homosexual
 			random_vassal = {
 				limit = {
-					has_character_flag = ameysia_feast_vassal
+					has_character_flag = nortia_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
@@ -1368,7 +1368,7 @@ character_event = {
 				character_event = { id = ETR.740 }
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = {
 							character = ROOT
 							character = FROM
@@ -1444,7 +1444,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = homosexual }
 					}
@@ -1455,7 +1455,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { character = ROOT }
 						trait = homosexual
 					}
@@ -1511,10 +1511,10 @@ character_event = { #feast_drunkard
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_ameysia
+		has_character_flag = holding_nortia
 		NOT = { has_character_flag = feast_drunkard }
 		any_vassal = {
-			has_character_flag = ameysia_feast_vassal
+			has_character_flag = nortia_feast_vassal
 			NOT = { has_character_flag = feast_drunkard }
 			trait = drunkard
 		}
@@ -1523,7 +1523,7 @@ character_event = { #feast_drunkard
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_drunkard }
 				trait = drunkard
 			}
@@ -1541,10 +1541,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_ameysia
+		has_character_flag = holding_nortia
 		NOT = { has_character_flag = feast_gluttonous }
 		any_vassal = {
-			has_character_flag = ameysia_feast_vassal
+			has_character_flag = nortia_feast_vassal
 			NOT = { has_character_flag = feast_gluttonous }
 			trait = gluttonous
 		}
@@ -1553,7 +1553,7 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_gluttonous }
 				trait = gluttonous
 			}
@@ -1571,10 +1571,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_ameysia
+		has_character_flag = holding_nortia
 		NOT = { has_character_flag = feast_lunatic }
 		any_vassal = {
-			has_character_flag = ameysia_feast_vassal
+			has_character_flag = nortia_feast_vassal
 			NOT = { has_character_flag = feast_lunatic }
 			trait = lunatic
 		}
@@ -1583,7 +1583,7 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_lunatic }
 				trait = lunatic
 			}
@@ -1601,10 +1601,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_ameysia
+		has_character_flag = holding_nortia
 		NOT = { has_character_flag = feast_lustful }
 		any_vassal = { 
-			has_character_flag = ameysia_feast_vassal
+			has_character_flag = nortia_feast_vassal
 			NOT = { has_character_flag = feast_lustful }
 			trait = lustful
 			is_female = no
@@ -1614,7 +1614,7 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_lustful }
 				trait = lustful
 				is_female = no
@@ -1633,15 +1633,15 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_ameysia
+		has_character_flag = holding_nortia
 		NOT = { has_character_flag = feast_friendship }
-		has_character_flag = ameysia_feast_vassal
+		has_character_flag = nortia_feast_vassal
 		any_vassal = {
-			has_character_flag = ameysia_feast_vassal
+			has_character_flag = nortia_feast_vassal
 			NOT = { has_character_flag = feast_friendship }
 			liege = { 
 				any_vassal = {
-					has_character_flag = ameysia_feast_vassal
+					has_character_flag = nortia_feast_vassal
 					NOT = { has_character_flag = feast_friendship }
 					NOT = { character = PREVPREV }
 					opinion = { who = PREVPREV value =  20 }
@@ -1653,11 +1653,11 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_friendship }
 				liege = { 
 					any_vassal = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { has_character_flag = feast_friendship }
 						NOT = { character = PREVPREV }
 						opinion = { who = PREVPREV value =  20 }
@@ -1679,16 +1679,16 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		NOT = { has_character_flag = feast_homosexual }
-		has_character_flag = holding_ameysia
+		has_character_flag = holding_nortia
 		any_vassal = { 
-			has_character_flag = ameysia_feast_vassal
+			has_character_flag = nortia_feast_vassal
 			NOT = { has_character_flag = feast_homosexual }
 			trait = homosexual
 			is_female = no
 			has_lover = no
 			liege = { 
 				any_vassal = {
-					has_character_flag = ameysia_feast_vassal
+					has_character_flag = nortia_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = PREVPREV }
 					opinion = { who = PREVPREV value =  0 }
@@ -1703,14 +1703,14 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				trait = homosexual
 				is_female = no
 				has_lover = no
 				liege = { 
 					any_vassal = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { has_character_flag = feast_homosexual }
 						NOT = { character = PREVPREV }
 						opinion = { who = PREVPREV value =  0 }
@@ -1735,16 +1735,16 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		NOT = { has_character_flag = feast_homosexual }
-		has_character_flag = holding_ameysia
+		has_character_flag = holding_nortia
 		any_vassal = { 
-			has_character_flag = ameysia_feast_vassal
+			has_character_flag = nortia_feast_vassal
 			NOT = { has_character_flag = feast_homosexual }
 			trait = homosexual
 			is_female = yes
 			has_lover = no
 			liege = { 
 				any_vassal = {
-					has_character_flag = ameysia_feast_vassal
+					has_character_flag = nortia_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = PREVPREV }
 					opinion = { who = PREVPREV value =  0 }
@@ -1759,14 +1759,14 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = ameysia_feast_vassal
+				has_character_flag = nortia_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				trait = homosexual
 				is_female = yes
 				has_lover = no
 				liege = { 
 					any_vassal = {
-						has_character_flag = ameysia_feast_vassal
+						has_character_flag = nortia_feast_vassal
 						NOT = { has_character_flag = feast_homosexual }
 						NOT = { character = PREVPREV }
 						opinion = { who = PREVPREV value =  0 }
