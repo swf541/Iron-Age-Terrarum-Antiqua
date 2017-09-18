@@ -2366,8 +2366,55 @@ greek_religion = {
 	crusade_cb = crusade # Should be changed or removed entirely
 	playable = yes
 	
-	ai_convert_same_group = 2 # always try to convert
+	ai_convert_same_group = 0
 	ai_convert_other_group = 2 # always try to convert
+
+	hellenic_pagan_reformed = {
+		graphical_culture = westerngfx
+
+		icon = 16
+		heresy_icon = 16
+		
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+
+
+		
+		color = { 0.88 0.77 0.98 }
+		high_god_name = { 
+			GOD_HELIOS
+		}
+		god_names = {
+			 GOD_HELIOS THE_DEMIURGE GOD_THE_SUN GOD_OF_THE_SEVEN_RAYS THE_INVINCIBLE_SUN SOL_INVICTUS THE_LIGHT GOD_ZEUS GOD_THE_THUNDERER GOD_HERACLES GOD_CYBELE GOD_MAGNA_MATER GOD_HERA GOD_HERMES GOD_ATHENA GOD_APOLLO GOD_ASCLEPIUS GOD_APHRODITE GOD_SERAPIS GOD_MITHRAS GOD_DIONYSUS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS THE_DARKNESS MONSTER_TYPHON
+		}
+		unit_modifier = {
+			levy_size = 0.3
+			land_morale = 0.3	
+			
+			key = "OFF_RELIGION"
+		}
+		
+		character_modifier = {
+			learning = 4
+		}			
+		
+		crusade_name = GREAT_HOLY_WAR
+		can_call_crusade = yes
+		scripture_name = THE_CHALDEAN_ORACLES
+		priest_title = AUGUR
+		priests_can_marry = yes
+		female_temple_holders = yes
+		psc_marriage = yes
+		max_consorts = 3
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+
+		allow_in_ruler_designer = no
+	}
 	
 	hellenic_pagan = {
 		graphical_culture = westerngfx
@@ -2377,9 +2424,16 @@ greek_religion = {
 		
 		crusade_name = "CRUSADE"
 		scripture_name = PLACEHOLDER
+		high_god_name = { 
+			GOD_ZEUS
+		}		
 		god_names = {
 			GOD_ZEUS GOD_HERA GOD_POSEIDON GOD_DEMETER GOD_ATHENA GOD_DIONYSUS GOD_APOLLO GOD_ARTEMIS GOD_ARES GOD_APHRODITE GOD_HEPHAESTUS GOD_HERMES
 		}
+		
+		evil_god_names = {
+			THE_DARK_SPIRITS THE_DARKNESS MONSTER_TYPHON
+		}		
 		
 		can_grant_divorce = yes
 		can_grant_claim = yes
@@ -2432,6 +2486,78 @@ greek_religion = {
 						
 		intermarry = dravidian_main
 	}
+
+	alexandrian_pagan = {
+		graphical_culture = westerngfx
+
+		icon = 16
+		color = { 0.3 0.54 1.3 }
+		
+		crusade_name = "CRUSADE"
+		scripture_name = PLACEHOLDER
+		high_god_name = { 
+			GOD_SERAPIS
+		}		
+		god_names = {
+			GOD_SERAPIS GOD_ISIS GOD_HARPOCRATES GOD_DIONYSUS GOD_HERMANUBIS
+		}
+		
+		evil_god_names = {
+			THE_DARK_SPIRITS THE_DARKNESS MONSTER_TYPHON
+		}		
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_call_crusade = no
+		priests_can_marry = yes
+		can_hold_temples = yes
+		
+		max_wives = 4
+		
+		intermarry = egyptian_pagan	
+		intermarry = atenist
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_pagan
+		
+		intermarry = punic_main
+		intermarry = canaanite_pagan	
+		
+		intermarry = zoroastrian
+		intermarry = zurvanite
+		intermarry = ossetian_pagan
+		intermarry = hindu
+		intermarry = armenian_pagan	
+		
+		#intermarry = jewish	
+		
+		intermarry = jain
+		intermarry = buddhist
+		
+		intermarry = georgian_pagan	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		#intermarry = hellenic_pagan
+		#intermarry = roman_main
+		#intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}	
+	
 	roman_main = {
 		graphical_culture = westerngfx
 
@@ -2442,6 +2568,10 @@ greek_religion = {
 		scripture_name = PLACEHOLDER
 		god_names = {
 			GOD_JUNO GOD_VESTA GOD_MINERVA GOD_CERES GOD_DIANA GOD_VENUS GOD_MARS GOD_MERCURIUS GOD_JOVE GOD_NEPTUNUS GOD_VULCANUS GOD_APOLLO
+		}
+
+		evil_god_names = {
+			THE_DARK_SPIRITS THE_DARKNESS MONSTER_TYPHON
 		}
 		
 		can_grant_divorce = yes
@@ -2504,6 +2634,10 @@ greek_religion = {
 		scripture_name = PLACEHOLDER
 		god_names = {
 			GOD_ZEUS_STRATIOS GOD_MEN_PHARNACOU GOD_CYBELE GOD_APOLLO GOD_MITHRAS
+		}
+
+		evil_god_names = {
+			THE_DARK_SPIRITS THE_DARKNESS MONSTER_TYPHON
 		}
 		
 		can_grant_divorce = yes
