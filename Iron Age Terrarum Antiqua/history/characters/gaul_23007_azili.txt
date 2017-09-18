@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+230504 = {
+	name = "Intudiomaros" # Azili Made up
+	dynasty = 23007 # Azili
+	culture = gaul
+	religion = celtic_pagan
+	father = 230502
+	476.1.1 = { # 339 BC
+		birth="yes"
+	}
+	537.1.1 = { # 277 BC
+		death="yes"
+	}
+}

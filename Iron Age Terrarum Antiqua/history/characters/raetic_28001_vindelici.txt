@@ -18,10 +18,10 @@
 	religion = etruscan_main
 	culture = raetic
 	father = 280001
-	416.1.1 = { # 360 BC
+	450.1.1 = { # 360 BC
 		birth="yes"
 	}
-	502.1.1 = { # 274 BC
+	522.1.1 = { # 274 BC
 		death="yes"
 	}
 }

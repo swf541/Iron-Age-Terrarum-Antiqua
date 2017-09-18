@@ -18,10 +18,10 @@
 	culture = gaul
 	religion = celtic_pagan
 	father = 231401
-	410.1.1 = { # 366 BC
+	440.1.1 = { # 366 BC
 		birth="yes"
 	}
-	499.1.1 = { # 277 BC
+	515.1.1 = { # 277 BC
 		death="yes"
 	}
 }
