@@ -1290,7 +1290,107 @@ near_eastern = {
 }
 hellenic = {
 	graphical_cultures = { easterngfx }
- 
+
+	oscan = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.5 0.1 0 }
+
+		male_names = {
+			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
+			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
+			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
+		}
+		female_names = {
+			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
+			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
+			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = italic_culture_modifier
+	}
+	latin = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.5 0 0 }
+
+		male_names = {
+			Accius Aelius Aemilius Aeschinus Aesopus Afranius Ambivius Andronicus 
+			Annius Antonius Appius Apollodorus Aristyllus Arrius Atilius Aulus_Aulus Aurelius 
+			Bathyllus Battus Biblios Brutus Caecilius Caelius Calvus Capaneus 
+			Cassius Claudius Clodius Colunella Cornelius Crassus Dardanus Decimus_Deciis 
+			Demetrius Diphilus Domitianus Ennius Eugenius Eusebius Eustathius Gaius_Gaius 
+			Gemellus Gouneus Gratian Gustinus Hesychius Hortensius Idaeus Julian 
+			Julius Lapidus Lepidus Livius Lucius_Lucius Marcellinus Marcellus Marcus_Marcus 
+			Maxentius Maximus Micio Naevius Octavian Octavius Ogulnius Oppius 
+			Otho Paetus Paulinus Paulus_Paulus Perpertius Persius Philetas Photius 
+			Plautus Poppaeus Posthumus Publius Quintillus Quintus_Pompo Regillus Servius Spurius Statius 
+			Syncellus Tiberius_Tiberius Titus_Titus Traianus Turpilius Turpio Urgulanus Valerian 
+			Valerius Varus Vespasian Vitellius Volusius        
+		}
+		female_names = {
+			Accia Aelia Aemilia Aeshchina Aesopa Aetia Afrania Agrippina 
+			Ambivia Andronica Annia Antonia Antonilla Apollodoria Aristylla Arria 
+			Arriana Arrianilla Atilia Aulia Aurelia Bathylla Battia Brutia 
+			Caecilia Calvia Capanea Casina Cassia Claudia Clodia Colunellina 
+			Corbulina Cornelia Crassia Dardania Decia_Decia Demetria Didymia Diphilia 
+			Domitia Domitilla Drusilla Ennia Eugenia Eusebia Eustathia Gaetulica 
+			Gemella Gounea Gratiana Gustina Hesychia Hortensia Idaea Julia 
+			Lapida Lepida Lesbia Livia Livilla Lucia Lucilla 
+			Marcella Maxentia Maxima Messalina Naevia Octavia Ogulnia Oppia 
+			Optima Otholina Paetina Paula Paulina Perpertia Phileta Photia 
+			Plautia Poppaea Posthuma Quintia_Pompa Quintillia Regilla Servia Statia 
+			Syncellia Theodosia Tiberia Traiana Turpia Turpilia Urgulania Urgulanilla 
+			Valeria Varia Vespasia Vitellia Volusia        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = italic_culture_modifier
+	}
+	umbrian = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.5 0.1 0.1 }
+
+		male_names = {
+			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
+			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
+			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
+		}
+		female_names = {
+			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
+			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
+			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = italic_culture_modifier
+	}
+	picene = {
+		graphical_cultures = { byzantinegfx }
+  
+		color = { 0.6 0 0 }
+
+		male_names = {
+			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
+			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
+			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
+		}
+		female_names = {
+			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
+			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
+			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
+		}
+  
+		from_dynasty_prefix = "of "
+   
+		modifier = italic_culture_modifier
+	}	
+	
 	aeolian = {
 		graphical_cultures = { byzantinegfx }
   
@@ -1591,109 +1691,7 @@ hellenic = {
 		modifier = hellenic_culture_modifier
 	}
 }
-italian = {
-	graphical_cultures = { easterngfx }
- 
-	oscan = {
-		graphical_cultures = { byzantinegfx }
-  
-		color = { 0.5 0.1 0 }
 
-		male_names = {
-			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
-			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
-			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
-		}
-		female_names = {
-			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
-			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
-			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
-		}
-  
-		from_dynasty_prefix = "of "
-   
-		modifier = italic_culture_modifier
-	}
-	latin = {
-		graphical_cultures = { byzantinegfx }
-  
-		color = { 0.5 0 0 }
-
-		male_names = {
-			Accius Aelius Aemilius Aeschinus Aesopus Afranius Ambivius Andronicus 
-			Annius Antonius Appius Apollodorus Aristyllus Arrius Atilius Aulus_Aulus Aurelius 
-			Bathyllus Battus Biblios Brutus Caecilius Caelius Calvus Capaneus 
-			Cassius Claudius Clodius Colunella Cornelius Crassus Dardanus Decimus_Deciis 
-			Demetrius Diphilus Domitianus Ennius Eugenius Eusebius Eustathius Gaius_Gaius 
-			Gemellus Gouneus Gratian Gustinus Hesychius Hortensius Idaeus Julian 
-			Julius Lapidus Lepidus Livius Lucius_Lucius Marcellinus Marcellus Marcus_Marcus 
-			Maxentius Maximus Micio Naevius Octavian Octavius Ogulnius Oppius 
-			Otho Paetus Paulinus Paulus_Paulus Perpertius Persius Philetas Photius 
-			Plautus Poppaeus Posthumus Publius Quintillus Quintus_Pompo Regillus Servius Spurius Statius 
-			Syncellus Tiberius_Tiberius Titus_Titus Traianus Turpilius Turpio Urgulanus Valerian 
-			Valerius Varus Vespasian Vitellius Volusius        
-		}
-		female_names = {
-			Accia Aelia Aemilia Aeshchina Aesopa Aetia Afrania Agrippina 
-			Ambivia Andronica Annia Antonia Antonilla Apollodoria Aristylla Arria 
-			Arriana Arrianilla Atilia Aulia Aurelia Bathylla Battia Brutia 
-			Caecilia Calvia Capanea Casina Cassia Claudia Clodia Colunellina 
-			Corbulina Cornelia Crassia Dardania Decia_Decia Demetria Didymia Diphilia 
-			Domitia Domitilla Drusilla Ennia Eugenia Eusebia Eustathia Gaetulica 
-			Gemella Gounea Gratiana Gustina Hesychia Hortensia Idaea Julia 
-			Lapida Lepida Lesbia Livia Livilla Lucia Lucilla 
-			Marcella Maxentia Maxima Messalina Naevia Octavia Ogulnia Oppia 
-			Optima Otholina Paetina Paula Paulina Perpertia Phileta Photia 
-			Plautia Poppaea Posthuma Quintia_Pompa Quintillia Regilla Servia Statia 
-			Syncellia Theodosia Tiberia Traiana Turpia Turpilia Urgulania Urgulanilla 
-			Valeria Varia Vespasia Vitellia Volusia        
-		}
-  
-		from_dynasty_prefix = "of "
-   
-		modifier = italic_culture_modifier
-	}
-	umbrian = {
-		graphical_cultures = { byzantinegfx }
-  
-		color = { 0.5 0.1 0.1 }
-
-		male_names = {
-			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
-			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
-			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
-		}
-		female_names = {
-			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
-			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
-			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
-		}
-  
-		from_dynasty_prefix = "of "
-   
-		modifier = italic_culture_modifier
-	}
-	picene = {
-		graphical_cultures = { byzantinegfx }
-  
-		color = { 0.6 0 0 }
-
-		male_names = {
-			Ancus_Ancus Attiis_Attiis Deciis_Deciis Gaiis_Gaius Heriis_Heriis Mariis_Mariis Mettiis_Mettiis Minatus_Minatus Miniis_Miniis 
-			Neriis_Neriis Noviis_Noviis Numeriis_Numeriis Oviis_Oviis Pacciis_Pacciis Pompo_Pompo Salviis_Salviis Seppiis_Seppiis 
-			Statiis_Statiis Taurus_Taurus Trebiis_Trebiis Vettiis_Vettiis Vibiis_Vibiis        
-		}
-		female_names = {
-			Anca_Anca Attia_Attia Decia_Decia Heria_Heria Maria_Maria Mettia_Mettia Minata_Minata Minia_Minia 
-			Neria_Neria Novia_Novia Numa_Numa Numeria_Numeria Ovia_Ovia Paccia_Paccia Pompa_Pompa Salvia_Salvia 
-			Seppia_Seppia Stattia_Stattia Trebia_Trebia Vettia_Vettia Vibia_Vibia        
-		}
-  
-		from_dynasty_prefix = "of "
-   
-		modifier = italic_culture_modifier
-	}
-}
 tyrhenian = {
 	graphical_cultures = { easterngfx }
  

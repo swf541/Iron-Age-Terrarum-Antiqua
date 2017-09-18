@@ -466,8 +466,7 @@ song = {
 		modifier = {
 			factor = 1.2
 			OR = {
-				culture_group = hellene
-				culture_group = italian
+				culture_group = hellenic
 			}
 		}
 		modifier = {
@@ -499,8 +498,7 @@ song = {
 		modifier = {
 			factor = 1.15
 			OR = {
-				culture_group = hellene
-				culture_group = italian
+				culture_group = hellenic
 			}
 		}
 		modifier = {
@@ -555,8 +553,7 @@ song = {
 		modifier = {
 			factor = 1.15
 			OR = {
-				culture_group = hellene
-				culture_group = italian
+				culture_group = hellenic
 				culture = armorican
 				culture = breton
 				culture = cumbrian
@@ -579,8 +576,7 @@ song = {
 			factor = 0
 			NOT = {
 				OR = {
-					culture_group = hellene
-					culture_group = italian
+					culture_group = hellenic
 					religion_group = christian
 				}
 			}
@@ -602,8 +598,7 @@ song = {
 			factor = 0
 			NOT = {
 				OR = {
-					culture_group = hellene
-					culture_group = italian		
+					culture_group = hellenic
 					year = 700
 				}
 			}
@@ -621,8 +616,7 @@ song = {
 			factor = 0.2
 			NOT = {
 				OR = {
-					culture_group = hellene
-					culture_group = italian		
+					culture_group = hellenic	
 					higher_tier_than = duke
 				}
 			}
@@ -647,8 +641,7 @@ song = {
 			factor = 0.5
 			NOT = {
 				OR = {
-					culture_group = hellene
-					culture_group = italian		
+					culture_group = hellenic
 					higher_tier_than = king
 				}
 			}
@@ -680,8 +673,7 @@ song = {
 		modifier = {
 			factor = 1.1
 			OR = {
-				culture_group = hellene
-				culture_group = italian				
+				culture_group = hellenic		
 				higher_tier_than = king
 			}
 		}
