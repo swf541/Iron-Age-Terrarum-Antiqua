@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+460103 = {
+	name = "Kushtana" # Made up
+	dynasty = 46002 # Aryamgulashu
+	religion = zoroastrian
+	culture = khotanese
+	father = 460101
+	470.1.1 = { # 357 BC
+		birth="yes"
+	}
+	550.1.1 = { # 280 BC
+		death="yes"
+	}
+}
