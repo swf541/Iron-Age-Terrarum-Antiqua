@@ -20,7 +20,7 @@
 	443.1.1 = { # Made up
 		birth="yes" # 333 BC
 	}
-	501.1.1 = { # Made up
+	520.1.1 = { # Made up
 		death="yes" # 275 BC
 	}
 }

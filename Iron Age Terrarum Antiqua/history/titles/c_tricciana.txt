@@ -7,3 +7,6 @@
 443.1.1 = { # 333 BC
 	holder = 230401 # Donnotaurus of the Eravisci tribe
 }
+500.1.1 = {
+	holder = 230404
+}

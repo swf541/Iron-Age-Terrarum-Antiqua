@@ -37,3 +37,16 @@
 		death="yes" # 340 BC
 	}
 }
+230404 = {
+	name = "Ambiorix" # Eravisci leader, made up
+	dynasty = 23006 # Eravisci
+	culture = gaul
+	religion = celtic_pagan
+	father = 230401
+	477.1.1 = {
+		birth="yes" # 338 BC, Made up
+	}
+	544.1.1 = {
+		death="yes" # 280 BC, Made up 
+	}
+}

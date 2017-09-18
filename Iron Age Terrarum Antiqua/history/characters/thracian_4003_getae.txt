@@ -42,3 +42,17 @@
 		death="yes" # 346 BC Made Up
 	}
 }
+40204 = {
+	name = "Bastiza" # King of Getae
+	dynasty = 4003 # Getae
+	religion = "zalmoxism"
+	culture = thracian
+
+	
+	477.1.1 = { # 331 BC Made up
+		birth="yes"
+	}
+	545.1.1 = { # 279 BC	
+		death="yes" # 346 BC Made Up
+	}
+}

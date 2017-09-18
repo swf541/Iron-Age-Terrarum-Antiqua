@@ -17,10 +17,10 @@
 	religion = dravidian_main
 	culture = tamil
 	father = 120501
-	415.1.1 = { # 361 BC
+	444.1.1 = { # 361 BC
 		birth="yes"
 	}
-	498.1.1 = { # 278 BC
+	520.1.1 = { # 278 BC
 		death="yes"
 	}
 }

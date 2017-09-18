@@ -24,3 +24,15 @@
 		death="yes"
 	}
 }
+160403 = {
+	name = "Taurus" # Mamertine leader
+	dynasty = 16005 # Mamertini
+	religion = roman_main
+	culture = oscan
+	482.1.1 = { # 343 BC
+		birth="yes"
+	}
+	544.1.1 = { # 275 BC
+		death="yes"
+	}
+}
