@@ -1,12 +1,12 @@
 
-namespace = ETR
+namespace = PUR
 
 ### Etruscan New Year
 
 # Invitations Sent (Liege)
 character_event = {
-	id = ETR.700
-	desc = EVTDESC_ETR_700
+	id = PUR.700
+	desc = EVTDESC_PUR_700
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	
@@ -15,7 +15,7 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_ETR_700
+		name = EVTOPTA_PUR_700
 		any_vassal = {
 			limit = {
 				age = 16
@@ -23,33 +23,33 @@ character_event = {
 				war = no
 				NOT = { trait = incapable }
 			}
-			character_event = { id = ETR.701 tooltip = EVTTOOLTIP_ETR_701 days = 9 }
+			character_event = { id = PUR.701 tooltip = EVTTOOLTIP_PUR_701 days = 9 }
 		}
-		hidden_tooltip = { character_event = { id = ETR.703 days = 10 } }
+		hidden_tooltip = { character_event = { id = PUR.703 days = 10 } }
 	}
 }
 
 # Invitations Received (Vassals)
 character_event = {
-	id = ETR.701
-	desc = EVTDESC_ETR_701
+	id = PUR.701
+	desc = EVTDESC_PUR_701
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_ETR_701
+		name = EVTOPTA_PUR_701
 		trigger = {
 			OR = {
-				religion = etruscan_main
+				religion = anatolian_main
 				not = { religion = manichean }
 				not = { religion = mandean }
 			}
 		}
-		set_character_flag = attending_nortia
+		set_character_flag = attending_purulli
 		set_character_flag = do_not_disturb
-		hidden_tooltip = { character_event = { id = ETR.899 days = 100 } } # Safety catch flag clearing
+		hidden_tooltip = { character_event = { id = PUR.899 days = 100 } } # Safety catch flag clearing
 		if = {
 			limit = { trait = in_hiding	}
 			remove_trait = in_hiding
@@ -62,16 +62,16 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTB_ETR_701
+		name = EVTOPTB_PUR_701
 		trigger = {
-			NOT = { religion = etruscan_main }
+			NOT = { religion = anatolian_main }
 			NOT = { religion = mandean }
 			NOT = { religion = manichean }
 		}
 		FROM = {
-			character_event = { id = ETR.702 days = 5 tooltip = DIPLOWINDOW_REJECT }
+			character_event = { id = PUR.702 days = 5 tooltip = DIPLOWINDOW_REJECT }
 			opinion = {
-				modifier = opinion_refused_nortia
+				modifier = opinion_refused_purulli
 				who = ROOT
 			}
 		}
@@ -80,18 +80,18 @@ character_event = {
 
 # Invitation Refused (Liege)
 character_event = {
-	id = ETR.702
-	desc = EVTDESC_ETR_702
+	id = PUR.702
+	desc = EVTDESC_PUR_702
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_ETR_702
+		name = EVTOPTA_PUR_702
 		tooltip = {
 			opinion = {
-				modifier = opinion_refused_nortia
+				modifier = opinion_refused_purulli
 				who = FROM
 			}
 		}
@@ -100,8 +100,8 @@ character_event = {
 
 # Celebration Begins (Liege)
 character_event = {
-	id = ETR.703
-	desc = EVTDESC_ETR_703
+	id = PUR.703
+	desc = EVTDESC_PUR_703
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	
@@ -110,70 +110,39 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_ETR_703
+		name = EVTOPTA_PUR_703
 		custom_tooltip = {
-			text = nortia_begins
+			text = purulli_begins
 			hidden_tooltip = {
 				any_vassal = {
-					limit = { has_character_flag = attending_nortia }
-					character_event = { id = ETR.704 }
-					character_event = { id = ETR.1 }
+					limit = { has_character_flag = attending_purulli }
+					character_event = { id = PUR.704 }
 				}
-				character_event = { id = ETR.1 }
-				character_event = { id = ETR.705 days = 10 }
+				character_event = { id = PUR.705 days = 10 }
 			}
 		}
 	}
 }
 
-character_event = {		#Procession to Temple
-	id = ETR.1
-	title = "EVTNETRETR.1"
-	desc = "EVTDESCETR.1"
-	picture = "GFX_evt_roman_great_temple"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTAETR.1" # 
-		piety = 10
-		character_event = { id = ETR.2 }
-	}
-}
-
-character_event = {		#Nailing the Wall
-	id = ETR.2
-	title = "EVTNETRETR.2"
-	desc = "EVTDESCETR.2"
-	picture = "GFX_evt_roman_great_temple"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTAETR.2" # 
-		piety = 10
-	}
-}
-
 # Celebration Begins (Vassals)
 character_event = {
-	id = ETR.704
-	desc = EVTDESC_ETR_704
+	id = PUR.704
+	desc = EVTDESC_PUR_704
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_ETR_703
-		custom_tooltip = { text = nortia_begins }
+		name = EVTOPTA_PUR_703
+		custom_tooltip = { text = purulli_begins }
 	}
 }
 
 # Feast Begins (Liege)
 character_event = {
-	id = ETR.705
-	desc = EVTDESC_ETR_705
+	id = PUR.705
+	desc = EVTDESC_PUR_705
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	
@@ -182,51 +151,51 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_ETR_705
+		name = EVTOPTA_PUR_705
 		
 		custom_tooltip = {
 			text = feast_begins
 			hidden_tooltip = {
 				any_vassal = {
-					limit = { has_character_flag = attending_nortia }
-					character_event = { id = ETR.706 }
+					limit = { has_character_flag = attending_purulli }
+					character_event = { id = PUR.706 }
 				}
-				character_event = { id = ETR.707 days = 25 }
+				character_event = { id = PUR.707 days = 25 }
 				random_list = {
-					10 = { character_event = { id = ETR.741 days = 3 } } 
-					10 = { character_event = { id = ETR.742 days = 3 } }
-					10 = { character_event = { id = ETR.743 days = 3 } }
-					10 = { character_event = { id = ETR.744 days = 3 } }
-					10 = { character_event = { id = ETR.745 days = 3 } }
-					10 = { character_event = { id = ETR.746 days = 3 } }
-					10 = { character_event = { id = ETR.747 days = 3 } }
-				}
-				random_list = {
-					10 = { character_event = { id = ETR.741 days = 8 } }
-					10 = { character_event = { id = ETR.742 days = 8 } }
-					10 = { character_event = { id = ETR.743 days = 8 } }
-					10 = { character_event = { id = ETR.744 days = 8 } }
-					10 = { character_event = { id = ETR.745 days = 8 } }
-					10 = { character_event = { id = ETR.746 days = 8 } }
-					10 = { character_event = { id = ETR.747 days = 8 } }
+					10 = { character_event = { id = PUR.741 days = 3 } } 
+					10 = { character_event = { id = PUR.742 days = 3 } }
+					10 = { character_event = { id = PUR.743 days = 3 } }
+					10 = { character_event = { id = PUR.744 days = 3 } }
+					10 = { character_event = { id = PUR.745 days = 3 } }
+					10 = { character_event = { id = PUR.746 days = 3 } }
+					10 = { character_event = { id = PUR.747 days = 3 } }
 				}
 				random_list = {
-					10 = { character_event = { id = ETR.741 days = 13 } }
-					10 = { character_event = { id = ETR.742 days = 13 } }
-					10 = { character_event = { id = ETR.743 days = 13 } }
-					10 = { character_event = { id = ETR.744 days = 13 } }
-					10 = { character_event = { id = ETR.745 days = 13 } }
-					10 = { character_event = { id = ETR.746 days = 13 } }
-					10 = { character_event = { id = ETR.747 days = 13 } }
+					10 = { character_event = { id = PUR.741 days = 8 } }
+					10 = { character_event = { id = PUR.742 days = 8 } }
+					10 = { character_event = { id = PUR.743 days = 8 } }
+					10 = { character_event = { id = PUR.744 days = 8 } }
+					10 = { character_event = { id = PUR.745 days = 8 } }
+					10 = { character_event = { id = PUR.746 days = 8 } }
+					10 = { character_event = { id = PUR.747 days = 8 } }
 				}
 				random_list = {
-					10 = { character_event = { id = ETR.741 days = 18 } }
-					10 = { character_event = { id = ETR.742 days = 18 } }
-					10 = { character_event = { id = ETR.743 days = 18 } }
-					10 = { character_event = { id = ETR.744 days = 18 } }
-					10 = { character_event = { id = ETR.745 days = 18 } }
-					10 = { character_event = { id = ETR.746 days = 18 } }
-					10 = { character_event = { id = ETR.747 days = 18 } }
+					10 = { character_event = { id = PUR.741 days = 13 } }
+					10 = { character_event = { id = PUR.742 days = 13 } }
+					10 = { character_event = { id = PUR.743 days = 13 } }
+					10 = { character_event = { id = PUR.744 days = 13 } }
+					10 = { character_event = { id = PUR.745 days = 13 } }
+					10 = { character_event = { id = PUR.746 days = 13 } }
+					10 = { character_event = { id = PUR.747 days = 13 } }
+				}
+				random_list = {
+					10 = { character_event = { id = PUR.741 days = 18 } }
+					10 = { character_event = { id = PUR.742 days = 18 } }
+					10 = { character_event = { id = PUR.743 days = 18 } }
+					10 = { character_event = { id = PUR.744 days = 18 } }
+					10 = { character_event = { id = PUR.745 days = 18 } }
+					10 = { character_event = { id = PUR.746 days = 18 } }
+					10 = { character_event = { id = PUR.747 days = 18 } }
 				}
 			}
 		}
@@ -235,24 +204,24 @@ character_event = {
 
 # Feast Begins (Vassals)
 character_event = {
-	id = ETR.706
-	desc = EVTDESC_ETR_706
+	id = PUR.706
+	desc = EVTDESC_PUR_706
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_ETR_705
-		set_character_flag = nortia_feast_vassal
+		name = EVTOPTA_PUR_705
+		set_character_flag = purulli_feast_vassal
 		custom_tooltip = { text = feast_begins }
 	}
 }
 
 # Feast Ends (Liege)
 character_event = {
-	id = ETR.707
-	desc = EVTDESC_ETR_707
+	id = PUR.707
+	desc = EVTDESC_PUR_707
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	
@@ -261,28 +230,28 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_ETR_707
+		name = EVTOPTA_PUR_707
 		any_vassal = {
-			limit = { has_character_flag = attending_nortia }
+			limit = { has_character_flag = attending_purulli }
 			opinion = {
-				modifier = opinion_nortia
+				modifier = opinion_purulli
 				who = ROOT
 			}
 		}
 		hidden_tooltip = {
 			any_vassal = {
-				limit = { has_character_flag = attending_nortia }
-				character_event = { id = ETR.708 }
+				limit = { has_character_flag = attending_purulli }
+				character_event = { id = PUR.708 }
 			}
 		}
 		add_character_modifier = {
-			name = held_nortia_timer
+			name = held_purulli_timer
 			duration = 1825
 			hidden = yes
 		}
 		prestige = 100
 		piety = 100
-		clr_character_flag = holding_nortia
+		clr_character_flag = holding_purulli
 		clr_character_flag = feast_drunkard
 		clr_character_flag = feast_gluttonous
 		clr_character_flag = feast_lunatic
@@ -294,17 +263,17 @@ character_event = {
 
 # Feast Ends (Vassals)
 character_event = {
-	id = ETR.708
-	desc = EVTDESC_ETR_708
+	id = PUR.708
+	desc = EVTDESC_PUR_708
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_ETR_707
-		clr_character_flag = attending_nortia
-		clr_character_flag = nortia_feast_vassal
+		name = EVTOPTA_PUR_707
+		clr_character_flag = attending_purulli
+		clr_character_flag = purulli_feast_vassal
 		clr_character_flag = feast_drunkard
 		clr_character_flag = feast_gluttonous
 		clr_character_flag = feast_lunatic
@@ -319,7 +288,7 @@ character_event = {
 
 # Drunkard (Guest)
 character_event = {
-	id = ETR.720
+	id = PUR.720
 	desc = EVTDESC_TOG_650
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_religion
@@ -329,10 +298,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = nortia_feast_vassal
+		has_character_flag = purulli_feast_vassal
 		NOT = { has_character_flag = feast_drunkard }
 		liege = { 
-			has_character_flag = holding_nortia
+			has_character_flag = holding_purulli
 			NOT = { has_character_flag = feast_drunkard }
 		}
 		trait = drunkard
@@ -374,13 +343,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_drunkard
-				character_event = { id = ETR.721 }
+				character_event = { id = PUR.721 }
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = ETR.721 }
+					character_event = { id = PUR.721 }
 				}
 			}
 		}
@@ -402,7 +371,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = drunkard }
 					}
@@ -413,7 +382,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						trait = drunkard
 					}
@@ -429,7 +398,7 @@ character_event = {
 
 # Drunkard (Host and Other Guests)
 character_event = {
-	id = ETR.721
+	id = PUR.721
 	desc = EVTDESC_TOG_651
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_religion
@@ -461,19 +430,19 @@ character_event = {
 
 # Gluttonous (Victim Hidden)
 character_event = {
-	id = ETR.722
+	id = PUR.722
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = nortia_feast_vassal
+		has_character_flag = purulli_feast_vassal
 		liege = {
-			has_character_flag = holding_nortia
+			has_character_flag = holding_purulli
 			NOT = { has_character_flag = feast_gluttonous }
 			any_vassal = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_gluttonous }
 				trait = gluttonous
 				NOT = { character = ROOT }
@@ -515,11 +484,11 @@ character_event = {
 			set_character_flag = feast_gluttonous
 			random_vassal = {
 				limit = {
-					has_character_flag = nortia_feast_vassal
+					has_character_flag = purulli_feast_vassal
 					trait = gluttonous
 					NOT = { character = ROOT }
 				}
-				character_event = { id = ETR.723 }
+				character_event = { id = PUR.723 }
 				set_character_flag = feast_gluttonous
 			}
 		}
@@ -528,7 +497,7 @@ character_event = {
 
 # Gluttonous (Guest)
 character_event = {
-	id = ETR.723
+	id = PUR.723
 	desc = EVTDESC_TOG_653
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -539,20 +508,20 @@ character_event = {
 		name = EVTOPTA_TOG_653
 		tooltip_info = gluttonous
 		FROM = {
-			character_event = { id = ETR.724 tooltip = EVTTOOLTIP_ETR_654 }
+			character_event = { id = PUR.724 tooltip = EVTTOOLTIP_PUR_654 }
 		}	
 		hidden_tooltip = {
 			liege = {
-				character_event = { id = ETR.725 }
+				character_event = { id = PUR.725 }
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { 
 							character = ROOT 
 							character = FROM
 						}
 					}
-					character_event = { id = ETR.725 }
+					character_event = { id = PUR.725 }
 				}
 			}
 		}
@@ -570,7 +539,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { 
 							character = ROOT 
 							character = FROM
@@ -588,7 +557,7 @@ character_event = {
 
 # Gluttonous (Victim)
 character_event = {
-	id = ETR.724
+	id = PUR.724
 	desc = EVTDESC_TOG_654
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -606,7 +575,7 @@ character_event = {
 
 # Gluttonous (Host and Other Guests)
 character_event = {
-	id = ETR.725
+	id = PUR.725
 	desc = EVTDESC_TOG_655
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -624,7 +593,7 @@ character_event = {
 
 # Lunatic (Guest)
 character_event = {
-	id = ETR.726
+	id = PUR.726
 	desc = EVTDESC_TOG_656
 	picture = GFX_evt_lunatic
 	border = GFX_event_normal_frame_religion
@@ -634,10 +603,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = nortia_feast_vassal
+		has_character_flag = purulli_feast_vassal
 		NOT = { has_character_flag = feast_lunatic }
 		liege = { 
-			has_character_flag = holding_nortia 
+			has_character_flag = holding_purulli 
 			NOT = { has_character_flag = feast_lunatic }
 		}
 		trait = lunatic
@@ -679,13 +648,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_lunatic
-				character_event = { id = ETR.727 }
+				character_event = { id = PUR.727 }
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = ETR.727 }
+					character_event = { id = PUR.727 }
 				}
 			}
 		}
@@ -707,7 +676,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = lunatic }
 					}
@@ -718,7 +687,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						trait = lunatic
 					}
@@ -734,7 +703,7 @@ character_event = {
 
 # Lunatic (Host and Other Guests)
 character_event = {
-	id = ETR.727
+	id = PUR.727
 	desc = EVTDESC_TOG_657
 	picture = GFX_evt_lunatic
 	border = GFX_event_normal_frame_religion
@@ -766,7 +735,7 @@ character_event = {
 
 # Lustful (Guest)
 character_event = {
-	id = ETR.728
+	id = PUR.728
 	desc = EVTDESC_TOG_658
 	picture = GFX_evt_brothel
 	border = GFX_event_normal_frame_religion
@@ -776,10 +745,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = nortia_feast_vassal
+		has_character_flag = purulli_feast_vassal
 		NOT = { has_character_flag = feast_lustful }
 		liege = { 
-			has_character_flag = holding_nortia 
+			has_character_flag = holding_purulli 
 			NOT = { has_character_flag = feast_lustful }
 		}
 		trait = lustful
@@ -825,13 +794,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_lustful
-				character_event = { id = ETR.729 }
+				character_event = { id = PUR.729 }
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = ETR.729 }
+					character_event = { id = PUR.729 }
 				}
 			}
 		}
@@ -853,7 +822,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = lustful }
 					}
@@ -864,7 +833,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						trait = lustful
 					}
@@ -886,13 +855,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_lustful
-				character_event = { id = ETR.729 }
+				character_event = { id = PUR.729 }
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = ETR.729 }
+					character_event = { id = PUR.729 }
 				}
 			}
 		}
@@ -914,7 +883,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = lustful }
 					}
@@ -925,7 +894,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						trait = lustful
 					}
@@ -948,7 +917,7 @@ character_event = {
 
 # Lustful (Host and Other Guests)
 character_event = {
-	id = ETR.729
+	id = PUR.729
 	desc = EVTDESC_TOG_659
 	picture = GFX_evt_brothel
 	border = GFX_event_normal_frame_religion
@@ -979,7 +948,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTC_ETR_659
+		name = EVTOPTC_PUR_659
 		trigger = {
 			any_spouse = { character = FROM }
 		}
@@ -993,19 +962,19 @@ character_event = {
 
 # Friendship Formed (Guest 1 Hidden)
 character_event = {
-	id = ETR.730
+	id = PUR.730
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = nortia_feast_vassal
+		has_character_flag = purulli_feast_vassal
 		NOT = { has_character_flag = feast_friendship }
 		liege = { 
-			has_character_flag = holding_nortia
+			has_character_flag = holding_purulli
 			any_vassal = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_friendship }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  20 }
@@ -1047,11 +1016,11 @@ character_event = {
 		liege = { 
 			random_vassal = {
 				limit = {
-					has_character_flag = nortia_feast_vassal
+					has_character_flag = purulli_feast_vassal
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  20 }
 				}
-				character_event = { id = ETR.731 }
+				character_event = { id = PUR.731 }
 				set_character_flag = feast_friendship
 				opinion = {
 					modifier = opinion_feast_friend
@@ -1068,7 +1037,7 @@ character_event = {
 
 # Friendship Formed (Guest 2)
 character_event = {
-	id = ETR.731
+	id = PUR.731
 	desc = EVTDESC_TOG_661
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -1079,7 +1048,7 @@ character_event = {
 		name = EVTOPTA_TOG_661
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = ETR.732 }
+				character_event = { id = PUR.732 }
 			}
 		}
 		tooltip = {
@@ -1099,7 +1068,7 @@ character_event = {
 
 # Friendship Formed (Guest 1)
 character_event = {
-	id = ETR.732
+	id = PUR.732
 	desc = EVTDESC_TOG_661
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -1125,23 +1094,23 @@ character_event = {
 
 # Homosexual Male (Guest 1 Hidden)
 character_event = {
-	id = ETR.733
+	id = PUR.733
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = nortia_feast_vassal
+		has_character_flag = purulli_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
 		trait = homosexual
 		is_female = no
 		has_lover = no
 		liege = { 
-			has_character_flag = holding_nortia
+			has_character_flag = holding_purulli
 			NOT = { has_character_flag = feast_homosexual }
 			any_vassal = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
@@ -1187,14 +1156,14 @@ character_event = {
 			set_character_flag = feast_homosexual
 			random_vassal = {
 				limit = {
-					has_character_flag = nortia_feast_vassal
+					has_character_flag = purulli_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
 					trait = homosexual
 					is_female = no
 				}
-				character_event = { id = ETR.734 }
+				character_event = { id = PUR.734 }
 				add_lover = ROOT
 				set_character_flag = feast_homosexual
 			}		
@@ -1204,7 +1173,7 @@ character_event = {
 
 # Homosexual Male (Guest 2)
 character_event = {
-	id = ETR.734
+	id = PUR.734
 	desc = EVTDESC_TOG_664
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -1216,26 +1185,26 @@ character_event = {
 		tooltip_info = homosexual
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = ETR.735 }
+				character_event = { id = PUR.735 }
 			}
 			liege = {
-				character_event = { id = ETR.740 }
+				character_event = { id = PUR.740 }
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = {
 							character = ROOT
 							character = FROM
 						}
 					}
-					character_event = { id = ETR.740 }
+					character_event = { id = PUR.740 }
 				}
 			}
 		}
 		tooltip = {
 			random = {
 				chance = 50
-				character_event = { id = ETR.739 tooltip = EVTTOOLTIP_ETR_669 }
+				character_event = { id = PUR.739 tooltip = EVTTOOLTIP_PUR_669 }
 			}
 			add_lover = FROM
 		}
@@ -1244,7 +1213,7 @@ character_event = {
 
 # Homosexual Male (Guest 1)
 character_event = {
-	id = ETR.735
+	id = PUR.735
 	desc = EVTDESC_TOG_664
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -1256,10 +1225,10 @@ character_event = {
 		tooltip_info = homosexual
 		random = {
 			chance = 50
-			character_event = { id = ETR.739 tooltip = EVTTOOLTIP_ETR_669 }
+			character_event = { id = PUR.739 tooltip = EVTTOOLTIP_PUR_669 }
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = ETR.739 }
+					character_event = { id = PUR.739 }
 				}
 			}
 		}
@@ -1271,23 +1240,23 @@ character_event = {
 
 # Homosexual Female (Guest 1 Hidden)
 character_event = {
-	id = ETR.736
+	id = PUR.736
 	hide_window = yes
 
 	is_triggered_only = yes
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = nortia_feast_vassal
+		has_character_flag = purulli_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
 		trait = homosexual
 		is_female = yes
 		has_lover = no
 		liege = { 
-			has_character_flag = holding_nortia
+			has_character_flag = holding_purulli
 			NOT = { has_character_flag = feast_homosexual }
 			any_vassal = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
@@ -1333,14 +1302,14 @@ character_event = {
 			set_character_flag = feast_homosexual
 			random_vassal = {
 				limit = {
-					has_character_flag = nortia_feast_vassal
+					has_character_flag = purulli_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
 					trait = homosexual
 					is_female = yes
 				}
-				character_event = { id = ETR.737 }
+				character_event = { id = PUR.737 }
 				set_character_flag = feast_homosexual
 				add_lover = ROOT
 			}		
@@ -1350,7 +1319,7 @@ character_event = {
 
 # Homosexual Female (Guest 2)
 character_event = {
-	id = ETR.737
+	id = PUR.737
 	desc = EVTDESC_TOG_664
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -1362,26 +1331,26 @@ character_event = {
 		tooltip_info = homosexual
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = ETR.738 }
+				character_event = { id = PUR.738 }
 			}
 			liege = {
-				character_event = { id = ETR.740 }
+				character_event = { id = PUR.740 }
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = {
 							character = ROOT
 							character = FROM
 						}
 					}
-					character_event = { id = ETR.740 }
+					character_event = { id = PUR.740 }
 				}
 			}			
 		}
 		tooltip = {
 			random = {
 				chance = 50
-				character_event = { id = ETR.739 tooltip = EVTTOOLTIP_ETR_669 }
+				character_event = { id = PUR.739 tooltip = EVTTOOLTIP_PUR_669 }
 			}
 			add_lover = FROM
 		}
@@ -1390,7 +1359,7 @@ character_event = {
 
 # Homosexual Female (Guest 1)
 character_event = {
-	id = ETR.738
+	id = PUR.738
 	desc = EVTDESC_TOG_664
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -1402,10 +1371,10 @@ character_event = {
 		tooltip_info = homosexual
 		random = {
 			chance = 50
-			character_event = { id = ETR.739 tooltip = EVTTOOLTIP_ETR_669 }
+			character_event = { id = PUR.739 tooltip = EVTTOOLTIP_PUR_669 }
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = ETR.739 }
+					character_event = { id = PUR.739 }
 				}
 			}
 		}
@@ -1417,7 +1386,7 @@ character_event = {
 
 # Homosexual Caught
 character_event = {
-	id = ETR.739
+	id = PUR.739
 	desc = EVTDESC_TOG_669
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -1444,7 +1413,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = homosexual }
 					}
@@ -1455,7 +1424,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { character = ROOT }
 						trait = homosexual
 					}
@@ -1471,7 +1440,7 @@ character_event = {
 
 # Homosexual Caught (Host and Other Guests)
 character_event = {
-	id = ETR.740
+	id = PUR.740
 	desc = EVTDESC_TOG_670
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
@@ -1503,7 +1472,7 @@ character_event = {
 
 ### Feast event bounces
 character_event = { #feast_drunkard
-	id = ETR.741
+	id = PUR.741
 	
 	is_triggered_only = yes
 	
@@ -1511,10 +1480,10 @@ character_event = { #feast_drunkard
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_nortia
+		has_character_flag = holding_purulli
 		NOT = { has_character_flag = feast_drunkard }
 		any_vassal = {
-			has_character_flag = nortia_feast_vassal
+			has_character_flag = purulli_feast_vassal
 			NOT = { has_character_flag = feast_drunkard }
 			trait = drunkard
 		}
@@ -1523,17 +1492,17 @@ character_event = { #feast_drunkard
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_drunkard }
 				trait = drunkard
 			}
-			character_event = { id = ETR.720 }
+			character_event = { id = PUR.720 }
 		}
 	}
 }
 
 character_event = {
-	id = ETR.742 #feast_gluttonous
+	id = PUR.742 #feast_gluttonous
 	
 	is_triggered_only = yes
 	
@@ -1541,10 +1510,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_nortia
+		has_character_flag = holding_purulli
 		NOT = { has_character_flag = feast_gluttonous }
 		any_vassal = {
-			has_character_flag = nortia_feast_vassal
+			has_character_flag = purulli_feast_vassal
 			NOT = { has_character_flag = feast_gluttonous }
 			trait = gluttonous
 		}
@@ -1553,17 +1522,17 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_gluttonous }
 				trait = gluttonous
 			}
-			character_event = { id = ETR.722 }
+			character_event = { id = PUR.722 }
 		}
 	}
 }
 
 character_event = {
-	id = ETR.743 #feast_lunatic
+	id = PUR.743 #feast_lunatic
 	
 	is_triggered_only = yes
 	
@@ -1571,10 +1540,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_nortia
+		has_character_flag = holding_purulli
 		NOT = { has_character_flag = feast_lunatic }
 		any_vassal = {
-			has_character_flag = nortia_feast_vassal
+			has_character_flag = purulli_feast_vassal
 			NOT = { has_character_flag = feast_lunatic }
 			trait = lunatic
 		}
@@ -1583,17 +1552,17 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_lunatic }
 				trait = lunatic
 			}
-			character_event = { id = ETR.726 }
+			character_event = { id = PUR.726 }
 		}
 	}
 }
 
 character_event = {
-	id = ETR.744 #feast_lustful
+	id = PUR.744 #feast_lustful
 	
 	is_triggered_only = yes
 	
@@ -1601,10 +1570,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_nortia
+		has_character_flag = holding_purulli
 		NOT = { has_character_flag = feast_lustful }
 		any_vassal = { 
-			has_character_flag = nortia_feast_vassal
+			has_character_flag = purulli_feast_vassal
 			NOT = { has_character_flag = feast_lustful }
 			trait = lustful
 			is_female = no
@@ -1614,18 +1583,18 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_lustful }
 				trait = lustful
 				is_female = no
 			}
-			character_event = { id = ETR.728 }
+			character_event = { id = PUR.728 }
 		}
 	}
 }
 
 character_event = {
-	id = ETR.745 #feast_friendship
+	id = PUR.745 #feast_friendship
 	
 	is_triggered_only = yes
 	
@@ -1633,15 +1602,15 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_nortia
+		has_character_flag = holding_purulli
 		NOT = { has_character_flag = feast_friendship }
-		has_character_flag = nortia_feast_vassal
+		has_character_flag = purulli_feast_vassal
 		any_vassal = {
-			has_character_flag = nortia_feast_vassal
+			has_character_flag = purulli_feast_vassal
 			NOT = { has_character_flag = feast_friendship }
 			liege = { 
 				any_vassal = {
-					has_character_flag = nortia_feast_vassal
+					has_character_flag = purulli_feast_vassal
 					NOT = { has_character_flag = feast_friendship }
 					NOT = { character = PREVPREV }
 					opinion = { who = PREVPREV value =  20 }
@@ -1653,24 +1622,24 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_friendship }
 				liege = { 
 					any_vassal = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { has_character_flag = feast_friendship }
 						NOT = { character = PREVPREV }
 						opinion = { who = PREVPREV value =  20 }
 					}		
 				}
 			}
-			character_event = { id = ETR.730 }
+			character_event = { id = PUR.730 }
 		}
 	}
 }
 
 character_event = {
-	id = ETR.746 #male_homosexual
+	id = PUR.746 #male_homosexual
 	
 	is_triggered_only = yes
 	
@@ -1679,16 +1648,16 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		NOT = { has_character_flag = feast_homosexual }
-		has_character_flag = holding_nortia
+		has_character_flag = holding_purulli
 		any_vassal = { 
-			has_character_flag = nortia_feast_vassal
+			has_character_flag = purulli_feast_vassal
 			NOT = { has_character_flag = feast_homosexual }
 			trait = homosexual
 			is_female = no
 			has_lover = no
 			liege = { 
 				any_vassal = {
-					has_character_flag = nortia_feast_vassal
+					has_character_flag = purulli_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = PREVPREV }
 					opinion = { who = PREVPREV value =  0 }
@@ -1703,14 +1672,14 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				trait = homosexual
 				is_female = no
 				has_lover = no
 				liege = { 
 					any_vassal = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { has_character_flag = feast_homosexual }
 						NOT = { character = PREVPREV }
 						opinion = { who = PREVPREV value =  0 }
@@ -1720,13 +1689,13 @@ character_event = {
 					}		
 				}
 			}
-			character_event = { id = ETR.733 }
+			character_event = { id = PUR.733 }
 		}
 	}
 }
 
 character_event = {
-	id = ETR.747 #female_homosexual
+	id = PUR.747 #female_homosexual
 	
 	is_triggered_only = yes
 	
@@ -1735,16 +1704,16 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		NOT = { has_character_flag = feast_homosexual }
-		has_character_flag = holding_nortia
+		has_character_flag = holding_purulli
 		any_vassal = { 
-			has_character_flag = nortia_feast_vassal
+			has_character_flag = purulli_feast_vassal
 			NOT = { has_character_flag = feast_homosexual }
 			trait = homosexual
 			is_female = yes
 			has_lover = no
 			liege = { 
 				any_vassal = {
-					has_character_flag = nortia_feast_vassal
+					has_character_flag = purulli_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = PREVPREV }
 					opinion = { who = PREVPREV value =  0 }
@@ -1759,14 +1728,14 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = nortia_feast_vassal
+				has_character_flag = purulli_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				trait = homosexual
 				is_female = yes
 				has_lover = no
 				liege = { 
 					any_vassal = {
-						has_character_flag = nortia_feast_vassal
+						has_character_flag = purulli_feast_vassal
 						NOT = { has_character_flag = feast_homosexual }
 						NOT = { character = PREVPREV }
 						opinion = { who = PREVPREV value =  0 }
@@ -1776,7 +1745,7 @@ character_event = {
 					}		
 				}
 			}
-			character_event = { id = ETR.736 }
+			character_event = { id = PUR.736 }
 		}
 	}
 }

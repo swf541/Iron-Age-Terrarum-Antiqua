@@ -1,0 +1,133 @@
+decisions = {
+
+	celebrate_nuntarryashas = {
+		is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			age = 16
+			religion = anatolian_main
+			prisoner = no
+			NOT = {
+				trait = in_hiding
+				has_character_modifier = held_nuntarryashas_timer
+				liege = { has_character_flag = holding_nuntarryashas }
+				has_character_flag = holding_nuntarryashas
+				has_character_flag = planning_nuntarryashas
+			}
+		}
+		allow = {
+			war = no
+			wealth = 50
+			prestige = 100
+			has_regent = no
+			month = 9
+			not = { month = 12 }
+		}
+		effect = {
+			wealth = -50
+			set_character_flag = planning_nuntarryashas
+			custom_tooltip = {
+				text = prepare_etruscan_new_year
+				hidden_tooltip = { 
+					character_event = { id = NUN.700 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 730
+					}
+				}
+			}
+		}
+	}
+	celebrate_purulli = {
+		is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			age = 16
+			religion = anatolian_main
+			prisoner = no
+			NOT = {
+				trait = in_hiding
+				has_character_modifier = held_purulli_timer
+				liege = { has_character_flag = holding_purulli }
+				has_character_flag = holding_purulli
+				has_character_flag = planning_purulli
+			}
+		}
+		allow = {
+			war = no
+			wealth = 50
+			prestige = 100
+			has_regent = no
+			month = 3
+			not = { month = 5 }
+		}
+		effect = {
+			wealth = -50
+			set_character_flag = planning_purulli
+			custom_tooltip = {
+				text = prepare_etruscan_new_year
+				hidden_tooltip = { 
+					character_event = { id = PUR.700 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 730
+					}
+				}
+			}
+		}
+	}
+}

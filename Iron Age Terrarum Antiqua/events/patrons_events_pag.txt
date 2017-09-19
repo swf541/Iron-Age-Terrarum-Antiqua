@@ -13,7 +13,84 @@ namespace = PATRONS_OSE
 namespace = PATRONS_ELA
 namespace = PATRONS_GRE
 namespace = PATRONS_ETR
+namespace = PATRONS_HIT
+#Hittite
+character_event = {
+	id = PATRONS_HIT.1
+	desc = PATRONS_GRE.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
 
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_HIT.1.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_arinna
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_HIT.1.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_hatti
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_HIT.1.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_inara
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_GRE.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_HIT.2 } }
+	}
+}
+
+#Hittite2
+character_event = {
+	id = PATRONS_HIT.2
+	desc = PATRONS_GRE.2.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_GRE.2.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_kamrusepa
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_HIT.2.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_kumarbi
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_HIT.2.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_telipinu
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_GRE.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_HIT.1 } }
+	}
+}
 #AZTEC1
 character_event = {
 	id = PATRONS_AZT.1

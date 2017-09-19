@@ -1,0 +1,29 @@
+patron_arinna = {
+	icon = 43
+	stewardship = 1
+	intrigue = 1
+}
+patron_inara = {
+	icon = 43
+	fertility = 0.1
+	martial = 1
+}
+patron_kamrusepa = {
+	icon = 43
+	health = 1
+	learning = 1
+}
+patron_kumarbi = {
+	icon = 43
+	sex_appeal_opinion = 10
+	fertility = 0.2
+}
+patron_hatti = {
+	icon = 43
+	stewardship = 2
+}
+patron_telipinu = {
+	icon = 43
+	stewardship = 1
+	martial = 1
+}

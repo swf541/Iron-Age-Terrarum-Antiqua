@@ -33,6 +33,10 @@ theocracy_governments = {
 				controls_religion = yes
 				religion = elamite_pagan_reformed
 			}
+			NOT = {
+				controls_religion = yes
+				religion = anatolian_main
+			}			
 			is_patrician = no
 		}
 		

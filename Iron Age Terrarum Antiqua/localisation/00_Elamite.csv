@@ -39,3 +39,137 @@ make_sacrifice_pinikir_desc;Make a sacrifice to the Mother Deity of Fertility an
 make_sacrifice_inshushinak_desc;Make a sacrifice to the our National Deity Inshushinak;;;;;x
 BM_APEX;Apex of the Macedonian Empire;;;;;;;;;x
 PATRONS_ELA.1.desc;Select a Patron Deity;;;;;;x
+
+EVTDESC_ETR_700;You have sent invitations out for the New Year Festival celebrating the birth of the Godess Nortia;;;;;;;x
+EVTDESC_ETR_701;[From.GetTitledFirstName], your liege, has invited you to join [From.GetHerHim] for this years New Year Festival. There you will celebrate the birthday of the Godess Nortia.;;;;;;;;;x 
+EVTOPTA_ETR_701;I will be there.;;;;;;;;;x 
+EVTOPTB_ETR_701;I will have nothing to do with that nonsense!;;;;;;;;;x 
+EVTDESC_ETR_702;[From.GetTitledFirstName] has declined your invitation to attend the New Year Festival! Apparently [From.GetSheHe] has no faith in Tinia, Nortia and the other gods, and instead follows the strange rituals of some other religion that is foreign to our ways.;;;;;;;;;x 
+EVTOPTA_ETR_702;A foolish mistake.;;;;;;;;;x 
+EVTDESC_ETR_703;Your vassals have arrived and the time of the New Year Festival is upon us.;;;;;;;;;x 
+EVTOPTA_ETR_703;We honor you, Nortia.;;;;;;;;;x 
+EVTDESC_ETR_704;At last, the time of the New Year Festival is upon us. ;;;;;;;;;x 
+EVTDESC_ETR_705;You and your vassals gather for the great feast your servants have prepared!;;;;;;;;;x 
+EVTOPTA_ETR_705;Let us drink together!;;;;;;;;;x 
+EVTDESC_ETR_706;With the lamps still burning, you gather together with your liege and the rest of [From.GetHerHis] vassals for the great feast [From.GetSheHe] has prepared!;;;;;;;;;x 
+EVTDESC_ETR_707;The feast has come to an end. Your vassals are returning home, but most seem to agree that the New Year Festival was well worth the trip.;;;;;;;;;x 
+EVTOPTA_ETR_707;Until next time!;;;;;;;;;x 
+EVTDESC_ETR_708;The feast has come to an end. You and the other vassals are returning home, but you all agree that the New Year Festival was well worth the trip.;;;;;;;;;x 
+EVTDESCETR.1;Dusk arrives and with that the citizens, priests and nobility prepare for a procession towards the Temple of Nortia;;;;;;;;x
+EVTDESCETR.2;After reaching the temple the priests guide you in and towards the wall direct you to hammer a nail into the wall as a rite of fertility.;;;;;;;x
+EVTOPTAETR.1;Alright;;;;;;;;;x 
+EVTOPTAETR.2;Ok;;;;;;;;;x 
+patron_tinia;Patronizes Tinia;;;;;;;x
+patron_laran;Patronizes Laran;;;;;;;x
+patron_charun;Patronizes Charun;;;;;;;x
+patron_turms;Patronizes Turms;;;;;;;x
+patron_menerva;Patronizes Mernerva;;;;;;;x
+patron_turan;Patronizes Turan;;;;;;;x
+patron_cel;Patronizes Cel;;;;;;;x
+patron_artimi;Patronizes Artimi;;;;;;;x
+patron_apulu;Patronizes Apulu;;;;;;;x
+patron_culsans;Patronizes Culsans;;;;;;;x
+patron_culsu;Patronizes Culsu;;;;;;;x
+patron_fufluns;Patronizes Fufluns;;;;;;;x
+patron_lasa;Patronizes Lasa;;;;;;;x
+patron_sethlans;Patronizes Sethlans;;;;;;;x
+patron_thalana;Patronizes Thalana;;;;;;;x
+patron_thesan;Patronizes Thesan;;;;;;;x
+patron_tiv;Patronizes Tiv;;;;;;;x
+patron_usil;Patronizes Usil;;;;;;;x
+patron_uni;Patronizes Uni;;;;;;;x
+patron_hercle;Patronizes Hercle;;;;;;;x
+patron_satres;Patronizes Satres;;;;;;;x
+patron_nortia;Patronizes Nortia;;;;;;;x
+PATRONS_ETR.2.d;What were my previous choices?;;;;;;;;x
+PATRONS_ETR.1.desc;Select a Patron Deity;;;;;;;x
+PATRONS_ETR.8.b;Hercle;;;;;;;x
+PATRONS_ETR.8.a;Satres;;;;;;;x
+PATRONS_ETR.1.d;What are my other choices?;;;;;;;x
+PATRONS_ETR.7.c;Nortia;;;;;;;;;x
+PATRONS_ETR.7.a;Usil;;;;;;;x
+PATRONS_ETR.7.b;Vanth;;;;;;;x
+PATRONS_ETR.6.c;Uni;;;;;;;;;x
+PATRONS_ETR.6.a;Turan;;;;;;;x
+PATRONS_ETR.6.b;Turms;;;;;;;x
+PATRONS_ETR.5.a;Thalana;;;;;;;;;x
+PATRONS_ETR.5.b;Thesan;;;;;;;x
+PATRONS_ETR.5.c;Tiv;;;;;;;x
+PATRONS_ETR.4.a;Laran;;;;;;;;;x
+PATRONS_ETR.4.b;Lasa;;;;;;;x
+PATRONS_ETR.4.c;Sethlans;;;;;;;x
+PATRONS_ETR.3.a;Culsans;;;;;;;;;x
+PATRONS_ETR.3.b;Culsu;;;;;;;x
+PATRONS_ETR.3.c;Fufluns;;;;;;;x
+PATRONS_ETR.2.a;Artimi;;;;;;;;;x
+PATRONS_ETR.2.b;Apulu;;;;;;;x
+PATRONS_ETR.2.c;Charun;;;;;;;x
+PATRONS_ETR.1.a;Cel;;;;;;;;;x
+PATRONS_ETR.1.b;Tinia;;;;;;;x
+PATRONS_ETR.1.c;Mernerva;;;;;;;x
+patrons_etr;Select Patron Deity;;;;;;;x
+patrons_etr_desc;Select Etruscan Patron Deity;;;;;;x
+title_collegium_haruspices_member;Collegium Haruspic;;;;;x
+collegium_haruspices;;Collegium Haruspices;;;;;x
+d_etruscan;Praetor Etruriae;;;;
+
+EVTDESC_ETR_700;You have sent invitations out for Purulli celebrating the birth of the Godess Nortia;;;;;;;x
+EVTDESC_ETR_701;[From.GetTitledFirstName], your liege, has invited you to join [From.GetHerHim] for this years New Year Festival. There you will celebrate the birthday of the Godess Nortia.;;;;;;;;;x 
+EVTOPTA_ETR_701;I will be there.;;;;;;;;;x 
+EVTOPTB_ETR_701;I will have nothing to do with that nonsense!;;;;;;;;;x 
+EVTDESC_PUR_702;[From.GetTitledFirstName] has declined your invitation to attend Purulli! Apparently [From.GetSheHe] has no faith in Hatti, Arinna and the other gods, and instead follows the strange rituals of some other religion that is foreign to our ways.;;;;;;;;;x 
+EVTOPTA_PUR_702;A foolish mistake.;;;;;;;;;x 
+EVTDESC_PUR_703;Your vassals have arrived and the time of Purulli is upon us.;;;;;;;;;x 
+EVTOPTA_PUR_703;We honor you, Arinna.;;;;;;;;;x 
+EVTDESC_PUR_704;At last, the time of Purulli is upon us. ;;;;;;;;;x 
+EVTDESC_PUR_705;You and your vassals gather for the great feast your servants have prepared!;;;;;;;;;x 
+EVTOPTA_PUR_705;Let us drink together!;;;;;;;;;x 
+EVTDESC_PUR_706;With the lamps still burning, you gather together with your liege and the rest of [From.GetHerHis] vassals for the great feast [From.GetSheHe] has prepared!;;;;;;;;;x 
+EVTDESC_PUR_707;The feast has come to an end. Your vassals are returning home, but most seem to agree that Purulli was well worth the trip.;;;;;;;;;x 
+EVTOPTA_PUR_707;Until next time!;;;;;;;;;x 
+EVTDESC_PUR_708;The feast has come to an end. You and the other vassals are returning home, but you all agree that Purulli was well worth the trip.;;;;;;;;;x 
+
+EVTDESC_NUN_700;You have sent invitations out for Nuntarryashas celebrating the season as well as Hatti;;;;;;;x
+EVTDESC_NUN_701;[From.GetTitledFirstName], your liege, has invited you to join [From.GetHerHim] for this years New Year Festival. There you will celebrate the birthday of the Godess Arinna.;;;;;;;;;x 
+EVTOPTA_NUN_701;I will be there.;;;;;;;;;x 
+EVTOPTB_NUN_701;I will have nothing to do with that nonsense!;;;;;;;;;x 
+EVTDESC_NUN_702;[From.GetTitledFirstName] has declined your invitation to attend Nuntarryashas! Apparently [From.GetSheHe] has no faith in Hatti, Arinna and the other gods, and instead follows the strange rituals of some other religion that is foreign to our ways.;;;;;;;;;x 
+EVTOPTA_NUN_702;A foolish mistake.;;;;;;;;;x 
+EVTDESC_NUN_703;Your vassals have arrived and the time of Nuntarryashas is upon us.;;;;;;;;;x 
+EVTOPTA_NUN_703;We honor you, Arinna.;;;;;;;;;x 
+EVTDESC_NUN_704;At last, the time of Nuntarryashas is upon us. ;;;;;;;;;x 
+EVTDESC_NUN_705;With the lamps still burning, you and your vassals gather for the great feast your servants have prepared!;;;;;;;;;x 
+EVTOPTA_NUN_705;Let us drink together!;;;;;;;;;x 
+EVTDESC_NUN_706;You gather together with your liege and the rest of [From.GetHerHis] vassals for the great feast [From.GetSheHe] has prepared!;;;;;;;;;x 
+EVTDESC_NUN_707;The feast has come to an end. Your vassals are returning home, but most seem to agree that Nuntarryashas was well worth the trip.;;;;;;;;;x 
+EVTOPTA_NUN_707;Until next time!;;;;;;;;;x 
+EVTDESC_NUN_708;The feast has come to an end. You and the other vassals are returning home, but you all agree that Nuntarryashas was well worth the trip.;;;;;;;;;x 
+EVTDESCNUN.1;The priests arrive at the sanctuary of Hatti and begin to pull out his statue as well as the statue of a large bull;;;;;;;;x
+EVTDESCNUN.2;Now that the priests have settled, we ask that Hatti bless our realm with gentle rains for prosperity and offer libation to the Storm Deity.;;;;;;;x
+EVTOPTANUN.1;Alright;;;;;;;;;x 
+EVTOPTANUN.2;Ok;;;;;;;;;x 
+
+celebrate_nuntarryashas;Celebrate Nuntarryashas;;;;;;x
+celebrate_nuntarryashas_desc;Celebrate the Autunm Festival of Haste Nuntarryashas, lasting for 50 days;;;;;;x
+celebrate_purulli;Celebrate Purulli;;;;;;;;x
+celebrate_purulli_desc;Celebrate Purulli, the Hittite New Year;;;;;;;;x
+celebrate_nortia;Celebrate the Festival of Nortia;;;;;x
+celebrate_nortia_desc;Celebrate the Festival of Nortia, the Etruscan New Year;;;;;;;x
+
+patron_arinna;Patronizes Arinna;;;;;;x
+patron_inara;Patronizes Inara;;;;;;x
+patron_kamrusepa;Patronizes Kamrusepa;;;;;;x
+patron_kumarbi;Patronizes Kumarbi;;;;;;x
+patron_hatti;Patronizes Hatti;;;;;;x
+patron_telipinu;Patronizes Telipinu;;;;;;x
+
+PATRONS_HIT.1.a;Arinna;;;;;;x
+PATRONS_HIT.1.b;Hatti;;;;;;x
+PATRONS_HIT.1.c;Inara;;;;;;x
+
+PATRONS_HIT.2.a;Kamrusepa;;;;;;x
+PATRONS_HIT.2.b;Kumarbi;;;;;;x
+PATRONS_HIT.2.c;Telipinu;;;;;;x
+patrons_hit;Select Patron Deity;;;;;;x
+patrons_hit_desc;Select Patron Deity;;;;;;x
+k_hittite;Hittite Kingdom;;;;;;;x

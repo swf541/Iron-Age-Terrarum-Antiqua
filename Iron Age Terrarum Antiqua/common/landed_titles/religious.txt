@@ -139,3 +139,32 @@ d_ossetian = {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
+k_hittite = {
+	color={ 235 55 35 }
+	color2={ 220 220 0 }
+	
+	capital = 249 #Susa
+	
+	title = "King"
+	title_female = "King"
+	foa = "FYLKIR_FOA"
+	
+	creation_requires_capital = yes
+	
+	allow = {
+		religion = anatolian_main
+		num_of_holy_sites = 3
+		piety = 500
+	}
+	
+	short_name = yes
+	
+	dignity = 100 # Counted as having this many more counties than it does
+	
+	# Controls a religion
+	controls_religion = anatolian_main
+	
+	religion = anatolian_main
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}

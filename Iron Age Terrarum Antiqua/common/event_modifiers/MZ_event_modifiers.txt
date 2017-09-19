@@ -132,3 +132,16 @@ held_nortia_feast_timer = {
 held_nortia_timer = {
 	icon = 1
 }
+held_purulli_feast_timer = {
+	icon = 1
+}
+held_purulli_timer = {
+	icon = 1
+}
+
+held_nuntarryashas_feast_timer = {
+	icon = 1
+}
+held_nuntarryashas_timer = {
+	icon = 1
+}

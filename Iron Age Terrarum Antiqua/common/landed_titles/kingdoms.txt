@@ -1713,6 +1713,7 @@ k_cappadocia = {
 	
 	allow = {
 		culture_group = anatolian_group
+		not = { religion = anatolian_main }
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }

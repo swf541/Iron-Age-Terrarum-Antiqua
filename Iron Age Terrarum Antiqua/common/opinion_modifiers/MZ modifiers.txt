@@ -185,3 +185,22 @@ opinion_refused_nortia = {
 	opinion = -10
 	months = 12
 }
+opinion_purulli = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_purulli = {
+	opinion = -10
+	months = 12
+}
+
+opinion_nuntarryashas = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_nuntarryashas = {
+	opinion = -10
+	months = 12
+}
