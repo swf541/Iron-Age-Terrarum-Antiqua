@@ -205,3 +205,12 @@ bm_punic_wars = {
 		id = 250406
 	}
 }
+bm_second_punic_war = {
+	name = "BM_SECOND_PUNIC_WAR"
+	desc = "BM_SECOND_PUNIC_WAR_DESC"
+	date = 558.1.1
+#	selectable_character = {
+#		id = 1002
+#	}
+
+}
