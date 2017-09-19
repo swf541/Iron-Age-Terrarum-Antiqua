@@ -22,3 +22,21 @@
 628.05.28 = { # 148 BC
 	holder = 1231127 # Iacob
 }
+632.05.21 = { # 144 BC
+	holder = 1231130 # Díglach
+}
+655.03.14 = { # 121 BC
+	holder = 1231134 # Áedán
+}
+701.07.28 = { # 75 BC
+	holder = 1231139 # Dubthach
+}
+713.07.23 = { # 63 BC
+	holder = 1231143 # Brian
+}
+727.03.25 = { # 49 BC
+	holder = 1231151 # Gormgus
+}
+771.5.14 = { # 5 BC
+	holder = 1231152 # Garalt
+}

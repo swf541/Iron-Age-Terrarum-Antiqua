@@ -496,6 +496,7 @@
 	father=1231120	#Petair
 	mother=1231159	#Martha
 	585.10.11={ birth=yes }
+	606.1.1={ add_spouse=1231160 }
 	632.5.21={ death=yes }
 }
 1231128={
@@ -543,6 +544,385 @@
 	mother=1231159	#Martha
 	594.4.20={ birth=yes }
 	652.8.9={ death=yes }
+}
+1231130={
+	name=Díglach
+	dynasty=223027
+	dna="olcobgakhea"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=7 
+	learning=8
+	trait=misguided_warrior 
+	trait=ambitious 
+	trait=honest 
+	father=1231127	#Iacob
+	mother=1231160	#Áedammair
+	610.6.6={ birth=yes }
+	631.1.1={ add_spouse=1231161 }
+	655.3.14={ death=yes }
+}
+1231131={
+	name=Martha
+	female=yes
+	dynasty=223027
+	dna="knfghibdhlf"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231127	#Iacob
+	mother=1231160	#Áedammair
+	613.10.8={ birth=yes }
+	676.10.29={ death=yes }
+}
+1231132={
+	name=Ruarcc
+	dynasty=223027
+	dna="cfdokimbiba"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=5 
+	learning=6
+	trait=midas_touched 
+	trait=just 
+	trait=cynical 
+	trait=envious 
+	trait=paranoid 
+	trait=lustful 
+	trait=ambitious 
+	father=1231127	#Iacob
+	mother=1231160	#Áedammair
+	618.10.14={ birth=yes }
+	691.1.30={ death=yes }
+}
+1231133={
+	name=Minchán
+	dynasty=223027
+	dna="eicoeidlcji"
+	culture=irish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=4 
+	learning=7
+	trait=detached_priest 
+	trait=chaste 
+	trait=temperate 
+	father=1231127	#Iacob
+	mother=1231160	#Áedammair
+	621.8.21={ birth=yes }
+	677.1.23={ death=yes }
+}
+1231134={
+	name=Áedán
+	dynasty=223027
+	dna="lhccocakhba"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=7 
+	learning=4
+	trait=detached_priest 
+	trait=greedy 
+	trait=deceitful 
+	father=1231130	#Díglach
+	mother=1231161	#Selblaith
+	634.1.20={ birth=yes }
+	655.1.1={ add_spouse=1231162 }
+	701.7.28={ death=yes }
+}
+1231135={
+	name=Áedammair
+	female=yes
+	dynasty=223027
+	dna="olcmbganhca"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231130	#Díglach
+	mother=1231161	#Selblaith
+	637.5.25={ birth=yes }
+	689.9.23={ death=yes }
+}
+1231136={
+	name=Selblaith
+	female=yes
+	dynasty=223027
+	dna="cpcnbkeijnk"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231130	#Díglach
+	mother=1231161	#Selblaith
+	642.10.24={ birth=yes }
+	689.3.6={ death=yes }
+}
+1231137={
+	name=Dub-Lemna
+	female=yes
+	dynasty=223027
+	dna="ogcoggafhea"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231130	#Díglach
+	mother=1231161	#Selblaith
+	646.2.18={ birth=yes }
+	685.10.30={ death=yes }
+}
+1231138={
+	name=Derborgaill
+	female=yes
+	dynasty=223027
+	dna="eooaolakhbo"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231134	#Áedán
+	mother=1231162	#Derborgaill
+	656.9.11={ birth=yes }
+	730.2.1={ death=yes }
+}
+1231139={
+	name=Dubthach
+	dynasty=223027
+	dna="mhccojekhbk"
+	culture=irish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=5 
+	learning=7
+	trait=martial_cleric 
+	trait=temperate 
+	trait=content 
+	trait=just 
+	trait=patient 
+	trait=paranoid 
+	father=1231134	#Áedán
+	mother=1231162	#Derborgaill
+	658.5.27={ birth=yes }
+	679.1.1={ add_spouse=1231163 }
+	713.7.23={ death=yes }
+}
+1231140={
+	name=Cumman
+	female=yes
+	dynasty=223027
+	dna="lbcencjaabd"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231134	#Áedán
+	mother=1231162	#Derborgaill
+	659.3.15={ birth=yes }
+	717.7.9={ death=yes }
+}
+1231141={
+	name=Lerben
+	female=yes
+	dynasty=223027
+	dna="ldccocaghha"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231134	#Áedán
+	mother=1231162	#Derborgaill
+	662.3.20={ birth=yes }
+	712.7.24={ death=yes }
+}
+1231142={
+	name=Sisuile
+	female=yes
+	dynasty=223027
+	dna="bhjcocckmba"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231134	#Áedán
+	mother=1231162	#Derborgaill
+	665.1.21={ birth=yes }
+	709.8.21={ death=yes }
+}
+1231143={
+	name=Brian
+	dynasty=223027
+	dna="mhciobpkhbk"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=7 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=zealous 
+	trait=kind 
+	trait=gregarious 
+	trait=clubfooted 
+	father=1231139	#Dubthach
+	mother=1231163	#Dub-Dil
+	681.10.23={ birth=yes }
+	702.1.1={ add_spouse=1231164 }
+	727.3.25={ death=yes }
+}
+1231144={
+	name=Dub-Dil
+	female=yes
+	dynasty=223027
+	dna="ahccjjeljad"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231139	#Dubthach
+	mother=1231163	#Dub-Dil
+	684.3.27={ birth=yes }
+	744.11.11={ death=yes }
+}
+1231145={
+	name=Cathán
+	female=yes
+	dynasty=223027
+	dna="ohcppjakcfp"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231139	#Dubthach
+	mother=1231163	#Dub-Dil
+	686.10.12={ birth=yes }
+	733.2.26={ death=yes }
+}
+1231146={
+	name=Máel-Mide
+	female=yes
+	dynasty=223027
+	dna="chcdgjekobk"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231139	#Dubthach
+	mother=1231163	#Dub-Dil
+	689.8.4={ birth=yes }
+	735.6.18={ death=yes }
+}
+1231147={
+	name=Uargalach
+	dynasty=223027
+	dna="afdnopfkhbf"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=4 
+	learning=4
+	trait=intricate_webweaver 
+	trait=patient 
+	trait=deceitful 
+	trait=slothful 
+	father=1231139	#Dubthach
+	mother=1231163	#Dub-Dil
+	691.9.10={ birth=yes }
+	761.11.18={ death=yes }
+}
+1231148={
+	name=Taithlech
+	dynasty=223027
+	dna="mhcbojamfbm"
+	culture=irish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=8 
+	learning=5
+	trait=scholarly_theologian 
+	trait=hunter 
+	trait=proud 
+	trait=trusting 
+	trait=craven 
+	trait=diligent 
+	father=1231139	#Dubthach
+	mother=1231163	#Dub-Dil
+	694.8.26={ birth=yes }
+	738.10.23={ death=yes }
+}
+1231149={
+	name=Mac-Laisre
+	dynasty=223027
+	dna="phccmjdkbbk"
+	culture=irish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=detached_priest 
+	trait=cynical 
+	trait=slothful 
+	trait=craven 
+	trait=patient 
+	trait=depressed 
+	father=1231139	#Dubthach
+	mother=1231163	#Dub-Dil
+	699.4.17={ birth=yes }
+	784.10.23={ death=yes }
+}
+1231150={
+	name=Ben-Míde
+	female=yes
+	dynasty=223027
+	dna="ahfjnbplhdk"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231143	#Brian
+	mother=1231164	#Ben-Míde
+	709.7.1={ birth=yes }
+	761.3.9={ death=yes }
+}
+1231151={
+	name=Gormgus
+	dynasty=223027
+	dna="gpcmobpkhbj"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=5 
+	learning=7
+	trait=mastermind_theologian 
+	trait=gluttonous 
+	trait=patient 
+	trait=cruel 
+	trait=shy 
+	trait=stressed 
+	father=1231143	#Brian
+	mother=1231164	#Ben-Míde
+	713.10.9={ birth=yes }
+	771.5.14={ death=yes }
+}
+1231152={
+	name=Garalt
+	dynasty=223027
+	dna="mhcedbmjbae"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=6 
+	learning=7
+	trait=grey_eminence 
+	trait=honest 
+	trait=ambitious 
+	trait=paranoid 
+	trait=brave 
+	trait=just 
+	father=1231143	#Brian
+	mother=1231164	#Ben-Míde
+	719.2.23={ birth=yes }
+	800.11.27={ death=yes }
 }
 1231153={
 	name=Temair
@@ -599,4 +979,44 @@
 	religion=celtic_pagan
 	558.1.1={ birth=yes }
 	628.1.1={ death=yes }
+}
+1231160={
+	name=Áedammair
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	585.1.1={ birth=yes }
+	632.1.1={ death=yes }
+}
+1231161={
+	name=Selblaith
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	610.1.1={ birth=yes }
+	655.1.1={ death=yes }
+}
+1231162={
+	name=Derborgaill
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	634.1.1={ birth=yes }
+	704.1.1={ death=yes }
+}
+1231163={
+	name=Dub-Dil
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	658.1.1={ birth=yes }
+	713.1.1={ death=yes }
+}
+1231164={
+	name=Ben-Míde
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	681.1.1={ birth=yes }
+	727.1.1={ death=yes }
 }
