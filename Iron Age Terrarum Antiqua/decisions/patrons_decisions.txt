@@ -1,5 +1,66 @@
 decisions = {
-	#GREEK
+	#Etruscan
+	patrons_etr = {
+		is_high_prio = yes
+		potential = {
+			is_playable = yes
+			is_landed = yes
+			age = 16
+			NOT = { 
+				trait = incapable
+				trait = infirm
+				trait = possessed 
+			}
+			NOT = {
+				has_character_modifier = patron_tinia
+				has_character_modifier = patron_laran
+				has_character_modifier = patron_charun
+				has_character_modifier = patron_turms
+				has_character_modifier = patron_menerva
+				has_character_modifier = patron_turan
+				has_character_modifier = patron_cel
+				has_character_modifier = patron_artimi
+				has_character_modifier = patron_apulu
+				has_character_modifier = patron_culsans
+				has_character_modifier = patron_culsu
+				has_character_modifier = patron_fufluns
+				has_character_modifier = patron_lasa
+				has_character_modifier = patron_sethlans
+				has_character_modifier = patron_thalana
+				has_character_modifier = patron_thesan
+				has_character_modifier = patron_tiv
+				has_character_modifier = patron_usil
+				has_character_modifier = patron_uni
+				has_character_modifier = patron_hercle
+				has_character_modifier = patron_satres
+				has_character_modifier = patron_nortia
+			}
+			religion = etruscan_main
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			character_event = { id = PATRONS_ETR.1 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+			}
+			modifier = {
+				factor = 0.2
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.1
+				trait = cynical
+			}
+		}
+	}
 	patrons_gre = {
 		is_high_prio = yes
 		potential = {

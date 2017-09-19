@@ -12,6 +12,7 @@ namespace = PATRONS_BAS
 namespace = PATRONS_OSE
 namespace = PATRONS_ELA
 namespace = PATRONS_GRE
+namespace = PATRONS_ETR
 
 #AZTEC1
 character_event = {
@@ -1380,5 +1381,296 @@ character_event = {
 	option = {
 		name = PATRONS_GRE.2.d
 		hidden_tooltip = { character_event = { id = PATRONS_GRE.1 } }
+	}
+}
+#Greek11
+character_event = {
+	id = PATRONS_ETR.1
+	desc = PATRONS_ETR.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETR.1.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_cel
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.1.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_tinia
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.1.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_menerva
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETR.2 } }
+	}
+}
+
+#Greek2
+character_event = {
+	id = PATRONS_ETR.2
+	desc = PATRONS_ETR.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETR.2.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_artimi
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.2.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_apulu
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.2.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_charun
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETR.3 } }
+	}
+}
+character_event = {
+	id = PATRONS_ETR.3
+	desc = PATRONS_ETR.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETR.3.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_culsans
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.3.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_culsu
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.3.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_fufluns
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETR.4 } }
+	}
+}
+character_event = {
+	id = PATRONS_ETR.4
+	desc = PATRONS_ETR.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETR.4.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_laran
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.4.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_lasa
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.4.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_sethlans
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETR.5 } }
+	}
+}
+character_event = {
+	id = PATRONS_ETR.5
+	desc = PATRONS_ETR.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETR.5.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_thalana
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.5.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_thesan
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.5.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_tiv
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETR.6 } }
+	}
+}
+character_event = {
+	id = PATRONS_ETR.6
+	desc = PATRONS_ETR.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETR.6.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_turan
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.6.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_turms
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.6.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_uni
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETR.7 } }
+	}
+}
+character_event = {
+	id = PATRONS_ETR.7
+	desc = PATRONS_ETR.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETR.7.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_usil
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.7.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_vanth
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.7.c
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_nortia
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.1.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETR.8 } }
+	}
+}
+character_event = {
+	id = PATRONS_ETR.8
+	desc = PATRONS_ETR.1.desc
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PATRONS_ETR.8.a
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_satres
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.8.b
+		set_character_flag = patron_chosen
+		add_character_modifier = {
+			name = patron_hercle
+			duration = -1
+		}
+	}
+	option = {
+		name = PATRONS_ETR.2.d
+		hidden_tooltip = { character_event = { id = PATRONS_ETR.1 } }
 	}
 }
