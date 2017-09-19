@@ -16,6 +16,8 @@ feudal_governments = {
 		}
 		potential = {
 			is_patrician = no
+			is_priest = no
+			NOT = { primary_title = { holding_type = temple } }
 		}
 		
 		color = { 91 133 207 }

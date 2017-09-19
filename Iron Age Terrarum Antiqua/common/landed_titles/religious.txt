@@ -143,7 +143,7 @@ k_hittite = {
 	color={ 235 55 35 }
 	color2={ 220 220 0 }
 	
-	capital = 249 #Susa
+	capital = 117 #Susa
 	
 	title = "King"
 	title_female = "King"

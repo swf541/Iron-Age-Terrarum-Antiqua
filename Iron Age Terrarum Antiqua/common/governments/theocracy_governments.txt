@@ -24,10 +24,7 @@ theocracy_governments = {
 		potential = {
 			NOT = {
 				controls_religion = yes
-				OR = {
-					religion = etruscan_main
-					religion_group = abrahamic_main
-				}
+				religion_group = jewish_group
 			}
 			NOT = {
 				controls_religion = yes

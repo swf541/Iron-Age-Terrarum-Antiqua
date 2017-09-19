@@ -166,10 +166,28 @@ patron_telipinu;Patronizes Telipinu;;;;;;x
 PATRONS_HIT.1.a;Arinna;;;;;;x
 PATRONS_HIT.1.b;Hatti;;;;;;x
 PATRONS_HIT.1.c;Inara;;;;;;x
-
 PATRONS_HIT.2.a;Kamrusepa;;;;;;x
 PATRONS_HIT.2.b;Kumarbi;;;;;;x
 PATRONS_HIT.2.c;Telipinu;;;;;;x
 patrons_hit;Select Patron Deity;;;;;;x
 patrons_hit_desc;Select Patron Deity;;;;;;x
-k_hittite;Hittite Kingdom;;;;;;;x
+k_hittite;Luwian Kingdom;;;;;;;x
+PATRONS_LUW.1.a;Tiwad;;;;;;;x
+patron_tiwad;Patronizes Tiwad;;;;;;;x
+PATRONS_LUW.1.b;Hipatu;;;;;;;x
+patron_hipatu;Patronizes Hipatu;;;;;;;x
+PATRONS_LUW.1.c;Kupapa;;;;;;;x
+patron_kupapa;Patronizes Kupapa;;;;;;;x
+PATRONS_LUW.2.a;Runtiya;;;;;;;x
+patron_runtiya;Patronizes Runtiya;;;;;;;x
+PATRONS_LUW.2.b;Sauska;;;;;;;x
+patron_sauska;Patronizes Sauska;;;;;;;x
+PATRONS_LUW.2.c;Santa;;;;;;;x
+patron_santa;Patronizes Santa;;;;;;;x
+PATRONS_LUW.3.a;Kumarma;;;;;;;x
+patron_kumarma;Patronizes Kumarma;;;;;;;x
+PATRONS_LUW.3.b;Tarhunz;;;;;;;x
+patron_tarhunz;Patronizes Tarhunz;;;;;;;x
+PATRONS_LUW.3.c;Arma;;;;;;;x
+patron_arma;Patronizes Arma;;;;;;;x
+

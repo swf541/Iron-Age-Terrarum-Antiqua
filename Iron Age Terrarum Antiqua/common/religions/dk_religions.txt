@@ -2439,7 +2439,6 @@ greek_religion = {
 		can_grant_claim = yes
 		can_call_crusade = no
 		priests_can_marry = yes
-		can_hold_temples = yes
 		
 		max_wives = 4
 		
@@ -2510,7 +2509,6 @@ greek_religion = {
 		can_grant_claim = yes
 		can_call_crusade = no
 		priests_can_marry = yes
-		can_hold_temples = yes
 		
 		max_wives = 4
 		
@@ -2578,7 +2576,6 @@ greek_religion = {
 		can_grant_claim = yes
 		can_call_crusade = no
 		priests_can_marry = yes
-		can_hold_temples = yes
 		max_consorts = 2
 		
 		intermarry = egyptian_pagan	
@@ -2644,7 +2641,6 @@ greek_religion = {
 		can_grant_claim = yes
 		can_call_crusade = no
 		priests_can_marry = yes
-		can_hold_temples = yes
 
 		max_wives = 4
 		
@@ -2716,7 +2712,6 @@ italian_religion = {
 		can_grant_divorce = yes
 		can_grant_claim = yes
 		can_call_crusade = no
-		can_hold_temples = yes
 		
 		# No intermarriage for now
 	}

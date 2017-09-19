@@ -22,6 +22,7 @@ republic_governments = {
 		title_prefix = "city_"
 		potential = {
 			is_female = no
+			NOT = { primary_title = { holding_type = temple } }
 			OR = {
 				AND = {
 					is_patrician = yes
@@ -99,6 +100,7 @@ republic_governments = {
 				NOT = { religion_group = muslim }
 				NOT = { religion = norse_pagan_reformed }
 			}
+			NOT = { primary_title = { holding_type = temple } }
 			NOT = { is_government_potential = merchant_republic_government }
 		}
 		
