@@ -49,6 +49,9 @@
 541.4.1 = { # 235 BC
 	holder = 10020 # Deidameia
 }
-543.1.1 = { # 233 BC
-	# Epirote Republic
+545.1.1 = {
+	holder = 22206
+}
+560.1.1 = {
+	holder = 22207
 }

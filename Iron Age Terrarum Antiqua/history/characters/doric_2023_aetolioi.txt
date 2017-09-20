@@ -62,3 +62,27 @@
 		death="yes" # 327 BC
 	}
 }
+22206 = {
+	name = "Diodoros" # Leader of the Aetolian League, made up
+	dynasty = 2023 # Aetolioi
+	religion = hellenic_pagan
+	culture = doric
+	480.1.1 = { # Made up
+		birth="yes" # 390 BC
+	}
+	560.1.1 = {
+		death="yes" # 327 BC
+	}
+}
+22207 = {
+	name = "Kleisthenes" # Leader of the Aetolian League, made up
+	dynasty = 2023 # Aetolioi
+	religion = hellenic_pagan
+	culture = doric
+	540.1.1 = { # Made up
+		birth="yes" # 390 BC
+	}
+	622.1.1 = {
+		death="yes" # 327 BC
+	}
+}

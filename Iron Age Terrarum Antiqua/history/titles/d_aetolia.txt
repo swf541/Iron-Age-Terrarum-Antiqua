@@ -20,5 +20,8 @@
 	holder = 22203 # Diodoros, Made up
 }
 520.1.1 = {
-	holder = 22205
+	holder = 22206
+}
+560.1.1 = {
+	holder = 22207
 }

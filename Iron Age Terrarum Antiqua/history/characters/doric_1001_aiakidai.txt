@@ -400,3 +400,14 @@
 		}
 	}
 }
+10023 = {
+	name = "Aiakides" 
+	religion = hellenic_pagan
+	culture = doric
+	410.1.1 = { # 356 BC, made up
+		birth="yes" 
+	}	
+	480.1.1 = { # 313 BC, Died in battle vs Macedonians
+		death="yes"
+	}
+}
