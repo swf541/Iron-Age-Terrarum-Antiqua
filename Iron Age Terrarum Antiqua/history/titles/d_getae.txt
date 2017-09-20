@@ -9,4 +9,8 @@
 }
 500.1.1 = {
 	holder = 40204
+	liege = k_odrysia
+}
+550.1.1 = {
+	holder = 40205
 }

@@ -42,3 +42,18 @@
 		death="yes"
 	}
 }
+260404 = {
+	name = "Admerus" # Made up
+	dynasty = 26005
+	culture = berber
+	religion = berber_main
+
+	father = 260403
+
+	510.1.1 = { # 309 BC, Made up
+		birth="yes"
+	}
+	587.1.1 = { # 266 BC, Made up
+		death="yes"
+	}
+}

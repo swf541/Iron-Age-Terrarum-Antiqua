@@ -11,3 +11,7 @@
 503.1.1 = { # 273 BC
 	holder = 420804 # Ultinos
 }
+527.1.1 = {
+	holder = 420805
+	liege = k_carthage
+}

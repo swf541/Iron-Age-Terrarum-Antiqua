@@ -60,3 +60,18 @@
 		death="yes"
 	}
 }
+400105 = {
+	name = "Melmanios" # Made up Counei leader
+	dynasty = 40002
+	culture = turdetanian
+	religion = iberian_main
+
+	father = 400104
+	
+	520.1.1 = { # 311 BC, Made up
+		birth="yes"
+	}
+	594.1.1 = { # 235 BC
+		death="yes"
+	}
+}

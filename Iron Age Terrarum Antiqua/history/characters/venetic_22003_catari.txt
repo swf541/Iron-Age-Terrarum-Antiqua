@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+220204 = {
+	name = "Moicus" # Catari leader, made up
+	dynasty = 22003 # Catari
+	religion = illyrian_main
+	culture = venetic
+	father = 220203
+	500.1.1 = { # 332 BC
+		birth="yes"
+	}
+	567.1.1 = { # 265 BC
+		death="yes"
+	}
+}

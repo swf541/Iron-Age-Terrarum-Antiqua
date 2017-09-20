@@ -36,3 +36,27 @@
 		death="yes" # 352 BC Made Up
 	}
 }
+2706024 = {
+	name = "Komakiza" # Made up
+	dynasty = 27003
+	culture = dacian
+	religion = zalmoxism
+	500.1.1 = { # Made up
+		birth="yes" # 443 BC
+	}
+	570.1.1 = { # Made up
+		death="yes" # 265 BC
+	}
+}
+2706025 = {
+	name = "Mucapor" # Made up
+	dynasty = 27003
+	culture = dacian
+	religion = zalmoxism
+	550.1.1 = { # Made up
+		birth="yes" # 443 BC
+	}
+	625.1.1 = { # Made up
+		death="yes" # 265 BC
+	}
+}

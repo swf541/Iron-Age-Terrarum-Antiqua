@@ -24,3 +24,29 @@
 		death="yes"
 	}
 }
+310103 = {
+	name = "Adnun"
+	dynasty = 31002 # Aqaba
+	religion = arabic_main
+	culture = nabataean
+	father = 310101
+	499.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	572.1.1 = { # 261 BC Made up
+		death="yes"
+	}
+}
+310104 = {
+	name = "Cain"
+	dynasty = 31002 # Aqaba
+	religion = arabic_main
+	culture = nabataean
+	father = 310101
+	550.1.1 = { # 355 BC Made up
+		birth="yes"
+	}
+	620.1.1 = { # 261 BC Made up
+		death="yes"
+	}
+}

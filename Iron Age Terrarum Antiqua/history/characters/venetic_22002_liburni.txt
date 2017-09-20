@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+220104 = {
+	name = "Volcus" # Liburni leader, Made up
+	dynasty = 22002 # Liburni
+	religion = illyrian_main
+	culture = venetic
+	father = 220103
+	512.1.1 = {
+		birth="yes" # 332 BC, Made up
+	}
+	589.1.1 = { # 273 BC
+		death="yes"
+	}
+}

@@ -50,3 +50,16 @@
 		death="yes" # 274 BC, Made up
 	}
 }
+40305 = {
+	name = "Hales" # King of the Triballi, Made up
+	dynasty = 4004 # Triballi
+	religion = thracian_main
+	culture = thracian
+	father = 40304
+	513.1.1 = {
+		birth="yes" # 340 BC, Made up
+	}
+	595.1.1 = {
+		death="yes" # 274 BC, Made up
+	}
+}

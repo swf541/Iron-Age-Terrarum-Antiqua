@@ -31,7 +31,19 @@
 	488.1.1 = { # Made up
 		birth="yes" # 342 BC
 	}
-	557.1.1 = {
+	562.1.1 = {
+		death="yes" # 272 BC
+	}
+}
+2709014 = {
+	name = "Dabyg" # Made up
+	dynasty = 27002
+	culture = dacian
+	religion = zalmoxism
+	488.1.1 = { # Made up
+		birth="yes" # 342 BC
+	}
+	562.1.1 = {
 		death="yes" # 272 BC
 	}
 }

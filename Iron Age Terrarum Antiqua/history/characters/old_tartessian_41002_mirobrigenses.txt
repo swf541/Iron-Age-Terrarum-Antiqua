@@ -60,3 +60,18 @@
 		death="yes"
 	}
 }
+410105 = {
+	name = "Luxinio" # Made up Mirobrigenses leader
+	dynasty = 41002
+	culture = old_tartessian
+	religion = iberian_main
+	
+	father = 410104
+	
+	512.1.1 = { # 313 BC, Made up
+		birth="yes"
+	}
+	574.1.1 = { # 246 BC
+		death="yes"
+	}
+}

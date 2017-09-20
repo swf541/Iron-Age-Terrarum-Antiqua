@@ -2,7 +2,7 @@
 60001 = {
 	name = "Aryawratha" # Ariarathes I, Achaemenid satrap of Cappadocia and later the first king of Cappadocia
 	dynasty = 6001 # Datama
-	religion = anatolian_main
+	religion = zoroastrian
 	culture = cappadocian
 	father = 60003
 	
@@ -21,7 +21,7 @@
 60002 = {
 	name = "Aryawratha" # Ariarathes II, adopted son of Ariarathes I
 	dynasty = 6001 # Datama
-	religion = anatolian_main
+	religion = zoroastrian
 	culture = cappadocian
 	father = 60001
 	436.1.1 = { # 340 BC Made up
@@ -34,7 +34,7 @@
 60003 = {
 	name = "Ariyamna" # Ariamnes, Achaemenid satrap of Cappadocia, father of Ariarathes I
 	dynasty = 6001 # Datama
-	religion = anatolian_main
+	religion = zoroastrian
 	culture = cappadocian
 	355.1.1 = { # 421 BC, made up
 		birth="yes"
@@ -46,7 +46,7 @@
 60004 = {
 	name = "Ariyamna" # Ariamnes I
 	dynasty = 6001 # Datama
-	religion = anatolian_main
+	religion = zoroastrian
 	culture = cappadocian
 
 	father = 60002
@@ -61,7 +61,7 @@
 60005 = {	
 	name = "Aryawratha" # Ariarathes III
 	dynasty = 6001 # Datama
-	religion = anatolian_main
+	religion = zoroastrian
 	culture = cappadocian
 	
 	father = 60004
@@ -79,7 +79,7 @@
 60006 = {
 	name = "Aryawratha" # Ariarathes IV
 	dynasty = 6001 # Datama
-	religion = anatolian_main
+	religion = zoroastrian
 	culture = cappadocian
 
 	father = 60005

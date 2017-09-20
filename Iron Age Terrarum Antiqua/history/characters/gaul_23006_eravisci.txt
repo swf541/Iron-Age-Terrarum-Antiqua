@@ -50,3 +50,16 @@
 		death="yes" # 280 BC, Made up 
 	}
 }
+230405 = {
+	name = "Donnotaurus" # Eravisci leader, made up
+	dynasty = 23006 # Eravisci
+	culture = gaul
+	religion = celtic_pagan
+	father = 230404
+	524.1.1 = {
+		birth="yes" # 338 BC, Made up
+	}
+	602.1.1 = {
+		death="yes" # 280 BC, Made up 
+	}
+}
