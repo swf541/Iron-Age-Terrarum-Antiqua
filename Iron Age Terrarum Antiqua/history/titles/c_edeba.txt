@@ -8,3 +8,7 @@
 472.1.1 = { # 304 BC
 	holder = 420703 # Karbelos
 }
+510.1.1 = {	
+	holder = 420704
+	liege = k_carthage
+}

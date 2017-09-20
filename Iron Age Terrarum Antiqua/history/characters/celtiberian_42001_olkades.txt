@@ -38,3 +38,16 @@
 		death="yes"
 	}
 }
+420004 = {
+	name = "Eskutino" # Made up Olcades leader
+	dynasty = 42001
+	culture = celtiberian
+	religion = celtic_pagan
+	
+	520.1.1 = { # 360 BC, Made up
+		birth="yes"
+	}
+	583.1.1 = { # 280 BC
+		death="yes"
+	}
+}

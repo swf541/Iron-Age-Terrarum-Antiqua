@@ -78,3 +78,17 @@
 		death="yes"
 	}
 }
+
+250407 = {
+	name = "Hasdrubal"
+	dynasty = 2048
+	religion = punic_main
+	culture = punic
+	father = 250404
+	524.1.1 = { 
+		birth="yes" # 384 BC Made Up
+	}
+	574.1.1 = { 
+		death="yes" # 325 BC Made Up
+	}
+}

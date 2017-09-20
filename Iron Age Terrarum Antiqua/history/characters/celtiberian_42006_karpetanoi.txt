@@ -60,3 +60,19 @@
 		death="yes"
 	}
 }
+
+420605 = {
+	name = "Elazunos" # Made up Carpetani leader
+	dynasty = 42007
+	culture = celtiberian
+	religion = celtic_pagan
+	
+	father = 420604
+	
+	520.1.1 = { # 305 BC, Made up
+		birth="yes"
+	}
+	593.1.1 = { # 238 BC
+		death="yes"
+	}
+}

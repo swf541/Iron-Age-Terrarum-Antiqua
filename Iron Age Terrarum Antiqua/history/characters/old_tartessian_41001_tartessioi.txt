@@ -35,12 +35,28 @@
 	culture = old_tartessian
 	religion = iberian_main
 	
-	father = 410002
+	father = 410001
 	
 	451.1.1 = { # 325 BC, Made up
 		birth="yes"
 	}
 	507.1.1 = { # 269 BC
+		death="yes"
+	}
+}
+
+410003 = {
+	name = "Arganthonios" # Made up Tartessii leader
+	dynasty = 41001
+	culture = old_tartessian
+	religion = iberian_main
+	
+	father = 410002
+	
+	503.1.1 = { # 325 BC, Made up
+		birth="yes"
+	}
+	576.1.1 = { # 269 BC
 		death="yes"
 	}
 }

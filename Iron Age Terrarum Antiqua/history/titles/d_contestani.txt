@@ -7,3 +7,7 @@
 471.1.1 = { # 305 BC
 	holder = 390603 # Uxentio
 }
+510.1.1 = {
+	holder = 390604
+	liege = k_carthage
+}

@@ -44,3 +44,18 @@
 		death="yes"
 	}
 }
+421104 = {
+	name = "Belsu" # Made up Turduli Vetteres leader
+	dynasty = 42012
+	culture = celtiberian
+	religion = celtic_pagan
+	
+	father = 421103
+	
+	510.1.1 = { # 340 BC, Made up
+		birth="yes"
+	}
+	583.1.1 = { # 269 BC
+		death="yes"
+	}
+}

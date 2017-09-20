@@ -44,3 +44,18 @@
 		death="yes"
 	}
 }
+390604 = {
+	name = "Tiokenesos" # Made up Contestani leader
+	dynasty = 39007
+	culture = iberian
+	religion = iberian_main
+	
+	father = 390602
+	
+	510.1.1 = { # 334 BC, Made up
+		birth="yes"
+	}
+	573.1.1 = { # 263 BC
+		death="yes"
+	}
+}

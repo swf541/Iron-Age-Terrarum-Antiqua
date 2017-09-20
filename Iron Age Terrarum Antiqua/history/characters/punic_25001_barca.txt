@@ -49,3 +49,42 @@
 		death="yes" # 325 BC Made Up
 	}
 }
+250005 = {
+	name = "Hannibal"
+	dynasty = 25001 # Barca
+	religion = punic_main
+	culture = punic
+	father = 250004
+	529.1.1 = { 
+		birth="yes" # 384 BC Made Up
+	}
+	595.1.1 = { 
+		death="yes" # 325 BC Made Up
+	}
+}
+250006 = {
+	name = "Hasdrubal"
+	dynasty = 25001 # Barca
+	religion = punic_main
+	culture = punic
+	father = 250004
+	531.1.1 = { 
+		birth="yes" # 384 BC Made Up
+	}
+	569.1.1 = { 
+		death="yes" # 325 BC Made Up
+	}
+}
+250007 = {
+	name = "Mago"
+	dynasty = 25001 # Barca
+	religion = punic_main
+	culture = punic
+	father = 250004
+	533.1.1 = { 
+		birth="yes" # 384 BC Made Up
+	}
+	573.1.1 = { 
+		death="yes" # 325 BC Made Up
+	}
+}

@@ -44,3 +44,18 @@
 		death="yes"
 	}
 }
+390704 = {
+	name = "Aiunesker" # Made up Bastetani leader
+	dynasty = 39008
+	culture = iberian
+	religion = iberian_main
+	
+	father = 390703
+	
+	510.1.1 = { # 320 BC, Made up
+		birth="yes"
+	}
+	583.1.1 = { # 255 BC
+		death="yes"
+	}
+}

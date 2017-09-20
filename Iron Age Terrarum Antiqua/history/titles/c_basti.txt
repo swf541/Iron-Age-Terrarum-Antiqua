@@ -8,3 +8,7 @@
 487.1.1 = { # 289 BC
 	holder = 390703 # Sekilos
 }
+521.1.1 = {
+	holder = 390704
+	liege = k_carthage
+}

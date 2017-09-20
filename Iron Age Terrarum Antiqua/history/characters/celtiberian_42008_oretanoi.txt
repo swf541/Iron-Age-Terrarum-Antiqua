@@ -44,3 +44,18 @@
 		death="yes"
 	}
 }
+420704 = {
+	name = "Terkinos" # Made up Oretani leader
+	dynasty = 42008
+	culture = celtiberian
+	religion = celtic_pagan
+	
+	father = 420703
+	
+	510.1.1 = { # 326 BC, Made up
+		birth="yes"
+	}
+	573.1.1 = { # 263 BC
+		death="yes"
+	}
+}

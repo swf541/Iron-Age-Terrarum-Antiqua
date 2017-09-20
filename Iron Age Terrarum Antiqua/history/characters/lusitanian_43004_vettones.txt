@@ -38,3 +38,17 @@
 		death="yes"
 	}
 }
+
+430304 = {
+	name = "Taurocus" # Made up Vettones leader
+	dynasty = 43004
+	culture = lusitanian
+	religion = lusitanian_main
+	
+	512.1.1 = { # 346 BC, Made up
+		birth="yes"
+	}
+	587.1.1 = { # 276 BC
+		death="yes"
+	}
+}

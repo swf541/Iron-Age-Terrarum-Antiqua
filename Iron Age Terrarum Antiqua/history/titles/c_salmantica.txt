@@ -5,3 +5,7 @@
 466.1.1 = { # 309 BC
 	holder = 421103 # Kasilos
 }
+510.1.1 = {
+	holder = 421104
+	liege = k_carthage
+}

@@ -5,6 +5,7 @@
 466.1.1 = { # 310 BC
 	holder = 410002 # Arganthonios
 }
-495.1.1 = { # 281 BC
-	holder = 410003 # Arganthonios
+503.1.1 = {
+	holder = 410003
+	liege = k_carthage
 }
