@@ -37,3 +37,16 @@
 		death="yes" 
 	}
 }
+210004 = {
+	name = "Acco" # Ligurian Made up
+	dynasty = 21001 # Genuates
+	religion = celtic_pagan
+	culture = ligurian
+	father = 210002
+	520.1.1 = { # 323 BC
+		birth="yes"
+	}
+	577.1.1 = { # 238 BC
+		death="yes"
+	}
+}

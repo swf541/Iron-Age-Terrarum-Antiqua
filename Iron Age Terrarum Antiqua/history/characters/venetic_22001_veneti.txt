@@ -46,7 +46,20 @@
 	488.1.1 = { # 335 BC
 		birth="yes"
 	}
-	553.1.1 = { # 265 BC
+	563.1.1 = { # 265 BC
+		death="yes"
+	}
+}
+220005 = {
+	name = "Oeplus" # Veneti leader, Made up
+	dynasty = 22001 # Veneti
+	religion = illyrian_main
+	culture = venetic
+	father = 220004
+	540.1.1 = { # 335 BC
+		birth="yes"
+	}
+	621.1.1 = { # 265 BC
 		death="yes"
 	}
 }
