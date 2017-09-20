@@ -21,7 +21,7 @@
 	451.1.1 = { # 325 BC
 		birth="yes"
 	}
-	509.1.1 = { # 267 BC
+	533.1.1 = { # 267 BC
 		death="yes"
 	}
 }
@@ -34,6 +34,19 @@
 		birth="yes" # 382 BC
 	}
 	452.1.1 = { # 324 BC
+		death="yes"
+	}
+}
+231504 = {
+	name = "Critasirus" # Sevaces Made up
+	dynasty = 23017 # Sevaces
+	culture = gaul
+	religion = celtic_pagan
+	father = 231501
+	521.1.1 = { # 325 BC
+		birth="yes"
+	}
+	588.1.1 = { # 267 BC
 		death="yes"
 	}
 }

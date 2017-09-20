@@ -32,7 +32,19 @@
 	457.1.1 = {
 		birth="yes" # 319 BC
 	}
-	514.1.1 = {
+	522.1.1 = {
+		death="yes" # 262 BC
+	}
+}
+280304 = {
+	name = "Sethre" # Made up
+	dynasty = 28004 # Vennones
+	religion = etruscan_main
+	culture = raetic
+	500.1.1 = {
+		birth="yes" # 319 BC
+	}
+	587.1.1 = {
 		death="yes" # 262 BC
 	}
 }

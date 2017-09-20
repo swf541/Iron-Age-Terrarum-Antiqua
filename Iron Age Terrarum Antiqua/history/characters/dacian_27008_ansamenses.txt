@@ -21,7 +21,7 @@
 	445.1.1 = { # Made up
 		birth="yes" # 351 BC
 	}
-	513.1.1 = { # Made up
+	517.1.1 = { # Made up
 		death="yes" # 263 BC
 	}
 }
@@ -48,5 +48,19 @@
 	}
 	429.1.1 = {
 		death="yes" # 347 BC Made Up
+	}
+}
+270705 = {
+	name = "Tarbus" # Made up
+	dynasty = 27008 # Ansamenses
+	culture = dacian
+	religion = zalmoxism
+	father = 270701
+	501.1.1 = { # Made up
+		birth="yes" # 351 BC
+	}
+	#517
+	577.1.1 = { # Made up
+		death="yes" # 263 BC
 	}
 }

@@ -37,3 +37,15 @@
 		death="yes"
 	}	
 }
+280104 = {
+	name = "Tages" # Made up
+	dynasty = 28002 # Lepontii
+	religion = etruscan_main
+	culture = raetic
+	498.1.1 = { # 368 BC
+		birth="yes" # Made up
+	}
+	567.1.1 = { # 341 BC
+		death="yes"
+	}	
+}

@@ -35,3 +35,15 @@
 		death="yes" # 258 BC
 	}
 }
+231604 = {
+	name = "Critasirus" # Made up
+	dynasty = 23018 # Ambisontes
+	culture = gaul
+	religion = celtic_pagan
+	501.1.1 = {
+		birth="yes" # 362 BC
+	}
+	579.1.1 = {
+		death="yes" # 305 BC
+	}
+}

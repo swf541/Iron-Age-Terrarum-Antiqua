@@ -71,3 +71,60 @@
 		death="yes"
 	}
 }
+171507 = {
+	name = "Lucius" # Cornelius Scipio 
+	dynasty = 17016 # Cornelii
+	religion = roman_main
+	culture = latin
+	father = 171502
+	476.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	537.1.1 = { # 280 BC Made up
+		death="yes"
+	}
+}
+171508 = {
+	name = "Publius" # Cornelius Scipio
+	dynasty = 17016 # Cornelii
+	religion = roman_main
+	culture = latin
+	father = 171507
+	510.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	565.1.1 = { # 280 BC Made up
+		death="yes"
+	}
+}
+171509 = {
+	name = "Publius" # Cornelius Scipio Africanus
+	dynasty = 17016 # Cornelii
+	religion = roman_main
+	culture = latin
+	father = 171508
+	540.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	593.1.1 = { # 280 BC Made up
+		death="yes"
+	}
+}
+171510 = {
+	name = "Lucius" # Cornelius Scipio Asiaticus
+	dynasty = 17016 # Cornelii
+	religion = roman_main
+	culture = latin
+	father = 171508
+	545.1.1 = { # 333 BC Made up
+		birth="yes"
+	}
+	593.1.1 = { # 280 BC Made up
+		death="yes"
+	}
+}
+
+
+
+
+ 

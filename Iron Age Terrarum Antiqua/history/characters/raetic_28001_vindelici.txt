@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+280004 = {
+	name = "Aranth" # Vindelici Made up
+	dynasty = 28001 # Vindelici
+	religion = etruscan_main
+	culture = raetic
+	father = 280002
+	504.1.1 = { # 360 BC
+		birth="yes"
+	}
+	578.1.1 = { # 274 BC
+		death="yes"
+	}
+}
