@@ -1,2 +1,6 @@
 become_king_of_asia;Declare Yourself the King of Asia;;;;;;;;;;;;x
 become_king_of_asia_desc;You have conquered the major regions of Asia. It is time to become recognised as the King of all of Asia.;;;;;;;;;;;;x
+become_macedonian_pharaoh;Declare Yourself the Macedonian Pharaoh of Egypt;;;;;;;;;;;x
+become_macedonian_pharaoh_desc;You have conquered the major regions of Egypt. It is time to become recognised as the Pharaoh of all of Egypt.;;;;;;;;;;;;x
+macedonian_pharaoh;Macedonian Pharaoh;;;;;;;;;;;x
+macedonian_pharaoh_desc;This character has been recognised as ruler of the entirety of Egypt.;;;;;;;;;;;x
