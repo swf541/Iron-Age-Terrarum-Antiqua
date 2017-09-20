@@ -76,7 +76,7 @@
 		death="yes" 
 	}
 }
-150007
+150007 = {
 	name = "Dropion"
 	dynasty = 15001 # Agis
 	religion = illyrian_main
