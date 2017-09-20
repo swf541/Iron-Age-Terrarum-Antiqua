@@ -124,3 +124,33 @@
 		death="yes"
 	}
 }
+230710 = {
+	name = "Cavarus" # Historical Last King of Tylis
+	dynasty = 23009
+	culture = gaul
+	religion = celtic_pagan
+	
+	father = 230708
+	
+	add_trait = tough_soldier
+	
+	525.1.1 = { # 312 BC made up
+		birth="yes"
+	}
+	564.1.1 = { # 259 BC made up
+		death="yes"
+	}
+}
+230711 = {
+	name = "Bolgios" # Scordisci Made up
+	dynasty = 23009
+	culture = gaul
+	father = 230709
+	religion = celtic_pagan
+	540.1.1 = { # 336 BC
+		birth="yes"
+	}
+	610.1.1 = { # 268 BC
+		death="yes"
+	}
+}

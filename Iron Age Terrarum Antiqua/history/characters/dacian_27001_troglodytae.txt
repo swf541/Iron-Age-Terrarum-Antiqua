@@ -48,3 +48,15 @@
 		death="yes" # 349 BC Made Up
 	}
 }
+270005 = {
+	name = "Cotiso" # Made up
+	dynasty = 27001
+	culture = dacian
+	religion = zalmoxism
+	510.1.1 = { # Made up
+		birth="yes" # 331 BC
+	}
+	577.1.1 = { # Made up
+		death="yes" # 250 BC
+	}
+}
