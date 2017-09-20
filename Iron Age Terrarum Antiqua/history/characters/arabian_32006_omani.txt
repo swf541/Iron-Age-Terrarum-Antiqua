@@ -37,3 +37,16 @@
 		death="yes" # 260 BC, Made up
 	}
 }
+320504 = {
+	name = "Wadal-L'el" # Majan, Made up
+	dynasty = 32006 # Omani
+	culture = arabic
+	religion = arabic_main
+	father = 320503
+	500.1.1 = {
+		birth="yes" # 322 BC, Made up
+	}
+	586.1.1 = {
+		death="yes" # 260 BC, Made up
+	}
+}

@@ -57,3 +57,18 @@
 		death="yes"
 	}
 }
+260705 = {
+	name = "Tegamas" # Made up
+	dynasty = 26008
+	culture = berber
+	religion = berber_main
+
+	father = 260704
+
+	510.1.1 = { # 304 BC
+		birth="yes"
+	}
+	588.1.1 = { # 245 BC
+		death="yes"
+	}
+}

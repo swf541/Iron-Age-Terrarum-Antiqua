@@ -50,3 +50,16 @@
 		death="yes"
 	}
 }
+260305 = { 
+	name = "Siphales"
+	dynasty = 26004
+	religion = berber_main
+	culture = berber
+	father = 260304
+	510.1.1 = { # 302 BC, Made up
+		birth="yes"
+	}
+	588.1.1 = { # 248 BC, Made up
+		death="yes"
+	}
+}

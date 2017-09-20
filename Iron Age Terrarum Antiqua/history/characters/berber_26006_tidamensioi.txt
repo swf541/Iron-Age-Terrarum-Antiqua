@@ -42,3 +42,18 @@
 		death="yes"
 	}
 }
+260504 = {
+	name = "Gaesanus" # Made up
+	dynasty = 26006
+	culture = berber
+	religion = berber_main
+
+	father = 260503
+
+	512.1.1 = { # 313 BC
+		birth="yes"
+	}
+	596.1.1 = { # 246 BC
+		death="yes"
+	}
+}

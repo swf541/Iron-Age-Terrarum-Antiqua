@@ -42,3 +42,18 @@
 		death="yes"
 	}
 }
+350079 = {
+	name = "Ahmose" # Made up
+	dynasty = 35005
+	culture = egyptian
+	religion = egyptian_pagan
+
+	father = 350078
+
+	520.1.1 = { # 298 BC
+		birth="yes"
+	}
+	594.1.1 = { # 233 BC
+		death="yes"
+	}
+}

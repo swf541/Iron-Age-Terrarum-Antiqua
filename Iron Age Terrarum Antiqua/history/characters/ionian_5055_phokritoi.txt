@@ -12,3 +12,16 @@
 		death="yes" 
 	}
 }
+54902 = {
+	name = "Epiktetos" # Governor of Heracleia Pontika
+	dynasty = 5055
+	culture = ionian
+	religion = hellenic_pagan
+	
+	508.1.1 = { # 322 BC, Made up
+		birth="yes"
+	}
+	578.1.1 = { # 251 BC, Made up
+		death="yes" 
+	}
+}

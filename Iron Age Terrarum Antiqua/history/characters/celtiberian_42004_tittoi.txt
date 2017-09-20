@@ -34,7 +34,22 @@
 	480.1.1 = { # 361 BC, Made up
 		birth="yes"
 	}
-	557.1.1 = { # 279 BC
+	560.1.1 = { # 279 BC
 		death="yes"
 	}
 }
+420304 = {
+	name = "Retogenes" # Made up Titti leader
+	dynasty = 42004
+	culture = celtiberian
+	religion = celtic_pagan
+	father = 420303
+	
+	540.1.1 = { # 361 BC, Made up
+		birth="yes"
+	}
+	614.1.1 = { # 279 BC
+		death="yes"
+	}
+}
+

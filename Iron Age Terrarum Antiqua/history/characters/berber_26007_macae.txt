@@ -42,3 +42,18 @@
 		death="yes"
 	}
 }
+260604 = {
+	name = "Sugotus" # Made up
+	dynasty = 26007
+	culture = berber
+	religion = berber_main
+
+	father = 260603
+
+	511.1.1 = { # 326 BC
+		birth="yes"
+	}
+	589.1.1 = { # 275 BC
+		death="yes"
+	}
+}

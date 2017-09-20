@@ -9,3 +9,7 @@
 500.1.1 = {
 	holder = 420403
 }
+553.1.1 = {
+	holder = 420404
+	liege = k_carthage
+}

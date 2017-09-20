@@ -42,3 +42,18 @@
 		death="yes"
 	}
 }
+260804 = {
+	name = "Bagaius"
+	dynasty = 26009
+	culture = berber
+	religion = berber_main
+
+	father = 260803
+
+	503.1.1 = { # 317 BC
+		birth="yes"
+	}
+	586.1.1 = { # 271 BC
+		death="yes"
+	}
+}
