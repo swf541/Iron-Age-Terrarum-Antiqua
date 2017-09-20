@@ -1,0 +1,802 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+# Castle
+castle = {
+	ca_asoiaf_slavepit_1 = {
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 160
+		build_time = 0
+		light_infantry = 1000
+		light_infantry_morale = -0.5
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	ca_asoiaf_slavepit_2 = {
+		upgrades_from = ca_asoiaf_slavepit_1
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 240
+		build_time = 0
+		light_infantry = 1500
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	ca_asoiaf_slavepit_3 = {
+		upgrades_from = ca_asoiaf_slavepit_2
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	ca_asoiaf_slavepit_4 = {
+		upgrades_from = ca_asoiaf_slavepit_3
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.15
+		tax_income = 2
+	}
+	ca_asoiaf_slavepit_5 = {
+		upgrades_from = ca_asoiaf_slavepit_4
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.15
+		tax_income = 2
+	}
+	
+	#Unsullied camps
+	ca_asoiaf_unsullied_1 = {
+		potential = {
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	ca_asoiaf_unsullied_2 = {
+		upgrades_from = ca_asoiaf_unsullied_1
+		potential = {
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	ca_asoiaf_unsullied_3 = {
+		upgrades_from = ca_asoiaf_unsullied_2
+		potential = {
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	ca_asoiaf_unsullied_4 = {
+		upgrades_from = ca_asoiaf_unsullied_3
+		potential = {
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	#Unsullied Centuries
+	ca_asoiaf_unsullied_cent_1 = {
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ca_asoiaf_unsullied_cent_2 = {
+		upgrades_from = ca_asoiaf_unsullied_cent_1
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ca_asoiaf_unsullied_cent_3 = {
+		upgrades_from = ca_asoiaf_unsullied_cent_2
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ca_asoiaf_unsullied_cent_4 = {
+		upgrades_from = ca_asoiaf_unsullied_cent_3
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ca_asoiaf_unsullied_cent_5 = {
+		upgrades_from = ca_asoiaf_unsullied_cent_4
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ca_asoiaf_unsullied_cent_6 = {
+		upgrades_from = ca_asoiaf_unsullied_cent_5
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ca_asoiaf_unsullied_cent_7 = {
+		upgrades_from = ca_asoiaf_unsullied_cent_6
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ca_asoiaf_unsullied_cent_8 = {
+		upgrades_from = ca_asoiaf_unsullied_cent_7
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ca_asoiaf_unsullied_cent_9 = {
+		upgrades_from = ca_asoiaf_unsullied_cent_8
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+}
+city = {
+	ct_asoiaf_slavepit_1 = {
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 160
+		build_time = 0
+		light_infantry = 1000
+		light_infantry_morale = -0.5
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	ct_asoiaf_slavepit_2 = {
+		upgrades_from = ct_asoiaf_slavepit_1
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 240
+		build_time = 0
+		light_infantry = 1500
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	ct_asoiaf_slavepit_3 = {
+		upgrades_from = ct_asoiaf_slavepit_2
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	ct_asoiaf_slavepit_4 = {
+		upgrades_from = ct_asoiaf_slavepit_3
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 600
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.15
+		tax_income = 2
+	}
+	ct_asoiaf_slavepit_5 = {
+		upgrades_from = ct_asoiaf_slavepit_4
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 700
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.15
+		tax_income = 2
+	}
+	
+	#Unsullied camps
+	ct_asoiaf_unsullied_1 = {
+		potential = {
+			
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	ct_asoiaf_unsullied_2 = {
+		upgrades_from = ct_asoiaf_unsullied_1
+		potential = {
+			
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	ct_asoiaf_unsullied_3 = {
+		upgrades_from = ct_asoiaf_unsullied_2
+		potential = {
+			
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	ct_asoiaf_unsullied_4 = {
+		upgrades_from = ct_asoiaf_unsullied_3
+		potential = {
+			
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	#Unsullied Centuries
+	ct_asoiaf_unsullied_cent_1 = {
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ct_asoiaf_unsullied_cent_2 = {
+		upgrades_from = ct_asoiaf_unsullied_cent_1
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ct_asoiaf_unsullied_cent_3 = {
+		upgrades_from = ct_asoiaf_unsullied_cent_2
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ct_asoiaf_unsullied_cent_4 = {
+		upgrades_from = ct_asoiaf_unsullied_cent_3
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ct_asoiaf_unsullied_cent_5 = {
+		upgrades_from = ct_asoiaf_unsullied_cent_4
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ct_asoiaf_unsullied_cent_6 = {
+		upgrades_from = ct_asoiaf_unsullied_cent_5
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ct_asoiaf_unsullied_cent_7 = {
+		upgrades_from = ct_asoiaf_unsullied_cent_6
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ct_asoiaf_unsullied_cent_8 = {
+		upgrades_from = ct_asoiaf_unsullied_cent_7
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	ct_asoiaf_unsullied_cent_9 = {
+		upgrades_from = ct_asoiaf_unsullied_cent_8
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+}
+temple = {
+	tp_asoiaf_slavepit_1 = {
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 160
+		build_time = 0
+		light_infantry = 1000
+		light_infantry_morale = -0.5
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	tp_asoiaf_slavepit_2 = {
+		upgrades_from = tp_asoiaf_slavepit_1
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 240
+		build_time = 0
+		light_infantry = 1500
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	tp_asoiaf_slavepit_3 = {
+		upgrades_from = tp_asoiaf_slavepit_2
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	tp_asoiaf_slavepit_4 = {
+		upgrades_from = tp_asoiaf_slavepit_3
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.15
+		tax_income = 2
+	}
+	tp_asoiaf_slavepit_5 = {
+		upgrades_from = tp_asoiaf_slavepit_4
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.15
+		tax_income = 2
+	}
+}
+family_palace = {
+	fp_asoiaf_slavepit_1 = {
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 160
+		build_time = 0
+		light_infantry = 1000
+		light_infantry_morale = -0.5
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	fp_asoiaf_slavepit_2 = {
+		upgrades_from = fp_asoiaf_slavepit_1
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 240
+		build_time = 0
+		light_infantry = 1500
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	fp_asoiaf_slavepit_3 = {
+		upgrades_from = fp_asoiaf_slavepit_2
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.1
+		tax_income = 2
+	}
+	fp_asoiaf_slavepit_4 = {
+		upgrades_from = fp_asoiaf_slavepit_3
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.15
+		tax_income = 2
+	}
+	fp_asoiaf_slavepit_5 = {
+		upgrades_from = fp_asoiaf_slavepit_4
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		light_infantry = 2500
+		garrison_size = -0.15
+		tax_income = 2
+	}
+	
+	#Unsullied camps
+	fp_asoiaf_unsullied_1 = {
+		potential = {
+			
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	fp_asoiaf_unsullied_2 = {
+		upgrades_from = fp_asoiaf_unsullied_1
+		potential = {
+			
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	fp_asoiaf_unsullied_3 = {
+		upgrades_from = fp_asoiaf_unsullied_2
+		potential = {
+			
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	fp_asoiaf_unsullied_4 = {
+		upgrades_from = fp_asoiaf_unsullied_3
+		potential = {
+			
+			culture = astapori
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.25
+	}
+	#Unsullied Centuries
+	fp_asoiaf_unsullied_cent_1 = {
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	fp_asoiaf_unsullied_cent_2 = {
+		upgrades_from = fp_asoiaf_unsullied_cent_1
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	fp_asoiaf_unsullied_cent_3 = {
+		upgrades_from = fp_asoiaf_unsullied_cent_2
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	fp_asoiaf_unsullied_cent_4 = {
+		upgrades_from = fp_asoiaf_unsullied_cent_3
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	fp_asoiaf_unsullied_cent_5 = {
+		upgrades_from = fp_asoiaf_unsullied_cent_4
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	fp_asoiaf_unsullied_cent_6 = {
+		upgrades_from = fp_asoiaf_unsullied_cent_5
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	fp_asoiaf_unsullied_cent_7 = {
+		upgrades_from = fp_asoiaf_unsullied_cent_6
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	fp_asoiaf_unsullied_cent_8 = {
+		upgrades_from = fp_asoiaf_unsullied_cent_7
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+	fp_asoiaf_unsullied_cent_9 = {
+		upgrades_from = fp_asoiaf_unsullied_cent_8
+		potential = {
+			culture = astapori
+					
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 0
+		build_time = 0
+		tax_income = -0.025
+	}
+}
+# Nomad
+nomad = {
+	no_asoiaf_slavepit_1 = {
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 160
+		build_time = 0
+		#light_infantry = 1000
+		#light_infantry_morale = -0.5
+		tax_income = 2
+	}
+	no_asoiaf_slavepit_2 = {
+		upgrades_from = no_asoiaf_slavepit_1
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 240
+		build_time = 0
+		#light_infantry = 1500
+		tax_income = 2
+	}
+	no_asoiaf_slavepit_3 = {
+		upgrades_from = no_asoiaf_slavepit_2
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		#light_infantry = 2500
+		tax_income = 2
+	}
+	no_asoiaf_slavepit_4 = {
+		upgrades_from = no_asoiaf_slavepit_3
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		#light_infantry = 2500
+		tax_income = 2
+	}
+	no_asoiaf_slavepit_5 = {
+		upgrades_from = no_asoiaf_slavepit_4
+		potential = {
+			#FROM = { NOT = { trait = liberator } }
+		}
+		trigger = { always = no }
+		ai_creation_factor = 0
+		gold_cost = 400
+		build_time = 0
+		#light_infantry = 2500
+		tax_income = 2
+	}
+}

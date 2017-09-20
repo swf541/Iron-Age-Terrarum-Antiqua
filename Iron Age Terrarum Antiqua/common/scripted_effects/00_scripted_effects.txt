@@ -13164,3 +13164,270 @@ calculate_health_level_of_all_ingredients_effect = {
 		}
     }
 }
+slave_raid_gain_slaves_effect = { #Use in location scope, ROOT is raider/attacker
+	custom_tooltip = { # Give the attacker new slaves
+		text = TOOLTIPslave_raid_new_slaves
+		hidden_tooltip = {
+			save_event_target_as = slave_raid_province
+			ROOT = { character_event = { id = slavery.780 days = 1 } }
+		}	
+	}
+}
+enslave_effect = { #must set enslaver event target
+	add_trait = slave	
+	hidden_tooltip = {
+		any_spouse = {
+			limit = { opinion = { who = event_target:enslaver value = -25 } }
+			opinion = { who = event_target:enslaver modifier = opinion_enslaved_close_relative }
+		}
+		any_spouse = {
+			opinion = { who = event_target:enslaver modifier = opinion_my_abducted_spouse years = 100 }
+		}
+		prisoner = no
+		any_spouse = { remove_spouse = PREV }	
+		any_consort = { remove_consort = PREV }	
+		clr_character_flag = escaped_slave
+		if = {
+			limit = { has_guardian = yes }
+			remove_guardian = yes
+		}
+		remove_trait = former_slave
+		remove_trait = kingsguard
+		remove_trait = nightswatch
+		if = {
+			limit = { trait = archmaester }
+			remove_trait = archmaester
+			add_trait = maester
+			set_special_character_title = title_maester
+			clr_character_flag = grandmaester
+		}
+		clr_character_flag = triarch
+		clr_character_flag = title_freeholder
+		remove_title = title_freeholder
+		diplomatic_immunity = no
+		#give_minor_title = title_slave
+		clr_character_flag = captured_in_battle
+		clr_character_flag = kidnapped_by_plot
+		clr_character_flag = lost_trial_by_combat
+		clr_character_flag = imprisoned_for_relatives_crimes
+		move_character = event_target:enslaver
+		opinion = { who = event_target:enslaver modifier = opinion_my_owner }
+		reverse_opinion = { who = event_target:enslaver modifier = opinion_my_slave }
+		event_target:enslaver = { add_trait = slave_owner }
+		character_event = { id = slavery.259	days = 1 } #slave management		
+	}
+}
+spawn_slave_army_effect = {
+	spawn_unit = {
+		province = ROOT
+		home = ROOT
+		owner = THIS
+		#leader = THIS
+		scaled_by_biggest_garrison = 0.15
+		troops = { light_infantry = { 1 1 } }
+		attrition = 1.0
+	}
+	create_random_soldier = {
+		random_traits = yes
+		dynasty = none
+		religion = ROOT
+		culture = random
+		female = no
+		trait = liberator
+		trait = former_slave
+	}
+	new_character = {
+		random_list = {
+			10 = { add_trait = skilled_warrior }
+			30 = { add_trait = trained_warrior }
+			60 = { add_trait = poor_warrior }
+		}
+		set_character_flag = escaped_slave
+		spawn_unit = {
+			province = ROOT
+			home = ROOT
+			owner = PREV
+			#leader = THIS
+			scaled_by_biggest_garrison = 0.06
+			troops = { light_infantry = { 1 1 } }
+			attrition = 1.0
+		}
+		if = { #Invalid Kingslander
+			limit = {
+				226 = { NOT = { has_province_flag = kings_landing_established } }
+				culture = crownlander
+			}
+			culture = riverlander
+		}
+	}
+	create_random_soldier = {
+		random_traits = yes
+		dynasty = none
+		religion = ROOT
+		culture = random
+		female = no
+		trait = liberator
+		trait = former_slave
+	}
+	new_character = {
+		random_list = {
+			10 = { add_trait = skilled_warrior }
+			30 = { add_trait = trained_warrior }
+			60 = { add_trait = poor_warrior }
+		}
+		set_character_flag = escaped_slave
+		spawn_unit = {
+			province = ROOT
+			home = ROOT
+			owner = PREV
+			#leader = THIS
+			scaled_by_biggest_garrison = 0.06
+			troops = { light_infantry = { 1 1 } }
+			attrition = 1.0
+		}
+		if = { #Invalid Kingslander
+			limit = {
+				226 = { NOT = { has_province_flag = kings_landing_established } }
+				culture = crownlander
+			}
+			culture = riverlander
+		}
+	}
+	if = {
+		limit = { trait = dragon_rider }
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = none
+			religion = ROOT
+			culture = random
+			female = no
+			trait = liberator
+			trait = former_slave
+		}
+		new_character = {
+			random_list = {
+				10 = { add_trait = skilled_warrior }
+				30 = { add_trait = trained_warrior }
+				60 = { add_trait = poor_warrior }
+			}
+			set_character_flag = escaped_slave
+			spawn_unit = {
+				province = ROOT
+				home = ROOT
+				owner = PREV
+				#leader = THIS
+				scaled_by_biggest_garrison = 0.15
+				troops = { light_infantry = { 1 1 } }
+				attrition = 1.0
+			}
+			if = { #Invalid Kingslander
+				limit = {
+					226 = { NOT = { has_province_flag = kings_landing_established } }
+					culture = crownlander
+				}
+				culture = riverlander
+			}
+		}
+	}
+}
+spawn_slave_reinforcements_effect = {
+	create_random_soldier = {
+		random_traits = yes
+		dynasty = none
+		religion = FROM
+		culture = random
+		female = no
+		trait = liberator
+		trait = former_slave
+	}
+	new_character = {
+		spawn_unit = {
+			province = FROM
+			home = FROM
+			owner = ROOT
+			#leader = THIS
+			scaled_by_biggest_garrison = 0.1
+			troops = { light_infantry = { 1 1 } }
+			attrition = 1.0
+		}
+		random_list = {
+			25 = { add_trait = poor_warrior }
+			55 = { add_trait = trained_warrior }
+			10 = { add_trait = skilled_warrior }
+		}
+		set_character_flag = escaped_slave
+		if = { #Invalid Kingslander
+			limit = {
+				226 = { NOT = { has_province_flag = kings_landing_established } }
+				culture = crownlander
+			}
+			culture = riverlander
+		}
+	}
+	create_character = {
+		random_traits = yes
+		dynasty = none
+		religion = FROM
+		culture = random
+		female = no
+		trait = liberator
+		trait = former_slave
+	}
+	new_character = {
+		spawn_unit = {
+			province = FROM
+			home = FROM
+			owner = ROOT
+			#leader = THIS
+			scaled_by_biggest_garrison = 0.1
+			troops = { light_infantry = { 1 1 } }
+			attrition = 1.0
+		}
+		set_character_flag = escaped_slave
+		random_list = {
+			25 = { add_trait = poor_warrior }
+			55 = { add_trait = trained_warrior }
+			10 = { add_trait = skilled_warrior }
+		}
+		if = { #Invalid Kingslander
+			limit = {
+				226 = { NOT = { has_province_flag = kings_landing_established } }
+				culture = crownlander
+			}
+			culture = riverlander
+		}
+	}
+	create_character = {
+		random_traits = yes
+		dynasty = none
+		religion = FROM
+		culture = random
+		female = no
+		trait = liberator
+		trait = former_slave
+	}
+	new_character = {
+		spawn_unit = {
+			province = FROM
+			home = FROM
+			owner = ROOT
+			#leader = THIS
+			scaled_by_biggest_garrison = 0.1
+			troops = { light_infantry = { 1 1 } }
+			attrition = 1.0
+		}
+		set_character_flag = escaped_slave
+		random_list = {
+			25 = { add_trait = poor_warrior }
+			55 = { add_trait = trained_warrior }
+			10 = { add_trait = skilled_warrior }
+		}
+		if = { #Invalid Kingslander
+			limit = {
+				226 = { NOT = { has_province_flag = kings_landing_established } }
+				culture = crownlander
+			}
+			culture = riverlander
+		}
+	}
+}

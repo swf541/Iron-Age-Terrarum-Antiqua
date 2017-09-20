@@ -35,6 +35,15 @@
 #has_injury_trigger					Has an injury trait.
 #is_maimed_trigger					Has a maimed trait
 #has_severe_disability_trigger		Has a severe disability, which makes the characters life really hard.
+
+# ###Slavery
+
+# has_slavery_religion_trigger
+# has_slavery_culture_trigger
+# has_antislavery_religion_trigger
+# has_antislavery_culture_trigger
+# has_full_slavery_trigger
+# can_buy_courtier_slaves_trigger
 #has_medium_disability_trigger		Has a medium disability, which limits the character to some extent but they can mostly live a full life.
 #has_minor_disability_trigger		Has a minor disability, which does not limit the character in a physical sense, but is a source of ridicule and trauma.
 #has_disability_trigger				Has a severe or light disability.

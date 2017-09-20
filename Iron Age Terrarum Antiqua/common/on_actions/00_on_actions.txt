@@ -23,6 +23,18 @@ on_yearly_pulse = {
 		ROMEREP.1
 		ROMEREP.2
 	}
+#Slavery
+		slavery.12 #Character owns slaves but does not have slave owner trait
+		slavery.13 #Character who owns no slaves has slave owner trait
+		slavery.15 # Bookkeeping - Slave Traders
+		slavery.20 # Dealing with out-of-place slaves
+		slavery.299 #AI slavery action even
+		slavery.1010 # Slave pit in a non-capital holding!
+		slavery.259 #Yearly AI slave management
+		slavery.701 #unsullied training finished
+		slavery.308 #Slave breeding impregnation chance
+		slavery.3000 # A character becomes a liberator
+		slavery.2500 #force the AI to consider using slave raids
 
 	
 	random_events = {
