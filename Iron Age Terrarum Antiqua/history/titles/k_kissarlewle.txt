@@ -5,3 +5,6 @@
 453.1.1 = { # 323 BC
 	holder = 340201 # Idanthyrsus
 }
+515.1.1 = {
+	holder = 340203
+}

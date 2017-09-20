@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+340203 = {
+	name = "Sariakos" # Made up
+	dynasty = 34003 # Maiotai
+	religion = ossetian_pagan
+	culture = sarmatian
+	father = 340202
+	497.1.1 = { # 346 BC
+		birth="yes"
+	}
+	582.1.1 = { # 261 BC
+		death="yes"
+	}
+}

@@ -66,3 +66,17 @@
 		death="yes"
 	}
 }
+330606 = {
+	name = "Spalirises" # Made up
+	dynasty = 33007 # Tauroi
+	religion = ossetian_pagan
+	culture = scythian
+	father = 330601
+	522.1.1 = { # 341 BC
+		birth="yes"
+	}
+	#start in 553
+	606.1.1 = { # 278 BC
+		death="yes"
+	}
+}

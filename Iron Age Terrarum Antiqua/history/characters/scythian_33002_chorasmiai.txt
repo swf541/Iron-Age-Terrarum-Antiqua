@@ -50,3 +50,16 @@
 		death="yes"
 	}
 }
+3306025 = {
+	name = "Pharsman" # King of Chorasmia
+	dynasty = 33002 # Chorasmiai
+	religion = zoroastrian
+	culture = chorasmian
+	father = 3306024
+	525.1.1 = { # 340 BC Made up
+		birth="yes"
+	}
+	607.1.1 = { # 271 BC Made up
+		death="yes"
+	}
+}

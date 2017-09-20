@@ -37,3 +37,17 @@
 		death="yes"
 	}
 }
+330404 = {
+	name = "Ailios" # Made up
+	dynasty = 33005 # Apasiakai
+	religion = ossetian_pagan
+	culture = scythian
+	father = 330401
+	502.1.1 = { # 352 BC
+		birth="yes"
+	}
+	#522 inheiritance
+	583.1.1 = { # 269 BC
+		death="yes"
+	}
+}

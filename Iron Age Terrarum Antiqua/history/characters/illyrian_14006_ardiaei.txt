@@ -1,6 +1,6 @@
 # 140501-140600 for the Ardiaei dynasty
 140501 = {
-	name = "Galaurus" # Ardiaei leader, Made up
+	name = "Pleuratus" # Ardiaei leader, Quasi Made Up
 	dynasty = 14006 # Ardiaei
 	religion = illyrian_main
 	culture = illyrian
@@ -13,7 +13,7 @@
 	}
 }
 140502 = {
-	name = "Verzi" # Ardiaei Made up
+	name = "Pleuratus" # Ardiaei Historical
 	dynasty = 14006 # Ardiaei
 	religion = illyrian_main
 	culture = illyrian
@@ -21,7 +21,7 @@
 	442.1.1 = { # 334 BC
 		birth="yes"
 	}
-	525.1.1 = { # 251 BC
+	526.1.1 = { # 251 BC
 		death="yes"
 	}
 }
@@ -34,6 +34,19 @@
 		birth="yes"
 	}
 	439.1.1 = { # 337 BC
+		death="yes"
+	}
+}
+140504 = {
+	name = "Scerdilaidas" # Ardiaei Historical
+	dynasty = 14006 # Ardiaei
+	religion = illyrian_main
+	culture = illyrian
+	530.1.1 = { # 334 BC
+		birth="yes"
+	}
+	#558 Roman Client King
+	570.1.1 = { # 251 BC
 		death="yes"
 	}
 }

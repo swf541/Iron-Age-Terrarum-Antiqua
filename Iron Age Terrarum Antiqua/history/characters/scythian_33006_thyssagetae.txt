@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+330504 = {
+	name = "Azes" # Made up
+	dynasty = 33006 # Thyssagetai
+	religion = ossetian_pagan
+	culture = scythian
+	father = 330501
+	499.1.1 = { # 328 BC
+		birth="yes"
+	}
+	579.1.1 = { # 260 BC
+		death="yes"
+	}
+}
