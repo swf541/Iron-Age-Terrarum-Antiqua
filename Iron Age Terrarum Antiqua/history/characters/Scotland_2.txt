@@ -1,0 +1,93 @@
+1231165={
+	name=Máenach
+	dynasty=223028
+	dna="obfobmpkedl"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=8 
+	learning=6
+	trait=misguided_warrior 
+	trait=gregarious 
+	trait=wroth 
+	trait=craven 
+	trait=trusting 
+	400.11.17={ birth=yes }
+	421.1.1={ add_spouse=1231217 }
+	467.10.16={ death=yes }
+}
+1231166={
+	name=Ualan
+	dynasty=223028
+	dna="jldnopppldl"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=zealous 
+	trait=proud 
+	trait=chaste 
+	trait=diligent 
+	father=1231165	#Máenach
+	mother=1231217	#Sébdann
+	423.7.11={ birth=yes }
+	491.8.11={ death=yes }
+}
+1231167={
+	name=Sébdann
+	female=yes
+	dynasty=223028
+	dna="lbjopojbede"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231165	#Máenach
+	mother=1231217	#Sébdann
+	427.3.23={ birth=yes }
+	497.5.2={ death=yes }
+}
+1231168={
+	name=Echmarcach
+	dynasty=223028
+	dna="obfjmepgocc"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=indulgent_wastrel 
+	trait=diligent 
+	trait=trusting 
+	trait=lustful 
+	father=1231165	#Máenach
+	mother=1231217	#Sébdann
+	431.3.23={ birth=yes }
+	504.6.8={ death=yes }
+}
+1231169={
+	name=Gormflaith
+	female=yes
+	dynasty=223028
+	dna="ojhpbaokebi"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231165	#Máenach
+	mother=1231217	#Sébdann
+	433.9.12={ birth=yes }
+	491.8.5={ death=yes }
+}
+1231217={
+	name=Sébdann
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	400.1.1={ birth=yes }
+	467.1.1={ death=yes }
+}

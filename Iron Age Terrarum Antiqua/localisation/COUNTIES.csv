@@ -2171,7 +2171,7 @@ PROV1428;Burdigala;;;;;;;;;;;;;x
 PROV1429;Lapurdum;;;;;;;;;;;;;x
 PROV1430;Boii;;;;;;;;;;;;;x
 PROV1431;Cossium;;;;;;;;;;;;;x
-PROV1432;Iluro;x
+PROV1432;Iluro;;;;;;;;;;;x
 PROV1433;Lugdunum Convenarum;;;;;;;;;;;;;x
 PROV1434;Elusa;;;;;;;;;;;;;x
 PROV1435;Atura;;;;;;;;;;;;;x
@@ -2232,7 +2232,7 @@ PROV1489;Labrocinum;;;;;;;;;;;;;;;;x
 PROV1490;Dourdan;;;;;;;;;;;;;;;;x
 PROV1491;Metlosedum;;;;;;;;;;;;;;;;x
 PROV1492;Nemetacum;;;;;;;;;;;;;;;;x
-PROV1493;;Viromandurorum;;;;;;;;;;;;;;;;x
+PROV1493;Viromandurorum;;;;;;;;;;;;;;;;x
 PROV1494;Bagacum;;;;;;;;;;;;;;;;x
 PROV1495;Atuatuca;;;;;;;;;;;;;;;;x
 PROV1496;Nervii;;;;;;;;;;;;;;;;x
