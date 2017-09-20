@@ -64,10 +64,10 @@
 	add_trait = ambitious
 	add_trait = greedy
 	
-	470.1.1 = { # Made up
+	481.1.1 = { # Made up
 		birth="yes" # 
 	}
-	555.1.1 = { # Made up
+	577.1.1 = { # Made up
 		death="yes" 
 	}
 }
