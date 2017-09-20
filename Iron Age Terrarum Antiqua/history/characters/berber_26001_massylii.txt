@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+260004 = { 
+	name = "Masinissa" # Massylii king, Made up
+	dynasty = 26001 # Massylii
+	religion = berber_main
+	culture = berber
+	father = 260003
+	538.1.1 = { # 364 BC Made up
+		birth="yes"
+	}
+	628.1.1 = { # 274 BC
+		death="yes"
+	}
+}

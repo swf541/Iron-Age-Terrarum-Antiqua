@@ -46,7 +46,20 @@
 	488.1.1 = { # 332 BC
 		birth="yes"
 	}
-	561.1.1 = { # 276 BC
+	558.1.1 = { # 276 BC
+		death="yes"
+	}
+}
+260105 = {
+	name = "Syphax" # Masaesyli, Historical
+	dynasty = 26002 # Masaesyli
+	religion = berber_main
+	culture = berber
+	father = 260104
+	540.1.1 = { # 332 BC
+		birth="yes"
+	}
+	573.1.1 = { # 276 BC
 		death="yes"
 	}
 }
