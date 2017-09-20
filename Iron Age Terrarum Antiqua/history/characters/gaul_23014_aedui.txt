@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+231204 = {
+	name = "Intudiomaros" # Aedui Made up
+	dynasty = 23014 # Aedui
+	culture = gaul
+	religion = celtic_pagan
+	father = 231202
+	502.1.1 = { # 328 BC
+		birth="yes"
+	}
+	574.1.1 = { # 265 BC
+		death="yes"
+	}
+}

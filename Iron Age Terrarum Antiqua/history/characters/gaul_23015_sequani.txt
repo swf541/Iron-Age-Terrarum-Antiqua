@@ -50,3 +50,16 @@
 		death="yes" # 338 BC
 	}
 }
+231305 = {
+	name = "Eporedix" # Sequani Made up
+	dynasty = 23015 # Sequani
+	culture = gaul
+	religion = celtic_pagan
+	father = 231302
+	522.1.1 = { # 312 BC
+		birth="yes"
+	}
+	589.1.1 = { # 236 BC
+		death="yes"
+	}
+}

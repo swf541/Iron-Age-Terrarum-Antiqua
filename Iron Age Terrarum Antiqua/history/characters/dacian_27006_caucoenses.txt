@@ -31,7 +31,19 @@
 	428.1.1 = { # Made up
 		birth="yes" # 348 BC
 	}
-	513.1.1 = { # Made up
+	518.1.1 = { # Made up
+		death="yes" # 263 BC
+	}
+}
+270504 = {
+	name = "Rigozus" # Made up
+	dynasty = 27006
+	culture = dacian
+	religion = zalmoxism
+	500.1.1 = { # Made up
+		birth="yes" # 348 BC
+	}
+	577.1.1 = { # Made up
 		death="yes" # 263 BC
 	}
 }

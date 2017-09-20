@@ -49,3 +49,15 @@
 		death="yes" # 342 BC Made Up
 	}
 }
+270405 = {
+	name = "Scorylo" # Made up
+	dynasty = 27005
+	culture = dacian
+	religion = zalmoxism
+	507.1.1 = { # Made up
+		birth="yes" # 312 BC
+	}
+	588.1.1 = { # Made up
+		death="yes" # 250 BC
+	}
+}

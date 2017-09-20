@@ -11,3 +11,6 @@
 480.1.1 = { # 296 BC Made up
 	holder = 320302 # Rav'el
 }
+535.1.1 = {
+	holder = 320305
+}

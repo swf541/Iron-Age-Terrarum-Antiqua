@@ -24,3 +24,16 @@
 		death="yes" # 259 BC
 	}
 }
+52103 = {
+	name = "Theodoulos" # Ruler of Trapezous
+	dynasty = 5027
+	religion = hellenic_pagan
+	culture = ionian
+	father = 52102
+	500.1.1 = { # Made up
+		birth="yes" # 344 BC
+	}
+	587.1.1 = { # Made up
+		death="yes" # 259 BC
+	}
+}

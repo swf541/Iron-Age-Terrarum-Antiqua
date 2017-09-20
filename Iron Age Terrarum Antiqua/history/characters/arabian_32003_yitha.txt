@@ -101,3 +101,16 @@
 		death="yes" # 273 BC, Made up
 	}
 }
+320209 = {
+	name = "Ilyafa" # Ma'in
+	dynasty = 32003
+	culture = arabic
+	religion = arabic_main
+	father = 320203
+	518.1.1 = {
+		birth="yes" # 300 BC Made up
+	}
+	593.1.1 = {
+		death="yes" # 241 BC Made up
+	}
+}

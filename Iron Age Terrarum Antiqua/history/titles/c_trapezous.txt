@@ -15,3 +15,6 @@
 466.1.1 = { # 310 BC
 	holder = 52102 # Hippokrates, Made up
 }
+517.1.1 = {
+	holder = 52103
+}

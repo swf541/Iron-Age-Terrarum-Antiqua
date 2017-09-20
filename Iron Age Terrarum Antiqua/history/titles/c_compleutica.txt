@@ -6,3 +6,6 @@
 	holder = 421602 # Belsu
 	liege = d_astures
 }
+524.1.1 = {
+	holder = 421603
+}

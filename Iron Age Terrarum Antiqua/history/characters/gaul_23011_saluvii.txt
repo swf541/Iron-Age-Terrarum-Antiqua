@@ -50,3 +50,16 @@
 		death="yes" # 341 BC
 	}
 }
+230905 = {
+	name = "Galba" # Saluvii Made up
+	dynasty = 23011 # Saluvii
+	culture = gaul
+	religion = celtic_pagan
+	father = 230902
+	504.1.1 = { # 342 BC
+		birth="yes"
+	}
+	579.1.1 = { # 280 BC
+		death="yes"
+	}
+}

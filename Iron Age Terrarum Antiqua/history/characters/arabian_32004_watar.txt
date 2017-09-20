@@ -50,3 +50,16 @@
 		death="yes"
 	}
 }
+320305 = {
+	name = "Ausos" # Saba, Made up
+	dynasty = 32004
+	culture = arabic
+	religion = arabic_main
+	father = 320302
+	519.1.1 = {
+		birth="yes" # 311 BC
+	}
+	602.1.1 = {
+		death="yes" # 241 BC
+	}
+}

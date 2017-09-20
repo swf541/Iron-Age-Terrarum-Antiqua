@@ -44,3 +44,18 @@
 		death="yes"
 	}
 }
+390004 = {
+	name = "Baisebilos" # Made up Indiketes leader
+	dynasty = 39001
+	culture = iberian
+	religion = iberian_main
+	
+	father = 390002
+	
+	511.1.1 = { # 327 BC, Made up
+		birth="yes"
+	}
+	589.1.1 = { # 273 BC
+		death="yes"
+	}
+}

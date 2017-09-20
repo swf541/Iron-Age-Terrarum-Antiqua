@@ -206,3 +206,16 @@
 		death="yes" # 270 BC
 	}
 }
+290020 = {
+	name = "Arnekhamani" # King of Kush, ?? - ?? BC
+	dynasty = 29001 # Napatan dynasty
+	culture = nubian
+	religion = egyptian_pagan
+	#father = 290019
+	530.1.1 = { # Made up
+		birth="yes" # 311 BC
+	}
+	605.1.1 = {
+		death="yes" # 270 BC
+	}
+}

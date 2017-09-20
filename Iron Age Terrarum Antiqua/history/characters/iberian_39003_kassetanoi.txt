@@ -60,3 +60,18 @@
 		death="yes"
 	}
 }
+390205 = {
+	name = "Sinebetin" # Made up Cassetani leader
+	dynasty = 39003
+	culture = iberian
+	religion = iberian_main
+	
+	father = 390204
+	
+	511.1.1 = { # 316 BC, Made up
+		birth="yes"
+	}
+	593.1.1 = { # 249 BC
+		death="yes"
+	}
+}

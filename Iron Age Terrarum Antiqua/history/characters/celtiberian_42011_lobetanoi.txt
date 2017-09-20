@@ -60,3 +60,18 @@
 		death="yes"
 	}
 }
+421005 = {
+	name = "Adingibas" # Made up Lobetani leader
+	dynasty = 42011
+	culture = celtiberian
+	religion = celtic_pagan
+	
+	father = 421004
+	
+	512.1.1 = { # 301 BC, Made up
+		birth="yes"
+	}
+	584.1.1 = { # 246 BC
+		death="yes"
+	}
+}

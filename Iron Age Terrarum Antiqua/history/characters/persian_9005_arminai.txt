@@ -20,7 +20,21 @@
 	477.1.1 = { # Made up
 		birth="yes" # 353 BC
 	}
-	555.1.1 = { # Made up
+	557.1.1 = { # Made up
+		death="yes" # 271 BC
+	}
+}
+
+90403 = {
+	name = "Martiya" # Ruler of Chorsabia, Made up
+	dynasty = 9005 # Arminai
+	religion = zoroastrian
+	culture = persian
+	father = 90402
+	538.1.1 = { # Made up
+		birth="yes" # 353 BC
+	}
+	612.1.1 = { # Made up
 		death="yes" # 271 BC
 	}
 }

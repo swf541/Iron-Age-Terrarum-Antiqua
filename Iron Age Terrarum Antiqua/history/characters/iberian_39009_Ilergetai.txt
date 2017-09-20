@@ -44,3 +44,18 @@
 		death="yes"
 	}
 }
+390804 = {
+	name = "Korbis" # Made up Ilergetae leader
+	dynasty = 39009
+	culture = iberian
+	religion = iberian_main
+	
+	father = 390803
+	
+	510.1.1 = { # 321 BC, Made up
+		birth="yes"
+	}
+	586.1.1 = { # 250 BC
+		death="yes"
+	}
+}

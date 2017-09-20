@@ -25,3 +25,16 @@
 		death="yes"
 	}
 }
+421503 = {
+	name = "Tureno" 
+	dynasty = 42016
+	culture = celtiberian
+	religion = celtic_pagan
+	
+	505.1.1 = { 
+		birth="yes"
+	}
+	570.1.1 = {
+		death="yes"
+	}
+}

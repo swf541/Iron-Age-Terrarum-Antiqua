@@ -50,3 +50,30 @@
 		death="yes"
 	}
 }
+320405 = {
+	name = "Amat" # Qataban, Made up
+	dynasty = 32005 # Timnaam
+	culture = arabic
+	religion = arabic_main
+	father = 320402
+	500.1.1 = {
+		birth="yes" # 305 BC Made up
+	}
+	#517
+	575.1.1 = {
+		death="yes" # 259 BC Made up
+	}
+}
+320406 = {
+	name = "Amat" # Qataban, Made up
+	dynasty = 32005 # Timnaam
+	culture = arabic
+	religion = arabic_main
+	father = 320405
+	550.1.1 = {
+		birth="yes" # 305 BC Made up
+	}
+	633.1.1 = {
+		death="yes" # 259 BC Made up
+	}
+}

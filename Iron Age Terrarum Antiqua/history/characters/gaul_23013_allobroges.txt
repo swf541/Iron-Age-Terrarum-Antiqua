@@ -35,5 +35,20 @@
 	}
 	436.1.1 = { # Made up
 		death="yes" # 340 BC
+
+	}
+}
+231104 = {
+	name = "Cavarus" # Allobroges Made up
+	dynasty = 23013 # Allobroges
+	culture = gaul
+	religion = celtic_pagan
+	father = 231102
+	498.1.1 = { # 343 BC
+		birth="yes"
+	}
+	#515
+	577.1.1 = { # 261 BC
+		death="yes"
 	}
 }

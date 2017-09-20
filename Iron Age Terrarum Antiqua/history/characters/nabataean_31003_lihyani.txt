@@ -50,3 +50,29 @@
 		death="yes"
 	}
 }
+310205 = {
+	name = "Hinas" # Lihyan, Made up
+	dynasty = 31003 # Lihyani
+	religion = arabic_main
+	culture = nabataean
+	father = 310203 # Shahr
+	520.1.1 = {
+		birth="yes" # 276 BC Made up
+	}
+	577.1.1 = {
+		death="yes" # 239 BC Made up
+	}
+}
+310206 = {
+	name = "Hana" # Lihyan, Made up
+	dynasty = 31003 # Lihyani
+	religion = arabic_main
+	culture = nabataean
+	father = 310205 # Shahr
+	560.1.1 = {
+		birth="yes" # 276 BC Made up
+	}
+	633.1.1 = {
+		death="yes" # 239 BC Made up
+	}
+}

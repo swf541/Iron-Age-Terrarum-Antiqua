@@ -38,3 +38,16 @@
 		death="yes" # 250 BC Made up
 	}
 }
+320004 = {
+	name = "Abd-Dushara" # Alouare, Made up
+	dynasty = 32001
+	culture = arabic
+	religion = arabic_main
+	mother = 320003
+	510.1.1 = {
+		birth="yes" # 304 BC Made up
+	}
+	587.1.1 = {
+		death="yes" # 250 BC Made up
+	}
+}

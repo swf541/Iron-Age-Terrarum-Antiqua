@@ -44,7 +44,19 @@
 	482.1.1 = { # Made up
 		birth="yes" # 350 BC
 	}
-	557.1.1 = { # Made up
+	560.1.1 = { # Made up
+		death="yes" # 279 BC
+	}
+}
+270805 = {
+	name = "Pieporus" # Made up
+	dynasty = 27009 # Capri
+	culture = dacian
+	religion = zalmoxism
+	534.1.1 = { # Made up
+		birth="yes" # 350 BC
+	}
+	610.1.1 = { # Made up
 		death="yes" # 279 BC
 	}
 }

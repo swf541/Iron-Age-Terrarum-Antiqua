@@ -6,3 +6,6 @@
 	holder = 421502 # Sleitiu
 	liege = d_astures
 }
+524.1.1 = {
+	holder = 421503
+}

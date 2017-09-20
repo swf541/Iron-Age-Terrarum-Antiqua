@@ -6,3 +6,6 @@
 	holder = 421402 # Touto
 	liege = d_cantabri
 }
+524.1.1 = {
+	holder = 421403
+}
