@@ -93,3 +93,18 @@
 		death="yes"
 	}
 }
+140007 = {
+	name = "Longarus" # Monunius I, King of Dardania
+	dynasty = 14001 # Dardani
+	religion = illyrian_main
+	culture = illyrian
+	father = 140006
+	
+	520.1.1 = { # 302 BC
+		birth="yes"
+	}
+	575.1.1 = { # 270 BC
+		death="yes"
+	}
+}
+

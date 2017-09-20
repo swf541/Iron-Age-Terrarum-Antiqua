@@ -63,3 +63,16 @@
 		death="yes"
 	}
 }
+260206 = {
+	name = "Capussa" # Mauri king, Made up
+	dynasty = 26003 # Mauri
+	religion = berber_main
+	culture = berber
+	father = 260205
+	540.1.1 = { # 315 BC
+		birth="yes"
+	}
+	604.1.1 = { # 252 BC
+		death="yes"
+	}
+}
