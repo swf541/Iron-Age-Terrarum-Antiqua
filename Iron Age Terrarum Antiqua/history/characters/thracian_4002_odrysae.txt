@@ -446,3 +446,16 @@
 		death="yes" # 260 BC
 	}
 }
+40133 = {
+	name = "Rhescuporis" # Rhescuporis  Takes throne in 536
+	dynasty = 4002 # Odrysae
+	religion = thracian_main
+	culture = thracian
+	father = 40127 # Cotys III
+	510.1.1 = { # Made up
+		birth="yes" # 291 BC
+	}
+	561.1.1 = { # Made up
+		death="yes" # 238 BC
+	}
+}

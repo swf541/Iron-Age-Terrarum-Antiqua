@@ -26,3 +26,6 @@
 	holder = 23503
 	liege = d_achaea
 }
+507.1.1 = {
+	holder = 23504
+}

@@ -37,3 +37,16 @@
 		death="yes" # 268 BC
 	}
 }
+23504 = {
+	name = "Agapios" # Ruler of Argolis, Made up
+	dynasty = 2036 # Argolidai
+	religion = hellenic_pagan
+	culture = doric
+	father = 235013
+	500.1.1 = {
+		birth="yes" # 329 BC
+	}
+	573.1.1 = {
+		death="yes" # 268 BC
+	}
+}

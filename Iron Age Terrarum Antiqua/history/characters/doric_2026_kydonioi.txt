@@ -46,7 +46,20 @@
 	477.1.1 = { # Made up
 		birth="yes" # 347 BC
 	}
-	552.1.1 = { # Made up
+	559.1.1 = { # Made up
+		death="yes" # 275 BC
+	}
+}
+22505 = {
+	name = "Archelaos" # Ruler of Kydonia, Made up
+	dynasty = 2026 # Kydonioi
+	religion = hellenic_pagan
+	culture = doric
+	father = 22504
+	540.1.1 = { # Made up
+		birth="yes" # 347 BC
+	}
+	622.1.1 = { # Made up
 		death="yes" # 275 BC
 	}
 }

@@ -40,3 +40,16 @@
 		death="yes" # 262 BC
 	}
 }
+53504 = {
+	name = "Euboulos" # Made up
+	dynasty = 5041 # Euboulidai
+	religion = hellenic_pagan
+	culture = ionian
+	father = 53503
+	510.1.1 = {
+		birth="yes" # 336 BC
+	}
+	597.1.1 = {
+		death="yes" # 262 BC
+	}
+}

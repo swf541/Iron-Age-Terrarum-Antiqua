@@ -37,3 +37,16 @@
 		death="yes" # 274 BC
 	}
 }
+23204 = {
+	name = "Pelagios" # Ruler of Acarnania, Made up
+	dynasty = 2033 # Akarnioi
+	religion = hellenic_pagan
+	culture = doric
+	father = 23202
+	502.1.1 = { # Made up
+		birth="yes" # 337 BC
+	}
+	591.1.1 = { # Made up
+		death="yes" # 274 BC
+	}
+}

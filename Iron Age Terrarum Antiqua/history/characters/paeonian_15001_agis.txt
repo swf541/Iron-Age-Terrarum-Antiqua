@@ -76,3 +76,17 @@
 		death="yes" 
 	}
 }
+150007
+	name = "Dropion"
+	dynasty = 15001 # Agis
+	religion = illyrian_main
+	culture = paeonian
+	father = 150006
+	510.1.1 = { # Made up
+		birth="yes" # 314 BC
+	}
+	559.1.1 = {
+		death="yes" 
+	}
+}
+

@@ -27,7 +27,9 @@
 	holder = 20006
 	liege = k_sparta
 }
-
+557.1.1 = {
+	holder = 20040
+}
 186.1.1 = { # 590 BC
 	holder = 20007
 	liege = k_sparta

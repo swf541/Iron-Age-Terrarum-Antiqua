@@ -37,3 +37,16 @@
 		death="yes" # 262 BC
 	}
 }
+23704 = {
+	name = "Hilarion" # Made up, ruler of Elis
+	dynasty = 2038 # Elidai
+	religion = hellenic_pagan
+	culture = doric
+	father = 23703
+	510.1.1 = {
+		birth="yes" # 331 BC
+	}
+	583.1.1 = {
+		death="yes" # 262 BC
+	}
+}

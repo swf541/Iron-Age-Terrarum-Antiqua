@@ -50,3 +50,16 @@
 		death="yes" # 255 BC
 	}
 }
+23305 = {
+	name = "Epiktetos" # Ruler of Cephalonia, Made up
+	dynasty = 2034 # Kephallenioi
+	religion = hellenic_pagan
+	culture = doric
+	father = 23304
+	500.1.1 = { 
+		birth="yes" # 319 BC
+	}
+	573.1.1 = {
+		death="yes" # 255 BC
+	}
+}

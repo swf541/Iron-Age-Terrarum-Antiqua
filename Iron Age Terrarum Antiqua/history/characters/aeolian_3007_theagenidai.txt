@@ -50,3 +50,16 @@
 		death="yes" # 273 BC
 	}
 }
+30605 = {
+	name = "Ophellas" # Ruler of Boeotia, Made up
+	dynasty = 3007 # Theagenidai
+	religion = hellenic_pagan
+	culture = aeolian
+	father = 30604
+	530.1.1 = {
+		birth="yes" # 337 BC
+	}
+	602.1.1 = {
+		death="yes" # 273 BC
+	}
+}

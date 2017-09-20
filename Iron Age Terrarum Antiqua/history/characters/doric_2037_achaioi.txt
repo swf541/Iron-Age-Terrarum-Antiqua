@@ -61,4 +61,15 @@
 		death="yes" # 269 BC
 	}
 }
-
+23606 = {
+	name = "Eperatus" # Ruler of Achaia, Made up
+	dynasty = 2037 # Achaioi
+	religion = hellenic_pagan
+	culture = doric
+	530.1.1 = {
+		birth="yes" # 325 BC
+	}
+	562.1.1 = {
+		death="yes" # 269 BC
+	}
+}

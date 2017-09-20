@@ -511,3 +511,18 @@
 		death="yes" # 265 BC
 	}
 }
+
+20040 = {
+	name = "Agesipolis" # 
+	dynasty = 2001 # Agiadai
+	religion = hellenic_pagan
+	culture = doric
+
+
+	533.1.1 = { # Made up
+		birth="yes" # 512 reign began BC
+	}
+	593.1.1 = {
+		death="yes" # 265 BC
+	}
+}

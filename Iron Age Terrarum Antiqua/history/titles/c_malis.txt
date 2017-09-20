@@ -24,3 +24,6 @@
 	holder = 22203 # Diodoros, Made up
 	liege = d_aetolia
 }
+520.1.1 = {
+	holder = 22205
+}
