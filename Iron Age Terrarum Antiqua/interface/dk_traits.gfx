@@ -496,4 +496,11 @@ SpriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_macedonian_pharaoh"
+		texturefile = "gfx/traits/macedonian_pharaoh.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }
