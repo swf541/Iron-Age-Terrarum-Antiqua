@@ -1,0 +1,142 @@
+# 1-1000 for greco_egyptian dynasties
+
+1 = {
+	name = "Antipatridai"
+	culture = greco_egyptian
+}
+2 = {
+	name = "Leonnatidai"
+	culture = greco_egyptian
+}
+3 = {
+	name = "Menandridai"
+	culture = greco_egyptian
+}
+4 = {
+	name = "Parmenidai"
+	culture = greco_egyptian
+}
+5 = {
+	name = "Antigonidai"
+	culture = greco_egyptian
+}
+6 = {
+	name = "Philotidai"
+	culture = greco_egyptian
+}
+7 = {
+	name = "Ptolemaioi"
+	culture = greco_egyptian
+}
+8 = {
+	name = "Archontidai"
+	culture = greco_egyptian
+}
+9 = {
+	name = "Argeadai"
+	culture = greco_egyptian
+}
+10 = {
+	name = "Orestai"
+	culture = greco_egyptian
+}
+11 = {
+	name = "Seleukidai"
+	culture = greco_egyptian
+}
+12 = {
+	name = "Peithonidai"
+	culture = greco_egyptian
+}
+13 = {
+	name = "Peukestidai"
+	culture = greco_egyptian
+}
+14 = {
+	name = "Tlepolemaioi"
+	culture = greco_egyptian
+}
+15 = {
+	name = "Philippidai"
+	culture = greco_egyptian
+}
+16 = {
+	name = "Agenoridai"
+	culture = greco_egyptian
+}
+17 = {
+	name = "Simmiadai"
+	culture = greco_egyptian
+}
+18 = {
+	name = "Krateridai"
+	culture = greco_egyptian
+}
+19 = {
+	name = "Silenidai"
+	culture = greco_egyptian
+}
+20 = {
+	name = "Arridaioi"
+	culture = greco_egyptian
+}
+21 = {
+	name = "Leukoi"
+	culture = greco_egyptian
+}
+22 = {
+	name = "Stageiritai"
+	culture = greco_egyptian
+}
+23 = {
+	name = "Philoxenoi"
+	culture = greco_egyptian
+}
+24 = {
+	name = "Ampimakos"
+	culture = greco_egyptian
+}
+25 = {
+	name = "Antigenidai"
+	culture = greco_egyptian
+}
+26 = {
+	name = "Stasandridai"
+	culture = greco_egyptian
+}
+27 = {
+	name = "Korrhaioi"
+	culture = greco_egyptian
+}
+28 = {
+	name = "Arrhidaioi"
+	culture = greco_egyptian
+}
+29 = {
+	name = "Dokimidai"
+	culture = greco_egyptian
+}
+30 = {
+	name = "Dropidai"
+	culture = greco_egyptian
+}
+31 = {
+	name = "Patroklidai"
+	culture = greco_egyptian
+}
+32 = {
+	name = "Lysidai"
+	culture = greco_egyptian
+}
+33 = {
+	name = "Eupolemidai"
+	culture = greco_egyptian
+}
+34 = {
+	name = "Sosthenidai"
+	culture = greco_egyptian
+}
+35 = {
+	name = "Aphrodisioi"
+	culture = greco_egyptian
+}
