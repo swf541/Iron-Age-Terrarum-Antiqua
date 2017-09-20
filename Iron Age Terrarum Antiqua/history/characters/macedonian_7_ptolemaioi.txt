@@ -26,6 +26,9 @@
 	459.1.1 = {
 		add_spouse = 19 # Berenike I
 	}
+	471.1.1 = { # 305 BC, Pharaoh of Egypt
+		religion = alexandrian_pagan
+	}
 	472.1.1 = { # 304 BC, End of siege of Rhodes
 		give_nickname = nick_soter
 	}
@@ -36,8 +39,8 @@
 602 = {
 	name = "Ptolemaios" # Ptolemaios II
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 
 	father = 601 # Ptolemaios I
 	mother = 19 # Berenike I
@@ -65,8 +68,8 @@
 603 = {
 	name = "Arsinoe" # Arsinoe II
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	female = yes
 
 	father = 601 # Ptolemaios I
@@ -87,8 +90,8 @@
 604 = {
 	name = "Ptolemaios" # Keraunos
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	father = 601
 	mother = 4
 	
@@ -116,8 +119,8 @@
 605 = {
 	name = "Meleagros" # Temporary King of Macedon
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	father = 601
 	mother = 4
 	add_trait = diadochi_king
@@ -133,8 +136,8 @@
 606 = {
 	name = "Ptolemaios" # III, Euergetes
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 
 	father = 602 # Ptolemaios II
 	mother = 30003 # Arsinoe I
@@ -154,9 +157,8 @@
 607 = {
 	name = "Lysimachos" # Son of Ptolemaios II
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
-
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	father = 602 # Ptolemaios II
 	mother = 30003 # Arsinoe I
 
@@ -175,8 +177,8 @@
 608 = {
 	name = "Berenike" # Syra
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	female = yes
 
 	father = 602 # Ptolemaios II
@@ -199,8 +201,8 @@
 609 = {
 	name = "Arsinoe" # III
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	female = yes
 
 	father = 606 # Ptolemaios III
@@ -221,8 +223,8 @@
 610 = {
 	name = "Ptolemaios" # IV
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 
 	father = 606 # Ptolemaios III
 	mother = 3506 # Berenike of Cyrene
@@ -244,8 +246,8 @@
 611 = {
 	name = "Lysimachos" # Son of Ptolemaios III
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 
 	father = 606 # Ptolemaios III
 	mother = 3506 # Berenike of Cyrene
@@ -261,8 +263,8 @@
 612 = {
 	name = "Alexandros" # Son of Ptolemaios III
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 
 	father = 606 # Ptolemaios III
 	mother = 3506 # Berenike of Cyrene
@@ -278,9 +280,8 @@
 613 = {
 	name = "Magas" # Son of Ptolemaios III
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
-
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	father = 606 # Ptolemaios III
 	mother = 3506 # Berenike of Cyrene
 
@@ -298,8 +299,8 @@
 614 = {
 	name = "Berenike" # Daughter of Ptolemaios III
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	female = yes
 
 	father = 606 # Ptolemaios III
@@ -318,8 +319,8 @@
 615 = {
 	name = "Ptolemaios" # V
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 
 	father = 610 # Ptolemaios IV
 	mother = 609 # Arsinoe III
@@ -336,8 +337,8 @@
 616 = {
 	name = "Ptolemais" # Daughter of Ptolemy I, marries Demetrius
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	female = yes
 
 	father = 601
@@ -354,8 +355,8 @@
 617 = {
 	name = "Lysandra" # Daughter of Ptolemy I, marries Agathocles
 	dynasty = 7 # Ptolemaioi
-	religion = hellenic_pagan
-	culture = macedonian
+	religion = alexandrian_pagan
+	culture = greco_egyptian
 	female = yes
 
 	father = 601
