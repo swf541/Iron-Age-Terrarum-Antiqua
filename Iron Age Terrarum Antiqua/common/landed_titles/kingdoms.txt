@@ -2087,6 +2087,7 @@ k_egypt = {
 			
 			holy_site = egyptian_pagan
 			holy_site = atenist
+			holy_site = alexandrian_pagan
 			
 			b_alexandria_alexandria = {
 				egyptian = "Ra Katit"
@@ -2119,6 +2120,7 @@ k_egypt = {
 			
 			holy_site = egyptian_pagan
 			holy_site = atenist
+			holy_site = alexandrian_pagan
 			
 			b_memphis_memphis = {
 				egyptian = "Men Nefer"
@@ -2339,6 +2341,7 @@ k_egypt = {
 			
 			holy_site = egyptian_pagan
 			holy_site = atenist
+			holy_site = alexandrian_pagan
 			
 			b_thebes_thebes_egypt = {
 				egyptian = "Waset"
@@ -4417,6 +4420,7 @@ k_greece = {
 			
 			holy_site = hellenic_pagan
 			holy_site = pontic_main
+			holy_site = alexandrian_pagan
 		
 			b_elis_olympia = {
 			}
@@ -4507,6 +4511,7 @@ k_greece = {
 			color2= { 255 255 255 }
 			
 			holy_site = hellenic_pagan
+			holy_site = alexandrian_pagan
 		
 			b_kythinion_delphi = {
 			}

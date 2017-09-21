@@ -9,6 +9,7 @@ decisions = {
 				religion = hellenic_pagan
 				religion_group = greek_religion
 			}
+			NOT = { religion = alexandrian_pagan }
 			prisoner = no
 			NOT = {
 				trait = in_hiding

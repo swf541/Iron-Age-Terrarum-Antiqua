@@ -42,6 +42,7 @@ character_event = {
 		name = EVTOPTA_ISE_701
 		trigger = {
 			OR = {
+				religion = alexandrian_pagan 
 				religion_group = egyptian_religion
 				not = { religion = manichean }
 				not = { religion = mandean }
@@ -67,6 +68,7 @@ character_event = {
 			NOT = { religion_group = egyptian_religion }
 			NOT = { religion = mandean }
 			NOT = { religion = manichean }
+			NOT = { religion = alexandrian_pagan }
 		}
 		FROM = {
 			character_event = { id = ISE.702 days = 5 tooltip = DIPLOWINDOW_REJECT }

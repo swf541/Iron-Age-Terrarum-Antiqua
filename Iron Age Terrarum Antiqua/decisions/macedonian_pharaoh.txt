@@ -19,8 +19,10 @@ decisions = {
 		allow = {
 			age = 16
 			completely_controls = c_alexandria
-			culture = macedonian
-			
+			or = { 
+				culture = greco_egyptian
+				culture = macedonian
+			}
 		}
 		effect = {
 			add_trait = macedonian_pharaoh

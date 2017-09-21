@@ -22,8 +22,8 @@ religion = egyptian_pagan
 # History
 # Can be filled when things change around the province
 445.1.1 = { # founding of Alexandria
-	culture = macedonian
-	religion = hellenic_pagan
+	culture = greco_egyptian
+	religion = alexandrian_pagan
 	b_alexandria_alexandria = castle
 	capital = b_alexandria_alexandria
 }

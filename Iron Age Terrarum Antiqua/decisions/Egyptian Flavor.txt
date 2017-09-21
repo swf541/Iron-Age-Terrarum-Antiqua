@@ -6,6 +6,7 @@ decisions = {
 			or = {
 				religion = egyptian_pagan
 				religion = atenist
+				religion = alexandrian_pagan
 			}
 			NOT = { trait = pilgrim }
 			NOT = { has_character_flag = do_not_disturb }
@@ -75,6 +76,7 @@ decisions = {
 			or = {
 				religion = egyptian_pagan
 				religion = atenist
+				religion = alexandrian_pagan
 			}
 			NOT = { trait = pilgrim }
 			NOT = { has_character_flag = do_not_disturb }
@@ -145,6 +147,7 @@ decisions = {
 			or = {
 				religion = egyptian_pagan
 				religion = atenist
+				religion = alexandrian_pagan
 			}
 			prisoner = no
 			NOT = {
@@ -214,6 +217,7 @@ decisions = {
 			or = {
 				religion = egyptian_pagan
 				religion = atenist
+				religion = alexandrian_pagan
 			}
 			prisoner = no
 			NOT = {
@@ -280,10 +284,7 @@ decisions = {
 		potential = {
 			is_ruler = yes
 			age = 16
-			or = {
-				religion = egyptian_pagan
-				religion = atenist
-			}
+			religion = alexandrian_pagan
 			culture = greek
 			prisoner = no
 			NOT = {

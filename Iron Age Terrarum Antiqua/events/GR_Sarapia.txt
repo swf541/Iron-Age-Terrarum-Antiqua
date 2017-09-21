@@ -121,6 +121,7 @@ character_event = {
 		trigger = {
 			OR = {
 				religion_group = egyptian_religion
+				religion = alexandrian_pagan 
 				not = { religion = manichean }
 				not = { religion = mandean }
 			}
@@ -142,6 +143,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_SRP_701
 		trigger = {
+			NOT = { religion = alexandrian_pagan }
 			NOT = { religion_group = egyptian_religion }
 			NOT = { religion = mandean }
 			NOT = { religion = manichean }

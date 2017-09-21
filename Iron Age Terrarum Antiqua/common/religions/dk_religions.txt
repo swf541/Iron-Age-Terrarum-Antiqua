@@ -23,6 +23,9 @@ egyptian_religion = {
 		can_grant_divorce = yes
 		can_grant_claim = yes
 		can_call_crusade = no
+		divine_blood = yes
+		pc_marriage = yes
+		bs_marriage = yes
 		
 		female_temple_holders = yes
 		max_consorts = 3
@@ -85,6 +88,9 @@ egyptian_religion = {
 		can_grant_divorce = yes
 		can_grant_claim = yes
 		can_call_crusade = no
+		divine_blood = yes
+		pc_marriage = yes
+		bs_marriage = yes
 		
 		female_temple_holders = yes
 		max_consorts = 3
@@ -2509,6 +2515,10 @@ greek_religion = {
 		can_grant_claim = yes
 		can_call_crusade = no
 		priests_can_marry = yes
+		divine_blood = yes
+		pc_marriage = yes
+		bs_marriage = yes
+		female_temple_holders = yes
 		
 		max_wives = 4
 		
