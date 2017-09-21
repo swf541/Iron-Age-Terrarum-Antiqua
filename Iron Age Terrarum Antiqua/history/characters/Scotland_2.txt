@@ -37,6 +37,7 @@
 	father=1231165	#Máenach
 	mother=1231217	#Sébdann
 	423.7.11={ birth=yes }
+	444.1.1={ add_spouse=1231218 }
 	491.8.11={ death=yes }
 }
 1231167={
@@ -83,6 +84,320 @@
 	433.9.12={ birth=yes }
 	491.8.5={ death=yes }
 }
+1231170={
+	name=Ailbrend
+	dynasty=223028
+	dna="jabaipbjldl"
+	culture=irish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=4 
+	learning=8
+	trait=martial_cleric 
+	trait=poet 
+	trait=brave 
+	trait=envious 
+	trait=charitable 
+	trait=wroth 
+	father=1231166	#Ualan
+	mother=1231218	#Gerróc
+	445.7.8={ birth=yes }
+	466.1.1={ add_spouse=1231219 }
+	516.7.13={ death=yes }
+}
+1231171={
+	name=Gerróc
+	female=yes
+	dynasty=223028
+	dna="ildpdpmdaol"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231166	#Ualan
+	mother=1231218	#Gerróc
+	450.3.14={ birth=yes }
+	522.10.11={ death=yes }
+}
+1231172={
+	name=Feradach
+	dynasty=223028
+	dna="jldnlppelil"
+	culture=irish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=4 
+	learning=4
+	trait=charismatic_negotiator 
+	trait=humble 
+	trait=cynical 
+	trait=trusting 
+	trait=gregarious 
+	trait=patient 
+	trait=possessed 
+	father=1231166	#Ualan
+	mother=1231218	#Gerróc
+	454.6.7={ birth=yes }
+	512.12.5={ death=yes }
+}
+1231173={
+	name=Máirgred
+	female=yes
+	dynasty=223028
+	dna="flbpcpijhml"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231170	#Ailbrend
+	mother=1231219	#Máirgred
+	466.10.9={ birth=yes }
+	548.6.15={ death=yes }
+}
+1231174={
+	name=Cobthach
+	dynasty=223028
+	dna="cajmlphjldl"
+	culture=irish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=6 
+	learning=7
+	trait=mastermind_theologian 
+	trait=hedonist 
+	trait=kind 
+	trait=patient 
+	trait=gluttonous 
+	trait=deceitful 
+	father=1231170	#Ailbrend
+	mother=1231219	#Máirgred
+	471.11.7={ birth=yes }
+	492.1.1={ add_spouse=1231220 }
+	540.2.28={ death=yes }
+}
+1231175={
+	name=Ruarcc
+	dynasty=223028
+	dna="oabdcpkjlld"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=6 
+	learning=4
+	trait=elusive_shadow 
+	trait=paranoid 
+	trait=slothful 
+	trait=craven 
+	trait=cynical 
+	trait=cruel 
+	trait=lustful 
+	trait=wounded 
+	father=1231170	#Ailbrend
+	mother=1231219	#Máirgred
+	473.1.21={ birth=yes }
+	521.10.5={ death=yes }
+}
+1231176={
+	name=Anmchaid
+	dynasty=223028
+	dna="okbllpbglcp"
+	culture=irish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=6
+	trait=misguided_warrior 
+	trait=deceitful 
+	trait=zealous 
+	trait=paranoid 
+	father=1231170	#Ailbrend
+	mother=1231219	#Máirgred
+	475.8.25={ birth=yes }
+	541.5.20={ death=yes }
+}
+1231177={
+	name=Cathán
+	female=yes
+	dynasty=223028
+	dna="lpbaopbjonl"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231170	#Ailbrend
+	mother=1231219	#Máirgred
+	478.11.5={ birth=yes }
+	528.11.7={ death=yes }
+}
+1231178={
+	name=Muirne
+	female=yes
+	dynasty=223028
+	dna="eajejnmblgl"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231170	#Ailbrend
+	mother=1231219	#Máirgred
+	481.9.2={ birth=yes }
+	528.4.12={ death=yes }
+}
+1231179={
+	name=Anlaith
+	female=yes
+	dynasty=223028
+	dna="jacahkbnlfl"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231170	#Ailbrend
+	mother=1231219	#Máirgred
+	485.1.17={ birth=yes }
+	549.8.2={ death=yes }
+}
+1231180={
+	name=Tressach
+	dynasty=223028
+	dna="npemlkbplde"
+	culture=irish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=5 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=hedonist 
+	trait=craven 
+	trait=trusting 
+	trait=proud 
+	trait=cruel 
+	trait=cynical 
+	trait=charitable 
+	father=1231174	#Cobthach
+	mother=1231220	#Sláíne
+	500.10.11={ birth=yes }
+	521.1.1={ add_spouse=1231221 }
+	574.10.5={ death=yes }
+}
+1231181={
+	name=Sláíne
+	female=yes
+	dynasty=223028
+	dna="cammfphkpdl"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231174	#Cobthach
+	mother=1231220	#Sláíne
+	504.9.7={ birth=yes }
+	541.1.16={ death=yes }
+}
+1231182={
+	name=Dúnadach
+	dynasty=223028
+	dna="cajklphjhdl"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=8 
+	learning=4
+	trait=detached_priest 
+	trait=content 
+	trait=diligent 
+	trait=cruel 
+	trait=deceitful 
+	father=1231174	#Cobthach
+	mother=1231220	#Sláíne
+	506.6.18={ birth=yes }
+	552.2.13={ death=yes }
+}
+1231183={
+	name=Tomaltach
+	dynasty=223028
+	dna="cafmlphnlip"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=5 
+	learning=6
+	trait=flamboyant_schemer 
+	trait=proud 
+	trait=cynical 
+	father=1231174	#Cobthach
+	mother=1231220	#Sláíne
+	510.2.13={ birth=yes }
+	584.2.13={ death=yes }
+}
+1231184={
+	name=Echthigern
+	dynasty=223028
+	dna="cajplihjldb"
+	culture=irish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=8 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=charitable 
+	trait=content 
+	father=1231174	#Cobthach
+	mother=1231220	#Sláíne
+	512.2.14={ birth=yes }
+	566.8.24={ death=yes }
+}
+1231185={
+	name=Sadb
+	female=yes
+	dynasty=223028
+	dna="abnmlpbplde"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231180	#Tressach
+	mother=1231221	#Sadb
+	521.2.14={ birth=yes }
+	585.7.15={ death=yes }
+}
+1231186={
+	name=Gormlaith
+	female=yes
+	dynasty=223028
+	dna="nldplpbklde"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231180	#Tressach
+	mother=1231221	#Sadb
+	526.3.6={ birth=yes }
+	584.3.21={ death=yes }
+}
+1231187={
+	name=Daniél
+	dynasty=223028
+	dna="dpenapbcldg"
+	culture=irish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=4 
+	learning=6
+	trait=elusive_shadow 
+	trait=wroth 
+	trait=temperate
+	trait=gregarious 
+	father=1231180	#Tressach
+	mother=1231221	#Sadb
+	529.5.14={ birth=yes }
+	550.1.1={ add_spouse=1231222 }
+	598.4.13={ death=yes }
+}
 1231217={
 	name=Sébdann
 	female=yes
@@ -90,4 +405,44 @@
 	religion=celtic_pagan
 	400.1.1={ birth=yes }
 	467.1.1={ death=yes }
+}
+1231218={
+	name=Gerróc
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	423.1.1={ birth=yes }
+	491.1.1={ death=yes }
+}
+1231219={
+	name=Máirgred
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	445.1.1={ birth=yes }
+	516.1.1={ death=yes }
+}
+1231220={
+	name=Sláíne
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	471.1.1={ birth=yes }
+	540.1.1={ death=yes }
+}
+1231221={
+	name=Sadb
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	500.1.1={ birth=yes }
+	574.1.1={ death=yes }
+}
+1231222={
+	name=Conchenn
+	female=yes
+	culture=irish
+	religion=celtic_pagan
+	529.1.1={ birth=yes }
+	598.1.1={ death=yes }
 }
