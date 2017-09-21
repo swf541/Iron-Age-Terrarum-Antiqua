@@ -106,51 +106,51 @@ decisions = {
 			}
 		}
 	}
-	patrons_hit = {
-		is_high_prio = yes
-		potential = {
-			is_playable = yes
-			is_landed = yes
-			age = 16
-			NOT = { 
-				trait = incapable
-				trait = infirm
-				trait = possessed 
-			}
-			NOT = {
-				has_character_modifier = patron_arinna
-				has_character_modifier = patron_inara
-				has_character_modifier = patron_kamrusepa
-				has_character_modifier = patron_kumarbi
-				has_character_modifier = patron_hatti
-				has_character_modifier = patron_telipinu
-			}
-			religion = anatolian_main
-		}
-		allow = {
-			prisoner = no
-		}
-		effect = {
-			character_event = { id = PATRONS_HIT.1 }
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.1
-			}
-			modifier = {
-				factor = 0.2
-				trait = slothful
-			}
-			modifier = {
-				factor = 0.1
-				trait = cynical
-			}
-		}
-	}
+#	patrons_hit = {
+#		is_high_prio = yes
+#		potential = {
+#			is_playable = yes
+#			is_landed = yes
+#			age = 16
+#			NOT = { 
+#				trait = incapable
+#				trait = infirm
+#				trait = possessed 
+#			}
+#			NOT = {
+#				has_character_modifier = patron_arinna
+#				has_character_modifier = patron_inara
+#				has_character_modifier = patron_kamrusepa
+#				has_character_modifier = patron_kumarbi
+#				has_character_modifier = patron_hatti
+#				has_character_modifier = patron_telipinu
+#			}
+#			religion = anatolian_main
+#		}
+#		allow = {
+#			prisoner = no
+#		}
+#		effect = {
+#			character_event = { id = PATRONS_HIT.1 }
+#		}
+#		revoke_allowed = {
+#			always = no
+#		}
+#		ai_will_do = {
+#			factor = 1
+#			modifier = {
+#				factor = 0.1
+#			}
+#			modifier = {
+#				factor = 0.2
+#				trait = slothful
+#			}
+#			modifier = {
+#				factor = 0.1
+#				trait = cynical
+#			}
+#		}
+#	}
 	#HELLENIC
 	patrons_hel = {
 		is_high_prio = yes
