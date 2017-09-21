@@ -52,3 +52,15 @@
 		death="yes"
 	}
 }
+121405 = {
+	name = "Mushika" # King of Sindhu
+	dynasty = 12145
+	religion = hindu
+	culture = shauraseni
+	524.1.1 = { # 329 BC made up
+		birth="yes"
+	}
+	607.1.1 = { # 254 BC made up
+		death="yes"
+	}
+}

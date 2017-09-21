@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+230304 = {
+	name = "Conconnetodumnus" # Norici Made up
+	dynasty = 23004 # Norici
+	culture = gaul
+	religion = celtic_pagan
+	father = 230301
+	498.1.1 = { # 331 BC
+		birth="yes"
+	}
+	570.1.1 = { # 264 BC
+		death="yes"
+	}
+}

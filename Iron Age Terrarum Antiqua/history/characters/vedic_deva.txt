@@ -1,0 +1,13 @@
+122111 = {
+	name = "Muladeva"
+	dynasty = 12147
+	religion = hindu
+	culture = maharashtri
+	525.1.1 = { # 337 BC made up
+		birth="yes"
+	}
+	
+	607.1.1 = { # 267 BC
+		death="yes"
+	}
+}

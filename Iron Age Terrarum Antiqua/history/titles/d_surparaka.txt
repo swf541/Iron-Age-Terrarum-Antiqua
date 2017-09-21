@@ -5,3 +5,7 @@
 472.1.1 = { # 304 BC
 	holder = 121702 # Prithvisena
 }
+550.1.1 = {
+	holder = 121703
+	liege = 0
+}

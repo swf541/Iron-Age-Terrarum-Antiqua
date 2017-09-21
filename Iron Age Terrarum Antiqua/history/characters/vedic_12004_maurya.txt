@@ -96,3 +96,67 @@
 		death="yes"
 	}
 }
+120306 = {
+	name = "Kunala" # Son of Ashoka the Great
+	dynasty = 12142 # Maurya
+	religion = jain
+	culture = vedic
+	father = 120304
+	513.1.1 = { # 304 BC
+		birth="yes"
+	}
+	560.1.1 = { # 252 BC
+		death="yes"
+	}
+}
+120307 = {
+	name = "Samprati" # Grandson of Ashoka the Great
+	dynasty = 12142 # Maurya
+	religion = jain
+	culture = vedic
+	father = 120306
+	534.1.1 = { # 304 BC
+		birth="yes"
+	}
+	#552
+	561.1.1 = { # 252 BC
+		death="yes"
+	}
+}
+
+1203050 = {
+	name = "Subhagasena" # King of Kapisa
+	dynasty = 12142 # Maurya
+	religion = hindu
+	culture = vedic
+	526.1.1 = { # 304 BC
+		birth="yes"
+	}
+	610.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+1203051 = {
+	name = "Virasena" # King of Gandahara
+	dynasty = 12142 # Maurya
+	religion = hindu
+	culture = vedic
+	521.1.1 = { # 304 BC
+		birth="yes"
+	}
+	584.1.1 = { # 274 BC
+		death="yes"
+	}
+}
+1203052 = {
+	name = "Jalauka" # King of Kashmir
+	dynasty = 12142 # Maurya
+	religion = hindu
+	culture = vedic
+	510.1.1 = { # 304 BC
+		birth="yes"
+	}
+	583.1.1 = { # 274 BC
+		death="yes"
+	}
+}

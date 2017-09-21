@@ -28,3 +28,7 @@
 	holder = 120305 # Vitashoka
 	liege = d_drangiana
 }
+530.1.1 = {
+	holder = 1203050
+	liege = 0
+}

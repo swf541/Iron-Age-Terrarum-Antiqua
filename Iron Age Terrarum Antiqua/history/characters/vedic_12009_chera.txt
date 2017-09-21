@@ -37,3 +37,29 @@
 		death="yes"
 	}
 }
+120804 = {
+	name = "Senguttuvan" # Made up
+	dynasty = 12137
+	religion = hindu
+	culture = tamil
+	father = 120803
+	510.1.1 = { # 332 BC
+		birth="yes"
+	}
+	587.1.1 = { # 253 BC
+		death="yes"
+	}
+}
+
+
+120850 = {
+	name = "Sena" # Made up
+	religion = hindu
+	culture = tamil
+	562.1.1 = { # 332 BC
+		birth="yes"
+	}
+	633.1.1 = { # 253 BC
+		death="yes"
+	}
+}

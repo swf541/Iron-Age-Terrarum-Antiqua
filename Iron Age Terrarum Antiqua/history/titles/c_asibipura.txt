@@ -9,3 +9,7 @@
 459.1.1 = { # 317 BC
 	holder = 120102 # Malayketu
 }
+530.1.1 = {
+	holder = 1203051
+	liege = 0
+}

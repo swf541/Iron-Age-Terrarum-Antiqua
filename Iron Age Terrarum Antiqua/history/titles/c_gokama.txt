@@ -5,3 +5,7 @@
 474.1.1 = { # 302 BC
 	holder = 121102 # Shivamara
 }
+550.1.1 = {
+	holder = 121103
+	liege = 0
+}

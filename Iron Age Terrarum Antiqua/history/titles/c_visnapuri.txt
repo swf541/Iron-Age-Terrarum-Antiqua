@@ -16,3 +16,6 @@
 	holder = 120304 # Ashoka the Great
 	liege = d_kunti
 }
+552.1.1 = {
+	holder = 120307
+}

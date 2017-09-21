@@ -24,3 +24,15 @@
 		death="yes"
 	}
 }
+121103 = {
+	name = "Avinita" # Made up
+	dynasty = 12129
+	religion = dravidian_main
+	culture = kannada
+	524.1.1 = { # 345 BC
+		birth="yes"
+	}
+	607.1.1 = { # 276 BC
+		death="yes"
+	}
+}

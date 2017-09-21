@@ -36,3 +36,15 @@
 		death="yes"
 	}
 }
+120204 = {
+	name = "Gopinatha" # King of Saurastra Made up
+	dynasty = 12047 # Saurashtra
+	religion = jain
+	culture = shauraseni
+	529.1.1 = { # 338 BC
+		birth="yes"
+	}
+	586.1.1 = { # 259 BC
+		death="yes"
+	}
+}

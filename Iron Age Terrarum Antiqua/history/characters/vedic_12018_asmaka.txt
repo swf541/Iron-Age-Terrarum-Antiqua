@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+121703 = {
+	name = "Devasena" # Made up
+	dynasty = 12115
+	religion = jain
+	culture = maharashtri
+	father = 121701
+	525.1.1 = { # 352 BC
+		birth="yes"
+	}
+	605.1.1 = { # 270 BC
+		death="yes"
+	}
+}

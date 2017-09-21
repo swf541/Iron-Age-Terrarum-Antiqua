@@ -7,3 +7,7 @@
 482.1.1 = { # 294 BC
 	liege = e_india
 }
+525.1.1 = {
+	holder = 120903
+	liege = 0
+}

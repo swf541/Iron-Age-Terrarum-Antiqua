@@ -37,3 +37,15 @@
 		death="yes"
 	}
 }
+121004 = {
+	name = "Kangavarma" # Made up
+	dynasty = 12128
+	religion = dravidian_main
+	culture = kannada
+	532.1.1 = { # 343 BC
+		birth="yes"
+	}
+	614.1.1 = { # 271 BC
+		death="yes"
+	}
+}

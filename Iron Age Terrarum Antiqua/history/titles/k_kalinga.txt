@@ -6,7 +6,9 @@
 }
 478.1.1 = { # 298 BC
 	holder = 121603 # Simuka
+	liege = e_india
 }
 551.1.1 = {
 	holder = 121604
+	liege = 0
 }

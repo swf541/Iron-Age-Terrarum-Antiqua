@@ -601,3 +601,7 @@
 	name = "Satavahana"
 	culture = telegu
 }
+12147 = {
+	name = "Deva"
+	culture = maharashtri
+}

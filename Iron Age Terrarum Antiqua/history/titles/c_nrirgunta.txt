@@ -5,3 +5,6 @@
 465.1.1 = { # 311 BC
 	holder = 120902 # Simhavarma
 }
+525.1.1 = {
+	holder = 120903
+}

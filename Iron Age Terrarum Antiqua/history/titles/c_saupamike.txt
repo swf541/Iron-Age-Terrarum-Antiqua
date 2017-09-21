@@ -8,3 +8,7 @@
 475.1.1 = { # 301 BC
 	holder = 121003 # Polavira
 }
+550.1.1 = {
+	holder = 121004
+	liege = 0
+}

@@ -20,5 +20,5 @@
 	# 121801-121900 for the Satavahana dynasty
 	# 121901-122000 for the Kimpurusha dynasty
 	# 122001-122100 for the Kosala (Maharashtri) dynasty
-	
+	# 122111		for the Deva Dynasty
 	# 129901-130000 for the Lowborns

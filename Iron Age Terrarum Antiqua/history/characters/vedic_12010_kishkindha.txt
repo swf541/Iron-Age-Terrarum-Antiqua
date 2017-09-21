@@ -24,3 +24,15 @@
 		death="yes"
 	}
 }
+120903 = {
+	name = "Simhavarma"
+	dynasty = 12125
+	religion = dravidian_main
+	culture = kannada
+	528.1.1 = { # 352 BC
+		birth="yes"
+	}
+	607.1.1 = { # 270 BC
+		death="yes"
+	}
+}

@@ -37,3 +37,15 @@
 		death="yes"
 	}
 }
+121204 = {
+	name = "Tadangala" # Made up
+	dynasty = 12122
+	religion = dravidian_main
+	culture = kannada
+	525.1.1 = { # 345 BC
+		birth="yes"
+	}
+	604.1.1 = { # 271 BC
+		death="yes"
+	}
+}

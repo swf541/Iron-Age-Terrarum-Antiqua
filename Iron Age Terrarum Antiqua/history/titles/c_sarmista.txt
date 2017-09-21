@@ -8,3 +8,7 @@
 481.1.1 = {
 	holder = 120203 # Bhishma
 }
+550.1.1 = {
+	holder = 120204
+	liege = 0
+}

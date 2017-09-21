@@ -37,3 +37,15 @@
 		death="yes"
 	}
 }
+120704 = {
+	name = "Nedunj Cheliyan" # Made up, inspired by a real ruler
+	dynasty = 12134
+	religion = jain
+	culture = tamil
+	530.1.1 = { # 378 BC
+		birth="yes"
+	}
+	612.1.1 = { # 310 BC
+		death="yes"
+	}
+}
