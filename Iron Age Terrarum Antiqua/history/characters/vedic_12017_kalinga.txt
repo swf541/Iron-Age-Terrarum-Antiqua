@@ -37,3 +37,16 @@
 		death="yes"
 	}
 }
+
+121604 = {
+	name = "Kharavela" # Historical
+	dynasty = 12119
+	religion = jain
+	culture = telegu
+	525.1.1 = { # 342 BC
+		birth="yes"
+	}
+	603.1.1 = { # 256 BC
+		death="yes"
+	}
+}

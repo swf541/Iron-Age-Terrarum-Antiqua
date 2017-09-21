@@ -484,7 +484,7 @@
 	culture = telegu
 }
 12119 = {
-	name = "Kalinga"
+	name = "Mahameghavahana"
 	culture = telegu
 }
 12120 = {
