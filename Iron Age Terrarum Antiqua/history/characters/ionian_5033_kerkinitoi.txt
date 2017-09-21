@@ -51,3 +51,15 @@
 		death="yes" # 353 BC
 	}
 }
+52705 = {
+	name = "Alexis" # Kerkinitis, Made up	
+	dynasty = 5033 # Kerkinitoi
+	religion = hellenic_pagan
+	culture = ionian
+	500.1.1 = {
+		birth="yes" # 305 BC, Made up
+	}
+	583.1.1 = {
+		death="yes" # 244 BC, Made up
+	}
+}

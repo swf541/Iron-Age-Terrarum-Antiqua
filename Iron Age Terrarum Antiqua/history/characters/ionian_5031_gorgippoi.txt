@@ -50,3 +50,16 @@
 		death="yes" # 350 BC
 	}
 }
+52505 = {
+	name = "Kleon" # Gorgippia, Made up
+	dynasty = 5031 # Gorgippoi
+	religion = hellenic_pagan
+	culture = ionian
+	father = 52504
+	501.1.1 = {
+		birth="yes" # 333 BC, Made up
+	}
+	576.1.1 = {
+		death="yes" # 265 BC, Made up
+	}
+}

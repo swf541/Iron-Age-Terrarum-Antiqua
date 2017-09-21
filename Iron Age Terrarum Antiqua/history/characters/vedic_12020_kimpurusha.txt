@@ -38,3 +38,16 @@
 		death="yes"
 	}
 }
+121904 = {
+	name = "Sthita" # Made up
+	dynasty = 12057
+	religion = buddhist
+	culture = vedic
+	father = 121903
+	510.1.1 = { # 354 BC
+		birth="yes"
+	}
+	586.1.1 = { # 268 BC
+		death="yes"
+	}
+}

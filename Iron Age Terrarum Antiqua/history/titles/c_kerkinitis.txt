@@ -10,3 +10,6 @@
 489.1.1 = { # 287 BC, Made up
 	holder = 52703 # Chrysanthe
 }
+522.1.1 = {
+	holder = 52705
+}

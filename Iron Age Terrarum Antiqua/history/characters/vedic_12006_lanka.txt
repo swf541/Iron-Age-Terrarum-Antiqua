@@ -24,3 +24,16 @@
 		death="yes"
 	}
 }
+120503 = {
+	name = "Kappiyanar" # Made up
+	dynasty = 12135
+	religion = dravidian_main
+	culture = tamil
+	father = 120502
+	502.1.1 = { # 361 BC
+		birth="yes"
+	}
+	577.1.1 = { # 278 BC
+		death="yes"
+	}
+}

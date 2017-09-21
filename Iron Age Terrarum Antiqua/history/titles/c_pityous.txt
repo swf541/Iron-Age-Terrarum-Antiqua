@@ -7,3 +7,6 @@
 481.1.1 = { # 295 BC, Made up
 	holder = 52402 # Theodoros
 }
+518.1.1 = {
+	holder = 52404
+}

@@ -55,3 +55,17 @@
 		death="yes"
 	}
 }
+120408 = {
+	name = "Asela"
+	dynasty = 12143
+	religion = buddhist
+	culture = sinhala
+
+	546.1.1 = { # 337 BC made up
+		birth="yes"
+	}
+	
+	571.1.1 = { # 267 BC
+		death="yes"
+	}
+}

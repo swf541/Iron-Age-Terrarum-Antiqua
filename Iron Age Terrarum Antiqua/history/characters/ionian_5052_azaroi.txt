@@ -50,3 +50,16 @@
 		death="yes" # 253 BC
 	}
 }
+54605 = {
+	name = "Pelagios" # Azara, Made Up
+	dynasty = 5052 # Azaroi
+	religion = hellenic_pagan
+	culture = ionian
+	father = 54604
+	504.1.1 = {
+		birth="yes" # 318 BC
+	}
+	587.1.1 = {
+		death="yes" # 253 BC
+	}
+}
