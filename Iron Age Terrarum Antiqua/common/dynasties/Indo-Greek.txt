@@ -1,0 +1,64 @@
+32300000 = {
+	 name="Aniketos"
+	 culture = graeco_bactrian
+}
+32400000 = {
+		name="Arkudios"
+	culture = graeco_bactrian
+}
+32500000 = {
+	 name="Askimitzi"
+	 culture = graeco_bactrian
+}
+32600000 = {
+	 name="Barsakios"
+	 culture = graeco_bactrian
+}
+32700000 = {
+	 name="Chrimatas"
+	 culture = graeco_bactrian
+}
+32800000 = {
+	 name="Drongaris"
+	 culture = graeco_bactrian
+}
+32900000 = {
+	 name="Katasteros"
+	 culture = graeco_bactrian
+}
+33000000 = {
+	 name="Kremastos"
+	 culture = graeco_bactrian
+}
+33100000 = {
+	 name="Nikandros"
+	 culture = graeco_bactrian
+}
+33200000 = {
+	 name="Pankallos"
+	 culture = graeco_bactrian
+}
+33300000 = {
+	 name="Saluphas"
+	 culture = graeco_bactrian
+}
+33400000 = {
+	 name="Scupellites"
+	 culture = graeco_bactrian
+}
+33500000 = {
+	 name="Trapezaki"
+	 culture = graeco_bactrian
+}
+33600000 = {
+		name="Varopodos"
+	culture = graeco_bactrian
+}
+33700000 = {
+		name="Leandros"
+	culture = graeco_bactrian
+}
+33800000 = {
+		name="Kalabros"
+	culture = graeco_bactrian
+}

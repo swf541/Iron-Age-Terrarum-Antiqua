@@ -2,7 +2,7 @@
 30801 = {
 	name = "Apollodotos" # Father of Euthydemus I
 	dynasty = 3009
-	culture = aeolian
+	culture = graeco_bactrian
 	religion = hellenic_pagan
 
 	485.1.1 = { # 291 BC, Made up
@@ -15,7 +15,7 @@
 30802 = {
 	name = "Euthydemos" # Euthydemus I
 	dynasty = 3009
-	culture = aeolian
+	culture = graeco_bactrian
 	religion = hellenic_pagan
 
 	father = 30801 # Apollodotos
@@ -35,7 +35,7 @@
 30803 = {
 	name = "Demetrios" # Demetrius I
 	dynasty = 3009
-	culture = koine
+	culture = graeco_bactrian
 	religion = hellenic_pagan
 
 	father = 30802 # Diodotus
