@@ -15,5 +15,7 @@
 	holder = 250004
 }
 548.1.1 = {
+	holding_dynasty = 25001 # Barca
+	liege = k_carthage
 	holder = 250005
 }
