@@ -16,3 +16,24 @@
 574.10.05 = { # 202 BC
 	holder = 1231187 # Daniél
 }
+598.04.13 = { # 178 BC
+	holder = 1231189 # Clemens
+}
+618.01.12 = { # 158 BC
+	holder = 1231194 # Laidgenn
+}
+650.11.11 = { # 126 BC
+	holder = 1231197 # Airmedach
+}
+667.08.30 = { # 109 BC
+	holder = 1231204 # Fáelchad
+}
+712.08.13 = { # 64 BC
+	holder = 1231208 # Artucán
+}
+743.07.31 = { # 33 BC
+	holder = 1231210 # Ualtar
+}
+785.1.1 = { # 19 AD
+	holder = 1231212 # Cú-Cen-Máthair
+}

@@ -1,0 +1,20 @@
+1231230={
+	name=Cilléne
+	dynasty=223029
+	dna="hebbeenjgdo"
+	culture=irish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=hedonist 
+	trait=honest 
+	trait=wroth 
+	trait=slothful 
+	trait=lisp 
+	400.9.12={ birth=yes }
+	448.8.6={ death=yes }
+}

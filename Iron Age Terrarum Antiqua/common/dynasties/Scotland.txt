@@ -6,3 +6,7 @@
 	name ="Selgovae"
 	culture = irish
 }
+223029 = {
+	name ="Novantae"
+	culture = irish
+}
