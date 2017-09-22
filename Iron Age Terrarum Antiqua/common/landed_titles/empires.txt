@@ -2497,6 +2497,8 @@ e_india = {
 			color={ 245 200 20 }
 			color2={ 255 255 255 }
 			
+			capital = 760 # Viratapuri
+			
 			c_viratapuri = {
 				color={ 245 200 20 }
 				color2={ 255 255 255 }
@@ -2529,6 +2531,8 @@ e_india = {
 			color={ 210 150 15 }
 			color2={ 255 255 255 }
 			
+			capital = 742 # Vinasana
+			
 			c_vinasana = {
 				color={ 225 135 20 }
 				color2={ 255 255 255 }
@@ -2551,6 +2555,8 @@ e_india = {
 		d_abhira = {
 			color={ 150 110 5 }
 			color2={ 255 255 255 }
+			
+			capital = 743 # Mandapura
 			
 			c_mandapura = {
 				color={ 225 135 20 }
@@ -2586,6 +2592,8 @@ e_india = {
 		d_surparaka = {
 			color={ 155 5 30 }
 			color2={ 255 255 255 }
+			
+			capital = 761 # Semylla
 			
 			c_semylla = {
 				color={ 155 5 30 }
@@ -2627,6 +2635,8 @@ e_india = {
 			color={ 115 20 40 }
 			color2={ 255 255 255 }
 			
+			capital = 767 # Panchavati
+			
 			c_panchavati = {
 				color={ 115 20 40 }
 				color2={ 255 255 255 }
@@ -2649,6 +2659,8 @@ e_india = {
 		d_dandaka = {
 			color={ 120 50 90 }
 			color2={ 255 255 255 }
+			
+			capital = 765 # Pratisthana
 			
 			c_janasthana = {
 				color={ 120 50 90 }
@@ -2680,6 +2692,8 @@ e_india = {
 			color={ 220 99 85 }
 			color2={ 255 255 255 }
 			
+			capital = 773 # Mahishmati
+			
 			c_mahishmati = {
 				color={ 220 99 85 }
 				color2={ 255 255 255 }
@@ -2698,6 +2712,8 @@ e_india = {
 		d_vakataka = {
 			color={ 255 70 160 }
 			color2={ 255 255 255 }
+			
+			capital = 775 # Bhojakata
 			
 			c_siripalla = {
 				color={ 255 70 160 }

@@ -1,4 +1,4 @@
-egyptian_religion = {
+﻿egyptian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade # Should be changed or removed entirely
@@ -953,10 +953,7 @@ punic_religion = {
 		intermarry = egyptian_pagan		
 		intermarry = berber_main
 		
-		intermarry = egyptian_pagan	
 		intermarry = atenist
-		
-		intermarry = berber_main
 		
 		intermarry = illyrian_main
 		
@@ -1587,7 +1584,7 @@ jewish_group = {
 		expel_modifier = expelled_jewish
 	}	
 }
-indian_religion = {
+indian_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade # Should be changed or removed entirely

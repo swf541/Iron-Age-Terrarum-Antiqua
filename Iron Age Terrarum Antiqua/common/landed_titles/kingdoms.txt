@@ -2241,6 +2241,8 @@ k_egypt = {
 		color2= { 255 255 255 }
 		egyptian = "Zawty"
 		
+		capital = 147 # Lykopolis
+		
 		c_lykopolis = {
 			color= { 225 225 0 }
 			color2= { 255 255 255 }
@@ -2554,6 +2556,8 @@ k_syria = {
 	d_syria = {
 		color= { 0 75 100 }
 		color2= { 255 255 255 }
+		
+		capital = 120 # Antiocheia
 
 		c_myriandos = {
 			color= { 10 65 100 }
@@ -2669,6 +2673,8 @@ k_syria = {
 	d_phoenicia = {
 		color= { 150 150 255 }
 		color2= { 255 255 255 }
+		
+		capital = 124 # Sidon
 
 		c_tripolis = {
 			color= { 140 160 255 }
@@ -2736,6 +2742,8 @@ k_syria = {
 	d_israel = {
 		color= { 150 175 225 }
 		color2= { 255 255 255 }
+		
+		capital = 127 # Samaria
 
 		c_apollonia_israel = {
 			color= { 140 165 225 }
@@ -2787,6 +2795,8 @@ k_syria = {
 	d_judea = {
 		color= { 150 175 255 }
 		color2= { 255 255 255 }
+		
+		capital = 130 # Jerusalem
 
 		c_gaza = {
 			color= { 140 185 255 }
@@ -2862,6 +2872,8 @@ k_assyria = {
 	d_osroene = {
 		color= { 0 50 100 }
 		color2= { 255 255 255 }
+		
+		capital = 179 # Edessa
 		
 		c_edessa = {
 			color= { 0 50 100 }
@@ -2941,6 +2953,8 @@ k_assyria = {
 		color= { 0 75 125 }
 		color2= { 255 255 255 }
 		
+		capital = 184 # Terqa
+		
 		c_terqa = {
 			color= { 0 75 125 }
 			color2= { 255 255 255 }
@@ -2969,6 +2983,8 @@ k_assyria = {
 	d_ashur = {
 		color= { 0 50 125 }
 		color2= { 255 255 255 }
+		
+		capital = 191 # Nineveh
 	
 		c_pinaka = {
 			color= { 10 60 125 }
@@ -3077,6 +3093,8 @@ k_babylonia = {
 	d_babylonia = {
 		color= { 0 50 225 }
 		color2= { 255 255 255 }
+		
+		capital = 195 # Babylon
 		
 		c_maskin = {
 			color= { 10 40 225 }
