@@ -30,8 +30,8 @@
 	religion = hellenic_pagan
 	culture = ionian
 	father = 54102
-	413.1.1 = {
-		birth="yes" # 363 BC Made Up
+	416.1.1 = {
+		birth="yes" # 360 BC Made Up
 	}
 	470.1.1 = {
 		death="yes" # 306 BC Made Up

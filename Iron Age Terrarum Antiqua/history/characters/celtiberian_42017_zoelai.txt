@@ -31,7 +31,7 @@
 	culture = celtiberian
 	religion = celtic_pagan
 	
-	father - 421602
+	father = 421602
 	
 	508.1.1 = { 
 		birth="yes"

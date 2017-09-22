@@ -1136,7 +1136,7 @@ mother=123853
 }
 
 123856={
-name="Sinech
+name="Sinech"
 female=yes
 dynasty=223008
 dna="hiakkppplcb"

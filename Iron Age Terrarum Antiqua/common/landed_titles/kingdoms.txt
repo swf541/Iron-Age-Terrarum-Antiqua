@@ -5780,6 +5780,16 @@ k_carthage = {
 			}
 			b_urcinium_palla = {
 			}
+			b_palla2_palla = {
+			}
+			b_palla3_palla = {
+			}
+			b_palla4_palla = {
+			}
+			b_palla5_palla = {
+			}
+			b_palla6_palla = {
+			}
 		}
 	}
 	d_sardinia = {

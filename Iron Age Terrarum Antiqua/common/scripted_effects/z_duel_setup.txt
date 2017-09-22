@@ -199,7 +199,8 @@ duel_engine_mounts = {
         change_variable = { which = "duel_att" value = 4 }
         change_variable = { which = "duel_max_hp" value = 3 }
       }
-  } 
+  }
+}
 duel_engine_weapons = { 
   trigger_switch = { 
     on_trigger = has_artifact

@@ -42,7 +42,7 @@
 	dynasty = 5024 # Sinopeis
 	religion = hellenic_pagan
 	culture = ionian
-	father = 51802
+	father = 51803
 	520.1.1 = { # Made up
 		birth="yes" # 358 BC
 	}

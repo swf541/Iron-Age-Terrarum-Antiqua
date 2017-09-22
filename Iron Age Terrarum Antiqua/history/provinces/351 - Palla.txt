@@ -1,18 +1,17 @@
 # 351 - Palla
 
 # County Title
-title = c_palla # for example c_corinth
+title = c_palla
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 6
 b_urcinium_palla = city
 b_palla_palla = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_palla2_palla = temple
+#b_palla3_palla = castle
+#b_palla4_palla = city
+#b_palla5_palla = temple
+#b_palla6_palla = castle
 
 # Misc
 culture = etruscan

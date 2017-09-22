@@ -55,7 +55,7 @@
 	dynasty = 5031 # Gorgippoi
 	religion = hellenic_pagan
 	culture = ionian
-	father = 52504
+	father = 52503
 	501.1.1 = {
 		birth="yes" # 333 BC, Made up
 	}
