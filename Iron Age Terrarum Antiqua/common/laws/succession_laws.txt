@@ -18,6 +18,7 @@ succession_laws = {
 						}
 					}
 				}
+				culture_group = brythonic
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
@@ -95,6 +96,7 @@ succession_laws = {
 						}
 					}
 				}
+				culture_group = brythonic
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
@@ -278,18 +280,13 @@ succession_laws = {
 								}
 							}
 						}
-						OR = {
-							NOT = { religion_group = pagan_group }
-							is_reformed_religion = yes
-							religion = hellenic_pagan
-						}
 					}
 					OR = {
 						is_landless_type_title = no
 						is_tribal_type_title = yes
 						temporary = yes
 					}
-					is_primary_type_title = no
+
 					OR = {
 						AND = {
 							tier = baron
@@ -307,27 +304,7 @@ succession_laws = {
 						is_vice_royalty = yes
 					}
 				}
-				AND = {
-					has_dlc = "Zeus"
-					holder_scope = {
-						primary_title = {
-							OR = {
-								has_law = ze_administration_laws_1
-								has_law = ze_administration_laws_2
-							}
-						}
-					}
-				}
-				hidden_tooltip = {
-					has_crown_law_title = no
-					NOT = { has_dlc = "Zeus" }
-				}
-				crownlaw_title = {
-					OR = {
-						has_law = crown_authority_3
-						has_law = crown_authority_4
-					}
-				}
+
 			}
 			holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
 			NAND = { 

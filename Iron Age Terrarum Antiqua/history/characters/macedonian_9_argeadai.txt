@@ -51,6 +51,11 @@
 	}
 	449.1.1 = { # 327 BC
 		add_spouse = 100001 # Roxane
+		add_lover = 100001 
+	}
+	452.1.1 = { # 327 BC
+		add_spouse = 90326
+		add_spouse = 90327
 	}
 	453.6.10 = { # 323 BC
 		death="yes"

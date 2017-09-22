@@ -438,3 +438,37 @@
 		death="yes"
 	}
 }
+90326 = {
+	name = "Stateira" # Artaxerxes IV, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian
+	culture = persian
+	father = 90314
+	female = yes
+	
+	423.1.1 = { # 375 BC Made up
+		birth="yes"
+	}
+	454.1.1 = { # 336 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+90327 = {
+	name = "Parysatis" # Artaxerxes IV, Persian emperor
+	dynasty = 9004 # Achaemenid
+	religion = zoroastrian
+	culture = persian
+	father = 90312
+	female = yes
+
+	415.1.1 = { # 375 BC Made up
+		birth="yes"
+	}
+	454.1.1 = { # 336 BC
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
