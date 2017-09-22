@@ -2957,8 +2957,8 @@ e_egypt = { # Ptolemaic
 	
 	capital = 139 # Alexandria
 	
-	title = "Pharoah"
-	title_female = "Pharoah"
+	title = "Pharaoh"
+	title_female = "Pharaoh"
 	foa = "FYLKIR_FOA"
 	
 	creation_requires_capital = yes
