@@ -210,40 +210,68 @@ character_event = {
 				}
 				character_event = { id = COT.707 days = 25 }
 				random_list = {
-					10 = { character_event = { id = COT.741 days = 3 } } 
-					10 = { character_event = { id = COT.742 days = 3 } }
-					10 = { character_event = { id = COT.743 days = 3 } }
-					10 = { character_event = { id = COT.744 days = 3 } }
-					10 = { character_event = { id = COT.745 days = 3 } }
-					10 = { character_event = { id = COT.746 days = 3 } }
-					10 = { character_event = { id = COT.747 days = 3 } }
+					70 = { character_event = { id = COT.741 days = 3 } } 
+					30 = { character_event = { id = COT.744 days = 3 } }
 				}
 				random_list = {
-					10 = { character_event = { id = COT.741 days = 8 } }
-					10 = { character_event = { id = COT.742 days = 8 } }
-					10 = { character_event = { id = COT.743 days = 8 } }
-					10 = { character_event = { id = COT.744 days = 8 } }
-					10 = { character_event = { id = COT.745 days = 8 } }
-					10 = { character_event = { id = COT.746 days = 8 } }
-					10 = { character_event = { id = COT.747 days = 8 } }
+					70 = { character_event = { id = COT.741 days = 3 } } 
+					30 = { character_event = { id = COT.744 days = 3 } }
 				}
 				random_list = {
-					10 = { character_event = { id = COT.741 days = 13 } }
-					10 = { character_event = { id = COT.742 days = 13 } }
-					10 = { character_event = { id = COT.743 days = 13 } }
-					10 = { character_event = { id = COT.744 days = 13 } }
-					10 = { character_event = { id = COT.745 days = 13 } }
-					10 = { character_event = { id = COT.746 days = 13 } }
-					10 = { character_event = { id = COT.747 days = 13 } }
+					70 = { character_event = { id = COT.741 days = 3 } } 
+					30 = { character_event = { id = COT.744 days = 3 } }
 				}
 				random_list = {
-					10 = { character_event = { id = COT.741 days = 18 } }
-					10 = { character_event = { id = COT.742 days = 18 } }
-					10 = { character_event = { id = COT.743 days = 18 } }
-					10 = { character_event = { id = COT.744 days = 18 } }
-					10 = { character_event = { id = COT.745 days = 18 } }
-					10 = { character_event = { id = COT.746 days = 18 } }
-					10 = { character_event = { id = COT.747 days = 18 } }
+					70 = { character_event = { id = COT.741 days = 3 } } 
+					30 = { character_event = { id = COT.744 days = 3 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 8 } } 
+					30 = { character_event = { id = COT.744 days = 8 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 8 } } 
+					30 = { character_event = { id = COT.744 days = 8 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 8 } } 
+					30 = { character_event = { id = COT.744 days = 8 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 8 } } 
+					30 = { character_event = { id = COT.744 days = 8 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 13 } } 
+					30 = { character_event = { id = COT.744 days = 13 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 13 } } 
+					30 = { character_event = { id = COT.744 days = 13 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 13 } } 
+					30 = { character_event = { id = COT.744 days = 13 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 13 } } 
+					30 = { character_event = { id = COT.744 days = 13 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 18 } } 
+					30 = { character_event = { id = COT.744 days = 18 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 18 } } 
+					30 = { character_event = { id = COT.744 days = 18 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 18 } } 
+					30 = { character_event = { id = COT.744 days = 18 } }
+				}
+				random_list = {
+					70 = { character_event = { id = COT.741 days = 18 } } 
+					30 = { character_event = { id = COT.744 days = 18 } }
 				}
 			}
 		}
@@ -799,8 +827,6 @@ character_event = {
 			has_character_flag = holding_isia 
 			NOT = { has_character_flag = feast_lustful }
 		}
-		trait = lustful
-		is_female = no
 	}
 	
 #	mean_time_to_happen = {
@@ -836,9 +862,6 @@ character_event = {
 		name = EVTOPTA_TOG_658
 		tooltip_info = lustful
 		set_character_flag = feast_lustful
-		trigger = {
-			is_married = no
-		}
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_lustful
@@ -855,27 +878,9 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lustful } }
-					opinion = {
-						modifier = opinion_feast_scandal
-						who = ROOT
-					}
-				}
-				if = {
 					limit = { trait = lustful }
 					opinion = {
 						modifier = opinion_lustful_buddy
-						who = ROOT
-					}
-				}
-				any_vassal = {
-					limit = {
-						has_character_flag = isia_feast_vassal
-						NOT = { character = ROOT }
-						NOT = { trait = lustful }
-					}
-					opinion = {
-						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
@@ -889,74 +894,6 @@ character_event = {
 						modifier = opinion_lustful_buddy
 						who = ROOT
 					}
-				}
-			}
-		}	
-	}
-	option = {
-		name = EVTOPTB_TOG_658
-		tooltip_info = lustful
-		set_character_flag = feast_lustful
-		trigger = {
-			is_married = yes
-		}
-		hidden_tooltip = {
-			liege = {
-				set_character_flag = feast_lustful
-				character_event = { id = COT.729 }
-				any_vassal = {
-					limit = {
-						has_character_flag = isia_feast_vassal
-						NOT = { character = ROOT }
-					}
-					character_event = { id = COT.729 }
-				}
-			}
-		}
-		tooltip = {
-			liege = {
-				if = {
-					limit = { NOT = { trait = lustful } }
-					opinion = {
-						modifier = opinion_feast_scandal
-						who = ROOT
-					}
-				}
-				if = {
-					limit = { trait = lustful }
-					opinion = {
-						modifier = opinion_lustful_buddy
-						who = ROOT
-					}
-				}
-				any_vassal = {
-					limit = {
-						has_character_flag = isia_feast_vassal
-						NOT = { character = ROOT }
-						NOT = { trait = lustful }
-					}
-					opinion = {
-						modifier = opinion_feast_scandal
-						who = ROOT
-					}
-				}
-				any_vassal = {
-					limit = {
-						has_character_flag = isia_feast_vassal
-						NOT = { character = ROOT }
-						trait = lustful
-					}
-					opinion = {
-						modifier = opinion_lustful_buddy
-						who = ROOT
-					}
-				}
-			}
-			any_spouse = {
-				opinion = {
-					modifier = opinion_mad_as_hell
-					who = ROOT
-					years = 1
 				}
 			}
 		}	
