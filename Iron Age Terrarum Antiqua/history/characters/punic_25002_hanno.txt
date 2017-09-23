@@ -71,3 +71,21 @@
 		death="yes" 
 	}
 }
+250106 = {
+	name = "Hanno" # Hanno The III
+	dynasty = 25002 # Hanno 
+	religion = punic_main
+	culture = punic
+	
+	father = 250105
+	
+	add_trait = greedy
+	add_trait = zealous
+	
+	562.1.1 = { # Made up
+		birth="yes" # 
+	}
+	640.1.1 = { # Made up
+		death="yes" 
+	}
+}

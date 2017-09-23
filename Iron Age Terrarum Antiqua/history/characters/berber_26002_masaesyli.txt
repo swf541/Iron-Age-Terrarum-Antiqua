@@ -63,3 +63,16 @@
 		death="yes"
 	}
 }
+260106 = {
+	name = "Vermina" # Masaesyli, Historical
+	dynasty = 26002 # Masaesyli
+	religion = berber_main
+	culture = berber
+	father = 260105
+	560.1.1 = { # 332 BC
+		birth="yes"
+	}
+	634.1.1 = { # 276 BC
+		death="yes"
+	}
+}

@@ -33,7 +33,8 @@ theocracy_governments = {
 			NOT = {
 				controls_religion = yes
 				religion = anatolian_main
-			}			
+			}
+			NOT = { has_landed_title = k_rome }
 			is_patrician = no
 		}
 		

@@ -3,3 +3,8 @@
 	holder = 250105 # Hanno the Great II
 	liege = k_carthage
 }
+577.1.1 = { 
+	holding_dynasty = 25002 # Hanno
+	holder = 250106 # Hanno the Great II
+	liege = k_carthage
+}
