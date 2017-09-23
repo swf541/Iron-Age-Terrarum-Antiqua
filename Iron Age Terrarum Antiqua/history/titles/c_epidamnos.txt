@@ -34,3 +34,7 @@
 543.1.1 = { # 233 BC
 	holder = 10023 # Epirote Republic
 }
+584.1.1 = {
+	holder = 182601
+	liege = k_rome
+}

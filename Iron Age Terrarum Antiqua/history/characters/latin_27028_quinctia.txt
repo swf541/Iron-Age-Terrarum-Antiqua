@@ -1,0 +1,13 @@
+# 182601-182700 for the Publilii dynasty
+182601 = {
+	name = "Lucius" # Quinctius Flamininus
+	dynasty = 17028 # Publilii
+	religion = roman_main
+	culture = latin
+	552.1.1 = { # 386 BC Made Up
+		birth="yes"
+	}
+	606.1.1 = { # 301 BC Made Up
+		death="yes"
+	}
+}

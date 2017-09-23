@@ -11,3 +11,7 @@
 505.1.1 = { # 271 BC
 	holder = 390104 # Biurtibes
 }
+584.1.1 = {
+	holder = 182601
+	liege = k_rome
+}
