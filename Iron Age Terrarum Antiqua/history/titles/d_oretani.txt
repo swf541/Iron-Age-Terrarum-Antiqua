@@ -12,3 +12,6 @@
 	holder = 420704
 	liege = k_carthage
 }
+570.1.1 = {
+	liege = 0
+}

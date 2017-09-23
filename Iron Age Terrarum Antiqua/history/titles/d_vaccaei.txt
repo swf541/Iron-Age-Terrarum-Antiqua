@@ -11,3 +11,6 @@
 530.1.1 = {
 	liege = k_carthage
 }
+570.1.1 = {
+	liege = 0
+}
