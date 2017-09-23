@@ -118,13 +118,21 @@ k_heraclea_pontica = {
 k_pontus = {
 	color= { 175 150 125 }
 	color2= { 255 255 255 }
-	
+
 	capital = 112 # Trapezous
-	
+
 	allow = {
-		or = {
-			culture = pontic
-			religion = pontic_main
+		has_global_flag = pontus_created # Make sure Pontus has been created through the decision.
+
+		independent = yes
+		lower_tier_than = KING
+		has_regent = no
+		is_feudal = yes
+
+		capital_scope = {
+			duchy = {
+				title = d_pontus
+			}
 		}
 	}
 }

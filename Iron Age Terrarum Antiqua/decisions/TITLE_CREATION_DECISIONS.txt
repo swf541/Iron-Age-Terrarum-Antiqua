@@ -1,0 +1,41 @@
+decisions = {
+    become_king_of_pontus = {
+        is_high_prio = yes
+        potential = {
+            NOT = { has_global_flag = pontus_created }
+
+            independent = yes
+            lower_tier_than = KING
+            has_regent = no
+            is_feudal = yes
+
+            capital_scope = {
+                duchy = {
+                    title = d_pontus
+                }
+            }
+        }
+
+        allow = {
+            prestige = 1000
+            realm_size = 15
+        }
+
+        effect = {
+            k_pontus = {
+                grant_title = ROOT
+            }
+            give_nickname = nick_ktistes
+            hidden_tooltip = {
+                any_playable_character = {
+                    limit = {
+                        ai = no
+                    }
+                    narrative_event = { id = title_creation.1 }
+                }
+            }
+
+            set_global_flag = pontus_created
+        }
+    }
+}

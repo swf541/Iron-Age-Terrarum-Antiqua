@@ -1,0 +1,14 @@
+namespace = title_creation
+
+# PONTUS
+narrative_event = {
+    id = title_creation.1
+    title = PONTUS_CREATION_EVENT_TITLE
+    desc = PONTUS_CREATION_EVENT_DESC
+
+    is_triggered_only = yes
+
+    option = {
+        name = PONTUS_CREATION_OPTION_INTERESTING
+    }
+}

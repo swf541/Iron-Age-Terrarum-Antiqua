@@ -1,0 +1,6 @@
+#CODE;ENGLISH;;;;;;;;;x
+become_king_of_pontus;Create the Kingdom of Pontus;;;;;;;;;x
+become_king_of_pontus_desc;You have established your power over the region known historically as Pontus. Your army has repeatedly suggested taking up the royal diadem. Formalizing your rule as king will open more possibilities for the strengthening of your realm.;;;;;;;;;x
+PONTUS_CREATION_EVENT_TITLE;Rise of Pontus;;;;;;;;;x
+PONTUS_CREATION_EVENT_DESC;A new power rises in the east. After unifying the valleys of the interior and the coastal cities, [From.GetBestName] has crowned himself King of Pontus. It will remain to be seen how whether this new kingdom will flourish in the future.\n\nHistorically, the kingdom of Pontus was founded by Mithridates I 'Ktiskes'. He fled to the region in 301 BC when his father was murdered by Antigonus and declared himself king of Pontus around 280 BC. By 150 BC, the kingdom had acquired most of the southern coast of the black sea. Pontus reached its height during the reign of Mithridates VI 'Eupator'. Mithridates seized control over Colchis and the greek colonies in the Crimea. However, Mithridates quickly provoked the ire of Rome and was defeated. After the defeat of Mithridates, Pontus would become a Roman client kingdom until it was annexed in 62 CE.;;;;;;;;;x
+PONTUS_CREATION_OPTION_INTERESTING;Interesting.;;;;;;;;;x

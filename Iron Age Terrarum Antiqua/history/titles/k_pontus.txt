@@ -1,5 +1,8 @@
 496.1.1 = { # 280 BC
 	holder = 130002 # Mithradates Ktistes
+	effect = {
+		set_global_flag = pontus_created
+	}
 }
 510.1.1 = { # 266 BC
 	holder = 130003 # Ariobarzanes I
