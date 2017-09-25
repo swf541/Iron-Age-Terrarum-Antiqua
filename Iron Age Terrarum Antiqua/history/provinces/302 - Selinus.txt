@@ -1,18 +1,17 @@
 # 302 - Selinus
 
 # County Title
-title = c_selinus # for example c_corinth
+title = c_selinus
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
-b_selinus = castle
+max_settlements = 6
+b_selinus_selinus = castle
 b_heraclea_selinus = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_selinus2_selinus = temple
+#b_selinus3_selinus = castle
+#b_selinus4_selinus = city
+#b_selinus5_selinus = temple
+#b_selinus6_selinus = castle
 
 # Misc
 culture = ionian

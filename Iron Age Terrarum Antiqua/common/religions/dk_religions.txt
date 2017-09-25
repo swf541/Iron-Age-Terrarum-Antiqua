@@ -1,4 +1,4 @@
-﻿egyptian_religion = {
+egyptian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade # Should be changed or removed entirely

@@ -626,6 +626,8 @@ k_magna_graecia = {
 	color= { 75 175 225 }
 	color2= { 255 255 255 }
 	
+	capital = 309 # Terina
+	
 	allow = {
 		culture_group = hellenic
 	}
@@ -634,13 +636,25 @@ k_magna_graecia = {
 		color= { 75 200 175 }
 		color2= { 255 255 255 }
 		
+		capital = 303 # Himera
+		
 		c_selinus = {
 			color= { 75 200 175 }
 			color2= { 255 255 255 }
 			
-			b_selinus = {
+			b_selinus_selinus = {
 			}
 			b_heraclea_selinus = {
+			}
+			b_selinus2_selinus = {
+			}
+			b_selinus3_selinus = {
+			}
+			b_selinus4_selinus = {
+			}
+			b_selinus5_selinus = {
+			}
+			b_selinus6_selinus = {
 			}
 		}
 		c_himera = {
