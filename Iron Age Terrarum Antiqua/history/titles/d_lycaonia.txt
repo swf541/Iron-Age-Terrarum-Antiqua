@@ -10,7 +10,6 @@
 	liege = 0
 }
 553.4.1 = { # 223 BC
-	holder = 3101 # Lysias
 	liege = k_lydia
 }
 560.5.1 = { # 216 BC
