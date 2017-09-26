@@ -199,7 +199,7 @@ celtiberian_group = {
 		modifier = celtic_culture_modifier
 	}
 }
-israelite_group {
+israelite_group = {
 	israelite = {
 		graphical_cultures = { muslimgfx }
   

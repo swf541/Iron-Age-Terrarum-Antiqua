@@ -4,11 +4,71 @@
 	dynasty = 32
 	culture = macedonian
 	religion = hellenic_pagan
-	
+	martial=7
+	diplomacy=5 
+	stewardship=9 
+	intrigue=2
+	learning=11
+	trait=tough_soldier
+	trait=cynical 
+	trait=deceitful 
+	trait=charitable 
 	433.1.1 = { # 343 BC, Made up
 		birth="yes"
 	}
+	454.1.1={ add_spouse=3155 }
 	505.1.1 = { # 271 BC, Made up
 		death="yes"
 	}
+}
+3102={
+	name=Eratosthenes
+	dynasty=32
+	dna="kkpaifclgdh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=5 
+	learning=5
+	trait=indulgent_wastrel 
+	trait=humble 
+	trait=shy 
+	trait=wroth 
+	father=3101	#Lysias
+	mother=3155	#Metrodora
+	460.5.27={ birth=yes }
+	520.9.16={ death=yes }
+}
+3103={
+	name=Hiketas
+	dynasty=32
+	dna="kkjoilhlkil"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=5 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=gluttonous 
+	trait=cynical 
+	trait=just 
+	trait=deceitful 
+	trait=paranoid 
+	trait=charitable 
+	father=3101	#Lysias
+	mother=3155 #Metrodora
+	461.1.5={ birth=yes }
+	546.7.10={ death=yes }
+}
+3155={
+	name=Metrodora
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	433.1.1={ birth=yes }
+	501.1.1={ death=yes }
 }

@@ -29,13 +29,13 @@
 	}
 }
 
-410002 = {
+410003 = {
 	name = "Arganthonios" # Made up Tartessii leader
 	dynasty = 41001
 	culture = old_tartessian
 	religion = iberian_main
 	
-	father = 410001
+	father = 410002
 	
 	451.1.1 = { # 325 BC, Made up
 		birth="yes"
@@ -45,13 +45,13 @@
 	}
 }
 
-410003 = {
+410004 = {
 	name = "Arganthonios" # Made up Tartessii leader
 	dynasty = 41001
 	culture = old_tartessian
 	religion = iberian_main
 	
-	father = 410002
+	father = 410003
 	
 	503.1.1 = { # 325 BC, Made up
 		birth="yes"

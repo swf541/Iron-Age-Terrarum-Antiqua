@@ -27,11 +27,15 @@
 	holder = 3101 # Lysias
 	liege = d_lycaonia
 }
+505.1.1 = { # 271 BC
+	holder = 3102 # Eratosthenes
+}
+520.09.16 = { # 256 BC
+	holder = 3104 # Ekphantos
+}
 548.1.1 = { # 227 BC
-	holder = 51309 # Attalus I
 	liege = k_pergamum
 }
 553.4.1 = { # 223 BC
-	holder = 3101 # Lysias
 	liege = d_lycaonia
 }
