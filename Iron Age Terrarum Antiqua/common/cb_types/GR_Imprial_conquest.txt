@@ -33,6 +33,7 @@ rome_italian_unification_cb = {
 		OR = {
 			title = k_italy
 			title = k_magna_graecia
+			title = k_etruscan
 		}
 	}
 	

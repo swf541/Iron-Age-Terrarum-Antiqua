@@ -50,3 +50,7 @@ default_culture_band_composition = {
 	levy_size = 1
 	light_infantry = 100
 }
+late_roman_republican_composition = {
+	levy_size = 1
+	heavy_infantry = 6000
+}
