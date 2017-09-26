@@ -39,6 +39,7 @@
 	father=3101	#Lysias
 	mother=3155	#Metrodora
 	460.5.27={ birth=yes }
+	481.1.1={ add_spouse=3156 }
 	520.9.16={ death=yes }
 }
 3103={
@@ -64,6 +65,146 @@
 	461.1.5={ birth=yes }
 	546.7.10={ death=yes }
 }
+3104={
+	name=Ekphantos
+	dynasty=32
+	dna="agpaigccmnh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=4 
+	learning=5
+	trait=tough_soldier 
+	trait=patient 
+	trait=cruel 
+	trait=craven 
+	trait=charitable 
+	trait=trusting 
+	trait=ill 
+	father=3102	#Eratosthenes
+	mother=3156	#Isidora
+	480.1.12={ birth=yes }
+	501.1.1={ add_spouse=3157 }
+	543.6.17={ death=yes }
+}
+3105={
+	name=Metrodora
+	female=yes
+	dynasty=32
+	dna="mkepoodcbkh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3102	#Eratosthenes
+	mother=3156	#Isidora
+	483.4.19={ birth=yes }
+	553.6.11={ death=yes }
+}
+3106={
+	name=Nikomachos
+	dynasty=32
+	dna="kkadgfknlne"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=7 
+	learning=5
+	trait=skilled_tactician 
+	trait=cynical 
+	trait=chaste 
+	trait=arbitrary 
+	trait=envious 
+	trait=gregarious 
+	trait=charitable 
+	trait=ill 
+	father=3102	#Eratosthenes
+	mother=3156	#Isidora
+	486.7.19={ birth=yes }
+	540.5.4={ death=yes }
+}
+3107={
+	name=Isidora
+	female=yes
+	dynasty=32
+	dna="lcpkinclidh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3102	#Eratosthenes
+	mother=3156	#Isidora
+	488.11.8={ birth=yes }
+	532.9.29={ death=yes }
+}
+3108={
+	name=Dareios
+	dynasty=32
+	dna="kkhmiflgghk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=4 
+	learning=5
+	trait=misguided_warrior 
+	trait=gregarious 
+	trait=humble 
+	trait=charitable 
+	trait=honest 
+	father=3102	#Eratosthenes
+	mother=3156	#Isidora
+	492.8.15={ birth=yes }
+	557.9.9={ death=yes }
+}
+3109={
+	name=Anaximenes
+	dynasty=32
+	dna="fmeamgcobah"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=8 
+	learning=6
+	trait=skilled_tactician 
+	trait=celibate 
+	trait=envious 
+	trait=temperate 
+	trait=honest 
+	trait=ambitious 
+	trait=ill 
+	father=3104	#Ekphantos
+	mother=3157	#Eutychia
+	509.10.6={ birth=yes }
+	569.2.5={ death=yes }
+}
+3110={
+	name=Eutychia
+	female=yes
+	dynasty=32
+	dna="cgpkgdccmnd"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3104	#Ekphantos
+	mother=3157	#Eutychia
+	511.1.3={ birth=yes }
+	579.6.19={ death=yes }
+}
+3111={
+	name=Xanthippe
+	female=yes
+	dynasty=32
+	dna="emfiilcgmfh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3104	#Ekphantos
+	mother=3157	#Eutychia
+	512.11.18={ birth=yes }
+	575.5.20={ death=yes }
+}
 3155={
 	name=Metrodora
 	female=yes
@@ -71,4 +212,20 @@
 	religion=hellenic_pagan
 	433.1.1={ birth=yes }
 	501.1.1={ death=yes }
+}
+3156={
+	name=Isidora
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	460.1.1={ birth=yes }
+	520.1.1={ death=yes }
+}
+3157={
+	name=Eutychia
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	480.1.1={ birth=yes }
+	543.1.1={ death=yes }
 }

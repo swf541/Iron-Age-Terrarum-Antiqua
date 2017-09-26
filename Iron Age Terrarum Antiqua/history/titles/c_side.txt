@@ -27,7 +27,6 @@
 	holder = 602 # Ptolemy II
 }
 523.1.1 = { # 253 BC
-	holder = 3101 # Lysias
 	liege = d_lycaonia
 }
 548.1.1 = { # 227 BC
@@ -39,6 +38,5 @@
 	liege = k_lydia
 }
 553.6.1 = { # 223 BC
-	holder = 3101 # Lysias
 	liege = d_lycaonia
 }

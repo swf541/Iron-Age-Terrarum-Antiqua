@@ -27,9 +27,14 @@
 	holder = 3101 # Lysias
 	liege = d_lycaonia
 }
-527.1.1 = { # 249 BC
-	holder = 60005 # Ariarathes III
-	liege = k_cappadocia
+505.1.1 = { # 271 BC
+	holder = 3102 # Eratosthenes
+}
+520.09.16 = { # 256 BC
+	holder = 3104 # Ekphantos
+}
+543.06.17 = { # 233 BC
+	holder = 3109 # Anaximenes
 }
 556.1.1 = { # 220 BC
 	holder = 60006 # Ariarathes IV

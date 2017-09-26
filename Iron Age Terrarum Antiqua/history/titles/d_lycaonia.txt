@@ -2,8 +2,17 @@
 	holder = 3101 # Lysias
 	liege = e_syria
 }
+505.1.1 = { # 271 BC
+	holder = 3102 # Eratosthenes
+}
+520.09.16 = { # 256 BC
+	holder = 3104 # Ekphantos
+}
 532.1.1 = { # Hierax' rebellion
 	liege = k_lydia
+}
+543.06.17 = { # 233 BC
+	holder = 3109 # Anaximenes
 }
 548.1.1 = { # 227 BC
 	holder = 0

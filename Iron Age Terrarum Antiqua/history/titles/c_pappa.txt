@@ -24,7 +24,6 @@
 	liege = d_phrygia
 }
 495.2.1 = { # 281 BC, Defeat of Lysimachus
-	holder = 3101 # Lysias
 	liege = d_lycaonia
 }
 548.1.1 = { # 227 BC
@@ -32,6 +31,5 @@
 	liege = k_pergamum
 }
 553.7.1 = { # 223 BC
-	holder = 3101 # Lysias
 	liege = d_lycaonia
 }
