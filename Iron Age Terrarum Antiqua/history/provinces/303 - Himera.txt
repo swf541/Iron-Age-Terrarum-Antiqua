@@ -1,19 +1,17 @@
 # 303 - Himera
 
 # County Title
-title = c_himera # for example c_corinth
+title = c_himera
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
-b_himera = castle
+max_settlements = 6
+b_himera_himera = castle
 b_chimaera_himera = city
 b_calacte_himera = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_himera2_himera = castle
+#b_himera3_himera = city
+#b_himera4_himera = temple
+#b_himera5_himera = castle
 
 # Misc
 culture = ionian

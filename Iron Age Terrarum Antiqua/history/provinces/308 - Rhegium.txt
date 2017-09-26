@@ -1,19 +1,17 @@
 # 308 - Rhegium
 
 # County Title
-title = c_rhegium # for example c_corinth
+title = c_rhegium
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
-b_rhegium = castle
+max_settlements = 6
+b_rhegium_rhegium = castle
 b_scyllaeum_rhegium = city
 b_locri_rhegium = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_rhegium1_rhegium = castle
+#b_rhegium2_rhegium = city
+#b_rhegium3_rhegium = temple
+#b_rhegium4_rhegium = castle
 
 # Misc
 culture = ionian

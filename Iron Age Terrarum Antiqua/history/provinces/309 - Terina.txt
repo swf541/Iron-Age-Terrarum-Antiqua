@@ -1,20 +1,17 @@
 # 309 - Terina
 
 # County Title
-title = c_terina # for example c_corinth
+title = c_terina
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
-b_terina = castle
+max_settlements = 6
+b_terina_terina = castle
 b_medma_terina = city
 b_caulonia_terina = temple
 b_scylletium_terina = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_terina1_terina = castle
+#b_terina2_terina = temple
+#b_terina3_terina = castle
 
 # Misc
 culture = doric

@@ -661,19 +661,38 @@ k_magna_graecia = {
 			color= { 65 190 175 }
 			color2= { 255 255 255 }
 			
-			b_himera = {
+			b_himera_himera = {
 			}
 			b_chimaera_himera = {
 			}
 			b_calacte_himera = {
 			}
+			b_himera2_himera = {
+			}
+			b_himera3_himera = {
+			}
+			b_himera4_himera = {
+			}
+			b_himera5_himera = {
+			}
 		}
-		
 		c_maleth = {
 			color={ 116 190 175 }
 			color2={ 255 255 255 }
 			
 			b_maleth_maleth = {
+			}
+			b_maleth1_maleth = {
+			}
+			b_maleth2_maleth = {
+			}
+			b_maleth3_maleth = {
+			}
+			b_maleth4_maleth = {
+			}
+			b_maleth5_maleth = {
+			}
+			b_maleth6_maleth = {
 			}
 		}
 	}
@@ -682,42 +701,82 @@ k_magna_graecia = {
 		color= { 75 175 225 }
 		color2= { 255 255 255 }
 		
+		capital = 306 # Sicels
+		
 		c_gela = {
 			color= { 85 165 225 }
 			color2= { 255 255 255 }
 			
-			b_gela = {
+			b_gela_gela = {
 			}
 			b_camarina_gela = {
 			}
 			b_casmenai_gela = {
+			}
+			b_gela2_gela = {
+			}
+			b_gela3_gela = {
+			}
+			b_gela4_gela = {
+			}
+			b_gela5_gela = {
 			}
 		}
 		c_syracuse = {
 			color= { 75 175 225 }
 			color2= { 255 255 255 }
 			
-			b_syracuse = {
+			b_syracuse_syrcuse = {
 			}
 			b_leontinoi_syracuse = {
 			}
 			b_catania_syracuse = {
+			}
+			b_syracuse2_syrcuse = {
+			}
+			b_syracuse3_syrcuse = {
+			}
+			b_syracuse4_syrcuse = {
+			}
+			b_syracuse5_syrcuse = {
 			}
 		}
 		c_sicels = {
 			color= { 85 175 215 }
 			color2= { 255 255 255 }
 			
-			b_agira = {
+			b_agira_agira = {
+			}
+			b_sicels_sicels = {
+			}
+			b_sicels1_sicels = {
+			}
+			b_sicels2_sicels = {
+			}
+			b_sicels3_sicels = {
+			}
+			b_sicels4_sicels = {
+			}
+			b_sicels5_sicels = {
 			}
 		}
 		c_messana = {
 			color= { 75 165 235 }
 			color2= { 255 255 255 }
 			
-			b_messana = {			
+			b_messana_messana = {			
 			}
 			b_tauromenium_messana = {
+			}
+			b_messana1_messana = {
+			}
+			b_messana2_messana = {
+			}
+			b_messana3_messana = {
+			}
+			b_messana4_messana = {
+			}
+			b_messana5_messana = {
 			}
 		}
 	}
@@ -725,28 +784,44 @@ k_magna_graecia = {
 		color= { 75 150 225 }
 		color2= { 255 255 255 }
 		
+		capital = 309 # Terina
+		
 		c_rhegium = {
 			color= { 65 140 225 }
 			color2= { 255 255 255 }
 			
-			b_rhegium = {
+			b_rhegium_rhegium = {
 			}
 			b_scyllaeum_rhegium = {
 			}
 			b_locri_rhegium = {
+			}
+			b_rhegium1_rhegium = {
+			}
+			b_rhegium2_rhegium = {
+			}
+			b_rhegium3_rhegium = {
+			}
+			b_rhegium4_rhegium = {
 			}
 		}
 		c_terina = {
 			color= { 85 160 225 }
 			color2= { 255 255 255 }
 			
-			b_terina = {
+			b_terina_terina = {
 			}
 			b_medma_terina = {
 			}
 			b_caulonia_terina = {
 			}
 			b_scylletium_terina = {
+			}
+			b_terina1_terina = {
+			}
+			b_terina2_terina = {
+			}
+			b_terina3_terina = {
 			}
 		}
 		c_croton = {
