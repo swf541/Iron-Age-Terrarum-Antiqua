@@ -16,5 +16,139 @@
 	trait=slothful 
 	trait=lisp 
 	400.9.12={ birth=yes }
+	421.1.1={ add_spouse=1231283 }
 	448.8.6={ death=yes }
+}
+1231231={
+	name=Ailgus
+	dynasty=223029
+	dna="neblconjhdp"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=8 
+	learning=7
+	trait=detached_priest 
+	trait=hedonist 
+	trait=chaste 
+	trait=craven 
+	trait=trusting 
+	trait=stressed 
+	father=1231230	#Cilléne
+	mother=1231283	#Sisuile
+	424.6.7={ birth=yes }
+	445.1.1={ add_spouse=1231284 }
+	472.2.17={ death=yes }
+}
+1231232={
+	name=Sisuile
+	female=yes
+	dynasty=223029
+	dna="hmbbcbnlgkg"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231230	#Cilléne
+	mother=1231283	#Sisuile
+	429.1.12={ birth=yes }
+	476.2.26={ death=yes }
+}
+1231233={
+	name=Rumann
+	dynasty=223029
+	dna="pbpoeenkgdo"
+	culture=irish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=7 
+	learning=6
+	trait=misguided_warrior 
+	trait=envious 
+	trait=shy 
+	father=1231230	#Cilléne
+	mother=1231283	#Sisuile
+	433.2.15={ birth=yes }
+	496.8.26={ death=yes }
+}
+1231234={
+	name=Selblaith
+	female=yes
+	dynasty=223029
+	dna="keblhonohbe"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231231	#Ailgus
+	mother=1231284	#Selblaith
+	448.1.2={ birth=yes }
+	495.6.17={ death=yes }
+}
+1231235={
+	name=Taithlech
+	dynasty=223029
+	dna="njdgcaacddm"
+	culture=irish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=5 
+	learning=5
+	trait=misguided_warrior 
+	trait=gardener 
+	trait=zealous 
+	trait=arbitrary 
+	trait=greedy 
+	trait=ambitious t
+	rait=possessed 
+	father=1231231	#Ailgus
+	mother=1231284	#Selblaith
+	451.1.16={ birth=yes }
+	498.11.27={ death=yes }
+}
+1231236={
+	name=Máel-Ruanaid
+	dynasty=223029
+	dna="bpbfaobjbaj"
+	culture=irish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=grey_eminence 
+	trait=arbitrary 
+	trait=kind 
+	trait=gregarious 
+	father=1231231	#Ailgus
+	mother=1231284	#Selblaith
+	454.11.15={ birth=yes }
+	518.3.30={ death=yes }
+}
+1231283={
+	name=Sisuile
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	400.9.12={ birth=yes }
+	448.8.6={ death=yes }
+}
+1231284={
+	name=Selblaith
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	424.6.7={ birth=yes }
+	472.2.17={ death=yes }
+}
+1231285={
+	name=Selblaith
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	424.6.7={ birth=yes }
+	472.2.17={ death=yes }
 }

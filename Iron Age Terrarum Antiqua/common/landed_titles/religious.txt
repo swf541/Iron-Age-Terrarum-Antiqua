@@ -41,6 +41,10 @@ d_kohen_gadol = {
 	
 	# Controls a religion
 	controls_religion = jewish
+
+	allow = {
+		religion = jewish
+	}
 	
 	religion = jewish
 	

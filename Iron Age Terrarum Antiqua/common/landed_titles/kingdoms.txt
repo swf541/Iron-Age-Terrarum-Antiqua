@@ -239,10 +239,6 @@ k_epirus = {
 	
 	capital = 29 # Ambracia
 	
-	allow = {
-		culture = doric
-	}
-	
 	d_epirus = {
 		color= { 0 175 75 }
 		color2= { 255 255 255 }
@@ -313,7 +309,6 @@ k_odrysia = {
 	capital = 39 # Seuthopolis
 	
 	allow = {
-		culture = thracian
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }
@@ -627,10 +622,6 @@ k_magna_graecia = {
 	color2= { 255 255 255 }
 	
 	capital = 309 # Terina
-	
-	allow = {
-		culture_group = hellenic
-	}
 	
 	d_sicani = {
 		color= { 75 200 175 }
@@ -1801,7 +1792,6 @@ k_cappadocia = {
 	capital = 117 # Mazaka
 	
 	allow = {
-		culture_group = anatolian_group
 		not = { religion = anatolian_main }
 		liege = {
 			not = { has_landed_title = e_persia }
@@ -2074,7 +2064,6 @@ k_egypt = {
 	capital = 141 # Memphis
 	
 	allow = {
-		culture_group = eastern_african
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }
@@ -2946,10 +2935,6 @@ k_assyria = {
 	capital = 191 # Nineveh
 	
 	allow = {
-		or = {
-			culture = aramaic
-			culture = akkadian
-		}
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }
@@ -3172,7 +3157,6 @@ k_babylonia = {
 	capital = 195 # Babylon
 	
 	allow = {
-		culture = akkadian
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }
@@ -3342,10 +3326,6 @@ k_armenia = {
 	capital = 218 # Armavir
 	
 	allow = {
-		or = {
-			culture = armenian
-			culture = albanian
-		}
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }
@@ -3656,13 +3636,6 @@ k_georgia = {
 	
 	capital = 223 # Mtskheta
 	
-	allow = {
-		or = {
-			culture = georgian
-			culture = albanian
-		}
-	}
-	
 	d_iberia = {
 		color= { 100 0 100 }
 		color2= { 255 255 255 }
@@ -3837,7 +3810,6 @@ k_macedon = {
 	capital = 34 # Pella
 	
 	allow = {
-		culture = macedonian
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }
@@ -3932,10 +3904,6 @@ k_macedon = {
 k_illyria = {
 	color= { 25 255 125 }
 	color2= { 255 255 255 }
-	
-	allow = {
-		culture_group = illyrian_group
-	}
 	
 	d_dardania = {
 		color= { 25 255 125 }
@@ -4437,12 +4405,6 @@ k_greece = {
 	color2= { 255 255 255 }
 	
 	allow = {
-		or = {
-			culture = aeolian
-			culture = arcadian
-			culture = doric
-			culture = ionian
-		}
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }
@@ -4954,10 +4916,6 @@ k_nabataea = {
 	color= { 200 150 0 }
 	color2= { 255 255 255 }
 	
-	allow = {
-		culture = nabataean
-	}
-	
 	d_sinai = {
 		color= { 200 150 25 }
 		color2= { 255 255 255 }
@@ -5165,14 +5123,6 @@ k_nabataea = {
 k_italy = {
 	color= { 125 0 0 }
 	color2= { 255 255 255 }
-	
-	allow = {
-		or = {
-			culture_group = italian
-			culture_group = tyrhenian
-			culture_group = north_italic
-		}
-	}
 	
 	d_campania = {
 		color= { 125 0 25 }
@@ -5495,13 +5445,6 @@ k_italy = {
 k_cisalpine_gaul = {
 	color= { 100 255 75 }
 	color2= { 255 255 255 }
-	
-	allow = {
-		or = {
-			culture = gaul
-			culture = ligurian
-		}
-	}
 	
 	d_liguria = {
 		color= { 100 225 75 }
@@ -5826,10 +5769,6 @@ k_carthage = {
 	color2= { 255 255 255 }
 	
 	capital = 360 # Carthage
-	
-	allow = {
-		culture = punic
-	}
 	
 	d_elymians = {
 		color= { 255 255 125 }
@@ -6213,10 +6152,6 @@ k_numidia = {
 	
 	capital = 371 # Cirta
 	
-	allow = {
-		culture = berber
-	}
-	
 	d_atlas = {
 		color= { 255 200 50 }
 		color2= { 255 255 255 }
@@ -6443,10 +6378,6 @@ k_mauretania = {
 	
 	capital = 866 # Volubis
 	
-	allow = {
-		culture = berber
-	}
-	
 	d_bavaresis = { # Made up from Bavares tribe
 		color= { 200 150 75 }
 		color2= { 255 255 255 }
@@ -6597,13 +6528,6 @@ k_dacia = {
 	color2= { 255 255 255 }
 	
 	capital = 408 # Sarmizegetusa
-	
-	allow = {
-		or = {
-			culture = dacian
-			culture = thracian
-		}
-	}
 	
 	d_dacia_paropos = {
 		color= { 50 25 0 }
@@ -6872,13 +6796,6 @@ k_dacia = {
 k_gallia = {
 	color= { 50 200 0 }
 	color2= { 255 255 255 }
-	
-	allow = {
-		or = {
-			culture = gaul
-			culture = ligurian
-		}
-	}
 	
 	d_gallia_lugdunensis = {
 		color= { 50 200 0 }
@@ -7176,7 +7093,6 @@ k_kush = {
 	capital = 444 # Meroe
 	
 	allow = {
-		culture = nubian
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }
@@ -7295,13 +7211,6 @@ k_kush = {
 k_arabia = {
 	color={ 200 175 100 }
 	color2={ 255 255 255 }
-	
-	allow = {
-		or = {
-			culture = nabataean
-			culture = arabic
-		}
-	}
 	
 	d_ma_in = {
 		color={ 200 175 125 }
@@ -7541,10 +7450,6 @@ k_maka = {
 	color2={ 255 255 255 }
 	
 	allow = {
-		or = {
-			culture = nabataean
-			culture = arabic
-		}
 		liege = {
 			not = { has_landed_title = e_persia }
 			not = { has_landed_title = e_macedonia }

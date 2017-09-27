@@ -1,3 +1,9 @@
 401.1.1 = { # 375 BC
 	holder = 1231230 # Cilléne
 }
+448.08.06 = { # 328 BC
+	holder = 1231231 # Ailgus
+}
+472.02.17 = { # 304 BC
+	holder = 1231235 # Taithlech
+}

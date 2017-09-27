@@ -30,13 +30,6 @@ e_persia = {
 	
 	capital = 253 # Pasargadae
 	
-	allow = {
-		or = {
-			culture_group = iranian
-			culture = armenian
-		}
-	}
-	
 	k_media = {
 		color= { 200 0 75 }
 		color2= { 255 255 255 }
@@ -47,7 +40,6 @@ e_persia = {
 		arian = Mada
 	
 		allow = {
-			culture_group = iranian
 			liege = {
 				not = { has_landed_title = e_persia }
 				not = { has_landed_title = e_macedonia }
@@ -362,7 +354,6 @@ e_persia = {
 		arian = Parsa
 		
 		allow = {
-			culture_group = iranian
 			liege = {
 				not = { has_landed_title = e_persia }
 				not = { has_landed_title = e_macedonia }
@@ -587,7 +578,6 @@ e_persia = {
 		arian = Ariana
 	
 		allow = {
-			culture_group = iranian
 			liege = {
 				not = { has_landed_title = e_persia }
 				not = { has_landed_title = e_macedonia }
@@ -805,7 +795,6 @@ e_persia = {
 		capital = 272 # Bactra
 		
 		allow = {
-			culture_group = iranian
 			liege = {
 				not = { has_landed_title = e_persia }
 				not = { has_landed_title = e_macedonia }
@@ -1044,25 +1033,11 @@ e_india = {
 	
 	capital = 719 # Pataliputra
 	
-	allow = {
-		or = {
-			culture_group = indian
-			culture_group = dravidian
-		}
-	}
-	
 	k_sri_lanka = {
 		color = { 221 187 80 }
 		color2={ 255 255 255 }
 		
 		capital = 660 # Anuradhapura
-		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
 		
 		d_lanka = {
 			color = { 231 195 85 }
@@ -1148,14 +1123,7 @@ e_india = {
 		color={ 200 25 65 }
 		color2={ 255 255 255 }
 		
-		capital = 666 # Madurai, THE NUMBER OF THE BEAST!!
-		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
+		capital = 666 # Madurai
 		
 		d_dravida = {
 			color={ 140 65 65 }
@@ -1346,13 +1314,6 @@ e_india = {
 		
 		capital = 682 # Taiakata
 		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
-		
 		d_tulunga = {
 			color={ 110 25 2 }
 			color2={ 255 255 255 }
@@ -1453,13 +1414,6 @@ e_india = {
 		color2={ 220 220 0 }
 		
 		capital = 695 # Kalingapur
-		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
 		
 		d_odra = {
 			color={ 185 39 45 }
@@ -1614,13 +1568,6 @@ e_india = {
 		
 		capital = 704 # Tamralipti
 		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
-		
 		d_vanga = {
 			color = { 30 125 55 }
 			color2={ 255 255 255 }
@@ -1724,13 +1671,6 @@ e_india = {
 		
 		capital = 719 # Pataliputra
 		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
-		
 		d_maghada = {
 			color = { 35 165 35 }
 			color2= { 255 255 255 }
@@ -1827,13 +1767,6 @@ e_india = {
 		
 		capital = 712 # Kapilavastu
 		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
-		
 		d_videha = {
 			color={ 15 140 50 }
 			color2={ 255 255 255 }
@@ -1923,13 +1856,6 @@ e_india = {
 		color2={ 255 255 255 }
 		
 		capital = 728 # Surashtra
-		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
 		
 		d_anarta = {
 			color={ 195 50 10 }
@@ -2025,13 +1951,6 @@ e_india = {
 		color2={ 255 255 255 }
 		
 		capital = 739 # Manusa
-		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
 		
 		d_panchala = {
 			color={ 100 25 3 }
@@ -2167,13 +2086,6 @@ e_india = {
 		
 		capital = 292 # Taxila
 		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
-		
 		d_nishkuta = {
 			color={ 234 100 21 }
 			color2={ 255 255 255 }
@@ -2277,13 +2189,6 @@ e_india = {
 		color2={ 255 255 255 }
 		
 		capital = 289 # Asibipura
-		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
 		
 		d_sivi = {
 			color={ 194 67 10 }
@@ -2389,13 +2294,6 @@ e_india = {
 		
 		capital = 287 # Nagramma
 		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
-		
 		d_sindhu = {
 			color={ 240 135 20 }
 			color2={ 255 255 255 }
@@ -2486,13 +2384,6 @@ e_india = {
 		
 		capital = 760 # Viratapuri
 		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
-		
 		d_matsya = {
 			color={ 245 200 20 }
 			color2={ 255 255 255 }
@@ -2581,13 +2472,6 @@ e_india = {
 		color2={ 255 255 255 }
 		
 		capital = 766 # Janasthana
-		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
 		
 		d_surparaka = {
 			color={ 155 5 30 }
@@ -2743,13 +2627,6 @@ e_india = {
 		
 		capital = 786 # Sripura
 		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
-		
 		d_kekala = {
 			color={ 58 178 41 }
 			color2={ 255 255 255 }
@@ -2810,13 +2687,6 @@ e_india = {
 		color2={ 255 255 255 }
 		
 		capital = 772 # Ujjayani
-		
-		allow = {
-			or = {
-				culture_group = indian
-				culture_group = dravidian
-			}
-		}
 		
 		d_malava = {
 			color={ 225 155 77 }
