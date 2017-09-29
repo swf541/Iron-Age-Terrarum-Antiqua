@@ -36,6 +36,18 @@
 543.06.17 = { # 233 BC
 	holder = 3109 # Anaximenes
 }
-556.1.1 = { # 220 BC
-	holder = 60006 # Ariarathes IV
+569.02.05 = { # 207 BC
+	holder = 3113 # Euphemios
+}
+590.12.31 = { # 186 BC
+	holder = 3117 # Hermias
+}
+625.01.08 = { # 151 BC
+	holder = 3123 # Aristarchos
+}
+627.03.04 = { # 149 BC
+	holder = 3129 # Hieronymos
+}
+658.02.06 = { # 118 BC
+	holder = 3136 # Drakon
 }

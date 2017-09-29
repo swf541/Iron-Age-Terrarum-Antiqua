@@ -7,3 +7,6 @@
 472.02.17 = { # 304 BC
 	holder = 1231235 # Taithlech
 }
+498.11.27 = { # 278 BC
+	holder = 1231238 # Máel-Fothartaig
+}

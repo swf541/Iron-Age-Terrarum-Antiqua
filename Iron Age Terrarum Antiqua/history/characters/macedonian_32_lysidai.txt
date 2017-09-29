@@ -179,6 +179,7 @@
 	father=3104	#Ekphantos
 	mother=3157	#Eutychia
 	509.10.6={ birth=yes }
+	530.1.1={ add_spouse=3158 }
 	569.2.5={ death=yes }
 }
 3110={
@@ -205,6 +206,428 @@
 	512.11.18={ birth=yes }
 	575.5.20={ death=yes }
 }
+3112={
+	name=Gaiane
+	female=yes
+	dynasty=32
+	dna="fmemgecpbah"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3109	#Anaximenes
+	mother=3158	#Gaiane
+	528.2.8={ birth=yes }
+	577.7.6={ death=yes }
+}
+3113={
+	name=Euphemios
+	dynasty=32
+	dna="fmhkancongh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=6 
+	learning=8
+	trait=midas_touched 
+	trait=slothful 
+	trait=zealous 
+	father=3109	#Anaximenes
+	mother=3158	#Gaiane
+	531.8.24={ birth=yes }
+	552.1.1={ add_spouse=3159 }
+	590.12.31={ death=yes }
+}
+3114={
+	name=Xenia
+	female=yes
+	dynasty=32
+	dna="fmonfgcobah"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3109	#Anaximenes
+	mother=3158	#Gaiane
+	534.3.1={ birth=yes }
+	586.12.16={ death=yes }
+}
+3115={
+	name=Eumelia
+	female=yes
+	dynasty=32
+	dna="fplamgcibak"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3109	#Anaximenes
+	mother=3158	#Gaiane
+	536.12.20={ birth=yes }
+	611.1.20={ death=yes }
+}
+3116={
+	name=Alexandra
+	female=yes
+	dynasty=32
+	dna="kemcmjcdbch"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3109	#Anaximenes
+	mother=3158	#Gaiane
+	539.11.11={ birth=yes }
+	579.10.12={ death=yes }
+}
+3117={
+	name=Hermias
+	dynasty=32
+	dna="pakconngngh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=6 
+	learning=7
+	trait=martial_cleric 
+	trait=mystic 
+	trait=gregarious 
+	trait=greedy 
+	trait=kind 
+	trait=diligent 
+	trait=deceitful 
+	trait=ill 
+	father=3113	#Euphemios
+	mother=3159	#Euthalia
+	555.12.4={ birth=yes }
+	576.1.1={ add_spouse=3160 }
+	625.1.8={ death=yes }
+}
+3118={
+	name=Euthalia
+	female=yes
+	dynasty=32
+	dna="acbepdbjaap"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3113	#Euphemios
+	mother=3159	#Euthalia
+	558.8.10={ birth=yes }
+	607.10.19={ death=yes }
+}
+3119={
+	name=Eutychos
+	dynasty=32
+	dna="fahcancongh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=5 
+	learning=4
+	trait=grey_eminence 
+	trait=poet 
+	trait=gluttonous 
+	trait=patient 
+	trait=envious 
+	trait=content 
+	father=3113	#Euphemios
+	mother=3159	#Euthalia
+	561.11.11={ birth=yes }
+	624.8.16={ death=yes }
+}
+3120={
+	name=Zosime
+	female=yes
+	dynasty=32
+	dna="fmhkabcohfa"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3113	#Euphemios
+	mother=3159	#Euthalia
+	564.3.27={ birth=yes }
+	632.11.23={ death=yes }
+}
+3121={
+	name=Zenobia
+	female=yes
+	dynasty=32
+	dna="bmnkancfigk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3113	#Euphemios
+	mother=3159	#Euthalia
+	568.11.13={ birth=yes }
+	637.4.12={ death=yes }
+}
+3122={
+	name=Gaiane
+	female=yes
+	dynasty=32
+	dna="hhpclnignbh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3117	#Hermias
+	mother=3160	#Gaiane
+	582.2.22={ birth=yes }
+	636.5.22={ death=yes }
+}
+3123={
+	name=Aristarchos
+	dynasty=32
+	dna="bfkmonabngb"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=7 
+	learning=6
+	trait=intricate_webweaver 
+	trait=trusting 
+	trait=chaste 
+	trait=cruel 
+	trait=gluttonous 
+	trait=kind 
+	father=3117	#Hermias
+	mother=3160	#Gaiane
+	584.12.5={ birth=yes }
+	605.1.1={ add_spouse=3161 }
+	627.3.4={ death=yes }
+}
+3124={
+	name=Chrysanthe
+	female=yes
+	dynasty=32
+	dna="pdkcogpanah"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3117	#Hermias
+	mother=3160	#Gaiane
+	587.7.5={ birth=yes }
+	660.9.2={ death=yes }
+}
+3125={
+	name=Alkippe
+	female=yes
+	dynasty=32
+	dna="ppjmpkagnbg"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3117	#Hermias
+	mother=3160	#Gaiane
+	590.1.2={ birth=yes }
+	664.2.28={ death=yes }
+}
+3126={
+	name=Neophytos
+	dynasty=32
+	dna="mgmdmnngkgi"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=6 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=5 
+	learning=5
+	trait=flamboyant_schemer 
+	trait=hedonist 
+	trait=envious 
+	trait=temperate 
+	trait=proud 
+	father=3117	#Hermias
+	mother=3160	#Gaiane
+	592.9.16={ birth=yes }
+	653.7.5={ death=yes }
+}
+3127={
+	name=Kallistrate
+	female=yes
+	dynasty=32
+	dna="majcfnnonah"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3117	#Hermias
+	mother=3160	#Gaiane
+	595.7.27={ birth=yes }
+	670.6.25={ death=yes }
+}
+3128={
+	name=Theodora
+	female=yes
+	dynasty=32
+	dna="dakcondongh"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3117	#Hermias
+	mother=3160	#Gaiane
+	597.1.25={ birth=yes }
+	665.1.17={ death=yes }
+}
+3129={
+	name=Hieronymos
+	dynasty=32
+	dna="efgionnblkk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=6 
+	learning=6
+	trait=midas_touched 
+	trait=cruel 
+	trait=craven 
+	trait=slothful 
+	trait=lunatic 
+	father=3123	#Aristarchos
+	mother=3161	#Aglaia
+	605.1.26={ birth=yes }
+	626.1.1={ add_spouse=3162 }
+	658.2.6={ death=yes }
+}
+3130={
+	name=Aglaia
+	female=yes
+	dynasty=32
+	dna="kfkmjdpbnib"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3123	#Aristarchos
+	mother=3161	#Aglaia
+	607.10.4={ birth=yes }
+	661.4.24={ death=yes }
+}
+3131={
+	name=Pelagia
+	female=yes
+	dynasty=32
+	dna="bfkgnnabnop"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3123	#Aristarchos
+	mother=3161	#Aglaia
+	611.4.19={ birth=yes }
+	680.5.29={ death=yes }
+}
+3132={
+	name=Phoibe
+	female=yes
+	dynasty=32
+	dna="ofhmacabjgj"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3123	#Aristarchos
+	mother=3161	#Aglaia
+	614.5.18={ birth=yes }
+	659.7.21={ death=yes }
+}
+3133={
+	name=Herodotus
+	dynasty=32
+	dna="bfkmondfnbd"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=4 
+	learning=8
+	trait=misguided_warrior 
+	trait=greedy 
+	trait=diligent 
+	trait=proud 
+	trait=temperate 
+	trait=gregarious 
+	trait=stressed 
+	father=3123	#Aristarchos
+	mother=3161	#Aglaia
+	616.7.20={ birth=yes }
+	684.4.28={ death=yes }
+}
+3134={
+	name=Zenobia
+	female=yes
+	dynasty=32
+	dna="lfkmocaecgd"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3123	#Aristarchos
+	mother=3161	#Aglaia
+	619.6.7={ birth=yes }
+	674.6.16={ death=yes }
+}
+3135={
+	name=Loukianos
+	dynasty=32
+	dna="bfkmonlaigc"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=tough_soldier 
+	trait=craven 
+	trait=greedy 
+	trait=shy 
+	trait=diligent 
+	father=3123	#Aristarchos
+	mother=3161	#Aglaia
+	620.1.11={ birth=yes }
+	670.12.20={ death=yes }
+}
+3136={
+	name=Drakon
+	dynasty=32
+	dna="pcgkonnnfkk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=6 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=5 
+	learning=8
+	trait=flamboyant_schemer 
+	trait=hunter 
+	trait=content 
+	trait=paranoid 
+	father=3129	#Hieronymos
+	mother=3162	#Sophia
+	631.3.15={ birth=yes }
+	684.5.14={ death=yes }
+}
+3137={
+	name=Sophia
+	female=yes
+	dynasty=32
+	dna="pfgjknobllk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3129	#Hieronymos
+	mother=3162	#Sophia
+	633.7.13={ birth=yes }
+	691.11.18={ death=yes }
+}
+3138={
+	name=Aristarchos
+	dynasty=32
+	dna="eficonnblkk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=5 
+	learning=4
+	trait=martial_cleric 
+	trait=honest 
+	trait=cruel 
+	trait=humble 
+	trait=lustful 
+	father=3129	#Hieronymos
+	mother=3162	#Sophia
+	635.7.24={ birth=yes }
+	689.7.20={ death=yes }
+}
 3155={
 	name=Metrodora
 	female=yes
@@ -228,4 +651,44 @@
 	religion=hellenic_pagan
 	480.1.1={ birth=yes }
 	543.1.1={ death=yes }
+}
+3158={
+	name=Gaiane
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	509.1.1={ birth=yes }
+	569.1.1={ death=yes }
+}
+3159={
+	name=Euthalia
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	531.1.1={ birth=yes }
+	590.1.1={ death=yes }
+}
+3160={
+	name=Gaiane
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	555.1.1={ birth=yes }
+	625.1.1={ death=yes }
+}
+3161={
+	name=Aglaia
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	584.1.1={ birth=yes }
+	627.1.1={ death=yes }
+}
+3162={
+	name=Sophia
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	605.1.1={ birth=yes }
+	658.1.1={ death=yes }
 }

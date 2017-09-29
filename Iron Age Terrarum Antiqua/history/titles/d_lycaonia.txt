@@ -15,7 +15,6 @@
 	holder = 3109 # Anaximenes
 }
 548.1.1 = { # 227 BC
-	holder = 0
 	liege = 0
 }
 553.4.1 = { # 223 BC
@@ -23,4 +22,19 @@
 }
 560.5.1 = { # 216 BC
 	liege = e_syria
+}
+569.02.05 = { # 207 BC
+	holder = 3113 # Euphemios
+}
+590.12.31 = { # 186 BC
+	holder = 3117 # Hermias
+}
+625.01.08 = { # 151 BC
+	holder = 3123 # Aristarchos
+}
+627.03.04 = { # 149 BC
+	holder = 3129 # Hieronymos
+}
+658.02.06 = { # 118 BC
+	holder = 3136 # Drakon
 }
