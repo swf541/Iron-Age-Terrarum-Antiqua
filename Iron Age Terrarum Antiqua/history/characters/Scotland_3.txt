@@ -101,8 +101,8 @@
 	trait=zealous 
 	trait=arbitrary 
 	trait=greedy 
-	trait=ambitious t
-	rait=possessed 
+	trait=ambitious 
+	trait=possessed 
 	father=1231231	#Ailgus
 	mother=1231284	#Selblaith
 	451.1.16={ birth=yes }

@@ -20,7 +20,6 @@
 	liege = e_asia
 }
 475.1.1 = { # 301 BC
-	holder = 3301
 	liege = d_phrygia
 }
 495.2.1 = { # 281 BC, Defeat of Lysimachus
