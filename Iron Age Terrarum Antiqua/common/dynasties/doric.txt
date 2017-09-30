@@ -208,5 +208,7 @@
 	name = "Magonid"
 	culture = punic
 }
-
-
+2050 = {
+	name = "Hekatomnidai"
+	culture = doric
+}
