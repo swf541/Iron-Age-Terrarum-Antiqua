@@ -5,17 +5,16 @@ title = c_selinus
 
 # Settlements
 max_settlements = 6
-b_selinus_selinus = castle
-b_heraclea_selinus = city
-#b_selinus2_selinus = temple
-#b_selinus3_selinus = castle
-#b_selinus4_selinus = city
-#b_selinus5_selinus = temple
-#b_selinus6_selinus = castle
+b_selinus = castle
+b_heraclea = city
+#b_selinus2 = temple
+#b_selinus3 = castle
+#b_selinus4 = city
+#b_selinus5 = temple
+#b_selinus6 = castle
 
 # Misc
 culture = ionian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

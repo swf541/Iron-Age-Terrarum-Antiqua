@@ -10,3 +10,9 @@
 498.11.27 = { # 278 BC
 	holder = 1231238 # Máel-Fothartaig
 }
+546.10.17 = { # 230 BC
+	holder = 1231240 # Eochu
+}
+565.11.24 = { # 211 BC
+	holder = 1231245 # Séafra
+}

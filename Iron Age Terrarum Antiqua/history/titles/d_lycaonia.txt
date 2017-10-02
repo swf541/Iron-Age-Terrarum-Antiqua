@@ -38,3 +38,15 @@
 658.02.06 = { # 118 BC
 	holder = 3136 # Drakon
 }
+684.05.14 = { # 92 BC
+	holder = 3139 # Glaukon
+}
+730.02.26 = { # 46 BC
+	holder = 3144 # Aischines
+}
+735.05.10 = { # 41 BC
+	holder = 3146 # Laomedon
+}
+764.02.22 = { # 12 BC
+	holder = 3150 # Sosigenes
+}

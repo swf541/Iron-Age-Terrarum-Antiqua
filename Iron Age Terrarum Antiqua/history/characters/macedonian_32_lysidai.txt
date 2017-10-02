@@ -593,6 +593,7 @@
 	father=3129	#Hieronymos
 	mother=3162	#Sophia
 	631.3.15={ birth=yes }
+	652.1.1={ add_spouse=3163 }
 	684.5.14={ death=yes }
 }
 3137={
@@ -627,6 +628,269 @@
 	mother=3162	#Sophia
 	635.7.24={ birth=yes }
 	689.7.20={ death=yes }
+}
+3139={
+	name=Glaukon
+	dynasty=32
+	dna="icgkopnnhck"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=4 
+	learning=4
+	trait=intricate_webweaver 
+	trait=trusting 
+	trait=charitable 
+	trait=deceitful 
+	trait=cruel 
+	father=3136	#Drakon
+	mother=3163	#Artemisia
+	657.10.16={ birth=yes }
+	678.1.1={ add_spouse=3164 }
+	730.2.26={ death=yes }
+}
+3140={
+	name=Epikouros
+	dynasty=32
+	dna="ocgkononfnk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=elusive_shadow 
+	trait=impaler 
+	trait=paranoid 
+	trait=envious 
+	trait=chaste 
+	trait=proud 
+	trait=patient 
+	trait=temperate 
+	trait=wounded 
+	father=3136	#Drakon
+	mother=3163	#Artemisia
+	660.11.8={ birth=yes }
+	717.2.16={ death=yes }
+}
+3141={
+	name=Hieron
+	dynasty=32
+	dna="pjgkonnnhkk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=4 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=8 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=zealous 
+	trait=chaste 
+	trait=humble 
+	trait=envious 
+	trait=paranoid 
+	father=3136	#Drakon
+	mother=3163	#Artemisia
+	664.9.9={ birth=yes }
+	727.5.18={ death=yes }
+}
+3142={
+	name=Artemisia
+	female=yes
+	dynasty=32
+	dna="cbnkonnifje"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3136	#Drakon
+	mother=3163	#Artemisia
+	668.6.3={ birth=yes }
+	716.7.31={ death=yes }
+}
+3143={
+	name=Diokles
+	dynasty=32
+	dna="pfgkoennfnk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=5 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=6 
+	learning=4
+	trait=detached_priest 
+	trait=celibate 
+	trait=chaste 
+	trait=cruel 
+	trait=brave 
+	trait=proud 
+	father=3136	#Drakon
+	mother=3163	#Artemisia
+	670.2.18={ birth=yes }
+	742.6.17={ death=yes }
+}
+3144={
+	name=Aischines
+	dynasty=32
+	dna="jfckmpnndkk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=6 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=4 
+	learning=8
+	trait=indulgent_wastrel 
+	trait=hedonist 
+	trait=gluttonous 
+	trait=arbitrary 
+	trait=chaste 
+	trait=diligent 
+	father=3139	#Glaukon
+	mother=3164	#Sappho
+	682.4.9={ birth=yes }
+	703.1.1={ add_spouse=3165 }
+	735.5.10={ death=yes }
+}
+3145={
+	name=Sappho
+	female=yes
+	dynasty=32
+	dna="ncgefpnnhcc"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3139	#Glaukon
+	mother=3164	#Sappho
+	686.5.7={ birth=yes }
+	775.5.7={ death=yes }
+}
+3146={
+	name=Laomedon
+	dynasty=32
+	dna="jkcfmknadkp"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=7 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=4 
+	learning=4
+	trait=charismatic_negotiator 
+	trait=lustful 
+	trait=cruel 
+	trait=lunatic 
+	father=3144	#Aischines
+	mother=3165	#Eirene
+	706.3.21={ birth=yes }
+	727.1.1={ add_spouse=3166 }
+	764.2.22={ death=yes }
+}
+3147={
+	name=Eirene
+	female=yes
+	dynasty=32
+	dna="lhckmpnelfk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3144	#Aischines
+	mother=3165	#Eirene
+	712.2.1={ birth=yes }
+	745.7.20={ death=yes }
+}
+3148={
+	name=Aspasia
+	female=yes
+	dynasty=32
+	dna="eickopnndkj"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3144	#Aischines
+	mother=3165	#Eirene
+	715.12.12={ birth=yes }
+	776.10.20={ death=yes }
+}
+3149={
+	name=Antigone
+	female=yes
+	dynasty=32
+	dna="efcpmpnnekk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3144	#Aischines
+	mother=3165	#Eirene
+	720.5.1={ birth=yes }
+	771.6.5={ death=yes }
+}
+3150={
+	name=Sosigenes
+	dynasty=32
+	dna="jkoekkoeekk"
+	culture=macedonian 
+	religion=hellenic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=4 
+	learning=6
+	trait=grey_eminence 
+	trait=trusting 
+	trait=chaste 
+	trait=gregarious 
+	father=3146	#Laomedon
+	mother=3166	#Theodosia
+	730.2.8={ birth=yes }
+	780.2.24={ death=yes }
+}
+3151={
+	name=Theodosia
+	female=yes
+	dynasty=32
+	dna="akcfmknackp"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3146	#Laomedon
+	mother=3166	#Theodosia
+	732.6.1={ birth=yes }
+	818.1.18={ death=yes }
+}
+3152={
+	name=Agathe
+	female=yes
+	dynasty=32
+	dna="jkcfghnankl"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3146	#Laomedon
+	mother=3166	#Theodosia
+	734.11.18={ birth=yes }
+	802.6.23={ death=yes }
+}
+3153={
+	name=Helene
+	female=yes
+	dynasty=32
+	dna="lknfmkipckj"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3146	#Laomedon
+	mother=3166	#Theodosia
+	738.5.3={ birth=yes }
+	772.4.19={ death=yes }
+}
+3154={
+	name=Elpis
+	female=yes
+	dynasty=32
+	dna="jknfibdoefp"
+	culture=macedonian 
+	religion=hellenic_pagan
+	father=3146	#Laomedon
+	mother=3166	#Theodosia
+	741.12.9={ birth=yes }
+	798.3.21={ death=yes }
 }
 3155={
 	name=Metrodora
@@ -691,4 +955,36 @@
 	religion=hellenic_pagan
 	605.1.1={ birth=yes }
 	658.1.1={ death=yes }
+}
+3163={
+	name=Artemisia
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	631.1.1={ birth=yes }
+	684.1.1={ death=yes }
+}
+3164={
+	name=Sappho
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	657.1.1={ birth=yes }
+	730.1.1={ death=yes }
+}
+3165={
+	name=Eirene
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	682.1.1={ birth=yes }
+	735.1.1={ death=yes }
+}
+3166={
+	name=Theodosia
+	female=yes
+	culture=macedonian
+	religion=hellenic_pagan
+	706.1.1={ birth=yes }
+	764.1.1={ death=yes }
 }

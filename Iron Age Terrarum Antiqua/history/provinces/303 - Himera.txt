@@ -5,13 +5,13 @@ title = c_himera
 
 # Settlements
 max_settlements = 6
-b_himera_himera = castle
-b_chimaera_himera = city
-b_calacte_himera = temple
-#b_himera2_himera = castle
-#b_himera3_himera = city
-#b_himera4_himera = temple
-#b_himera5_himera = castle
+b_himera = castle
+b_chimaera = city
+b_calacte = temple
+#b_himera4 = castle
+#b_himera5 = city
+#b_himera6 = temple
+#b_himera7 = castle
 
 # Misc
 culture = ionian

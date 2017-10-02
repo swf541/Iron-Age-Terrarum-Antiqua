@@ -1421,9 +1421,9 @@ b_capsa_capsa;Capsa;;;;;;;;;;;;;x
 b_thiges_capsa;Thiges;;;;;;;;;;;;;x
 b_cerva_capsa;Cerva;;;;;;;;;;;;;x
 b_tullis_tamalleni;Tullis Tamalleni;;;;;;;;;;;;;x
-b_heraclea_selinus;Heraclea;;;;;;;;;;;;;x
-b_chimaera_himera;Chimaera;;;;;;;;;;;;;x
-b_calacte_himera;Calacte;;;;;;;;;;;;;x
+b_heraclea;Heraclea;;;;;;;;;;;;;x
+b_chimaera;Chimaera;;;;;;;;;;;;;x
+b_calacte;Calacte;;;;;;;;;;;;;x
 b_camarina_gela;Camarina;;;;;;;;;;;;;x
 b_casmenai_gela;Casmenai;;;;;;;;;;;;;x
 b_leontinoi_syracuse;Leontinoi;;;;;;;;;;;;;x
@@ -3362,7 +3362,7 @@ b_iaka_segia;Iaka;;;;;;;;;;;;;x
 b_oiarso_oiasso;Oiarso;;;;;;;;;;;;;x
 b_victoriacum_victoriacum;Varakos;;;;;;;;;;;;;x
 b_kalakorikos_victoriacum;Kalakorikos;;;;;;;;;;;;;x
-b_maleth_maleth;Maleth;;;;;;;;;;;;;x
+b_maleth;Maleth;;;;;;;;;;;;;x
 #####scotland
 b_dumna1;Dumna;;;;;;;;;;;;x
 b_dumna2;Dumna;;;;;;;;;;;;x
@@ -3469,3 +3469,19 @@ b_blatobulgium4;Blatobulgium;;;;;;;;;;;x
 b_blatobulgium5;Blatobulgium;;;;;;;;;;;x
 b_blatobulgium6;Blatobulgium;;;;;;;;;;;x
 b_blatobulgium7;Blatobulgium;;;;;;;;;;;x
+b_selinus3;Selinus;;;;;;;;;;;x
+b_selinus4;Selinus;;;;;;;;;;;x
+b_selinus5;Selinus;;;;;;;;;;;x
+b_selinus6;Selinus;;;;;;;;;;;x
+b_selinus7;Selinus;;;;;;;;;;;x
+b_himera3;Himera;;;;;;;;;;;x
+b_himera4;Himera;;;;;;;;;;;x
+b_himera5;Himera;;;;;;;;;;;x
+b_himera6;Himera;;;;;;;;;;;x
+b_himera7;Himera;;;;;;;;;;;x
+b_maleth2;Maleth;;;;;;;;;;;x
+b_maleth3;Maleth;;;;;;;;;;;x
+b_maleth4;Maleth;;;;;;;;;;;x
+b_maleth5;Maleth;;;;;;;;;;;x
+b_maleth6;Maleth;;;;;;;;;;;x
+b_maleth7;Maleth;;;;;;;;;;;x

@@ -160,6 +160,7 @@
 	father=1231235	#Taithlech
 	mother=1231285	#Caíntigern
 	482.8.12={ birth=yes }
+	503.1.1={ add_spouse=1231286 }
 	546.10.17={ death=yes }
 }
 1231239={
@@ -173,6 +174,178 @@
 	mother=1231285	#Caíntigern
 	484.2.5={ birth=yes }
 	535.1.17={ death=yes }
+}
+1231240={
+	name=Eochu
+	dynasty=223029
+	dna="nhegnoclhpe"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=7 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=temperate 
+	trait=gregarious 
+	trait=ambitious 
+	trait=arbitrary 
+	trait=patient 
+	father=1231238	#Máel-Fothartaig
+	mother=1231286	#Der-bForgaill
+	508.4.7={ birth=yes }
+	529.1.1={ add_spouse=1231287 }
+	565.11.24={ death=yes }
+}
+1231241={
+	name=Der-bForgaill
+	female=yes
+	dynasty=223029
+	dna="nodgeeplgka"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231238	#Máel-Fothartaig
+	mother=1231286	#Der-bForgaill
+	512.4.6={ birth=yes }
+	552.1.27={ death=yes }
+}
+1231242={
+	name=Trengus
+	dynasty=223029
+	dna="nboieiilokc"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=8
+	trait=midas_touched 
+	trait=gregarious 
+	trait=wroth 
+	trait=proud 
+	trait=lunatic 
+	father=1231238	#Máel-Fothartaig
+	mother=1231286	#Der-bForgaill
+	514.7.17={ birth=yes }
+	578.11.9={ death=yes }
+}
+1231243={
+	name=Caitilín
+	female=yes
+	dynasty=223029
+	dna="nbeglcalafe"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231238	#Máel-Fothartaig
+	mother=1231286	#Der-bForgaill
+	517.12.6={ birth=yes }
+	586.1.25={ death=yes }
+}
+1231244={
+	name=Nuala
+	female=yes
+	dynasty=223029
+	dna="iobgdeapkhe"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231238	#Máel-Fothartaig
+	mother=1231286	#Der-bForgaill
+	520.10.3={ birth=yes }
+	610.6.21={ death=yes }
+}
+1231245={
+	name=Séafra
+	dynasty=223029
+	dna="mneendchdbl"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=8 
+	learning=5
+	trait=midas_touched 
+	trait=gardener 
+	trait=cynical 
+	trait=patient 
+	trait=paranoid 
+	trait=honest 
+	trait=proud 
+	trait=ambitious 
+	father=1231240	#Eochu
+	mother=1231287	#Muirenn
+	533.7.6={ birth=yes }
+	603.5.26={ death=yes }
+}
+1231246={
+	name=Muirenn
+	female=yes
+	dynasty=223029
+	dna="hhbgbohlhjj"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231240	#Eochu
+	mother=1231287	#Muirenn
+	535.8.12={ birth=yes }
+	595.6.3={ death=yes }
+}
+1231247={
+	name=Der-bForgaill
+	female=yes
+	dynasty=223029
+	dna="nhhgdidlhac"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231240	#Eochu
+	mother=1231287	#Muirenn
+	539.3.21={ birth=yes }
+	602.4.28={ death=yes }
+}
+1231248={
+	name=Séamas
+	dynasty=223029
+	dna="oaoknodfnce"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=8 
+	learning=4
+	trait=scholarly_theologian 
+	trait=celibate 
+	trait=shy 
+	trait=proud 
+	trait=deceitful 
+	trait=arbitrary 
+	trait=diligent 
+	trait=envious 
+	trait=weak 
+	father=1231240	#Eochu
+	mother=1231287	#Muirenn
+	541.12.1={ birth=yes }
+	587.2.8={ death=yes }
+}
+1231249={
+	name=Finnsnechtae
+	dynasty=223029
+	dna="khkinhpdhgi"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=5 
+	learning=6
+	trait=intricate_webweaver 
+	trait=charitable 
+	trait=lustful 
+	father=1231240	#Eochu
+	mother=1231287	#Muirenn
+	542.12.4={ birth=yes }
+	600.6.20={ death=yes }
 }
 1231283={
 	name=Sisuile
@@ -197,4 +370,20 @@
 	religion=celtic_pagan
 	451.6.7={ birth=yes }
 	498.2.17={ death=yes }
+}
+1231286={
+	name=Der-bForgaill
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	482.6.7={ birth=yes }
+	546.2.17={ death=yes }
+}
+1231287={
+	name=Muirenn
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	508.6.7={ birth=yes }
+	565.2.17={ death=yes }
 }

@@ -5,13 +5,13 @@ title = c_maleth
 
 # Settlements
 max_settlements = 1
-b_maleth_maleth = castle
-#b_maleth1_maleth = city
-#b_maleth2_maleth = temple
-#b_maleth3_maleth = castle
-#b_maleth4_maleth = city
-#b_maleth5_maleth = temple
-#b_maleth6_maleth = castle
+b_maleth = castle
+#b_maleth2 = city
+#b_maleth3 = temple
+#b_maleth4 = castle
+#b_maleth5 = city
+#b_maleth6 = temple
+#b_maleth7 = castle
 
 # Misc
 culture = punic

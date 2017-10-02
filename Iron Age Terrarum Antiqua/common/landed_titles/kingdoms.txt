@@ -633,61 +633,39 @@ k_magna_graecia = {
 			color= { 75 200 175 }
 			color2= { 255 255 255 }
 			
-			b_selinus_selinus = {
-			}
-			b_heraclea_selinus = {
-			}
-			b_selinus2_selinus = {
-			}
-			b_selinus3_selinus = {
-			}
-			b_selinus4_selinus = {
-			}
-			b_selinus5_selinus = {
-			}
-			b_selinus6_selinus = {
-			}
+			b_selinus = {}
+			b_heraclea = {}
+			b_selinus3 = {}
+			b_selinus4 = {}
+			b_selinus5 = {}
+			b_selinus6 = {}
+			b_selinus7 = {}
 		}
 		c_himera = {
 			color= { 65 190 175 }
 			color2= { 255 255 255 }
 			
-			b_himera_himera = {
-			}
-			b_chimaera_himera = {
-			}
-			b_calacte_himera = {
-			}
-			b_himera2_himera = {
-			}
-			b_himera3_himera = {
-			}
-			b_himera4_himera = {
-			}
-			b_himera5_himera = {
-			}
+			b_himera = {}
+			b_chimaera = {}
+			b_calacte = {}
+			b_himera4 = {}
+			b_himera5 = {}
+			b_himera6 = {}
+			b_himera7 = {}
 		}
 		c_maleth = {
 			color={ 116 190 175 }
 			color2={ 255 255 255 }
 			
-			b_maleth_maleth = {
-			}
-			b_maleth1_maleth = {
-			}
-			b_maleth2_maleth = {
-			}
-			b_maleth3_maleth = {
-			}
-			b_maleth4_maleth = {
-			}
-			b_maleth5_maleth = {
-			}
-			b_maleth6_maleth = {
-			}
+			b_maleth = {}
+			b_maleth2 = {}
+			b_maleth3 = {}
+			b_maleth4 = {}
+			b_maleth5 = {}
+			b_maleth6 = {}
+			b_maleth7 = {}
 		}
 	}
-	
 	d_sicels = {
 		color= { 75 175 225 }
 		color2= { 255 255 255 }
