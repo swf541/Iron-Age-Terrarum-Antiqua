@@ -16,3 +16,15 @@
 565.11.24 = { # 211 BC
 	holder = 1231245 # Séafra
 }
+603.05.26 = { # 173 BC
+	holder = 1231250 # Flaithgus
+}
+617.10.14 = { # 159 BC
+	holder = 1231260 # Tressach
+}
+639.07.18 = { # 137 BC
+	holder = 1231261 # Lonán
+}
+663.11.19 = { # 113 BC
+	holder = 1231265 # Cú-Cúaráin
+}

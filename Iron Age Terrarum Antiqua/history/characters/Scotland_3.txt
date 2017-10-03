@@ -277,6 +277,7 @@
 	father=1231240	#Eochu
 	mother=1231287	#Muirenn
 	533.7.6={ birth=yes }
+	554.1.1={ add_spouse=1231288 }
 	603.5.26={ death=yes }
 }
 1231246={
@@ -347,6 +348,267 @@
 	542.12.4={ birth=yes }
 	600.6.20={ death=yes }
 }
+1231250={
+	name=Flaithgus
+	dynasty=223029
+	dna="hipenlcmbbl"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=6 
+	learning=5
+	trait=naive_appeaser 
+	trait=greedy 
+	trait=ambitious 
+	trait=proud 
+	trait=slothful 
+	trait=possessed 
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
+	555.12.9={ birth=yes }
+	576.1.1={ add_spouse=1231289 }
+	617.10.14={ death=yes }
+}
+1231251={
+	name=Fingen
+	dynasty=223029
+	dna="mnefhdcgdbl"
+	culture=irish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=4 
+	learning=6
+	trait=misguided_warrior 
+	trait=just 
+	trait=patient 
+	trait=cynical 
+	trait=possessed 
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
+	558.10.24={ birth=yes }
+	620.1.22={ death=yes }
+}
+1231252={
+	name=Sétach
+	female=yes
+	dynasty=223029
+	dna="mfkebkahjbi"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
+	563.3.1={ birth=yes }
+	627.7.27={ death=yes }
+}
+1231253={
+	name=Lerthan
+	female=yes
+	dynasty=223029
+	dna="ejeeakmhobi"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
+	565.9.14={ birth=yes }
+	619.6.24={ death=yes }
+}
+1231254={
+	name=Sétna
+	dynasty=223029
+	dna="mpkeomchdco"
+	culture=irish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=6 
+	learning=4
+	trait=indulgent_wastrel 
+	trait=cruel 
+	trait=proud 
+	trait=temperate 
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
+	567.1.4={ birth=yes }
+	637.3.15={ death=yes }
+}
+1231255={
+	name=Cú-Allaid
+	dynasty=223029
+	dna="dcgnpddhmbm"
+	culture=irish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=7 
+	learning=4
+	trait=thrifty_clerk 
+	trait=brave 
+	trait=greedy 
+	trait=arbitrary 
+	trait=envious 
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
+	569.5.23={ birth=yes }
+	644.4.10={ death=yes }
+}
+1231256={
+	name=Echrad
+	female=yes
+	dynasty=223029
+	dna="iiemifahdci"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
+	571.6.23={ birth=yes }
+	620.7.12={ death=yes }
+}
+1231257={
+	name=Brigit
+	female=yes
+	dynasty=223029
+	dna="hindflcedbn"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231250	#Flaithgus
+	mother=1231289	#Brigit
+	582.7.23={ birth=yes }
+	647.4.20={ death=yes }
+}
+1231258={
+	name=Áine
+	female=yes
+	dynasty=223029
+	dna="hignnlafpll"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231250	#Flaithgus
+	mother=1231289	#Brigit
+	586.1.27={ birth=yes }
+	662.2.5={ death=yes }
+}
+1231259={
+	name=Eithne
+	female=yes
+	dynasty=223029
+	dna="oipepjcebbl"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231250	#Flaithgus
+	mother=1231289	#Brigit
+	591.8.26={ birth=yes }
+	653.11.23={ death=yes }
+}
+1231260={
+	name=Tressach
+	dynasty=223029
+	dna="mipegfcgobp"
+	culture=irish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=4 
+	learning=4
+	trait=intricate_webweaver 
+	trait=cruel 
+	trait=chaste 
+	trait=content 
+	trait=slothful 
+	father=1231250	#Flaithgus
+	mother=1231289	#Brigit
+	593.6.15={ birth=yes }
+	614.1.1={ add_spouse=1231290 }
+	639.7.18={ death=yes }
+}
+1231261={
+	name=Lonán
+	dynasty=223029
+	dna="migpffcgejp"
+	culture=irish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=8 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=cynical 
+	trait=diligent 
+	trait=chaste 
+	trait=brave 
+	trait=just 
+	father=1231260	#Tressach
+	mother=1231290	#Dúnlaith
+	618.7.22={ birth=yes }
+	639.1.1={ add_spouse=1231291 }
+	663.11.19={ death=yes }
+}
+1231262={
+	name=Dúnlaith
+	female=yes
+	dynasty=223029
+	dna="mikfehcmpkp"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231260	#Tressach
+	mother=1231290	#Dúnlaith
+	623.3.19={ birth=yes }
+	672.9.18={ death=yes }
+}
+1231263={
+	name=Étaín
+	female=yes
+	dynasty=223029
+	dna="mighffcgnep"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231261	#Lonán
+	mother=1231291	#Étaín
+	639.5.11={ birth=yes }
+	707.5.20={ death=yes }
+}
+1231264={
+	name=Selblaith
+	female=yes
+	dynasty=223029
+	dna="migpbpikeff"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231261	#Lonán
+	mother=1231291	#Étaín
+	642.3.20={ birth=yes }
+	707.12.24={ death=yes }
+}
+1231265={
+	name=Cú-Cúaráin
+	dynasty=223029
+	dna="eigehfkgejp"
+	culture=irish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=hedonist 
+	trait=craven 
+	trait=honest 
+	trait=gluttonous 
+	trait=slothful 
+	trait=gregarious 
+	father=1231261	#Lonán
+	mother=1231291	#Étaín
+	646.10.22={ birth=yes }
+	694.6.1={ death=yes }
+}
 1231283={
 	name=Sisuile
 	female=yes
@@ -386,4 +648,36 @@
 	religion=celtic_pagan
 	508.6.7={ birth=yes }
 	565.2.17={ death=yes }
+}
+1231288={
+	name=Sétach
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	533.6.7={ birth=yes }
+	603.2.17={ death=yes }
+}
+1231289={
+	name=Brigit
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	555.6.7={ birth=yes }
+	617.2.17={ death=yes }
+}
+1231290={
+	name=Dúnlaith
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	593.6.7={ birth=yes }
+	639.2.17={ death=yes }
+}
+1231291={
+	name=Étaín
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	618.6.7={ birth=yes }
+	663.2.17={ death=yes }
 }
