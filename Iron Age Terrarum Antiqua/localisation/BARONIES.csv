@@ -1424,10 +1424,10 @@ b_tullis_tamalleni;Tullis Tamalleni;;;;;;;;;;;;;x
 b_heraclea;Heraclea;;;;;;;;;;;;;x
 b_chimaera;Chimaera;;;;;;;;;;;;;x
 b_calacte;Calacte;;;;;;;;;;;;;x
-b_camarina_gela;Camarina;;;;;;;;;;;;;x
-b_casmenai_gela;Casmenai;;;;;;;;;;;;;x
-b_leontinoi_syracuse;Leontinoi;;;;;;;;;;;;;x
-b_catania_syracuse;Catania;;;;;;;;;;;;;x
+b_camarina;Camarina;;;;;;;;;;;;;x
+b_casmenai;Casmenai;;;;;;;;;;;;;x
+b_leontinoi;Leontinoi;;;;;;;;;;;;;x
+b_catania;Catania;;;;;;;;;;;;;x
 b_tauromenium_messana;Tauromenium;;;;;;;;;;;;;x
 b_scyllaeum_rhegium;Scyllaeum;;;;;;;;;;;;;x
 b_locri_rhegium;Locri;;;;;;;;;;;;;x
@@ -3485,3 +3485,11 @@ b_maleth4;Maleth;;;;;;;;;;;x
 b_maleth5;Maleth;;;;;;;;;;;x
 b_maleth6;Maleth;;;;;;;;;;;x
 b_maleth7;Maleth;;;;;;;;;;;x
+b_gela4;Gela;;;;;;;;;;;x
+b_gela5;Gela;;;;;;;;;;;x
+b_gela6;Gela;;;;;;;;;;;x
+b_gela7;Gela;;;;;;;;;;;x
+b_syracuse4;Syracuse;;;;;;;;;;;x
+b_syracuse5;Syracuse;;;;;;;;;;;x
+b_syracuse6;Syracuse;;;;;;;;;;;x
+b_syracuse7;Syracuse;;;;;;;;;;;x

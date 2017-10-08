@@ -676,39 +676,25 @@ k_magna_graecia = {
 			color= { 85 165 225 }
 			color2= { 255 255 255 }
 			
-			b_gela_gela = {
-			}
-			b_camarina_gela = {
-			}
-			b_casmenai_gela = {
-			}
-			b_gela2_gela = {
-			}
-			b_gela3_gela = {
-			}
-			b_gela4_gela = {
-			}
-			b_gela5_gela = {
-			}
+			b_gela = {}
+			b_camarina = {}
+			b_casmenai_gela = {}
+			b_gela4 = {}
+			b_gela5 = {}
+			b_gela6 = {}
+			b_gela7 = {}
 		}
 		c_syracuse = {
 			color= { 75 175 225 }
 			color2= { 255 255 255 }
 			
-			b_syracuse_syrcuse = {
-			}
-			b_leontinoi_syracuse = {
-			}
-			b_catania_syracuse = {
-			}
-			b_syracuse2_syrcuse = {
-			}
-			b_syracuse3_syrcuse = {
-			}
-			b_syracuse4_syrcuse = {
-			}
-			b_syracuse5_syrcuse = {
-			}
+			b_syracuse = {}
+			b_leontinoi = {}
+			b_catania = {}
+			b_syracuse4 = {}
+			b_syracuse5 = {}
+			b_syracuse6 = {}
+			b_syracuse7 = {}
 		}
 		c_sicels = {
 			color= { 85 175 215 }
