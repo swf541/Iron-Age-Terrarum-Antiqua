@@ -607,7 +607,307 @@
 	father=1231261	#Lonán
 	mother=1231291	#Étaín
 	646.10.22={ birth=yes }
+	667.1.1={ add_spouse=1231292 }
 	694.6.1={ death=yes }
+}
+1231266={
+	name=Éremón
+	dynasty=223029
+	dna="kigbhfngeap"
+	culture=irish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=5 
+	learning=8
+	trait=martial_cleric 
+	trait=mystic 
+	trait=lustful 
+	trait=charitable 
+	trait=content 
+	trait=gluttonous 
+	father=1231265	#Cú-Cúaráin
+	mother=1231292	#Nuala
+	675.7.24={ birth=yes }
+	696.1.1={ add_spouse=1231293 }
+	733.6.6={ death=yes }
+}
+1231267={
+	name=Nuala
+	female=yes
+	dynasty=223029
+	dna="eibeifdpejm"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231265	#Cú-Cúaráin
+	mother=1231292	#Nuala
+	678.9.10={ birth=yes }
+	737.9.26={ death=yes }
+}
+1231268={
+	name=Anfudán
+	dynasty=223029
+	dna="mighfpkgejp"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=4 
+	learning=7
+	trait=mastermind_theologian 
+	trait=envious 
+	trait=humble 
+	trait=possessed 
+	father=1231265	#Cú-Cúaráin
+	mother=1231292	#Nuala
+	682.3.18={ birth=yes }
+	734.4.17={ death=yes }
+}
+1231269={
+	name=Der-bForgaill
+	female=yes
+	dynasty=223029
+	dna="imfahfeghap"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231266	#Éremón
+	mother=1231293	#Der-bForgaill
+	699.1.5={ birth=yes }
+	743.5.7={ death=yes }
+}
+1231270={
+	name=Róis
+	female=yes
+	dynasty=223029
+	dna="kipbllokoap"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231266	#Éremón
+	mother=1231293	#Der-bForgaill
+	703.7.21={ birth=yes }
+	744.6.15={ death=yes }
+}
+1231271={
+	name=Lucia
+	female=yes
+	dynasty=223029
+	dna="ljjphfammap"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231266	#Éremón
+	mother=1231293	#Der-bForgaill
+	706.6.8={ birth=yes }
+	767.4.23={ death=yes }
+}
+1231272={
+	name=Bruatur
+	dynasty=223029
+	dna="kjdbhfnaeaf"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=5 
+	learning=8
+	trait=misguided_warrior 
+	trait=poet 
+	trait=cruel 
+	trait=gregarious 
+	trait=ambitious 
+	trait=zealous 
+	father=1231266	#Éremón
+	mother=1231293	#Der-bForgaill
+	709.8.5={ birth=yes }
+	730.1.1={ add_spouse=1231294 }
+	765.6.27={ death=yes }
+}
+1231273={
+	name=Lann
+	female=yes
+	dynasty=223029
+	dna="cdpgfmgdeak"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231272	#Bruatur
+	mother=1231294	#Faílenn
+	733.5.13={ birth=yes }
+	801.3.4={ death=yes }
+}
+1231274={
+	name=Finnsnechtae
+	dynasty=223029
+	dna="kbmbphngkdd"
+	culture=irish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=4 
+	learning=4
+	trait=charismatic_negotiator 
+	trait=honest 
+	trait=charitable 
+	trait=craven 
+	trait=slothful 
+	trait=lustful 
+	trait=paranoid 
+	father=1231272	#Bruatur
+	mother=1231294	#Faílenn
+	736.2.19={ birth=yes }
+	761.1.1={ death=yes }
+}
+1231275={
+	name=Maine
+	dynasty=223029
+	dna="benpfglncic"
+	culture=irish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=8 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=just 
+	trait=gregarious 
+	trait=humble 
+	trait=temperate 
+	trait=cynical 
+	trait=cruel 
+	trait=drunkard 
+	father=1231272	#Bruatur
+	mother=1231294	#Faílenn
+	736.11.4={ birth=yes }
+	757.1.1={ add_spouse=1231295 }
+	794.3.4={ death=yes }
+}
+1231276={
+	name=Ainbchellach
+	dynasty=223029
+	dna="ianpkklncim"
+	culture=irish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=5 
+	learning=7
+	trait=martial_cleric 
+	trait=scholar 
+	trait=envious 
+	trait=lustful 
+	trait=craven 
+	trait=honest 
+	trait=greedy 
+	father=1231275	#Maine
+	mother=1231295	#Tómnat
+	762.11.5={ birth=yes }
+	783.1.1={ add_spouse=1231296 }
+	813.12.16={ death=yes }
+}
+1231277={
+	name=Faílenn
+	female=yes
+	dynasty=223029
+	dna="befmfghncdc"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231275	#Maine
+	mother=1231295	#Tómnat
+	767.11.11={ birth=yes }
+	824.9.26={ death=yes }
+}
+1231278={
+	name=Oissíne
+	dynasty=223029
+	dna="bbnjbgcncdc"
+	culture=irish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=6 
+	learning=7
+	trait=detached_priest 
+	trait=gardener 
+	trait=craven 
+	trait=proud 
+	trait=slothful 
+	trait=envious 
+	father=1231275	#Maine
+	mother=1231295	#Tómnat
+	771.9.16={ birth=yes }
+	816.2.19={ death=yes }
+}
+1231279={
+	name=Tómnat
+	female=yes
+	dynasty=223029
+	dna="bebpfellcig"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231275	#Maine
+	mother=1231295	#Tómnat
+	775.5.3={ birth=yes }
+	822.12.8={ death=yes }
+}
+1231280={
+	name=Cerball
+	dynasty=223029
+	dna="odcppnnecin"
+	culture=irish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=6 
+	learning=5
+	trait=intricate_webweaver 
+	trait=diligent 
+	trait=arbitrary 
+	trait=zealous 
+	trait=content 
+	father=1231276	#Ainbchellach
+	mother=1231296	#Barrdub
+	787.10.5={ birth=yes }
+	858.5.10={ death=yes }
+}
+1231281={
+	name=Barrdub
+	female=yes
+	dynasty=223029
+	dna="iappkflbcim"
+	culture=irish 
+	religion=celtic_pagan
+	father=1231276	#Ainbchellach
+	mother=1231296	#Barrdub
+	790.7.21={ birth=yes }
+	863.11.3={ death=yes }
+}
+1231282={
+	name=Murchú
+	dynasty=223029
+	dna="fanokhjnclm"
+	culture=irish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=5 
+	learning=4
+	trait=grey_eminence 
+	trait=deceitful 
+	trait=gluttonous 
+	trait=chaste 
+	trait=humble 
+	trait=possessed 
+	father=1231276	#Ainbchellach
+	mother=1231296	#Barrdub
+	795.11.2={ birth=yes }
+	867.10.24={ death=yes }
 }
 1231283={
 	name=Sisuile
@@ -680,4 +980,44 @@
 	religion=celtic_pagan
 	618.6.7={ birth=yes }
 	663.2.17={ death=yes }
+}
+1231292={
+	name=Nuala
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	646.6.7={ birth=yes }
+	694.2.17={ death=yes }
+}
+1231293={
+	name=Der-bForgaill
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	675.6.7={ birth=yes }
+	733.2.17={ death=yes }
+}
+1231294={
+	name=Faílenn
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	709.6.7={ birth=yes }
+	765.2.17={ death=yes }
+}
+1231295={
+	name=Tómnat
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	736.6.7={ birth=yes }
+	794.2.17={ death=yes }
+}
+1231296={
+	name=Barrdub
+	female=yes
+	culture=irish 
+	religion=celtic_pagan
+	762.6.7={ birth=yes }
+	813.2.17={ death=yes }
 }
