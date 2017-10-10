@@ -700,20 +700,13 @@ k_magna_graecia = {
 			color= { 85 175 215 }
 			color2= { 255 255 255 }
 			
-			b_agira_agira = {
-			}
-			b_sicels_sicels = {
-			}
-			b_sicels1_sicels = {
-			}
-			b_sicels2_sicels = {
-			}
-			b_sicels3_sicels = {
-			}
-			b_sicels4_sicels = {
-			}
-			b_sicels5_sicels = {
-			}
+			b_agira = {}
+			b_sicels2 = {}
+			b_sicels3 = {}
+			b_sicels4 = {}
+			b_sicels5 = {}
+			b_sicels6 = {}
+			b_sicels7 = {}
 		}
 		c_messana = {
 			color= { 75 165 235 }

@@ -1,0 +1,26 @@
+1231297={
+	name=Gest
+	dynasty=223030
+	dna="hfpnikhiimj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=6 
+	learning=4
+	trait=scholarly_theologian 
+	trait=content 
+	trait=wroth 
+	400.1.7={ birth=yes }
+	421.1.1={ add_spouse=1231356 }
+	470.10.6={ death=yes }
+}
+1231356={
+	name=Brianag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	400.6.7={ birth=yes }
+	470.2.17={ death=yes }
+}

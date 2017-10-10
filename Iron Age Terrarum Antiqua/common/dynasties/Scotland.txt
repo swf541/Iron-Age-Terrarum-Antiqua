@@ -10,3 +10,7 @@
 	name ="Novantae"
 	culture = irish
 }
+223030 = {
+	name ="Venicones"
+	culture = pictish
+}
