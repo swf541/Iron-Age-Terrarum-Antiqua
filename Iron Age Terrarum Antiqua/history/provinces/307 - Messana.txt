@@ -5,17 +5,17 @@ title = c_messana
 
 # Settlements
 max_settlements = 6
-b_messana_messana = city
-b_tauromenium_messana = castle
-#b_messana1_messana = temple
-#b_messana2_messana = city
-#b_messana3_messana = castle
-#b_messana4_messana = temple
-#b_messana5_messana = city
+b_messana = city
+b_tauromenium = castle
+#b_messana3 = temple
+#b_messana4 = city
+#b_messana5 = castle
+#b_messana6 = temple
+#b_messana7 = city
 
 # Misc
 culture = ionian
 religion = hellenic_pagan
 
 # History
-459.1.1 = { b_messana_messana = castle }
+459.1.1 = { b_messana = castle }

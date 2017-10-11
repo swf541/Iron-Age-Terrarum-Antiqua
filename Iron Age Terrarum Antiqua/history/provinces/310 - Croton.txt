@@ -4,15 +4,14 @@
 title = c_croton # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 6
 b_croton = castle
-b_petelia_croton = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_petelia = city
+#b_croton3 = temple
+#b_croton4 = castle
+#b_croton5 = city
+#b_croton6 = temple
+#b_croton7 = castle
 
 # Misc
 culture = oscan

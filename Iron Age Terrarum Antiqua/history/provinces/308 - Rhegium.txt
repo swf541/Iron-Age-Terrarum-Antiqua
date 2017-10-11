@@ -5,13 +5,13 @@ title = c_rhegium
 
 # Settlements
 max_settlements = 6
-b_rhegium_rhegium = castle
-b_scyllaeum_rhegium = city
-b_locri_rhegium = temple
-#b_rhegium1_rhegium = castle
-#b_rhegium2_rhegium = city
-#b_rhegium3_rhegium = temple
-#b_rhegium4_rhegium = castle
+b_rhegium = castle
+b_scyllaeum = city
+b_locri = temple
+#b_rhegium4 = castle
+#b_rhegium5 = city
+#b_rhegium6 = temple
+#b_rhegium7 = castle
 
 # Misc
 culture = ionian

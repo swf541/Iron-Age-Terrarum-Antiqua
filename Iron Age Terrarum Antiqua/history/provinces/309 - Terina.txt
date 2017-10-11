@@ -5,13 +5,13 @@ title = c_terina
 
 # Settlements
 max_settlements = 6
-b_terina_terina = castle
-b_medma_terina = city
-b_caulonia_terina = temple
-b_scylletium_terina = city
-#b_terina1_terina = castle
-#b_terina2_terina = temple
-#b_terina3_terina = castle
+b_terina = castle
+b_medma = city
+b_caulonia = temple
+b_scylletium = city
+#b_terina5 = castle
+#b_terina6 = temple
+#b_terina7 = castle
 
 # Misc
 culture = doric

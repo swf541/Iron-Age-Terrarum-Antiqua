@@ -16,6 +16,148 @@
 	421.1.1={ add_spouse=1231356 }
 	470.10.6={ death=yes }
 }
+1231298={
+	name=Laise
+	dynasty=223030
+	dna="mdklihhogmj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=8 
+	learning=8
+	trait=scholarly_theologian 
+	trait=envious 
+	trait=patient 
+	trait=honest 
+	trait=proud 
+	trait=ambitious 
+	trait=zealous 
+	father=1231297	#Gest
+	mother=1231356	#Brianag
+	425.6.11={ birth=yes }
+	446.1.1={ add_spouse=1231357 }
+	475.10.3={ death=yes }
+}
+1231299={
+	name=Brianag
+	female=yes
+	dynasty=223030
+	dna="hepnpkdiimb"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231297	#Gest
+	mother=1231356	#Brianag
+	429.1.4={ birth=yes }
+	497.3.25={ death=yes }
+}
+1231300={
+	name=Sidheag
+	female=yes
+	dynasty=223030
+	dna="hfpoikhjkjf"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231297	#Gest
+	mother=1231356	#Brianag
+	432.1.24={ birth=yes }
+	486.6.1={ death=yes }
+}
+1231301={
+	name=Brianag
+	female=yes
+	dynasty=223030
+	dna="pbllgkehioj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231297	#Gest
+	mother=1231356	#Brianag
+	434.10.8={ birth=yes }
+	485.12.9={ death=yes }
+}
+1231302={
+	name=Muireall
+	female=yes
+	dynasty=223030
+	dna="agpnnkgiimj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231297	#Gest
+	mother=1231356	#Brianag
+	437.6.2={ birth=yes }
+	507.11.16={ death=yes }
+}
+1231303={
+	name=Talorgan
+	dynasty=223030
+	dna="odhliehocmj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=7 
+	learning=8
+	trait=detached_priest 
+	trait=trusting 
+	trait=envious 
+	trait=gregarious 
+	trait=patient 
+	trait=ill 
+	father=1231298	#Laise
+	mother=1231357	#Gruoch
+	454.11.13={ birth=yes }
+	509.10.31={ death=yes }
+}
+1231304={
+	name=Gruoch
+	female=yes
+	dynasty=223030
+	dna="mdehdkhodmj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231298	#Laise
+	mother=1231357	#Gruoch
+	458.6.6={ birth=yes }
+	513.5.10={ death=yes }
+}
+1231305={
+	name=Teàrlag
+	female=yes
+	dynasty=223030
+	dna="mdndjhkonpj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231298	#Laise
+	mother=1231357	#Gruoch
+	461.10.23={ birth=yes }
+	544.5.31={ death=yes }
+}
+1231306={
+	name=Seàrlaid
+	female=yes
+	dynasty=223030
+	dna="mekaihhopmm"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231298	#Laise
+	mother=1231357	#Gruoch
+	464.6.8={ birth=yes }
+	509.8.7={ death=yes }
+}
+1231307={
+	name=Gràinne
+	female=yes
+	dynasty=223030
+	dna="mgkfjoelgmj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231298	#Laise
+	mother=1231357	#Gruoch
+	465.6.19={ birth=yes }
+	523.12.10={ death=yes }
+}
 1231356={
 	name=Brianag
 	female=yes
@@ -23,4 +165,12 @@
 	religion=celtic_pagan
 	400.6.7={ birth=yes }
 	470.2.17={ death=yes }
+}
+1231357={
+	name=Gruoch
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	425.6.7={ birth=yes }
+	475.2.17={ death=yes }
 }

@@ -712,20 +712,13 @@ k_magna_graecia = {
 			color= { 75 165 235 }
 			color2= { 255 255 255 }
 			
-			b_messana_messana = {			
-			}
-			b_tauromenium_messana = {
-			}
-			b_messana1_messana = {
-			}
-			b_messana2_messana = {
-			}
-			b_messana3_messana = {
-			}
-			b_messana4_messana = {
-			}
-			b_messana5_messana = {
-			}
+			b_messana = {}
+			b_tauromenium = {}
+			b_messana3 = {}
+			b_messana4 = {}
+			b_messana5 = {}
+			b_messana6 = {}
+			b_messana7 = {}
 		}
 	}
 	d_bruttium = {
@@ -738,48 +731,37 @@ k_magna_graecia = {
 			color= { 65 140 225 }
 			color2= { 255 255 255 }
 			
-			b_rhegium_rhegium = {
-			}
-			b_scyllaeum_rhegium = {
-			}
-			b_locri_rhegium = {
-			}
-			b_rhegium1_rhegium = {
-			}
-			b_rhegium2_rhegium = {
-			}
-			b_rhegium3_rhegium = {
-			}
-			b_rhegium4_rhegium = {
-			}
+			b_rhegium = {}
+			b_scyllaeum = {}
+			b_locri_rhegium = {}
+			b_rhegium4 = {}
+			b_rhegium5 = {}
+			b_rhegium6 = {}
+			b_rhegium7 = {}
 		}
 		c_terina = {
 			color= { 85 160 225 }
 			color2= { 255 255 255 }
 			
-			b_terina_terina = {
-			}
-			b_medma_terina = {
-			}
-			b_caulonia_terina = {
-			}
-			b_scylletium_terina = {
-			}
-			b_terina1_terina = {
-			}
-			b_terina2_terina = {
-			}
-			b_terina3_terina = {
-			}
+			b_terina = {}
+			b_medma = {}
+			b_caulonia = {}
+			b_scylletium = {}
+			b_terina5 = {}
+			b_terina6 = {}
+			b_terina7 = {}
 		}
 		c_croton = {
 			color= { 75 150 225 }
 			color2= { 255 255 255 }
 			
-			b_croton = {
-			}
-			b_petelia_croton = {
-			}
+			b_croton = {}
+			b_petelia = {}
+			b_croton3 = {}
+			b_croton4 = {}
+			b_croton5 = {}
+			b_croton6 = {}
+			b_croton7 = {}
 		}
 	}
 	d_lucania = {
