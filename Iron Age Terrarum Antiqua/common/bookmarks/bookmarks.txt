@@ -215,10 +215,10 @@ bm_second_punic_war = {
 
 }
 
-bm_roman_seleucid_war = {
-	name = "BM_ROMAN_SELEUCID_WAR"
-	desc = "BM_ROMAN_SELEUCID_WAR_DESC"	
-	date = 584.1.1
-
-}
+#bm_roman_seleucid_war = {
+#	name = "BM_ROMAN_SELEUCID_WAR"
+#	desc = "BM_ROMAN_SELEUCID_WAR_DESC"	
+#	date = 584.1.1
+#
+#}
 	

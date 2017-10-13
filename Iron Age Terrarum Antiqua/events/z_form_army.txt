@@ -1,0 +1,1006 @@
+namespace = z_form_army
+
+character_event = {
+	id = z_form_army.0
+	hide_window = no
+    title = "Legionary Setup"
+    desc = "Creating New Legion"
+
+
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	option = { 
+		name = "No Special Troops"
+		create_random_soldier = {
+			random_traits = yes
+			religion = FROM
+			culture = FROM
+			dynasty = none 
+			martial = 10
+			female = no
+			age = 30
+		}
+		new_character = {
+			save_event_target_as = legatus
+			
+		}
+		event_target:imperator = { 
+			primary_title = { 
+				create_title = {
+					tier = DUKE
+					name = DYNAMIC_LEGION_COMPANY_FEUDAL
+					landless = yes
+					custom_created = yes
+					culture = event_target:legatus
+					holder = event_target:legatus
+					base_title = THIS
+					mercenary = yes
+					replace_captain_on_death = yes
+					ruler = "CAPTAIN"
+					ruler_female = "CAPTAIN"
+					foa = "CAPTAIN_FOA"
+					army_template = legion_base
+
+				}
+			}
+		}
+		event_target:legatus = { 
+			set_defacto_liege = ROOT
+		}
+		character_event = { id = z_form_army.1}
+	}
+	option = {
+
+		name = "Horse Archer Troops"
+		wealth = -100
+		create_random_soldier = {
+			random_traits = yes
+			religion = FROM
+			culture = FROM
+			dynasty = none 
+			martial = 10
+			female = no
+			age = 30
+		}
+		new_character = {
+			save_event_target_as = legatus
+		}
+		event_target:imperator = { 
+			primary_title = { 
+				create_title = {
+					tier = DUKE
+					name = DYNAMIC_MERCENARY_COMPANY_FEUDAL
+					landless = yes
+					custom_created = yes
+					culture = event_target:legatus
+					holder = event_target:legatus
+					base_title = this
+					mercenary = yes
+					replace_captain_on_death = yes
+					ruler = "CAPTAIN"
+					ruler_female = "CAPTAIN"
+					foa = "CAPTAIN_FOA"
+					army_template = legion_horse_archers
+
+				}
+			}
+		}
+		event_target:legatus = { 
+			set_defacto_liege = ROOT
+		}
+		character_event = { id = z_form_army.1}
+	}
+	option = { 
+		name = "Camel Troops"
+		wealth = -100
+		create_random_soldier = {
+			random_traits = yes
+			religion = FROM
+			culture = FROM
+			dynasty = none 
+			martial = 10
+			female = no
+			age = 30
+		}
+		new_character = {
+			save_event_target_as = legatus
+		}
+		event_target:imperator = { 
+			primary_title = { 
+				create_title = {
+					tier = DUKE
+					name = DYNAMIC_MERCENARY_COMPANY_FEUDAL
+					landless = yes
+					custom_created = yes
+					culture = event_target:legatus
+					holder = event_target:legatus
+					base_title = this
+					mercenary = yes
+					replace_captain_on_death = yes
+					ruler = "CAPTAIN"
+					ruler_female = "CAPTAIN"
+					foa = "CAPTAIN_FOA"
+					army_template = legion_camels
+
+				}
+			}
+		}
+		event_target:legatus = { 
+			set_defacto_liege = ROOT
+		}
+		character_event = { id = z_form_army.1}
+	}
+}
+
+character_event = {
+	id = z_form_army.1
+    title = "Legionary Setup: Special Units"
+    desc = "Decide if you want any special unit types in this legion"
+
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	option = { 
+		name = "change legion size"
+		character_event = { id = z_form_army.10}
+	}
+
+	option = { 
+		name = "change legion composition"
+		character_event = { id = z_form_army.20}
+	}
+	option = { 
+		name = "dissolve legion"
+		event_target:legatus = {
+			primary_title = {
+				activate_title = { title = THIS status = no }
+				destroy_landed_title = THIS
+			}
+		}
+
+	}
+	option= {
+		name = cancel
+	}
+}
+
+character_event = {
+	id = z_form_army.10
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	option = { 
+		name = "Increase Size"
+		wealth = -100
+		event_target:legatus = { 
+			primary_title = {
+				change_title_army_size = 0.25
+			}
+		}
+		repeat_event = { id = z_form_army.10}
+	}
+
+	option = { 
+		name = "Decrease Size" 
+		wealth = 100
+		event_target:legatus = { 
+			primary_title = {
+				change_title_army_size = -0.25
+			}
+		}
+		repeat_event = { id = z_form_army.10}
+	}
+	option = { 
+		name = "Return to Previous Menu"
+		repeat_event = { id = z_form_army.1}
+	}
+	option = {
+		name = "done"
+	}
+}
+character_event = {
+	id = z_form_army.20
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		event_target:legatus = {
+			set_variable = { which  = "action_nr" value = "6" }
+			set_variable = { which = "action_picked" value = "1" }
+		}
+	}
+	option = { 
+		name = "Change Light Infantry to Alternative Troop Type"
+
+		character_event = { id = z_form_army.21}
+		
+	}
+
+	option = { 
+		name = "Change Troops to Light Infantry" 
+		character_event = { id = z_form_army.22}
+	}
+	option = { 
+		name = "Return to Previous Menu"
+		character_event = { id = z_form_army.1}
+	}
+	option = {
+		name = "done"
+	}
+}
+
+
+
+long_character_event = { 
+    id = z_form_army.21
+    title = "Legionary Recruitment"
+    desc = "Legion Unit Composition"
+    picture = "GFX_evt_mage_choose_lore"
+    is_triggered_only = yes
+    trigger = { 
+        event_target:legatus = { 
+            is_alive = yes
+        }
+    }
+    # next action
+    option = {
+        name = "NEXT_ACTION"
+        if = { 
+            limit = {
+                event_target:legatus = { 
+                    is_variable_equal = { which = "action_picked" which  = "action_nr" } 
+                }
+            }
+            event_target:legatus = {
+                set_variable = { which = "action_picked" value = 1 } # circular menu
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.21 }}
+            break = yes
+        }
+        if = {
+            limit = { 
+                event_target:legatus = {
+                    NOT = { 
+                        is_variable_equal = { which = "action_picked" which  = "action_nr" } 
+                    }
+                }
+            }
+            event_target:legatus = {
+                change_variable = { which = "action_picked" value = 1 }
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.21 }}
+            break = yes
+        }
+        ai_chance = { factor = 1 }
+    }
+    # previous action
+    option = {
+        name = "PREVIOUS_ACTION"
+
+        if = {
+            limit = { 
+                event_target:legatus = {
+                    NOT = { 
+                        is_variable_equal = { which = "action_picked" which  = "action_nr" } 
+                    }
+                }
+            }
+            event_target:legatus = {
+                change_variable = { which = "action_picked" value = -1 }
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.21 }}
+            break = yes
+        }
+        if = { 
+            limit = {
+                event_target:legatus = { 
+                    is_variable_equal = { which = "action_picked" which  = "action_nr" } 
+                }
+            }
+            event_target:legatus = {
+                set_variable = { which = "action_picked" value = 1 } # circular menu
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.21 }}
+            break = yes
+        }        
+        ai_chance = { factor = 0 }
+    }
+    option = {
+        name = "Heavy Infantry"
+		
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Infantry."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "1" } 
+            }
+        }
+		wealth = -25
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = light_infantry
+					change = 500
+					type = heavy_infantry
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.21 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Pikemen"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Pikemen."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "2" } 
+            }
+        }
+		wealth = -25
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = light_infantry
+					change = 500
+					type = pikemen
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.21 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Archers"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Archers."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked"  value = "3" } 
+            }
+        }
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = light_infantry
+					change = 500
+					type = archers
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.21 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Light Cavalry"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Light Cavalry."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "4" } 
+            }
+        }
+		wealth = -25
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = light_infantry
+					change = 500
+					type = light_cavalry
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.21 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Heavy Cavalry"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Cavalry."
+        }
+		wealth = -50
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "5" } 
+            }
+        }
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = light_infantry
+					change = 500
+					type = knights
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.21 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    } 
+        option = {
+        name = "Heavy Cavalry"
+		wealth = -50
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Cavalry."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "6" } 
+            }
+        }
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = light_infantry
+					change = 250
+					type = special_troops
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.21 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    } 
+    option = {
+        name = "CANCEL"
+        ai_chance = { factor = 1 }      
+        repeat_event = { id = z_form_army.20}
+    }   
+}
+
+
+long_character_event = { 
+    id = z_form_army.22
+    title = "Convert Troops to Light Infantry"
+    desc = "Legion Unit Composition"
+    picture = "GFX_evt_mage_choose_lore"
+    is_triggered_only = yes
+    trigger = { 
+        event_target:legatus = { 
+            is_alive = yes
+        }
+    }
+    option = {
+        name = "NEXT_ACTION"
+        if = { 
+            limit = {
+                event_target:legatus = { 
+                    is_variable_equal = { which = "action_picked" which = "action_nr" } 
+                }
+            }
+            event_target:legatus = {
+                set_variable = { which = "action_picked" value = 1 } # circular menu
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.22 }}
+            break = yes
+        }
+        if = {
+            limit = { 
+                event_target:legatus = {
+                    NOT = { 
+                        is_variable_equal = { which = "action_picked" which = "action_nr" } 
+                    }
+                }
+            }
+            event_target:legatus = {
+                change_variable = { which = "action_picked" value = 1 }
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.22 }}
+            break = yes
+        }
+        ai_chance = { factor = 1 }
+    }
+    # previous action
+    option = {
+        name = "PREVIOUS_ACTION"
+
+        if = {
+            limit = { 
+                event_target:legatus = {
+                    NOT = { 
+                        is_variable_equal = { which = "action_picked" which = "action_nr" } 
+                    }
+                }
+            }
+            event_target:legatus = {
+                change_variable = { which = "action_picked" value = -1 }
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.22 }}
+            break = yes
+        }
+        if = { 
+            limit = {
+                event_target:legatus = { 
+                    is_variable_equal = { which = "action_picked" which = "action_nr" } 
+                }
+            }
+            event_target:legatus = {
+                set_variable = { which = "action_picked" value = 1 } # circular menu
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.22 }}
+            break = yes
+        }        
+        ai_chance = { factor = 0 }
+    }
+    option = {
+        name = "Heavy Infantry"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Infantry."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "1" } 
+            }
+        }
+		wealth = -25
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = heavy_infantry
+					change = 500
+					type = light_infantry
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.22 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Pikemen"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Pikemen."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "2" } 
+            }
+        }
+		wealth = -25
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = pikemen
+					change = 500
+					type = light_infantry
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.22 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Archers"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Archers."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked"  value = "3" } 
+            }
+        }
+		wealth = -25
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = archers
+					change = 500
+					type = light_infantry
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.22 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Light Cavalry"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Light Cavalry."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "4" } 
+            }
+        }
+		wealth = -25
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = light_cavalry
+					change = 500
+					type = light_infantry
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.22 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Heavy Cavalry"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Cavalry."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "5" } 
+            }
+        }
+		wealth = -25
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = knights
+					change = 500
+					type = light_infantry
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.22 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Heavy Cavalry"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Cavalry."
+        }
+        trigger = {
+            event_target:legatus = { 
+                is_variable_equal = { which = "action_picked" value = "6" } 
+            }
+        }
+		wealth = -25
+        event_target:legatus = { 
+            primary_title = {
+				change_mercenary_composition = {
+					from = special_troops
+					change = 250
+					type = light_infantry
+				}
+			}
+        }
+        repeat_event = { id = z_form_army.22 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    } 
+    option = {
+        name = "CANCEL"
+        ai_chance = { factor = 1 }      
+        repeat_event = { id = z_form_army.20}
+    }
+}
+
+
+
+
+
+long_character_event = { 
+    id = z_form_army.51
+    title = "Legionary Recruitment"
+    desc = "Legion Unit Composition"
+    picture = "GFX_evt_mage_choose_lore"
+    is_triggered_only = yes
+    trigger = { 
+        ROOT = { 
+            is_alive = yes
+            gold = 500
+        }
+    }
+    immediate = { 
+    }
+    # next action
+    option = {
+        name = "NEXT_ACTION"
+        if = { 
+            limit = {
+                ROOT = { 
+                    is_variable_equal = { which = "action_picked" which  = "action_nr" } 
+                }
+            }
+            ROOT = {
+                set_variable = { which = "action_picked" value = 1 } # circular menu
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.51 }}
+            break = yes
+        }
+        if = {
+            limit = { 
+                ROOT = {
+                    NOT = { 
+                        is_variable_equal = { which = "action_picked" which  = "action_nr" } 
+                    }
+                }
+            }
+            ROOT = {
+                change_variable = { which = "action_picked" value = 1 }
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.51 }}
+            break = yes
+        }
+        ai_chance = { factor = 1 }
+    }
+    # previous action
+    option = {
+        name = "PREVIOUS_ACTION"
+
+        if = {
+            limit = { 
+                ROOT = {
+                    NOT = { 
+                        is_variable_equal = { which = "action_picked" which  = "action_nr" } 
+                    }
+                }
+            }
+            ROOT = {
+                change_variable = { which = "action_picked" value = -1 }
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.51 }}
+            break = yes
+        }
+        if = { 
+            limit = {
+                ROOT = { 
+                    is_variable_equal = { which = "action_picked" which  = "action_nr" } 
+                }
+            }
+            ROOT = {
+                set_variable = { which = "action_picked" value = 1 } # circular menu
+            }
+            hidden_tooltip = { repeat_event = { id = z_form_army.51 }}
+            break = yes
+        }        
+        ai_chance = { factor = 0 }
+    }
+    option = {
+        name = "Heavy Infantry"
+        custom_tooltip = {
+            text = "For an outlay of Gold, call together a band of Heavy Infantry."
+        }
+        trigger = {
+            ROOT = { 
+                is_variable_equal = { which = "action_picked" value = "1" } 
+            }
+        }
+        gold = -500
+        spawn_unit = {
+			owner = ROOT
+			province = ROOT
+			home = ROOT
+		  	troops = {
+		    	heavy_infantry = { 300 300 }
+		  	}
+		  	attrition = 1.0
+		  	disband_on_peace = yes
+		  	maintenance_multiplier = 0.5
+		}
+        repeat_event = { id = z_form_army.51 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+
+    option = {
+        name = "Pikemen"
+        custom_tooltip = {
+            text = "For an outlay of gold, call together a band of Pikemen."
+        }
+        trigger = {
+            ROOT = { 
+                is_variable_equal = { which = "action_picked" value = "2" } 
+            }
+        }
+        gold = -500
+        spawn_unit = {
+			owner = ROOT
+			province = ROOT
+			home = ROOT
+		  	troops = {
+		    	pikemen = { 300 300 }
+		  	}
+		  	attrition = 1.0
+		  	disband_on_peace = yes
+		  	maintenance_multiplier = 0.5
+		}
+        repeat_event = { id = z_form_army.51 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Archers"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Archers."
+        }
+        trigger = {
+            ROOT = { 
+                is_variable_equal = { which = "action_picked"  value = "3" } 
+            }
+        }
+        gold = -500
+        spawn_unit = {
+			owner = ROOT
+			province = ROOT
+			home = ROOT
+		  	troops = {
+		    	Archers = { 300 300 }
+		  	}
+		  	attrition = 1.0
+		  	disband_on_peace = yes
+		  	maintenance_multiplier = 0.5
+		}
+        repeat_event = { id = z_form_army.51 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Light Cavalry"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Light Cavalry."
+        }
+        trigger = {
+            ROOT = { 
+                is_variable_equal = { which = "action_picked" value = "4" } 
+            }
+        }
+        gold = -500
+        spawn_unit = {
+			owner = ROOT
+			province = ROOT
+			home = ROOT
+		  	troops = {
+		    	light_cavalry = { 300 300 }
+		  	}
+		  	attrition = 1.0
+		  	disband_on_peace = yes
+		  	maintenance_multiplier = 0.5
+		}
+        repeat_event = { id = z_form_army.51 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }
+    option = {
+        name = "Heavy Cavalry"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Cavalry."
+        }
+        trigger = {
+            ROOT = { 
+                is_variable_equal = { which = "action_picked" value = "5" } 
+            }
+        }
+        gold = -500
+        spawn_unit = {
+			owner = ROOT
+			province = ROOT
+			home = ROOT
+		  	troops = {
+		    	knights = { 300 300 }
+		  	}
+		  	attrition = 1.0
+		  	disband_on_peace = yes
+		  	maintenance_multiplier = 0.5
+		}
+        repeat_event = { id = z_form_army.51 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    } 
+
+    option = {
+        name = "Horse Archers"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Cavalry."
+        }
+        trigger = {
+            ROOT = { 
+                is_variable_equal = { which = "action_picked" value = "6" } 
+            }
+        }
+        spawn_unit = {
+			owner = ROOT
+			province = ROOT
+			home = ROOT
+		  	troops = {
+		    	horse_archers = { 300 300 }
+		  	}
+		  	attrition = 1.0
+		  	disband_on_peace = yes
+		  	maintenance_multiplier = 0.5
+		}
+        repeat_event = { id = z_form_army.51 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    } 
+    option = {
+        name = "Camel Cavalry"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Cavalry."
+        }
+        trigger = {
+            ROOT = { 
+                is_variable_equal = { which = "action_picked" value = "7" } 
+            }
+        }
+        gold = -500
+        spawn_unit = {
+			owner = ROOT
+			province = ROOT
+			home = ROOT
+		  	troops = {
+		    	camel_cavalry = { 300 300 }
+		  	}
+		  	attrition = 1.0
+		  	disband_on_peace = yes
+		  	maintenance_multiplier = 0.5
+		}
+        repeat_event = { id = z_form_army.51 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    } 
+    option = {
+        name = "War Elephants"
+        custom_tooltip = {
+            text = "Convert Light Infantry to Heavy Cavalry."
+        }
+        trigger = {
+            ROOT = { 
+                is_variable_equal = { which = "action_picked" value = "8" } 
+            }
+        }
+        gold = -500
+        spawn_unit = {
+			owner = ROOT
+			province = ROOT
+			home = ROOT
+		  	troops = {
+		    	war_elephants = { 30 30 }
+		    	light_infantry = { 150 150 }
+		    	archers = { 150 150 }
+		  	}
+		  	attrition = 1.0
+		  	disband_on_peace = yes
+		  	maintenance_multiplier = 0.5
+		}
+        repeat_event = { id = z_form_army.51 }
+        ai_chance = { 
+            factor = 1 
+        }      
+    }         
+    option = {
+        name = "CANCEL"
+        ai_chance = { factor = 1 }      
+        repeat_event = { id = z_form_army.20}
+    }   
+}

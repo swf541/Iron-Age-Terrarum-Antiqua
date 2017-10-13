@@ -190,4 +190,8 @@ PATRONS_LUW.3.b;Tarhunz;;;;;;;x
 patron_tarhunz;Patronizes Tarhunz;;;;;;;x
 PATRONS_LUW.3.c;Arma;;;;;;;x
 patron_arma;Patronizes Arma;;;;;;;x
-
+BM_SECOND_PUNIC_WAR;The Second Punic War;;;;;;;x
+BM_SECOND_PUNIC_WAR_DESC;The Second Punic War;;;;;;;x
+DYNAMIC_LEGION_COMPANY_FEUDAL;Legio [Prev.Capital.Kingdom.GetAdjective];;;;;;;;x
+create_legion;Create New Legion;;;;;;;;x
+alter_legion;Alter Legion Composition;;;;;;;;x
