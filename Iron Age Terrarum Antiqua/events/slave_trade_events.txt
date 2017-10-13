@@ -1,0 +1,5444 @@
+namespace = slavery
+
+# slavery.100 # Selling slaves
+	# slavery.107 # A character's liege discovers that they have sold someone into slavery
+	# slavery.157 # Realm discovers independent character illegally sold someone into slavery
+# slavery.150 # Sell a Prisoner
+	
+# slavery.200 # Buying slaves
+
+# slavery.2601 # A minor slaver offers to sell slave camp
+# slavery.2700 # Slave offers to buy own freedom
+
+# Selling slaves to slave traders
+character_event = {
+	id = slavery.100
+	picture = GFX_evt_slave_market
+	desc = "EVTDESCSLAVERY100"
+	show_from_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY100"
+		clr_character_flag = flag_slave_action
+		hidden_tooltip = { FROMFROM = { character_event = { id = slavery.101 } } }
+		ai_chance = {
+			factor = 200
+			modifier = {
+				factor = 0.5
+				FROMFROM = { trait = fair }
+			}
+			#Old Slave, not much sell on value
+			modifier = {
+				factor = 2
+				FROMFROM = { age = 40 }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { is_female = yes age = 40 }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { age = 50 }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { age = 60 }
+			}
+			#Infants are risky
+			modifier = {
+				factor = 2
+				FROMFROM = { NOT = { age = 5 } }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { NOT = { age = 3 } }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { NOT = { age = 1 } }
+			}
+			#Reasons to not buy slave
+			modifier = {
+				factor = 10000
+				FROMFROM = { 
+					OR = {
+						trait = incapable 
+						trait = sickly
+					}	
+				} 
+			}
+			modifier = {
+				factor = 5
+				FROMFROM = { trait = infirm }
+			}
+			modifier = {
+				factor = 5
+				FROMFROM = { is_crippled_trigger = yes }
+			}
+			modifier = {
+				factor = 3
+				FROMFROM = { trait = blinded }
+			}
+			modifier = {
+				factor = 3
+				FROMFROM = { trait = blinded_age }
+			}
+			modifier = {
+				factor = 5
+				FROMFROM = { is_ill = yes }
+			}
+			modifier = {
+				factor = 5
+				FROMFROM = { is_maimed_trigger = yes }
+			}
+			modifier = {
+				factor = 3
+				FROMFROM = { trait = wounded }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { trait = ugly }
+			}
+			modifier = {
+				factor = 3
+				FROMFROM = { cannot_outbreed_trigger = yes }
+			}
+			#No obvious use
+			modifier = {
+				factor = 3
+				FROMFROM = { 
+					NOR = {
+						prestige = 500
+						any_claim = { 
+							NOT = { lower_tier_than = ROOT }
+							NOT = { holder_scope = { same_realm = PREVPREV } }
+						}
+						is_pregnant = yes
+						stewardship = 14
+						diplomacy = 14
+						intrigue = 14
+						learning = 14
+						combat_rating = 6
+						AND = {
+							fertility = 0.1
+							NOT = { cannot_outbreed_trigger = yes }
+							OR ={
+								AND = {
+									is_female = yes
+									NOT = { age = 40 }
+								}
+								is_female = no									
+							}	
+							OR = {
+								is_strong_trigger = yes
+								trait = fair
+								is_smart_trigger = yes
+								trait = genius
+								trait = tall
+							}									
+						}
+					}
+				} 
+			}
+		}
+		hidden_tooltip = { FROMFROM = { reverse_opinion = { who = ROOT modifier = opinion_rejected_slave years = 10 } } }
+	}
+	
+	option = {
+		name = "EVTOPTBSLAVERY100"
+		ai_chance = {
+			factor = 30
+			#Old Slave, not much sell on value
+			modifier = {
+				factor = 2
+				FROMFROM = { age = 40 }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { is_female = yes age = 40 }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { age = 50 }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { age = 60 }
+			}
+			#Infants are risky
+			modifier = {
+				factor = 2
+				FROMFROM = { NOT = { age = 5 } }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { NOT = { age = 3 } }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { NOT = { age = 1 } }
+			}
+			#Reasons to not buy slave
+			modifier = {
+				factor = 5
+				FROMFROM = { trait = infirm }
+			}
+			modifier = {
+				factor = 3
+				FROMFROM = { trait = blinded }
+			}
+			modifier = {
+				factor = 3
+				FROMFROM = { trait = blinded_age }
+			}
+			modifier = {
+				factor = 5
+				FROMFROM = { is_ill = yes }
+			}
+			modifier = {
+				factor = 5
+				FROMFROM = { is_maimed_trigger = yes }
+			}
+			modifier = {
+				factor = 3
+				FROMFROM = { trait = wounded }
+			}
+			modifier = {
+				factor = 2
+				FROMFROM = { trait = ugly }
+			}
+			modifier = {
+				factor = 3
+				FROMFROM = { cannot_outbreed_trigger = yes }
+			}
+			#No obvious use
+			modifier = {
+				factor = 5
+				FROMFROM = { 
+					NOR = {
+						prestige = 500
+						any_claim = { 
+							NOT = { lower_tier_than = ROOT }
+							NOT = { holder_scope = { same_realm = PREVPREV } }
+						}
+						is_pregnant = yes
+						stewardship = 14
+						diplomacy = 14
+						intrigue = 14
+						learning = 14
+						combat_rating = 6
+						AND = {
+							fertility = 0.1
+							NOT = { cannot_outbreed_trigger = yes }
+							OR ={
+								AND = {
+									is_female = yes
+									NOT = { age = 40 }
+								}
+								is_female = no									
+							}	
+							OR = {
+								is_strong_trigger = yes
+								trait = fair
+								is_smart_trigger = yes
+								trait = genius
+								trait = tall
+							}									
+						}
+					}
+				}
+			}
+		}
+		set_character_flag = flag_slave_price_15
+		hidden_tooltip = { FROMFROM = { character_event = { id = slavery.103 } } }
+		
+	}
+	
+	option = {
+		trigger = { wealth = 40 }
+		ai_chance = {
+			factor = 25
+			
+			modifier = { #Must have good reason to offer high
+				factor = 0 
+				FROMFROM = { 
+					NOT = {
+						OR = {
+							prestige = 500
+							any_claim = { 
+								NOT = { lower_tier_than = ROOT }
+								NOT = { holder_scope = { same_realm = PREVPREV } }
+							}
+							is_pregnant = yes
+							AND = { 
+								age = 6
+								NOT = { age = 20 }
+							}
+							stewardship = 10
+							diplomacy = 10
+							intrigue = 10
+							learning = 10
+							combat_rating = 4
+							AND = {
+								fertility = 0.1
+								NOT = { cannot_outbreed_trigger = yes }
+								OR ={
+									AND = {
+										is_female = yes
+										NOT = { age = 40 }
+									}
+									is_female = no									
+								}	
+								OR = {
+									is_strong_trigger = yes
+									trait = fair
+									is_smart_trigger = yes
+									trait = genius
+									trait = tall
+								}									
+							}
+						}
+					}
+				} 
+			}
+			modifier = {
+				factor = 1.1
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.9
+				trait = greedy
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { 
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { combat_rating = 8 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = {
+					any_claim = { 
+						NOT = { lower_tier_than = ROOT }
+						NOT = { holder_scope = { same_realm = PREVPREV } }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { prestige = 500 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { stewardship = 10 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { intrigue = 10 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { learning = 10 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 1.1
+				FROMFROM = { learning = 18 } 
+			}
+			# Opinion of Seller
+			modifier = {
+				factor = 1.1
+				opinion = { who = FROM value = 10 }
+			}
+			modifier = {
+				factor = 1.1
+				opinion = { who = FROM value = 30 }
+			}
+			modifier = {
+				factor = 1.1
+				opinion = { who = FROM value = 50 }
+			}
+			modifier = {
+				factor = 1.1
+				opinion = { who = FROM value = 70 }
+			}
+			modifier = {
+				factor = 1.1
+				opinion = { who = FROM value = 90 }
+			}
+		}
+		name = "EVTOPTCSLAVERY100"
+		set_character_flag = flag_slave_price_40
+		hidden_tooltip = { FROMFROM = { character_event = { id = slavery.103 } } }
+	}
+	
+	option = {
+		trigger = { 
+			wealth = 115
+			ai = no
+		} 
+		name = "EVTOPTDSLAVERY100"
+		hidden_tooltip = { 
+			character_event = { id = slavery.10399 }
+			FROMFROM = { character_event = { id = slavery.103 days = 2 } }
+		}
+	}
+	
+	option = {
+		trigger = { 
+			wealth = 75
+			OR = {
+				ai = yes
+				NOT = { wealth = 115 }
+			}	
+		}
+		ai_chance = {
+			factor = 20
+			
+			modifier = { #Too old
+				factor = 0
+				age = 50
+			}
+			modifier = { #Must have good reason to offer high
+				factor = 0 
+				FROMFROM = { 
+					NOT = {
+						OR = {
+							prestige = 500
+							any_claim = { 
+								NOT = { lower_tier_than = ROOT }
+								NOT = { holder_scope = { same_realm = PREVPREV } }
+							}
+							is_pregnant = yes
+							AND = { 
+								age = 8
+								NOT = { age = 16 }
+							} 
+							stewardship = 12
+							diplomacy = 12
+							intrigue = 12
+							learning = 12
+							combat_rating = 6
+							AND = {
+								fertility = 0.1
+								NOT = { cannot_outbreed_trigger = yes }
+								OR ={
+									AND = {
+										is_female = yes
+										NOT = { age = 40 }
+									}
+									is_female = no									
+								}	
+								OR = {
+									is_strong_trigger = yes
+									trait = fair
+									is_smart_trigger = yes
+									trait = genius
+									trait = tall
+								}									
+							}
+						}
+					}
+				} 
+			}
+			modifier = {
+				factor = 1.2
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.83
+				trait = greedy
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { 
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { combat_rating = 8 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = {
+					any_claim = { 
+						NOT = { lower_tier_than = ROOT }
+						NOT = { holder_scope = { same_realm = PREVPREV } }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { prestige = 500 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { stewardship = 10 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { intrigue = 10 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { learning = 10 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 1.2
+				FROMFROM = { learning = 18 } 
+			}
+			# Opinion of Seller
+			modifier = {
+				factor = 1.2
+				opinion = { who = FROM value = 10 }
+			}
+			modifier = {
+				factor = 1.2
+				opinion = { who = FROM value = 30 }
+			}
+			modifier = {
+				factor = 1.2
+				opinion = { who = FROM value = 50 }
+			}
+			modifier = {
+				factor = 1.2
+				opinion = { who = FROM value = 70 }
+			}
+			modifier = {
+				factor = 1.2
+				opinion = { who = FROM value = 90 }
+			}
+			# Seller is likely to accept bad deals, try to undercut
+			modifier = {
+				factor = 0.1
+				FROM = { NOT = { wealth = 0 } }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }			
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 0.1
+				FROM = { trait = imbecile }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }
+				
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { is_dumb_trigger = yes }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }				
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+		}
+		name = "EVTOPTESLAVERY100"
+		set_character_flag = flag_slave_price_75
+		hidden_tooltip = { FROMFROM = { character_event = { id = slavery.103 } } }
+	}
+	option = {
+		trigger = { 
+			wealth = 115
+			ai = yes
+		}
+		ai_chance = {
+			factor = 15
+			modifier = { #Too old
+				factor = 0
+				age = 40
+			}
+			modifier = { #Must have good reason to offer high
+				factor = 0
+				FROMFROM = { 
+					NOT = {
+						calc_true_if = {
+							amount = 2
+							prestige = 500
+							any_claim = { 
+								NOT = { lower_tier_than = ROOT }
+								NOT = { holder_scope = { same_realm = PREVPREV } }
+							}
+							is_pregnant = yes
+							stewardship = 12
+							diplomacy = 12
+							intrigue = 12
+							learning = 12
+							combat_rating = 6
+							is_strong_trigger = yes
+							trait = fair
+							is_smart_trigger = yes
+							trait = genius
+							trait = tall
+						}
+					}
+				} 
+			}
+			modifier = {
+				factor = 1.35
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.74
+				trait = greedy
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { 
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { combat_rating = 8 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = {
+					any_claim = { 
+						NOT = { lower_tier_than = ROOT }
+						NOT = { holder_scope = { same_realm = PREVPREV } }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { prestige = 500 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { stewardship = 10 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { intrigue = 10 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { learning = 10 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 1.35
+				FROMFROM = { learning = 18 } 
+			}
+			# Opinion of Seller
+			modifier = {
+				factor = 1.35
+				opinion = { who = FROM value = 10 }
+			}
+			modifier = {
+				factor = 1.35
+				opinion = { who = FROM value = 30 }
+			}
+			modifier = {
+				factor = 1.35
+				opinion = { who = FROM value = 50 }
+			}
+			modifier = {
+				factor = 1.35
+				opinion = { who = FROM value = 70 }
+			}
+			modifier = {
+				factor = 1.35
+				opinion = { who = FROM value = 90 }
+			}
+			# Seller is likely to accept bad deals, try to undercut
+			modifier = {
+				factor = 0.1
+				FROM = { NOT = { wealth = 0 } }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }			
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 0.1
+				FROM = { trait = imbecile }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }
+				
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { is_dumb_trigger = yes }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }				
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+		}
+		name = OK
+		set_character_flag = flag_slave_price_115
+		hidden_tooltip = { FROMFROM = { character_event = { id = slavery.103 } } }
+	}
+	option = {
+		trigger = { 
+			wealth = 150
+			ai = yes
+		}
+		ai_chance = {
+			factor = 10
+			modifier = { #Too old
+				factor = 0
+				age = 30
+			}
+			modifier = { #Must have good reason to offer high
+				factor = 0
+				FROMFROM = { 
+					NOT = {
+						calc_true_if = {
+							amount = 3
+							prestige = 500
+							any_claim = { 
+								NOT = { lower_tier_than = ROOT }
+								NOT = { holder_scope = { same_realm = PREVPREV } }
+							}
+							is_pregnant = yes
+							stewardship = 12
+							diplomacy = 12
+							intrigue = 12
+							learning = 12
+							combat_rating = 6
+							is_strong_trigger = yes
+							trait = fair
+							is_smart_trigger = yes
+							trait = genius
+							trait = tall
+						}
+					}
+				} 
+			}
+			modifier = {
+				factor = 1.55
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.65
+				trait = greedy
+			}
+			modifier = {
+				factor = 2.05
+				FROMFROM = { 
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { combat_rating = 8 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = {
+					any_claim = { 
+						NOT = { lower_tier_than = ROOT }
+						NOT = { holder_scope = { same_realm = PREVPREV } }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { prestige = 500 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { stewardship = 10 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { intrigue = 10 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { learning = 10 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 1.55
+				FROMFROM = { learning = 18 } 
+			}
+			# Opinion of Seller
+			modifier = {
+				factor = 1.55
+				opinion = { who = FROM value = 10 }
+			}
+			modifier = {
+				factor = 1.55
+				opinion = { who = FROM value = 30 }
+			}
+			modifier = {
+				factor = 1.55
+				opinion = { who = FROM value = 50 }
+			}
+			modifier = {
+				factor = 1.55
+				opinion = { who = FROM value = 70 }
+			}
+			modifier = {
+				factor = 1.55
+				opinion = { who = FROM value = 90 }
+			}
+			# Seller is likely to accept bad deals, try to undercut
+			modifier = {
+				factor = 0.1
+				FROM = { NOT = { wealth = 0 } }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }			
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 0.1
+				FROM = { trait = imbecile }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }
+				
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { is_dumb_trigger = yes }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }				
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+		}
+		name = OK
+		set_character_flag = flag_slave_price_150
+		hidden_tooltip = { FROM = { FROM = { character_event = { id = slavery.103 } } } }
+	}
+	option = {
+		trigger = { 
+			wealth = 225
+			ai = yes
+		}
+		ai_chance = {
+			factor = 5
+			modifier = { #Too old
+				factor = 0
+				age = 30
+			}
+			modifier = { #Must have good reason to offer high
+				factor = 0
+				FROMFROM = { 
+					NOT = {
+						calc_true_if = {
+							amount = 4
+							prestige = 500
+							any_claim = { 
+								NOT = { lower_tier_than = ROOT }
+								NOT = { holder_scope = { same_realm = PREVPREV } }
+							}
+							is_pregnant = yes
+							stewardship = 12
+							diplomacy = 12
+							intrigue = 12
+							learning = 12
+							combat_rating = 6
+							is_strong_trigger = yes
+							trait = fair
+							is_smart_trigger = yes
+							trait = genius
+							trait = tall
+						}
+					}
+				} 
+			}
+			modifier = {
+				factor = 1.8
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.55
+				trait = greedy
+			}
+			modifier = {
+				factor = 2.3
+				FROMFROM = { 
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { combat_rating = 8 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = {
+					any_claim = { 
+						NOT = { lower_tier_than = ROOT }
+						NOT = { holder_scope = { same_realm = PREVPREV } }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { prestige = 500 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { stewardship = 10 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { intrigue = 10 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { learning = 10 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 1.8
+				FROMFROM = { learning = 18 } 
+			}
+			# Opinion of Seller
+			modifier = {
+				factor = 1.8
+				opinion = { who = FROM value = 10 }
+			}
+			modifier = {
+				factor = 1.8
+				opinion = { who = FROM value = 30 }
+			}
+			modifier = {
+				factor = 1.8
+				opinion = { who = FROM value = 50 }
+			}
+			modifier = {
+				factor = 1.8
+				opinion = { who = FROM value = 70 }
+			}
+			modifier = {
+				factor = 1.8
+				opinion = { who = FROM value = 90 }
+			}
+			# Seller is likely to accept bad deals, try to undercut
+			modifier = {
+				factor = 0.1
+				FROM = { NOT = { wealth = 0 } }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }			
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 0.1
+				FROM = { trait = imbecile }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }
+				
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { is_dumb_trigger = yes }
+				NOT = { trait = just }
+				NOT = { trait = honorable }
+				NOT = { trait = honest }				
+				OR = {
+					trait = greedy
+					trait = ambitious
+					trait = envious
+				}
+			}
+		}
+		name = OK
+		set_character_flag = flag_slave_price_225
+		hidden_tooltip = { FROM = { FROM = { character_event = { id = slavery.103 } } } }
+	}
+}
+
+character_event = {
+	id = slavery.101
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = { FROM = { character_event = { id = slavery.102 } } }
+	}
+}
+
+# Seller refuses to buy slave
+character_event = {
+	id = slavery.102
+	desc = "EVTDESCSLAVERY102"
+	picture = GFX_evt_slave_market
+	show_from_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		# Sell to a random other slaver
+		trigger = {
+			slave_trader = {
+				is_ruler = yes
+				is_alive = yes
+				NOT = { character = FROMFROM }
+				NOT = { character = ROOT }
+				NOT = { has_opinion_modifier = { who = FROM modifier = opinion_rejected_slave } }
+				wealth = 30 # Must be able to afford the slave
+				OR = {
+					NOT = { has_character_flag = flag_slave_action }
+					had_character_flag = { flag = flag_slave_action days = 30 }
+				}
+			}
+		}
+		name = "EVTOPTASLAVERY102"
+		slave_trader = {
+			limit = {
+				is_ruler = yes
+				is_alive = yes
+				NOT = { character = FROMFROM }
+				NOT = { character = ROOT }
+				NOT = { has_opinion_modifier = { who = FROM modifier = opinion_rejected_slave } }
+				wealth = 30 # Must be able to afford the slave
+				OR = {
+					NOT = { has_character_flag = flag_slave_action }
+					had_character_flag = { flag = flag_slave_action days = 30 }
+				}
+			}
+			character_event = { id = slavery.100 tooltip = "EVTTOOLTIPSLAVERY100" }
+		}
+		ai_chance = {
+			factor = 75 # AI should try to sell a slave on average 4 times before giving up.
+			modifier = {
+				factor = 2
+				trait = stubborn
+			}
+		}
+	}
+	
+	option = {
+		# Give up
+		name = "EVTOPTBSLAVERY102"
+		clr_character_flag = flag_slave_action
+		clr_character_flag = flag_selling_prisoner_into_slavery
+		ai_chance = {
+			factor = 25
+			# If money is critical, keep going
+			modifier = {
+				factor = 0
+				NOT = { wealth = 0 }
+			}
+		}
+	}
+}
+#Human offer higher price
+character_event = {
+	id = slavery.10399
+	picture = GFX_evt_slave_market
+	desc = "EVTDESCSLAVERY10399"
+	
+	show_from_from = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTESLAVERY100B"
+		set_character_flag = flag_slave_price_75
+	}
+	option = {
+		trigger = { wealth = 115 }
+		name = "EVTOPTFSLAVERY100"
+		set_character_flag = flag_slave_price_115
+	}
+	option = {
+		trigger = { wealth = 150 }
+		name = "EVTOPTGSLAVERY100"
+		set_character_flag = flag_slave_price_150
+	}
+	option = {
+		trigger = { wealth = 225 }
+		name = "EVTOPTHSLAVERY100"
+		set_character_flag = flag_slave_price_225
+	}
+}
+# Seller offers a price
+character_event = {
+	id = slavery.103
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = { FROM = { character_event = { id = slavery.104 } } }
+	}
+}
+
+character_event = {
+	id = slavery.104
+	desc = "EVTDESCSLAVERY104"
+	picture = GFX_evt_slave_market
+	show_from_from = yes
+	is_triggered_only = yes
+	
+	# Accept Sale
+	option = {
+		name = "EVTOPTASLAVERY104"
+		if = {
+			limit = { FROM = { FROM = { has_character_flag = flag_slave_price_15 } } }
+			wealth = 15
+		} 
+		if = {
+			limit = { FROM = { FROM = { has_character_flag = flag_slave_price_40 } } }
+			wealth = 40
+		}
+		if = {
+			limit = { FROM = { FROM = { has_character_flag = flag_slave_price_75 } } }
+			wealth = 75
+		}
+		if = {
+			limit = { FROM = { FROM = { has_character_flag = flag_slave_price_115 } } }
+			wealth = 115
+		}
+		if = {
+			limit = { FROM = { FROM = { has_character_flag = flag_slave_price_150 } } }
+			wealth = 150
+		}
+		if = {
+			limit = { FROM = { FROM = { has_character_flag = flag_slave_price_225 } } }
+			wealth = 225
+		}
+		custom_tooltip = { text = "LOSESLAVEFROM" }
+		clr_character_flag = flag_slave_action		
+		# Oh, no, selling slaves is illegal and your liege might find out!
+		if = {
+			limit = { NOT = { has_full_slavery_trigger = yes } }
+			if = {
+				limit = { NOT = { liege = { character = ROOT } } }
+				if = {
+					limit = { liege = { intrigue = ROOT } }
+					random = {
+						chance = 66
+						set_character_flag = illegal_sale_discovered
+						liege = { character_event = { id = slavery.107 days = 3 tooltip = TOOLTIPslavery.107 } }					
+					}
+				}	
+				if = {
+					limit = { liege = { NOT = { intrigue = ROOT } } }
+					random = {
+						chance = 33
+						set_character_flag = illegal_sale_discovered
+						liege = { character_event = { id = slavery.107 days = 3 tooltip = TOOLTIPslavery.107 } }
+					}
+				}
+			}
+			# Independent character illegally sells slave, realm potentially finds out
+			if = {
+				limit = { liege = { character = ROOT }	}
+				if = {
+					limit = { NOT = { intrigue = 12 } }
+					random = {
+						chance = 66
+						set_character_flag = independent_illegal_slavery
+						set_character_flag = illegal_sale_discovered
+						custom_tooltip = { text = TOOLTIPslavery.157 }
+					}
+				}	
+				if = {
+					limit = { intrigue = 12 }
+					random = {
+						chance = 33
+						set_character_flag = independent_illegal_slavery
+						set_character_flag = illegal_sale_discovered
+						custom_tooltip = { text = TOOLTIPslavery.157 }
+					}
+				}	
+			}
+			hidden_tooltip = { FROM = { character_event = { id = slavery.109 } } }
+		}
+		hidden_tooltip = { FROM = { FROM = { character_event = { id = slavery.105 } } } }		
+		ai_chance = {
+			factor = 200
+			modifier = { 
+				factor = 10
+				FROM = { FROM = { has_character_flag = flag_slave_price_150 } }
+			}
+			modifier = { 
+				factor = 5
+				FROM = { FROM = { has_character_flag = flag_slave_price_115 } }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { FROM = { has_character_flag = flag_slave_price_75 } }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { FROM = { has_character_flag = flag_slave_price_15 } }
+			}
+			
+			#Take into account what I paid for the slave
+			modifier = {
+				factor = 2
+				FROM = { has_character_flag = slave_value_15 }
+			}
+			modifier = {
+				factor = 0.8
+				FROM = { has_character_flag = slave_value_75 }
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { has_character_flag = slave_value_115 }
+			}
+			modifier = {
+				factor = 0.55
+				FROM = { has_character_flag = slave_value_150 }
+			}
+			modifier = {
+				factor = 0.3
+				FROM = { has_character_flag = slave_value_225 }
+			}
+			
+			# Consider the slave's stats
+			modifier = {
+				factor = 2
+				FROM = { trait = slave age = 40 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave is_female = yes age = 40 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave age = 50 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave age = 60 }
+			}
+			modifier = {
+				factor = 10000			
+				FROM = { 
+					trait = slave
+					OR = {
+						trait = incapable 
+						trait = sickly
+					}	
+				} 
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave trait = infirm }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave is_crippled_trigger = yes }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave trait = blinded }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave is_ill = yes } 
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave is_maimed_trigger = yes }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave trait = wounded }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave trait = ugly }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = slave cannot_outbreed_trigger = yes }
+			}
+			
+			modifier = {
+				factor = 0.1
+				FROM = {
+					trait = slave
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR ={
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}	
+			}
+			modifier = {
+				factor = 0.6
+				FROM = { 
+					trait = slave
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 0.6
+				FROM = { trait = slave combat_rating = 8 }
+			}
+			modifier = {
+				factor = 0.8
+				FROM = { trait = slave combat_rating = 6 } 
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { trait = slave num_of_claims = 1 } 
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { trait = slave is_pregnant = yes }
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { trait = slave trait = eunuch }
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { trait = slave prestige = 500 } 
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					diplomacy = 10
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					diplomacy = 14
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					diplomacy = 18
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					stewardship = 10
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					stewardship = 14
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					stewardship = 18
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					intrigue = 10
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					intrigue = 14
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					intrigue = 18
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					learning = 10
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					learning = 14
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {
+					trait = slave
+					learning = 18
+				}
+			}
+			
+			# Opinion of the slave trader
+			modifier = {
+				factor = 1.25
+				FROM = { FROM = { reverse_opinion = { who = ROOT value = 100 } } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { FROM = { reverse_opinion = { who = ROOT value = 80 } } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { FROM = { reverse_opinion = { who = ROOT value = 60 } } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { FROM = { reverse_opinion = { who = ROOT value = 40 } } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { FROM = { reverse_opinion = { who = ROOT value = 20 } } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { FROM = { reverse_opinion = { who = ROOT value = -19 } } } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { FROM = { reverse_opinion = { who = ROOT value = -39 } } } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { FROM = { reverse_opinion = { who = ROOT value = -59 } } } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { FROM = { reverse_opinion = { who = ROOT value = -79 } } } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { FROM = { reverse_opinion = { who = ROOT value = -99 } } } }
+			}
+			
+			# Really needs the money
+			modifier = {
+				factor = 20
+				NOT = { wealth = 0 }
+			}
+			
+			# Personality
+			modifier = {
+				factor = 2
+				trait = trusting
+			}
+			modifier = {
+				factor = 0.5
+				trait = paranoid
+			}
+			modifier = {
+				factor = 4
+				trait = imbecile
+			}
+			modifier = {
+				factor = 2
+				is_dumb_trigger = yes
+			}
+		}
+	}
+	
+	# Reject the offer and find a better buyer
+	option = {
+		trigger = {
+			slave_trader = {
+				is_ruler = yes
+				is_alive = yes
+				NOT = { character = FROMFROM }
+				NOT = { character = ROOT }
+				NOT = { has_opinion_modifier = { who = FROM modifier = opinion_rejected_slave } }
+				OR = {
+					NOT = { has_character_flag = flag_slave_action }
+					had_character_flag = { flag = flag_slave_action days = 30 }
+				}
+				# The new buyer must be able to beat the price the current one has offered
+				FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_225 } } }				
+				OR = {
+					AND = {
+						wealth = 150
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_150 } } }
+					}	
+				}
+				OR = {
+					AND = {
+						wealth = 115
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_150 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_115 } } }
+					}	
+				}	
+				OR = {
+					AND = {
+						wealth = 75
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_150 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_115 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_75 } } }
+					}	
+				}	
+				OR = {
+					AND = {
+						wealth = 40
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_150 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_115 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_75 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_40 } } }
+					}	
+				}				
+			}
+		}
+		name = "EVTOPTBSLAVERY104"
+		slave_trader = {
+			limit = {
+				is_ruler = yes
+				is_alive = yes
+				NOT = { character = FROMFROM }
+				NOT = { character = ROOT }
+				NOT = { has_opinion_modifier = { who = FROM modifier = opinion_rejected_slave } }
+				OR = {
+					NOT = { has_character_flag = flag_slave_action }
+					had_character_flag = { flag = flag_slave_action days = 30 }
+				}
+				# The new buyer must be able to beat the price the current one has offered
+				FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_225 } } }				
+				OR = {
+					AND = {
+						wealth = 150
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_150 } } }
+					}	
+				}
+				OR = {
+					AND = {
+						wealth = 115
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_150 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_115 } } }
+					}	
+				}	
+				OR = {
+					AND = {
+						wealth = 75
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_150 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_115 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_75 } } }
+					}	
+				}	
+				OR = {
+					AND = {
+						wealth = 40
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_150 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_115 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_75 } } }
+						FROM = { FROM = { NOT = { has_character_flag = flag_slave_price_40 } } }
+					}	
+				}	
+			}
+			character_event = { id = slavery.100 tooltip = "EVTTOOLTIPSLAVERY100" }
+		}
+		hidden_tooltip = { FROM = { FROM = { character_event = { id = slavery.106 } } } } # Send rejection
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 2
+				trait = stubborn
+			}
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = proud
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 0
+				FROM = { FROM = { has_character_flag = flag_slave_price_225 } } # The AI will never try to hold out for a deal better than the best one possible
+			}
+		}
+	}
+	
+	option = {
+		# Reject the offer and give up on trying to sell the slave
+		name = "EVTOPTCSLAVERY104"
+		hidden_tooltip = { FROM = { FROM = { character_event = { id = slavery.106 } } } } # Send rejection
+		clr_character_flag = flag_slave_action
+		clr_character_flag = flag_selling_prisoner_into_slavery
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				trait = stubborn
+			}
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = proud
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 0
+				FROM = { FROM = { has_character_flag = flag_slave_price_225 } } # The AI will never try to hold out for a deal better than the best one possible
+			}
+		}
+	}
+}
+
+character_event = {
+	id = slavery.105
+	desc = "EVTDESCSLAVERY105"
+	picture = GFX_evt_slave_market
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			FROM = { #Record slaves price
+				clr_character_flag = slave_value_15
+				clr_character_flag = slave_value_40
+				clr_character_flag = slave_value_75
+				clr_character_flag = slave_value_115
+				clr_character_flag = slave_value_150
+				clr_character_flag = slave_value_225
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = { 
+					FROM = { has_character_flag = flag_selling_prisoner_into_slavery }
+					FROM = { FROM = { NOT = { trait = slave } } }
+				}	
+				FROM = {
+					clr_character_flag = flag_selling_prisoner_into_slavery
+					FROM = {
+						opinion = { who = ROOT modifier = opinion_enslaved_me }
+						opinion = { who = PREV modifier = opinion_enslaved_me }
+					}
+					if = { #If slavery is openly practiced apply other modifiers, covert illegal slave trades are handled seprately
+						limit = { 
+							has_full_slavery_trigger = yes 
+						} 
+						FROM = {
+							father = { opinion = { who = PREVPREV modifier = opinion_enslaved_close_relative } }
+							mother = { opinion = { who = PREVPREV modifier = opinion_enslaved_close_relative } }
+							any_dynasty_member = {
+								limit = {
+									is_close_relative = PREV
+									NOT = { character = PREV }
+									NOT = { character = ROOT }
+									NOT = { character = PREVPREV }
+									NOT = { any_child = { character = PREV } } 
+								}
+								opinion = { who = PREVPREV modifier = opinion_enslaved_close_relative }
+							}
+							any_spouse = {
+								limit = { opinion = { who = PREV value = -25 } }
+								opinion = { who = PREVPREV modifier = opinion_enslaved_close_relative }
+							}
+							any_spouse = {
+								opinion = { who = PREV modifier = opinion_my_abducted_spouse years = 100 }
+							}
+							if = { #If is my subject this is tyrannical
+								limit = {
+									OR = {
+										any_liege = { character = PREVPREV }
+										liege_before_war = { character = PREVPREV }
+										any_liege = { liege_before_war = { character = PREVPREVPREV } }
+										AND = { #Junior triarchs
+											PREV = { has_minor_title = title_triarch }
+											any_liege = { 
+												is_merchant_republic = yes 
+												is_vassal_or_below = PREVPREV
+											}
+										}
+									}
+									NAND = { #does not apply to escaped slaves
+										has_character_flag = escaped_slave
+										trait = former_slave
+									}									
+								}	
+								add_fear_torture_effect = yes
+								PREV = { 
+									change_variable = { which = "tyrant" value = 5 } 
+									hidden_tooltip = { character_event = { id = maintenance.1 } }#tyrant trait	
+								}	
+							}
+						}	
+					}
+				}	
+			}
+		}	
+	}
+	
+	option = {
+		name = "EVTOPTASLAVERY105"
+		if = {
+			limit = { has_character_flag = flag_slave_price_15 }
+			wealth = -15
+			clr_character_flag = flag_slave_price_15
+			FROMFROM = { set_character_flag = slave_value_15 }
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_40 }
+			wealth = -40
+			clr_character_flag = flag_slave_price_40
+			FROMFROM = { set_character_flag = slave_value_40 }
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_75 }
+			wealth = -75
+			clr_character_flag = flag_slave_price_75
+			FROMFROM = { set_character_flag = slave_value_75 }
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_115 }
+			wealth = -115
+			clr_character_flag = flag_slave_price_115
+			FROMFROM = { set_character_flag = slave_value_115 }
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_150 }
+			wealth = -150
+			clr_character_flag = flag_slave_price_150
+			FROMFROM = { set_character_flag = slave_value_150 }
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_225 }
+			wealth = -225
+			clr_character_flag = flag_slave_price_225
+			FROMFROM = { set_character_flag = slave_value_225 }
+		}	
+		clr_character_flag = flag_slave_action
+		ROOT = { save_event_target_as = enslaver }
+		FROM = {
+			FROM = {	
+				if = {
+					limit = { trait = slave } 
+					hidden_tooltip = {	
+						any_spouse = { remove_spouse = PREV }
+						consort = { remove_consort = PREV }
+						slave_owner = {
+							limit = { has_opinion_modifier = { who = PREV modifier = opinion_my_slave } }
+							remove_opinion = { who = PREV modifier = opinion_my_slave }
+							reverse_remove_opinion = { who = PREV modifier = opinion_my_owner }
+						}				
+					}
+				}
+				enslave_effect = yes
+			}
+		}	
+	}
+}
+
+character_event = {
+	id = slavery.106
+	desc = "EVTDESCSLAVERY106"
+	picture = GFX_evt_slave_market
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY106"
+		clr_character_flag = flag_slave_price_15
+		clr_character_flag = flag_slave_price_40
+		clr_character_flag = flag_slave_price_75
+		clr_character_flag = flag_slave_price_115
+		clr_character_flag = flag_slave_price_150
+		clr_character_flag = flag_slave_price_225
+		clr_character_flag = flag_slave_action
+	}
+}
+
+### A character's liege discovers that they have sold someone into slavery
+character_event = {
+	id = slavery.107
+	desc = "EVTDESCSLAVERY107"
+	picture = GFX_evt_scandal
+	is_triggered_only = yes
+	
+	option = {
+		# That is against the law
+		name = "EVTOPTASLAVERY107"
+		opinion = { who = FROM modifier = opinion_illegal_slave_trader }
+		FROM = { hidden_tooltip = { character_event = { id = slavery.108 } } }
+	}
+}
+
+character_event = {
+	id = slavery.108
+	desc = "EVTDESCSLAVERY108"
+	picture = GFX_evt_scandal
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY108"
+		if = {
+			limit = { tier = KING }
+			prestige = -250
+		}
+		if = {
+			limit = { tier = DUKE }
+			prestige = -175
+		}
+		if = {
+			limit = { tier = COUNT }
+			prestige = -100
+		}	
+		if = {
+			limit = { tier = BARON }
+			prestige = -60
+		}	
+		piety = -200
+		if = {
+			limit = { trait = honest }
+			remove_trait = honest
+		}
+		if = {
+			limit = { trait = honorable }
+			remove_trait = honorable
+		}
+	}
+}
+
+### Realm discovers independent character illegally sold someone into slavery
+character_event = {
+	id = slavery.157
+	desc = "EVTDESCSLAVERY157"
+	picture = GFX_evt_scandal
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY157"
+		change_variable = { which = "tyrant" value = 5 } 
+		hidden_tooltip = { character_event = { id = maintenance.1 } }#tyrant trait	
+		tooltip = { add_trait = tyrant1 }
+		if = {
+			limit = { trait = honest }
+			remove_trait = honest
+		}
+		if = {
+			limit = { trait = honorable }
+			remove_trait = honorable
+		}
+		if = {
+			limit = { tier = EMPEROR }
+			prestige = -400
+		}
+		if = {
+			limit = { tier = KING }
+			prestige = -250
+		}
+		if = {
+			limit = { tier = DUKE }
+			prestige = -175
+		}
+		if = {
+			limit = { tier = COUNT }
+			prestige = -100
+		}	
+		if = {
+			limit = { tier = BARON }
+			prestige = -60
+		}	
+		piety = -200
+		hidden_tooltip = {
+			any_realm_lord = {
+				limit = { ai = no }
+				character_event = { id = slavery.158 }
+			}
+		}
+	}
+}
+character_event = {
+	id = slavery.158
+	desc = "EVTDESCSLAVERY158"
+	picture = GFX_evt_scandal
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY158"
+		FROM = { FROM = { tooltip = { show_portrait = yes } } }
+	}
+}
+
+character_event = {
+	id = slavery.109
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = { NOT = { trait = slave } } # Must not already be a slave
+	
+	option = {
+		name = OK
+		FROM = {
+			if = { #Independent discovered selling slave illegally
+				limit = { has_character_flag = independent_illegal_slavery }
+				character_event = { id = slavery.157 days = 3 }
+				clr_character_flag = independent_illegal_slavery
+			}	
+		}
+		if = {
+			limit = { FROM = { NOT = { has_character_flag = illegal_sale_discovered } } }
+			father = { character_event = { id = slavery.910 days = 3 } }
+			mother = { character_event = { id = slavery.910 days = 3 } }
+			any_dynasty_member = {
+				limit = {
+					is_close_relative = ROOT
+					NOT = { character = FROM }
+					NOT = { is_liege_of = ROOT }
+					NOT = { character = ROOT }
+					NOT = { any_child = { character = ROOT } } 
+				}
+				character_event = { id = slavery.910 days = 3 }
+			}
+			any_spouse = {
+				limit = { opinion = { who = ROOT value = -25 } }
+				character_event = { id = slavery.910 days = 3 }
+			}
+		}
+		if = {
+			limit = { FROM = { has_character_flag = illegal_sale_discovered } }
+			father = { character_event = { id = slavery.110 days = 3 } }
+			mother = { character_event = { id = slavery.110 days = 3 } }
+			any_dynasty_member = {
+				limit = {
+					is_close_relative = ROOT
+					NOT = { character = FROM }
+					NOT = { is_liege_of = ROOT }
+					NOT = { character = ROOT }
+					NOT = { any_child = { character = ROOT } } 
+				}
+				character_event = { id = slavery.110 days = 3 }
+			}
+			any_spouse = {
+				limit = { opinion = { who = ROOT value = -25 } }
+				character_event = { id = slavery.110 days = 3 }
+			}
+			FROM = { clr_character_flag = illegal_sale_discovered }
+		}		
+	}
+}
+#Inform family of illegal sale
+character_event = {
+	id = slavery.110
+	desc = "EVTDESCSLAVERY110"
+	picture = GFX_evt_scandal
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY110"
+		FROM = { FROM = { reverse_opinion = { who = ROOT modifier = opinion_enslaved_close_relative } } }
+	}
+}
+#Inform family mysterious disappearance
+character_event = {
+	id = slavery.910
+	desc = "EVTDESCSLAVERY910"
+	picture = GFX_evt_scandal
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY910"
+		FROM = { FROM = { reverse_opinion = { who = ROOT modifier = opinion_relative_suspicious_disappearance } } }
+	}
+}
+# Slave-Selling Chain Starts
+# Sell a Prisoner
+character_event = {
+	id = slavery.150
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		if = { #Prisoners with no obvious use get sold/'culled' to NPC trader
+			limit = {
+				NOR = {
+					prestige = 500
+					NOT = { age = 16 }
+					num_of_claims = 1
+					father_even_if_dead = { 
+						NOT = { trait = slave } 
+						NOT = { dynasty = 0 }
+					}
+					mother_even_if_dead = { 
+						NOT = { trait = slave } 
+						NOT = { dynasty = 0 }
+					}
+					is_pregnant = yes
+					stewardship = 10
+					diplomacy = 10
+					intrigue = 10
+					learning = 10
+					combat_rating = 6
+					trait = dragon_rider
+					trait = dragon_egg
+					AND = {
+						fertility = 0.1
+						NOT = { cannot_outbreed_trigger = yes }
+						OR = {
+							AND = {
+								is_female = yes
+								NOT = { age = 40 }
+							}
+							is_female = no									
+						}	
+						OR = {
+							is_strong_trigger = yes
+							trait = fair
+							is_smart_trigger = yes
+							trait = genius
+							trait = tall
+						}									
+					}
+				}
+			}
+			host = { character_event = { id = slavery.155 } } 
+			break = yes
+		}	
+		host = { character_event = { id = slavery.151 } }
+	}
+}
+
+character_event = {
+	id = slavery.151
+	desc = "EVTDESCSLAVERY151"
+	picture = GFX_evt_into_the_dungeon
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				location = {
+					trade_post_owner = {
+						NOT = { character = ROOT }
+						trait = slave_trader
+						wealth = 15
+						NOT = { has_opinion_modifier = { who = FROM modifier = opinion_rejected_slave } }
+						OR = {
+							NOT = { has_character_flag = flag_slave_action }
+							had_character_flag = { flag = flag_slave_action days = 30 }
+						}
+					}
+				}
+			}
+			location = { trade_post_owner = { save_event_target_as = slave_trader } }
+			break = yes
+		}
+		slave_trader = {
+			limit = {
+				is_ruler = yes
+				is_alive = yes
+				wealth = 15
+				NOT = { character = ROOT }
+				NOT = { has_opinion_modifier = { who = FROM modifier = opinion_rejected_slave } }
+				OR = {
+					NOT = { has_character_flag = flag_slave_action }
+					had_character_flag = { flag = flag_slave_action days = 30 }
+				}
+			}
+			save_event_target_as = slave_trader
+		}
+	}
+	
+	option = {
+		name = "EVTOPTASLAVERY151"
+		ai_chance = { factor = 99 }
+		event_target:slave_trader = { 
+			set_character_flag = flag_slave_action
+			character_event = { id = slavery.100 tooltip = "EVTTOOLTIPSLAVERY100" } 
+		}
+		hidden_tooltip = { clear_event_target = slave_trader }
+	}
+	
+	option = {
+		ai_chance = { factor = 1 }
+		name = "EVTOPTBSLAVERY151"
+		clr_character_flag = flag_slave_action
+		clr_character_flag = flag_selling_prisoner_into_slavery
+		hidden_tooltip = { clear_event_target = slave_trader }
+	}
+}
+
+# Sell a Slave
+character_event = {
+	id = slavery.152
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = { 
+		if = { #Slaves with no obvious use get sold/'culled' to NPC trader
+			limit = {
+				NOR = {
+					prestige = 500
+					NOT = { age = 16 }
+					num_of_claims = 1
+					father_even_if_dead = { 
+						NOT = { trait = slave } 
+						NOT = { dynasty = 0 }
+					}
+					mother_even_if_dead = { 
+						NOT = { trait = slave } 
+						NOT = { dynasty = 0 }
+					}
+					is_pregnant = yes
+					stewardship = 10
+					diplomacy = 10
+					intrigue = 10
+					learning = 10
+					combat_rating = 6
+					trait = dragon_rider
+					trait = dragon_egg
+					AND = {
+						fertility = 0.1
+						NOT = { cannot_outbreed_trigger = yes }
+						OR = {
+							AND = {
+								is_female = yes
+								NOT = { age = 40 }
+							}
+							is_female = no									
+						}	
+						OR = {
+							is_strong_trigger = yes
+							trait = fair
+							is_smart_trigger = yes
+							trait = genius
+							trait = tall
+						}									
+					}
+				}
+			}
+			liege = { character_event = { id = slavery.154 } } 
+			break = yes
+		}	
+		liege = { character_event = { id = slavery.153 } } 
+	}
+}
+
+character_event = {
+	id = slavery.153
+	desc = "EVTDESCSLAVERY153"
+	picture = GFX_evt_slave_market
+	
+	is_triggered_only = yes
+	
+	immediate = {		
+		if = {
+			limit = {
+				location = {
+					trade_post_owner = {
+						NOT = { character = ROOT }
+						trait = slave_trader
+						wealth = 15
+						NOT = { has_opinion_modifier = { who = FROM modifier = opinion_rejected_slave } }
+						OR = {
+							NOT = { has_character_flag = flag_slave_action }
+							had_character_flag = { flag = flag_slave_action days = 30 }
+						}
+					}
+				}
+			}
+			location = { trade_post_owner = { save_event_target_as = slave_trader } }
+			break = yes
+		}
+		slave_trader = {
+			limit = {
+				is_ruler = yes
+				is_alive = yes
+				wealth = 15
+				NOT = { character = ROOT }
+				NOT = { has_opinion_modifier = { who = FROM modifier = opinion_rejected_slave } }
+				OR = {
+					NOT = { has_character_flag = flag_slave_action }
+					had_character_flag = { flag = flag_slave_action days = 30 }
+				}
+			}
+			save_event_target_as = slave_trader
+		}
+	}
+	
+	option = {
+		name = "EVTOPTASLAVERY153"
+		event_target:slave_trader = {
+			set_character_flag = flag_slave_action
+			character_event = { id = slavery.100 tooltip = "EVTTOOLTIPSLAVERY100" }
+		}
+		hidden_tooltip = { clear_event_target = slave_trader }
+	}
+	
+	option = {
+		trigger = { ai = no }
+		name = "EVTOPTBSLAVERY153"
+		clr_character_flag = flag_slave_action
+		hidden_tooltip = { clear_event_target = slave_trader }
+	}
+}
+
+character_event = { #Slave sold to NPC trader
+	id = slavery.154
+	desc = "EVTDESCSLAVERY154"
+	picture = GFX_evt_slave_market
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY154"
+		wealth = 5
+		FROM = {
+			custom_tooltip = {
+				text = TOOLTIPslavery.154
+				hidden_tooltip = {
+					remove_trait = former_slave
+					clear_wealth = THIS
+					death = { death_reason = death_sold_slave }
+				}
+			}
+		}
+		clr_character_flag = flag_slave_action
+	}
+	
+	option = {
+		name = "EVTOPTBSLAVERY154"
+		trigger = { ai = no }		
+		clr_character_flag = flag_slave_action
+	}
+}
+character_event = { #Prisoner sold to NPC trader
+	id = slavery.155
+	desc = "EVTDESCSLAVERY155"
+	picture = GFX_evt_slave_market
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY155"
+		wealth = 5
+		if = { #If slavery is openly practiced apply other modifiers, covert illegal slave trades are handled seprately
+			limit = { 
+				has_full_slavery_trigger = yes 
+			} 
+			FROM = {
+				hidden_tooltip = {
+					father = { opinion = { who = ROOT modifier = opinion_enslaved_close_relative } }
+					mother = { opinion = { who = ROOT modifier = opinion_enslaved_close_relative } }
+					any_dynasty_member = {
+						limit = {
+							is_close_relative = PREV
+							NOT = { character = PREV }
+							NOT = { character = ROOT }
+							NOT = { character = PREVPREV }
+							NOT = { any_child = { character = PREV } } 
+						}
+						opinion = { who = ROOT modifier = opinion_enslaved_close_relative }
+					}
+					any_spouse = {
+						limit = { opinion = { who = PREV value = -25 } }
+						opinion = { who = ROOT modifier = opinion_enslaved_close_relative }
+					}
+				}	
+				if = { #If is my subject this is tyrannical
+					limit = {
+						OR = {
+							is_liege_or_above = ROOT
+							liege_before_war = { character = ROOT }
+							any_liege = { liege_before_war = { character = ROOT } }
+							AND = { #Junior triarchs
+								ROOT = { has_minor_title = title_triarch }
+								any_liege = { 
+									is_merchant_republic = yes 
+									is_vassal_or_below = ROOT
+								}
+							}
+						}
+						NAND = { #does not apply to escaped slaves
+							has_character_flag = escaped_slave
+							trait = former_slave
+						}									
+					}	
+					ROOT = { 
+						change_variable = { which = "tyrant" value = 5 } 
+						hidden_tooltip = { character_event = { id = maintenance.1 } }#tyrant trait	
+					}	
+				}
+			}	
+		}
+		# Oh, no, selling slaves is illegal and your liege might find out!
+		if = {
+			limit = { NOT = { has_full_slavery_trigger = yes } }
+			if = {
+				limit = { NOT = { liege = { character = ROOT } } }
+				if = {
+					limit = { liege = { intrigue = ROOT } }
+					random = {
+						chance = 66
+						set_character_flag = illegal_sale_discovered
+						liege = { character_event = { id = slavery.107 days = 3 tooltip = TOOLTIPslavery.107 } }					
+					}
+				}	
+				if = {
+					limit = { liege = { NOT = { intrigue = ROOT } } }
+					random = {
+						chance = 33
+						set_character_flag = illegal_sale_discovered
+						liege = { character_event = { id = slavery.107 days = 3 tooltip = TOOLTIPslavery.107 } }
+					}
+				}
+			}
+			# Independent character illegally sells slave, realm potentially finds out
+			if = {
+				limit = { liege = { character = ROOT }	}
+				if = {
+					limit = { NOT = { intrigue = 12 } }
+					random = {
+						chance = 66
+						set_character_flag = independent_illegal_slavery
+						set_character_flag = illegal_sale_discovered
+						custom_tooltip = { text = TOOLTIPslavery.157 }
+					}
+				}	
+				if = {
+					limit = { intrigue = 12 }
+					random = {
+						chance = 33
+						set_character_flag = independent_illegal_slavery
+						set_character_flag = illegal_sale_discovered
+						custom_tooltip = { text = TOOLTIPslavery.157 }
+					}
+				}	
+			}
+			hidden_tooltip = { FROM = { character_event = { id = slavery.109 } } }
+		}
+		clr_character_flag = flag_slave_action
+		clr_character_flag = flag_selling_prisoner_into_slavery
+		FROM = {
+			add_trait = slave
+			custom_tooltip = {
+				text = TOOLTIPslavery.154
+				hidden_tooltip = {
+					remove_trait = former_slave
+					clear_wealth = THIS
+					death = { death_reason = death_sold_slave }
+				}
+			}
+		}	
+	}
+	
+	option = {
+		name = "EVTOPTBSLAVERY155"
+		trigger = { ai = no }		
+		clr_character_flag = flag_slave_action
+		clr_character_flag = flag_selling_prisoner_into_slavery
+	}
+}
+# Buying slaves (AI selects slave to buy)
+character_event = {
+	id = slavery.200
+	desc = "EVTDESCSLAVERY200"
+	picture = GFX_evt_slave_market
+	
+	is_triggered_only = yes
+	ai = yes
+	
+	trigger = {
+		is_ruler = yes
+		can_buy_courtier_slaves_trigger = yes
+		#is_nomadic = no
+		wealth = 100
+	}
+	
+	immediate = {
+		#Replace rubbish councillors
+		if = { 
+			limit = { job_chancellor = { NOT = { diplomacy = 12 } } }
+			slave = {
+				limit = {
+					is_alive = yes
+					NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_my_owner } }
+					diplomacy = 12
+					liege = {
+						NOT = { character = ROOT }
+						is_within_diplo_range = ROOT
+						has_opinion_modifier = { who = PREV modifier = opinion_my_slave }
+						has_full_slavery_trigger = yes
+					}
+					NOT = { has_character_flag = flag_not_for_sale }
+					NOT = { has_character_flag = unsullied }
+					NOT = { trait = incapable }
+					NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_rejected_slave } }
+				}
+				character_event = { id = slavery.250 }
+				break = yes
+			}
+		}
+		if = { 
+			limit = { job_treasurer = { NOT = { stewardship = 12 } } }
+			slave = {
+				limit = {
+					is_alive = yes
+					NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_my_owner } }
+					stewardship = 12
+					liege = {
+						NOT = { character = ROOT }
+						is_within_diplo_range = ROOT
+						has_opinion_modifier = { who = PREV modifier = opinion_my_slave }
+						has_full_slavery_trigger = yes
+					}
+					NOT = { has_character_flag = flag_not_for_sale }
+					NOT = { has_character_flag = unsullied }
+					NOT = { trait = incapable }
+					NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_rejected_slave } }
+				}
+				character_event = { id = slavery.250 }
+				break = yes
+			}
+		}
+		if = { 
+			limit = { job_spymaster = { NOT = { intrigue = 12 } } }
+			slave = {
+				limit = {
+					is_alive = yes
+					NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_my_owner } }
+					intrigue = 12
+					liege = {
+						NOT = { character = ROOT }
+						is_within_diplo_range = ROOT
+						has_opinion_modifier = { who = PREV modifier = opinion_my_slave }
+						has_full_slavery_trigger = yes
+					}
+					NOT = { has_character_flag = flag_not_for_sale }
+					NOT = { has_character_flag = unsullied }
+					NOT = { trait = incapable }
+					NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_rejected_slave } }
+				}
+				character_event = { id = slavery.250 }
+				break = yes
+			}
+		}
+		if = { 
+			limit = { job_physician = { NOT = { learning = 12 } NOT = { trait = maester } } }
+			slave = {
+				limit = {
+					is_alive = yes
+					NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_my_owner } }
+					learning = 12
+					liege = {
+						NOT = { character = ROOT }
+						is_within_diplo_range = ROOT
+						has_opinion_modifier = { who = PREV modifier = opinion_my_slave }
+						has_full_slavery_trigger = yes
+					}
+					NOT = { has_character_flag = flag_not_for_sale }
+					NOT = { has_character_flag = unsullied }
+					NOT = { trait = incapable }
+					NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_rejected_slave } }
+				}
+				character_event = { id = slavery.250 }
+				break = yes
+			}
+		}
+		#Find a bodyguard
+		if = {
+			limit = {
+				NOT = { has_landed_title = e_iron_throne }
+				NOT = { culture = dothraki }
+			}
+			if = { 
+				limit = {
+					wealth = 250
+					#I dont have any skilled bodyguards			
+					NOT = {
+						any_courtier = {
+							is_ruler = no
+							is_adult = yes
+							OR = {
+								is_councillor  = no
+								has_job_title = job_marshal
+							}	
+							NOT = { trait = incapable }
+							NOT = { is_crippled_trigger = yes }
+							NOT = { trait = infirm }
+							NOT = { trait = dragon }
+							combat_rating = 6
+						}
+					}	
+				}
+				slave = {
+					limit = {
+						is_alive = yes
+						NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_my_owner } }
+						is_adult = yes	
+						NOT = { trait = incapable }
+						NOT = { is_crippled_trigger = yes }
+						NOT = { trait = infirm }
+						combat_rating = 6
+						liege = {
+							NOT = { character = ROOT }
+							is_within_diplo_range = ROOT
+							has_opinion_modifier = { who = PREV modifier = opinion_my_slave }
+							has_full_slavery_trigger = yes
+						}
+						NOT = { has_character_flag = flag_not_for_sale }
+						NOT = { has_character_flag = unsullied }
+						NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_rejected_slave } }
+					}
+					character_event = { id = slavery.250 }
+					break = yes
+				}
+			}
+			if = { 
+				limit = {
+					NOT = {
+						any_courtier = {
+							has_minor_title = title_bodyguard
+						}
+					}	
+				}
+				slave = {
+					limit = {
+						is_alive = yes
+						NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_my_owner } }
+						is_adult = yes	
+						NOT = { trait = incapable }
+						NOT = { is_crippled_trigger = yes }
+						NOT = { trait = infirm }
+						combat_rating = 4
+						liege = {
+							NOT = { character = ROOT }
+							is_within_diplo_range = ROOT
+							has_opinion_modifier = { who = PREV modifier = opinion_my_slave }
+							has_full_slavery_trigger = yes
+						}
+						NOT = { has_character_flag = flag_not_for_sale }
+						NOT = { has_character_flag = unsullied }
+						NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_rejected_slave } }
+					}
+					character_event = { id = slavery.250 }
+					break = yes
+				}
+			}
+		}
+		#Find other desirable slave
+		slave = {
+			limit = {
+				is_alive = yes
+				NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_my_owner } }
+				OR = {
+					prestige = 500
+					NOT = { age = 25 }
+					any_claim = { NOT = { lower_tier_than = ROOT } }
+					is_pregnant = yes
+					stewardship = 12
+					diplomacy = 12
+					intrigue = 12
+					learning = 12
+					combat_rating = 6
+					trait = dragon_rider
+					trait = dragon_egg
+					AND = {
+						fertility = 0.1
+						NOT = { cannot_outbreed_trigger = yes }
+						OR = {
+							AND = {
+								is_female = yes
+								NOT = { age = 40 }
+							}
+							is_female = no									
+						}	
+						OR = {
+							is_strong_trigger = yes
+							trait = fair
+							is_smart_trigger = yes
+							trait = genius
+							trait = tall
+						}									
+					}
+				}
+				liege = {
+					NOT = { character = ROOT }
+					is_within_diplo_range = ROOT
+					has_opinion_modifier = { who = PREV modifier = opinion_my_slave }
+					has_full_slavery_trigger = yes
+				}
+				NOT = { has_character_flag = flag_not_for_sale }
+				NOT = { has_character_flag = unsullied }
+				NOT = { trait = incapable }
+				is_ill = no
+				NOT = { reverse_has_opinion_modifier = { who = ROOT modifier = opinion_rejected_slave } }
+			}
+			character_event = { id = slavery.250 }
+			break = yes
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+#Make sure prospective player buyer is FROM scope in diplomatic interaction
+character_event = {
+	id = slavery.249
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		FROM = {
+			character_event = { id = slavery.250 }
+		}	
+	}
+	
+	option = {
+		name = OK
+	}	
+}
+# A slave has been chosen, now to purchase it
+character_event = {
+	id = slavery.250
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		liege = {
+			character_event = { id = slavery.251 }
+		}
+	}
+}
+# Slaver names price
+character_event = {
+	id = slavery.251
+	desc = "EVTDESCSLAVERY251"
+	picture = GFX_evt_slave_market
+	
+	is_triggered_only = yes
+	
+	trigger = { is_liege_of = FROM }
+	
+	option = {
+		name = "EVTOPTASLAVERY251"
+		clr_character_flag = flag_slave_action
+		FROM = { 
+			FROM = { 
+				character_event = { id = slavery.252 tooltip = "EVTTOOLTIPSLAVERY255" } 
+			} 
+		}
+		ai_chance = {
+			factor = 20
+			
+			modifier = {
+				factor = 2
+				is_consort = FROM
+			}
+			modifier = {
+				factor = 2
+				FROM = { is_councillor = yes }
+			}
+			modifier = {
+				factor = 2
+				FROM = { has_minor_title = title_bodyguard }
+			}
+			modifier = {
+				factor = 3
+				is_close_relative = FROM
+			}
+			modifier = {
+				factor = 3
+				FROM = { real_father_even_if_dead = { character = ROOT } }
+			}
+			modifier = {
+				factor = 4
+				FROM = { real_father_even_if_dead = { character = ROOT } }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { opinion = { who = FROM value = -99 } }
+			}
+			modifier = {
+				factor = 0.66
+				NOT = { opinion = { who = FROM value = -66 } }
+			}
+			modifier = {
+				factor = 0.66
+				NOT = { opinion = { who = FROM value = -33 } }
+			}
+			modifier = {
+				factor = 1.5
+				opinion = { who = FROM value = 33 }
+			}
+			modifier = {
+				factor = 1.5
+				opinion = { who = FROM value = 66 }
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = FROM value = 99 }
+			}
+			#Old Slave, not much sell on value
+			modifier = {
+				factor = 0.5
+				FROM = { age = 40 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { is_female = yes age = 40 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { age = 50 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { age = 60 }
+			}
+			#Infants are risky
+			modifier = {
+				factor = 0.5
+				FROM = { NOT = { age = 5 } }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { NOT = { age = 3 } }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { NOT = { age = 1 } }
+			}
+			#Reasons to sell slave			
+			modifier = { #No obvious use
+				factor = 0.1
+				FROM = { 
+					NOR = {
+						is_close_relative = ROOT_FROMFROM
+						AND = {
+							dynasty = ROOT_FROMFROM
+							NOT = { dynasty = 0 }
+						}
+						
+						is_consort = ROOT
+						is_councillor = yes
+						has_minor_title = title_bodyguard
+						prestige = 500
+						NOT = { age = 16 }
+						num_of_claims = 1					
+						is_pregnant = yes
+						stewardship = 12
+						diplomacy = 12
+						intrigue = 12
+						learning = 12
+						combat_rating = 6
+						trait = dragon_rider
+						trait = dragon_egg
+						AND = {
+							fertility = 0.1
+							NOT = { cannot_outbreed_trigger = yes }
+							OR ={
+								AND = {
+									is_female = yes
+									NOT = { age = 40 }
+								}
+								is_female = no									
+							}	
+							OR = {
+								is_strong_trigger = yes
+								trait = fair
+								is_smart_trigger = yes
+								trait = genius
+								trait = tall
+							}									
+						}
+					}
+				} 
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = incapable }
+			}
+			modifier = {
+				factor = 0.1
+				FROM = { trait = infirm }
+			}
+			modifier = {
+				factor = 0.1
+				FROM = { is_crippled_trigger = yes }
+			}
+			modifier = {
+				factor = 0.15
+				FROM = { trait = blinded }
+			}
+			modifier = {
+				factor = 0.2
+				FROM = { is_ill = yes }
+			}
+			modifier = {
+				factor = 0.2
+				FROM = { has_epidemic = yes }
+			}
+			modifier = {
+				factor = 0.1
+				FROM = { is_maimed_trigger = yes }
+			}
+			modifier = {
+				factor = 0.2
+				FROM = { trait = wounded }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { trait = ugly }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { trait = disfigured_AGOT }
+			}
+			modifier = {
+				factor = 0.33
+				FROM = { cannot_outbreed_trigger = yes }
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTBSLAVERY251"
+		set_character_flag = flag_slave_price_15
+		FROM = { FROM = { character_event = { id = slavery.253 days = 1 tooltip = "EVTTOOLTIPSLAVERY253" } } }
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0.02
+				FROM = { has_character_flag = slave_value_225 }
+			}
+			modifier = {
+				factor = 0.02
+				FROM = { has_character_flag = slave_value_150 }
+			}		
+			modifier = {
+				factor = 0.08
+				FROM = { has_character_flag = slave_value_115 }
+			}
+			modifier = {
+				factor = 0.12
+				FROM = { has_character_flag = slave_value_75 }
+			}
+			modifier = {
+				factor = 0.3
+				FROM = { has_character_flag = slave_value_40 }
+			}
+			#Reasons to not sell cheaply
+			modifier = {
+				factor = 0
+				FROM = { 
+					NOT = { age = 40 }
+					NOT = { trait = incapable }
+					OR = {
+						is_close_relative = ROOT_FROMFROM
+						AND = {
+							dynasty = ROOT_FROMFROM
+							NOT = { dynasty = 0 }
+						}
+						is_consort = ROOT
+						is_councillor = yes
+						has_minor_title = title_bodyguard
+						prestige = 500
+						NOT = { age = 16 }
+						num_of_claims = 1					
+						is_pregnant = yes
+						stewardship = 12
+						diplomacy = 12
+						intrigue = 12
+						learning = 12
+						combat_rating = 6
+						trait = dragon_rider
+						trait = dragon_egg
+						AND = {
+							fertility = 0.1
+							NOT = { cannot_outbreed_trigger = yes }
+							OR ={
+								AND = {
+									is_female = yes
+									NOT = { age = 40 }
+								}
+								is_female = no									
+							}	
+							OR = {
+								is_strong_trigger = yes
+								trait = fair
+								is_smart_trigger = yes
+								trait = genius
+								trait = tall
+							}									
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { combat_rating = 4 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { stewardship = 10 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { intrigue = 10 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { learning = 10 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = {
+					OR = {
+						is_close_relative = ROOT_FROMFROM
+						AND = {
+							dynasty = ROOT_FROMFROM
+							NOT = { dynasty = 0 }
+						}
+					}	
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCSLAVERY251"
+		trigger = { FROM = { FROM = { wealth = 40 } } }
+		set_character_flag = flag_slave_price_40
+		FROM = { FROM = { character_event = { id = slavery.253 days = 1 tooltip = "EVTTOOLTIPSLAVERY253" } } }
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0.02
+				FROM = { has_character_flag = slave_value_225 }
+			}
+			modifier = {
+				factor = 0.02
+				FROM = { has_character_flag = slave_value_150 }
+			}
+			modifier = {
+				factor = 0.12
+				FROM = { has_character_flag = slave_value_115 }
+			}
+			modifier = {
+				factor = 0.3
+				FROM = { has_character_flag = slave_value_75 }
+			}
+			
+			#Reasons to sell high
+			modifier = {
+				factor = 0
+				FROM = { 
+					NOR = {
+						is_close_relative = ROOT_FROMFROM
+						AND = {
+							dynasty = ROOT_FROMFROM
+							NOT = { dynasty = 0 }
+						}
+						has_character_flag = slave_value_225
+						has_character_flag = slave_value_150
+						has_character_flag = slave_value_115
+						has_character_flag = slave_value_75
+						is_consort = ROOT
+						is_councillor = yes
+						has_minor_title = title_bodyguard
+						is_close_relative = ROOT
+						real_father_even_if_dead = { character = ROOT }
+						prestige = 500
+						NOT = { age = 16 }
+						num_of_claims = 1					
+						is_pregnant = yes
+						stewardship = 10
+						diplomacy = 10
+						intrigue = 10
+						learning = 10
+						combat_rating = 4
+						trait = dragon_rider
+						trait = dragon_egg
+						AND = {
+							fertility = 0.1
+							NOT = { cannot_outbreed_trigger = yes }
+							OR ={
+								AND = {
+									is_female = yes
+									NOT = { age = 40 }
+								}
+								is_female = no									
+							}	
+							OR = {
+								is_strong_trigger = yes
+								trait = fair
+								is_smart_trigger = yes
+								trait = genius
+								trait = tall
+							}									
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.33
+				FROM = { 
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 0.15
+				FROM = { combat_rating = 8 } 
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { combat_rating = 4 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { is_councillor = yes }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { has_minor_title = title_bodyguard }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { num_of_claims = 1 }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { prestige = 500 } 
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { stewardship = 10 }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { intrigue = 10 }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { learning = 10 }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { learning = 18 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = {
+					OR = {
+						is_close_relative = ROOT_FROMFROM
+						AND = {
+							dynasty = ROOT_FROMFROM
+							NOT = { dynasty = 0 }
+						}
+					}	
+				}
+			}
+		}
+	}
+	option = {
+		trigger = { 
+			FROM = { FROM = { wealth = 115 } }
+			ai = no
+		} 
+		name = "EVTOPTDSLAVERY251"
+		hidden_tooltip = { 
+			if = {
+				limit = { FROM = { FROM = { wealth = 150 } } }
+				set_character_flag = allow_150
+			}
+			if = {
+				limit = { FROM = { FROM = { wealth = 225 } } }
+				set_character_flag = allow_225
+			}
+			character_event = { id = slavery.25399 }
+			FROM = { FROM = { character_event = { id = slavery.253 days = 2 tooltip = "EVTTOOLTIPSLAVERY253" } } } 
+		}
+	}
+	option = {
+		name = "EVTOPTESLAVERY251"
+		trigger = { 
+			FROM = { FROM = { wealth = 75 } }
+			OR = {
+				ai = yes
+				FROM = { FROM = { NOT = { wealth = 115 } } }
+			}	
+		}
+		set_character_flag = flag_slave_price_75
+		FROM = { FROM = { character_event = { id = slavery.253 days = 1 tooltip = "EVTTOOLTIPSLAVERY253" } } }
+		ai_chance = {
+			factor = 40
+			
+			#Reasons to sell high
+			modifier = {
+				factor = 0
+				FROM = { age = 50 }
+			}
+			modifier = {
+				factor = 0
+				FROM = { 
+					NOR = {
+						is_close_relative = ROOT_FROMFROM
+						AND = {
+							dynasty = ROOT_FROMFROM
+							NOT = { dynasty = 0 }
+						}
+						has_character_flag = slave_value_225
+						has_character_flag = slave_value_150
+						has_character_flag = slave_value_115
+						is_consort = ROOT
+						is_councillor = yes
+						has_minor_title = title_bodyguard
+						is_close_relative = ROOT
+						real_father_even_if_dead = { character = ROOT }
+						prestige = 500
+						NOT = { age = 16 }
+						num_of_claims = 1					
+						is_pregnant = yes
+						stewardship = 12
+						diplomacy = 12
+						intrigue = 12
+						learning = 12
+						combat_rating = 6
+						trait = dragon_rider
+						trait = dragon_egg
+						AND = {
+							fertility = 0.1
+							NOT = { cannot_outbreed_trigger = yes }
+							OR = {
+								AND = {
+									is_female = yes
+									NOT = { age = 40 }
+								}
+								is_female = no									
+							}	
+							OR = {
+								is_strong_trigger = yes
+								trait = fair
+								is_smart_trigger = yes
+								trait = genius
+								trait = tall
+							}									
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.02
+				FROM = { has_character_flag = slave_value_225 }
+			}
+			modifier = {
+				factor = 0.12
+				FROM = { has_character_flag = slave_value_150 }
+			}
+			modifier = {
+				factor = 0.3
+				FROM = { has_character_flag = slave_value_115 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { 
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 0.25
+				FROM = { combat_rating = 8 } 
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { combat_rating = 4 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { is_councillor = yes }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { has_minor_title = title_bodyguard }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { num_of_claims = 1 }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { prestige = 500 } 
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { stewardship = 10 }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { intrigue = 10 }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { learning = 10 }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { learning = 18 }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = {
+					OR = {
+						is_close_relative = ROOT_FROMFROM
+						AND = {
+							dynasty = ROOT_FROMFROM
+							NOT = { dynasty = 0 }
+						}
+					}	
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTFSLAVERY251"
+		trigger = { 
+			FROM = { FROM = { wealth = 115 } }	
+		}
+		set_character_flag = flag_slave_price_115
+		FROM = { FROM = { character_event = { id = slavery.253 days = 1  tooltip = "EVTTOOLTIPSLAVERY253" } } }
+		ai_chance = {
+			factor = 40
+			
+			#Reasons to sell high
+			modifier = {
+				factor = 0
+				FROM = { age = 40 }
+			}
+			modifier = {
+				factor = 0
+				FROM = { 
+					NOT = {
+						calc_true_if = {
+							amount = 2
+							OR = {
+								is_close_relative = ROOT_FROMFROM
+								AND = {
+									dynasty = ROOT_FROMFROM
+									NOT = { dynasty = 0 }
+								}
+							}	
+							has_character_flag = slave_value_225
+							has_character_flag = slave_value_150
+							prestige = 500
+							any_claim = { 
+								NOT = { lower_tier_than = ROOT }
+								NOT = { holder_scope = { same_realm = PREVPREV } }
+							}
+							is_pregnant = yes
+							stewardship = 12
+							diplomacy = 12
+							intrigue = 12
+							learning = 12
+							combat_rating = 6
+							is_strong_trigger = yes
+							trait = fair
+							is_smart_trigger = yes
+							trait = genius
+							trait = tall
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.12
+				FROM = { has_character_flag = slave_value_225 }
+			}
+			modifier = {
+				factor = 0.3
+				FROM = { has_character_flag = slave_value_150 }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { 
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 0.4
+				FROM = { combat_rating = 8 } 
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { num_of_claims = 1 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { prestige = 500 } 
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { learning = 18 }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTGSLAVERY251"
+		trigger = { 
+			FROM = { FROM = { wealth = 150 } }	
+		}
+		set_character_flag = flag_slave_price_150
+		FROM = { FROM = { character_event = { id = slavery.253 days = 1 tooltip = "EVTTOOLTIPSLAVERY253" } } }
+		ai_chance = {
+			factor = 40
+			
+			#Reasons to sell high
+			modifier = {
+				factor = 0
+				FROM = { age = 30 }
+			}
+			modifier = {
+				factor = 0
+				FROM = { 
+					NOT = {
+						calc_true_if = {
+							amount = 3
+							has_character_flag = slave_value_225
+							prestige = 500
+							any_claim = { 
+								NOT = { lower_tier_than = ROOT }
+								NOT = { holder_scope = { same_realm = PREVPREV } }
+							}
+							is_pregnant = yes
+							stewardship = 12
+							diplomacy = 12
+							intrigue = 12
+							learning = 12
+							combat_rating = 6
+							is_strong_trigger = yes
+							trait = fair
+							is_smart_trigger = yes
+							trait = genius
+							trait = tall
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.3
+				FROM = { has_character_flag = slave_value_225 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { 
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 0.66
+				FROM = { combat_rating = 8 } 
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { num_of_claims = 1 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { prestige = 500 } 
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 0.9
+				FROM = { learning = 18 }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTHSLAVERY251"
+		trigger = { 
+			FROM = { FROM = { wealth = 225 } }	
+		}
+		set_character_flag = flag_slave_price_225
+		FROM = { FROM = { character_event = { id = slavery.253 days = 1 tooltip = "EVTTOOLTIPSLAVERY253" } } }
+		ai_chance = {
+			factor = 40
+			#Reasons to sell high
+			modifier = {
+				factor = 0
+				FROM = { age = 30 }
+			}
+			modifier = {
+				factor = 0
+				FROM = { 
+					NOT = {
+						calc_true_if = {
+							amount = 4
+							has_character_flag = slave_value_225
+							has_character_flag = slave_value_150
+							prestige = 500
+							any_claim = { 
+								NOT = { lower_tier_than = ROOT }
+								NOT = { holder_scope = { same_realm = PREVPREV } }
+							}
+							is_pregnant = yes
+							stewardship = 12
+							diplomacy = 12
+							intrigue = 12
+							learning = 12
+							combat_rating = 6
+							is_strong_trigger = yes
+							trait = fair
+							is_smart_trigger = yes
+							trait = genius
+							trait = tall
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Sell offer refused
+character_event = {
+	id = slavery.252
+	desc = "EVTDESCSLAVERY252"
+	picture = GFX_evt_slave_market
+	
+	is_triggered_only = yes
+	
+	immediate = { hidden_tooltip = { opinion = { who = FROMFROM modifier = opinion_rejected_slave months = 48 } } }
+	
+	option = {
+		name = "EVTOPTASLAVERY252" #Ai try again
+		trigger = {
+			ai = yes
+		}
+		ai_chance = {
+			factor = 100
+		}	
+		character_event = { id = slavery.200 days = 5 random = 2 }
+	}
+	
+	option = {
+		name = "EVTOPTBSLAVERY252"
+		ai_chance = { factor = 50 }
+		clr_character_flag = flag_slave_action
+	}
+}
+#Human offer higher price
+character_event = {
+	id = slavery.25399
+	picture = GFX_evt_slave_market
+	desc = "EVTDESCSLAVERY25399"
+	
+	show_from_from = yes
+	is_triggered_only = yes
+	
+
+	option = {
+		name = "EVTOPTESLAVERY251"
+		trigger = {
+			is_liege_of = FROMFROM
+		}
+		set_character_flag = flag_slave_price_75
+		clr_character_flag = allow_150
+		clr_character_flag = allow_225
+	}
+	option = {
+		name = "EVTOPTFSLAVERY251"
+		trigger = {
+			is_liege_of = FROMFROM
+		}
+		set_character_flag = flag_slave_price_115
+		clr_character_flag = allow_150
+		clr_character_flag = allow_225
+	}
+	option = {
+		trigger = { 
+			has_character_flag = allow_150 
+			is_liege_of = FROMFROM
+		}
+		name = "EVTOPTGSLAVERY251"
+		set_character_flag = flag_slave_price_150
+		clr_character_flag = allow_150
+		clr_character_flag = allow_225
+	}
+	option = {
+		trigger = { 
+			has_character_flag = allow_225 
+			is_liege_of = FROMFROM
+		}
+		name = "EVTOPTHSLAVERY251"
+		set_character_flag = flag_slave_price_225
+		clr_character_flag = allow_150
+		clr_character_flag = allow_225
+	}
+	option = {
+		trigger = { 
+			NOT = { is_liege_of = FROMFROM }
+		}
+		name = OK
+		clr_character_flag = allow_150
+		clr_character_flag = allow_225
+	}
+}
+character_event = {
+	id = slavery.253
+	desc = "EVTDESCSLAVERY253"
+	picture = GFX_evt_slave_market
+	is_triggered_only = yes
+	
+	trigger = {
+		FROM = { is_liege_of = ROOT_FROMFROM }
+	}
+	
+	option = {
+		# Buy the slave
+		name = "EVTOPTASLAVERY253"
+		clr_character_flag = flag_slave_action
+		if = {
+			limit = { NOT = { trait = slave_owner } }
+			add_trait = slave_owner
+		}
+		FROMFROM = {
+			clr_character_flag = slave_value_15
+			clr_character_flag = slave_value_40
+			clr_character_flag = slave_value_75
+			clr_character_flag = slave_value_115
+			clr_character_flag = slave_value_150
+			clr_character_flag = slave_value_225
+		}
+		if = {
+			limit = { FROM = { has_character_flag = flag_slave_price_15 } }
+			wealth = -15
+			FROMFROM = { set_character_flag = slave_value_15 }
+		}
+		if = {
+			limit = { FROM = { has_character_flag = flag_slave_price_40 } }
+			wealth = -40
+			FROMFROM = { set_character_flag = slave_value_40 }
+		}
+		if = {
+			limit = { FROM = { has_character_flag = flag_slave_price_75 } }
+			wealth = -75
+			FROMFROM = { set_character_flag = slave_value_75 }
+		}
+		if = {
+			limit = { FROM = { has_character_flag = flag_slave_price_115 } }
+			wealth = -115
+			FROMFROM = { set_character_flag = slave_value_115 }
+		}
+		if = {
+			limit = { FROM = { has_character_flag = flag_slave_price_150 } }
+			wealth = -150
+			FROMFROM = { set_character_flag = slave_value_150 }
+		}
+		if = {
+			limit = { FROM = { has_character_flag = flag_slave_price_225 } }
+			wealth = -225
+			FROMFROM = { set_character_flag = slave_value_225 }
+		}
+		hidden_tooltip = { FROM = { character_event = { id = slavery.254 } } }
+		FROMFROM = { 
+			hidden_tooltip = {
+				any_spouse = { remove_spouse = PREV }
+				consort = { remove_consort = PREV }
+				opinion = { who = ROOT modifier = opinion_my_owner }
+				reverse_opinion = { who = ROOT modifier = opinion_my_slave }	
+				if = {
+					limit = { has_guardian = yes }
+					remove_guardian = yes
+				}
+				character_event = { id = slavery.259 days = 1 } #slave management		
+			}
+			move_character = ROOT 
+		} 
+		ai_chance = {
+			factor = 100
+			#If high price demanded, must have reason to pay it
+			modifier = { 
+				factor = 0
+				FROM = { 
+					OR = {
+						has_character_flag = flag_slave_price_225 
+						has_character_flag = flag_slave_price_150
+					}	
+				} 
+				FROMFROM = {
+					OR = {
+						age = 30 #Must be young
+						NOR = {
+							stewardship = 16
+							diplomacy = 16
+							intrigue = 16
+							learning = 16
+							combat_rating = 6
+							trait = dragon_rider
+							trait = dragon_egg
+							AND = {
+								fertility = 0.1	
+								NOT = { cannot_outbreed_trigger = yes }
+								OR = {
+									is_strong_trigger = yes
+									trait = fair
+									is_smart_trigger = yes
+									trait = genius
+									trait = tall
+								}									
+							}
+						}
+					}	
+				}
+				NOR = {
+					is_close_relative = ROOT_FROMFROM
+					AND = {
+						dynasty = ROOT_FROMFROM
+						NOT = { dynasty = 0 }
+					}
+				}	
+			}
+			modifier = { 
+				factor = 0
+				FROM = { 
+					OR = {
+						has_character_flag = flag_slave_price_115
+						has_character_flag = flag_slave_price_75
+					}	
+				} 
+				FROMFROM = {
+					OR = {
+						age = 50 #Must be young
+						NOR = {
+							prestige = 500
+							num_of_claims = 1					
+							is_pregnant = yes
+							stewardship = 14
+							diplomacy = 14
+							intrigue = 14
+							learning = 14
+							combat_rating = 6
+							trait = dragon_rider
+							trait = dragon_egg
+							AND = {
+								fertility = 0.1
+								NOT = { cannot_outbreed_trigger = yes }
+								OR = {
+									AND = {
+										is_female = yes
+										NOT = { age = 40 }
+									}
+									is_female = no									
+								}	
+								OR = {
+									is_strong_trigger = yes
+									trait = fair
+									is_smart_trigger = yes
+									trait = genius
+									trait = tall
+								}									
+							}
+						}
+					}	
+				}
+				NOR = {
+					is_close_relative = ROOT_FROMFROM
+					AND = {
+						dynasty = ROOT_FROMFROM
+						NOT = { dynasty = 0 }
+					}
+				}
+			}
+			
+			modifier = { 
+				factor = 0.1
+				FROM = { has_character_flag = flag_slave_price_225 } 
+			}
+			modifier = { 
+				factor = 0.2
+				FROM = { has_character_flag = flag_slave_price_150 }
+			}
+			modifier = { 
+				factor = 0.4
+				FROM = { has_character_flag = flag_slave_price_115 } 
+			}
+			modifier = {
+				factor = 0.8
+				FROM = { has_character_flag = flag_slave_price_75 } 
+			}
+			
+			# Consider the slave's stats
+			modifier = {
+				factor = 0.5
+				FROMFROM = { age = 40 }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { is_female = yes age = 40 }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { age = 50 }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { age = 60 }
+			}
+			modifier = {
+				factor = 0
+				FROMFROM = { trait = incapable }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { trait = infirm }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { is_crippled_trigger = yes }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { trait = blinded }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { trait = blinded_age }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { is_ill = yes }
+			}
+			modifier = {
+				factor = 0.1
+				FROMFROM = { has_epidemic = yes }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { is_maimed_trigger = yes }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { trait = wounded }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { trait = ugly }
+			}
+			modifier = {
+				factor = 0.5
+				FROMFROM = { trait = disfigured_AGOT }
+			}
+			
+			modifier = {
+				factor = 4
+				FROMFROM = {
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}	
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { 
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 3
+				FROMFROM = { combat_rating = 8 }
+			}
+			modifier = {
+				factor = 1.75
+				FROMFROM = { combat_rating = 6 }
+			}
+			modifier = {
+				factor = 1.25
+				FROMFROM = { combat_rating = 4 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { num_of_claims = 1 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { prestige = 500 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { diplomacy = 14 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { stewardship = 10 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { stewardship = 14 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { stewardship = 18 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { intrigue = 10 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { intrigue = 14 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { intrigue = 18 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { learning = 10 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 1.5
+				FROMFROM = { learning = 18 }
+			}
+			
+			modifier = {
+				factor = 4
+				OR = {
+					is_close_relative = ROOT_FROMFROM
+					AND = {
+						dynasty = ROOT_FROMFROM
+						NOT = { dynasty = 0 }
+					}
+				}
+			}
+					
+			# Opinion of the slave trader
+			modifier = {
+				factor = 1.5
+				opinion = { who = FROM value = 99 } 
+			}
+			modifier = {
+				factor = 1.5
+				opinion = { who = FROM value = 66 } 
+			}
+			modifier = {
+				factor = 1.5
+				opinion = { who = FROM value = 33 } 
+			}
+			modifier = {
+				factor = 0.66
+				NOT = { opinion = { who = FROM value = -33 } }
+			}
+			modifier = {
+				factor = 0.66
+				NOT = { opinion = { who = FROM value = -66 } }
+			}
+			modifier = {
+				factor = 0.66
+				NOT = { opinion = { who = FROM value = -99 } }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBSLAVERY253" # Refuse, buy from another slaver		
+		trigger = { ai = yes }
+		ai_chance = {
+			factor = 200
+			modifier = {
+				factor = 0
+				FROM = { has_character_flag = flag_slave_price_15 } 
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { has_character_flag = flag_slave_price_40 } 
+			}
+		}		
+		hidden_tooltip = { opinion = { who = FROMFROM modifier = opinion_rejected_slave months = 48 } }
+		FROM = { character_event = { id = slavery.255 tooltip = "EVTTOOLTIPSLAVERY255" } }
+		character_event = { id = slavery.200 days = 5 random = 2 }
+	}
+	option = {
+		name = "EVTOPTCSLAVERY253" # Refuse, give up on buying slaves today
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				FROM = { has_character_flag = flag_slave_price_15 } 
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { has_character_flag = flag_slave_price_40 } 
+			}
+		}	
+		hidden_tooltip = { opinion = { who = FROMFROM modifier = opinion_rejected_slave months = 48 } }
+		FROM = { character_event = { id = slavery.255 tooltip = "EVTTOOLTIPSLAVERY255" } }
+		clr_character_flag = flag_slave_action	
+	}
+}
+
+character_event = {
+	id = slavery.254
+	desc = "EVTDESCSLAVERY254"
+	picture = GFX_evt_slave_market
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROMFROM = {
+			remove_opinion = { who = ROOT modifier = opinion_my_owner }
+			reverse_remove_opinion = { who = ROOT modifier = opinion_my_slave }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTASLAVERY254"
+		clr_character_flag = flag_slave_action
+		if = {
+			limit = { has_character_flag = flag_slave_price_15 }
+			wealth = 15
+			clr_character_flag = flag_slave_price_15
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_40 }
+			wealth = 40
+			clr_character_flag = flag_slave_price_40
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_75 }
+			wealth = 75
+			clr_character_flag = flag_slave_price_75
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_115 }
+			wealth = 115
+			clr_character_flag = flag_slave_price_115
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_150 }
+			wealth = 150
+			clr_character_flag = flag_slave_price_150
+		}
+		if = {
+			limit = { has_character_flag = flag_slave_price_225 }
+			wealth = 225
+			clr_character_flag = flag_slave_price_225
+		}
+	}
+}
+
+character_event = {
+	id = slavery.255
+	desc = "EVTDESCSLAVERY255"
+	picture = GFX_evt_slave_market
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASLAVERY255"
+		clr_character_flag = flag_slave_action
+		clr_character_flag = flag_slave_price_15
+		clr_character_flag = flag_slave_price_40
+		clr_character_flag = flag_slave_price_75
+		clr_character_flag = flag_slave_price_115
+		clr_character_flag = flag_slave_price_150
+		clr_character_flag = flag_slave_price_225
+	}
+}
+# ##AI decides whether to buy slave or not### OBSOLETE
+# character_event = {
+	# id = slavery.2600
+	# desc = "AI ONLY EVENT"
+	# picture = GFX_evt_slave_market
+	# is_triggered_only = yes
+	
+	# option = {
+		# name = "BUY"
+		# ai_chance = { 
+			# factor = 1 
+			# modifier = {
+				# factor = 0
+				# trait = liberator
+			# }
+			# modifier = {
+				# factor = 0
+				# war = yes
+			# }
+			# modifier = {
+				# factor = 0
+				# has_character_modifier = loan_timer
+				# NOT = { trait = wroth }
+				# NOT = { trait = imbecile }
+				# NOT = { trait = lunatic }
+				# NOT = { trait = possessed }
+			# }
+			# modifier = {
+				# factor = 0
+				# NOT = { wealth = 125 }
+				# OR = {
+					# AND = {
+						# NOT = { trait = wroth }
+						# NOT = { trait = slothful }
+						# NOT = { trait = gluttonous }
+						# NOT = { trait = greedy }
+					# }
+					# trait = patient
+					# trait = diligent
+					# trait = temperate
+				# }
+			# }
+			# modifier = {
+				# factor = 0
+				# NOT = { wealth = 200 }
+				# OR = {
+					# trait = ambitious
+					# # This should hopefully make the AI try to save up if it gets rejected
+					# AND = {
+						# has_character_flag = flag_gave_up_on_slave_purchase
+						# NOT = { had_character_flag = { flag = flag_gave_up_on_slave_purchase days = 1825 } }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0
+				# trait = content
+				# NOT = { trait = greedy }
+				# NOT = { trait = envious }
+				# NOT = { trait = proud }
+			# }		
+		# }
+		# character_event = { id = slavery.200 }
+	# }
+	
+	# option = {
+		# name = "DONT BUY"
+		# ai_chance = { 
+			# factor = 50 
+			# # Reasons to buy a slave
+			# modifier = { 
+				# factor = 0.01
+				# OR = {
+					# NOT = { #I dont have enough slaves
+						# any_courtier = {
+							# trait = slave
+							# count = 3
+						# }
+					# }
+					# NOT = { #I dont have any young slaves
+						# any_courtier = {
+							# trait = slave
+							# NOT = { age = 25 }
+						# }
+					# }
+					# job_chancellor = { NOT = { diplomacy = 12 } } #My councillor is rubbish
+					# job_treasurer = { NOT = { stewardship = 12 } }
+					# job_spymaster = { NOT = { intrigue = 12 } }
+					# job_physician = { NOT = { learning = 12 } NOT = { trait = maester } }
+					# AND = { #I have much cash
+						# wealth = 450
+						# NOT = { has_character_modifier = loan_timer }
+					# }
+				# }	
+			# }		
+		# }
+	# }
+# }
+# A minor slaver offers to sell slave camp
+character_event = {
+	id = slavery.2601
+	desc = "EVTDESCSLAVERY2601"
+	picture = GFX_evt_slave_market
+	
+	only_playable = yes
+	#is_patrician = yes # Only patricians can be slave traders
+	
+	trigger = {
+		trait = slave_trader	
+		NOR = {
+			capital_holding = {
+				OR = {
+					has_building = ca_asoiaf_slavepit_5
+					has_building = ct_asoiaf_slavepit_5
+					has_building = tp_asoiaf_slavepit_5
+				}
+			}
+			family_palace = { has_building = fp_asoiaf_slavepit_5 }
+		}
+		NOT = { 
+			crownlaw_title = { 
+				OR = {
+					has_law = slavery_0
+					has_law = slavery_1
+				}	
+			} 
+		}	
+		# NOT = {
+			# OR = {
+				# capital_holding = {
+					# OR = {
+						# has_building = ca_asoiaf_slavepit_1
+						# has_building = ct_asoiaf_slavepit_1
+						# has_building = tp_asoiaf_slavepit_1				
+					# }
+				# }
+				# family_palace = { has_building = fp_asoiaf_slavepit_1 }
+			# }	
+		# }	
+		OR = {
+			wealth = 250
+			AND = { #May take loan to buy slaves if they can afford it	
+				OR = {
+					ai = no
+					wealth = 50
+				}
+				monthly_income = 10
+				NOT = { has_character_flag = loan_taken }
+				NOT = { has_character_modifier = loan_timer }
+				NOT = { has_character_flag = offended_moneylenders }
+			}
+		}		
+		OR = {
+			NOT = { has_character_flag = no_bulk_slave_cooldown }
+			had_character_flag = { flag = no_bulk_slave_cooldown days = 730 }
+		}
+		OR = {
+			NOT = { has_character_flag = flag_slave_action }
+			had_character_flag = { flag = flag_slave_action days = 30 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.1
+			NOR = {
+				capital_holding = {
+					OR = {
+						has_building = ca_asoiaf_slavepit_1
+						has_building = ct_asoiaf_slavepit_1
+						has_building = tp_asoiaf_slavepit_1
+					}
+				}
+				family_palace = { has_building = fp_asoiaf_slavepit_1 }
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				capital_holding = {
+					OR = {
+						has_building = ca_asoiaf_slavepit_3
+						has_building = ct_asoiaf_slavepit_3
+						has_building = tp_asoiaf_slavepit_3
+					}
+				}
+				family_palace = { has_building = fp_asoiaf_slavepit_3 }
+			}	
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				capital_holding = {
+					OR = {
+						has_building = ca_asoiaf_slavepit_4
+						has_building = ct_asoiaf_slavepit_4
+						has_building = tp_asoiaf_slavepit_4
+					}
+				}
+				family_palace = { has_building = fp_asoiaf_slavepit_4 }
+			}
+		}		
+	}
+	
+	option = {
+		name = "EVTOPTASLAVERY2601"
+		ai_chance = {
+			factor = 100
+			
+			modifier = {
+				factor = 2
+				capital_scope = { culture = astapori }
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 0.5
+				capital_scope = { revolt_risk = 0.05 }
+				NOT = { trait = proud }
+				NOT = { trait = imbecile }
+				NOT = { is_dumb_trigger = yes }
+				NOT = { trait = lunatic }
+			}
+			modifier = {
+				factor = 0.5
+				capital_scope = { revolt_risk = 0.1 }
+				NOT = { trait = proud }
+				NOT = { trait = imbecile }
+				NOT = { is_dumb_trigger = yes }
+				NOT = { trait = lunatic }
+			}
+			modifier = {
+				factor = 10
+				NOR = {
+					capital_holding = {
+						OR = {
+							has_building = ca_asoiaf_slavepit_1
+							has_building = ct_asoiaf_slavepit_1
+							has_building = tp_asoiaf_slavepit_1
+						}
+					}
+					family_palace = { has_building = fp_asoiaf_slavepit_1 }
+				}
+			}
+			modifier = {
+				factor = 0.75
+				OR = {
+					capital_holding = {
+						OR = {
+							has_building = ca_asoiaf_slavepit_2
+							has_building = ct_asoiaf_slavepit_2
+							has_building = tp_asoiaf_slavepit_2
+						}
+					}
+					family_palace = { has_building = fp_asoiaf_slavepit_2 }
+				}
+			}
+			modifier = {
+				factor = 0.75
+				OR = {
+					capital_holding = {
+						OR = {
+							has_building = ca_asoiaf_slavepit_3
+							has_building = ct_asoiaf_slavepit_3
+							has_building = tp_asoiaf_slavepit_3
+						}
+					}
+					family_palace = { has_building = fp_asoiaf_slavepit_3 }
+				}	
+			}
+			modifier = {
+				factor = 0.75
+				OR = {
+					capital_holding = {
+						OR = {
+							has_building = ca_asoiaf_slavepit_4
+							has_building = ct_asoiaf_slavepit_4
+							has_building = tp_asoiaf_slavepit_4
+						}
+					}
+					family_palace = { has_building = fp_asoiaf_slavepit_4 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				ai = yes
+				monthly_income = 10
+				wealth = 50
+				NOT = { wealth = 250 }
+				NOT = { has_character_flag = loan_taken }
+				NOT = { has_character_modifier = loan_timer }
+				NOT = { has_character_flag = offended_moneylenders }
+			}
+			wealth = 400
+			set_character_flag = loan_400	
+			set_variable = { which = "loan_amount" value = 400 }
+			add_character_modifier = {
+				name = "loan_timer"
+				duration = 1825
+			}
+			set_character_flag = loan_taken
+		}
+		wealth = -300
+		character_event = { id = slavery.1000 tooltip = "EVTTOOLTIPSLAVERY1000" }
+		clr_character_flag = no_bulk_slave_cooldown
+	}
+	
+	option = {
+		name = "EVTOPTBSLAVERY2601"	
+		ai_chance = { factor = 10 }
+		set_character_flag = no_bulk_slave_cooldown
+	}
+}
+#Slave offers to buy own freedom
+character_event = {
+	id = slavery.2700
+	desc = "EVTDESCSLAVERY2700"
+
+	is_triggered_only = yes
+	
+	# Accept Sale
+	option = {
+		name = "EVTOPTASLAVERY2700"
+		clr_character_flag = flag_slave_action 
+		FROM = {
+			clr_character_flag = escaped_slave
+			if = {
+				limit = { NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_enslaved_me } } }
+				opinion = {
+					modifier = opinion_granted_freedom
+					who = ROOT
+					years = 5
+				}
+			}	
+			if = {
+				limit = { has_opinion_modifier = { who = ROOT modifier = opinion_enslaved_me } }
+				opinion = {
+					modifier = opinion_granted_freedom
+					who = ROOT
+					years = 5
+					multiplier = 0.5
+				}
+			}
+			character_event = { id = slavery.0 tooltip = EVTTOOLTIPSLAVERY0 }
+			hidden_tooltip = {
+				# Move to a random country 
+				character_event = { id = slavery.2701 days = 1 }
+			}
+			if = {
+				limit = { 
+					wealth = 225
+				}
+				wealth = -225
+				ROOT = { wealth = 225 }
+				break = yes
+			}
+			if = {
+				limit = { 
+					wealth = 150
+					NOT = { wealth = 225 }
+				}
+				wealth = -150
+				ROOT = { wealth = 150 }
+				break = yes
+			}
+			if = {
+				limit = { 
+					wealth = 115
+					NOT = { wealth = 150 }
+				}
+				wealth = -115
+				ROOT = { wealth = 115 }
+				break = yes
+			}
+			if = {
+				limit = { 
+					wealth = 75
+					NOT = { wealth = 115 }
+				}
+				wealth = -75
+				ROOT = { wealth = 75 }
+				break = yes
+			}		
+			if = {
+				limit = { 
+					NOT = { wealth = 75 }
+				}
+				wealth = -40
+				ROOT = { wealth = 40 }
+				break = yes
+			}				
+		}		
+		ai_chance = {
+			factor = 200
+			modifier = { 
+				factor = 10
+				FROM = { wealth = 150 }
+			}
+			modifier = { 
+				factor = 5
+				FROM = { 
+					wealth = 115
+					NOT = { wealth = 150 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { 
+					wealth = 75
+					NOT = { wealth = 115 }
+				}
+			}
+			
+			#Take into account what I paid for the slave
+			modifier = {
+				factor = 2
+				FROM = { has_character_flag = slave_value_15 }
+			}
+			modifier = {
+				factor = 0.8
+				FROM = { has_character_flag = slave_value_75 }
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { has_character_flag = slave_value_115 }
+			}
+			modifier = {
+				factor = 0.55
+				FROM = { has_character_flag = slave_value_150 }
+			}
+			modifier = {
+				factor = 0.3
+				FROM = { has_character_flag = slave_value_225 }
+			}
+			
+			# Consider the slave's stats
+			modifier = {
+				factor = 2
+				FROM = { age = 40 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { is_female = yes age = 40 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { age = 50 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { age = 60 }
+			}
+			modifier = {
+				factor = 10000			
+				FROM = { 					
+					OR = {
+						trait = incapable 
+						trait = sickly
+					}	
+				} 
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = infirm }
+			}
+			modifier = {
+				factor = 2
+				FROM = { is_crippled_trigger = yes }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = blinded }
+			}
+			modifier = {
+				factor = 2
+				FROM = { is_ill = yes } 
+			}
+			modifier = {
+				factor = 2
+				FROM = { is_maimed_trigger = yes }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = wounded }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = ugly }
+			}
+			
+			modifier = {
+				factor = 0.1
+				FROM = {				
+					fertility = 0.1
+					NOT = { cannot_outbreed_trigger = yes }
+					OR = {
+						AND = {
+							is_female = yes
+							NOT = { age = 40 }
+						}
+						is_female = no									
+					}	
+					OR = {
+						is_strong_trigger = yes
+						trait = fair
+						is_smart_trigger = yes
+						trait = genius
+						trait = tall
+					}
+				}	
+			}
+			modifier = {
+				factor = 0.6
+				FROM = { 			
+					age = 6
+					NOT = { age = 20 }
+				} 
+			}
+			modifier = {
+				factor = 0.6
+				FROM = { combat_rating = 8 }
+			}
+			modifier = {
+				factor = 0.8
+				FROM = { combat_rating = 6 } 
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { num_of_claims = 1 } 
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { is_pregnant = yes }
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { prestige = 500 } 
+			}
+			modifier = {
+				factor = 0.7
+				FROM = { is_councillor = yes }
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {				
+					diplomacy = 10
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {					
+					diplomacy = 14
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {				
+					diplomacy = 18
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {					
+					stewardship = 10
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {				
+					stewardship = 14
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {				
+					stewardship = 18
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {				
+					intrigue = 10
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {				
+					intrigue = 14
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {				
+					intrigue = 18
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {					
+					learning = 10
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {				
+					learning = 14
+				}
+			}
+			modifier = {
+				factor = 0.7
+				FROM = {				
+					learning = 18
+				}
+			}
+			
+			# Opinion of the slave
+			modifier = {
+				factor = 1.25
+				FROM = { reverse_opinion = { who = ROOT value = 100 } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { reverse_opinion = { who = ROOT value = 80 } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { reverse_opinion = { who = ROOT value = 60 } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { reverse_opinion = { who = ROOT value = 40 } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { reverse_opinion = { who = ROOT value = 20 } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { reverse_opinion = { who = ROOT value = -19 } } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { reverse_opinion = { who = ROOT value = -39 } } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { reverse_opinion = { who = ROOT value = -59 } } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { reverse_opinion = { who = ROOT value = -79 } } }
+			}
+			modifier = {
+				factor = 0.8
+				NOT = { FROM = { reverse_opinion = { who = ROOT value = -99 } } }
+			}
+			
+			# Really needs the money
+			modifier = {
+				factor = 20
+				NOT = { wealth = 0 }
+			}
+			
+			# Personality
+			modifier = {
+				factor = 2
+				trait = trusting
+			}
+			modifier = {
+				factor = 0.5
+				trait = paranoid
+			}
+			modifier = {
+				factor = 0.5
+				trait = proud
+			}
+			modifier = {
+				factor = 2
+				trait = humble
+			}
+			modifier = {
+				factor = 4
+				trait = kind
+			}
+			modifier = {
+				factor = 0.25
+				trait = cruel
+			}
+			modifier = {
+				factor = 4
+				trait = honorable
+			}
+			modifier = {
+				factor = 0.25
+				trait = ruthless
+			}
+		}
+	}
+	
+	# Reject
+	option = {
+		name = "EVTOPTBSLAVERY2700"
+		ai_chance = {
+			factor = 150
+		}
+		clr_character_flag = flag_slave_action 
+	}
+}	
+character_event = {
+	id = slavery.2701
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		# Move to a random country
+		random_playable_ruler = {
+			limit = { #Try and find closely related dynast
+				dynasty = ROOT
+				is_close_relative = ROOT
+				NOT = { character = FROM }
+				NOT = { trait = nightswatch }
+				NOT = { culture_group = unoccupied_group }
+				NOT = { culture_group = winter_group }	
+			}
+			ROOT = { move_character = PREV }	
+			break = yes			
+		}
+		random_playable_ruler = {
+			limit = { #Try and find dynast
+				dynasty = ROOT
+				NOT = { dynasty = 0 }
+				NOT = { character = FROM }
+				NOT = { trait = nightswatch }
+				NOT = { culture_group = unoccupied_group }
+				NOT = { culture_group = winter_group }	
+			}
+			ROOT = { move_character = PREV }
+			break = yes	
+		}	
+		if = {
+			limit = { #Maybe stay here?
+				opinion = { who = FROM value = 20 }
+			}
+			break = yes	
+		}	
+		random_playable_ruler = {
+			limit = { #Try and find same culture/religion
+				culture_group = ROOT
+				religion = ROOT
+				NOT = { character = FROM }
+				NOT = { trait = nightswatch }
+				NOT = { culture_group = unoccupied_group }
+				NOT = { culture_group = winter_group }	
+			}
+			ROOT = { move_character = PREV }
+			break = yes	
+		}
+		random_playable_ruler = {
+			limit = { #If still havent found destination move somewhere random
+				crownlaw_title = { has_law = slavery_0 } 
+				NOT = { character = FROM }
+				NOT = { trait = nightswatch }
+				NOT = { trait = wildling }
+				NOT = { culture_group = unoccupied_group }
+				NOT = { culture_group = winter_group }	
+			}
+			ROOT = { move_character = PREV }
+			break = yes	
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}	

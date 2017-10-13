@@ -1,0 +1,186 @@
+# Italian Conquest Events
+
+namespace = conquest_of_italy
+
+# 359 BC/417 ingame, the conquest of Etrusca for the betterment of Rome.
+narrative_event = {
+	id = roman_conquest.42
+	desc = "EVTDESCroman_conquest.42"
+	title = "EVTTITLEroman_conquest.42"
+	picture = "GFX_roman_conquest.dds"
+	
+
+	trigger = { 
+		NOT = { year = 500 }
+		has_character_flag = roman_conquest
+	}	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+	option = {
+		name = "EVTOPTAroman_conquest.42" #For Rome!
+		ai_chance = { factor = 90 }
+			
+		set_global_flag = active_wars_of_italian_conquest
+		clr_character_flag = roman_conquest
+			
+		spawn_unit = {
+			owner = k_rome
+			province = 324
+			home = 324
+			troops = {
+				archers = { 5000 5000 }
+				light_infantry = { 8000 8000 }
+				heavy_infantry = { 4000 4000 }
+				heavy_cavalry = { 2000 2000 }
+			}
+			attrition = 1.0
+			disband_on_peace = no
+			maintenance_multiplier = 0
+		}
+		any_independent_ruler  = {
+            limit = {
+                has_landed_title = k_etruscan
+            }
+            primary_title = {
+                ROOT = { add_claim = PREVPREV }
+                holder_scope = {
+                    reverse_war = {
+                        target = ROOT
+                        casus_belli = rome_italian_unification_cb
+                        thirdparty_title = k_italy
+                        infamy = 0
+                    }
+                }
+            }
+        }
+	}
+	option = { #No, let's wait.
+		name = "EVTOPTBroman_conquest.42"
+		ai_chance = { factor = 10 }
+		clr_character_flag = roman_conquest
+		prestige = -100
+		
+	}
+}
+
+#War in Etrusca is successful, senators are joyful and option for further expansion.
+narrative_event = {
+	id = roman_conquest.2
+	desc = "EVTDESCroman_conquest.2"
+	title = "EVTTITLEroman_conquest.2"
+	picture = "GFX_roman_conquest.dds"
+
+
+	trigger = {
+		has_global_flag = active_wars_of_italian_conquest
+		k_rome = {
+			holder_scope = {
+				NOT = { war = yes }
+				overlord_of = c_pisae
+					
+			}
+		}
+		c_pisae = {
+			holder_scope = {
+				independent = no
+			}		
+		}
+	}
+	mean_time_to_happen = {
+		months = 5 
+	}
+	
+	option = { #Further on! Let's move south!
+		name = EVTOPTAroman_conquest.2
+		ai_chance = { factor = 45 }
+		
+		set_global_flag = rome_expands_south
+		clr_global_flag = active_wars_of_italian_conquest
+		spawn_unit = {
+			owner = k_rome
+			province = 324
+			home = 324
+			troops = {
+				archers = { 5000 5000 }
+				light_infantry = { 8000 8000 }
+				heavy_infantry = { 4000 4000 }
+				heavy_cavalry = { 2000 2000 }
+			}
+			attrition = 1.0
+			disband_on_peace = no
+			maintenance_multiplier = 0
+			
+	    }
+		any_independent_ruler  = {
+            limit = {
+                has_landed_title = k_samnites
+            }
+            primary_title = {
+                ROOT = { add_claim = PREVPREV }
+                holder_scope = {
+                    reverse_war = {
+                        target = ROOT
+                        casus_belli = rome_italian_unification_cb
+                        thirdparty_title = k_italy
+                        infamy = 0
+                    }
+                }
+            }
+        }
+		prestige = 500
+	}
+	option = { # Further on! Let's move east!
+		name = EVTOPTBroman_conquest.2
+		ai_chance = { factor = 45 }
+		
+		set_global_flag = rome_expands_east
+		clr_character_flag = active_wars_of_italian_conquest
+		spawn_unit = {
+			owner = k_rome
+			province = 324
+			home = 324
+			troops = {
+				archers = { 5000 5000 }
+				light_infantry = { 8000 8000 }
+				heavy_infantry = { 4000 4000 }
+				heavy_cavalry = { 2000 2000 }
+			}
+			attrition = 1.0
+			disband_on_peace = no
+			maintenance_multiplier = 0
+		}
+		any_independent_ruler  = {
+            limit = {
+                has_landed_title = k_umbri
+            }
+            primary_title = {
+                ROOT = { add_claim = PREVPREV }
+                holder_scope = {
+                    reverse_war = {
+                        target = ROOT
+                        casus_belli = rome_italian_unification_cb
+                        thirdparty_title = k_italy
+                        infamy = 0
+                    }
+                }
+            }
+        }
+	}  
+	option = { # No, let's end the aggression.
+		name = EVTOPTCroman_conquest.2
+		ai_chance = { factor = 10 }
+		
+		clr_global_flag = active_wars_of_italian_conquest
+	}
+
+}	
+	
+
+	
+
+
+
+				
+				

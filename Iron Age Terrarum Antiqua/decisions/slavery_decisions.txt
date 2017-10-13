@@ -40,14 +40,13 @@ decisions = {
 		potential = {
 			ai = no #Ai uses yearly event slavery.299
 			NOT = { trait = slave_trader } # Obviously, can't do this when already a slave trader		
-			has_full_slavery_trigger = yes # Slavery must be Legal
+			crownlaw_title = {
+				has_law = slavery_2
+				}
 			is_nomadic = no			
 		}
 		allow = { 		
-			OR = {
-				is_patrician = yes
-				has_focus = focus_business
-			}
+			has_focus = focus_business
 			NOT = { trait = liberator } # Won't do this for obvious reasons
 		} 
 		effect = {
@@ -55,7 +54,14 @@ decisions = {
 			set_dynasty_flag = flag_slaver_tradition
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				holder_scope = {
+					has_government = merchant_republic
+					}
+				}
 		}
 	}
 	# Leave slave trade
@@ -73,6 +79,7 @@ decisions = {
 		}
 		ai_will_do = {
 			factor = 0
+			
 		}
 	}
 	# buy_slave = { #Player can use targetted decision to select specific slaves
@@ -789,7 +796,6 @@ targetted_decisions = {
 			}	
 			prisoner = no
 			FROM = {
-				can_buy_courtier_slaves_trigger = yes
 				custom_tooltip = {
 					text = TOOLTIPSLAVEACTION
 					hidden_tooltip = {
@@ -895,7 +901,9 @@ targetted_decisions = {
 		}
 		allow = {
 			FROM = { 
-				has_full_slavery_trigger = yes	
+				crownlaw_title = {
+						has_law = slavery_2 
+					}
 				NOT = { trait = liberator }
 			}
 			# Must be at least theoretically capable of breeding
@@ -1333,7 +1341,7 @@ targetted_decisions = {
 		}
 		effect = {
 			FROM = { save_event_target_as = enslaver }				
-			opinion = { who = FROM modifier = opinion_enslaved_me }			
+			opinion = { who = FROM modifier = opinion_enslaved_me }	
 			if = { #If is my subject this is tyrannical 
 				limit = {
 					OR = {
@@ -1353,10 +1361,6 @@ targetted_decisions = {
 						trait = former_slave
 					}
 				}	
-				FROM = { 
-					change_variable = { which = "tyrant" value = 5 } 
-					hidden_tooltip = { character_event = { id = maintenance.1 } }#tyrant trait
-				}
 			}
 			add_fear_torture_effect = yes	
 			enslave_effect = yes			
@@ -1498,7 +1502,7 @@ targetted_decisions = {
 			modifier = {
 				factor = 0
 				FROM = {
-					has_antislavery_religion_trigger = yes
+					trait = kind
 					NOT = { trait = cynical }
 					NOT = { trait = arbitrary }
 					NOT = { trait = slave_trader }

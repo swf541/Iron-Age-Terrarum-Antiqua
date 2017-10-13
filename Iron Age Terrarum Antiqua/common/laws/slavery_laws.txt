@@ -3,17 +3,16 @@
 
 # The Four Slavery Laws
 # Illegal
-#	Slavery is illegal, and this law is strictly enforced. No slavery mechanics, can gain War of Liberation and Treaty Violation CBs.
-#	Favored by Westerosi, Braavosi, Rhoynar, and liberators.
+#	Slavery is illegal, and this law is strictly enforced. No slavery mechanics, can gain War of Liberation and Treaty Violation CBs
+
 # Indentured Servitude
 #	Slavery is technically illegal, but practiced nevertheless. No large population slavery mechanics.
 #	Not favored by anyone. This is the result of a War of Emancipation against a realm practicing Chattel Slavery.
 # Chattel Slavery
-#	Slavery is fully legal. Slaves are treated as property and may be bought and sold. Full access to slavery mechanics, may be target of War of Liberation CB.
-#	Favored by Ghiscari, Dothraki, Valyrian, Pirates, Dothraki and non-Braavosi Free Cities cultures.
+#	Slavery is fully legal. Slaves are treated as property and may be bought and sold. Full access to slavery mechanics. Any culture can enact it.
 # Thralldom
 #	Prisoners of war may be taken as slaves. Slaves may not be bought or sold.
-#	Favored by Ironborn.
+
 
 de_jure_laws = {
 # SLAVERY
@@ -686,10 +685,8 @@ de_jure_laws = {
 
 	slavery_2 = { # Chattel Slavery
 		show_as_title = yes
-		group = slavery
-		
-		potential = { always = yes }
-		
+		group = slavery		
+		potential = { always = yes }	
 		allow = {
 			hidden_tooltip = {
 				OR = {
@@ -697,10 +694,7 @@ de_jure_laws = {
 					has_law = slavery_1
 					has_law = slavery_3
 				}
-				NAND = { #do not allow legalisation during the conquest
-					holder_scope = { has_landed_title = e_iron_throne }
-					has_global_flag = aegons_conquest
-				}
+			
 			}	
 			holder_scope = {
 				custom_tooltip = {
@@ -714,31 +708,8 @@ de_jure_laws = {
 					}
 				}
 				NOT = { trait = liberator }
-				NOT = { has_character_modifier = realm_emancipated }
-				OR = {	
-					has_slavery_religion_trigger = yes
-					has_slavery_culture_trigger = yes
-					custom_tooltip = {
-						text = TOOLTIPslavery_2VASSAL	
-						hidden_tooltip = {		
-							any_vassal = {
-								OR = {
-									trait = slave_owner
-									trait = slave_trader
-									OR = {
-										has_slavery_religion_trigger = yes
-										has_slavery_culture_trigger = yes
-									}
-								}
-								NOT = { trait = liberator }
-							}
-						}
-					}
-					trait = slave_owner
-					trait = slave_trader
-					trait = arbitrary
-					trait = lunatic
-				}
+				NOT = { trait = kind }	
+				
 			}
 			custom_tooltip = {
 				text = TOOLTIPslavery_2EMANCIPATED
@@ -756,17 +727,11 @@ de_jure_laws = {
 			always = no
 		}
 		default_selection = {
-			factor = 0
+			factor = 1
 			additive_modifier = { 
 				value = 10
-				holder_scope = {
-					OR = {
-						has_slavery_religion_trigger = yes
-						has_slavery_culture_trigger = yes
-						trait = slave_owner
-						trait = slave_trader
-					}	
-				}
+
+				
 			}
 		}
 		ai_will_do = {
@@ -776,28 +741,23 @@ de_jure_laws = {
 			modifier = {
 				factor = 0.005
 			}
+			modifier = { #AI will enact the law if they are cruel, insane, a lunatic, or posessed.
+				factor = 2 
+				holder_scope = {
+					trait = cruel
+					trait = insane
+					trait = lunatic
+					trait = posessed
+					}
+				}
 			
-			modifier = {
-				factor = 0
-				holder_scope = { has_dynasty_flag = liberator_dynasty }
-			}
 			
 			# Motivations
 			modifier = {
 				factor = 0
 				holder_scope = { 
-					NOT = { has_slavery_culture_trigger = yes }
-					NOT = { has_slavery_religion_trigger = yes }
 					NOT = { trait = lunatic }
 					NOT = { trait = arbitrary }
-				}
-			}
-			modifier = { #Valyrians usually wont do this in Westeros
-				factor = 0
-				holder_scope = { 
-					culture_group = valyrian
-					capital_scope = { region = world_westeros }
-					NOT = { trait = lunatic }
 				}
 			}
 			
@@ -892,71 +852,15 @@ de_jure_laws = {
 						has_slavery_culture_trigger = yes	
 						has_slavery_religion_trigger = yes
 					}
-					NOT = {
-						has_antislavery_religion_trigger = yes
+					NOT = { trait = kind }
 					}
 					trait = just
 				}
-			}
-			modifier = {
-				factor = 0.05
-				holder_scope = {
-					OR = {
-						has_antislavery_culture_trigger = yes
-						has_antislavery_religion_trigger = yes
-					}
-					NOT = { trait = arbitrary }
-				}
-			}
 			modifier = {
 				factor = 0
 				holder_scope = {
-					OR = {
-						has_antislavery_culture_trigger = yes
-						has_antislavery_religion_trigger = yes
-					}
-					trait = just
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					has_antislavery_religion_trigger = yes
-				}
-			}
-			modifier = {
-				factor = 0.2
-				holder_scope = {
-					has_antislavery_religion_trigger = yes
-					NOT = { trait = cynical }
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					has_antislavery_religion_trigger = yes
-					trait = zealous
-				}
-			}
-			modifier = {
-				factor = 0.2
-				holder_scope = {
-					culture_group = iron_isles_culture
-					NOT = { trait = arbitrary }
-				}
-			}
-			modifier = {
-				factor = 0
-				holder_scope = {
-					culture_group = iron_isles_culture
-					trait = just
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					culture_group = iron_isles_culture
-					trait = proud
+					trait = kind
+					trait = liberator
 				}
 			}
 			
@@ -969,250 +873,9 @@ de_jure_laws = {
 						NOT = { age = 16 }
 					}
 				}	
-			}
-			modifier = {
-				factor = 0
-				holder_scope = {
-					NOT = { trait = just }
-					NOT = { trait = proud }
-					any_vassal = { relative_power_to_liege = 0.2 NOT = { opinion = { who = PREV value = -25 } } } 
-				}
-			}
-			modifier = {
-				factor = 1.4
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = slave_owner
-							trait = slave_trader
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_slavery_religion_trigger = yes
-									has_slavery_culture_trigger = yes
-								}
-							}
-						}
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.2
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 1.4
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = slave_owner
-							trait = slave_trader
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_slavery_religion_trigger = yes
-									has_slavery_culture_trigger = yes
-								}
-							}
-						}
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.33
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 1.4
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = slave_owner
-							trait = slave_trader
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_slavery_religion_trigger = yes
-									has_slavery_culture_trigger = yes
-								}
-							}
-						}
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.5
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 1.4
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = slave_owner
-							trait = slave_trader
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_slavery_culture_trigger = yes	
-									has_slavery_religion_trigger = yes
-								}
-							}
-						}
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.66
-					}
-					NOT = { trait = proud }
-				}
-			}
-			
-			modifier = {
-				factor = 0.6
-				has_law = slavery_3
-				holder_scope = {
-					any_vassal = {
-						culture_group = iron_isles_culture
-						NOT = { trait = liberator }
-						NOT = { trait = arbitrary }
-						relative_power_to_liege = 0.2
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				has_law = slavery_3
-				holder_scope = {
-					any_vassal = {
-						culture_group = iron_isles_culture
-						NOT = { trait = liberator }
-						NOT = { trait = arbitrary }
-						relative_power_to_liege = 0.33
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				has_law = slavery_3
-				holder_scope = {
-					any_vassal = {
-						culture_group = iron_isles_culture
-						NOT = { trait = liberator }
-						NOT = { trait = arbitrary }
-						relative_power_to_liege = 0.5
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				has_law = slavery_3
-				holder_scope = {
-					any_vassal = {
-						culture_group = iron_isles_culture
-						NOT = { trait = liberator }
-						NOT = { trait = arbitrary }
-						relative_power_to_liege = 0.66
-					}
-					NOT = { trait = proud }
-				}
-			}
-			
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_0
-					has_law = slavery_1
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = liberator
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
-								}
-							}
-						}
-						relative_power_to_liege = 0.2
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_0
-					has_law = slavery_1
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = liberator
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
-								}
-							}
-						}
-						relative_power_to_liege = 0.33
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_0
-					has_law = slavery_1
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = liberator
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
-								}
-							}
-						}
-						relative_power_to_liege = 0.5
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_0
-					has_law = slavery_1
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = liberator
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
-								}
-							}
-						}
-						relative_power_to_liege = 0.66
-					}
-					NOT = { trait = proud }
-				}
-			}
-			
+			}					
 		}
-		
 		ai_will_revoke = { factor = 0 }
-		
 		pass_effect = {
 			if = {
 				limit = { had_global_flag = { flag = scenario_initialised  days = 5 } } #thse effects can cause CTD when applied on day 0
@@ -1296,7 +959,6 @@ de_jure_laws = {
 				}	
 			}	
 		}
-			
 		effect = {
 			hidden_tooltip = {
 				revoke_law = slavery_0
@@ -1311,608 +973,5 @@ de_jure_laws = {
 				}	
 			}
 		}	
-	}
-	
-	slavery_3 = { # Thralldom
-		show_as_title = yes
-		group = slavery
-		
-		potential = { always = yes }
-		
-		allow = {
-			hidden_tooltip = {
-				OR = {
-					has_law = slavery_0
-					has_law = slavery_1
-					has_law = slavery_2
-				}
-			}	
-			holder_scope = {
-				custom_tooltip = {
-					text = TOOLTIPINDEPENDENTCONDITION
-					hidden_tooltip = {
-						independent = yes
-						OR = {
-							tier = EMPEROR
-							primary_title = { NOT = { check_variable = { which = "de_facto_empire" value = 1 } } }
-						}	
-					}
-				}
-				OR = {
-					culture = ironborn
-					any_vassal = { culture = ironborn }
-					trait = arbitrary
-					trait = lunatic
-				}
-				NOT = { trait = liberator }
-				NOT = { has_character_modifier = realm_emancipated }
-			}
-			custom_tooltip = {
-				text = TOOLTIPslavery_2EMANCIPATED
-				hidden_tooltip = {
-					OR = {
-						NOT = { has_law = slavery_1 }
-						NOT = { has_title_flag = realm_emancipated }
-						had_title_flag = { flag = realm_emancipated days = 5475 }
-					}	
-				}
-			}
-		}
-		
-		revoke_allowed = {
-			always = no
-		}
-		default_selection = {
-			factor = 0
-			additive_modifier = { 
-				value = 15
-				holder_scope = {
-					culture = ironborn	
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			
-			# Inertia
-			modifier = {
-				factor = 0.005
-			}
-			
-			modifier = {
-				factor = 0
-				holder_scope = { has_dynasty_flag = liberator_dynasty }
-			}
-			
-			# Motivations
-			modifier = {
-				factor = 0
-				holder_scope = { 
-					NOT = { culture = ironborn }
-					NOT = { trait = lunatic }
-					NOT = { trait = arbitrary }
-				}
-			}
-			
-			# Personality Effects
-			modifier = {
-				factor = 0
-				holder_scope = { trait = liberator }
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = { trait = slothful }
-			}
-			modifier = {
-				factor = 2
-				holder_scope = { trait = diligent }
-			}
-			modifier = {
-				factor = 2
-				holder_scope = { trait = cruel }
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = { trait = kind }
-			}
-			modifier = {
-				factor = 2
-				holder_scope = { trait = wroth }
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = { trait = patient }
-			}
-			
-			# I Own a Slave Pit
-			modifier = {
-				factor = 0.1
-				holder_scope = {
-					capital_holding = { 
-						OR = {
-							has_building = ca_asoiaf_slavepit_1
-							has_building = ct_asoiaf_slavepit_1
-							has_building = fp_asoiaf_slavepit_1
-							has_building = tp_asoiaf_slavepit_1
-						}	
-					}	
-				}
-			}
-			# Slavery is already fully legal anyway
-			modifier = {
-				factor = 0
-				has_law = slavery_2
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = just }
-				}
-			}
-			
-			# Culture Effects
-			modifier = {
-				factor = 0.05
-				holder_scope = {
-					OR = {
-						has_slavery_religion_trigger = yes
-						has_slavery_culture_trigger = yes
-					}
-					NOT = { trait = arbitrary }
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					OR = {
-						has_slavery_religion_trigger = yes
-						has_slavery_culture_trigger = yes
-					}
-				}
-			}
-			modifier = {
-				factor = 0.05
-				holder_scope = {
-					OR = {
-						has_antislavery_culture_trigger = yes
-						has_antislavery_religion_trigger = yes
-					}
-					NOT = { trait = arbitrary }
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					has_antislavery_religion_trigger = yes
-				}
-			}
-			modifier = {
-				factor = 0.2
-				holder_scope = {
-					has_antislavery_religion_trigger = yes
-					NOT = { trait = cynical }
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					has_antislavery_religion_trigger = yes
-					trait = zealous
-				}
-			}
-			modifier = {
-				factor = 5
-				holder_scope = {
-					culture_group = iron_isles_culture
-					NOT = { trait = arbitrary }
-				}
-			}
-			modifier = {
-				factor = 2
-				holder_scope = {
-					culture_group = iron_isles_culture
-					trait = just
-				}
-			}
-			modifier = {
-				factor = 2
-				holder_scope = {
-					culture_group = iron_isles_culture
-					trait = proud
-				}
-			}
-			
-			# Political Concerns
-			modifier = {
-				factor = 0
-				holder_scope = {
-					OR = {
-						war = yes
-						NOT = { age = 16 }
-					}
-				}	
-			}
-			modifier = {
-				factor = 0
-				holder_scope = {
-					NOT = { trait = just }
-					NOT = { trait = proud }
-					any_vassal = { relative_power_to_liege = 0.2 NOT = { opinion = { who = PREV value = -25 } } } 
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_1
-					has_law = slavery_2
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = slave_owner
-							trait = slave_trader
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_slavery_religion_trigger = yes
-									has_slavery_culture_trigger = yes
-								}
-							}
-						}
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.2
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_1
-					has_law = slavery_2
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = slave_owner
-							trait = slave_trader
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_slavery_religion_trigger = yes
-									has_slavery_culture_trigger = yes
-								}
-							}
-						}
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.33
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_1
-					has_law = slavery_2
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = slave_owner
-							trait = slave_trader
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_slavery_religion_trigger = yes
-									has_slavery_culture_trigger = yes
-								}
-							}
-						}
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.5
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_1
-					has_law = slavery_2
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = slave_owner
-							trait = slave_trader
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_slavery_religion_trigger = yes
-									has_slavery_culture_trigger = yes
-								}
-							}
-						}
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.66
-					}
-					NOT = { trait = proud }
-				}
-			}
-			
-			modifier = {
-				factor = 1.4
-				holder_scope = {
-					any_vassal = {
-						culture_group = iron_isles_culture
-						NOT = { trait = arbitrary }
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.2
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 1.4
-				holder_scope = {
-					any_vassal = {
-						culture_group = iron_isles_culture
-						NOT = { trait = arbitrary }
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.33
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 1.4
-				holder_scope = {
-					any_vassal = {
-						culture_group = iron_isles_culture
-						NOT = { trait = arbitrary }
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.5
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 1.4
-				holder_scope = {
-					any_vassal = {
-						culture_group = iron_isles_culture
-						NOT = { trait = arbitrary }
-						NOT = { trait = liberator }
-						relative_power_to_liege = 0.66
-					}
-					NOT = { trait = proud }
-				}
-			}
-			
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_0
-					has_law = slavery_1
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = liberator
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
-								}
-							}
-						}
-						relative_power_to_liege = 0.2
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_0
-					has_law = slavery_1
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = liberator
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
-								}
-							}
-						}
-						relative_power_to_liege = 0.33
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_0
-					has_law = slavery_1
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = liberator
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
-								}
-							}
-						}
-						relative_power_to_liege = 0.5
-					}
-					NOT = { trait = proud }
-				}
-			}
-			modifier = {
-				factor = 0.6
-				OR = {
-					has_law = slavery_0
-					has_law = slavery_1
-				}
-				holder_scope = {
-					any_vassal = {
-						OR = {
-							trait = liberator
-							AND = {
-								NOT = { trait = arbitrary }
-								OR = {
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
-								}
-							}
-						}
-						relative_power_to_liege = 0.66
-					}
-					NOT = { trait = proud }
-				}
-			}
-			
-		}
-		
-		ai_will_revoke = { factor = 0 }
-			
-		pass_effect = {
-			if = {
-				limit = { had_global_flag = { flag = scenario_initialised  days = 5 } } #thse effects can cause CTD when applied on day 0
-				hidden_tooltip = {
-					if = {
-						limit = { holder_scope = { NOT = { has_character_flag = passive_slave_law_change } } }
-						if = {
-							limit = {
-								OR = {
-									has_law = slavery_0
-									has_law = slavery_1
-								}
-							}
-							any_de_jure_vassal = {
-								limit = {
-									OR = {
-										trait = liberator
-										AND = {
-											NOT = { trait = arbitrary }
-											OR = {
-												has_antislavery_culture_trigger = yes
-												has_antislavery_religion_trigger = yes
-											}
-										}
-									}
-								}
-								opinion = { who = ROOT modifier = opinion_thralldom_bad }
-							}
-							any_de_jure_vassal = {
-								limit = {
-									culture_group = iron_isles_culture
-									NOT = { trait = arbitrary }
-									NOT = { trait = liberator }
-								}
-								opinion = { who = ROOT modifier = opinion_thralldom_good }
-							}
-						}
-						if = {
-							limit = { has_law = slavery_2 }
-							any_de_jure_vassal = {
-								limit = {
-									OR = {
-										trait = slave_owner
-										trait = slave_trader
-										AND = {
-											NOT = { trait = arbitrary }
-											OR = {
-												has_slavery_culture_trigger = yes
-												has_slavery_religion_trigger = yes
-											}
-										}
-									}
-									NOT = { trait = liberator }
-								}
-								opinion = { who = ROOT modifier = opinion_thralldom_bad }
-							}
-							any_de_jure_vassal = {
-								limit = {
-									culture_group = iron_isles_culture
-									NOT = { trait = arbitrary }
-									NOT = { trait = liberator }
-								}
-								opinion = { who = ROOT modifier = opinion_thralldom_good }
-							}
-						}
-					}	
-				}
-			}	
-		}
-		effect = {
-			hidden_tooltip = {	
-				revoke_law = slavery_0
-				revoke_law = slavery_1
-				revoke_law = slavery_2
-				if = {
-					limit = { had_global_flag = { flag = scenario_initialised  days = 5 } } #thse effects can cause CTD when applied on day 0
-					holder_scope = { 
-						character_event = { id = maintenance.51 days = 1 } #slavery laws maintenance	
-						clr_character_flag = passive_slave_law_change
-					}
-				}	
-			}			
-		}
-	}
-
-	# Broke Slavery Treaty
-	# This is really more of a flag than an actual law - it marks realms that have
-	# broken a peace treaty by restoring chattel slavery from indentured servitude
-	# and allows the use of the War of Liberation CB by any Illegal country
-	treaty_breach_0 = {
-		show_as_title = yes
-		group = treaty_breach
-		default = no
-		
-		potential = {
-			has_law = slavery_2
-			OR = {
-				holder_scope = { has_character_flag = flag_slavery_treaty_breach }
-				has_law = treaty_breach_0
-			}
-		}
-		
-		allow = { always = no }
-		revoke_allowed = { always = no }
-		ai_will_do = { factor = 0 }
-		ai_will_revoke = { factor = 0 }
-		
-		effect = { hidden_tooltip = { holder_scope = { clr_character_flag = flag_slavery_treaty_breach } } }
-	}
-	#This marks realm liberated from slavery, so legal slavery countries can invade
-	treaty_breach_1 = {
-		show_as_title = yes
-		group = treaty_breach
-		default = no
-		
-		potential = {
-			has_law = slavery_0
-			OR = {
-				holder_scope = { has_character_flag = flag_slavery_treaty_breach }
-				has_law = treaty_breach_1
-			}
-		}
-		
-		allow = { always = no }
-		revoke_allowed = { always = no }
-		ai_will_do = { factor = 0 }
-		ai_will_revoke = { factor = 0 }
-		
-		effect = { hidden_tooltip = { holder_scope = { clr_character_flag = flag_slavery_treaty_breach } } }
-	}
+	}	
 }
