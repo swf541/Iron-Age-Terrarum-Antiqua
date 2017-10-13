@@ -1,0 +1,490 @@
+# Crown level (de jure) laws
+# Laws ending with 0 will be default laws at game start
+
+# The Four Slavery Laws
+# Illegal
+#	Slavery is illegal, and this law is strictly enforced. No slavery mechanics, can gain War of Liberation and Treaty Violation CBs
+
+# Indentured Servitude
+#	Slavery is technically illegal, but practiced nevertheless. No large population slavery mechanics.
+#	Not favored by anyone. This is the result of a War of Emancipation against a realm practicing Chattel Slavery.
+# Chattel Slavery
+#	Slavery is fully legal. Slaves are treated as property and may be bought and sold. Full access to slavery mechanics. Any culture can enact it.
+# Thralldom
+#	Prisoners of war may be taken as slaves. Slaves may not be bought or sold.
+
+
+de_jure_laws = {
+# SLAVERY
+	slavery_0 = { # Illegal
+		show_as_title = yes
+		group = slavery
+		default = yes
+		
+		potential = {
+			always = yes
+		}
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					has_law = slavery_1
+					has_law = slavery_2
+					has_law = slavery_3
+				}
+			}				
+			holder_scope = {
+				custom_tooltip = {
+					text = TOOLTIPINDEPENDENTCONDITION
+					hidden_tooltip = {
+						independent = yes
+						OR = {
+							tier = EMPEROR
+							primary_title = { NOT = { check_variable = { which = "de_facto_empire" value = 1 } } }
+						}	
+					}
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		default_selection = {
+			factor = 1
+			additive_modifier = { 
+				value = 10
+				holder_scope = {
+					OR = {
+						trait = liberator
+						has_dynasty_flag = liberator_dynasty
+					}	
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			# Inertia
+			modifier = {
+				factor = 0.005
+			}
+			
+			
+			# Personality Effects
+			modifier = {
+				factor = 10
+				holder_scope = { trait = liberator }
+			}
+			modifier = {
+				factor = 0.5
+				holder_scope = { trait = slothful }
+			}
+			modifier = {
+				factor = 2
+				holder_scope = { trait = diligent }
+			}
+			modifier = {
+				factor = 0.5
+				holder_scope = { trait = cruel }
+			}
+			modifier = {
+				factor = 2
+				holder_scope = { trait = kind }
+			}
+			modifier = {
+				factor = 0.5
+				holder_scope = { trait = greedy }
+			}
+			modifier = {
+				factor = 2
+				holder_scope = { trait = charitable }
+			}
+			
+			# Slave Owner or Trader
+			modifier = {
+				factor = 0.1
+				holder_scope = { trait = slave_owner }
+			}
+			modifier = {
+				factor = 0.1
+				holder_scope = { trait = slave_trader }
+			}
+					
+			
+			# Political Concerns
+			modifier = {
+				factor = 0
+				holder_scope = {
+					OR = {
+						war = yes
+						NOT = { age = 16 }
+					}
+				}	
+			}
+
+			
+		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
+		pass_effect = {
+			if = {
+				limit = { had_global_flag = { flag = scenario_initialised  days = 5 } } #thse effects can cause CTD when applied on day 0
+				if = {
+					limit = { holder_scope = { NOT = { has_character_flag = passive_slave_law_change } } }
+					if = {
+						limit = {
+							OR = {
+								has_law = slavery_1
+								has_law = slavery_2
+							}
+						}
+						any_de_jure_vassal = {
+							limit = {
+								OR = {
+									trait = slave_owner
+									trait = slave_trader
+								}
+								NOT = { trait = liberator }
+							}
+							opinion = { who = ROOT modifier = opinion_abolished_slavery_bad }
+						}
+					}
+					if = {
+						limit = {
+							OR = { #Need to check for this otherwise vassals will get this modifier at the start of the game
+								has_law = slavery_1
+								has_law = slavery_2
+								has_law = slavery_3
+							}
+						}
+						any_de_jure_vassal = {
+							limit = {
+									trait = liberator
+	
+							}
+							opinion = { who = ROOT modifier = opinion_abolished_slavery_good }
+						}
+					}	
+				}	
+				any_de_jure_vassal = {
+					limit = { any_liege = { has_landed_title = PREVPREV } }
+					if = { #Kings may revolt
+						limit = { tier = KING }			
+						character_event = { id = slavery.750 days = 1  }
+					}
+					if = { #Else slaves are happy
+						limit = { 
+							NOT = { tier = KING }
+							OR = {
+								NOT = { ROOT = { tier = EMPEROR } }
+								NOT = { any_liege = { tier = KING } }
+							}
+						}	
+						any_courtier = {
+							limit = { 
+								trait = slave 
+								liege = { character = PREVPREV }
+							}
+							opinion = { who = ROOT modifier = opinion_abolished_slavery_former_slave months = 2400 }
+						}
+					}	
+				}
+				if = { #If primary title, change all vassal kingdoms with no dejure empire
+					limit = { is_primary_holder_title = yes }
+					holder_scope = {
+						any_vassal = {
+							limit = { 
+								tier = KING 
+								any_demesne_title = {
+									tier = KING 
+									NOT = { dejure_liege_title = { always = yes } }
+								}
+								NOT = {
+									any_demesne_title = {
+										tier = KING 
+										dejure_liege_title = { holder = PREVPREVPREV }
+									}
+								}
+							}
+							character_event = { id = slavery.750 days = 1 }
+						}
+					}
+				}
+				if = {
+					limit = { is_primary_holder_title = yes }
+					holder_scope = {
+						any_courtier = {
+							limit = { 
+								trait = slave 
+								liege = { character = PREVPREV }
+							}
+							opinion = { who = ROOT modifier = opinion_abolished_slavery_former_slave months = 2400 }
+						}
+					}	
+				}
+				hidden_tooltip = { holder_scope = { character_event = { id = slavery.751 days = 2 } } } #check for rebellion
+			}	
+		}
+		
+		effect = {
+			hidden_tooltip = {			
+				revoke_law = slavery_1
+				revoke_law = slavery_2
+				revoke_law = slavery_3	
+				if = {
+					limit = { had_global_flag = { flag = scenario_initialised  days = 5 } } #thse effects can cause CTD when applied on day 0
+					holder_scope = { #check slaves
+						remove_trait = slave_owner
+						character_event = { id = slavery.12 days = 1 }
+						any_realm_lord = {
+							limit = { trait = slave_owner }
+							remove_trait = slave_owner
+							character_event = { id = slavery.12 days = 1 }
+						}
+						character_event = { id = maintenance.51 days = 5 } #slavery laws maintenance
+						clr_character_flag = passive_slave_law_change
+					}		
+				}	
+			}
+		}
+	}
+	
+	slavery_1 = { # Indentured Servitude
+		show_as_title = yes
+		group = slavery
+		
+		potential = {
+			always = yes
+		}
+		
+		allow = {
+			always = no # Indentured Servitude can only exist as the result of an anti-slavery CB
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		default_selection = {
+			factor = 0
+		}
+		ai_will_do = { factor = 0 }
+		ai_will_revoke = { factor = 0 }
+		
+		effect = {
+			hidden_tooltip = {
+				# No opinion effects for this one, apply them to the invader
+				revoke_law = slavery_0
+				revoke_law = slavery_2
+				revoke_law = slavery_3
+				if = {
+					limit = { had_global_flag = { flag = scenario_initialised  days = 5 } } #thse effects can cause CTD when applied on day 0
+					set_title_flag = realm_emancipated #10 year cooldown
+					
+					holder_scope = { 
+						character_event = { id = maintenance.51 days = 1 } #slavery laws maintenance	
+						clr_character_flag = passive_slave_law_change
+					}
+				}	
+			}
+		}
+		castle_vassal_min_levy = -0.25
+		city_vassal_min_levy = -0.25
+		temple_vassal_min_levy = -0.25
+		
+		castle_vassal_max_levy = -0.25
+		city_vassal_max_levy = -0.25
+		temple_vassal_max_levy = -0.25
+	}
+
+	slavery_2 = { # Chattel Slavery
+		show_as_title = yes
+		group = slavery		
+		potential = { always = yes }	
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					has_law = slavery_0
+					has_law = slavery_1
+					has_law = slavery_3
+				}
+			
+			}	
+			holder_scope = {
+				custom_tooltip = {
+					text = TOOLTIPINDEPENDENTCONDITION
+					hidden_tooltip = {
+						independent = yes
+						OR = {
+							tier = EMPEROR
+							primary_title = { NOT = { check_variable = { which = "de_facto_empire" value = 1 } } }
+						}	
+					}
+				}
+				NOT = { trait = liberator }
+				NOT = { trait = kind }	
+				
+			}
+			custom_tooltip = {
+				text = TOOLTIPslavery_2EMANCIPATED
+				hidden_tooltip = {
+					OR = {
+						NOT = { has_law = slavery_1 }
+						NOT = { has_title_flag = realm_emancipated }
+						had_title_flag = { flag = realm_emancipated days = 5475 }
+					}	
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		default_selection = {
+			factor = 1
+			additive_modifier = { 
+				value = 10
+
+				
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			# Inertia
+			modifier = {
+				factor = 0.005
+			}
+			modifier = { #AI will enact the law if they are cruel, insane, a lunatic, or posessed.
+				factor = 2 
+				holder_scope = {
+					trait = cruel
+					trait = lunatic
+					trait = posessed
+					}
+				}
+			
+			
+			# Motivations
+			modifier = {
+				factor = 0
+				holder_scope = { 
+					NOT = { trait = lunatic }
+					NOT = { trait = arbitrary }
+				}
+			}
+			
+			# Treaty Consideration
+			modifier = {
+				factor = 0.05
+				has_law = slavery_1	
+			}
+			modifier = {
+				factor = 0
+				has_law = slavery_1
+				holder_scope = {
+					NOT = {
+						trait = lunatic
+					}
+					any_independent_ruler = {
+						crownlaw_title = { has_law = slavery_0 }
+						demesne_size = 1
+							relative_power = { who = PREV power = 1 }
+						NOT = { character = PREV }
+					}
+				}	
+			}
+			
+			# Personality Effects
+			modifier = {
+				factor = 0
+				holder_scope = { trait = liberator }
+			}
+			modifier = {
+				factor = 0.5
+				holder_scope = { trait = slothful }
+			}
+			modifier = {
+				factor = 2
+				holder_scope = { trait = diligent }
+			}
+			modifier = {
+				factor = 2
+				holder_scope = { trait = cruel }
+			}
+			modifier = {
+				factor = 0.5
+				holder_scope = { trait = kind }
+			}
+			modifier = {
+				factor = 2
+				holder_scope = { trait = greedy }
+			}
+			modifier = {
+				factor = 0.5
+				holder_scope = { trait = charitable }
+			}
+			
+
+			modifier = {
+				factor = 0
+				holder_scope = {
+					trait = kind
+					trait = liberator
+				}
+			}
+			
+			# Political Concerns
+			modifier = {
+				factor = 0
+				holder_scope = {
+					OR = {
+						war = yes
+						NOT = { age = 16 }
+					}
+				}	
+			}					
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = {
+			if = {
+				limit = { had_global_flag = { flag = scenario_initialised  days = 5 } } #thse effects can cause CTD when applied on day 0
+				if = {
+					limit = { has_law = slavery_1 }
+					hidden_tooltip = { holder_scope = { set_character_flag = flag_slavery_treaty_breach character_event = { id = slavery.2000 } } }
+					add_law = treaty_breach_0
+				}
+				if = {
+					limit = { holder_scope = { NOT = { has_character_flag = passive_slave_law_change } } }
+					hidden_tooltip = {
+						if = {
+							limit = {
+								OR = {
+									has_law = slavery_0
+									has_law = slavery_1
+								}
+							}
+						}
+					}
+				}	
+			}	
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = slavery_0
+				revoke_law = slavery_1
+				revoke_law = slavery_3
+				if = {
+					limit = { had_global_flag = { flag = scenario_initialised  days = 5 } } #thse effects can cause CTD when applied on day 0
+					holder_scope = { 
+						character_event = { id = maintenance.51 days = 1 } #slavery laws maintenance	
+						clr_character_flag = passive_slave_law_change
+					}
+				}	
+			}
+		}	
+	}	
+}

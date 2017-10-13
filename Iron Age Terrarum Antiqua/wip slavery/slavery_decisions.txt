@@ -1109,10 +1109,6 @@ targetted_decisions = {
 		}
 		effect = {
 			add_consort = FROM
-			if = {
-				limit = { FROM = { religion = drowned_god } }
-				add_trait = salt_wife
-			}
 		}
 		ai_will_do = {
 			factor = 0
@@ -1197,15 +1193,6 @@ targetted_decisions = {
 						}
 					}
 				}
-				if = {
-					limit = { NOT = { religion = nath_pagan } }
-					piety = -30
-				}	
-				if = {
-					limit = { religion = nath_pagan }
-					piety = -60
-					custom_tooltip = { text = nath_pagan_ahimsa_tooltip }
-				}
 			}	
 			hidden_tooltip = {
 				father = { opinion = { who = FROM modifier = opinion_castrated_son } }
@@ -1287,12 +1274,6 @@ targetted_decisions = {
 					}
 					prestige = -50
 				}	
-				if = {
-					limit = {
-						has_antislavery_religion_trigger = yes
-					}
-					piety = 50
-				}
 			}	
 		}
 		ai_will_do = {
@@ -1717,11 +1698,7 @@ targetted_decisions = {
 				FROM = { 
 					custom_tooltip = { text = TOOLTIPSLAVEILEGALSLAVERYWARNING }	
 				}	
-				if = {
-					limit = { religion = nath_pagan }
-					piety = -20
-					custom_tooltip = { text = nath_pagan_ahimsa_tooltip }
-				}
+
 			}
 		}
 		ai_will_do = {
@@ -1729,17 +1706,6 @@ targetted_decisions = {
 			
 			modifier = {
 				factor = 0.05
-			}	
-			modifier = {
-				factor = 0
-				religion = nath_pagan
-				NOT = { trait = cynical }
-			}
-			modifier = {
-				factor = 0.1
-				FROM = {
-					NOT = { has_full_slavery_trigger = yes }
-				}
 			}						
 			modifier = {
 				factor = 0
@@ -1836,7 +1802,6 @@ targetted_decisions = {
 			modifier = {
 				factor = 0
 				FROM = {
-					has_antislavery_religion_trigger = yes
 					NOT = { trait = cynical }
 					NOT = { trait = arbitrary }
 					NOT = { trait = slave_trader }
@@ -2090,8 +2055,6 @@ title_decisions = {
 		allow = { 	
 			FROM = {
 				OR = {
-					has_antislavery_culture_trigger = yes
-					has_antislavery_religion_trigger = yes
 					custom_tooltip = {
 						text = TOOLTIPslavery_0DYNASTY
 						hidden_tooltip = { has_dynasty_flag = liberator_dynasty }
@@ -2107,10 +2070,8 @@ title_decisions = {
 							NOT = { tier = BARON }
 							holder_scope = {
 								liege = { character = FROM }
-								NOR = {
+								NOT = {
 									trait = liberator
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
 								}
 							}
 						}
@@ -2125,15 +2086,8 @@ title_decisions = {
 							NOT = { tier = BARON }
 							holder_scope = {
 								higher_tier_than = COUNT
-								OR = {
-									culture = ironborn
-									has_slavery_religion_trigger = yes
-									has_slavery_culture_trigger = yes
-								}
-								NOR = {
+								NOT = {
 									trait = liberator
-									has_antislavery_culture_trigger = yes
-									has_antislavery_religion_trigger = yes
 								}
 							}
 						}
@@ -2172,22 +2126,8 @@ title_decisions = {
 			modifier = {
 				factor = 0
 				FROM = {
-					OR = {
-						has_slavery_culture_trigger = yes	
-						has_slavery_religion_trigger = yes
-					}
-					NOT = {
-						has_antislavery_religion_trigger = yes
-					}
 					trait = just
 				}	
-			}
-			modifier = {
-				factor = 0
-				FROM = {
-					culture_group = iron_isles_culture
-					trait = just
-				}						
 			}
 		}
 	}
@@ -2213,9 +2153,7 @@ title_decisions = {
 		allow = { 
 			FROM = {
 				OR = {	
-					has_slavery_religion_trigger = yes
-					has_slavery_culture_trigger = yes
-					culture = ironborn
+
 					trait = slave_owner
 					trait = slave_trader
 				}
@@ -2230,11 +2168,8 @@ title_decisions = {
 							holder_scope = {
 								liege = { character = FROM }
 								OR = {							
-									NOR = {
+									NOT = {
 										trait = slave_trader
-										culture = ironborn
-										has_slavery_religion_trigger = yes
-										has_slavery_culture_trigger = yes
 									}
 									trait = liberator
 								}
