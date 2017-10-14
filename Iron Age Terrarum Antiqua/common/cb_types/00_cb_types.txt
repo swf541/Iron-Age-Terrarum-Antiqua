@@ -358,22 +358,6 @@ other_claim = {
 					}
 				}
 			}
-			
-			# Anti-Popes take all the gold of the Vatican
-			if = {
-				limit = {
-					OR = {
-						title = k_papal_state
-						title = d_fraticelli
-					}
-				}
-				FROM = {
-					transfer_scaled_wealth = {
-						to = ROOT
-						value = all
-					}
-				}
-			}
 		}
 	
 		if = {
@@ -8850,12 +8834,6 @@ nomad_expansion = {
 				culture = baloch
 				culture = afghan
 				culture = turkish
-			}
-			empire = {
-				OR = {
-					title = e_persia
-					title = e_rajastan
-				}
 			}
 		}
 	}

@@ -1336,30 +1336,6 @@ settlement_decisions = {
 				}
 			}
 		
-			# Change name of Avaria to Hungary if relevant.
-			if = {
-				limit = {
-					FROM = {
-						culture = hungarian
-					}
-					location = {
-						kingdom = { title = k_hungary }
-					}
-					k_hungary = {
-						OR = {
-							has_holder = no
-							holder = FROM
-						}
-					}
-				}
-				set_global_flag = avar_khaganate_renamed
-				k_hungary = {
-					reset_coa = THIS
-					set_name=""
-					adjective=""
-					grant_title = FROM
-				}
-			}
 			
 			if = {
 				limit = { NOT = { holder = FROM } }
@@ -2240,49 +2216,7 @@ settlement_decisions = {
 				}
 			}
 			# Change name of Avaria to Hungary if relevant.
-			if = {
-				limit = {
-					FROM = {
-						culture = hungarian
-					}
-					location = {
-						kingdom = { title = k_hungary }
-					}
-					k_hungary = {
-						OR = {
-							has_holder = no
-							holder = FROM
-						}
-					}
-				}
-				set_global_flag = avar_khaganate_renamed
-				k_hungary = {
-					reset_coa = THIS
-					set_name=""
-					adjective=""
-					grant_title = FROM
-				}
-			}
 			
-			if = {
-				limit = {
-					FROM = {
-						dynasty = 708 #Árpád
-						has_landed_title = k_hungary
-					}
-				}
-				hidden_tooltip = {
-					FROM = {
-						any_realm_province = {
-							limit = {
-								culture = avar
-							}
-							culture = PREV
-							religion = PREV
-						}
-					}
-				}
-			}
 			
 			# Spawn event troops based on amount of empty holdings abandoned.
 			custom_tooltip = {
@@ -2409,70 +2343,6 @@ settlement_decisions = {
 		
 		ai_will_do = {
 			factor = 0.1 # On average ca 1 year before taken
-			
-			modifier = {
-				factor = 100
-				FROM = {
-					dynasty = 708 # Árpád
-				}
-			}
-			
-			modifier = {
-				factor = 0
-				FROM = {
-					NOT = { num_of_subrealm_castles = 20 }
-					population_and_manpower = 5000
-					NOT = { dynasty = 708 } # Árpád
-				}
-			}
-			
-			modifier = {
-				factor = 0
-				FROM = {
-					NOT = { num_of_subrealm_castles = 10 }
-					NOT = { dynasty = 708 } # Árpád
-				}
-			}
-			
-			modifier = {
-				factor = 0
-				FROM = {
-					OR = {
-						trait = ambitious
-						trait = stubborn
-						trait = proud
-					}
-					NOT = { dynasty = 708 } # Árpád
-				}
-			}
-			
-			modifier = {
-				factor = 0
-				FROM = {
-					NOT = {
-						holding_diff = {
-							first_type = castle
-							first_count_vassals = yes
-							second_type = none
-							value = 1.5
-						}
-					}
-					NOT = { dynasty = 708 } # Árpád
-				}
-			}
-			
-			modifier = {
-				factor = 0
-				FROM = {
-					any_demesne_title = {
-						OR = {
-							title = e_mongol_empire
-							title = e_golden_horde
-							title = e_chagatai
-						}
-					}
-				}
-			}
 		}
 	}
 	
@@ -3149,30 +3019,7 @@ settlement_decisions = {
 				}
 			}
 			
-			# Change name of Avaria to Hungary if relevant.
-			if = {
-				limit = {
-					FROM = {
-						culture = hungarian
-					}
-					location = {
-						kingdom = { title = k_hungary }
-					}
-					k_hungary = {
-						OR = {
-							has_holder = no
-							holder = FROM
-						}
-					}
-				}
-				set_global_flag = avar_khaganate_renamed
-				k_hungary = {
-					reset_coa = THIS
-					set_name=""
-					adjective=""
-					grant_title = FROM
-				}
-			}
+
 		
 			# Spawn event troops based on amount of empty holdings abandoned.
 			custom_tooltip = {
@@ -3467,19 +3314,6 @@ settlement_decisions = {
 				factor = 2.0
 				FROM = {
 					stewardship = 18
-				}
-			}
-			
-			modifier = {
-				factor = 0
-				FROM =	{
-					any_demesne_title = {
-						OR = {
-							title = e_mongol_empire
-							title = e_golden_horde
-							title = e_chagatai
-						}
-					}
 				}
 			}
 		}

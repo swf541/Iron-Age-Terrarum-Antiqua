@@ -78,7 +78,6 @@ decisions = {
 			}
 			age = 16
 			NOT = { has_character_flag = attempting_to_join_the_seven_rays }
-			NOT = { trait = intitiate_mysteries_of_the_god_of_seven_rays }
 			NOT = { trait = on_pilgrimage }
 		}
 		allow = {
@@ -109,7 +108,6 @@ decisions = {
 			}
 			age = 16
 			NOT = { has_character_flag = attempting_to_join_the_lesser_eleusinian_mysteries }
-			NOT = { trait = mystai_eleusinian }
 			NOT = { trait = on_pilgrimage }
 		}
 		allow = {
@@ -140,7 +138,6 @@ decisions = {
 				religion_group = greek_religion
 				religion = hellenic_pagan
 			}
-			trait = mystai_eleusinian 
 			age = 16
 			NOT = { has_character_flag = attempting_to_join_the_greater_eleusinian_mysteries }
 			NOT = { trait = on_pilgrimage }
@@ -174,7 +171,6 @@ decisions = {
 			}
 			age = 16
 			NOT = { has_character_flag = attempting_to_join_the_cult_of_serapis }
-			NOT = { trait = cult_of_serapis_initiate }
 			NOT = { trait = on_pilgrimage }
 		}
 		allow = {
@@ -206,7 +202,6 @@ decisions = {
 			}
 			age = 16
 			NOT = { has_character_flag = attempting_to_join_the_cult_of_trophonius }
-			NOT = { trait = cult_of_trophonius_initiate }
 			NOT = { trait = on_pilgrimage }
 		}
 		allow = {

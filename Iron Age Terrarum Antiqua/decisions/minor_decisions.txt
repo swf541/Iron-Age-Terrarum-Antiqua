@@ -238,13 +238,6 @@ decisions = {
 				religion_group = christian
 				religion_group = pagan_group
 			}
-			NOT = {
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
 			NOT = {	has_character_modifier = holding_grand_hunt }
 			OR = {
 				NOT = { has_dlc = "Way of Life" }
@@ -689,11 +682,6 @@ decisions = {
 			is_female = no
 			prisoner = no
 			culture = mongol
-			OR = {
-				has_landed_title = e_il-khanate
-				has_landed_title = e_golden_horde
-				has_landed_title = e_mongol_empire
-			}
 			NOT = { has_character_modifier = morale_from_nerge }
 			NOT = {	has_character_flag = holding_nerge }
 		}
