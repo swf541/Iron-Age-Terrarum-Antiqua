@@ -149,15 +149,7 @@ province_event = { #prosperity gain
 				}
 				modifier = {
 					factor = 0 #no chance if under siege/occupied/diseased
-					OR = {
-						any_province_holding = {
-							has_siege = yes
-						}
-						any_province_holding = {
-							is_occupied = yes
-						}
-						has_disease = yes
-					}
+					has_disease = yes
 				}
 				
 				trigger_switch = {

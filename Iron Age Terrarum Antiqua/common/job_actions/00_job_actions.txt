@@ -612,20 +612,6 @@ action_build_zeal = {
 	events = { 20218 }
 }
 
-action_hunt_heretics = {
-	attribute = learning
-
-	potential = {
-		has_dlc = Mystics
-	}
-	
-	liege_modifier = apostate_liege_mod
-
-	offmap = yes
-	
-	events = { MNM.70100 }
-}
-
 # Lord Spiritual (Muslim only)
 action_charity = {
 	attribute = learning
