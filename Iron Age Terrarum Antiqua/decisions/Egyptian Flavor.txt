@@ -15,9 +15,6 @@ decisions = {
 		allow = {
 			war = no
 			in_command = no
-			any_demesne_title = {
-				is_occupied = no
-			}
 			prisoner = no
 			NOT = { trait = in_hiding }
 			scaled_wealth = 0.2
@@ -85,9 +82,6 @@ decisions = {
 		allow = {
 			war = no
 			in_command = no
-			any_demesne_title = {
-				is_occupied = no
-			}
 			prisoner = no
 			NOT = { trait = in_hiding }
 			scaled_wealth = 0.2
@@ -152,7 +146,6 @@ decisions = {
 			prisoner = no
 			NOT = {
 				trait = in_hiding
-				any_demesne_title = { is_occupied = yes }
 				has_character_modifier = held_ameysia_feast_timer
 				liege = { has_character_flag = holding_ameysia_feast }
 				has_character_flag = holding_ameysia_feast
@@ -222,7 +215,6 @@ decisions = {
 			prisoner = no
 			NOT = {
 				trait = in_hiding
-				any_demesne_title = { is_occupied = yes }
 				has_character_modifier = held_isia_timer
 				liege = { has_character_flag = holding_isia }
 				has_character_flag = holding_isia
