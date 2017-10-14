@@ -1213,8 +1213,6 @@ on_birth = {
 		318 # A Bastard is born, but is not recognized as such by the mother's spouse (cuckoo!)
 		335 # Hidden utility event for all children born
 		TOG.3206 # Child Perceived to be Demon Born
-		706 # Full House achievement
-		707 # Keeping it in the Family achievement
 		CM.10011 # Chronicle entry
 		TOG.6001 # Children gains Saoshyant Descendant trait from Saoshyant
 		RIP.11064 # Babies born in seclusion get seclusion modifier
@@ -1308,7 +1306,6 @@ on_marriage = {
  		500 # Royal Marriage Aid Duty
  		501 # Zoroastrian "Xwedodah" marriage
  		502 # Messalian close kin marriage
-		708 # Marriage Game achievement
 		CM.10023  # Chronicle entry
 		CM.10036 # Chronicle entry - primary heir
 		ZE.1015 # Disobedient daughter is unhappy with marriage
@@ -1408,21 +1405,16 @@ on_death = {
 		SoA.5306
 		705
 		WoL.6335 # Owner of Necronomicon dies...
-		722 # Until Death Do Us Part achievement check
 		HL.8001 # Sky Burial
 		HL.12
 		HL.4998
 		ZE.1030 # Daughter becomes disobedient - killed lover
 		ZE.1040 # Daughter becomes disobedient - killed friend
-		731 #Achievement Eternity Denied
-		732 #Achievement Papal Mache
-		734 #Achievement Aptly Named	
 		532 #Clears regents if heir has one already
 		RIP.4400 #Nicknames for executions
 		GR.10
 		SoA.3091 # The Death of the Demon Child?
 		RoI.248 # clearing inventory of cursed diamond
-		740 # Achievement Unwelcome Visitors
 
 		# Clean up traits as we don't keep zoroastrian pets in death
 		ZP.5
@@ -2235,7 +2227,6 @@ on_navy_returns_with_loot = {
 on_create_title = {
 	events = {
 		CM.10021
-		739 # Got Land achievement
 	}
 }
 
@@ -2252,7 +2243,6 @@ on_new_holder = {
 		RIP.12098 #check if we need to remove in_seclusion.
 		RIP.11715 #Removes crown focus on new holder
 		533
-		738 # Black Pope achievement
 
 		# Clean up zoroastrian pets on province modifiers in case capital lost
 		ZP.6 
@@ -2267,7 +2257,6 @@ on_new_holder_inheritance = {
 		HL.140 #Landless nomad gains a title.
 		RIP.11715 #Removes crown focus on new holder
 		533
-		738 # Black Pope achievement
 		#CONSUL.1
 	}
 }
@@ -2283,7 +2272,6 @@ on_new_holder_usurpation = {
 		CM.10022
 		RIP.11715 #Removes crown focus on new holder
 		533
-		738 # Black Pope achievement
 
 	}
 }
@@ -2409,7 +2397,6 @@ on_war_ended_invalid = {
 # From = Divorcer, Root = Spouse, New = Religious head if applicable
 on_divorce = {
 	events = {
-		717 # Achievement
 		CM.10037
 	}
 }
@@ -2461,7 +2448,6 @@ on_fort_construction_completed = {
 # ROOT = Builder, FROM = Province
 on_hospital_construction_completed = {
 	events = {
-		733 # Achievement Hospitable
 	}
 }
 
@@ -2578,9 +2564,6 @@ on_character_switch_society_interest = {
 # From = Society
 on_character_society_rank_up = {
 	events = {
-		735 # Dark Lord achievement
-		736 # Birthright achievement
-		737 # Jihad Sultan achievement
 	}
 }
 

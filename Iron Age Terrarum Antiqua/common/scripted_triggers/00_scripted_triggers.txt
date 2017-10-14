@@ -36,13 +36,6 @@
 #is_maimed_trigger					Has a maimed trait
 #has_severe_disability_trigger		Has a severe disability, which makes the characters life really hard.
 
-# ###Slavery
-
-# has_slavery_religion_trigger
-# has_slavery_culture_trigger
-# has_antislavery_religion_trigger
-# has_antislavery_culture_trigger
-# has_full_slavery_trigger
 # can_buy_courtier_slaves_trigger
 #has_medium_disability_trigger		Has a medium disability, which limits the character to some extent but they can mostly live a full life.
 #has_minor_disability_trigger		Has a minor disability, which does not limit the character in a physical sense, but is a source of ridicule and trauma.
@@ -1969,49 +1962,6 @@ sibling_in_law_of_root_trigger = {
 	}
 }
 
-is_murder_quest_target_of_prev_trigger = {
-	PREVPREV = {
-		has_quest = quest_the_assassins_assassination
-		quest_target = { character = PREVPREV }
-	}
-}
-
-assassins_appropriate_target_trigger = {
-	is_within_diplo_range = ROOT
-	is_adult = yes
-	is_quest_target = no
-
-	OR = {
-		is_ruler = no
-		AND = {
-			ROOT = {
-				society_rank = {
-					rank == 3
-					society = the_assassins
-				}
-			}
-			primary_title = { higher_real_tier_than = COUNT }
-		}
-		AND = {
-			ROOT = {
-				society_rank = {
-					rank == 2
-					society = the_assassins
-				}
-			}
-			primary_title = { lower_real_tier_than = EMPEROR }
-		}
-		AND = {
-			ROOT = {
-				society_rank = {
-					rank == 1
-					society = the_assassins
-				}
-			}
-			primary_title = { lower_real_tier_than = DUKE }
-		}
-	}
-}
 
 interesting_face_trigger = {
 	OR = {
@@ -2033,26 +1983,6 @@ interesting_face_trigger = {
 	}
 }
 
-can_pay_assassins_debt = {
-	OR = {
-		AND = {
-			is_variable_equal = { which = assassins_debt value = 50 }
-			wealth = 50
-		}
-		AND = {
-			is_variable_equal = { which = assassins_debt value = 250 }
-			wealth = 250
-		}
-		AND = {
-			is_variable_equal = { which = assassins_debt value = 300 }
-			wealth = 300
-		}
-		AND = {
-			is_variable_equal = { which = assassins_debt value = 500 }
-			wealth = 500
-		}
-	}
-}
 
 is_rich_holding = {
 	OR = {
@@ -2127,18 +2057,6 @@ is_ill_trigger = {
 	}
 }
 
-is_devil_worshiper_trigger = {
-	custom_tooltip = {
-		text = IS_DEVIL_WORSHIPPER_TRIGGER
-		OR = {
-			society_member_of = the_satanists
-			society_member_of = the_cold_ones
-			society_member_of = the_plaguebringers
-			society_member_of = the_cult_of_kali
-			society_member_of = the_trollcrafters
-		}
-	}
-}
 
 has_negative_congenital_trigger = {
 	OR = {
@@ -2153,31 +2071,6 @@ has_negative_congenital_trigger = {
 		trait = inbred
 		trait = weak
 		trait = imbecile
-	}
-}
-
-is_christian_monastic_member_trigger = {
-	OR = {
-		society_member_of = monastic_order_orthodox
-		society_member_of = monastic_order_benedictine
-		society_member_of = monastic_order_dominican
-		society_member_of = monastic_order_nestorian
-		society_member_of = monastic_order_monophysite
-	}
-}
-
-is_dharmic_monastic_member_trigger = {
-	OR = {
-		society_member_of = monastic_order_hindu
-		society_member_of = monastic_order_buddhist
-		society_member_of = monastic_order_jain
-	}
-}
-
-is_monastic_member_trigger = {
-	OR = {
-		is_dharmic_monastic_member_trigger = yes
-		is_christian_monastic_member_trigger = yes
 	}
 }
 
@@ -2238,106 +2131,6 @@ print_scope_trigger = {
 	log = "------------------------------"
 }
 
-is_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-}
-
-is_christian_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	secret_religion_group = christian
-}
-
-is_muslim_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	secret_religion_group = muslim
-}
-
-is_zoroastrian_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	secret_religion_group = zoroastrian_group
-}
-
-is_indian_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	secret_religion_group = indian_group
-}
-
-is_jewish_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	secret_religion_group = jewish_group
-}
-
-is_norse_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	OR = {
-		society_member_of = secret_religious_society_norse_pagan_reformed
-		society_member_of = secret_religious_society_norse_pagan
-	}
-}
-
-is_slavic_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	OR = {
-		society_member_of = secret_religious_society_slavic_pagan_reformed
-		society_member_of = secret_religious_society_slavic_pagan
-	}
-}
-
-is_tengri_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	OR = {
-		society_member_of = secret_religious_society_tengri_pagan_reformed
-		society_member_of = secret_religious_society_tengri_pagan
-	}
-}
-
-is_baltic_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	OR = {
-		society_member_of = secret_religious_society_baltic_pagan_reformed
-		society_member_of = secret_religious_society_baltic_pagan
-	}
-}
-
-is_finnish_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	OR = {
-		society_member_of = secret_religious_society_finnish_pagan_reformed
-		society_member_of = secret_religious_society_finnish_pagan
-	}
-}
-
-is_west_african_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	OR = {
-		society_member_of = secret_religious_society_west_african_pagan_reformed
-		society_member_of = secret_religious_society_west_african_pagan
-	}
-}
-
-is_zun_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	OR = {
-		society_member_of = secret_religious_society_zun_pagan_reformed
-		society_member_of = secret_religious_society_zun_pagan
-	}
-}
-
-is_aztec_secret_religious_society_member_trigger = {
-	society_member_of = secret_religious_cult
-	OR = {
-		society_member_of = secret_religious_society_aztec_reformed
-		society_member_of = secret_religious_society_aztec
-	}
-}
-
-is_openly_of_prevs_secret_religion_trigger = {
-	religion = { target = PREV target_type = secret }
-}
-
-is_openly_of_roots_secret_religion_trigger = {
-	religion = { target = ROOT target_type = secret }
-}
 
 has_sympathy_for_true_religion_of_prev_trigger = { 
 	OR = {
@@ -2461,199 +2254,6 @@ has_roots_secret_religion_truly_trigger = {
 
 has_my_liege_secret_religion_truly_trigger = {
 	secret_religion = { target = event_target:my_liege target_type = true }
-}
-
-is_in_prevs_interesting_society_trigger = {
-	OR = {
-		AND = {
-			society_member_of = secret_religious_society_catholic
-			PREV = { interested_in_society = secret_religious_society_catholic }
-		}
-		AND = {
-			society_member_of = secret_religious_society_cathar
-			PREV = { interested_in_society = secret_religious_society_cathar }
-		}
-		AND = {
-			society_member_of = secret_religious_society_fraticelli
-			PREV = { interested_in_society = secret_religious_society_fraticelli }
-		}
-		AND = {
-			society_member_of = secret_religious_society_waldensian
-			PREV = { interested_in_society = secret_religious_society_waldensian }
-		}
-		AND = {
-			society_member_of = secret_religious_society_lollard
-			PREV = { interested_in_society = secret_religious_society_lollard }
-		}
-		AND = {
-			society_member_of = secret_religious_society_orthodox
-			PREV = { interested_in_society = secret_religious_society_orthodox }
-		}
-		AND = {
-			society_member_of = secret_religious_society_miaphysite
-			PREV = { interested_in_society = secret_religious_society_miaphysite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_monophysite
-			PREV = { interested_in_society = secret_religious_society_monophysite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_bogomilist
-			PREV = { interested_in_society = secret_religious_society_bogomilist }
-		}
-		AND = {
-			society_member_of = secret_religious_society_monothelite
-			PREV = { interested_in_society = secret_religious_society_monothelite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_iconoclast
-			PREV = { interested_in_society = secret_religious_society_iconoclast }
-		}
-		AND = {
-			society_member_of = secret_religious_society_paulician
-			PREV = { interested_in_society = secret_religious_society_paulician }
-		}
-		AND = {
-			society_member_of = secret_religious_society_nestorian
-			PREV = { interested_in_society = secret_religious_society_nestorian }
-		}
-		AND = {
-			society_member_of = secret_religious_society_messalian
-			PREV = { interested_in_society = secret_religious_society_messalian }
-		}
-		AND = {
-			society_member_of = secret_religious_society_sunni
-			PREV = { interested_in_society = secret_religious_society_sunni }
-		}
-		AND = {
-			society_member_of = secret_religious_society_zikri
-			PREV = { interested_in_society = secret_religious_society_zikri }
-		}
-		AND = {
-			society_member_of = secret_religious_society_yazidi
-			PREV = { interested_in_society = secret_religious_society_yazidi }
-		}
-		AND = {
-			society_member_of = secret_religious_society_ibadi
-			PREV = { interested_in_society = secret_religious_society_ibadi }
-		}
-		AND = {
-			society_member_of = secret_religious_society_kharijite
-			PREV = { interested_in_society = secret_religious_society_kharijite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_shiite
-			PREV = { interested_in_society = secret_religious_society_shiite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_druze
-			PREV = { interested_in_society = secret_religious_society_druze }
-		}
-		AND = {
-			society_member_of = secret_religious_society_hurufi
-			PREV = { interested_in_society = secret_religious_society_hurufi }
-		}
-		AND = {
-			society_member_of = secret_religious_society_jewish
-			PREV = { interested_in_society = secret_religious_society_jewish }
-		}
-		AND = {
-			society_member_of = secret_religious_society_karaite
-			PREV = { interested_in_society = secret_religious_society_karaite }
-		}
-		AND = {
-			society_member_of = secret_religious_society_samaritan
-			PREV = { interested_in_society = secret_religious_society_samaritan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_zoroastrian
-			PREV = { interested_in_society = secret_religious_society_zoroastrian }
-		}
-		AND = {
-			society_member_of = secret_religious_society_mazdaki
-			PREV = { interested_in_society = secret_religious_society_mazdaki }
-		}
-		AND = {
-			society_member_of = secret_religious_society_manichean
-			PREV = { interested_in_society = secret_religious_society_manichean }
-		}
-		AND = {
-			society_member_of = secret_religious_society_hindu
-			PREV = { interested_in_society = secret_religious_society_hindu}
-		}
-		AND = {
-			society_member_of = secret_religious_society_buddhist
-			PREV = { interested_in_society = secret_religious_society_buddhist }
-		}
-		AND = {
-			society_member_of = secret_religious_society_jain
-			PREV = { interested_in_society = secret_religious_society_jain }
-		}
-		AND = {
-			society_member_of = secret_religious_society_norse_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_norse_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_slavic_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_slavic_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_tengri_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_tengri_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_baltic_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_baltic_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_finnish_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_finnish_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_west_african_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_west_african_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_zun_pagan_reformed
-			PREV = { interested_in_society = secret_religious_society_zun_pagan_reformed }
-		}
-		AND = {
-			society_member_of = secret_religious_society_norse_pagan
-			PREV = { interested_in_society = secret_religious_society_norse_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_slavic_pagan
-			PREV = { interested_in_society = secret_religious_society_slavic_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_tengri_pagan
-			PREV = { interested_in_society = secret_religious_society_tengri_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_baltic_pagan
-			PREV = { interested_in_society = secret_religious_society_baltic_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_finnish_pagan
-			PREV = { interested_in_society = secret_religious_society_finnish_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_west_african_pagan
-			PREV = { interested_in_society = secret_religious_society_west_african_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_zun_pagan
-			PREV = { interested_in_society = secret_religious_society_zun_pagan }
-		}
-		AND = {
-			society_member_of = secret_religious_society_aztec
-			PREV = { interested_in_society = secret_religious_society_aztec }
-		}
-		AND = {
-			society_member_of = secret_religious_society_aztec_reformed
-			PREV = { interested_in_society = secret_religious_society_aztec_reformed }
-		}
-	}
 }
 
 shares_prevs_secret_religion_trigger = {
@@ -2993,72 +2593,6 @@ can_be_sabotaged_trigger = {
 		has_province_modifier = sabotaged_defences
 		has_province_modifier = sabotaged_unrest
 	}
-}
-
-has_assassins_prerequisites = {
-	age = 16
-	true_religion_shiite_trigger = yes
-	OR = {
-		is_female = no
-		has_game_rule = {
-			name = gender
-			value = all
-		}
-	}
-}
-
-has_common_devilworship_prerequisites = {
-	age = 16
-	custom_tooltip = {
-		text = must_be_a_sinner_tooltip
-		hidden_tooltip = {
-			OR = {
-				has_impious_trait_trigger = yes
-				has_vice_trigger = yes
-				trait = drunkard
-				trait = possessed
-				trait = lunatic
-			}
-		}
-	}
-}
-
-has_satanists_prerequisites = {
-	has_common_devilworship_prerequisites = yes
-	OR = {
-		religion_group = christian
-		religion_group = muslim
-		religion_group = zoroastrian_group
-		religion_group = jewish_group
-		religion = zun_pagan
-		religion = zun_pagan_reformed
-	}
-}
-
-has_trollcrafters_prerequisites = {
-	has_common_devilworship_prerequisites = yes
-	religion_openly_norse_or_reformed_trigger = yes
-}
-
-has_cult_of_kali_prerequisites = {
-	has_common_devilworship_prerequisites = yes
-	OR = {
-		religion = hindu
-	}
-}
-
-has_cold_ones_prerequisites = {
-	has_common_devilworship_prerequisites = yes
-	OR = {
-		religion_openly_baltic_or_reformed_trigger = yes
-		religion_openly_slavic_or_reformed_trigger = yes
-		religion_openly_finnish_or_reformed_trigger = yes
-	}
-}
-
-has_plaguebringers_prerequisites = {
-	has_common_devilworship_prerequisites = yes
-	religion_openly_tengri_or_reformed_trigger = yes
 }
 
 same_society_rank_as_prev_trigger = {
