@@ -281,7 +281,6 @@ decisions = {
 			prisoner = no
 			NOT = {
 				trait = in_hiding
-				any_demesne_title = { is_occupied = yes }
 			}
 		}
 		allow = {

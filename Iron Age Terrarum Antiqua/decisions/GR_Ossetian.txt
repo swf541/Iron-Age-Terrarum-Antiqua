@@ -92,7 +92,6 @@ decisions = {
 			}
 			NOT = {
 				trait = in_hiding
-				any_demesne_title = { is_occupied = yes }
 				has_character_modifier = held_djiorgwyba_feast_timer
 				liege = { has_character_flag = holding_djiorgwyba_feast }
 				has_character_flag = holding_djiorgwyba_feast

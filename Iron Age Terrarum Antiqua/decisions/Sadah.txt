@@ -8,7 +8,6 @@ decisions = {
 			#not = { religion = mandean }
 			NOT = {
 				trait = in_hiding
-				any_demesne_title = { is_occupied = yes }
 				has_character_modifier = held_sadah_feast_timer
 				liege = { has_character_flag = holding_sadah_feast }
 				has_character_flag = holding_sadah_feast
@@ -71,7 +70,6 @@ decisions = {
 			not = { month = 9 }
 			NOT = {
 				trait = in_hiding
-				any_demesne_title = { is_occupied = yes }
 				has_character_modifier = held_mihragan_feast_timer
 				liege = { has_character_flag = holding_mihragan_feast }
 				has_character_flag = holding_mihragan_feast
