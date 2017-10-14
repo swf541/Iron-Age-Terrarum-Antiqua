@@ -25,10 +25,7 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Legacy of Rome"
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
+		has_landed_title = k_rome
 		NOT = {
 			any_courtier = { has_minor_title = title_imperial_eunuch }
 		}
@@ -303,311 +300,6 @@ character_event = {
 	}
 }
 
-### Varangian Hippodrome Riots
-
-# Hippodrome Riots
-character_event = {
-	id = LoR.840
-	desc = EVTDESCLoR.840
-	picture = GFX_evt_riots_byzantine
-	
-	ai = no
-	capable_only = yes
-	prisoner = no
-	only_playable = yes
-	min_age = 16
-	
-	trigger = {
-		has_dlc = "Legacy of Rome"
-		in_command = no
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
-		capital_scope = { province_id = 496 }
-		any_vassal = {
-			has_landed_title = d_varangian_guard
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 420
-	}
-	
-	option = {
-		name = EVTOPTALoR.840
-		character_event = { id = LoR.841 days = 3 tooltip = EVTTOOLTIPLoR.841 }
-	}
-	option = {
-		name = EVTOPTBLoR.840
-		character_event = { id = LoR.842 days = 3 tooltip = EVTTOOLTIPLoR.842 }
-	}
-}
-
-# Varangian Guard unleashed
-character_event = {
-	id = LoR.841
-	desc = EVTDESCLoR.841
-	picture = GFX_evt_battle_byzantine
-	
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTALoR.841
-		scaled_wealth = -0.25
-		prestige = -100
-	}
-}
-
-# City Guard handles it
-character_event = {
-	id = LoR.842
-	desc = EVTDESCLoR.842
-	picture = GFX_evt_riots_byzantine
-	
-	hide_from = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTALoR.842
-		scaled_wealth = -0.1
-	}
-}
-
-### The Varangian and the Princess
-
-character_event = {
-	id = LoR.844
-	hide_window = yes
-	
-	only_playable = yes
-	only_capable = yes
-	min_age = 16
-	prisoner = no
-	ai = no
-	
-	trigger = {
-		has_dlc = "Legacy of Rome"
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
-		any_vassal = {
-			has_landed_title = d_varangian_guard
-		}
-		any_child = {
-			ai = yes
-			is_female = yes
-			is_marriage_adult = yes
-			is_married = no
-			NOT = { trait = celibate }
-			NOT = { trait = chaste }
-			NOT = { trait = homosexual }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 400
-	}
-	
-	immediate = {
-		random_child = {
-			limit = {
-				ai = yes
-				is_female = yes
-				is_marriage_adult = yes
-				is_married = no
-				NOT = { trait = celibate }
-				NOT = { is_ascetic_trigger = yes }
-				NOT = { trait = chaste }
-				NOT = { trait = homosexual }
-			}
-			character_event = { id = LoR.845 }
-		}
-	}
-}
-
-# AI Event for Daughter
-character_event = {
-	id = LoR.845
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_tooltip = {
-			father = { 
-				character_event = { id = LoR.846 days = 3 }
-			}
-		}
-	}
-}
-
-# Your Daughter Approaches
-character_event = {
-	id = LoR.846
-	desc = EVTDESCLoR.846
-	picture = GFX_evt_princess_byzantine
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTALoR.846
-		create_character = {
-			random_traits = yes
-			dynasty = NONE
-			female = no
-			age = 22
-			trait = varangian
-			religion = ROOT
-			culture = norse
-		}
-		hidden_tooltip = {
-			d_varangian_guard = {
-				holder_scope = {
-					new_character = { culture = PREV }
-				}
-			}
-		}
-		new_character = {
-			add_spouse_matrilineal = FROM
-			hidden_tooltip = {
-				add_lover = FROM
-			}
-			opinion = {
-				modifier = opinion_grateful
-				who = ROOT
-			}
-		}
-		FROM = {
-			opinion = {
-				modifier = opinion_grateful
-				who = ROOT
-			}
-		}
-	}
-	option = {
-		name = EVTOPTBLoR.846
-		FROM = {
-			opinion = {
-				modifier = opinion_unhappy
-				who = ROOT
-				years = 2
-			}
-		}
-	}
-	option = {
-		name = EVTOPTCLoR.846
-		FROM = {
-			opinion = {
-				modifier = evil_murderer
-				who = ROOT
-				years = 6
-			}
-		}
-	}
-}
-
-### Drunken Varangians
-
-# AI Mayor Event
-character_event = {
-	id = LoR.850
-	hide_window = yes
-	
-	capable_only = yes
-	only_rulers = yes
-	min_age = 16
-	prisoner = no
-	ai = yes
-	
-	trigger = {
-		has_dlc = "Legacy of Rome"
-		OR = {
-			has_landed_title = b_galata
-			has_landed_title = b_hieron
-			has_landed_title = b_deuteron
-			has_landed_title = b_pempton
-		}
-		liege = {
-			ai = no
-			OR = {
-				has_landed_title = e_byzantium
-				has_landed_title = e_roman_empire
-			}
-			any_vassal = {
-				has_landed_title = d_varangian_guard
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1480
-	}
-	
-	immediate = {
-		liege = {
-			character_event = { id = LoR.851 }
-		}
-	}
-	
-	option = {
-		name = OK
-	}
-}
-
-# Drunken Varangians
-character_event = {
-	id = LoR.851
-	desc = EVTDESCLoR.851
-	picture = GFX_evt_riots_byzantine
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTALoR.851
-		FROM = {
-			opinion = {
-				modifier = opinion_happy
-				who = ROOT
-				years = 4
-			}
-		}
-		any_vassal = {
-			limit = { has_landed_title = d_varangian_guard }
-			opinion = {
-				modifier = opinion_bitter
-				who = ROOT
-				years = 4
-			}
-		}
-		custom_tooltip = { text = punish_varangians }
-	}
-	option = {
-		name = EVTOPTBLoR.851
-		any_vassal = {
-			limit = { has_landed_title = d_varangian_guard }
-			opinion = {
-				modifier = opinion_happy
-				who = ROOT
-				years = 4
-			}
-		}
-		FROM = {
-			opinion = {
-				modifier = opinion_bitter
-				who = ROOT
-				years = 4
-			}
-		}
-		piety = -50
-		custom_tooltip = { text = free_varangians }
-	}
-}
-
 ### Greek Fire Event Series
 
 # Explosion
@@ -626,10 +318,7 @@ narrative_event = {
 	
 	trigger = {
 		has_dlc = "Legacy of Rome"
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
+		has_landed_title = k_rome
 		NOT = { has_global_flag = greek_fire }
 		in_command = no
 		capital_scope = { province_id = 496 }
@@ -1584,7 +1273,7 @@ character_event = {
 		OR = {
 			liege = {
 				has_dlc = "Legacy of Rome"
-				has_landed_title = e_byzantium
+				has_landed_title = k_rome
 				NOT = { has_character_flag = no_more_tzykanion }
 				ai = no
 				culture = greek
@@ -1597,7 +1286,7 @@ character_event = {
 				NOT = { is_inaccessible_trigger = yes }
 			}
 			liege = {
-				has_landed_title = e_byzantium
+				has_landed_title = k_rome
 				any_realm_lord = {
 					ai = no
 					has_dlc = "Legacy of Rome"
@@ -1624,7 +1313,7 @@ character_event = {
 		if = {
 			limit = {
 				liege = {
-					has_landed_title = e_byzantium
+					has_landed_title = k_rome
 					ai = no
 					culture = greek
 					is_female = no
