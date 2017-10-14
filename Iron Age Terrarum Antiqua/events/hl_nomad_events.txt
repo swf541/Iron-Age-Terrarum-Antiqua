@@ -212,7 +212,6 @@ character_event = { # Nomads may pillage holdings on siege
 	trigger = {
 		is_nomadic = yes
 		FROM = {
-			num_of_buildings = 4
 			OR = {
 				holding_type = city
 				holding_type = temple

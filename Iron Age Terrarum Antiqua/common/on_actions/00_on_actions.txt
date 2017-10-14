@@ -1129,9 +1129,6 @@ on_battle_lost_owner = {
 on_siege_won_leader = {
 	random_events = {
 		300 = 0
-		100 = 8340 # Finds the Spear of Destiny / Holy Lance
-		100 = 8342 # Finds the Holy Grail
-		500 = 8345 # Sack of Jerusalem
 	}
 }
 
