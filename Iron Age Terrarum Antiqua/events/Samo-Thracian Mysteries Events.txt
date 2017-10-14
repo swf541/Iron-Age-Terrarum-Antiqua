@@ -119,7 +119,6 @@ character_event = {		#Stage 1 of Initiation: Myesis Part 1
 		name = "EVTOPTBSMO.8" # 
 		piety = 50
 		prestige = 10
-		add_trait = samo_thracian_initiate
 		remove_trait = on_pilgrimage
 		join_society = samo_thrace_society
 	}
@@ -128,7 +127,6 @@ character_event = {		#Stage 1 of Initiation: Myesis Part 1
 		prestige = 50
 		piety = 50
 		wealth = -100
-		add_trait = samo_thracian_initiate
 		remove_trait = on_pilgrimage
 		join_society = samo_thrace_society
 	}

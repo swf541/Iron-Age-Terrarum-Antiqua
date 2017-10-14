@@ -151,28 +151,7 @@ character_event = {		#Initiated into the Cult and Ramblings Deciphered into an P
 		name = "EVTOPTBTRO.11" # 
 		piety = 50
 		prestige = 10
-		add_trait = trophonius_initiate
 		remove_trait = on_pilgrimage
-		random_list = {
-			18 = {
-				character_event = { id = SWF.10178 }			
-			}
-			16 = {
-				character_event = { id = SWF.10179 }			
-			}
-			17 = {
-				character_event = { id = SWF.10180 }
-			}
-			16 = {
-				character_event = { id = SWF.10181 }
-			}
-			17 = {
-				character_event = { id = SWF.10182 }
-			}
-			16 = {
-				character_event = { id = SWF.10183 }
-			}
-		}
 	}
 }
 

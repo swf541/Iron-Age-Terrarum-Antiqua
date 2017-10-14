@@ -219,7 +219,6 @@ character_event = {		#Baptismal Rites
 		name = "EVTOPTBSER.8" # 
 		piety = 50
 		prestige = 10
-		add_trait = cult_of_serapis_initiate
 		remove_trait = on_pilgrimage
 	}
 }
