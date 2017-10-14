@@ -977,30 +977,6 @@ narrative_event = {
 	}
 }
 
-# Varangian Captain gets Varangian trait
-character_event = {
-	id = TOG.3105
-	hide_window = yes
-	
-	only_rulers = yes
-	min_age = 16
-	only_men = yes
-	capable_only = yes
-	prisoner = no
-	
-	trigger = {
-		has_landed_title = d_varangian_guard
-		NOT = { trait = varangian }
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		add_trait = varangian
-	}
-}
 
 # Son has served a few years
 character_event = {

@@ -2784,12 +2784,7 @@ character_event = {
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = crazed_elephant }
 		capital_scope = {
-			OR = {
-				region = world_india
-				duchy = { title = d_sistan }
-				duchy = { title = d_baluchistan }
-				duchy = { title = d_kerman }
-			}
+			region = world_india
 		}
 	}
 	

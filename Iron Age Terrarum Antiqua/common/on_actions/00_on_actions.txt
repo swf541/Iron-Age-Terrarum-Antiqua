@@ -1148,7 +1148,6 @@ on_siege_over_winner = {
 		TOG.1025 # Heretics take county capital
 		TOG.1045 # Nationalists take county capital
 		TOG.1065 # Religious rebels take county capital
-		CM.10035 # Chronicle for certain major locations
 		HL.2005 # Minor Nomad Clan rebels take county capital
 		RIP.11702 # Prosperity lost when sieged
 		RIP.11713 # Monument to Glory teardown
