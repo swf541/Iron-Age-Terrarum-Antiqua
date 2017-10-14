@@ -202,10 +202,10 @@ song = {
 		modifier = {
 			factor = 1
 		}
-		modifier = {
-			factor = 1.15
-			culture_group = germanic
-		}		
+		#modifier = {
+		#	factor = 1.15
+		#	culture_group = germanic
+		#}		
 	}
 }
 
@@ -295,10 +295,10 @@ song = {
 			factor = 0
 			war = yes
 		}
-		modifier = {
-			factor = 0
-			culture_group = germanic
-		}
+		#modifier = {
+		#	factor = 0
+		#	culture_group = germanic
+		#}
 	}
 }
 
@@ -375,12 +375,12 @@ song = {
 		}
 		modifier = {
 			factor = 1.25
-			culture = oldirish
+			culture = irish
 		}
-		modifier = {
-			factor = 0
-			culture_group = germanic
-		}
+		#modifier = {
+		#	factor = 0
+		#	culture_group = germanic
+		#}
 	}
 }
 
@@ -412,7 +412,7 @@ song = {
 		modifier = {
 			factor = 1.15
 			OR = {
-				culture = gaelic
+				culture = irish
 				culture = cumbrian
 			}
 		}
@@ -514,10 +514,10 @@ song = {
 		modifier = {
 			factor = 1
 		}
-		modifier = {
-			factor = 1.15
-			culture_group = germanic
-		}
+		#modifier = {
+		#	factor = 1.15
+		#	culture_group = germanic
+		#}
 		modifier = {
 			factor = 0
 			war = yes
@@ -621,13 +621,13 @@ song = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.15
-			OR = {
-				has_landed_title = e_gaul
-				has_landed_title = e_roman_britannia
-			}
-		}
+		#modifier = {
+		#	factor = 1.15
+		#	OR = {
+		#		has_landed_title = e_gaul
+		#		has_landed_title = e_roman_britannia
+		#	}
+		#}
 	}
 }
 
@@ -646,13 +646,13 @@ song = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.2
-			OR = {
-				has_landed_title = e_gaul
-				has_landed_title = e_roman_britannia
-			}
-		}
+		#modifier = {
+		#	factor = 1.2
+		#	OR = {
+		#		has_landed_title = e_gaul
+		#		has_landed_title = e_roman_britannia
+		#	}
+		#}
 	}
 }
 

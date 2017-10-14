@@ -1094,7 +1094,6 @@ on_battle_won_owner = {
 # Any leader in battle on losing side is ROOT - opponent army leader is FROM
 on_battle_lost = {
 	random_events = {
-		700 = 0
 		50 = 250 # Imprisoned by the enemy
 		50 = 8320 # Crusader becomes cynical
 		200 = CM.1056 # Death of Roland
@@ -1403,7 +1402,6 @@ on_death = {
 		24502
 		88291
 		SoA.5306
-		705
 		WoL.6335 # Owner of Necronomicon dies...
 		HL.8001 # Sky Burial
 		HL.12
@@ -1854,7 +1852,6 @@ ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_EVENT = {
 SETTLE_ADVENTURER_INTERACTION_ACCEPT_EVENT = {
 	events = {
 		288
-		725
 	}
 }
 
@@ -2184,7 +2181,6 @@ on_heresy_takeover = {
 # Fires for a newly elected Doge. FROM is the previous (dying or abdicating) doge.
 on_become_doge = {
 	events = {
-		701
 	}
 }
 
@@ -2197,7 +2193,6 @@ on_elective_gavelkind_succession = {
 # Fires when a navy moves into a port. Starts in unit scope, FROM is the owner.
 on_entering_port = {
 	events = {
-		700
 	}
 }
 
@@ -2208,7 +2203,6 @@ on_rel_elector_chosen = {
 # Fires when a Pope is elected. SoA only! FROM is the previous Religious Head
 on_rel_head_chosen = {
 	events = {
-		704
 	}
 }
 
@@ -2369,7 +2363,6 @@ on_war_started = {
 on_war_ended_victory = {
 	events = {
 		CM.10038
-		729
 	}
 }
 
@@ -2384,7 +2377,6 @@ on_war_ended_whitepeace = {
 on_war_ended_defeat = {
 	events = {
 		CM.10041
-		730
 	}
 }
 
@@ -2508,13 +2500,11 @@ on_enforce_peace_start = {
 
 on_enforce_peace_six_vassals = {
 	events = {
-		727
 	}
 }
 
 on_law_vote_passed = {
 	events = {
-		726
 	}
 }
 
@@ -2523,7 +2513,6 @@ on_law_vote_failed = {
 
 on_player_mercenary_income = {
 	events = {
-		728
 	}
 }
 
