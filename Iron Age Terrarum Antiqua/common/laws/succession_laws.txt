@@ -491,14 +491,6 @@ succession_laws = {
 				is_landless_type_title = no
 				is_tribal_type_title = yes
 				temporary = yes
-				AND = {
-					is_nomadic = no
-					OR = {
-						title = e_mongol_empire
-						title = e_golden_horde
-						title = e_il-khanate
-					}
-				}
 			}
 			is_primary_type_title = no
 			OR = {
@@ -507,14 +499,6 @@ succession_laws = {
 					is_feudal = yes
 				}
 				holder_scope = { is_feudal = yes }
-				AND = {
-					is_nomadic = no
-					OR = {
-						title = e_mongol_empire
-						title = e_golden_horde
-						title = e_il-khanate
-					}
-				}
 			}
 		}
 		allow = {
@@ -608,7 +592,7 @@ succession_laws = {
 	}
 	succ_papal_succession = {
 		potential = {
-			title = k_papal_state
+			always = no
 		}
 		
 		effect = {
@@ -641,7 +625,6 @@ succession_laws = {
 	
 	succ_open_elective = {
 		potential = {
-			NOT = { title = k_papal_state }
 			temporary = no
 			OR = {
 				is_primary_type_title = yes

@@ -252,8 +252,6 @@ title_court_eunuch = {
 				tier = emperor
 			}
 		}
-		NOT = { has_landed_title = e_byzantium }
-		NOT = { has_landed_title = e_roman_empire }
 	}
 	
 	gain_effect = {
@@ -379,8 +377,6 @@ title_keeper_of_swans = {
 				tier = emperor
 			}
 		}
-		NOT = { has_landed_title = e_byzantium }
-		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -436,8 +432,6 @@ title_master_of_the_horse = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		NOT = { has_landed_title = e_byzantium }
-		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -494,8 +488,6 @@ title_master_of_the_hunt = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		NOT = { has_landed_title = e_byzantium }
-		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -535,8 +527,6 @@ title_high_almoner = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		NOT = { has_landed_title = e_byzantium }
-		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -593,8 +583,6 @@ title_cupbearer = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		NOT = { has_landed_title = e_byzantium }
-		NOT = { has_landed_title = e_roman_empire }
 	}
 	
 	gain_effect = {
@@ -653,8 +641,6 @@ title_seneschal = {
 				tier = emperor
 			}
 		}
-		NOT = { has_landed_title = e_byzantium }
-		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -727,10 +713,7 @@ title_despot = {
 	
 	allowed_to_grant = {
 		is_feudal = yes
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
+		has_landed_title = k_rome
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -766,10 +749,7 @@ title_sebastokrator = {
 	
 	allowed_to_grant = {
 		is_feudal = yes
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
+		has_landed_title = k_rome
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -802,10 +782,7 @@ title_caesar = {
 	
 	allowed_to_grant = {
 		is_feudal = yes
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
+		has_landed_title = k_rome
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -855,10 +832,7 @@ title_kouropalates = {
 	
 	allowed_to_grant = {
 		is_feudal = yes
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
+has_landed_title = k_rome
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -908,10 +882,7 @@ title_anthypatos = {
 	
 	allowed_to_grant = {
 		is_feudal = yes
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
+			has_landed_title = k_rome
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -951,10 +922,7 @@ title_imperial_eunuch = {
 			religion_group = jewish_group
 			religion_group = pagan_group
 		}
-		OR = {
-			has_landed_title = e_byzantium
-			has_landed_title = e_roman_empire
-		}
+		has_landed_title = k_rome
 	}
 	
 	gain_effect = {
@@ -1772,17 +1740,6 @@ title_baghatur = {
 				is_nomadic = yes
 				culture = mongol
 			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
 		}
 	}
 	
@@ -1818,17 +1775,6 @@ title_cherbi = {
 			AND = {
 				is_nomadic = yes
 				culture = mongol
-			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
 			}
 		}
 	}
@@ -1866,17 +1812,6 @@ title_darkhan = {
 				is_nomadic = yes
 				culture = mongol
 			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
 		}
 	}
 	
@@ -1910,11 +1845,6 @@ title_noyan = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
-		}
-		OR = {
-			has_landed_title = e_mongol_empire
-			has_landed_title = e_golden_horde
-			has_landed_title = e_il-khanate
 		}
 	}
 	
@@ -1951,17 +1881,6 @@ title_behi = {
 				is_nomadic = yes
 				culture = mongol
 			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
-			}
 		}
 	}
 	
@@ -1996,17 +1915,6 @@ title_master_of_the_eagle = {
 			AND = {
 				is_nomadic = yes
 				culture = mongol
-			}
-			AND = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
-				}
-				OR = {
-					has_landed_title = e_mongol_empire
-					has_landed_title = e_golden_horde
-					has_landed_title = e_il-khanate
-				}
 			}
 		}
 	}
@@ -2419,13 +2327,6 @@ title_master_of_the_blade = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		NOT = {
-			OR = {
-				has_landed_title = e_mongol_empire
-				has_landed_title = e_golden_horde
-				has_landed_title = e_il-khanate
-			}
-		}
 		OR = {
 			religion = baltic_pagan_reformed
 			religion = baltic_pagan
@@ -2492,13 +2393,6 @@ title_master_of_the_bow = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		NOT = {
-			OR = {
-				has_landed_title = e_mongol_empire
-				has_landed_title = e_golden_horde
-				has_landed_title = e_il-khanate
-			}
-		}
 		OR = {
 			religion = baltic_pagan_reformed
 			religion = baltic_pagan
@@ -2559,13 +2453,6 @@ title_venerable_elder = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
-		}
-		NOT = {
-			OR = {
-				has_landed_title = e_mongol_empire
-				has_landed_title = e_golden_horde
-				has_landed_title = e_il-khanate
-			}
 		}
 		OR = {
 			religion = baltic_pagan_reformed
@@ -2833,8 +2720,6 @@ title_master_of_the_royal_elephants = {
 				tier = emperor
 			}
 		}
-		NOT = { has_landed_title = e_byzantium }
-		NOT = { has_landed_title = e_roman_empire }
 		religion_group = indian_group
 	}
 	
