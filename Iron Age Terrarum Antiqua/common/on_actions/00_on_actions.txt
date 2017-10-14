@@ -483,13 +483,6 @@ on_yearly_pulse = {
 #character
 on_bi_yearly_pulse = {
 	events = {
-		TOG.3005 # Lose Berserker Trait when too old
-		SoA.5300 # Christian becoming a wicked priest
-		SoA.5301 # Muslim becoming a wicked caliph
-		SoA.5302 # Norse becoming an unworthy priest
-		SoA.5303 # Tengri becoming an unworthy priest
-		SoA.5304 # Zoroastrian becoming an immoral priest
-		SoA.5305 # Aztec becoming an unworthy pries
 	}
 	
 	
@@ -1397,7 +1390,6 @@ on_death = {
 		24500
 		24502
 		88291
-		SoA.5306
 		WoL.6335 # Owner of Necronomicon dies...
 		HL.8001 # Sky Burial
 		HL.12
