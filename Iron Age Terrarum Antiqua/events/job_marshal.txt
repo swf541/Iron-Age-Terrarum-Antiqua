@@ -456,7 +456,7 @@ character_event = {
 			}
 			any_province_lord = {
 				NOT = { 
-					is_liege_of = ROOT
+					ROOT = { liege = PREV }
 					character = ROOT
 				}
 				independent = no

@@ -711,16 +711,18 @@ character_event = {
 		trait = zealous
 		location = {
 			any_province_lord = {
-				trait = cynical
-				NOT = { is_liege_of = ROOT }
-				NOT = { has_character_flag = no_heretic }
-				NOT = { has_character_flag = branded_heretic }
-				NOT = { character = ROOT }
-				age = 20
-				same_realm = ROOT
-				religion_group = ROOT
-				can_change_religion = yes
-				NOT = { piety = 100 }
+				limit = {
+					trait = cynical
+					NOT = { is_liege_of = ROOT }
+					NOT = { has_character_flag = no_heretic }
+					NOT = { has_character_flag = branded_heretic }
+					NOT = { character = ROOT }
+					age = 20
+					same_realm = ROOT
+					religion_group = ROOT
+					can_change_religion = yes
+					NOT = { piety = 100 }
+				}
 			}
 		}
 	}
