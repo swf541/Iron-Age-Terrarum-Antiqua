@@ -1,0 +1,1944 @@
+d_legio_i_adiutrix = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_armeniaca = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_flavia_constantia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_flavia_constantia_gallicana = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_flavia_pacis = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_flavia_theodosiana = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_germanica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_illyricorum = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_iovia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_italica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_isaura_sagittaria = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_maximiana = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_minervia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_noricorum = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_parthica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_i_pontica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_II_adiutrix_pia_fidelis = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_armeniaca = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_augusta = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_britannia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_felix_valentis_thebaeorum = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_flavia_constantia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_flavia_virtutis = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_herculia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_isaura = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_italica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_parthica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_ii_traiana = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_augusta = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_cyrencia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_diocletiana = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_flavia_salutis = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_gallica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_herculia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_iulia_alpina = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_isaura = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_italica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iii_parthica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iv_macedonia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iv_martia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iv_flavia_felix = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iv_scythica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iv_italica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iv_parthica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_v_alaudae = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_v_iovia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_v_macedonia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_vi_ferrata = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_vi_herculia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_vi_victrix = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_vii_claudia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_vii_gemina = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_viii_augusta = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_iX_hispana = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_X_fretensis = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_X_gemina = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xi_claudia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xii_fulminata = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xiii_gemina = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xiv_gemina_martia_victrix = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xv_apollinaris = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xv_primigeneia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xvi_gallica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xvi_flavia_firma = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xvii_italica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_Xviii_italica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_XiX_italica = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_XX_valeria_victrix = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_XXi_rapax = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_XXii_deiotariana = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_XXii_primigeneia_pia_fidelis = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}
+d_legio_XXX_ulpia = {
+	color = { 255 55 70 }
+	color2 = { 255 255 255 }
+	
+	capital = 319 # Irna
+	
+	religion = roman_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = late_roman_republican_composition
+}

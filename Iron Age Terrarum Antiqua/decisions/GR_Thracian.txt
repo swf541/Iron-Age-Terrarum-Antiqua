@@ -1,0 +1,72 @@
+decisions = {
+
+	celebrate_cotyttia = {
+		is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			age = 16
+			or = {
+				religion = hellenic_pagan
+				religion_group = daco_thracian_religion
+			}
+			prisoner = no
+			NOT = {
+				trait = in_hiding
+				has_character_modifier = held_cotyttia_timer
+				liege = { has_character_flag = holding_cotyttia }
+				has_character_flag = holding_cotyttia
+				has_character_flag = planning_cotyttia
+			}
+		}
+		allow = {
+			war = no
+			wealth = 50
+			prestige = 100
+			has_regent = no
+			month = 3
+			not = { month = 6 }
+		}
+		effect = {
+		effect = {
+			wealth = -50
+			set_character_flag = planning_cotyttia
+			custom_tooltip = {
+				text = prepare_cotyttia_feast
+				hidden_tooltip = { 
+					character_event = { id = COT.700 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 730
+					}
+				}
+			}
+		}
+	}
+}

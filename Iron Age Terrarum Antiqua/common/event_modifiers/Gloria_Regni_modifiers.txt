@@ -64,3 +64,6 @@ schism_province_conversion = {
 religous_demographics = {
 	icon = 1	
 }
+held_cotyttia_timer = {
+	icon = 1
+}

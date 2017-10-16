@@ -201,7 +201,10 @@ on_yearly_pulse = {
 		150 = 37250 #Wife of same education offers to help
 		
 		# Reincarnation: Memories of the previous life
-		100 = MET.10000 # Reincarnation?
+		1000 = MET.10000 # Reincarnation?
+		1000 = MET.10020
+		1000 = MET.10021
+		1000 = MET.10022
 		1000 = RoI.10020
 		1000 = RoI.10021
 		1000 = RoI.10022
@@ -881,6 +884,7 @@ on_yearly_childhood_pulse = {
 		100 = 1632
 		100 = 1732
 		5000 = RoI.10010 # Acknowledged reincarnated child acquires trait from previous personality
+		5000 = MET.10010 # Acknowledged reincarnated child acquires trait from previous personality
 		
 		#Toddler flavour events (age 2-5), not very common, but some will get them.
 		10 = 1900 
@@ -1209,6 +1213,7 @@ on_birth = {
 		200 = 0
 		50 = RIP.29600 # Firstborn/first son reaction 
 		5 = RoI.10000 # Reincarnation?
+		2 = MET.10000 # Reincarnation?
 		1 = RIP.29805 # Reincarnation for non west_african
 	}
 }

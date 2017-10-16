@@ -42,8 +42,7 @@ character_event = {
 		name = EVTOPTA_COT_701
 		trigger = {
 			OR = {
-				religion = alexandrian_pagan 
-				religion_group = egyptian_religion
+				religion_group = daco_thracian_religion
 				not = { religion = manichean }
 				not = { religion = mandean }
 			}
@@ -65,10 +64,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_COT_701
 		trigger = {
-			NOT = { religion_group = egyptian_religion }
-			NOT = { religion = mandean }
-			NOT = { religion = manichean }
-			NOT = { religion = alexandrian_pagan }
+			NOT = { religion_group = daco_thracian_religion }
 		}
 		FROM = {
 			character_event = { id = COT.702 days = 5 tooltip = DIPLOWINDOW_REJECT }

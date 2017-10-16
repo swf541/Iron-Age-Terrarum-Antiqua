@@ -204,3 +204,13 @@ opinion_refused_nuntarryashas = {
 	opinion = -10
 	months = 12
 }
+
+opinion_cotyttia = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_cotyttia = {
+	opinion = -10
+	months = 12
+}

@@ -16,7 +16,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Rajas of India"
-		religion_group = greek_religion
+		OR = {
+			religion_group = greek_religion
+			religion = thracian_main
+		}
 		OR = {
 			father = {
 				ai = no
