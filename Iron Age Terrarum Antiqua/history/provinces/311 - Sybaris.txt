@@ -4,15 +4,14 @@
 title = c_thurii # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 6
 b_thurii = castle
-b_sybaris_thurii = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_sybaris = city
+#b_thurii3 = temple
+#b_thurii4 = castle
+#b_thurii5 = city
+#b_thurii6 = temple
+#b_thurii7 = castle
 
 # Misc
 culture = oscan

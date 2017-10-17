@@ -108,6 +108,7 @@
 	father=1231298	#Laise
 	mother=1231357	#Gruoch
 	454.11.13={ birth=yes }
+	475.1.1={ add_spouse=1231358 }
 	509.10.31={ death=yes }
 }
 1231304={
@@ -158,6 +159,107 @@
 	465.6.19={ birth=yes }
 	523.12.10={ death=yes }
 }
+1231308={
+	name=Cailtram
+	dynasty=223030
+	dna="npikiedocmj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=7 
+	learning=7
+	trait=skilled_tactician 
+	trait=lustful 
+	trait=cynical 
+	trait=humble 
+	trait=patient 
+	father=1231303	#Talorgan
+	mother=1231358	#Brianag
+	477.1.19={ birth=yes }
+	498.1.1={ add_spouse=1231359 }
+	539.5.25={ death=yes }
+}
+1231309={
+	name=Brianag
+	female=yes
+	dynasty=223030
+	dna="mdhgeeiocmj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231303	#Talorgan
+	mother=1231358	#Brianag
+	482.12.21={ birth=yes }
+	551.10.12={ death=yes }
+}
+1231310={
+	name=Caoimhe
+	female=yes
+	dynasty=223030
+	dna="odilihkocmj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231303	#Talorgan
+	mother=1231358	#Brianag
+	485.6.20={ birth=yes }
+	542.6.28={ death=yes }
+}
+1231311={
+	name=Aelpein
+	dynasty=223030
+	dna="oghlkepocmj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=6 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=slothful 
+	trait=greedy 
+	trait=shy 
+	trait=craven 
+	father=1231303	#Talorgan
+	mother=1231358	#Brianag
+	490.11.14={ birth=yes }
+	563.2.3={ death=yes }
+}
+1231312={
+	name=Giolla
+	dynasty=223030
+	dna="nfekiglmamn"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=4 
+	learning=4
+	trait=mastermind_theologian 
+	trait=mystic 
+	trait=trusting 
+	trait=just 
+	trait=greedy 
+	trait=stressed 
+	father=1231308	#Cailtram
+	mother=1231359	#Caitir
+	501.4.12={ birth=yes }
+	549.7.20={ death=yes }
+}
+1231313={
+	name=Caitir
+	female=yes
+	dynasty=223030
+	dna="ppmkoedojcj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231308	#Cailtram
+	mother=1231359	#Caitir
+	505.1.13={ birth=yes }
+	568.7.1={ death=yes }
+}
 1231356={
 	name=Brianag
 	female=yes
@@ -173,4 +275,20 @@
 	religion=celtic_pagan
 	425.6.7={ birth=yes }
 	475.2.17={ death=yes }
+}
+1231358={
+	name=Brianag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	454.6.7={ birth=yes }
+	509.2.17={ death=yes }
+}
+1231359={
+	name=Caitir
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	477.6.7={ birth=yes }
+	539.2.17={ death=yes }
 }

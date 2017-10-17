@@ -4,15 +4,14 @@
 title = c_heracleia_sicily # for example c_corinth
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 6
 b_heracleia_sicily = castle
-b_siris_heracleia_sicily = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_siris = city
+#b_heracleia_sicily3 = temple
+#b_heracleia_sicily4 = castle
+#b_heracleia_sicily5 = city
+#b_heracleia_sicily6 = temple
+#b_heracleia_sicily7 = castle
 
 # Misc
 culture = ionian

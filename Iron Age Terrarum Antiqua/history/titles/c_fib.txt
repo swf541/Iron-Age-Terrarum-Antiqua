@@ -7,3 +7,9 @@
 475.10.03 = { # 301 BC
 	holder = 1231303 # Talorgan
 }
+509.10.31 = { # 267 BC
+	holder = 1231308 # Cailtram
+}
+539.05.25 = { # 237 BC
+	holder = 1231312 # Giolla
+}

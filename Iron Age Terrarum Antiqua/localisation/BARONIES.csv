@@ -1435,7 +1435,7 @@ b_medma;Medma;;;;;;;;;;;;;x
 b_caulonia;Caulonia;;;;;;;;;;;;;x
 b_scylletium;Scylletium;;;;;;;;;;;;;x
 b_petelia;Petelia;;;;;;;;;;;;;x
-b_sybaris_thurii;Sybaris;;;;;;;;;;;;;x
+b_sybaris;Sybaris;;;;;;;;;;;;;x
 b_laus_elea;Laus;;;;;;;;;;;;;x
 b_pixous_elea;;;;;;;;;;;;;x;
 b_siris_heracleia_sicily;Siris;;;;;;;;;;;;;x
@@ -3516,3 +3516,8 @@ b_croton4;Croton;;;;;;;;;;;x
 b_croton5;Croton;;;;;;;;;;;x
 b_croton6;Croton;;;;;;;;;;;x
 b_croton7;Croton;;;;;;;;;;;x
+b_thurii3;Thurii;;;;;;;;;;;;x
+b_thurii4;Thurii;;;;;;;;;;;;x
+b_thurii5;Thurii;;;;;;;;;;;;x
+b_thurii6;Thurii;;;;;;;;;;;;x
+b_thurii7;Thurii;;;;;;;;;;;;x

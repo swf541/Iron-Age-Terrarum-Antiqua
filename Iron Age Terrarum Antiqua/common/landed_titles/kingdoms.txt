@@ -772,19 +772,25 @@ k_magna_graecia = {
 			color= { 75 150 255 }
 			color2= { 255 255 255 }
 			
-			b_thurii = {
-			}
-			b_sybaris_thurii = {
-			}
+			b_thurii = {}
+			b_sybaris = {}
+			b_thurii3 = {}
+			b_thurii4 = {}
+			b_thurii5 = {}
+			b_thurii6 = {}
+			b_thurii7 = {}
 		}
 		c_heracleia_sicily = {
 			color= { 75 160 245 }
 			color2= { 255 255 255 }
 			
-			b_heracleia_sicily = {
-			}
-			b_siris_heracleia_sicily = {
-			}
+			b_heracleia_sicily = {}
+			b_siris = {}
+			b_heracleia_sicily3 = {}
+			b_heracleia_sicily4 = {}
+			b_heracleia_sicily5 = {}
+			b_heracleia_sicily6 = {}
+			b_heracleia_sicily7 = {}
 		}
 		c_elea = {
 			color= { 65 140 255 }
