@@ -27,7 +27,6 @@ decisions = {
 			not = { month = 6 }
 		}
 		effect = {
-		effect = {
 			wealth = -50
 			set_character_flag = planning_cotyttia
 			custom_tooltip = {
