@@ -13,3 +13,18 @@
 539.05.25 = { # 237 BC
 	holder = 1231312 # Giolla
 }
+549.07.20 = { # 227 BC
+	holder = 1231315 # Torcuil
+}
+597.02.01 = { # 179 BC
+	holder = 1231318 # Latharn
+}
+618.08.17 = { # 158 BC
+	holder = 1231322 # Talorgan
+}
+651.05.06 = { # 125 BC
+	holder = 1231326 # Laise
+}
+661.05.16 = { # 115 BC
+	holder = 1231328 # Caustantin
+}

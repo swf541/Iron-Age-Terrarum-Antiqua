@@ -1,18 +1,20 @@
 # 314 - Metapontum
 
 # County Title
-title = c_metapontum # for example c_corinth
+title = c_metapontum
 
 # Settlements
 max_settlements = 4
-b_metapontum_metapontum = castle
-b_barium_metapontum = city
-b_rubi_metapontum = temple
-b_norba_metapontum = castle
+b_metapontum = castle
+b_barium = city
+b_rubi = temple
+b_norba = castle
+#b_metapontum5 = city
+#b_metapontum6 = temple
+#b_metapontum7 = castle
 
 # Misc
 culture = doric
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

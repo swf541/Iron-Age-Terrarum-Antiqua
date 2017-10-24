@@ -796,12 +796,13 @@ k_magna_graecia = {
 			color= { 65 140 255 }
 			color2= { 255 255 255 }
 			
-			b_elea = {
-			}
-			b_laus_elea = {
-			}
-			b_pixous_elea = {
-			}
+			b_elea = {}
+			b_laus = {}
+			b_pixous = {}
+			b_elea4 = {}
+			b_elea5 = {}
+			b_elea6 = {}
+			b_elea7 = {}
 		}
 	}
 	d_apulia = {
@@ -812,14 +813,13 @@ k_magna_graecia = {
 			color= { 75 190 210 }
 			color2= { 255 255 255 }
 			
-			b_metapontum_metapontum = {
-			}
-			b_barium_metapontum = {
-			}
-			b_rubi_metapontum = {
-			}
-			b_norba_metapontum = {
-			}
+			b_metapontum = {}
+			b_barium = {}
+			b_rubi = {}
+			b_norba = {}
+			b_metapontum5 = {}
+			b_metapontum6 = {}
+			b_metapontum7 = {}
 		}
 		c_salapia = {
 			color= { 65 210 200 }

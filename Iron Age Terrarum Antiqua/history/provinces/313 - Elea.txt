@@ -1,19 +1,17 @@
 # 313 - Elea
 
 # County Title
-title = c_elea # for example c_corinth
+title = c_elea
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 6
 b_elea = castle
-b_laus_elea = city
-b_pixous_elea = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_laus = city
+b_pixous = temple
+#b_elea4 = castle
+#b_elea5 = city
+#b_elea6 = temple
+#b_elea7 = castle
 
 # Misc
 culture = ionian

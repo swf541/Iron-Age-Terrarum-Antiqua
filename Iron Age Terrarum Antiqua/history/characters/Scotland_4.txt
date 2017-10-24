@@ -246,6 +246,7 @@
 	father=1231308	#Cailtram
 	mother=1231359	#Caitir
 	501.4.12={ birth=yes }
+	522.1.1={ add_spouse=1231360 }
 	549.7.20={ death=yes }
 }
 1231313={
@@ -259,6 +260,332 @@
 	mother=1231359	#Caitir
 	505.1.13={ birth=yes }
 	568.7.1={ death=yes }
+}
+1231314={
+	name=Nicta
+	female=yes
+	dynasty=223030
+	dna="ffehiecphdn"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231312	#Giolla
+	mother=1231360	#Nicta
+	527.11.15={ birth=yes }
+	578.12.19={ death=yes }
+}
+1231315={
+	name=Torcuil
+	dynasty=223030
+	dna="gooiigbpamm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=5 
+	learning=6
+	trait=grey_eminence 
+	trait=gardener 
+	trait=humble 
+	trait=slothful 
+	trait=zealous 
+	trait=chaste 
+	trait=patient 
+	trait=envious 
+	father=1231312	#Giolla
+	mother=1231360	#Nicta
+	529.5.4={ birth=yes }
+	550.1.1={ add_spouse=1231361 }
+	597.2.1={ death=yes }
+}
+1231316={
+	name=Dòmhnall
+	dynasty=223030
+	dna="nfappfglabf"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=5 
+	learning=8
+	trait=martial_cleric 
+	trait=celibate 
+	trait=content 
+	trait=cynical 
+	trait=chaste 
+	trait=shy 
+	father=1231312	#Giolla
+	mother=1231360	#Nicta
+	535.3.22={ birth=yes }
+	585.4.6={ death=yes }
+}
+1231317={
+	name=Gillechrìost
+	dynasty=223030
+	dna="nfikagpmamn"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=4 
+	learning=6
+	trait=flamboyant_schemer 
+	trait=cruel 
+	trait=lustful 
+	trait=shy 
+	trait=slothful 
+	trait=envious 
+	father=1231312	#Giolla
+	mother=1231360	#Nicta
+	537.7.10={ birth=yes }
+	599.6.27={ death=yes }
+}
+1231318={
+	name=Latharn
+	dynasty=223030
+	dna="nacdgnbmamm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=8 
+	learning=7
+	trait=elusive_shadow 
+	trait=wroth 
+	trait=kind 
+	trait=diligent 
+	father=1231315	#Torcuil
+	mother=1231361	#Sidheag
+	554.9.12={ birth=yes }
+	575.1.1={ add_spouse=1231362 }
+	618.8.17={ death=yes }
+}
+1231319={
+	name=Sidheag
+	female=yes
+	dynasty=223030
+	dna="leooigbddmm"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231315	#Torcuil
+	mother=1231361	#Sidheag
+	557.7.10={ birth=yes }
+	609.6.6={ death=yes }
+}
+1231320={
+	name=Gormala
+	female=yes
+	dynasty=223030
+	dna="gpoibfclhaf"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231315	#Torcuil
+	mother=1231361	#Sidheag
+	560.3.21={ birth=yes }
+	626.4.10={ death=yes }
+}
+1231321={
+	name=Calum
+	dynasty=223030
+	dna="gkaoimbnmac"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=4 
+	learning=7
+	trait=misguided_warrior 
+	trait=chaste 
+	trait=brave 
+	trait=wroth 
+	trait=diligent 
+	trait=envious 
+	trait=charitable 
+	trait=lunatic 
+	father=1231315	#Torcuil
+	mother=1231361	#Sidheag
+	565.9.14={ birth=yes }
+	621.2.27={ death=yes }
+}
+1231322={
+	name=Talorgan
+	dynasty=223030
+	dna="naddmlbcfmf"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=8
+	trait=martial_cleric 
+	trait=cruel 
+	trait=just 
+	trait=ambitious 
+	father=1231318	#Latharn
+	mother=1231362	#Mòragan
+	577.12.1={ birth=yes }
+	598.1.1={ add_spouse=1231363 }
+	651.5.6={ death=yes }
+}
+1231323={
+	name=Natholocus
+	dynasty=223030
+	dna="gacignmgpmm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=7 
+	learning=5
+	trait=misguided_warrior 
+	trait=lustful 
+	trait=slothful 
+	trait=gluttonous 
+	trait=drunkard 
+	father=1231318	#Latharn
+	mother=1231362	#Mòragan
+	579.1.26={ birth=yes }
+	645.7.25={ death=yes }
+}
+1231324={
+	name=Mòragan
+	female=yes
+	dynasty=223030
+	dna="jgcfpnbmfmb"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231318	#Latharn
+	mother=1231362	#Mòragan
+	584.6.5={ birth=yes }
+	638.11.6={ death=yes }
+}
+1231325={
+	name=Sorcha
+	female=yes
+	dynasty=223030
+	dna="lhpignfmbmm"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231318	#Latharn
+	mother=1231362	#Mòragan
+	588.11.15={ birth=yes }
+	656.9.13={ death=yes }
+}
+1231326={
+	name=Laise
+	dynasty=223030
+	dna="eaddmdkcfmg"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=intricate_webweaver 
+	trait=patient 
+	trait=cruel 
+	father=1231322	#Talorgan
+	mother=1231363	#Eithne
+	603.10.15={ birth=yes }
+	624.1.1={ add_spouse=1231364 }
+	661.5.16={ death=yes }
+}
+1231327={
+	name=Drust
+	dynasty=223030
+	dna="fadnmanckmf"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=5 
+	learning=4
+	trait=elusive_shadow 
+	trait=impaler 
+	trait=craven 
+	trait=gregarious 
+	trait=arbitrary 
+	father=1231322	#Talorgan
+	mother=1231363	#Eithne
+	604.6.12={ birth=yes }
+	671.7.22={ death=yes }
+}
+1231328={
+	name=Caustantin
+	dynasty=223030
+	dna="eaddigkcfog"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=8 
+	learning=5
+	trait=grey_eminence 
+	trait=impaler 
+	trait=cruel 
+	trait=content 
+	trait=shy 
+	trait=cynical 
+	trait=envious 
+	trait=wounded 
+	father=1231326	#Laise
+	mother=1231364	#Slàine
+	628.1.11={ birth=yes }
+	674.2.7={ death=yes }
+}
+1231329={
+	name=Dúngal
+	dynasty=223030
+	dna="eapdiemiamg"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=scholarly_theologian 
+	trait=craven 
+	trait=cruel 
+	trait=temperate 
+	trait=trusting 
+	father=1231326	#Laise
+	mother=1231364	#Slàine
+	632.1.6={ birth=yes }
+	677.12.19={ death=yes }
+}
+1231330={
+	name=Eithne
+	female=yes
+	dynasty=223030
+	dna="edddedkaflg"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231326	#Laise
+	mother=1231364	#Slàine
+	635.5.11={ birth=yes }
+	693.8.10={ death=yes }
+}
+1231331={
+	name=Slàine
+	female=yes
+	dynasty=223030
+	dna="eamdkdncfpf"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231326	#Laise
+	mother=1231364	#Slàine
+	637.3.12={ birth=yes }
+	702.3.16={ death=yes }
 }
 1231356={
 	name=Brianag
@@ -291,4 +618,44 @@
 	religion=celtic_pagan
 	477.6.7={ birth=yes }
 	539.2.17={ death=yes }
+}
+1231360={
+	name=Nicta
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	501.6.7={ birth=yes }
+	549.2.17={ death=yes }
+}
+1231361={
+	name=Sidheag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	529.6.7={ birth=yes }
+	597.2.17={ death=yes }
+}
+1231362={
+	name=Mòragan
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	554.6.7={ birth=yes }
+	618.2.17={ death=yes }
+}
+1231363={
+	name=Eithne
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	577.6.7={ birth=yes }
+	651.2.17={ death=yes }
+}
+1231364={
+	name=Slàine
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	603.6.7={ birth=yes }
+	661.2.17={ death=yes }
 }
