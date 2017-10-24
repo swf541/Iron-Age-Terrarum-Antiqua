@@ -1,4 +1,4 @@
-egyptian_religion = {
+﻿egyptian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade # Should be changed or removed entirely
@@ -1211,7 +1211,7 @@ zoroastrian_group = {
 		can_call_crusade = no
 		priests_can_marry = yes
 		
-		max_consorts = 3
+		max_consorts = 20
 		
 		intermarry = egyptian_pagan	
 		intermarry = atenist
@@ -1270,7 +1270,7 @@ zoroastrian_group = {
 		can_call_crusade = no
 		priests_can_marry = yes
 		
-		max_consorts = 3
+		max_consorts = 20
 		
 		intermarry = egyptian_pagan	
 		intermarry = atenist
@@ -1343,7 +1343,7 @@ zoroastrian_group = {
 		priests_can_marry = yes
 		female_temple_holders = yes
 		psc_marriage = yes
-		max_consorts = 3
+		max_consorts = 20
 		
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
@@ -1454,6 +1454,8 @@ jewish_group = {
 		can_grant_divorce = yes
 		can_call_crusade = yes
 		can_grant_invasion_cb = invasion
+		hard_to_convert = yes
+		defensive_attrition = yes
 		
 		priests_can_marry = yes
 		
@@ -2370,7 +2372,7 @@ greek_religion = {
 	playable = yes
 	
 	ai_convert_same_group = 0
-	ai_convert_other_group = 2 # always try to convert
+	ai_convert_other_group = 1
 
 	hellenic_pagan_reformed = {
 		graphical_culture = westerngfx

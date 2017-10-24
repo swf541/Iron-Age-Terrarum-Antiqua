@@ -1,6 +1,6 @@
 thracian_group = {
 	thracian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { englishgfx }
   
 		color = { 0.6 0.3 0 }
 
@@ -20,7 +20,7 @@ thracian_group = {
 		modifier = thracian_culture_modifier
 	}
 	phrygian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { englishgfx }
   
 		color = { 0 0.4 0.5 }
 
@@ -41,7 +41,7 @@ thracian_group = {
 		modifier = anatolian_culture_modifier
 	}
 	dacian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { englishgfx }
 		color = { 0.4 0.2 0.1 }
 
 		male_names = {
@@ -62,7 +62,7 @@ thracian_group = {
 		modifier = thracian_culture_modifier
 	}
 	illyrian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { englishgfx }
   
 		color = { 0.1 1.0 0.5 }
   
@@ -82,7 +82,7 @@ thracian_group = {
 		dynasty_title_names = yes
 	}
 	paeonian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { englishgfx }
   
 		color = { 0.1 0.8 0.4 }
   
@@ -199,7 +199,7 @@ celtiberian_group = {
 		modifier = celtic_culture_modifier
 	}
 }
-israelite_group = {
+israelite_group {
 	israelite = {
 		graphical_cultures = { muslimgfx }
   
@@ -400,7 +400,7 @@ anatolian_group = {
 		modifier = anatolian_culture_modifier
 	}
 	cappadocian = {
-		graphical_cultures = { muslimgfx }
+		graphical_cultures = { byzantinegfx }
   
 		color = { 0.8 0.7 0.6 }
   
@@ -711,7 +711,7 @@ iranian = {
 		modifier = settled_iranian_culture_modifier
 	}
 	scythian = {
-		graphical_cultures = { persiangfx muslimgfx }
+		graphical_cultures = { germangfx muslimgfx }
   
 		color = { 0.9 0.6 0 }
   
@@ -802,7 +802,7 @@ iranian = {
 		modifier = settled_iranian_culture_modifier
 	}
 	sarmatian = {
-		graphical_cultures = { persiangfx muslimgfx }
+		graphical_cultures = { germangfx muslimgfx }
   
 		color = { 0.8 0.5 0 }
   
@@ -1032,7 +1032,7 @@ iranian = {
 }
 far_eastern = {
 	tocharian = { 
-		graphical_cultures = { mongolgfx muslimgfx }
+		graphical_cultures = { easternslavicgfx }
 
         color = { 0.1 0.05 0.2 }
 
@@ -1242,7 +1242,7 @@ dravidian = {
 		modifier = indian_culture_modifier
 	}
 	tamil = {
-		graphical_cultures = { indiangfx muslimgfx }
+		graphical_cultures = { southindiangfx muslimgfx }
   
 		color = { 1.0 0.7 0.2 }
 		
@@ -1319,7 +1319,7 @@ hellenic = {
 	}	
 	
 	oscan = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { southerngfx }
   
 		color = { 0.5 0.1 0 }
 
@@ -1339,7 +1339,7 @@ hellenic = {
 		modifier = italic_culture_modifier
 	}
 	latin = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { southerngfx }
   
 		color = { 0.5 0 0 }
 
@@ -1378,7 +1378,7 @@ hellenic = {
 		modifier = italic_culture_modifier
 	}
 	umbrian = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { southerngfx }
   
 		color = { 0.5 0.1 0.1 }
 
@@ -1399,7 +1399,7 @@ hellenic = {
 	}
 	
 	picene = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { southerngfx }
   
 		color = { 0.6 0 0 }
 
@@ -1786,7 +1786,7 @@ tyrhenian = {
 	graphical_cultures = { easterngfx }
  
 	etruscan = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { southerngfx }
   
 		color = { 0.4 0 0 }
 
@@ -1806,7 +1806,7 @@ tyrhenian = {
 		modifier = tyrhenian_culture_modifier
 	}
 	raetic = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { southerngfx }
   
 		color = { 0.2 0.8 0.1 }
 
@@ -1830,7 +1830,7 @@ north_italic = {
 	graphical_cultures = { easterngfx }
  
 	venetic = {
-		graphical_cultures = { byzantinegfx }
+		graphical_cultures = { southerngfx }
   
 		color = { 0.4 1 0.4 }
 
