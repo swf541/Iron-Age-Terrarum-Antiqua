@@ -195,3 +195,5 @@ BM_SECOND_PUNIC_WAR_DESC;The Second Punic War;;;;;;;x
 DYNAMIC_LEGION_COMPANY_FEUDAL;Legio [Prev.Capital.Kingdom.GetAdjective];;;;;;;;x
 create_legion;Create New Legion;;;;;;;;x
 alter_legion;Alter Legion Composition;;;;;;;;x
+celebrate_cotyttia_desc;Celebrate Cotyttia, the Thracian nocturnal festival celebrating the rape of Cotys (Greek Persephone);;;;;;x
+celebrate_cotyttia;Celebrate Cotyttia;;;;;;x

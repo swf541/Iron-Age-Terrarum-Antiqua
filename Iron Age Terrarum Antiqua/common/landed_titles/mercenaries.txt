@@ -187,6 +187,33 @@ d_carian_warband = {
 	
 	mercenary_type = d_carian_warband_composition
 }
+d_lycian_warband = {
+	color= { 130 173 70 }
+	color2= { 255 255 255 }
+	
+	capital = 830 # Alabanda
+	
+	religion = anatolian_main
+	
+	mercenary = yes
+	strength_growth_per_century = 0.33
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	mercenary_type = d_carian_warband_composition
+}
 d_greek_skirmishers = {
 	color= { 130 173 70 }
 	color2= { 255 255 255 }
