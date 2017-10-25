@@ -1803,7 +1803,7 @@ b_araba_meroe;Araba;;;;;;;;;;;;;x
 b_mallo_meroe;Mallo;;;;;;;;;;;;;x
 b_galim_meroe;Galim;;;;;;;;;;;;;x
 b_darou_meroe;Darou;;;;;;;;;;;;;x
-b_sipontum_arpi;Sipontum;;;;;;;;;;;;;x
+b_sipontum;Sipontum;;;;;;;;;;;;;x
 b_salonica_salonica;Salonica;;;;;;;;;;;;;x
 b_spalatum_salonica;Spalatum;;;;;;;;;;;;;x
 b_oneum_salonica;Oneum;;;;;;;;;;;;;x
@@ -1835,10 +1835,10 @@ b_segesta_elymians;Segesta;;;;;;;;;;;;;x
 b_parthenicum_elymians;Parthenicum;;;;;;;;;;;;;x
 b_inycon_elymians;Inycon;;;;;;;;;;;;;x
 b_hykkara_elymians;Hykkara;;;;;;;;;;;;;x
-b_salapia_salapia;Salapia;;;;;;;;;;;;;x
-b_acerina_salapia;Acerina;;;;;;;;;;;;;x
-b_cannae_salapia;Cannae;;;;;;;;;;;;;x
-c_canusium_salapia;Canusium;;;;;;;;;;;;;x
+b_salapia;Salapia;;;;;;;;;;;;;x
+b_acerina;Acerina;;;;;;;;;;;;;x
+b_cannae;Cannae;;;;;;;;;;;;;x
+c_canusium;Canusium;;;;;;;;;;;;;x
 b_metapontum;Metapontum;;;;;;;;;;;;;x
 b_barium;Barium;;;;;;;;;;;;;x
 b_rubi;Rubi;;;;;;;;;;;;;x
@@ -3533,3 +3533,11 @@ b_elea7;Elea;;;;;;;;;;;x
 b_metapontum5;Metapontum;;;;;;;;;;;x
 b_metapontum6;Metapontum;;;;;;;;;;;x
 b_metapontum7;Metapontum;;;;;;;;;;;x
+b_salapia5;Salapia;;;;;;;;;;;;x
+b_salapia6;Salapia;;;;;;;;;;;;x
+b_salapia7;Salapia;;;;;;;;;;;;x
+b_arpi3;Arpi;;;;;;;;;;;x
+b_arpi4;Arpi;;;;;;;;;;;x
+b_arpi5;Arpi;;;;;;;;;;;x
+b_arpi6;Arpi;;;;;;;;;;;x
+b_arpi7;Arpi;;;;;;;;;;;x

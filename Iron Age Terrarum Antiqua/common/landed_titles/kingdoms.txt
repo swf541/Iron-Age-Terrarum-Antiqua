@@ -825,23 +825,25 @@ k_magna_graecia = {
 			color= { 65 210 200 }
 			color2= { 255 255 255 }
 			
-			b_salapia_salapia = {
-			}
-			b_acerina_salapia = {
-			}
-			b_cannae_salapia = {
-			}
-			b_canusium_salapia = {
-			}
+			b_salapia = {}
+			b_acerina = {}
+			b_cannae = {}
+			b_canusium = {}
+			b_salapia5 = {}
+			b_salapia6 = {}
+			b_salapia7 = {}
 		}
 		c_arpi = {
 			color= { 75 200 200 }
 			color2= { 255 255 255 }
 			
-			b_arpi = {
-			}
-			b_sipontum_arpi = {
-			}
+			b_arpi = {}
+			b_sipontum = {}
+			b_arpi3 = {}
+			b_arpi4 = {}
+			b_arpi5 = {}
+			b_arpi6 = {}
+			b_arpi7 = {}
 		}
 	}
 	d_calabria = {
@@ -852,8 +854,13 @@ k_magna_graecia = {
 			color= { 75 175 175 }
 			color2= { 255 255 255 }
 			
-			b_tarentum = {
-			}
+			b_tarentum = {}
+			b_tarentum2 = {}
+			b_tarentum3 = {}
+			b_tarentum4 = {}
+			b_tarentum5 = {}
+			b_tarentum6 = {}
+			b_tarentum7 = {}
 		}
 		c_brundisium = {
 			color= { 65 165 175 }

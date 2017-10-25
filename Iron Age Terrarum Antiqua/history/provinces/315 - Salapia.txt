@@ -1,18 +1,20 @@
 # 315 - Salapia
 
 # County Title
-title = c_salapia # for example c_corinth
+title = c_salapia
 
 # Settlements
 max_settlements = 4
-b_salapia_salapia = tribal
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# c_canusium_salapia
+b_salapia = tribal
+#b_acerina = city
+#b_cannae = temple
+#b_canusium = city
+#b_salapia5 = temple
+#b_salapia6 = castle
+#b_salapia7 = castle
 
 # Misc
 culture = illyrian
 religion = illyrian_main
 
 # History
-# Can be filled when things change around the province

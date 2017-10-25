@@ -540,6 +540,7 @@
 	father=1231326	#Laise
 	mother=1231364	#Slàine
 	628.1.11={ birth=yes }
+	649.1.1={ add_spouse=1231365 }
 	674.2.7={ death=yes }
 }
 1231329={
@@ -586,6 +587,297 @@
 	mother=1231364	#Slàine
 	637.3.12={ birth=yes }
 	702.3.16={ death=yes }
+}
+1231332={
+	name=Machar
+	dynasty=223030
+	dna="egddigdckog"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=gluttonous 
+	trait=brave 
+	trait=arbitrary 
+	trait=chaste 
+	father=1231328	#Caustantin
+	mother=1231365	#Gràinne
+	648.7.13={ birth=yes }
+	669.1.1={ add_spouse=1231366 }
+	706.1.22={ death=yes }
+}
+1231333={
+	name=Dargart
+	dynasty=223030
+	dna="eedgljkcfjg"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=6 
+	learning=6
+	trait=midas_touched 
+	trait=mystic 
+	trait=temperate 
+	trait=arbitrary 
+	trait=wroth 
+	trait=charitable 
+	trait=craven 
+	trait=kind 
+	father=1231328	#Caustantin
+	mother=1231365	#Gràinne
+	649.1.11={ birth=yes }
+	714.2.22={ death=yes }
+}
+1231334={
+	name=Geirr
+	dynasty=223030
+	dna="cndncgknkof"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=4 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=scholar 
+	trait=content 
+	trait=cynical 
+	father=1231328	#Caustantin
+	mother=1231365	#Gràinne
+	654.6.21={ birth=yes }
+	702.3.16={ death=yes }
+}
+1231335={
+	name=Fergus
+	dynasty=223030
+	dna="eapdiekonof"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=5 
+	learning=7
+	trait=naive_appeaser 
+	trait=just 
+	trait=content 
+	trait=gregarious 
+	trait=gluttonous 
+	trait=deceitful 
+	father=1231328	#Caustantin
+	mother=1231365	#Gràinne
+	657.8.9={ birth=yes }
+	720.5.27={ death=yes }
+}
+1231336={
+	name=Gràinne
+	female=yes
+	dynasty=223030
+	dna="eadodgkihog"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231328	#Caustantin
+	mother=1231365	#Gràinne
+	661.4.14={ birth=yes }
+	726.5.30={ death=yes }
+}
+1231337={
+	name=Chiorstan
+	female=yes
+	dynasty=223030
+	dna="ecddagjhfgb"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231328	#Caustantin
+	mother=1231365	#Gràinne
+	665.6.26={ birth=yes }
+	717.12.20={ death=yes }
+}
+1231338={
+	name=Domelch
+	dynasty=223030
+	dna="faceigkdokg"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=4 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=honest 
+	trait=cruel 
+	trait=kind 
+	trait=charitable 
+	father=1231328	#Caustantin
+	mother=1231365	#Gràinne
+	667.2.2={ birth=yes }
+	722.6.20={ death=yes }
+}
+1231339={
+	name=Tarain
+	dynasty=223030
+	dna="egdhinjckla"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=8 
+	learning=8
+	trait=martial_cleric 
+	trait=charitable 
+	trait=cynical 
+	trait=arbitrary 
+	trait=diligent 
+	father=1231332	#Machar
+	mother=1231366	#Sorcha
+	675.12.21={ birth=yes }
+	696.1.1={ add_spouse=1231367 }
+	739.9.28={ death=yes }
+}
+1231340={
+	name=Lutrin
+	dynasty=223030
+	dna="egddigdokpn"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=7 
+	learning=6
+	trait=intricate_webweaver 
+	trait=craven 
+	trait=cynical 
+	trait=arbitrary 
+	trait=drunkard 
+	father=1231332	#Machar
+	mother=1231366	#Sorcha
+	678.5.23={ birth=yes }
+	745.8.12={ death=yes }
+}
+1231341={
+	name=Sorcha
+	female=yes
+	dynasty=223030
+	dna="jcjdifdokog"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231332	#Machar
+	mother=1231366	#Sorcha
+	681.5.22={ birth=yes }
+	749.12.16={ death=yes }
+}
+1231342={
+	name=Eimhir
+	female=yes
+	dynasty=223030
+	dna="egdhinnckda"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231339	#Tarain
+	mother=1231367	#Eimhir
+	698.3.4={ birth=yes }
+	763.4.23={ death=yes }
+}
+1231343={
+	name=Caitir
+	female=yes
+	dynasty=223030
+	dna="bldhinjdkla"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231339	#Tarain
+	mother=1231367	#Eimhir
+	700.8.8={ birth=yes }
+	747.11.5={ death=yes }
+}
+1231344={
+	name=Nicta
+	female=yes
+	dynasty=223030
+	dna="ogeeihogink"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231339	#Tarain
+	mother=1231367	#Eimhir
+	703.8.10={ birth=yes }
+	765.9.30={ death=yes }
+}
+1231345={
+	name=Borgach
+	female=yes
+	dynasty=223030
+	dna="cndhihjcklg"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231339	#Tarain
+	mother=1231367	#Eimhir
+	708.9.11={ birth=yes }
+	755.4.8={ death=yes }
+}
+1231346={
+	name=Ualraig
+	dynasty=223030
+	dna="jfklkajpkhi"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=7 
+	learning=4
+	trait=scholarly_theologian 
+	trait=duelist 
+	trait=arbitrary 
+	trait=slothful 
+	trait=paranoid 
+	trait=lustful 
+	father=1231339	#Tarain
+	mother=1231367	#Eimhir
+	709.3.3={ birth=yes }
+	730.1.1={ add_spouse=1231368 }
+	775.11.21={ death=yes }
+}
+1231347={
+	name=Giolla
+	dynasty=223030
+	dna="pfklpajpnji"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=7 
+	learning=7
+	trait=skilled_tactician 
+	trait=honest 
+	trait=charitable 
+	trait=cruel 
+	father=1231346	#Ualraig
+	mother=1231368	#Olfinecta
+	737.3.13={ birth=yes }
+	793.7.5={ death=yes }
+}
+1231348={
+	name=Olfinecta
+	female=yes
+	dynasty=223030
+	dna="jfkfeajhohi"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231346	#Ualraig
+	mother=1231368	#Olfinecta
+	739.8.17={ birth=yes }
+	811.12.22={ death=yes }
 }
 1231356={
 	name=Brianag
@@ -658,4 +950,36 @@
 	religion=celtic_pagan
 	603.6.7={ birth=yes }
 	661.2.17={ death=yes }
+}
+1231365={
+	name=Gràinne
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	628.6.7={ birth=yes }
+	674.2.17={ death=yes }
+}
+1231366={
+	name=Sorcha
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	648.6.7={ birth=yes }
+	706.2.17={ death=yes }
+}
+1231367={
+	name=Eimhir
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	675.6.7={ birth=yes }
+	739.2.17={ death=yes }
+}
+1231368={
+	name=Olfinecta
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	709.6.7={ birth=yes }
+	765.2.17={ death=yes }
 }

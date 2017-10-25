@@ -1,17 +1,17 @@
 # 316 - Messana
 
 # County Title
-title = c_arpi # for example c_corinth
+title = c_arpi
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 6
 b_arpi = tribal
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_sipontum = city
+#b_arpi3 = temple
+#b_arpi4 = city
+#b_arpi5 = temple
+#b_arpi6 = castle
+#b_arpi7 = castle
 
 # Misc
 culture = illyrian
