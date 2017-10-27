@@ -1,21 +1,20 @@
 # 317 - Tarentum
 
 # County Title
-title = c_tarentum # for example c_corinth
+title = c_tarentum
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 6
 b_tarentum = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+#b_tarentum2 = castle
+#b_tarentum3 = temple
+#b_tarentum4 = city
+#b_tarentum5 = castle
+#b_tarentum6 = temple
+#b_tarentum7 = castle
 
 # Misc
 culture = doric
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

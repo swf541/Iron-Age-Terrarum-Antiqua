@@ -40,3 +40,6 @@
 775.11.21 = { # 1 BC
 	holder = 1231347 # Giolla
 }
+793.07.05 = { # 19 AD
+	holder = 1231349 # Drostan
+}

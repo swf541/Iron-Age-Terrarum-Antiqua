@@ -865,6 +865,7 @@
 	father=1231346	#Ualraig
 	mother=1231368	#Olfinecta
 	737.3.13={ birth=yes }
+	758.1.1={ add_spouse=1231369 }
 	793.7.5={ death=yes }
 }
 1231348={
@@ -878,6 +879,116 @@
 	mother=1231368	#Olfinecta
 	739.8.17={ birth=yes }
 	811.12.22={ death=yes }
+}
+1231349={
+	name=Drostan
+	dynasty=223030
+	dna="pnklpajcnje"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=4 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=kind 
+	trait=diligent 
+	trait=humble 
+	trait=shy 
+	trait=greedy 
+	father=1231347	#Giolla
+	mother=1231369	#Eamhhair
+	763.2.25={ birth=yes }
+	784.1.1={ add_spouse=1231370 }
+	813.9.4={ death=yes }
+}
+1231350={
+	name=Aelpein
+	dynasty=223030
+	dna="fgejpajpnok"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=8 
+	learning=7
+	trait=martial_cleric 
+	trait=hedonist 
+	trait=patient 
+	trait=cynical 
+	trait=ambitious 
+	trait=humble 
+	father=1231347	#Giolla
+	mother=1231369	#Eamhhair
+	767.7.11={ birth=yes }
+	817.3.27={ death=yes }
+}
+1231351={
+	name=Ailean
+	dynasty=223030
+	dna="pfklnjkpnei"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=misguided_warrior 
+	trait=cruel 
+	trait=greedy 
+	trait=deceitful 
+	trait=shy 
+	trait=lustful 
+	father=1231347	#Giolla
+	mother=1231369	#Eamhhair
+	772.5.19={ birth=yes }
+	834.2.13={ death=yes }
+}
+1231352={
+	name=Eamhhair
+	female=yes
+	dynasty=223030
+	dna="cfklimjnpjo"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231347	#Giolla
+	mother=1231369	#Eamhhair
+	776.4.23={ birth=yes }
+	855.2.22={ death=yes }
+}
+1231353={
+	name=Iùrnan
+	dynasty=223030
+	dna="piklimncpai"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231349	#Drostan
+	788.6.21={ birth=yes }
+	840.2.26={ death=yes }
+}
+1231354={
+	name=Muireall
+	female=yes
+	dynasty=223030
+	dna="nikkeadocce"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231349	#Drostan
+	793.3.10={ birth=yes }
+	845.10.31={ death=yes }
+}
+1231355={
+	name=Uisdean
+	dynasty=223030
+	dna="bkklppphkfe"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231349	#Drostan
+	797.1.27={ birth=yes }
+	862.7.21={ death=yes }
 }
 1231356={
 	name=Brianag
@@ -982,4 +1093,20 @@
 	religion=celtic_pagan
 	709.6.7={ birth=yes }
 	765.2.17={ death=yes }
+}
+1231369={
+	name=Eamhhair
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	737.6.7={ birth=yes }
+	793.2.17={ death=yes }
+}
+1231370={
+	name=Muireall
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	763.6.7={ birth=yes }
+	813.2.17={ death=yes }
 }

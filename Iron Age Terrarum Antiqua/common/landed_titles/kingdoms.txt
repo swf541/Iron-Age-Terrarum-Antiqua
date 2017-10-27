@@ -866,10 +866,9 @@ k_magna_graecia = {
 			color= { 65 165 175 }
 			color2= { 255 255 255 }
 			
-			b_brundisium = {
-			}
-			b_calipolis_brundisium = {
-			}
+			b_brundisium = {}
+			b_calipolis = {}
+			b_brundisium3 = {}
 		}
 	}
 }
