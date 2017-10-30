@@ -1,22 +1,20 @@
 # 76 - Abydos
 
 # County Title
-title = c_abydos # for example c_corinth
+title = c_abydos
 
 # Settlements
 max_settlements = 6
-b_lampsacus_abydos = castle
-b_assos_abydos = temple
-b_illion_abydos = city
-b_kebren_abydos = castle
-b_parium_abydos = temple
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_antigoneia_abydos
+b_lampsacus = castle
+b_assos = temple
+b_illion = city
+b_kebren = castle
+b_parium = temple
+#b_antigoneia = city
+#b_abydos = castle
 
 # Misc
 culture = ionian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

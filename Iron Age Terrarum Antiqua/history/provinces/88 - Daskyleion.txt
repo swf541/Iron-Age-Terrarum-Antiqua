@@ -5,10 +5,10 @@ title = c_daskyleion # for example c_corinth
 
 # Settlements
 max_settlements = 4
-b_daskyleion_daskyleion = castle
-b_ergasteria_daskyleion = temple
-b_miletopolis_daskyleion = city
-b_poimanenon_daskyleion = castle
+b_daskyleion = castle
+b_ergasteria = temple
+b_miletopolis = city
+b_poimanenon = castle
 
 # Misc
 culture = luwian

@@ -1,25 +1,20 @@
 # 15 - Lesbos
+
 # County Title
-title = c_lesbos # for example c_corinth
+title = c_lesbos
 
 # Settlements
-max_settlements = 5 # Should be reevaluated
-b_mytilene_lesbos = castle
-b_therma_lesbos = temple
-b_eresos_lesbos = city
-b_arisba_lesbos = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_sigron_lesbos = castle
-# b_pyrra_lesbos = temple
-# b_hiera_lesbos = city
+max_settlements = 5
+b_mytilene = castle
+b_therma = temple
+b_eresos = city
+b_arisba = castle
+#b_sigron = castle
+#b_pyrra = temple
+#b_hiera = city
 
 # Misc
 culture = aeolian
-
 religion = hellenic_pagan
 
-
-
 # History
-# Can be filled when things change around the province

@@ -1,21 +1,20 @@
 # 78 - Cyzicus
 
 # County Title
-title = c_cyzicus # for example c_corinth
+title = c_cyzicus
 
 # Settlements
 max_settlements = 5
-b_cyzicus_cyzicus = castle
-b_plakia_cyzicus = temple
-b_halone_cyzicus = city
-b_zeleia_cyzicus = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_artace_cyzicus
+b_cyzicus = castle
+b_plakia = temple
+b_halone = city
+b_zeleia = castle
+#b_artace_cyzicus = temple
+#b_cyzicus6 = city
+#b_cyzicus7 = castle
 
 # Misc
 culture = ionian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

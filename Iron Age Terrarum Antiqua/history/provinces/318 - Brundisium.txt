@@ -1,22 +1,20 @@
 # 318 - Brundisium
 
 # County Title
-title = c_brundisium # for example c_corinth
+title = c_brundisium
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
+max_settlements = 6
 b_brundisium = castle
-b_calipolis_brundisium = city
-
-# Possible baronies: (Always add a # in front of a line with these!)
-#
-#
-#
-#
+b_calipolis = city
+#b_brundisium3 = temple
+#b_brundisium4 = castle
+#b_brundisium5 = city
+#b_brundisium6 = temple
+#b_brundisium7 = castle
 
 # Misc
 culture = doric
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

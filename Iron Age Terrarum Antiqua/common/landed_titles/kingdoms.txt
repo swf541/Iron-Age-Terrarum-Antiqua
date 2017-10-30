@@ -869,6 +869,10 @@ k_magna_graecia = {
 			b_brundisium = {}
 			b_calipolis = {}
 			b_brundisium3 = {}
+			b_brundisium4 = {}
+			b_brundisium5 = {}
+			b_brundisium6 = {}
+			b_brundisium7 = {}
 		}
 	}
 }
@@ -893,95 +897,70 @@ k_lydia = {
 			color= { 0 110 110 }
 			color2= { 255 255 255 }
 			
-			b_lampsacus_abydos = {
-			}
-			b_assos_abydos = {
-			}
-			b_illion_abydos = {
-			}
-			b_kebren_abydos = {
-			}
-			b_parium_abydos = {
-			}
-			b_antigoneia_abydos = {
-			}
+			b_lampsacus = {}
+			b_assos = {}
+			b_illion = {}
+			b_kebren = {}
+			b_parium = {}
+			b_antigoneia = {}
+			b_abydos = {}
 		}
 		c_pergamum = {
 			color= { 0 100 100 }
 			color2= { 255 255 255 }
 			
-			b_pergamum_pergamum = {
-			}
-			b_asklepielon_pergamum = {
-			}
-			b_adramyttium_pergamum = {
-			}
-			b_elaea_pergamum = {
-			}
-			b_heracleia_pergamum = {
-			}
-			b_pitane_pergamum = {
-			}
+			b_pergamum = {}
+			b_asklepielon = {}
+			b_adramyttium = {}
+			b_elaea = {}
+			b_heracleia_pergamum = {}
+			b_pitane = {}
+			b_pergamum7 = {}
 		}
 		c_cyzicus = {
 			color= { 10 90 100 }
 			color2= { 255 255 255 }
 			
-			b_cyzicus_cyzicus = {
-			}
-			b_plakia_cyzicus = {
-			}
-			b_halone_cyzicus = {
-			}
-			b_zeleia_cyzicus = {
-			}
-			b_artace_cyzicus = {
-			}
+			b_cyzicus = {}
+			b_plakia = {}
+			b_halone = {}
+			b_zeleia = {}
+			b_artace = {}
+			b_cyzicus6 = {}
+			b_cyzicus7 = {}
 		}
 		c_lesbos = {
 			color= { 0 90 90 }
 			color2= { 255 255 255 }
 			
-			b_mytilene_lesbos = {
-			}
-			b_therma_lesbos = {
-			}
-			b_eresos_lesbos = {
-			}
-			b_arisba_lesbos = {
-			}
-			b_sigron_lesbos = {
-			}
-			b_pyrra_lesbos = {
-			}
-			b_hiera_lesbos = {
-			}
+			b_mytilene = {}
+			b_therma = {}
+			b_eresos = {}
+			b_arisba = {}
+			b_sigron = {}
+			b_pyrra = {}
+			b_hiera = {}
 		}
 		c_lemnos = {
 			color= { 10 100 110 }
 			color2= { 255 255 255 }
 		
-			b_hephaistia_lemnos = {
-			}
-			b_samothrace_lemnos = {
-			}
-			b_myrina_lemnos = {
-			}
-			b_imbros_lemnos = {
-			}
+			b_hephaistia = {}
+			b_samothrace = {}
+			b_myrina = {}
+			b_imbros = {}
+			b_lemnos = {}
+			b_lemnos6 = {}
+			b_lemnos7 = {}
 		}
 		c_daskyleion = {
 			color= { 0 110 110 }
 			color2= { 255 255 255 }
 			
-			b_daskyleion_daskyleion = {
-			}
-			b_ergasteria_daskyleion = {
-			}
-			b_miletopolis_daskyleion = {
-			}
-			b_poimanenon_daskyleion = {
-			}
+			b_daskyleion = {}
+			b_ergasteria = {}
+			b_miletopolis = {}
+			b_poimanenon = {}
 		}
 		c_pelopia = {
 			color= { 10 90 110 }
