@@ -1,5 +1,5 @@
 1231100={
-	name=Colm√°n
+	name=Colm·n
 	dynasty=223027
 	dna="abccijkohdp"
 	culture=irish 
@@ -18,7 +18,7 @@
 	460.9.29={ death=yes }
 }
 1231101={
-	name=B√°ethgalach
+	name=B·ethgalach
 	dynasty=223027
 	dna="abfcibbolfp"
 	culture=irish 
@@ -32,7 +32,7 @@
 	trait=arbitrary 
 	trait=slothful 
 	trait=gregarious 
-	father=1231100	#Colm√°n
+	father=1231100	#Colm·n
 	mother=1231153	#Temair
 	428.1.2={ birth=yes }
 	449.1.1={ add_spouse=1231154 }
@@ -55,7 +55,7 @@
 	trait=brave 
 	trait=deceitful 
 	trait=possessed 
-	father=1231100	#Colm√°n
+	father=1231100	#Colm·n
 	mother=1231153	#Temair
 	430.5.18={ birth=yes }
 	499.5.28={ death=yes }
@@ -67,7 +67,7 @@
 	dna="fbclnjkmedp"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231100	#Colm√°n
+	father=1231100	#Colm·n
 	mother=1231153	#Temair
 	435.5.17={ birth=yes }
 	493.4.9={ death=yes }
@@ -88,14 +88,14 @@
 	trait=craven 
 	trait=cruel 
 	trait=paranoid 
-	father=1231101	#B√°ethgalach
-	mother=1231154	#√Åedammair
+	father=1231101	#B·ethgalach
+	mother=1231154	#¡edammair
 	454.11.16={ birth=yes }
 	475.1.1={ add_spouse=1231155 }
 	518.8.30={ death=yes }
 }
 1231105={
-	name=G√°eth√°n
+	name=G·eth·n
 	dynasty=223027
 	dna="abbclbloakj"
 	culture=irish 
@@ -109,13 +109,13 @@
 	trait=patient 
 	trait=trusting 
 	trait=kind 
-	father=1231101	#B√°ethgalach
-	mother=1231154	#√Åedammair
+	father=1231101	#B·ethgalach
+	mother=1231154	#¡edammair
 	459.11.7={ birth=yes }
 	506.10.19={ death=yes }
 }
 1231106={
-	name=M√°thair
+	name=M·thair
 	dynasty=223027
 	dna="epcicdbocfp"
 	culture=irish 
@@ -132,8 +132,8 @@
 	trait=chaste 
 	trait=diligent 
 	trait=cruel 
-	father=1231101	#B√°ethgalach
-	mother=1231154	#√Åedammair
+	father=1231101	#B·ethgalach
+	mother=1231154	#¡edammair
 	463.6.27={ birth=yes }
 	536.10.21={ death=yes }
 }
@@ -162,7 +162,7 @@
 	523.11.6={ death=yes }
 }
 1231108={
-	name=√Åedammair
+	name=¡edammair
 	female=yes
 	dynasty=223027
 	dna="abgcinpehfm"
@@ -186,7 +186,7 @@
 	574.10.7={ death=yes }
 }
 1231110={
-	name=√Åine
+	name=¡ine
 	female=yes
 	dynasty=223027
 	dna="ibnnbnpeafi"
@@ -198,7 +198,7 @@
 	557.1.13={ death=yes }
 }
 1231111={
-	name=Airfhind√°n
+	name=Airfhind·n
 	dynasty=223027
 	dna="ilkknnaagfm"
 	culture=irish 
@@ -236,13 +236,13 @@
 	trait=cynical 
 	trait=envious 
 	father=1231107	#Eochu
-	mother=1231156	#Gelg√©is
+	mother=1231156	#GelgÈis
 	507.7.1={ birth=yes }
 	528.1.1={ add_spouse=1231157 }
 	573.2.19={ death=yes }
 }
 1231113={
-	name=Cathal√°n
+	name=Cathal·n
 	dynasty=223027
 	dna="ojoiljgcnfa"
 	culture=irish 
@@ -258,19 +258,19 @@
 	trait=ambitious 
 	trait=diligent 
 	father=1231107	#Eochu
-	mother=1231156	#Gelg√©is
+	mother=1231156	#GelgÈis
 	509.7.4={ birth=yes }
 	555.2.4={ death=yes }
 }
 1231114={
-	name=Gelg√©is
+	name=GelgÈis
 	female=yes
 	dynasty=223027
 	dna="lopionpcnfa"
 	culture=irish 
 	religion=celtic_pagan
 	father=1231107	#Eochu
-	mother=1231156	#Gelg√©is
+	mother=1231156	#GelgÈis
 	513.2.8={ birth=yes }
 	575.8.21={ death=yes }
 }
@@ -344,7 +344,7 @@
 	590.1.16={ death=yes }
 }
 1231119={
-	name=M√°el-P√°traic
+	name=M·el-P·traic
 	dynasty=223027
 	dna="ofnilnicjmp"
 	culture=irish 
@@ -381,37 +381,37 @@
 	trait=wroth 
 	trait=arbitrary 
 	father=1231115	#Findbarr
-	mother=1231158	#Caillech-Fhinn√©in
+	mother=1231158	#Caillech-FhinnÈin
 	558.5.11={ birth=yes }
 	579.1.1={ add_spouse=1231159 }
 	628.5.28={ death=yes }
 }
 1231121={
-	name=Caillech-Fhinn√©in
+	name=Caillech-FhinnÈin
 	female=yes
 	dynasty=223027
 	dna="gdeohcifjfj"
 	culture=irish 
 	religion=celtic_pagan
 	father=1231115	#Findbarr
-	mother=1231158	#Caillech-Fhinn√©in
+	mother=1231158	#Caillech-FhinnÈin
 	561.8.14={ birth=yes }
 	629.6.17={ death=yes }
 }
 1231122={
-	name=M√≥r-Muman
+	name=MÛr-Muman
 	female=yes
 	dynasty=223027
 	dna="cdcehnifpka"
 	culture=irish 
 	religion=celtic_pagan
 	father=1231115	#Findbarr
-	mother=1231158	#Caillech-Fhinn√©in
+	mother=1231158	#Caillech-FhinnÈin
 	565.6.21={ birth=yes }
 	638.2.21={ death=yes }
 }
 1231123={
-	name=Ab√©l
+	name=AbÈl
 	dynasty=223027
 	dna="pdcooeiapha"
 	culture=irish 
@@ -427,12 +427,12 @@
 	trait=brave 
 	trait=greedy 
 	father=1231115	#Findbarr
-	mother=1231158	#Caillech-Fhinn√©in
+	mother=1231158	#Caillech-FhinnÈin
 	569.6.1={ birth=yes }
 	626.6.9={ death=yes }
 }
 1231124={
-	name=Bh√°tair
+	name=Bh·tair
 	dynasty=223027
 	dna="ojiohooapkf"
 	culture=irish 
@@ -448,7 +448,7 @@
 	trait=shy 
 	trait=greedy 
 	father=1231115	#Findbarr
-	mother=1231158	#Caillech-Fhinn√©in
+	mother=1231158	#Caillech-FhinnÈin
 	572.9.1={ birth=yes }
 	628.4.15={ death=yes }
 }
@@ -460,7 +460,7 @@
 	culture=irish 
 	religion=celtic_pagan
 	father=1231115	#Findbarr
-	mother=1231158	#Caillech-Fhinn√©in
+	mother=1231158	#Caillech-FhinnÈin
 	574.6.9={ birth=yes }
 	615.10.18={ death=yes }
 }
@@ -472,7 +472,7 @@
 	culture=irish 
 	religion=celtic_pagan
 	father=1231115	#Findbarr
-	mother=1231158	#Caillech-Fhinn√©in
+	mother=1231158	#Caillech-FhinnÈin
 	577.11.26={ birth=yes }
 	617.4.18={ death=yes }
 }
@@ -500,7 +500,7 @@
 	632.5.21={ death=yes }
 }
 1231128={
-	name=Conr√≠
+	name=ConrÌ
 	dynasty=223027
 	dna="inhohimlgfc"
 	culture=irish 
@@ -523,7 +523,7 @@
 	644.7.8={ death=yes }
 }
 1231129={
-	name=M√°el-√çosa
+	name=M·el-Õosa
 	dynasty=223027
 	dna="obicdlgafdj"
 	culture=irish 
@@ -546,7 +546,7 @@
 	652.8.9={ death=yes }
 }
 1231130={
-	name=D√≠glach
+	name=DÌglach
 	dynasty=223027
 	dna="olcobgakhea"
 	culture=irish 
@@ -560,7 +560,7 @@
 	trait=ambitious 
 	trait=honest 
 	father=1231127	#Iacob
-	mother=1231160	#√Åedammair
+	mother=1231160	#¡edammair
 	610.6.6={ birth=yes }
 	631.1.1={ add_spouse=1231161 }
 	655.3.14={ death=yes }
@@ -573,7 +573,7 @@
 	culture=irish 
 	religion=celtic_pagan
 	father=1231127	#Iacob
-	mother=1231160	#√Åedammair
+	mother=1231160	#¡edammair
 	613.10.8={ birth=yes }
 	676.10.29={ death=yes }
 }
@@ -596,12 +596,12 @@
 	trait=lustful 
 	trait=ambitious 
 	father=1231127	#Iacob
-	mother=1231160	#√Åedammair
+	mother=1231160	#¡edammair
 	618.10.14={ birth=yes }
 	691.1.30={ death=yes }
 }
 1231133={
-	name=Minch√°n
+	name=Minch·n
 	dynasty=223027
 	dna="eicoeidlcji"
 	culture=irish 
@@ -615,12 +615,12 @@
 	trait=chaste 
 	trait=temperate 
 	father=1231127	#Iacob
-	mother=1231160	#√Åedammair
+	mother=1231160	#¡edammair
 	621.8.21={ birth=yes }
 	677.1.23={ death=yes }
 }
 1231134={
-	name=√Åed√°n
+	name=¡ed·n
 	dynasty=223027
 	dna="lhccocakhba"
 	culture=irish 
@@ -633,20 +633,20 @@
 	trait=detached_priest 
 	trait=greedy 
 	trait=deceitful 
-	father=1231130	#D√≠glach
+	father=1231130	#DÌglach
 	mother=1231161	#Selblaith
 	634.1.20={ birth=yes }
 	655.1.1={ add_spouse=1231162 }
 	701.7.28={ death=yes }
 }
 1231135={
-	name=√Åedammair
+	name=¡edammair
 	female=yes
 	dynasty=223027
 	dna="olcmbganhca"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231130	#D√≠glach
+	father=1231130	#DÌglach
 	mother=1231161	#Selblaith
 	637.5.25={ birth=yes }
 	689.9.23={ death=yes }
@@ -658,7 +658,7 @@
 	dna="cpcnbkeijnk"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231130	#D√≠glach
+	father=1231130	#DÌglach
 	mother=1231161	#Selblaith
 	642.10.24={ birth=yes }
 	689.3.6={ death=yes }
@@ -670,7 +670,7 @@
 	dna="ogcoggafhea"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231130	#D√≠glach
+	father=1231130	#DÌglach
 	mother=1231161	#Selblaith
 	646.2.18={ birth=yes }
 	685.10.30={ death=yes }
@@ -682,7 +682,7 @@
 	dna="eooaolakhbo"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231134	#√Åed√°n
+	father=1231134	#¡ed·n
 	mother=1231162	#Derborgaill
 	656.9.11={ birth=yes }
 	730.2.1={ death=yes }
@@ -704,7 +704,7 @@
 	trait=just 
 	trait=patient 
 	trait=paranoid 
-	father=1231134	#√Åed√°n
+	father=1231134	#¡ed·n
 	mother=1231162	#Derborgaill
 	658.5.27={ birth=yes }
 	679.1.1={ add_spouse=1231163 }
@@ -717,7 +717,7 @@
 	dna="lbcencjaabd"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231134	#√Åed√°n
+	father=1231134	#¡ed·n
 	mother=1231162	#Derborgaill
 	659.3.15={ birth=yes }
 	717.7.9={ death=yes }
@@ -729,7 +729,7 @@
 	dna="ldccocaghha"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231134	#√Åed√°n
+	father=1231134	#¡ed·n
 	mother=1231162	#Derborgaill
 	662.3.20={ birth=yes }
 	712.7.24={ death=yes }
@@ -741,7 +741,7 @@
 	dna="bhjcocckmba"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231134	#√Åed√°n
+	father=1231134	#¡ed·n
 	mother=1231162	#Derborgaill
 	665.1.21={ birth=yes }
 	709.8.21={ death=yes }
@@ -781,7 +781,7 @@
 	744.11.11={ death=yes }
 }
 1231145={
-	name=Cath√°n
+	name=Cath·n
 	female=yes
 	dynasty=223027
 	dna="ohcppjakcfp"
@@ -793,7 +793,7 @@
 	733.2.26={ death=yes }
 }
 1231146={
-	name=M√°el-Mide
+	name=M·el-Mide
 	female=yes
 	dynasty=223027
 	dna="chcdgjekobk"
@@ -869,14 +869,14 @@
 	784.10.23={ death=yes }
 }
 1231150={
-	name=Ben-M√≠de
+	name=Ben-MÌde
 	female=yes
 	dynasty=223027
 	dna="ahfjnbplhdk"
 	culture=irish 
 	religion=celtic_pagan
 	father=1231143	#Brian
-	mother=1231164	#Ben-M√≠de
+	mother=1231164	#Ben-MÌde
 	709.7.1={ birth=yes }
 	761.3.9={ death=yes }
 }
@@ -898,7 +898,7 @@
 	trait=shy 
 	trait=stressed 
 	father=1231143	#Brian
-	mother=1231164	#Ben-M√≠de
+	mother=1231164	#Ben-MÌde
 	713.10.9={ birth=yes }
 	771.5.14={ death=yes }
 }
@@ -920,7 +920,7 @@
 	trait=brave 
 	trait=just 
 	father=1231143	#Brian
-	mother=1231164	#Ben-M√≠de
+	mother=1231164	#Ben-MÌde
 	719.2.23={ birth=yes }
 	800.11.27={ death=yes }
 }
@@ -933,7 +933,7 @@
 	460.1.1={ death=yes }
 }
 1231154={
-	name=√Åedammair
+	name=¡edammair
 	female=yes
 	culture=irish
 	religion=celtic_pagan
@@ -949,7 +949,7 @@
 	518.1.1={ death=yes }
 }
 1231156={
-	name=Gelg√©is
+	name=GelgÈis
 	female=yes
 	culture=irish
 	religion=celtic_pagan
@@ -965,7 +965,7 @@
 	573.1.1={ death=yes }
 }
 1231158={
-	name=Caillech-Fhinn√©in
+	name=Caillech-FhinnÈin
 	female=yes
 	culture=irish
 	religion=celtic_pagan
@@ -981,7 +981,7 @@
 	628.1.1={ death=yes }
 }
 1231160={
-	name=√Åedammair
+	name=¡edammair
 	female=yes
 	culture=irish
 	religion=celtic_pagan
@@ -1013,7 +1013,7 @@
 	713.1.1={ death=yes }
 }
 1231164={
-	name=Ben-M√≠de
+	name=Ben-MÌde
 	female=yes
 	culture=irish
 	religion=celtic_pagan

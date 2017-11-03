@@ -1,5 +1,5 @@
 1231230={
-	name=CillÃ©ne
+	name=Cilléne
 	dynasty=223029
 	dna="hebbeenjgdo"
 	culture=irish 
@@ -36,7 +36,7 @@
 	trait=craven 
 	trait=trusting 
 	trait=stressed 
-	father=1231230	#CillÃ©ne
+	father=1231230	#Cilléne
 	mother=1231283	#Sisuile
 	424.6.7={ birth=yes }
 	445.1.1={ add_spouse=1231284 }
@@ -49,7 +49,7 @@
 	dna="hmbbcbnlgkg"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231230	#CillÃ©ne
+	father=1231230	#Cilléne
 	mother=1231283	#Sisuile
 	429.1.12={ birth=yes }
 	476.2.26={ death=yes }
@@ -68,7 +68,7 @@
 	trait=misguided_warrior 
 	trait=envious 
 	trait=shy 
-	father=1231230	#CillÃ©ne
+	father=1231230	#Cilléne
 	mother=1231283	#Sisuile
 	433.2.15={ birth=yes }
 	496.8.26={ death=yes }
@@ -109,7 +109,7 @@
 	498.11.27={ death=yes }
 }
 1231236={
-	name=MÃ¡el-Ruanaid
+	name=Máel-Ruanaid
 	dynasty=223029
 	dna="bpbfaobjbaj"
 	culture=irish 
@@ -129,19 +129,19 @@
 	518.3.30={ death=yes }
 }
 1231237={
-	name=CaÃ­ntigern
+	name=Caíntigern
 	female=yes
 	dynasty=223029
 	dna="occgchbpiim"
 	culture=irish 
 	religion=celtic_pagan
 	father=1231235	#Taithlech
-	mother=1231285	#CaÃ­ntigern
+	mother=1231285	#Caíntigern
 	476.12.18={ birth=yes }
 	546.12.8={ death=yes }
 }
 1231238={
-	name=MÃ¡el-Fothartaig
+	name=Máel-Fothartaig
 	dynasty=223029
 	dna="nbegcealhke"
 	culture=irish 
@@ -158,20 +158,20 @@
 	trait=ambitious 
 	trait=possessed 
 	father=1231235	#Taithlech
-	mother=1231285	#CaÃ­ntigern
+	mother=1231285	#Caíntigern
 	482.8.12={ birth=yes }
 	503.1.1={ add_spouse=1231286 }
 	546.10.17={ death=yes }
 }
 1231239={
-	name=CrÃ­stina
+	name=Crístina
 	female=yes
 	dynasty=223029
 	dna="nddkccacddm"
 	culture=irish 
 	religion=celtic_pagan
 	father=1231235	#Taithlech
-	mother=1231285	#CaÃ­ntigern
+	mother=1231285	#Caíntigern
 	484.2.5={ birth=yes }
 	535.1.17={ death=yes }
 }
@@ -192,7 +192,7 @@
 	trait=ambitious 
 	trait=arbitrary 
 	trait=patient 
-	father=1231238	#MÃ¡el-Fothartaig
+	father=1231238	#Máel-Fothartaig
 	mother=1231286	#Der-bForgaill
 	508.4.7={ birth=yes }
 	529.1.1={ add_spouse=1231287 }
@@ -205,7 +205,7 @@
 	dna="nodgeeplgka"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231238	#MÃ¡el-Fothartaig
+	father=1231238	#Máel-Fothartaig
 	mother=1231286	#Der-bForgaill
 	512.4.6={ birth=yes }
 	552.1.27={ death=yes }
@@ -226,19 +226,19 @@
 	trait=wroth 
 	trait=proud 
 	trait=lunatic 
-	father=1231238	#MÃ¡el-Fothartaig
+	father=1231238	#Máel-Fothartaig
 	mother=1231286	#Der-bForgaill
 	514.7.17={ birth=yes }
 	578.11.9={ death=yes }
 }
 1231243={
-	name=CaitilÃ­n
+	name=Caitilín
 	female=yes
 	dynasty=223029
 	dna="nbeglcalafe"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231238	#MÃ¡el-Fothartaig
+	father=1231238	#Máel-Fothartaig
 	mother=1231286	#Der-bForgaill
 	517.12.6={ birth=yes }
 	586.1.25={ death=yes }
@@ -250,13 +250,13 @@
 	dna="iobgdeapkhe"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231238	#MÃ¡el-Fothartaig
+	father=1231238	#Máel-Fothartaig
 	mother=1231286	#Der-bForgaill
 	520.10.3={ birth=yes }
 	610.6.21={ death=yes }
 }
 1231245={
-	name=SÃ©afra
+	name=Séafra
 	dynasty=223029
 	dna="mneendchdbl"
 	culture=irish 
@@ -305,7 +305,7 @@
 	602.4.28={ death=yes }
 }
 1231248={
-	name=SÃ©amas
+	name=Séamas
 	dynasty=223029
 	dna="oaoknodfnce"
 	culture=irish 
@@ -365,8 +365,8 @@
 	trait=proud 
 	trait=slothful 
 	trait=possessed 
-	father=1231245	#SÃ©afra
-	mother=1231288	#SÃ©tach
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
 	555.12.9={ birth=yes }
 	576.1.1={ add_spouse=1231289 }
 	617.10.14={ death=yes }
@@ -387,20 +387,20 @@
 	trait=patient 
 	trait=cynical 
 	trait=possessed 
-	father=1231245	#SÃ©afra
-	mother=1231288	#SÃ©tach
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
 	558.10.24={ birth=yes }
 	620.1.22={ death=yes }
 }
 1231252={
-	name=SÃ©tach
+	name=Sétach
 	female=yes
 	dynasty=223029
 	dna="mfkebkahjbi"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231245	#SÃ©afra
-	mother=1231288	#SÃ©tach
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
 	563.3.1={ birth=yes }
 	627.7.27={ death=yes }
 }
@@ -411,13 +411,13 @@
 	dna="ejeeakmhobi"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231245	#SÃ©afra
-	mother=1231288	#SÃ©tach
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
 	565.9.14={ birth=yes }
 	619.6.24={ death=yes }
 }
 1231254={
-	name=SÃ©tna
+	name=Sétna
 	dynasty=223029
 	dna="mpkeomchdco"
 	culture=irish 
@@ -431,13 +431,13 @@
 	trait=cruel 
 	trait=proud 
 	trait=temperate 
-	father=1231245	#SÃ©afra
-	mother=1231288	#SÃ©tach
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
 	567.1.4={ birth=yes }
 	637.3.15={ death=yes }
 }
 1231255={
-	name=CÃº-Allaid
+	name=Cú-Allaid
 	dynasty=223029
 	dna="dcgnpddhmbm"
 	culture=irish 
@@ -452,8 +452,8 @@
 	trait=greedy 
 	trait=arbitrary 
 	trait=envious 
-	father=1231245	#SÃ©afra
-	mother=1231288	#SÃ©tach
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
 	569.5.23={ birth=yes }
 	644.4.10={ death=yes }
 }
@@ -464,8 +464,8 @@
 	dna="iiemifahdci"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231245	#SÃ©afra
-	mother=1231288	#SÃ©tach
+	father=1231245	#Séafra
+	mother=1231288	#Sétach
 	571.6.23={ birth=yes }
 	620.7.12={ death=yes }
 }
@@ -482,7 +482,7 @@
 	647.4.20={ death=yes }
 }
 1231258={
-	name=Ãine
+	name=Áine
 	female=yes
 	dynasty=223029
 	dna="hignnlafpll"
@@ -528,7 +528,7 @@
 	639.7.18={ death=yes }
 }
 1231261={
-	name=LonÃ¡n
+	name=Lonán
 	dynasty=223029
 	dna="migpffcgejp"
 	culture=irish 
@@ -545,32 +545,32 @@
 	trait=brave 
 	trait=just 
 	father=1231260	#Tressach
-	mother=1231290	#DÃºnlaith
+	mother=1231290	#Dúnlaith
 	618.7.22={ birth=yes }
 	639.1.1={ add_spouse=1231291 }
 	663.11.19={ death=yes }
 }
 1231262={
-	name=DÃºnlaith
+	name=Dúnlaith
 	female=yes
 	dynasty=223029
 	dna="mikfehcmpkp"
 	culture=irish 
 	religion=celtic_pagan
 	father=1231260	#Tressach
-	mother=1231290	#DÃºnlaith
+	mother=1231290	#Dúnlaith
 	623.3.19={ birth=yes }
 	672.9.18={ death=yes }
 }
 1231263={
-	name=Ã‰taÃ­n
+	name=Étaín
 	female=yes
 	dynasty=223029
 	dna="mighffcgnep"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231261	#LonÃ¡n
-	mother=1231291	#Ã‰taÃ­n
+	father=1231261	#Lonán
+	mother=1231291	#Étaín
 	639.5.11={ birth=yes }
 	707.5.20={ death=yes }
 }
@@ -581,13 +581,13 @@
 	dna="migpbpikeff"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231261	#LonÃ¡n
-	mother=1231291	#Ã‰taÃ­n
+	father=1231261	#Lonán
+	mother=1231291	#Étaín
 	642.3.20={ birth=yes }
 	707.12.24={ death=yes }
 }
 1231265={
-	name=CÃº-CÃºarÃ¡in
+	name=Cú-Cúaráin
 	dynasty=223029
 	dna="eigehfkgejp"
 	culture=irish 
@@ -604,14 +604,14 @@
 	trait=gluttonous 
 	trait=slothful 
 	trait=gregarious 
-	father=1231261	#LonÃ¡n
-	mother=1231291	#Ã‰taÃ­n
+	father=1231261	#Lonán
+	mother=1231291	#Étaín
 	646.10.22={ birth=yes }
 	667.1.1={ add_spouse=1231292 }
 	694.6.1={ death=yes }
 }
 1231266={
-	name=Ã‰remÃ³n
+	name=Éremón
 	dynasty=223029
 	dna="kigbhfngeap"
 	culture=irish 
@@ -627,7 +627,7 @@
 	trait=charitable 
 	trait=content 
 	trait=gluttonous 
-	father=1231265	#CÃº-CÃºarÃ¡in
+	father=1231265	#Cú-Cúaráin
 	mother=1231292	#Nuala
 	675.7.24={ birth=yes }
 	696.1.1={ add_spouse=1231293 }
@@ -640,13 +640,13 @@
 	dna="eibeifdpejm"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231265	#CÃº-CÃºarÃ¡in
+	father=1231265	#Cú-Cúaráin
 	mother=1231292	#Nuala
 	678.9.10={ birth=yes }
 	737.9.26={ death=yes }
 }
 1231268={
-	name=AnfudÃ¡n
+	name=Anfudán
 	dynasty=223029
 	dna="mighfpkgejp"
 	culture=irish 
@@ -660,7 +660,7 @@
 	trait=envious 
 	trait=humble 
 	trait=possessed 
-	father=1231265	#CÃº-CÃºarÃ¡in
+	father=1231265	#Cú-Cúaráin
 	mother=1231292	#Nuala
 	682.3.18={ birth=yes }
 	734.4.17={ death=yes }
@@ -672,19 +672,19 @@
 	dna="imfahfeghap"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231266	#Ã‰remÃ³n
+	father=1231266	#Éremón
 	mother=1231293	#Der-bForgaill
 	699.1.5={ birth=yes }
 	743.5.7={ death=yes }
 }
 1231270={
-	name=RÃ³is
+	name=Róis
 	female=yes
 	dynasty=223029
 	dna="kipbllokoap"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231266	#Ã‰remÃ³n
+	father=1231266	#Éremón
 	mother=1231293	#Der-bForgaill
 	703.7.21={ birth=yes }
 	744.6.15={ death=yes }
@@ -696,7 +696,7 @@
 	dna="ljjphfammap"
 	culture=irish 
 	religion=celtic_pagan
-	father=1231266	#Ã‰remÃ³n
+	father=1231266	#Éremón
 	mother=1231293	#Der-bForgaill
 	706.6.8={ birth=yes }
 	767.4.23={ death=yes }
@@ -718,7 +718,7 @@
 	trait=gregarious 
 	trait=ambitious 
 	trait=zealous 
-	father=1231266	#Ã‰remÃ³n
+	father=1231266	#Éremón
 	mother=1231293	#Der-bForgaill
 	709.8.5={ birth=yes }
 	730.1.1={ add_spouse=1231294 }
@@ -732,7 +732,7 @@
 	culture=irish 
 	religion=celtic_pagan
 	father=1231272	#Bruatur
-	mother=1231294	#FaÃ­lenn
+	mother=1231294	#Faílenn
 	733.5.13={ birth=yes }
 	801.3.4={ death=yes }
 }
@@ -755,7 +755,7 @@
 	trait=lustful 
 	trait=paranoid 
 	father=1231272	#Bruatur
-	mother=1231294	#FaÃ­lenn
+	mother=1231294	#Faílenn
 	736.2.19={ birth=yes }
 	761.1.1={ death=yes }
 }
@@ -779,7 +779,7 @@
 	trait=cruel 
 	trait=drunkard 
 	father=1231272	#Bruatur
-	mother=1231294	#FaÃ­lenn
+	mother=1231294	#Faílenn
 	736.11.4={ birth=yes }
 	757.1.1={ add_spouse=1231295 }
 	794.3.4={ death=yes }
@@ -803,25 +803,25 @@
 	trait=honest 
 	trait=greedy 
 	father=1231275	#Maine
-	mother=1231295	#TÃ³mnat
+	mother=1231295	#Tómnat
 	762.11.5={ birth=yes }
 	783.1.1={ add_spouse=1231296 }
 	813.12.16={ death=yes }
 }
 1231277={
-	name=FaÃ­lenn
+	name=Faílenn
 	female=yes
 	dynasty=223029
 	dna="befmfghncdc"
 	culture=irish 
 	religion=celtic_pagan
 	father=1231275	#Maine
-	mother=1231295	#TÃ³mnat
+	mother=1231295	#Tómnat
 	767.11.11={ birth=yes }
 	824.9.26={ death=yes }
 }
 1231278={
-	name=OissÃ­ne
+	name=Oissíne
 	dynasty=223029
 	dna="bbnjbgcncdc"
 	culture=irish 
@@ -838,19 +838,19 @@
 	trait=slothful 
 	trait=envious 
 	father=1231275	#Maine
-	mother=1231295	#TÃ³mnat
+	mother=1231295	#Tómnat
 	771.9.16={ birth=yes }
 	816.2.19={ death=yes }
 }
 1231279={
-	name=TÃ³mnat
+	name=Tómnat
 	female=yes
 	dynasty=223029
 	dna="bebpfellcig"
 	culture=irish 
 	religion=celtic_pagan
 	father=1231275	#Maine
-	mother=1231295	#TÃ³mnat
+	mother=1231295	#Tómnat
 	775.5.3={ birth=yes }
 	822.12.8={ death=yes }
 }
@@ -888,7 +888,7 @@
 	863.11.3={ death=yes }
 }
 1231282={
-	name=MurchÃº
+	name=Murchú
 	dynasty=223029
 	dna="fanokhjnclm"
 	culture=irish 
@@ -926,7 +926,7 @@
 	472.2.17={ death=yes }
 }
 1231285={
-	name=CaÃ­ntigern
+	name=Caíntigern
 	female=yes
 	culture=irish 
 	religion=celtic_pagan
@@ -950,7 +950,7 @@
 	565.2.17={ death=yes }
 }
 1231288={
-	name=SÃ©tach
+	name=Sétach
 	female=yes
 	culture=irish 
 	religion=celtic_pagan
@@ -966,7 +966,7 @@
 	617.2.17={ death=yes }
 }
 1231290={
-	name=DÃºnlaith
+	name=Dúnlaith
 	female=yes
 	culture=irish 
 	religion=celtic_pagan
@@ -974,7 +974,7 @@
 	639.2.17={ death=yes }
 }
 1231291={
-	name=Ã‰taÃ­n
+	name=Étaín
 	female=yes
 	culture=irish 
 	religion=celtic_pagan
@@ -998,7 +998,7 @@
 	733.2.17={ death=yes }
 }
 1231294={
-	name=FaÃ­lenn
+	name=Faílenn
 	female=yes
 	culture=irish 
 	religion=celtic_pagan
@@ -1006,7 +1006,7 @@
 	765.2.17={ death=yes }
 }
 1231295={
-	name=TÃ³mnat
+	name=Tómnat
 	female=yes
 	culture=irish 
 	religion=celtic_pagan

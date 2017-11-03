@@ -2797,12 +2797,12 @@ b_otrioa_nicaea;Otrioa;;;;;;;;;;;;;x
 b_mygdum_nicaea;Mygdum;;;;;;;;;;;;;x
 b_syllanta_nicaea;Syllanta;;;;;;;;;;;;;x
 b_dadybra_heraclea_pontica;Dadybra;;;;;;;;;;;;;x
-b_pelopia_pelopia;Pelopia;;;;;;;;;;;;;x
-b_indi_pelopia;Indi;;;;;;;;;;;;;x
-b_hyssa_pelopia;Hyssa;;;;;;;;;;;;;x
-b_karena_pelopia;Karena;;;;;;;;;;;;;x
-b_thyateira_pelopia;Thyateira;;;;;;;;;;;;;x
-b_stratonikeia_pelopia;Stratonikeia;;;;;;;;;;;;;x
+b_pelopia;Pelopia;;;;;;;;;;;;;x
+b_indi;Indi;;;;;;;;;;;;;x
+b_hyssa;Hyssa;;;;;;;;;;;;;x
+b_karena;Karena;;;;;;;;;;;;;x
+b_thyateira;Thyateira;;;;;;;;;;;;;x
+b_stratonikeia;Stratonikeia;;;;;;;;;;;;;x
 b_jiaohe_turfan;Jiaohe;;;;;;;;;;;;;x
 b_pishan_khotan;Pishan;;;;;;;;;;;;;x
 b_erythrai_erythrai;Erythrai;;;;;;;;;;;;;x
@@ -3559,3 +3559,7 @@ b_cyzicus7;Cyzicus;;;;;;;;;;;x
 b_lemnos;Lemnos;;;;;;;;;;;x
 b_lemnos6;Lemnos;;;;;;;;;;;x
 b_lemnos7;Lemnos;;;;;;;;;;;x
+b_daskyleion5;Daskyleion;;;;;;;;;;;x
+b_daskyleion6;Daskyleion;;;;;;;;;;;x
+b_daskyleion7;Daskyleion;;;;;;;;;;;x
+b_pelopia7;Pelopia;;;;;;;;;;;x

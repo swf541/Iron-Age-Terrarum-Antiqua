@@ -124,7 +124,7 @@
 	513.5.10={ death=yes }
 }
 1231305={
-	name=Te√†rlag
+	name=Te‡rlag
 	female=yes
 	dynasty=223030
 	dna="mdndjhkonpj"
@@ -136,7 +136,7 @@
 	544.5.31={ death=yes }
 }
 1231306={
-	name=Se√†rlaid
+	name=Se‡rlaid
 	female=yes
 	dynasty=223030
 	dna="mekaihhopmm"
@@ -148,7 +148,7 @@
 	509.8.7={ death=yes }
 }
 1231307={
-	name=Gr√†inne
+	name=Gr‡inne
 	female=yes
 	dynasty=223030
 	dna="mgkfjoelgmj"
@@ -299,7 +299,7 @@
 	597.2.1={ death=yes }
 }
 1231316={
-	name=D√≤mhnall
+	name=DÚmhnall
 	dynasty=223030
 	dna="nfappfglabf"
 	culture=pictish 
@@ -321,7 +321,7 @@
 	585.4.6={ death=yes }
 }
 1231317={
-	name=Gillechr√¨ost
+	name=GillechrÏost
 	dynasty=223030
 	dna="nfikagpmamn"
 	culture=pictish 
@@ -427,7 +427,7 @@
 	trait=just 
 	trait=ambitious 
 	father=1231318	#Latharn
-	mother=1231362	#M√≤ragan
+	mother=1231362	#MÚragan
 	577.12.1={ birth=yes }
 	598.1.1={ add_spouse=1231363 }
 	651.5.6={ death=yes }
@@ -449,19 +449,19 @@
 	trait=gluttonous 
 	trait=drunkard 
 	father=1231318	#Latharn
-	mother=1231362	#M√≤ragan
+	mother=1231362	#MÚragan
 	579.1.26={ birth=yes }
 	645.7.25={ death=yes }
 }
 1231324={
-	name=M√≤ragan
+	name=MÚragan
 	female=yes
 	dynasty=223030
 	dna="jgcfpnbmfmb"
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231318	#Latharn
-	mother=1231362	#M√≤ragan
+	mother=1231362	#MÚragan
 	584.6.5={ birth=yes }
 	638.11.6={ death=yes }
 }
@@ -473,7 +473,7 @@
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231318	#Latharn
-	mother=1231362	#M√≤ragan
+	mother=1231362	#MÚragan
 	588.11.15={ birth=yes }
 	656.9.13={ death=yes }
 }
@@ -538,13 +538,13 @@
 	trait=envious 
 	trait=wounded 
 	father=1231326	#Laise
-	mother=1231364	#Sl√†ine
+	mother=1231364	#Sl‡ine
 	628.1.11={ birth=yes }
 	649.1.1={ add_spouse=1231365 }
 	674.2.7={ death=yes }
 }
 1231329={
-	name=D√∫ngal
+	name=D˙ngal
 	dynasty=223030
 	dna="eapdiemiamg"
 	culture=pictish 
@@ -560,7 +560,7 @@
 	trait=temperate 
 	trait=trusting 
 	father=1231326	#Laise
-	mother=1231364	#Sl√†ine
+	mother=1231364	#Sl‡ine
 	632.1.6={ birth=yes }
 	677.12.19={ death=yes }
 }
@@ -572,19 +572,19 @@
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231326	#Laise
-	mother=1231364	#Sl√†ine
+	mother=1231364	#Sl‡ine
 	635.5.11={ birth=yes }
 	693.8.10={ death=yes }
 }
 1231331={
-	name=Sl√†ine
+	name=Sl‡ine
 	female=yes
 	dynasty=223030
 	dna="eamdkdncfpf"
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231326	#Laise
-	mother=1231364	#Sl√†ine
+	mother=1231364	#Sl‡ine
 	637.3.12={ birth=yes }
 	702.3.16={ death=yes }
 }
@@ -605,7 +605,7 @@
 	trait=arbitrary 
 	trait=chaste 
 	father=1231328	#Caustantin
-	mother=1231365	#Gr√†inne
+	mother=1231365	#Gr‡inne
 	648.7.13={ birth=yes }
 	669.1.1={ add_spouse=1231366 }
 	706.1.22={ death=yes }
@@ -630,7 +630,7 @@
 	trait=craven 
 	trait=kind 
 	father=1231328	#Caustantin
-	mother=1231365	#Gr√†inne
+	mother=1231365	#Gr‡inne
 	649.1.11={ birth=yes }
 	714.2.22={ death=yes }
 }
@@ -650,7 +650,7 @@
 	trait=content 
 	trait=cynical 
 	father=1231328	#Caustantin
-	mother=1231365	#Gr√†inne
+	mother=1231365	#Gr‡inne
 	654.6.21={ birth=yes }
 	702.3.16={ death=yes }
 }
@@ -672,19 +672,19 @@
 	trait=gluttonous 
 	trait=deceitful 
 	father=1231328	#Caustantin
-	mother=1231365	#Gr√†inne
+	mother=1231365	#Gr‡inne
 	657.8.9={ birth=yes }
 	720.5.27={ death=yes }
 }
 1231336={
-	name=Gr√†inne
+	name=Gr‡inne
 	female=yes
 	dynasty=223030
 	dna="eadodgkihog"
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231328	#Caustantin
-	mother=1231365	#Gr√†inne
+	mother=1231365	#Gr‡inne
 	661.4.14={ birth=yes }
 	726.5.30={ death=yes }
 }
@@ -696,7 +696,7 @@
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231328	#Caustantin
-	mother=1231365	#Gr√†inne
+	mother=1231365	#Gr‡inne
 	665.6.26={ birth=yes }
 	717.12.20={ death=yes }
 }
@@ -717,7 +717,7 @@
 	trait=kind 
 	trait=charitable 
 	father=1231328	#Caustantin
-	mother=1231365	#Gr√†inne
+	mother=1231365	#Gr‡inne
 	667.2.2={ birth=yes }
 	722.6.20={ death=yes }
 }
@@ -960,7 +960,7 @@
 	855.2.22={ death=yes }
 }
 1231353={
-	name=I√πrnan
+	name=I˘rnan
 	dynasty=223030
 	dna="piklimncpai"
 	culture=pictish 
@@ -1039,7 +1039,7 @@
 	597.2.17={ death=yes }
 }
 1231362={
-	name=M√≤ragan
+	name=MÚragan
 	female=yes
 	culture=pictish
 	religion=celtic_pagan
@@ -1055,7 +1055,7 @@
 	651.2.17={ death=yes }
 }
 1231364={
-	name=Sl√†ine
+	name=Sl‡ine
 	female=yes
 	culture=pictish
 	religion=celtic_pagan
@@ -1063,7 +1063,7 @@
 	661.2.17={ death=yes }
 }
 1231365={
-	name=Gr√†inne
+	name=Gr‡inne
 	female=yes
 	culture=pictish
 	religion=celtic_pagan

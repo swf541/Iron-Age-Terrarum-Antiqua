@@ -1,5 +1,5 @@
 1231371={
-	name=EÃ²ghann
+	name=Eòghann
 	dynasty=223031
 	dna="ejohefhgndl"
 	culture=pictish 
@@ -35,7 +35,7 @@
 	trait=ambitious 
 	trait=honest 
 	trait=humble 
-	father=1231371	#EÃ²ghann
+	father=1231371	#Eòghann
 	mother=1231424	#Ceit
 	424.2.17={ birth=yes }
 	445.1.1={ add_spouse=1231425 }
@@ -57,7 +57,7 @@
 	trait=cruel 
 	trait=slothful 
 	trait=temperate 
-	father=1231371	#EÃ²ghann
+	father=1231371	#Eòghann
 	mother=1231424	#Ceit
 	430.9.21={ birth=yes }
 	492.9.25={ death=yes }
@@ -69,7 +69,7 @@
 	dna="bkodifhgpdd"
 	culture=pictish 
 	religion=celtic_pagan
-	father=1231371	#EÃ²ghann
+	father=1231371	#Eòghann
 	mother=1231424	#Ceit
 	433.11.6={ birth=yes }
 	498.6.7={ death=yes }
@@ -90,7 +90,7 @@
 	trait=lustful 
 	trait=just 
 	trait=ambitious 
-	father=1231371	#EÃ²ghann
+	father=1231371	#Eòghann
 	mother=1231424	#Ceit
 	437.6.16={ birth=yes }
 	495.9.29={ death=yes }

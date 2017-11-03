@@ -5,17 +5,16 @@ title = c_pelopia
 
 # Settlements
 max_settlements = 4
-b_pelopia_pelopia = castle # Later Thyateira
-b_indi_pelopia = city # Later Stratonicea
-b_hyssa_pelopia = castle
-b_karena_pelopia = city
-
-#b_thyateira_pelopia = castle
-#b_stratonikeia_pelopia = castle
+b_pelopia = castle # Later Thyateira
+b_indi = city # Later Stratonicea
+b_hyssa = castle
+b_karena = city
+#b_thyateira = castle
+#b_stratonikeia = castle
+#b_pelopia7 = temple
 
 # Misc
 culture = luwian
 religion = anatolian_main
 
 # History
-# Can be filled when things change around the province

@@ -961,25 +961,22 @@ k_lydia = {
 			b_ergasteria = {}
 			b_miletopolis = {}
 			b_poimanenon = {}
+			b_daskyleion5 = {}
+			b_daskyleion6 = {}
+			b_daskyleion7 = {}
 		}
 		c_pelopia = {
 			color= { 10 90 110 }
 			color2= { 255 255 255 }
 		
-			b_pelopia_pelopia = {
-			} 
-			b_indi_pelopia = {
-			} 
-			b_hyssa_pelopia = {
-			}
-			b_karena_pelopia = {
-			}
-			b_thyateira_pelopia = {
-			}
-			b_stratonikeia_pelopia = {
-			}
+			b_pelopia = {} 
+			b_indi = {} 
+			b_hyssa = {}
+			b_karena = {}
+			b_thyateira = {}
+			b_stratonikeia = {}
+			b_pelopia7 = {}
 		}
-		
 	}
 	d_lydia = {
 		color= { 0 125 125 }

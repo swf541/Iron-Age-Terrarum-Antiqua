@@ -1,7 +1,7 @@
 # 88 - Daskyleion
 
 # County Title
-title = c_daskyleion # for example c_corinth
+title = c_daskyleion
 
 # Settlements
 max_settlements = 4
@@ -9,10 +9,12 @@ b_daskyleion = castle
 b_ergasteria = temple
 b_miletopolis = city
 b_poimanenon = castle
+#b_daskyleion5 = temple
+#b_daskyleion6 = city
+#b_daskyleion7 = castle
 
 # Misc
 culture = luwian
 religion = anatolian_main
 
 # History
-# Can be filled when things change around the province
