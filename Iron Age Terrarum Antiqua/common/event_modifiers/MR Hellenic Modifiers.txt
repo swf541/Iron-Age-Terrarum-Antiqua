@@ -11,7 +11,6 @@ hellenic_sacrifice_jupiter = {
 }
 
 hellenic_sacrifice_juno = {
-	temple_opinion = 10
 	monthly_character_piety = 1
 	icon = 5
 }
