@@ -51,7 +51,7 @@ laws = {
 			holder_scope = {
 				government = roman_government
 				independent = yes
-				NOT = { completely_controls = k_anatolia }
+#				NOT = { completely_controls = k_anatolia }
 			}
 		}
 		revoke_allowed = {

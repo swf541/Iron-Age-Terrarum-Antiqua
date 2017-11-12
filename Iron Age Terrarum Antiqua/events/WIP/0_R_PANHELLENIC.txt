@@ -7,7 +7,7 @@ character_event = {
 	picture = GFX_evt_child_reading
 	
 	trigger = {
-		has_landed_title = b_olympia_elis
+		has_landed_title = b_elis_olympia
 		NOT = {
 			26 = { # 26 is Elis
 				has_province_modifier = olympics_prov
