@@ -22,7 +22,7 @@ patron_gibrail = {
 }
 patron_shimnail = {
 	icon = 43
-	levy_morale = 0.1
+#	levy_morale = 0.1
 	learning = -1
 }
 patron_nurail = {
