@@ -108,11 +108,11 @@ duel_engine_stat_bonus = {
     }
     set_variable = { which = "diplomacy_skill_mod" value = 0 }
   }    
-  export_to_variable = {
-    which = health_mod
-    value = health
-  }
-  change_variable = { which = "duel_max_hp" which = "health_mod" }  
+ # export_to_variable = {
+  #  which = health_mod
+   # value = health
+  #}
+  #change_variable = { which = "duel_max_hp" which = "health_mod" }  
 }
 
 duel_engine_mounts = { 
