@@ -201,8 +201,9 @@ decisions = {
 		potential = {
 			or = {
 				religion_group = greek_religion
-				religion = pythagorean
-				religion = neoplatonism
+#				religion = pythagorean
+#				religion = neoplatonism
+				#commented out - do not exist in IA#
 			}
 			age = 16
 			demesne_size = 1

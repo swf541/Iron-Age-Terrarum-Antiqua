@@ -2929,7 +2929,7 @@ e_illyria = {
 	capital = 69 # Delminium
 	
 	allow = {
-		culture_group = illyrian_group
+		culture = illyrian
 	}
 }
 e_hellas = {	
