@@ -17,6 +17,10 @@ patron_turms = {
 	health = 1
 	stewardship = 2
 }
+patron_vanth = {
+	martial = 1
+	intrigue = 1
+}
 patron_menerva = {
 	icon = 43
 	learning = 1

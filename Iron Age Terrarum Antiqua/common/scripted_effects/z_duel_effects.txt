@@ -117,10 +117,6 @@ high_magic_fire_spell = {
         }
     }
     set_variable = {which = "spellcast" value = "6"}
-    if = {
-        limit = { has_character_modifier = magic_lore_heavens_foresight }
-        change_variable = {which = "spellcast" value = -2}
-    }
     set_variable = { which = dnum value = 0 }
     set_variable = { which = dnum value = 2}
     set_variable = { which = dnum_base which = dnum}
@@ -164,10 +160,6 @@ high_magic_curse_spell = {
         }
     }
     set_variable = {which = "spellcast" value = "16"}
-    if = {
-        limit = { has_character_modifier = magic_lore_heavens_foresight }
-        change_variable = {which = "spellcast" value = -2}
-    }
     set_variable = { which = dnum value = 0 }
     set_variable = { which = dnum value = 4}
     set_variable = { which = dnum_base which = dnum}
@@ -202,10 +194,6 @@ high_magic_heal = {
         }
     }
     set_variable = {which = "spellcast" value = "16"}
-    if = {
-        limit = { has_character_modifier = magic_lore_heavens_foresight }
-        change_variable = {which = "spellcast" value = -2}
-    }
     set_variable = { which = dnum value = 0 }
     set_variable = { which = dnum value = 4}
     set_variable = { which = dnum_base which = dnum}

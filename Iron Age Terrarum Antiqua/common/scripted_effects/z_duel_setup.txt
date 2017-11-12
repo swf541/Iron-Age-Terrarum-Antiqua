@@ -53,14 +53,6 @@ duel_setup = {
     set_variable = { which = "high_magic_fire" value = 0}
     set_variable = { which = "high_magic_curse" value = 0}
     set_variable = {which = "channel_count" value = 0 }
-           
-    if = { 
-      limit = {
-        has_character_modifier = z_foresight_curse_battle
-      }
-      set_variable = {which = "duel_hp" value = "1"}
-      remove_character_modifiers = { which = z_foresight_curse_battle amount = 1 }
-    }
 }
 
 duel_engine_stat_bonus = {

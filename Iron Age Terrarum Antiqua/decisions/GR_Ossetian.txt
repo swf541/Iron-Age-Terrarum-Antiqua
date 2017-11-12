@@ -137,10 +137,6 @@ decisions = {
 				factor = 0
 				NOT = { diplomacy = 10 }
 			}
-			modifier = {
-				factor = 0
-				has_character_modifier = ai_austerity
-			}
 		}
 	}
 }
