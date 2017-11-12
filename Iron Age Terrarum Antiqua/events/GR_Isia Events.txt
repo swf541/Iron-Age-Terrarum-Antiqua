@@ -42,10 +42,9 @@ character_event = {
 		name = EVTOPTA_ISE_701
 		trigger = {
 			OR = {
-				religion = alexandrian_pagan 
-				religion_group = egyptian_religion
-				not = { religion = manichean }
-				not = { religion = mandean }
+				religion = alexandrian_pagan
+				religion = egyptian_pagan 
+				religion = atenist 
 			}
 		}
 		set_character_flag = attending_isia
@@ -64,10 +63,11 @@ character_event = {
 	option = {
 		name = EVTOPTB_ISE_701
 		trigger = {
-			NOT = { religion_group = egyptian_religion }
-			NOT = { religion = mandean }
-			NOT = { religion = manichean }
-			NOT = { religion = alexandrian_pagan }
+			NOR = {
+				religion = alexandrian_pagan
+				religion = egyptian_pagan 
+				religion = atenist 
+			}
 		}
 		FROM = {
 			character_event = { id = ISE.702 days = 5 tooltip = DIPLOWINDOW_REJECT }

@@ -744,19 +744,6 @@ character_event = {
 		name = "OK"
 		trigger = { NOT = { root = { character = event_target:charA}} }
 		log = "Outcome report was shown to both."
-		if = {
-			limit = {
-                or = {
-				    is_invincible_trigger = yes
-                    has_character_modifier = z_foresight_blessing_battle
-                }
-			}
-			antideath_effect = yes
-			event_target:charA = { character_event = { id = duelengine.6 days = 1 } } # clearing event
-			event_target:charB = { character_event = { id = duelengine.6 days = 1 } } # clearing event
-			clr_character_flag = duel
-			break = yes 
-		}
        death = {
            death_reason = death_duel
            killer = event_target:charA
