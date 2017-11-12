@@ -98,7 +98,7 @@ character_event = {		#Formal Initiation
 	option = {
 		name = "EVTOPTAELE.7" # 
 		piety = 10
-		add_trait = mystai_eleusinian
+		#add_trait = mystai_eleusinian
 		remove_trait = on_pilgrimage
 	}
 }
@@ -324,7 +324,7 @@ character_event = {		#Ending of Initiation
 	option = {
 		name = "EVTOPTAELE.22" # 
 		piety = 10
-		add_trait = greater_mystai_eleusinian
-		remove_trait = on_pilgrimagem
+		#add_trait = greater_mystai_eleusinian
+		#remove_trait = on_pilgrimagem
 	}
 }

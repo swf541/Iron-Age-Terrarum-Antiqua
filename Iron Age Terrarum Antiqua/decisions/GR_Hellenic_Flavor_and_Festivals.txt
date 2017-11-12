@@ -70,36 +70,6 @@ decisions = {
 		}
 	}
 
-	attempt_to_join_the_cult_of_the_seven_rays  = {
-		potential = {
-			or = {
-				religion_group = greek_religion
-				religion = hellenic_pagan
-			}
-			age = 16
-			NOT = { has_character_flag = attempting_to_join_the_seven_rays }
-			NOT = { trait = on_pilgrimage }
-		}
-		allow = {
-
-		}
-		effect = {
-			set_character_flag = attempting_to_join_the_seven_rays
-			character_event = { id = CHE.1 }
-			add_trait = on_pilgrimage
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				ai = yes
-				OR = {
-					NOT = { scaled_wealth = 10.0 }
-					piety = 0
-				}
-			}
-		}
-	}
 	attempt_to_join_the_lesser_eleusinian_mysteries  = {
 		potential = {
 			or = {

@@ -27,7 +27,7 @@ laws = {
 			factor = 0
 		}
 		pass_effect = {
-			character_event = { id = ROMEGOV.2 } 
+		#	character_event = { id = ROMEGOV.2 } 
 		}
 		effect = {			
 			hidden_tooltip = {
@@ -64,7 +64,7 @@ laws = {
 			factor = 0
 		}
 		pass_effect = {
-			character_event = { id = ROMEGOV.3 } 
+		#	character_event = { id = ROMEGOV.3 } 
 		}
 		effect = {
 			

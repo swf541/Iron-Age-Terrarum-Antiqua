@@ -1,13 +1,39 @@
+namespace = DJI
+character_event = {		#Is November, holding djiorgwyba 
+	id = DJI.1
+	title = "EVTNAMEDJI.1"
+	desc = "EVTDESCDJI.1"
+	picture = "GFX_evt_viking_throneroom_oldgods"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTADJI.1" # 
+		piety = 10
+		character_event = { id = DJI.2 }
+	}
+}
+character_event = {		#Sacrifice of Cattle
+	id = DJI.2
+	title = "EVTNAMEDJI.2"
+	desc = "EVTDESCDJI.2"
+	picture = "GFX_evt_viking_throneroom_oldgods"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTADJI.2" # 
+		piety = 10		
+	}
+}
 
-namespace = PUR
-
-### Etruscan New Year
+### Ossetian djiorgwyba Festival and Feast
 
 # Invitations Sent (Liege)
 character_event = {
-	id = PUR.700
-	desc = EVTDESC_PUR_700
-	picture = GFX_evt_roi_throneroom
+	id = DJI.700
+	desc = EVTDESC_DJI_700
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -15,7 +41,7 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_PUR_700
+		name = EVTOPTA_DJI_700
 		any_vassal = {
 			limit = {
 				age = 16
@@ -23,31 +49,31 @@ character_event = {
 				war = no
 				NOT = { trait = incapable }
 			}
-			character_event = { id = PUR.701 tooltip = EVTTOOLTIP_PUR_701 days = 9 }
+			character_event = { id = DJI.701 tooltip = EVTTOOLTIP_DJI_701 }
 		}
-		hidden_tooltip = { character_event = { id = PUR.703 days = 10 } }
+		hidden_tooltip = { character_event = { id = DJI.703 days = 10 } }
 	}
 }
 
 # Invitations Received (Vassals)
 character_event = {
-	id = PUR.701
-	desc = EVTDESC_PUR_701
-	picture = GFX_evt_roi_throneroom
+	id = DJI.701
+	desc = EVTDESC_DJI_701
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_PUR_701
+		name = EVTOPTA_DJI_701
 		trigger = {
 			OR = {
-				religion = anatolian_main
+				religion_group = pagan_group
 				not = { religion = manichean }
 				not = { religion = mandean }
 			}
 		}
-		set_character_flag = attending_purulli
+		set_character_flag = attending_djiorgwyba
 		set_character_flag = do_not_disturb
 		if = {
 			limit = { trait = in_hiding	}
@@ -61,16 +87,16 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTB_PUR_701
+		name = EVTOPTB_DJI_701
 		trigger = {
-			NOT = { religion = anatolian_main }
+			NOT = { religion_group = pagan_group }
 			NOT = { religion = mandean }
 			NOT = { religion = manichean }
 		}
 		FROM = {
-			character_event = { id = PUR.702 days = 5 tooltip = DIPLOWINDOW_REJECT }
+			character_event = { id = DJI.702 days = 5 tooltip = DIPLOWINDOW_REJECT }
 			opinion = {
-				modifier = opinion_refused_purulli
+				modifier = opinion_refused_djiorgwyba
 				who = ROOT
 			}
 		}
@@ -79,18 +105,18 @@ character_event = {
 
 # Invitation Refused (Liege)
 character_event = {
-	id = PUR.702
-	desc = EVTDESC_PUR_702
-	picture = GFX_evt_roi_throneroom
+	id = DJI.702
+	desc = EVTDESC_DJI_702
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_PUR_702
+		name = EVTOPTA_DJI_702
 		tooltip = {
 			opinion = {
-				modifier = opinion_refused_purulli
+				modifier = opinion_refused_djiorgwyba
 				who = FROM
 			}
 		}
@@ -99,9 +125,9 @@ character_event = {
 
 # Celebration Begins (Liege)
 character_event = {
-	id = PUR.703
-	desc = EVTDESC_PUR_703
-	picture = GFX_evt_roi_throneroom
+	id = DJI.703
+	desc = EVTDESC_DJI_703
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -109,15 +135,17 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_PUR_703
+		name = EVTOPTA_DJI_703
 		custom_tooltip = {
-			text = purulli_begins
+			text = djiorgwyba_begins
 			hidden_tooltip = {
 				any_vassal = {
-					limit = { has_character_flag = attending_purulli }
-					character_event = { id = PUR.704 }
+					limit = { has_character_flag = attending_djiorgwyba }
+					character_event = { id = DJI.704 }
+					character_event = { id = DJI.1 }
 				}
-				character_event = { id = PUR.705 days = 10 }
+				character_event = { id = DJI.1 }
+				character_event = { id = DJI.705 days = 10 }
 			}
 		}
 	}
@@ -125,24 +153,24 @@ character_event = {
 
 # Celebration Begins (Vassals)
 character_event = {
-	id = PUR.704
-	desc = EVTDESC_PUR_704
-	picture = GFX_evt_roi_throneroom
+	id = DJI.704
+	desc = EVTDESC_DJI_704
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_PUR_703
-		custom_tooltip = { text = purulli_begins }
+		name = EVTOPTA_DJI_703
+		custom_tooltip = { text = djiorgwyba_begins }
 	}
 }
 
 # Feast Begins (Liege)
 character_event = {
-	id = PUR.705
-	desc = EVTDESC_PUR_705
-	picture = GFX_evt_roi_throneroom
+	id = DJI.705
+	desc = EVTDESC_DJI_705
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -150,51 +178,51 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_PUR_705
+		name = EVTOPTA_DJI_705
 		
 		custom_tooltip = {
 			text = feast_begins
 			hidden_tooltip = {
 				any_vassal = {
-					limit = { has_character_flag = attending_purulli }
-					character_event = { id = PUR.706 }
+					limit = { has_character_flag = attending_djiorgwyba }
+					character_event = { id = DJI.706 }
 				}
-				character_event = { id = PUR.707 days = 25 }
+				character_event = { id = DJI.707 days = 25 }
 				random_list = {
-					10 = { character_event = { id = PUR.741 days = 3 } } 
-					10 = { character_event = { id = PUR.742 days = 3 } }
-					10 = { character_event = { id = PUR.743 days = 3 } }
-					10 = { character_event = { id = PUR.744 days = 3 } }
-					10 = { character_event = { id = PUR.745 days = 3 } }
-					10 = { character_event = { id = PUR.746 days = 3 } }
-					10 = { character_event = { id = PUR.747 days = 3 } }
-				}
-				random_list = {
-					10 = { character_event = { id = PUR.741 days = 8 } }
-					10 = { character_event = { id = PUR.742 days = 8 } }
-					10 = { character_event = { id = PUR.743 days = 8 } }
-					10 = { character_event = { id = PUR.744 days = 8 } }
-					10 = { character_event = { id = PUR.745 days = 8 } }
-					10 = { character_event = { id = PUR.746 days = 8 } }
-					10 = { character_event = { id = PUR.747 days = 8 } }
+					10 = { character_event = { id = DJI.741 days = 3 } } 
+					10 = { character_event = { id = DJI.742 days = 3 } }
+					10 = { character_event = { id = DJI.743 days = 3 } }
+					10 = { character_event = { id = DJI.744 days = 3 } }
+					10 = { character_event = { id = DJI.745 days = 3 } }
+					10 = { character_event = { id = DJI.746 days = 3 } }
+					10 = { character_event = { id = DJI.747 days = 3 } }
 				}
 				random_list = {
-					10 = { character_event = { id = PUR.741 days = 13 } }
-					10 = { character_event = { id = PUR.742 days = 13 } }
-					10 = { character_event = { id = PUR.743 days = 13 } }
-					10 = { character_event = { id = PUR.744 days = 13 } }
-					10 = { character_event = { id = PUR.745 days = 13 } }
-					10 = { character_event = { id = PUR.746 days = 13 } }
-					10 = { character_event = { id = PUR.747 days = 13 } }
+					10 = { character_event = { id = DJI.741 days = 8 } }
+					10 = { character_event = { id = DJI.742 days = 8 } }
+					10 = { character_event = { id = DJI.743 days = 8 } }
+					10 = { character_event = { id = DJI.744 days = 8 } }
+					10 = { character_event = { id = DJI.745 days = 8 } }
+					10 = { character_event = { id = DJI.746 days = 8 } }
+					10 = { character_event = { id = DJI.747 days = 8 } }
 				}
 				random_list = {
-					10 = { character_event = { id = PUR.741 days = 18 } }
-					10 = { character_event = { id = PUR.742 days = 18 } }
-					10 = { character_event = { id = PUR.743 days = 18 } }
-					10 = { character_event = { id = PUR.744 days = 18 } }
-					10 = { character_event = { id = PUR.745 days = 18 } }
-					10 = { character_event = { id = PUR.746 days = 18 } }
-					10 = { character_event = { id = PUR.747 days = 18 } }
+					10 = { character_event = { id = DJI.741 days = 13 } }
+					10 = { character_event = { id = DJI.742 days = 13 } }
+					10 = { character_event = { id = DJI.743 days = 13 } }
+					10 = { character_event = { id = DJI.744 days = 13 } }
+					10 = { character_event = { id = DJI.745 days = 13 } }
+					10 = { character_event = { id = DJI.746 days = 13 } }
+					10 = { character_event = { id = DJI.747 days = 13 } }
+				}
+				random_list = {
+					10 = { character_event = { id = DJI.741 days = 18 } }
+					10 = { character_event = { id = DJI.742 days = 18 } }
+					10 = { character_event = { id = DJI.743 days = 18 } }
+					10 = { character_event = { id = DJI.744 days = 18 } }
+					10 = { character_event = { id = DJI.745 days = 18 } }
+					10 = { character_event = { id = DJI.746 days = 18 } }
+					10 = { character_event = { id = DJI.747 days = 18 } }
 				}
 			}
 		}
@@ -203,25 +231,25 @@ character_event = {
 
 # Feast Begins (Vassals)
 character_event = {
-	id = PUR.706
-	desc = EVTDESC_PUR_706
-	picture = GFX_evt_roi_throneroom
+	id = DJI.706
+	desc = EVTDESC_DJI_706
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_PUR_705
-		set_character_flag = purulli_feast_vassal
+		name = EVTOPTA_DJI_705
+		set_character_flag = djiorgwyba_feast_vassal
 		custom_tooltip = { text = feast_begins }
 	}
 }
 
 # Feast Ends (Liege)
 character_event = {
-	id = PUR.707
-	desc = EVTDESC_PUR_707
-	picture = GFX_evt_roi_throneroom
+	id = DJI.707
+	desc = EVTDESC_DJI_707
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -229,28 +257,28 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_PUR_707
+		name = EVTOPTA_DJI_707
 		any_vassal = {
-			limit = { has_character_flag = attending_purulli }
+			limit = { has_character_flag = attending_djiorgwyba }
 			opinion = {
-				modifier = opinion_purulli
+				modifier = opinion_djiorgwyba
 				who = ROOT
 			}
 		}
 		hidden_tooltip = {
 			any_vassal = {
-				limit = { has_character_flag = attending_purulli }
-				character_event = { id = PUR.708 }
+				limit = { has_character_flag = attending_djiorgwyba }
+				character_event = { id = DJI.708 }
 			}
 		}
 		add_character_modifier = {
-			name = held_purulli_timer
+			name = held_djiorgwyba_timer
 			duration = 1825
 			hidden = yes
 		}
 		prestige = 100
 		piety = 100
-		clr_character_flag = holding_purulli
+		clr_character_flag = holding_djiorgwyba
 		clr_character_flag = feast_drunkard
 		clr_character_flag = feast_gluttonous
 		clr_character_flag = feast_lunatic
@@ -262,17 +290,17 @@ character_event = {
 
 # Feast Ends (Vassals)
 character_event = {
-	id = PUR.708
-	desc = EVTDESC_PUR_708
-	picture = GFX_evt_roi_throneroom
+	id = DJI.708
+	desc = EVTDESC_DJI_708
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = EVTOPTA_PUR_707
-		clr_character_flag = attending_purulli
-		clr_character_flag = purulli_feast_vassal
+		name = EVTOPTA_DJI_707
+		clr_character_flag = attending_djiorgwyba
+		clr_character_flag = djiorgwyba_feast_vassal
 		clr_character_flag = feast_drunkard
 		clr_character_flag = feast_gluttonous
 		clr_character_flag = feast_lunatic
@@ -287,7 +315,7 @@ character_event = {
 
 # Drunkard (Guest)
 character_event = {
-	id = PUR.720
+	id = DJI.720
 	desc = EVTDESC_TOG_650
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_religion
@@ -297,10 +325,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = purulli_feast_vassal
+		has_character_flag = djiorgwyba_feast_vassal
 		NOT = { has_character_flag = feast_drunkard }
 		liege = { 
-			has_character_flag = holding_purulli
+			has_character_flag = holding_djiorgwyba
 			NOT = { has_character_flag = feast_drunkard }
 		}
 		trait = drunkard
@@ -342,13 +370,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_drunkard
-				character_event = { id = PUR.721 }
+				character_event = { id = DJI.721 }
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = PUR.721 }
+					character_event = { id = DJI.721 }
 				}
 			}
 		}
@@ -370,7 +398,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = drunkard }
 					}
@@ -381,7 +409,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						trait = drunkard
 					}
@@ -397,7 +425,7 @@ character_event = {
 
 # Drunkard (Host and Other Guests)
 character_event = {
-	id = PUR.721
+	id = DJI.721
 	desc = EVTDESC_TOG_651
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_religion
@@ -429,19 +457,19 @@ character_event = {
 
 # Gluttonous (Victim Hidden)
 character_event = {
-	id = PUR.722
+	id = DJI.722
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = purulli_feast_vassal
+		has_character_flag = djiorgwyba_feast_vassal
 		liege = {
-			has_character_flag = holding_purulli
+			has_character_flag = holding_djiorgwyba
 			NOT = { has_character_flag = feast_gluttonous }
 			any_vassal = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_gluttonous }
 				trait = gluttonous
 				NOT = { character = ROOT }
@@ -483,11 +511,11 @@ character_event = {
 			set_character_flag = feast_gluttonous
 			random_vassal = {
 				limit = {
-					has_character_flag = purulli_feast_vassal
+					has_character_flag = djiorgwyba_feast_vassal
 					trait = gluttonous
 					NOT = { character = ROOT }
 				}
-				character_event = { id = PUR.723 }
+				character_event = { id = DJI.723 }
 				set_character_flag = feast_gluttonous
 			}
 		}
@@ -496,9 +524,9 @@ character_event = {
 
 # Gluttonous (Guest)
 character_event = {
-	id = PUR.723
+	id = DJI.723
 	desc = EVTDESC_TOG_653
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -507,20 +535,20 @@ character_event = {
 		name = EVTOPTA_TOG_653
 		tooltip_info = gluttonous
 		FROM = {
-			character_event = { id = PUR.724 tooltip = EVTTOOLTIP_PUR_654 }
+			character_event = { id = DJI.724 tooltip = EVTTOOLTIP_AME_654 }
 		}	
 		hidden_tooltip = {
 			liege = {
-				character_event = { id = PUR.725 }
+				character_event = { id = DJI.725 }
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { 
 							character = ROOT 
 							character = FROM
 						}
 					}
-					character_event = { id = PUR.725 }
+					character_event = { id = DJI.725 }
 				}
 			}
 		}
@@ -538,7 +566,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { 
 							character = ROOT 
 							character = FROM
@@ -556,9 +584,9 @@ character_event = {
 
 # Gluttonous (Victim)
 character_event = {
-	id = PUR.724
+	id = DJI.724
 	desc = EVTDESC_TOG_654
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -574,9 +602,9 @@ character_event = {
 
 # Gluttonous (Host and Other Guests)
 character_event = {
-	id = PUR.725
+	id = DJI.725
 	desc = EVTDESC_TOG_655
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -592,7 +620,7 @@ character_event = {
 
 # Lunatic (Guest)
 character_event = {
-	id = PUR.726
+	id = DJI.726
 	desc = EVTDESC_TOG_656
 	picture = GFX_evt_lunatic
 	border = GFX_event_normal_frame_religion
@@ -602,10 +630,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = purulli_feast_vassal
+		has_character_flag = djiorgwyba_feast_vassal
 		NOT = { has_character_flag = feast_lunatic }
 		liege = { 
-			has_character_flag = holding_purulli 
+			has_character_flag = holding_djiorgwyba 
 			NOT = { has_character_flag = feast_lunatic }
 		}
 		trait = lunatic
@@ -647,13 +675,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_lunatic
-				character_event = { id = PUR.727 }
+				character_event = { id = DJI.727 }
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = PUR.727 }
+					character_event = { id = DJI.727 }
 				}
 			}
 		}
@@ -675,7 +703,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = lunatic }
 					}
@@ -686,7 +714,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						trait = lunatic
 					}
@@ -702,7 +730,7 @@ character_event = {
 
 # Lunatic (Host and Other Guests)
 character_event = {
-	id = PUR.727
+	id = DJI.727
 	desc = EVTDESC_TOG_657
 	picture = GFX_evt_lunatic
 	border = GFX_event_normal_frame_religion
@@ -734,7 +762,7 @@ character_event = {
 
 # Lustful (Guest)
 character_event = {
-	id = PUR.728
+	id = DJI.728
 	desc = EVTDESC_TOG_658
 	picture = GFX_evt_brothel
 	border = GFX_event_normal_frame_religion
@@ -744,10 +772,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = purulli_feast_vassal
+		has_character_flag = djiorgwyba_feast_vassal
 		NOT = { has_character_flag = feast_lustful }
 		liege = { 
-			has_character_flag = holding_purulli 
+			has_character_flag = holding_djiorgwyba 
 			NOT = { has_character_flag = feast_lustful }
 		}
 		trait = lustful
@@ -793,13 +821,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_lustful
-				character_event = { id = PUR.729 }
+				character_event = { id = DJI.729 }
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = PUR.729 }
+					character_event = { id = DJI.729 }
 				}
 			}
 		}
@@ -821,7 +849,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = lustful }
 					}
@@ -832,7 +860,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						trait = lustful
 					}
@@ -854,13 +882,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_lustful
-				character_event = { id = PUR.729 }
+				character_event = { id = DJI.729 }
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = PUR.729 }
+					character_event = { id = DJI.729 }
 				}
 			}
 		}
@@ -882,7 +910,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = lustful }
 					}
@@ -893,7 +921,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						trait = lustful
 					}
@@ -916,7 +944,7 @@ character_event = {
 
 # Lustful (Host and Other Guests)
 character_event = {
-	id = PUR.729
+	id = DJI.729
 	desc = EVTDESC_TOG_659
 	picture = GFX_evt_brothel
 	border = GFX_event_normal_frame_religion
@@ -947,7 +975,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = EVTOPTC_PUR_659
+		name = EVTOPTC_AME_659
 		trigger = {
 			any_spouse = { character = FROM }
 		}
@@ -961,19 +989,19 @@ character_event = {
 
 # Friendship Formed (Guest 1 Hidden)
 character_event = {
-	id = PUR.730
+	id = DJI.730
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = purulli_feast_vassal
+		has_character_flag = djiorgwyba_feast_vassal
 		NOT = { has_character_flag = feast_friendship }
 		liege = { 
-			has_character_flag = holding_purulli
+			has_character_flag = holding_djiorgwyba
 			any_vassal = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_friendship }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  20 }
@@ -1015,11 +1043,11 @@ character_event = {
 		liege = { 
 			random_vassal = {
 				limit = {
-					has_character_flag = purulli_feast_vassal
+					has_character_flag = djiorgwyba_feast_vassal
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  20 }
 				}
-				character_event = { id = PUR.731 }
+				character_event = { id = DJI.731 }
 				set_character_flag = feast_friendship
 				opinion = {
 					modifier = opinion_feast_friend
@@ -1036,9 +1064,9 @@ character_event = {
 
 # Friendship Formed (Guest 2)
 character_event = {
-	id = PUR.731
+	id = DJI.731
 	desc = EVTDESC_TOG_661
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1047,7 +1075,7 @@ character_event = {
 		name = EVTOPTA_TOG_661
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = PUR.732 }
+				character_event = { id = DJI.732 }
 			}
 		}
 		tooltip = {
@@ -1067,9 +1095,9 @@ character_event = {
 
 # Friendship Formed (Guest 1)
 character_event = {
-	id = PUR.732
+	id = DJI.732
 	desc = EVTDESC_TOG_661
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1093,23 +1121,23 @@ character_event = {
 
 # Homosexual Male (Guest 1 Hidden)
 character_event = {
-	id = PUR.733
+	id = DJI.733
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = purulli_feast_vassal
+		has_character_flag = djiorgwyba_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
 		trait = homosexual
 		is_female = no
 		has_lover = no
 		liege = { 
-			has_character_flag = holding_purulli
+			has_character_flag = holding_djiorgwyba
 			NOT = { has_character_flag = feast_homosexual }
 			any_vassal = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
@@ -1155,14 +1183,14 @@ character_event = {
 			set_character_flag = feast_homosexual
 			random_vassal = {
 				limit = {
-					has_character_flag = purulli_feast_vassal
+					has_character_flag = djiorgwyba_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
 					trait = homosexual
 					is_female = no
 				}
-				character_event = { id = PUR.734 }
+				character_event = { id = DJI.734 }
 				add_lover = ROOT
 				set_character_flag = feast_homosexual
 			}		
@@ -1172,9 +1200,9 @@ character_event = {
 
 # Homosexual Male (Guest 2)
 character_event = {
-	id = PUR.734
+	id = DJI.734
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1184,26 +1212,26 @@ character_event = {
 		tooltip_info = homosexual
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = PUR.735 }
+				character_event = { id = DJI.735 }
 			}
 			liege = {
-				character_event = { id = PUR.740 }
+				character_event = { id = DJI.740 }
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = {
 							character = ROOT
 							character = FROM
 						}
 					}
-					character_event = { id = PUR.740 }
+					character_event = { id = DJI.740 }
 				}
 			}
 		}
 		tooltip = {
 			random = {
 				chance = 50
-				character_event = { id = PUR.739 tooltip = EVTTOOLTIP_PUR_669 }
+				character_event = { id = DJI.739 tooltip = EVTTOOLTIP_AME_669 }
 			}
 			add_lover = FROM
 		}
@@ -1212,9 +1240,9 @@ character_event = {
 
 # Homosexual Male (Guest 1)
 character_event = {
-	id = PUR.735
+	id = DJI.735
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1224,10 +1252,10 @@ character_event = {
 		tooltip_info = homosexual
 		random = {
 			chance = 50
-			character_event = { id = PUR.739 tooltip = EVTTOOLTIP_PUR_669 }
+			character_event = { id = DJI.739 tooltip = EVTTOOLTIP_AME_669 }
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = PUR.739 }
+					character_event = { id = DJI.739 }
 				}
 			}
 		}
@@ -1239,23 +1267,23 @@ character_event = {
 
 # Homosexual Female (Guest 1 Hidden)
 character_event = {
-	id = PUR.736
+	id = DJI.736
 	hide_window = yes
 
 	is_triggered_only = yes
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = purulli_feast_vassal
+		has_character_flag = djiorgwyba_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
 		trait = homosexual
 		is_female = yes
 		has_lover = no
 		liege = { 
-			has_character_flag = holding_purulli
+			has_character_flag = holding_djiorgwyba
 			NOT = { has_character_flag = feast_homosexual }
 			any_vassal = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
@@ -1301,14 +1329,14 @@ character_event = {
 			set_character_flag = feast_homosexual
 			random_vassal = {
 				limit = {
-					has_character_flag = purulli_feast_vassal
+					has_character_flag = djiorgwyba_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
 					trait = homosexual
 					is_female = yes
 				}
-				character_event = { id = PUR.737 }
+				character_event = { id = DJI.737 }
 				set_character_flag = feast_homosexual
 				add_lover = ROOT
 			}		
@@ -1318,9 +1346,9 @@ character_event = {
 
 # Homosexual Female (Guest 2)
 character_event = {
-	id = PUR.737
+	id = DJI.737
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1330,26 +1358,26 @@ character_event = {
 		tooltip_info = homosexual
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = PUR.738 }
+				character_event = { id = DJI.738 }
 			}
 			liege = {
-				character_event = { id = PUR.740 }
+				character_event = { id = DJI.740 }
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = {
 							character = ROOT
 							character = FROM
 						}
 					}
-					character_event = { id = PUR.740 }
+					character_event = { id = DJI.740 }
 				}
 			}			
 		}
 		tooltip = {
 			random = {
 				chance = 50
-				character_event = { id = PUR.739 tooltip = EVTTOOLTIP_PUR_669 }
+				character_event = { id = DJI.739 tooltip = EVTTOOLTIP_AME_669 }
 			}
 			add_lover = FROM
 		}
@@ -1358,9 +1386,9 @@ character_event = {
 
 # Homosexual Female (Guest 1)
 character_event = {
-	id = PUR.738
+	id = DJI.738
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1370,10 +1398,10 @@ character_event = {
 		tooltip_info = homosexual
 		random = {
 			chance = 50
-			character_event = { id = PUR.739 tooltip = EVTTOOLTIP_PUR_669 }
+			character_event = { id = DJI.739 tooltip = EVTTOOLTIP_AME_669 }
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = PUR.739 }
+					character_event = { id = DJI.739 }
 				}
 			}
 		}
@@ -1385,9 +1413,9 @@ character_event = {
 
 # Homosexual Caught
 character_event = {
-	id = PUR.739
+	id = DJI.739
 	desc = EVTDESC_TOG_669
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1412,7 +1440,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						NOT = { trait = homosexual }
 					}
@@ -1423,7 +1451,7 @@ character_event = {
 				}
 				any_vassal = {
 					limit = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { character = ROOT }
 						trait = homosexual
 					}
@@ -1439,9 +1467,9 @@ character_event = {
 
 # Homosexual Caught (Host and Other Guests)
 character_event = {
-	id = PUR.740
+	id = DJI.740
 	desc = EVTDESC_TOG_670
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_viking_throneroom_oldgods
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1471,7 +1499,7 @@ character_event = {
 
 ### Feast event bounces
 character_event = { #feast_drunkard
-	id = PUR.741
+	id = DJI.741
 	
 	is_triggered_only = yes
 	
@@ -1479,10 +1507,10 @@ character_event = { #feast_drunkard
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_purulli
+		has_character_flag = holding_djiorgwyba
 		NOT = { has_character_flag = feast_drunkard }
 		any_vassal = {
-			has_character_flag = purulli_feast_vassal
+			has_character_flag = djiorgwyba_feast_vassal
 			NOT = { has_character_flag = feast_drunkard }
 			trait = drunkard
 		}
@@ -1491,17 +1519,17 @@ character_event = { #feast_drunkard
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_drunkard }
 				trait = drunkard
 			}
-			character_event = { id = PUR.720 }
+			character_event = { id = DJI.720 }
 		}
 	}
 }
 
 character_event = {
-	id = PUR.742 #feast_gluttonous
+	id = DJI.742 #feast_gluttonous
 	
 	is_triggered_only = yes
 	
@@ -1509,10 +1537,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_purulli
+		has_character_flag = holding_djiorgwyba
 		NOT = { has_character_flag = feast_gluttonous }
 		any_vassal = {
-			has_character_flag = purulli_feast_vassal
+			has_character_flag = djiorgwyba_feast_vassal
 			NOT = { has_character_flag = feast_gluttonous }
 			trait = gluttonous
 		}
@@ -1521,17 +1549,17 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_gluttonous }
 				trait = gluttonous
 			}
-			character_event = { id = PUR.722 }
+			character_event = { id = DJI.722 }
 		}
 	}
 }
 
 character_event = {
-	id = PUR.743 #feast_lunatic
+	id = DJI.743 #feast_lunatic
 	
 	is_triggered_only = yes
 	
@@ -1539,10 +1567,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_purulli
+		has_character_flag = holding_djiorgwyba
 		NOT = { has_character_flag = feast_lunatic }
 		any_vassal = {
-			has_character_flag = purulli_feast_vassal
+			has_character_flag = djiorgwyba_feast_vassal
 			NOT = { has_character_flag = feast_lunatic }
 			trait = lunatic
 		}
@@ -1551,17 +1579,17 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_lunatic }
 				trait = lunatic
 			}
-			character_event = { id = PUR.726 }
+			character_event = { id = DJI.726 }
 		}
 	}
 }
 
 character_event = {
-	id = PUR.744 #feast_lustful
+	id = DJI.744 #feast_lustful
 	
 	is_triggered_only = yes
 	
@@ -1569,10 +1597,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_purulli
+		has_character_flag = holding_djiorgwyba
 		NOT = { has_character_flag = feast_lustful }
 		any_vassal = { 
-			has_character_flag = purulli_feast_vassal
+			has_character_flag = djiorgwyba_feast_vassal
 			NOT = { has_character_flag = feast_lustful }
 			trait = lustful
 			is_female = no
@@ -1582,18 +1610,18 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_lustful }
 				trait = lustful
 				is_female = no
 			}
-			character_event = { id = PUR.728 }
+			character_event = { id = DJI.728 }
 		}
 	}
 }
 
 character_event = {
-	id = PUR.745 #feast_friendship
+	id = DJI.745 #feast_friendship
 	
 	is_triggered_only = yes
 	
@@ -1601,15 +1629,15 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		has_character_flag = holding_purulli
+		has_character_flag = holding_djiorgwyba
 		NOT = { has_character_flag = feast_friendship }
-		has_character_flag = purulli_feast_vassal
+		has_character_flag = djiorgwyba_feast_vassal
 		any_vassal = {
-			has_character_flag = purulli_feast_vassal
+			has_character_flag = djiorgwyba_feast_vassal
 			NOT = { has_character_flag = feast_friendship }
 			liege = { 
 				any_vassal = {
-					has_character_flag = purulli_feast_vassal
+					has_character_flag = djiorgwyba_feast_vassal
 					NOT = { has_character_flag = feast_friendship }
 					NOT = { character = PREVPREV }
 					opinion = { who = PREVPREV value =  20 }
@@ -1621,24 +1649,24 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_friendship }
 				liege = { 
 					any_vassal = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { has_character_flag = feast_friendship }
 						NOT = { character = PREVPREV }
 						opinion = { who = PREVPREV value =  20 }
 					}		
 				}
 			}
-			character_event = { id = PUR.730 }
+			character_event = { id = DJI.730 }
 		}
 	}
 }
 
 character_event = {
-	id = PUR.746 #male_homosexual
+	id = DJI.746 #male_homosexual
 	
 	is_triggered_only = yes
 	
@@ -1647,16 +1675,16 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		NOT = { has_character_flag = feast_homosexual }
-		has_character_flag = holding_purulli
+		has_character_flag = holding_djiorgwyba
 		any_vassal = { 
-			has_character_flag = purulli_feast_vassal
+			has_character_flag = djiorgwyba_feast_vassal
 			NOT = { has_character_flag = feast_homosexual }
 			trait = homosexual
 			is_female = no
 			has_lover = no
 			liege = { 
 				any_vassal = {
-					has_character_flag = purulli_feast_vassal
+					has_character_flag = djiorgwyba_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = PREVPREV }
 					opinion = { who = PREVPREV value =  0 }
@@ -1671,14 +1699,14 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				trait = homosexual
 				is_female = no
 				has_lover = no
 				liege = { 
 					any_vassal = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { has_character_flag = feast_homosexual }
 						NOT = { character = PREVPREV }
 						opinion = { who = PREVPREV value =  0 }
@@ -1688,13 +1716,13 @@ character_event = {
 					}		
 				}
 			}
-			character_event = { id = PUR.733 }
+			character_event = { id = DJI.733 }
 		}
 	}
 }
 
 character_event = {
-	id = PUR.747 #female_homosexual
+	id = DJI.747 #female_homosexual
 	
 	is_triggered_only = yes
 	
@@ -1703,16 +1731,16 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		NOT = { has_character_flag = feast_homosexual }
-		has_character_flag = holding_purulli
+		has_character_flag = holding_djiorgwyba
 		any_vassal = { 
-			has_character_flag = purulli_feast_vassal
+			has_character_flag = djiorgwyba_feast_vassal
 			NOT = { has_character_flag = feast_homosexual }
 			trait = homosexual
 			is_female = yes
 			has_lover = no
 			liege = { 
 				any_vassal = {
-					has_character_flag = purulli_feast_vassal
+					has_character_flag = djiorgwyba_feast_vassal
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = PREVPREV }
 					opinion = { who = PREVPREV value =  0 }
@@ -1727,14 +1755,14 @@ character_event = {
 	immediate = {
 		random_vassal = {
 			limit = {
-				has_character_flag = purulli_feast_vassal
+				has_character_flag = djiorgwyba_feast_vassal
 				NOT = { has_character_flag = feast_homosexual }
 				trait = homosexual
 				is_female = yes
 				has_lover = no
 				liege = { 
 					any_vassal = {
-						has_character_flag = purulli_feast_vassal
+						has_character_flag = djiorgwyba_feast_vassal
 						NOT = { has_character_flag = feast_homosexual }
 						NOT = { character = PREVPREV }
 						opinion = { who = PREVPREV value =  0 }
@@ -1744,7 +1772,7 @@ character_event = {
 					}		
 				}
 			}
-			character_event = { id = PUR.736 }
+			character_event = { id = DJI.736 }
 		}
 	}
 }

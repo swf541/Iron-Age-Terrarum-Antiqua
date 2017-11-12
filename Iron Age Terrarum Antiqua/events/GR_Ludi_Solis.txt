@@ -48,7 +48,6 @@ character_event = {
 		}
 		set_character_flag = attending_ludi_solis
 		set_character_flag = do_not_disturb
-		hidden_tooltip = { character_event = { id = LUS.899 days = 100 } } # Safety catch flag clearing
 		if = {
 			limit = { trait = in_hiding	}
 			remove_trait = in_hiding

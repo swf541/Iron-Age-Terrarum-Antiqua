@@ -49,7 +49,6 @@ character_event = {
 		}
 		set_character_flag = attending_nuntarryashas
 		set_character_flag = do_not_disturb
-		hidden_tooltip = { character_event = { id = NUN.899 days = 100 } } # Safety catch flag clearing
 		if = {
 			limit = { trait = in_hiding	}
 			remove_trait = in_hiding
