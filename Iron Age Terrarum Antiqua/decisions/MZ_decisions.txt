@@ -332,7 +332,6 @@ decisions = {
 			#not = { religion = manichean }
 			NOT = {
 				trait = in_hiding
-				has_character_modifier = held_nowruz_feast_timer
 				liege = { has_character_flag = holding_nowruz_feast }
 				has_character_flag = holding_nowruz_feast
 				has_character_flag = planning_nowruz_feast
