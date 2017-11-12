@@ -25,7 +25,6 @@ vegetarian= {
     potential = {
         OR = {
 		religion = manichean
-		religion = qarmatian
 		religion = cathar
 		religion = jain
 		religion = buddhist
