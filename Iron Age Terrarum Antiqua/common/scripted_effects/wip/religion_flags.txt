@@ -144,3 +144,4 @@ semitic_pagan_majority
 east_african_pagan_reformed_majority
 east_african_pagan_majority
 mazdaki_majority
+minoan_majority

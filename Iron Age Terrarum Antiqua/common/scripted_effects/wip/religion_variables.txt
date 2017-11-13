@@ -144,3 +144,4 @@ semitic_pagan_pop
 east_african_pagan_reformed_pop
 east_african_pagan_pop
 mazdaki_pop
+minoan_pop

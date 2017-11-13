@@ -144,3 +144,4 @@ semitic_pagan
 east_african_pagan_reformed
 east_african_pagan
 mazdaki
+minoan
