@@ -1,0 +1,3 @@
+vfs_religion_growth = { #join previous society
+
+}
