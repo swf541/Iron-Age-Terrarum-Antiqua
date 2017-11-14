@@ -1,5 +1,5 @@
 egyptian_pagan_plurality = {
-	 check_variable = { which = egyptian_pagan_pop which = egyptian_pagan_pop } }
+	 #check_variable = { which = egyptian_pagan_pop which = egyptian_pagan_pop } 
 	 check_variable = { which = egyptian_pagan_pop which = atenist_pop }
 	 check_variable = { which = egyptian_pagan_pop which = berber_main_pop }
 	 check_variable = { which = egyptian_pagan_pop which = berber_pagan_reformed_pop }
@@ -145,4 +145,6 @@ egyptian_pagan_plurality = {
 	 check_variable = { which = egyptian_pagan_pop which = east_african_pagan_reformed_pop }
 	 check_variable = { which = egyptian_pagan_pop which = east_african_pagan_pop }
 	 check_variable = { which = egyptian_pagan_pop which = mazdaki_pop }
+	 check_variable = { which = egyptian_pagan_pop which = minoan_pop }
+	 
 }
