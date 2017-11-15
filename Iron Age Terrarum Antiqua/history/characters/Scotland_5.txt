@@ -95,6 +95,455 @@
 	437.6.16={ birth=yes }
 	495.9.29={ death=yes }
 }
+1231376={
+	name=Niverturion
+	female=yes
+	dynasty=223031
+	dna="ejolbfggncl"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231372	#Deort
+	mother=1231425	#Niverturion
+	446.8.19={ birth=yes }
+	507.10.19={ death=yes }
+}
+1231377={
+	name=Olfinecta
+	female=yes
+	dynasty=223031
+	dna="ejgllfckhol"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231372	#Deort
+	mother=1231425	#Niverturion
+	450.4.2={ birth=yes }
+	512.9.16={ death=yes }
+}
+1231378={
+	name=Gormala
+	female=yes
+	dynasty=223031
+	dna="kbmdifcfndl"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231372	#Deort
+	mother=1231425	#Niverturion
+	453.8.16={ birth=yes }
+	515.3.4={ death=yes }
+}
+1231379={
+	name=Fearchar
+	dynasty=223031
+	dna="hjebcfcgpdi"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=6 
+	learning=6
+	trait=intricate_webweaver 
+	trait=kind 
+	trait=arbitrary 
+	trait=brave 
+	father=1231372	#Deort
+	mother=1231425	#Niverturion
+	456.11.3={ birth=yes }
+	477.1.1={ add_spouse=1231426 }
+	504.12.27={ death=yes }
+}
+1231380={
+	name=Catriona
+	female=yes
+	dynasty=223031
+	dna="lbebhfcmpdo"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231379	#Fearchar
+	mother=1231426	#Catriona
+	484.3.13={ birth=yes }
+	534.1.13={ death=yes }
+}
+1231381={
+	name=Fergus
+	dynasty=223031
+	dna="opegnaoocdi"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=5 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=zealous 
+	trait=cruel 
+	trait=depressed 
+	father=1231379	#Fearchar
+	mother=1231426	#Catriona
+	488.10.9={ birth=yes }
+	509.1.1={ add_spouse=1231427 }
+	545.3.23={ death=yes }
+}
+1231382={
+	name=Gruoch
+	female=yes
+	dynasty=223031
+	dna="hpkncfojmbi"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231379	#Fearchar
+	mother=1231426	#Catriona
+	490.2.19={ birth=yes }
+	561.6.10={ death=yes }
+}
+1231383={
+	name=Beathag
+	female=yes
+	dynasty=223031
+	dna="hjjgpfjgpoo"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231379	#Fearchar
+	mother=1231426	#Catriona
+	495.6.25={ birth=yes }
+	558.6.20={ death=yes }
+}
+1231384={
+	name=Artair
+	dynasty=223031
+	dna="npagngiocdi"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=6 
+	learning=6
+	trait=flamboyant_schemer 
+	trait=brave 
+	trait=greedy 
+	father=1231381	#Fergus
+	mother=1231427	#Beathag
+	516.12.22={ birth=yes }
+	537.1.1={ add_spouse=1231428 }
+	584.5.29={ death=yes }
+}
+1231385={
+	name=Laise
+	dynasty=223031
+	dna="bmbdaagfcdo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=4 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=craven 
+	trait=diligent 
+	trait=cynical 
+	trait=content 
+	father=1231381	#Fergus
+	mother=1231427	#Beathag
+	521.1.8={ birth=yes }
+	577.5.22={ death=yes }
+}
+1231386={
+	name=Garthnaith
+	dynasty=223031
+	dna="nlegncnoadc"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=8 
+	learning=5
+	trait=elusive_shadow 
+	trait=wroth 
+	trait=kind 
+	trait=cruel 
+	trait=zealous 
+	trait=gluttonous 
+	father=1231381	#Fergus
+	mother=1231427	#Beathag
+	523.9.12={ birth=yes }
+	576.4.6={ death=yes }
+}
+1231387={
+	name=Beathag
+	female=yes
+	dynasty=223031
+	dna="odbgnpcicka"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231381	#Fergus
+	mother=1231427	#Beathag
+	526.7.1={ birth=yes }
+	590.4.5={ death=yes }
+}
+1231388={
+	name=Una
+	female=yes
+	dynasty=223031
+	dna="odaokfaojna"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231384	#Artair
+	mother=1231428	#Una
+	539.8.20={ birth=yes }
+	590.1.2={ death=yes }
+}
+1231389={
+	name=Ualraig
+	dynasty=223031
+	dna="eaagfaiojai"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=8 
+	learning=6
+	trait=scholarly_theologian 
+	trait=scholar 
+	trait=honest 
+	trait=content 
+	trait=craven 
+	trait=stressed 
+	father=1231384	#Artair
+	mother=1231428	#Una
+	543.11.13={ birth=yes }
+	564.1.1={ add_spouse=1231429 }
+	615.3.7={ death=yes }
+}
+1231390={
+	name=Cinioch
+	dynasty=223031
+	dna="npagiaimcdg"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=6 
+	learning=5
+	trait=midas_touched 
+	trait=brave 
+	trait=cruel 
+	trait=slothful 
+	trait=greedy 
+	trait=chaste 
+	father=1231384	#Artair
+	mother=1231428	#Una
+	545.11.2={ birth=yes }
+	613.10.7={ death=yes }
+}
+1231391={
+	name=Brianag
+	female=yes
+	dynasty=223031
+	dna="eaekoaiojci"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231389	#Ualraig
+	mother=1231429	#Brianag
+	568.1.7={ birth=yes }
+	632.7.9={ death=yes }
+}
+1231392={
+	name=Aniel
+	dynasty=223031
+	dna="elagfmmilli"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=7 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=brave 
+	trait=charitable 
+	trait=honest 
+	trait=cynical 
+	trait=content 
+	trait=drunkard 
+	father=1231389	#Ualraig
+	mother=1231429	#Brianag
+	573.3.12={ birth=yes }
+	594.1.1={ add_spouse=1231430 }
+	620.6.15={ death=yes }
+}
+1231393={
+	name=Giric
+	dynasty=223031
+	dna="fbaafeiocai"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=8 
+	learning=8
+	trait=intricate_webweaver 
+	trait=wroth 
+	trait=brave 
+	trait=proud 
+	trait=paranoid 
+	trait=arbitrary 
+	trait=zealous 
+	father=1231389	#Ualraig
+	mother=1231429	#Brianag
+	576.8.26={ birth=yes }
+	646.5.22={ death=yes }
+}
+1231394={
+	name=Ualraig
+	dynasty=223031
+	dna="aeapgmeilgg"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=5 
+	learning=6
+	trait=thrifty_clerk 
+	trait=poet 
+	trait=humble 
+	trait=temperate 
+	trait=craven 
+	trait=just 
+	father=1231392	#Aniel
+	mother=1231430	#Gormala
+	598.4.22={ birth=yes }
+	619.1.1={ add_spouse=1231431 }
+	662.12.12={ death=yes }
+}
+1231395={
+	name=Maon
+	dynasty=223031
+	dna="klagfmhglli"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=5 
+	learning=6
+	trait=grey_eminence 
+	trait=cynical 
+	trait=gregarious 
+	trait=envious 
+	trait=depressed 
+	father=1231392	#Aniel
+	mother=1231430	#Gormala
+	603.4.18={ birth=yes }
+	674.6.2={ death=yes }
+}
+1231396={
+	name=Fergus
+	dynasty=223031
+	dna="mlmgmmmnald"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=7 
+	learning=6
+	trait=detached_priest 
+	trait=ambitious 
+	trait=cruel 
+	trait=trusting 
+	trait=patient 
+	father=1231392	#Aniel
+	mother=1231430	#Gormala
+	607.7.24={ birth=yes }
+	668.9.23={ death=yes }
+}
+1231397={
+	name=Taran
+	dynasty=223031
+	dna="mmagfmbneli"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=4 
+	learning=5
+	trait=elusive_shadow 
+	trait=honest 
+	trait=kind 
+	trait=just 
+	trait=shy 
+	trait=temperate 
+	father=1231392	#Aniel
+	mother=1231430	#Gormala
+	610.9.1={ birth=yes }
+	663.8.28={ death=yes }
+}
+1231398={
+	name=Caitir
+	female=yes
+	dynasty=223031
+	dna="jcdohbhdfgg"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231394	#Ualraig
+	mother=1231431	#Caitir
+	620.7.13={ birth=yes }
+	690.4.21={ death=yes }
+}
+1231399={
+	name=Lutrin
+	dynasty=223031
+	dna="aeapgmeilhe"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=5 
+	learning=6
+	trait=grey_eminence 
+	trait=impaler 
+	trait=lustful 
+	trait=greedy 
+	trait=just 
+	trait=kind 
+	father=1231394	#Ualraig
+	mother=1231431	#Caitir
+	622.2.20={ birth=yes }
+	670.5.8={ death=yes }
+}
+1231400={
+	name=Deort
+	dynasty=223031
+	dna="cfiphkkllln"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=4 
+	learning=5
+	trait=midas_touched 
+	trait=just 
+	trait=cruel 
+	trait=temperate 
+	trait=cynical 
+	trait=gregarious 
+	trait=craven 
+	father=1231394	#Ualraig
+	mother=1231431	#Caitir
+	626.3.23={ birth=yes }
+	695.4.3={ death=yes }
+}
 1231424={
 	name=Ceit
 	female=yes
@@ -110,4 +559,52 @@
 	religion=celtic_pagan
 	424.10.11={ birth=yes }
 	468.2.27={ death=yes }
+}
+1231426={
+	name=Catriona
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	456.10.11={ birth=yes }
+	504.2.27={ death=yes }
+}
+1231427={
+	name=Beathag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	488.10.11={ birth=yes }
+	543.2.27={ death=yes }
+}
+1231428={
+	name=Una
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	516.10.11={ birth=yes }
+	584.2.27={ death=yes }
+}
+1231429={
+	name=Brianag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	543.10.11={ birth=yes }
+	615.2.27={ death=yes }
+}
+1231430={
+	name=Gormala
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	573.10.11={ birth=yes }
+	620.2.27={ death=yes }
+}
+1231431={
+	name=Caitir
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	598.10.11={ birth=yes }
+	662.2.27={ death=yes }
 }

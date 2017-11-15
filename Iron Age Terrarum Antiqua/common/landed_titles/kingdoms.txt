@@ -768,6 +768,8 @@ k_magna_graecia = {
 		color= { 75 150 255 }
 		color2= { 255 255 255 }
 		
+		capital = 313 #Elea
+		
 		c_thurii = {
 			color= { 75 150 255 }
 			color2= { 255 255 255 }
@@ -809,6 +811,8 @@ k_magna_graecia = {
 		color= { 75 200 200 }
 		color2= { 255 255 255 }
 		
+		capital = 314 #Metapontum
+		
 		c_metapontum = {
 			color= { 75 190 210 }
 			color2= { 255 255 255 }
@@ -849,6 +853,8 @@ k_magna_graecia = {
 	d_calabria = {
 		color= { 75 175 175 }
 		color2= { 255 255 255 }
+		
+		capital = 318 #Brundisium
 		
 		c_tarentum = {
 			color= { 75 175 175 }
@@ -892,6 +898,8 @@ k_lydia = {
 	d_mysia = {
 		color= { 0 100 100 }
 		color2= { 255 255 255 }
+		
+		capital = 15 #Lesbos
 		
 		c_abydos = {
 			color= { 0 110 110 }
@@ -982,20 +990,19 @@ k_lydia = {
 		color= { 0 125 125 }
 		color2= { 255 255 255 }
 		
+		capital = 81 #Sardis
+		
 		c_smyrna = {
 			color= { 10 115 125 }
 			color2= { 255 255 255 }
 						
-			b_smyrna_smyrna = {
-			}
-			b_magnesia_smyrna = {
-			}
-			b_phocaea_smyrna = {
-			}
-			b_cyme_smyrna = {
-			}
-			b_melampagos_smyrna = {
-			}
+			b_smyrna = {}
+			b_magnesia = {}
+			b_phocaea = {}
+			b_cyme = {}
+			b_melampagos = {}
+			b_klazomenai = {}
+			b_aegae = {}
 		}
 		c_ephesus = {
 			color= { 0 135 135 }
@@ -1004,46 +1011,37 @@ k_lydia = {
 			holy_site = hellenic_pagan
 			holy_site = anatolian_main
 			
-			b_ephesus_ephesus = {
-			}
-			b_colophon_ephesus = { # Temple of Artemis
-			}
-			b_magnesia_ephesus = {
-			}
-			b_notion_ephesus = {
-			}
-			b_klaros_ephesus = {
-			}
+			b_ephesus = {}
+			b_colophon = {} # Temple of Artemis
+			b_metropolis = {}
+			b_notion = {}
+			b_klaros = {}
+			b_almoura = {}
+			b_teos = {}
 		}
 		c_sardis = {
 			color= { 0 125 125 }
 			color2= { 255 255 255 }
 						
-			b_sardis_sardis = {
-			}
-			b_tmolos_sardis = {
-			}
-			b_tateikome_sardis = {
-			}
-			b_myloukome_sardis = {
-			}
-			b_boukolion_sardis = {
-			}
-			b_philadelphia_sardis = {
-			}
+			b_sardis = {}
+			b_tmolos = {}
+			b_tateikome = {}
+			b_myloukome = {}
+			b_boukolion = {}
+			b_philadelphia = {}
+			b_sattai = {}
 		}
 		c_chios = {
 			color= { 10 115 125 }
 			color2= { 255 255 255 }
 			
-			b_chios_chios = {
-			}
-			b_kardamyle_chios = {
-			}
-			b_psyra_chios = {
-			}
-			b_babrantion_chios = {
-			}
+			b_chios = {}
+			b_kardamyle = {}
+			b_psyra = {}
+			b_babrantion = {}
+			b_chios5 = {}
+			b_chios6 = {}
+			b_chios7 = {}
 		}
 		c_samos = {
 			color= { 0 135 115 }

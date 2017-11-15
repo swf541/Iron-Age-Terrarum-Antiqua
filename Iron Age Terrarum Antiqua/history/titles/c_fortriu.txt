@@ -1,6 +1,27 @@
 401.1.1 = { # 375 BC
-	holder = 1231371 # EÃ²ghann
+	holder = 1231371 # Eòghann
 }
 462.02.27 = { # 314 BC
 	holder = 1231372 # Deort
+}
+468.12.20 = { # 308 BC
+	holder = 1231379 # Fearchar
+}
+504.12.27 = { # 272 BC
+	holder = 1231381 # Fergus
+}
+545.03.23 = { # 231 BC
+	holder = 1231384 # Artair
+}
+584.05.29 = { # 192 BC
+	holder = 1231389 # Ualraig
+}
+615.03.07 = { # 161 BC
+	holder = 1231392 # Aniel
+}
+620.06.15 = { # 156 BC
+	holder = 1231394 # Ualraig
+}
+662.12.12 = { # 114 BC
+	holder = 1231399 # Lutrin
 }

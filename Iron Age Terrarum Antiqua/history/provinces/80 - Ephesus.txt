@@ -1,19 +1,20 @@
 # 80 - Ephesus
 
 # County Title
-title = c_ephesus # for example c_corinth
+title = c_ephesus
 
 # Settlements
 max_settlements = 5
-b_ephesus_ephesus = castle
-b_colophon_ephesus = temple
-b_magnesia_ephesus = city
-b_notion_ephesus = city
-b_klaros_ephesus = temple
+b_ephesus = castle
+b_colophon = temple
+b_metropolis = city
+b_notion = city
+b_klaros = temple
+#b_almoura = castle
+#b_teos = castle
 
 # Misc
 culture = ionian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province
