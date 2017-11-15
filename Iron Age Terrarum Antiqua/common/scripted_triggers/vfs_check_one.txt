@@ -1,0 +1,592 @@
+vfs_check_one = {
+	OR = {
+		AND = {
+			has_province_flag = egyptian_pagan_majority
+			NOT = { religion = egyptian_pagan }
+		}
+		AND = { 
+			NOT = { religion = atenist } 
+			has_province_flag = atenist_majority 
+		}  
+		AND = { 
+			NOT = { religion = berber_main } 
+			has_province_flag = berber_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = berber_pagan_reformed } 
+			has_province_flag = berber_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = illyrian_main } 
+			has_province_flag = illyrian_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = thracian_main } 
+			has_province_flag = thracian_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = zalmoxism } 
+			has_province_flag = zalmoxism_majority 
+		}  
+		AND = { 
+			NOT = { religion = zalmoxism_reformed } 
+			has_province_flag = zalmoxism_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = norse_pagan_reformed } 
+			has_province_flag = norse_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = norse_pagan } 
+			has_province_flag = norse_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = east_germanic_pagan_reformed } 
+			has_province_flag = east_germanic_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = east_germanic_pagan } 
+			has_province_flag = east_germanic_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = germanic_pagan_reformed } 
+			has_province_flag = germanic_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = germanic_pagan } 
+			has_province_flag = germanic_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = celtic_pagan } 
+			has_province_flag = celtic_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = celtic_pagan_reformed } 
+			has_province_flag = celtic_pagan_reformed_majority 
+		}  
+		AND = {
+			NOT = { religion = punic_main } 
+			has_province_flag = punic_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = canaanite_pagan } 
+			has_province_flag = canaanite_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = canaanite_pagan_reformed } 
+			has_province_flag = canaanite_pagan_reformed_majority
+		}  
+		AND = { 
+			NOT = { religion = ossetian_pagan_reformed } 
+			has_province_flag = ossetian_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = ossetian_pagan } 
+			has_province_flag = ossetian_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = iranian_pagan } 
+			has_province_flag = iranian_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = iranian_pagan_reformed } 
+			has_province_flag = iranian_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = zoroastrian } 
+			has_province_flag = zoroastrian_majority 
+		}  
+		AND = { 
+			NOT = { religion = zurvanite } 
+			has_province_flag = zurvanite_majority 
+		}  
+		AND = { 
+			NOT = { religion = sogdian_zoroastrian } 
+			has_province_flag = sogdian_zoroastrian_majority
+		}  
+		AND = { 
+			NOT = { religion = bihafaridism } 
+			has_province_flag = bihafaridism_majority 
+		}  
+		AND = { 
+			NOT = { religion = hanifiyya } 
+			has_province_flag = hanifiyya_majority 
+		}  
+		AND = { 
+			NOT = { religion = chinese_pagan_reformed } 
+			has_province_flag = chinese_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = chinese_pagan } 
+			has_province_flag = chinese_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = tibetan_pagan_reformed } 
+			has_province_flag = tibetan_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = tibetan_pagan } 
+			has_province_flag = tibetan_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = sanamahi_reformed } 
+			has_province_flag = sanamahi_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = sanamahi } 
+			has_province_flag = sanamahi_majority 
+		}  
+		AND = { 
+			NOT = { religion = dravidian_pagan_reformed } 
+			has_province_flag = dravidian_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = armenian_pagan } 
+			has_province_flag = armenian_pagan_majority 
+		}  
+		AND = {
+			NOT = { religion = armenian_pagan_reformed } 
+			has_province_flag = armenian_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = yazidi } 
+			has_province_flag = yazidi_majority 
+		}  
+		AND = { 
+			NOT = { religion = jewish } 
+			has_province_flag = jewish_majority 
+		}  
+		AND = { 
+			NOT = { religion = samaritan } 
+			has_province_flag = samaritan_majority 
+		}  
+		AND = { 
+			NOT = { religion = grand_sanhedrin } 
+			has_province_flag = grand_sanhedrin_majority 
+		}  
+		AND = { 
+			NOT = { religion = temple_judaism } 
+			has_province_flag = temple_judaism_majority 
+		}  
+		AND = { 
+			NOT = { religion = karaite } 
+			has_province_flag = karaite_majority 
+		}  
+		AND = { 
+			NOT = { religion = hindu } 
+			has_province_flag = hindu_majority 
+		}
+		AND = { 
+			NOT = { religion = jain } 
+			has_province_flag = jain_majority 
+		}  
+		AND = { 
+			NOT = { religion = buddhist } 
+			has_province_flag = buddhist_majority 
+		}  
+		AND = { 
+			NOT = { religion = vajrayana_buddhist } 
+			has_province_flag = vajrayana_buddhist_majority 
+		}	
+		AND = { 
+			NOT = { religion = mahayana_buddhist } 
+			has_province_flag = mahayana_buddhist_majority 
+		}  
+		AND = { 
+			NOT = { religion = georgian_pagan } 
+			has_province_flag = georgian_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = georgian_pagan_reformed }
+			has_province_flag = georgian_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = anatolian_main } 
+			has_province_flag = anatolian_main_majority
+		}  
+		AND = { 
+			NOT = { religion = phrygian_main } 
+			has_province_flag = phrygian_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = hittite_main } 
+			has_province_flag = hittite_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = marduk_cult } 
+			has_province_flag = marduk_cult_majority 
+		}  
+		AND = { 
+			NOT = { religion = elamite_pagan_reformed } 
+			has_province_flag = elamite_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = elamite_pagan } 
+			has_province_flag = elamite_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = arabic_main } 
+			has_province_flag = arabic_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = south_semitic_pagan_reformed } 
+			has_province_flag = south_semitic_pagan_reformed_majority 
+		}  
+		AND = {
+			NOT = { religion = south_semitic_pagan } 
+			has_province_flag = south_semitic_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = hellenic_pagan_reformed } 
+			has_province_flag = hellenic_pagan_reformed_majority 
+		}  
+		AND = {
+			NOT = { religion = hellenic_pagan } 
+			has_province_flag = hellenic_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = alexandrian_pagan }
+			has_province_flag = alexandrian_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = roman_main } 
+			has_province_flag = roman_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = italic_main } 
+			has_province_flag = italic_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = pontic_main } 
+			has_province_flag = pontic_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = etruscan_main } 
+			has_province_flag = etruscan_main_majority
+		}  
+		AND = { 
+			NOT = { religion = dravidian_main } 
+			has_province_flag = dravidian_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = lusitanian_main } 
+			has_province_flag = lusitanian_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = iberian_main } 
+			has_province_flag = iberian_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = aquitanian_main } 
+			has_province_flag = aquitanian_main_majority 
+		}  
+		AND = { 
+			NOT = { religion = marcionism }
+			has_province_flag = marcionism_majority 
+		}  
+		AND = { 
+			NOT = { religion = priscillianism } 
+			has_province_flag = priscillianism_majority 
+		}  
+		AND = { 
+			NOT = { religion = valentinianism } 
+			has_province_flag = valentinianism_majority 
+		}  
+		AND = { 
+			NOT = { religion = manichean } 
+			has_province_flag = manichean_majority 
+		}  
+		AND = { 
+			NOT = { religion = mandean } 
+			has_province_flag = mandean_majority 
+		}  
+		AND = { 
+			NOT = { religion = bogomilist } 
+			has_province_flag = bogomilist_majority 
+		}  
+		AND = { 
+			NOT = { religion = paulician } 
+			has_province_flag = paulician_majority
+		}  
+		AND = { 
+			NOT = { religion = cathar } 
+			has_province_flag = cathar_majority 
+		}  
+		AND = {
+			NOT = { religion = encratites } 
+			has_province_flag = encratites_majority 
+		}  
+		AND = {
+			NOT = { religion = amidist } 
+			has_province_flag = amidist_majority 
+		}  
+		AND = { 
+			NOT = { religion = confucian } 
+			has_province_flag = confucian_majority 
+		}  
+		AND = {
+			NOT = { religion = neoconfucian } 
+			has_province_flag = neoconfucian_majority
+		}  
+		AND = { 
+			NOT = { religion = taoist } 
+			has_province_flag = taoist_majority 
+		}  
+		AND = { 
+			NOT = { religion = neotaoist } 
+			has_province_flag = neotaoist_majority 
+		}  
+		AND = { 
+			NOT = { religion = hindukush } 
+			has_province_flag = hindukush_majority
+		}  
+		AND = { 
+			NOT = { religion = hindukush_reformed }
+			has_province_flag = hindukush_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = zun_pagan } 
+			has_province_flag = zun_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = zun_pagan_reformed } 
+			has_province_flag = zun_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = bosporan_faith } 
+			has_province_flag = bosporan_faith_majority 
+		}  
+		AND = { 
+			NOT = { religion = imperial } 
+			has_province_flag = imperial_majority 
+		}  
+		AND = { 
+			NOT = { religion = arian } 
+			has_province_flag = arian_majority 
+		}  
+		AND = {
+			NOT = { religion = donatism } 
+			has_province_flag = donatism_majority 
+		}  
+		AND = {
+			NOT = { religion = melitianism }
+			has_province_flag = melitianism_majority 
+		}  
+		AND = { 
+			NOT = { religion = novatianism } 
+			has_province_flag = novatianism_majority 
+		}  
+		AND = { 
+			NOT = { religion = adoptionism } 
+			has_province_flag = adoptionism_majority 
+		}  
+		AND = { 
+			NOT = { religion = sabellianism } 
+			has_province_flag = sabellianism_majority 
+		}  
+		AND = { 
+			NOT = { religion = pelagianism } 
+			has_province_flag = pelagianism_majority
+		}  
+		AND = { 
+			NOT = { religion = macedonianism } 
+			has_province_flag = macedonianism_majority 
+		}
+		AND = { 
+			NOT = { religion = catholic } 
+			has_province_flag = catholic_majority 
+		}  
+		AND = { 
+			NOT = { religion = montanism }
+			has_province_flag = montanism_majority 
+		}  
+		AND = { 
+			NOT = { religion = fraticelli } 
+			has_province_flag = fraticelli_majority 
+		}  
+		AND = { 
+			NOT = { religion = waldensian } 
+			has_province_flag = waldensian_majority 
+		}  
+		AND = { 
+			NOT = { religion = lollard } 
+			has_province_flag = lollard_majority 
+		}  
+		AND = { 
+			NOT = { religion = orthodox }
+			has_province_flag = orthodox_majority
+		}  
+		AND = { 
+			NOT = { religion = miaphysite } 
+			has_province_flag = miaphysite_majority 
+		}  
+		AND = { 
+			NOT = { religion = tondrakian }
+			has_province_flag = tondrakian_majority
+		}  
+		AND = { 
+			NOT = { religion = monophysite } 
+			has_province_flag = monophysite_majority 
+		}  
+		AND = { 
+			NOT = { religion = monothelite } 
+			has_province_flag = monothelite_majority 
+		}  
+		AND = { 
+			NOT = { religion = iconoclast } 
+			has_province_flag = iconoclast_majority 
+		}  
+		AND = { 
+			NOT = { religion = nestorian } 
+			has_province_flag = nestorian_majority 
+		}  
+		AND = { 
+			NOT = { religion = eutychian } 
+			has_province_flag = eutychian_majority 
+		}  
+		AND = { 
+			NOT = { religion = messalian } 
+			has_province_flag = messalian_majority 
+		}  
+		AND = { 
+			NOT = { religion = sunni } 
+			has_province_flag = sunni_majority 
+		}  
+		AND = { 
+			NOT = { religion = zikri } 
+			has_province_flag = zikri_majority
+		}  
+		AND = { 
+			NOT = { religion = ibadi } 
+			has_province_flag = ibadi_majority 
+		}  
+		AND = { 
+			NOT = { religion = kharijite } 
+			has_province_flag = kharijite_majority 
+		}  
+		AND = { 
+			NOT = { religion = shiite } 
+			has_province_flag = shiite_majority 
+		}  
+		AND = { 
+			NOT = { religion = druze } 
+			has_province_flag = druze_majority 
+		}  
+		AND = { 
+			NOT = { religion = qarmatian } 
+			has_province_flag = qarmatian_majority 
+		}  
+		AND = { 
+			NOT = { religion = hurufi } 
+			has_province_flag = hurufi_majority 
+		}  
+		AND = { 
+			NOT = { religion = pagan } 
+			has_province_flag = pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = mesopotamian_paganism }
+			has_province_flag = mesopotamian_paganism_majority 
+		}  
+		AND = { 
+			NOT = { religion = mesopotamian_paganism_reformed } 
+			has_province_flag = mesopotamian_paganism_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = tengri_pagan_reformed }
+			has_province_flag = tengri_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = tengri_pagan } 
+			has_province_flag = tengri_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = baltic_pagan_reformed } 
+			has_province_flag = baltic_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = baltic_pagan } 
+			has_province_flag = baltic_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = finnish_pagan_reformed } 
+			has_province_flag = finnish_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = finnish_pagan } 
+			has_province_flag = finnish_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = aztec_reformed } 
+			has_province_flag = aztec_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = aztec } 
+			has_province_flag = aztec_majority 
+		}  
+		AND = { 
+			NOT = { religion = slavic_pagan_reformed } 
+			has_province_flag = slavic_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = slavic_pagan } 
+			has_province_flag = slavic_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = west_african_pagan_reformed }  
+			has_province_flag = west_african_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = west_african_pagan } 
+			has_province_flag = west_african_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = serer } 
+			has_province_flag = serer_majority 
+		}  
+		AND = { 
+			NOT = { religion = bori } 
+			has_province_flag = bori_majority 
+		}  
+		AND = { 
+			NOT = { religion = sol_invictus } 
+			has_province_flag = sol_invictus_majority 
+		}  
+		AND = { 
+			NOT = { religion = egyptian_pagan_reformed } 
+			has_province_flag = egyptian_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = basque_pagan_reformed } 
+			has_province_flag = basque_pagan_reformed_majority 
+		}  
+		AND = { 
+			NOT = { religion = basque_pagan } 
+			has_province_flag = basque_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = semitic_pagan_reformed } 
+			has_province_flag = semitic_pagan_reformed_majority 
+		}  
+		AND = {
+			NOT = { religion = semitic_pagan } 
+			has_province_flag = semitic_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = east_african_pagan_reformed } 
+			has_province_flag = east_african_pagan_reformed_majority 
+		}
+		AND = { 
+			NOT = { religion = east_african_pagan } 
+			has_province_flag = east_african_pagan_majority 
+		}  
+		AND = { 
+			NOT = { religion = mazdaki } 
+			has_province_flag = mazdaki_majority 
+		}  
+		AND = { 
+			NOT = { religion = minoan } 
+			has_province_flag = minoan_majority 
+		}  
+	}
+}

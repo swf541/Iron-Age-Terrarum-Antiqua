@@ -1,3 +1,609 @@
-vfs_religion_growth = { #join previous society
+vfs_religion_growth = { 
+	trigger_switch = {
+		on_trigger = religion
+		
+		egyptian_pagan = { change_variable = { which = egyptian_pagan_pop value = 10 } }
+		atenist = { change_variable = { which = atenist_pop value = 10 } }
+		berber_main = { change_variable = { which = berber_main_pop value = 10 } }
+		berber_pagan_reformed = { change_variable = { which = berber_pagan_reformed_pop value = 10 } }
+		illyrian_main = { change_variable = { which = illyrian_main_pop value = 10 } }
+		thracian_main = { change_variable = { which = thracian_main_pop value = 10 } }
+		zalmoxism = { change_variable = { which = zalmoxism_pop value = 10 } }
+		zalmoxism_reformed = { change_variable = { which = zalmoxism_reformed_pop value = 10 } }
+		norse_pagan_reformed = { change_variable = { which = norse_pagan_reformed_pop value = 10 } }
+		norse_pagan = { change_variable = { which = norse_pagan_pop value = 10 } }
+		east_germanic_pagan_reformed = { change_variable = { which = east_germanic_pagan_reformed_pop value = 10 } }
+		east_germanic_pagan = { change_variable = { which = east_germanic_pagan_pop value = 10 } }
+		germanic_pagan_reformed = { change_variable = { which = germanic_pagan_reformed_pop value = 10 } }
+		germanic_pagan = { change_variable = { which = germanic_pagan_pop value = 10 } }
+		celtic_pagan = { change_variable = { which = celtic_pagan_pop value = 10 } }
+		celtic_pagan_reformed = { change_variable = { which = celtic_pagan_reformed_pop value = 10 } }
+		punic_main = { change_variable = { which = punic_main_pop value = 10 } }
+		canaanite_pagan = { change_variable = { which = canaanite_pagan_pop value = 10 } }
+		canaanite_pagan_reformed = { change_variable = { which = canaanite_pagan_reformed_pop value = 10 } }
+		ossetian_pagan_reformed = { change_variable = { which = ossetian_pagan_reformed_pop value = 10 } }
+		ossetian_pagan = { change_variable = { which = ossetian_pagan_pop value = 10 } }
+		iranian_pagan = { change_variable = { which = iranian_pagan_pop value = 10 } }
+		iranian_pagan_reformed = { change_variable = { which = iranian_pagan_reformed_pop value = 10 } }
+		zoroastrian = { change_variable = { which = zoroastrian_pop value = 10 } }
+		zurvanite = { change_variable = { which = zurvanite_pop value = 10 } }
+		sogdian_zoroastrian = { change_variable = { which = sogdian_zoroastrian_pop value = 10 } }
+		bihafaridism = { change_variable = { which = bihafaridism_pop value = 10 } }
+		hanifiyya = { change_variable = { which = hanifiyya_pop value = 10 } }
+		chinese_pagan_reformed = { change_variable = { which = chinese_pagan_reformed_pop value = 10 } }
+		chinese_pagan = { change_variable = { which = chinese_pagan_pop value = 10 } }
+		tibetan_pagan_reformed = { change_variable = { which = tibetan_pagan_reformed_pop value = 10 } }
+		tibetan_pagan = { change_variable = { which = tibetan_pagan_pop value = 10 } }
+		sanamahi_reformed = { change_variable = { which = sanamahi_reformed_pop value = 10 } }
+		sanamahi = { change_variable = { which = sanamahi_pop value = 10 } }
+		dravidian_pagan_reformed = { change_variable = { which = dravidian_pagan_reformed_pop value = 10 } }
+		armenian_pagan = { change_variable = { which = armenian_pagan_pop value = 10 } }
+		armenian_pagan_reformed = { change_variable = { which = armenian_pagan_reformed_pop value = 10 } }
+		yazidi = { change_variable = { which = yazidi_pop value = 10 } }
+		jewish = { change_variable = { which = jewish_pop value = 10 } }
+		samaritan = { change_variable = { which = samaritan_pop value = 10 } }
+		grand_sanhedrin = { change_variable = { which = grand_sanhedrin_pop value = 10 } }
+		temple_judaism = { change_variable = { which = temple_judaism_pop value = 10 } }
+		karaite = { change_variable = { which = karaite_pop value = 10 } }
+		hindu = { change_variable = { which = hindu_pop value = 10 } }
+		jain = { change_variable = { which = jain_pop value = 10 } }
+		buddhist = { change_variable = { which = buddhist_pop value = 10 } }
+		vajrayana_buddhist = { change_variable = { which = vajrayana_buddhist_pop value = 10 } }
+		mahayana_buddhist = { change_variable = { which = mahayana_buddhist_pop value = 10 } }
+		georgian_pagan = { change_variable = { which = georgian_pagan_pop value = 10 } }
+		georgian_pagan_reformed = { change_variable = { which = georgian_pagan_reformed_pop value = 10 } }
+		anatolian_main = { change_variable = { which = anatolian_main_pop value = 10 } }
+		phrygian_main = { change_variable = { which = phrygian_main_pop value = 10 } }
+		hittite_main = { change_variable = { which = hittite_main_pop value = 10 } }
+		marduk_cult = { change_variable = { which = marduk_cult_pop value = 10 } }
+		elamite_pagan_reformed = { change_variable = { which = elamite_pagan_reformed_pop value = 10 } }
+		elamite_pagan = { change_variable = { which = elamite_pagan_pop value = 10 } }
+		arabic_main = { change_variable = { which = arabic_main_pop value = 10 } }
+		south_semitic_pagan_reformed = { change_variable = { which = south_semitic_pagan_reformed_pop value = 10 } }
+		south_semitic_pagan = { change_variable = { which = south_semitic_pagan_pop value = 10 } }
+		hellenic_pagan_reformed = { change_variable = { which = hellenic_pagan_reformed_pop value = 10 } }
+		hellenic_pagan = { change_variable = { which = hellenic_pagan_pop value = 10 } }
+		alexandrian_pagan = { change_variable = { which = alexandrian_pagan_pop value = 10 } }
+		roman_main = { change_variable = { which = roman_main_pop value = 10 } }
+		italic_main = { change_variable = { which = italic_main_pop value = 10 } }
+		pontic_main = { change_variable = { which = pontic_main_pop value = 10 } }
+		etruscan_main = { change_variable = { which = etruscan_main_pop value = 10 } }
+		dravidian_main = { change_variable = { which = dravidian_main_pop value = 10 } }
+		lusitanian_main = { change_variable = { which = lusitanian_main_pop value = 10 } }
+		iberian_main = { change_variable = { which = iberian_main_pop value = 10 } }
+		aquitanian_main = { change_variable = { which = aquitanian_main_pop value = 10 } }
+		marcionism = { change_variable = { which = marcionism_pop value = 10 } }
+		priscillianism = { change_variable = { which = priscillianism_pop value = 10 } }
+		valentinianism = { change_variable = { which = valentinianism_pop value = 10 } }
+		manichean = { change_variable = { which = manichean_pop value = 10 } }
+		mandean = { change_variable = { which = mandean_pop value = 10 } }
+		bogomilist = { change_variable = { which = bogomilist_pop value = 10 } }
+		paulician = { change_variable = { which = paulician_pop value = 10 } }
+		cathar = { change_variable = { which = cathar_pop value = 10 } }
+		encratites = { change_variable = { which = encratites_pop value = 10 } }
+		amidist = { change_variable = { which = amidist_pop value = 10 } }
+		confucian = { change_variable = { which = confucian_pop value = 10 } }
+		neoconfucian = { change_variable = { which = neoconfucian_pop value = 10 } }
+		taoist = { change_variable = { which = taoist_pop value = 10 } }
+		neotaoist = { change_variable = { which = neotaoist_pop value = 10 } }
+		hindukush = { change_variable = { which = hindukush_pop value = 10 } }
+		hindukush_reformed = { change_variable = { which = hindukush_reformed_pop value = 10 } }
+		zun_pagan = { change_variable = { which = zun_pagan_pop value = 10 } }
+		zun_pagan_reformed = { change_variable = { which = zun_pagan_reformed_pop value = 10 } }
+		bosporan_faith = { change_variable = { which = bosporan_faith_pop value = 10 } }
+		imperial = { change_variable = { which = imperial_pop value = 10 } }
+		arian = { change_variable = { which = arian_pop value = 10 } }
+		donatism = { change_variable = { which = donatism_pop value = 10 } }
+		melitianism = { change_variable = { which = melitianism_pop value = 10 } }
+		novatianism = { change_variable = { which = novatianism_pop value = 10 } }
+		adoptionism = { change_variable = { which = adoptionism_pop value = 10 } }
+		sabellianism = { change_variable = { which = sabellianism_pop value = 10 } }
+		pelagianism = { change_variable = { which = pelagianism_pop value = 10 } }
+		macedonianism = { change_variable = { which = macedonianism_pop value = 10 } }
+		catholic = { change_variable = { which = catholic_pop value = 10 } }
+		montanism = { change_variable = { which = montanism_pop value = 10 } }
+		fraticelli = { change_variable = { which = fraticelli_pop value = 10 } }
+		waldensian = { change_variable = { which = waldensian_pop value = 10 } }
+		lollard = { change_variable = { which = lollard_pop value = 10 } }
+		orthodox = { change_variable = { which = orthodox_pop value = 10 } }
+		miaphysite = { change_variable = { which = miaphysite_pop value = 10 } }
+		tondrakian = { change_variable = { which = tondrakian_pop value = 10 } }
+		monophysite = { change_variable = { which = monophysite_pop value = 10 } }
+		monothelite = { change_variable = { which = monothelite_pop value = 10 } }
+		iconoclast = { change_variable = { which = iconoclast_pop value = 10 } }
+		nestorian = { change_variable = { which = nestorian_pop value = 10 } }
+		eutychian = { change_variable = { which = eutychian_pop value = 10 } }
+		messalian = { change_variable = { which = messalian_pop value = 10 } }
+		sunni = { change_variable = { which = sunni_pop value = 10 } }
+		zikri = { change_variable = { which = zikri_pop value = 10 } }
+		ibadi = { change_variable = { which = ibadi_pop value = 10 } }
+		kharijite = { change_variable = { which = kharijite_pop value = 10 } }
+		shiite = { change_variable = { which = shiite_pop value = 10 } }
+		druze = { change_variable = { which = druze_pop value = 10 } }
+		qarmatian = { change_variable = { which = qarmatian_pop value = 10 } }
+		hurufi = { change_variable = { which = hurufi_pop value = 10 } }
+		pagan = { change_variable = { which = pagan_pop value = 10 } }
+		mesopotamian_paganism = { change_variable = { which = mesopotamian_paganism_pop value = 10 } }
+		mesopotamian_paganism_reformed = { change_variable = { which = mesopotamian_paganism_reformed_pop value = 10 } }
+		tengri_pagan_reformed = { change_variable = { which = tengri_pagan_reformed_pop value = 10 } }
+		tengri_pagan = { change_variable = { which = tengri_pagan_pop value = 10 } }
+		baltic_pagan_reformed = { change_variable = { which = baltic_pagan_reformed_pop value = 10 } }
+		baltic_pagan = { change_variable = { which = baltic_pagan_pop value = 10 } }
+		finnish_pagan_reformed = { change_variable = { which = finnish_pagan_reformed_pop value = 10 } }
+		finnish_pagan = { change_variable = { which = finnish_pagan_pop value = 10 } }
+		aztec_reformed = { change_variable = { which = aztec_reformed_pop value = 10 } }
+		aztec = { change_variable = { which = aztec_pop value = 10 } }
+		slavic_pagan_reformed = { change_variable = { which = slavic_pagan_reformed_pop value = 10 } }
+		slavic_pagan = { change_variable = { which = slavic_pagan_pop value = 10 } }
+		west_african_pagan_reformed = { change_variable = { which = west_african_pagan_reformed_pop value = 10 } }
+		west_african_pagan = { change_variable = { which = west_african_pagan_pop value = 10 } }
+		serer = { change_variable = { which = serer_pop value = 10 } }
+		bori = { change_variable = { which = bori_pop value = 10 } }
+		sol_invictus = { change_variable = { which = sol_invictus_pop value = 10 } }
+		egyptian_pagan_reformed = { change_variable = { which = egyptian_pagan_reformed_pop value = 10 } }
+		basque_pagan_reformed = { change_variable = { which = basque_pagan_reformed_pop value = 10 } }
+		basque_pagan = { change_variable = { which = basque_pagan_pop value = 10 } }
+		semitic_pagan_reformed = { change_variable = { which = semitic_pagan_reformed_pop value = 10 } }
+		semitic_pagan = { change_variable = { which = semitic_pagan_pop value = 10 } }
+		east_african_pagan_reformed = { change_variable = { which = east_african_pagan_reformed_pop value = 10 } }
+		east_african_pagan = { change_variable = { which = east_african_pagan_pop value = 10 } }
+		mazdaki = { change_variable = { which = mazdaki_pop value = 10 } }
+		minoan = { change_variable = { which = minoan_pop value = 10 } }
 
+	}
+	if = {
+		limit = {
+			vfs_check_one = yes
+		}
+		trigger_switch = {
+			on_trigger = has_province_flag
+			
+			egyptian_pagan_majority = { change_variable = { which = egyptian_pagan_pop value = -10 } }
+			atenist_majority = { change_variable = { which = atenist_pop value = -10 } }
+			berber_main_majority = { change_variable = { which = berber_main_pop value = -10 } }
+			berber_pagan_reformed_majority = { change_variable = { which = berber_pagan_reformed_pop value = -10 } }
+			illyrian_main_majority = { change_variable = { which = illyrian_main_pop value = -10 } }
+			thracian_main_majority = { change_variable = { which = thracian_main_pop value = -10 } }
+			zalmoxism_majority = { change_variable = { which = zalmoxism_pop value = -10 } }
+			zalmoxism_reformed_majority = { change_variable = { which = zalmoxism_reformed_pop value = -10 } }
+			norse_pagan_reformed_majority = { change_variable = { which = norse_pagan_reformed_pop value = -10 } }
+			norse_pagan_majority = { change_variable = { which = norse_pagan_pop value = -10 } }
+			east_germanic_pagan_reformed_majority = { change_variable = { which = east_germanic_pagan_reformed_pop value = -10 } }
+			east_germanic_pagan_majority = { change_variable = { which = east_germanic_pagan_pop value = -10 } }
+			germanic_pagan_reformed_majority = { change_variable = { which = germanic_pagan_reformed_pop value = -10 } }
+			germanic_pagan_majority = { change_variable = { which = germanic_pagan_pop value = -10 } }
+			celtic_pagan_majority = { change_variable = { which = celtic_pagan_pop value = -10 } }
+			celtic_pagan_reformed_majority = { change_variable = { which = celtic_pagan_reformed_pop value = -10 } }
+			punic_main_majority = { change_variable = { which = punic_main_pop value = -10 } }
+			canaanite_pagan_majority = { change_variable = { which = canaanite_pagan_pop value = -10 } }
+			canaanite_pagan_reformed_majority = { change_variable = { which = canaanite_pagan_reformed_pop value = -10 } }
+			ossetian_pagan_reformed_majority = { change_variable = { which = ossetian_pagan_reformed_pop value = -10 } }
+			ossetian_pagan_majority = { change_variable = { which = ossetian_pagan_pop value = -10 } }
+			iranian_pagan_majority = { change_variable = { which = iranian_pagan_pop value = -10 } }
+			iranian_pagan_reformed_majority = { change_variable = { which = iranian_pagan_reformed_pop value = -10 } }
+			zoroastrian_majority = { change_variable = { which = zoroastrian_pop value = -10 } }
+			zurvanite_majority = { change_variable = { which = zurvanite_pop value = -10 } }
+			sogdian_zoroastrian_majority = { change_variable = { which = sogdian_zoroastrian_pop value = -10 } }
+			bihafaridism_majority = { change_variable = { which = bihafaridism_pop value = -10 } }
+			hanifiyya_majority = { change_variable = { which = hanifiyya_pop value = -10 } }
+			chinese_pagan_reformed_majority = { change_variable = { which = chinese_pagan_reformed_pop value = -10 } }
+			chinese_pagan_majority = { change_variable = { which = chinese_pagan_pop value = -10 } }
+			tibetan_pagan_reformed_majority = { change_variable = { which = tibetan_pagan_reformed_pop value = -10 } }
+			tibetan_pagan_majority = { change_variable = { which = tibetan_pagan_pop value = -10 } }
+			sanamahi_reformed_majority = { change_variable = { which = sanamahi_reformed_pop value = -10 } }
+			sanamahi_majority = { change_variable = { which = sanamahi_pop value = -10 } }
+			dravidian_pagan_reformed_majority = { change_variable = { which = dravidian_pagan_reformed_pop value = -10 } }
+			armenian_pagan_majority = { change_variable = { which = armenian_pagan_pop value = -10 } }
+			armenian_pagan_reformed_majority = { change_variable = { which = armenian_pagan_reformed_pop value = -10 } }
+			yazidi_majority = { change_variable = { which = yazidi_pop value = -10 } }
+			jewish_majority = { change_variable = { which = jewish_pop value = -10 } }
+			samaritan_majority = { change_variable = { which = samaritan_pop value = -10 } }
+			grand_sanhedrin_majority = { change_variable = { which = grand_sanhedrin_pop value = -10 } }
+			temple_judaism_majority = { change_variable = { which = temple_judaism_pop value = -10 } }
+			karaite_majority = { change_variable = { which = karaite_pop value = -10 } }
+			hindu_majority = { change_variable = { which = hindu_pop value = -10 } }
+			jain_majority = { change_variable = { which = jain_pop value = -10 } }
+			buddhist_majority = { change_variable = { which = buddhist_pop value = -10 } }
+			vajrayana_buddhist_majority = { change_variable = { which = vajrayana_buddhist_pop value = -10 } }
+			mahayana_buddhist_majority = { change_variable = { which = mahayana_buddhist_pop value = -10 } }
+			georgian_pagan_majority = { change_variable = { which = georgian_pagan_pop value = -10 } }
+			georgian_pagan_reformed_majority = { change_variable = { which = georgian_pagan_reformed_pop value = -10 } }
+			anatolian_main_majority = { change_variable = { which = anatolian_main_pop value = -10 } }
+			phrygian_main_majority = { change_variable = { which = phrygian_main_pop value = -10 } }
+			hittite_main_majority = { change_variable = { which = hittite_main_pop value = -10 } }
+			marduk_cult_majority = { change_variable = { which = marduk_cult_pop value = -10 } }
+			elamite_pagan_reformed_majority = { change_variable = { which = elamite_pagan_reformed_pop value = -10 } }
+			elamite_pagan_majority = { change_variable = { which = elamite_pagan_pop value = -10 } }
+			arabic_main_majority = { change_variable = { which = arabic_main_pop value = -10 } }
+			south_semitic_pagan_reformed_majority = { change_variable = { which = south_semitic_pagan_reformed_pop value = -10 } }
+			south_semitic_pagan_majority = { change_variable = { which = south_semitic_pagan_pop value = -10 } }
+			hellenic_pagan_reformed_majority = { change_variable = { which = hellenic_pagan_reformed_pop value = -10 } }
+			hellenic_pagan_majority = { change_variable = { which = hellenic_pagan_pop value = -10 } }
+			alexandrian_pagan_majority = { change_variable = { which = alexandrian_pagan_pop value = -10 } }
+			roman_main_majority = { change_variable = { which = roman_main_pop value = -10 } }
+			italic_main_majority = { change_variable = { which = italic_main_pop value = -10 } }
+			pontic_main_majority = { change_variable = { which = pontic_main_pop value = -10 } }
+			etruscan_main_majority = { change_variable = { which = etruscan_main_pop value = -10 } }
+			dravidian_main_majority = { change_variable = { which = dravidian_main_pop value = -10 } }
+			lusitanian_main_majority = { change_variable = { which = lusitanian_main_pop value = -10 } }
+			iberian_main_majority = { change_variable = { which = iberian_main_pop value = -10 } }
+			aquitanian_main_majority = { change_variable = { which = aquitanian_main_pop value = -10 } }
+			marcionism_majority = { change_variable = { which = marcionism_pop value = -10 } }
+			priscillianism_majority = { change_variable = { which = priscillianism_pop value = -10 } }
+			valentinianism_majority = { change_variable = { which = valentinianism_pop value = -10 } }
+			manichean_majority = { change_variable = { which = manichean_pop value = -10 } }
+			mandean_majority = { change_variable = { which = mandean_pop value = -10 } }
+			bogomilist_majority = { change_variable = { which = bogomilist_pop value = -10 } }
+			paulician_majority = { change_variable = { which = paulician_pop value = -10 } }
+			cathar_majority = { change_variable = { which = cathar_pop value = -10 } }
+			encratites_majority = { change_variable = { which = encratites_pop value = -10 } }
+			amidist_majority = { change_variable = { which = amidist_pop value = -10 } }
+			confucian_majority = { change_variable = { which = confucian_pop value = -10 } }
+			neoconfucian_majority = { change_variable = { which = neoconfucian_pop value = -10 } }
+			taoist_majority = { change_variable = { which = taoist_pop value = -10 } }
+			neotaoist_majority = { change_variable = { which = neotaoist_pop value = -10 } }
+			hindukush_majority = { change_variable = { which = hindukush_pop value = -10 } }
+			hindukush_reformed_majority = { change_variable = { which = hindukush_reformed_pop value = -10 } }
+			zun_pagan_majority = { change_variable = { which = zun_pagan_pop value = -10 } }
+			zun_pagan_reformed_majority = { change_variable = { which = zun_pagan_reformed_pop value = -10 } }
+			bosporan_faith_majority = { change_variable = { which = bosporan_faith_pop value = -10 } }
+			imperial_majority = { change_variable = { which = imperial_pop value = -10 } }
+			arian_majority = { change_variable = { which = arian_pop value = -10 } }
+			donatism_majority = { change_variable = { which = donatism_pop value = -10 } }
+			melitianism_majority = { change_variable = { which = melitianism_pop value = -10 } }
+			novatianism_majority = { change_variable = { which = novatianism_pop value = -10 } }
+			adoptionism_majority = { change_variable = { which = adoptionism_pop value = -10 } }
+			sabellianism_majority = { change_variable = { which = sabellianism_pop value = -10 } }
+			pelagianism_majority = { change_variable = { which = pelagianism_pop value = -10 } }
+			macedonianism_majority = { change_variable = { which = macedonianism_pop value = -10 } }
+			catholic_majority = { change_variable = { which = catholic_pop value = -10 } }
+			montanism_majority = { change_variable = { which = montanism_pop value = -10 } }
+			fraticelli_majority = { change_variable = { which = fraticelli_pop value = -10 } }
+			waldensian_majority = { change_variable = { which = waldensian_pop value = -10 } }
+			lollard_majority = { change_variable = { which = lollard_pop value = -10 } }
+			orthodox_majority = { change_variable = { which = orthodox_pop value = -10 } }
+			miaphysite_majority = { change_variable = { which = miaphysite_pop value = -10 } }
+			tondrakian_majority = { change_variable = { which = tondrakian_pop value = -10 } }
+			monophysite_majority = { change_variable = { which = monophysite_pop value = -10 } }
+			monothelite_majority = { change_variable = { which = monothelite_pop value = -10 } }
+			iconoclast_majority = { change_variable = { which = iconoclast_pop value = -10 } }
+			nestorian_majority = { change_variable = { which = nestorian_pop value = -10 } }
+			eutychian_majority = { change_variable = { which = eutychian_pop value = -10 } }
+			messalian_majority = { change_variable = { which = messalian_pop value = -10 } }
+			sunni_majority = { change_variable = { which = sunni_pop value = -10 } }
+			zikri_majority = { change_variable = { which = zikri_pop value = -10 } }
+			ibadi_majority = { change_variable = { which = ibadi_pop value = -10 } }
+			kharijite_majority = { change_variable = { which = kharijite_pop value = -10 } }
+			shiite_majority = { change_variable = { which = shiite_pop value = -10 } }
+			druze_majority = { change_variable = { which = druze_pop value = -10 } }
+			qarmatian_majority = { change_variable = { which = qarmatian_pop value = -10 } }
+			hurufi_majority = { change_variable = { which = hurufi_pop value = -10 } }
+			pagan_majority = { change_variable = { which = pagan_pop value = -10 } }
+			mesopotamian_paganism_majority = { change_variable = { which = mesopotamian_paganism_pop value = -10 } }
+			mesopotamian_paganism_reformed_majority = { change_variable = { which = mesopotamian_paganism_reformed_pop value = -10 } }
+			tengri_pagan_reformed_majority = { change_variable = { which = tengri_pagan_reformed_pop value = -10 } }
+			tengri_pagan_majority = { change_variable = { which = tengri_pagan_pop value = -10 } }
+			baltic_pagan_reformed_majority = { change_variable = { which = baltic_pagan_reformed_pop value = -10 } }
+			baltic_pagan_majority = { change_variable = { which = baltic_pagan_pop value = -10 } }
+			finnish_pagan_reformed_majority = { change_variable = { which = finnish_pagan_reformed_pop value = -10 } }
+			finnish_pagan_majority = { change_variable = { which = finnish_pagan_pop value = -10 } }
+			aztec_reformed_majority = { change_variable = { which = aztec_reformed_pop value = -10 } }
+			aztec_majority = { change_variable = { which = aztec_pop value = -10 } }
+			slavic_pagan_reformed_majority = { change_variable = { which = slavic_pagan_reformed_pop value = -10 } }
+			slavic_pagan_majority = { change_variable = { which = slavic_pagan_pop value = -10 } }
+			west_african_pagan_reformed_majority = { change_variable = { which = west_african_pagan_reformed_pop value = -10 } }
+			west_african_pagan_majority = { change_variable = { which = west_african_pagan_pop value = -10 } }
+			serer_majority = { change_variable = { which = serer_pop value = -10 } }
+			bori_majority = { change_variable = { which = bori_pop value = -10 } }
+			sol_invictus_majority = { change_variable = { which = sol_invictus_pop value = -10 } }
+			egyptian_pagan_reformed_majority = { change_variable = { which = egyptian_pagan_reformed_pop value = -10 } }
+			basque_pagan_reformed_majority = { change_variable = { which = basque_pagan_reformed_pop value = -10 } }
+			basque_pagan_majority = { change_variable = { which = basque_pagan_pop value = -10 } }
+			semitic_pagan_reformed_majority = { change_variable = { which = semitic_pagan_reformed_pop value = -10 } }
+			semitic_pagan_majority = { change_variable = { which = semitic_pagan_pop value = -10 } }
+			east_african_pagan_reformed_majority = { change_variable = { which = east_african_pagan_reformed_pop value = -10 } }
+			east_african_pagan_majority = { change_variable = { which = east_african_pagan_pop value = -10 } }
+			mazdaki_majority = { change_variable = { which = mazdaki_pop value = -10 } }
+			minoan_majority = { change_variable = { which = minoan_pop value = -10 } }
+		}
+	}
 }
+
+vfs_demographic_check_effect = {
+	clr_province_flag = egyptian_pagan_majority
+	clr_province_flag = atenist_majority
+	clr_province_flag = berber_main_majority
+	clr_province_flag = berber_pagan_reformed_majority
+	clr_province_flag = illyrian_main_majority
+	clr_province_flag = thracian_main_majority
+	clr_province_flag = zalmoxism_majority
+	clr_province_flag = zalmoxism_reformed_majority
+	clr_province_flag = norse_pagan_reformed_majority
+	clr_province_flag = norse_pagan_majority
+	clr_province_flag = east_germanic_pagan_reformed_majority
+	clr_province_flag = east_germanic_pagan_majority
+	clr_province_flag = germanic_pagan_reformed_majority
+	clr_province_flag = germanic_pagan_majority
+	clr_province_flag = celtic_pagan_majority
+	clr_province_flag = celtic_pagan_reformed_majority
+	clr_province_flag = punic_main_majority
+	clr_province_flag = canaanite_pagan_majority
+	clr_province_flag = canaanite_pagan_reformed_majority
+	clr_province_flag = ossetian_pagan_reformed_majority
+	clr_province_flag = ossetian_pagan_majority
+	clr_province_flag = iranian_pagan_majority
+	clr_province_flag = iranian_pagan_reformed_majority
+	clr_province_flag = zoroastrian_majority
+	clr_province_flag = zurvanite_majority
+	clr_province_flag = sogdian_zoroastrian_majority
+	clr_province_flag = bihafaridism_majority
+	clr_province_flag = hanifiyya_majority
+	clr_province_flag = chinese_pagan_reformed_majority
+	clr_province_flag = chinese_pagan_majority
+	clr_province_flag = tibetan_pagan_reformed_majority
+	clr_province_flag = tibetan_pagan_majority
+	clr_province_flag = sanamahi_reformed_majority
+	clr_province_flag = sanamahi_majority
+	clr_province_flag = dravidian_pagan_reformed_majority
+	clr_province_flag = armenian_pagan_majority
+	clr_province_flag = armenian_pagan_reformed_majority
+	clr_province_flag = yazidi_majority
+	clr_province_flag = jewish_majority
+	clr_province_flag = samaritan_majority
+	clr_province_flag = grand_sanhedrin_majority
+	clr_province_flag = temple_judaism_majority
+	clr_province_flag = karaite_majority
+	clr_province_flag = hindu_majority
+	clr_province_flag = jain_majority
+	clr_province_flag = buddhist_majority
+	clr_province_flag = vajrayana_buddhist_majority
+	clr_province_flag = mahayana_buddhist_majority
+	clr_province_flag = georgian_pagan_majority
+	clr_province_flag = georgian_pagan_reformed_majority
+	clr_province_flag = anatolian_main_majority
+	clr_province_flag = phrygian_main_majority
+	clr_province_flag = hittite_main_majority
+	clr_province_flag = marduk_cult_majority
+	clr_province_flag = elamite_pagan_reformed_majority
+	clr_province_flag = elamite_pagan_majority
+	clr_province_flag = arabic_main_majority
+	clr_province_flag = south_semitic_pagan_reformed_majority
+	clr_province_flag = south_semitic_pagan_majority
+	clr_province_flag = hellenic_pagan_reformed_majority
+	clr_province_flag = hellenic_pagan_majority
+	clr_province_flag = alexandrian_pagan_majority
+	clr_province_flag = roman_main_majority
+	clr_province_flag = italic_main_majority
+	clr_province_flag = pontic_main_majority
+	clr_province_flag = etruscan_main_majority
+	clr_province_flag = dravidian_main_majority
+	clr_province_flag = lusitanian_main_majority
+	clr_province_flag = iberian_main_majority
+	clr_province_flag = aquitanian_main_majority
+	clr_province_flag = marcionism_majority
+	clr_province_flag = priscillianism_majority
+	clr_province_flag = valentinianism_majority
+	clr_province_flag = manichean_majority
+	clr_province_flag = mandean_majority
+	clr_province_flag = bogomilist_majority
+	clr_province_flag = paulician_majority
+	clr_province_flag = cathar_majority
+	clr_province_flag = encratites_majority
+	clr_province_flag = amidist_majority
+	clr_province_flag = confucian_majority
+	clr_province_flag = neoconfucian_majority
+	clr_province_flag = taoist_majority
+	clr_province_flag = neotaoist_majority
+	clr_province_flag = hindukush_majority
+	clr_province_flag = hindukush_reformed_majority
+	clr_province_flag = zun_pagan_majority
+	clr_province_flag = zun_pagan_reformed_majority
+	clr_province_flag = bosporan_faith_majority
+	clr_province_flag = imperial_majority
+	clr_province_flag = arian_majority
+	clr_province_flag = donatism_majority
+	clr_province_flag = melitianism_majority
+	clr_province_flag = novatianism_majority
+	clr_province_flag = adoptionism_majority
+	clr_province_flag = sabellianism_majority
+	clr_province_flag = pelagianism_majority
+	clr_province_flag = macedonianism_majority
+	clr_province_flag = catholic_majority
+	clr_province_flag = montanism_majority
+	clr_province_flag = fraticelli_majority
+	clr_province_flag = waldensian_majority
+	clr_province_flag = lollard_majority
+	clr_province_flag = orthodox_majority
+	clr_province_flag = miaphysite_majority
+	clr_province_flag = tondrakian_majority
+	clr_province_flag = monophysite_majority
+	clr_province_flag = monothelite_majority
+	clr_province_flag = iconoclast_majority
+	clr_province_flag = nestorian_majority
+	clr_province_flag = eutychian_majority
+	clr_province_flag = messalian_majority
+	clr_province_flag = sunni_majority
+	clr_province_flag = zikri_majority
+	clr_province_flag = ibadi_majority
+	clr_province_flag = kharijite_majority
+	clr_province_flag = shiite_majority
+	clr_province_flag = druze_majority
+	clr_province_flag = qarmatian_majority
+	clr_province_flag = hurufi_majority
+	clr_province_flag = pagan_majority
+	clr_province_flag = mesopotamian_paganism_majority
+	clr_province_flag = mesopotamian_paganism_reformed_majority
+	clr_province_flag = tengri_pagan_reformed_majority
+	clr_province_flag = tengri_pagan_majority
+	clr_province_flag = baltic_pagan_reformed_majority
+	clr_province_flag = baltic_pagan_majority
+	clr_province_flag = finnish_pagan_reformed_majority
+	clr_province_flag = finnish_pagan_majority
+	clr_province_flag = aztec_reformed_majority
+	clr_province_flag = aztec_majority
+	clr_province_flag = slavic_pagan_reformed_majority
+	clr_province_flag = slavic_pagan_majority
+	clr_province_flag = west_african_pagan_reformed_majority
+	clr_province_flag = west_african_pagan_majority
+	clr_province_flag = serer_majority
+	clr_province_flag = bori_majority
+	clr_province_flag = sol_invictus_majority
+	clr_province_flag = egyptian_pagan_reformed_majority
+	clr_province_flag = basque_pagan_reformed_majority
+	clr_province_flag = basque_pagan_majority
+	clr_province_flag = semitic_pagan_reformed_majority
+	clr_province_flag = semitic_pagan_majority
+	clr_province_flag = east_african_pagan_reformed_majority
+	clr_province_flag = east_african_pagan_majority
+	clr_province_flag = mazdaki_majority
+	clr_province_flag = minoan_majority
+
+	if = { limit = { egyptian_pagan_plurality = yes } religion = egyptian_pagan set_province_flag = egyptian_pagan_majority } 
+	if = { limit = { atenist_plurality = yes } religion = atenist set_province_flag = atenist_majority } 
+	if = { limit = { berber_main_plurality = yes }  religion = berber_main set_province_flag = berber_main_majority } 
+	if = { limit = { berber_pagan_reformed_plurality = yes } religion = berber_pagan_reformed set_province_flag = berber_pagan_reformed_majority } 
+	if = { limit = { illyrian_main_plurality = yes } religion = illyrian_main set_province_flag = illyrian_main_majority } 
+	if = { limit = { thracian_main_plurality = yes } religion = thracian_main set_province_flag = thracian_main_majority } 
+	if = { limit = { zalmoxism_plurality = yes } religion = zalmoxism set_province_flag = zalmoxism_majority } 
+	if = { limit = { zalmoxism_reformed_plurality = yes } religion = zalmoxism_reformed set_province_flag = zalmoxism_reformed_majority } 
+	if = { limit = { norse_pagan_reformed_plurality = yes } religion = norse_pagan_reformed set_province_flag = norse_pagan_reformed_majority } 
+	if = { limit = { norse_pagan_plurality = yes } religion = norse_pagan set_province_flag = norse_pagan_majority } 
+	if = { limit = { east_germanic_pagan_reformed_plurality = yes } religion = east_germanic_pagan_reformed set_province_flag = east_germanic_pagan_reformed_majority } 
+	if = { limit = { east_germanic_pagan_plurality = yes } religion = east_germanic_pagan set_province_flag = east_germanic_pagan_majority } 
+	if = { limit = { germanic_pagan_reformed_plurality = yes } religion = germanic_pagan_reformed set_province_flag = germanic_pagan_reformed_majority } 
+	if = { limit = { germanic_pagan_plurality = yes } religion = germanic_pagan set_province_flag = germanic_pagan_majority } 
+	if = { limit = { celtic_pagan_plurality = yes } religion = celtic_pagan set_province_flag = celtic_pagan_majority } 
+	if = { limit = { celtic_pagan_reformed_plurality = yes } religion = celtic_pagan_reformed set_province_flag = celtic_pagan_reformed_majority } 
+	if = { limit = { punic_main_plurality = yes } religion = punic_main set_province_flag = punic_main_majority } 
+	if = { limit = { canaanite_pagan_plurality = yes } religion = canaanite_pagan set_province_flag = canaanite_pagan_majority } 
+	if = { limit = { canaanite_pagan_reformed_plurality = yes } religion = canaanite_pagan_reformed set_province_flag = canaanite_pagan_reformed_majority } 
+	if = { limit = { ossetian_pagan_reformed_plurality = yes } religion = ossetian_pagan_reformed set_province_flag = ossetian_pagan_reformed_majority } 
+	if = { limit = { ossetian_pagan_plurality = yes } religion = ossetian_pagan set_province_flag = ossetian_pagan_majority } 
+	if = { limit = { iranian_pagan_plurality = yes } religion = iranian_pagan set_province_flag = iranian_pagan_majority } 
+	if = { limit = { iranian_pagan_reformed_plurality = yes } religion = iranian_pagan_reformed set_province_flag = iranian_pagan_reformed_majority } 
+	if = { limit = { zoroastrian_plurality = yes } religion = zoroastrian set_province_flag = zoroastrian_majority } 
+	if = { limit = { zurvanite_plurality = yes } religion = zurvanite set_province_flag = zurvanite_majority } 
+	if = { limit = { sogdian_zoroastrian_plurality = yes } religion = sogdian_zoroastrian set_province_flag = sogdian_zoroastrian_majority } 
+	if = { limit = { bihafaridism_plurality = yes } religion = bihafaridism set_province_flag = bihafaridism_majority } 
+	if = { limit = { hanifiyya_plurality = yes } religion = hanifiyya set_province_flag = hanifiyya_majority } 
+	if = { limit = { chinese_pagan_reformed_plurality = yes } religion = chinese_pagan_reformed set_province_flag = chinese_pagan_reformed_majority } 
+	if = { limit = { chinese_pagan_plurality = yes } religion = chinese_pagan set_province_flag = chinese_pagan_majority } 
+	if = { limit = { tibetan_pagan_reformed_plurality = yes } religion = tibetan_pagan_reformed set_province_flag = tibetan_pagan_reformed_majority } 
+	if = { limit = { tibetan_pagan_plurality = yes } religion = tibetan_pagan set_province_flag = tibetan_pagan_majority } 
+	if = { limit = { sanamahi_reformed_plurality = yes } religion = sanamahi_reformed set_province_flag = sanamahi_reformed_majority } 
+	if = { limit = { sanamahi_plurality = yes } religion = sanamahi set_province_flag = sanamahi_majority } 
+	if = { limit = { dravidian_pagan_reformed_plurality = yes } religion = dravidian_pagan_reformed set_province_flag = dravidian_pagan_reformed_majority } 
+	if = { limit = { armenian_pagan_plurality = yes } religion = armenian_pagan set_province_flag = armenian_pagan_majority } 
+	if = { limit = { armenian_pagan_reformed_plurality = yes } religion = armenian_pagan_reformed set_province_flag = armenian_pagan_reformed_majority } 
+	if = { limit = { yazidi_plurality = yes } religion = yazidi set_province_flag = yazidi_majority } 
+	if = { limit = { jewish_plurality = yes } religion = jewish set_province_flag = jewish_majority } 
+	if = { limit = { samaritan_plurality = yes } religion = samaritan set_province_flag = samaritan_majority } 
+	if = { limit = { grand_sanhedrin_plurality = yes } religion = grand_sanhedrin set_province_flag = grand_sanhedrin_majority } 
+	if = { limit = { temple_judaism_plurality = yes } religion = temple_judaism set_province_flag = temple_judaism_majority } 
+	if = { limit = { karaite_plurality = yes } religion = karaite set_province_flag = karaite_majority } 
+	if = { limit = { hindu_plurality = yes } religion = hindu set_province_flag = hindu_majority } 
+	if = { limit = { jain_plurality = yes } religion = jain set_province_flag = jain_majority } 
+	if = { limit = { buddhist_plurality = yes } religion = buddhist set_province_flag = buddhist_majority } 
+	if = { limit = { vajrayana_buddhist_plurality = yes } religion = vajrayana_buddhist set_province_flag = vajrayana_buddhist_majority } 
+	if = { limit = { mahayana_buddhist_plurality = yes } religion = mahayana_buddhist set_province_flag = mahayana_buddhist_majority } 
+	if = { limit = { georgian_pagan_plurality = yes } religion = georgian_pagan set_province_flag = georgian_pagan_majority } 
+	if = { limit = { georgian_pagan_reformed_plurality = yes } religion = georgian_pagan_reformed set_province_flag = georgian_pagan_reformed_majority } 
+	if = { limit = { anatolian_main_plurality = yes } religion = anatolian_main set_province_flag = anatolian_main_majority } 
+	if = { limit = { phrygian_main_plurality = yes } religion = phrygian_main set_province_flag = phrygian_main_majority } 
+	if = { limit = { hittite_main_plurality = yes } religion = hittite_main set_province_flag = hittite_main_majority } 
+	if = { limit = { marduk_cult_plurality = yes } religion = marduk_cult set_province_flag = marduk_cult_majority } 
+	if = { limit = { elamite_pagan_reformed_plurality = yes } religion = elamite_pagan_reformed set_province_flag = elamite_pagan_reformed_majority } 
+	if = { limit = { elamite_pagan_plurality = yes } religion = elamite_pagan set_province_flag = elamite_pagan_majority } 
+	if = { limit = { arabic_main_plurality = yes } religion = arabic_main set_province_flag = arabic_main_majority } 
+	if = { limit = { south_semitic_pagan_reformed_plurality = yes } religion = south_semitic_pagan_reformed set_province_flag = south_semitic_pagan_reformed_majority } 
+	if = { limit = { south_semitic_pagan_plurality = yes } religion = south_semitic_pagan set_province_flag = south_semitic_pagan_majority } 
+	if = { limit = { hellenic_pagan_reformed_plurality = yes } religion = hellenic_pagan_reformed set_province_flag = hellenic_pagan_reformed_majority } 
+	if = { limit = { hellenic_pagan_plurality = yes } religion = hellenic_pagan set_province_flag = hellenic_pagan_majority } 
+	if = { limit = { alexandrian_pagan_plurality = yes } religion = alexandrian_pagan set_province_flag = alexandrian_pagan_majority } 
+	if = { limit = { roman_main_plurality = yes } religion = roman_main set_province_flag = roman_main_majority } 
+	if = { limit = { italic_main_plurality = yes } religion = italic_main set_province_flag = italic_main_majority } 
+	if = { limit = { pontic_main_plurality = yes } religion = pontic_main set_province_flag = pontic_main_majority } 
+	if = { limit = { etruscan_main_plurality = yes } religion = etruscan_main set_province_flag = etruscan_main_majority } 
+	if = { limit = { dravidian_main_plurality = yes } religion = dravidian_main set_province_flag = dravidian_main_majority } 
+	if = { limit = { lusitanian_main_plurality = yes } religion = lusitanian_main set_province_flag = lusitanian_main_majority } 
+	if = { limit = { iberian_main_plurality = yes } religion = iberian_main set_province_flag = iberian_main_majority } 
+	if = { limit = { aquitanian_main_plurality = yes } religion = aquitanian_main set_province_flag = aquitanian_main_majority } 
+	if = { limit = { marcionism_plurality = yes } religion = marcionism set_province_flag = marcionism_majority } 
+	if = { limit = { priscillianism_plurality = yes } religion = priscillianism set_province_flag = priscillianism_majority } 
+	if = { limit = { valentinianism_plurality = yes } religion = valentinianism set_province_flag = valentinianism_majority } 
+	if = { limit = { manichean_plurality = yes } religion = manichean set_province_flag = manichean_majority } 
+	if = { limit = { mandean_plurality = yes } religion = mandean set_province_flag = mandean_majority } 
+	if = { limit = { bogomilist_plurality = yes } religion = bogomilist set_province_flag = bogomilist_majority } 
+	if = { limit = { paulician_plurality = yes } religion = paulician set_province_flag = paulician_majority } 
+	if = { limit = { cathar_plurality = yes } religion = cathar set_province_flag = cathar_majority } 
+	if = { limit = { encratites_plurality = yes } religion = encratites set_province_flag = encratites_majority } 
+	if = { limit = { amidist_plurality = yes } religion = amidist set_province_flag = amidist_majority } 
+	if = { limit = { confucian_plurality = yes } religion = confucian set_province_flag = confucian_majority } 
+	if = { limit = { neoconfucian_plurality = yes } religion = neoconfucian set_province_flag = neoconfucian_majority } 
+	if = { limit = { taoist_plurality = yes } religion = taoist set_province_flag = taoist_majority } 
+	if = { limit = { neotaoist_plurality = yes } religion = neotaoist set_province_flag = neotaoist_majority } 
+	if = { limit = { hindukush_plurality = yes } religion = hindukush set_province_flag = hindukush_majority } 
+	if = { limit = { hindukush_reformed_plurality = yes } religion = hindukush_reformed set_province_flag = hindukush_reformed_majority } 
+	if = { limit = { zun_pagan_plurality = yes } religion = zun_pagan set_province_flag = zun_pagan_majority } 
+	if = { limit = { zun_pagan_reformed_plurality = yes } religion = zun_pagan_reformed set_province_flag = zun_pagan_reformed_majority } 
+	if = { limit = { bosporan_faith_plurality = yes } religion = bosporan_faith set_province_flag = bosporan_faith_majority } 
+	if = { limit = { imperial_plurality = yes } religion = imperial set_province_flag = imperial_majority } 
+	if = { limit = { arian_plurality = yes } religion = arian set_province_flag = arian_majority } 
+	if = { limit = { donatism_plurality = yes } religion = donatism set_province_flag = donatism_majority } 
+	if = { limit = { melitianism_plurality = yes } religion = melitianism set_province_flag = melitianism_majority } 
+	if = { limit = { novatianism_plurality = yes } religion = novatianism set_province_flag = novatianism_majority } 
+	if = { limit = { adoptionism_plurality = yes } religion = adoptionism set_province_flag = adoptionism_majority } 
+	if = { limit = { sabellianism_plurality = yes } religion = sabellianism set_province_flag = sabellianism_majority } 
+	if = { limit = { pelagianism_plurality = yes } religion = pelagianism set_province_flag = pelagianism_majority } 
+	if = { limit = { macedonianism_plurality = yes } religion = macedonianism set_province_flag = macedonianism_majority } 
+	if = { limit = { catholic_plurality = yes } religion = catholic set_province_flag = catholic_majority } 
+	if = { limit = { montanism_plurality = yes } religion = montanism set_province_flag = montanism_majority } 
+	if = { limit = { fraticelli_plurality = yes } religion = fraticelli set_province_flag = fraticelli_majority } 
+	if = { limit = { waldensian_plurality = yes } religion = waldensian set_province_flag = waldensian_majority } 
+	if = { limit = { lollard_plurality = yes } religion = lollard set_province_flag = lollard_majority } 
+	if = { limit = { orthodox_plurality = yes } religion = orthodox set_province_flag = orthodox_majority } 
+	if = { limit = { miaphysite_plurality = yes } religion = miaphysite set_province_flag = miaphysite_majority } 
+	if = { limit = { tondrakian_plurality = yes } religion = tondrakian set_province_flag = tondrakian_majority } 
+	if = { limit = { monophysite_plurality = yes } religion = monophysite set_province_flag = monophysite_majority } 
+	if = { limit = { monothelite_plurality = yes } religion = monothelite set_province_flag = monothelite_majority } 
+	if = { limit = { iconoclast_plurality = yes } religion = iconoclast set_province_flag = iconoclast_majority } 
+	if = { limit = { nestorian_plurality = yes } religion = nestorian set_province_flag = nestorian_majority } 
+	if = { limit = { eutychian_plurality = yes } religion = eutychian set_province_flag = eutychian_majority } 
+	if = { limit = { messalian_plurality = yes } religion = messalian set_province_flag = messalian_majority } 
+	if = { limit = { sunni_plurality = yes } religion = sunni set_province_flag = sunni_majority } 
+	if = { limit = { zikri_plurality = yes } religion = zikri set_province_flag = zikri_majority } 
+	if = { limit = { ibadi_plurality = yes } religion = ibadi set_province_flag = ibadi_majority } 
+	if = { limit = { kharijite_plurality = yes } religion = kharijite set_province_flag = kharijite_majority } 
+	if = { limit = { shiite_plurality = yes } religion = shiite set_province_flag = shiite_majority } 
+	if = { limit = { druze_plurality = yes } religion = druze set_province_flag = druze_majority } 
+	if = { limit = { qarmatian_plurality = yes } religion = qarmatian set_province_flag = qarmatian_majority } 
+	if = { limit = { hurufi_plurality = yes } religion = hurufi set_province_flag = hurufi_majority } 
+	if = { limit = { pagan_plurality = yes } religion = pagan set_province_flag = pagan_majority } 
+	if = { limit = { mesopotamian_paganism_plurality = yes } religion = mesopotamian_paganism set_province_flag = mesopotamian_paganism_majority } 
+	if = { limit = { mesopotamian_paganism_reformed_plurality = yes } religion = mesopotamian_paganism_reformed set_province_flag = mesopotamian_paganism_reformed_majority } 
+	if = { limit = { tengri_pagan_reformed_plurality = yes } religion = tengri_pagan_reformed set_province_flag = tengri_pagan_reformed_majority } 
+	if = { limit = { tengri_pagan_plurality = yes } religion = tengri_pagan set_province_flag = tengri_pagan_majority } 
+	if = { limit = { baltic_pagan_reformed_plurality = yes } religion = baltic_pagan_reformed set_province_flag = baltic_pagan_reformed_majority } 
+	if = { limit = { baltic_pagan_plurality = yes } religion = baltic_pagan set_province_flag = baltic_pagan_majority } 
+	if = { limit = { finnish_pagan_reformed_plurality = yes } religion = finnish_pagan_reformed set_province_flag = finnish_pagan_reformed_majority } 
+	if = { limit = { finnish_pagan_plurality = yes } religion = finnish_pagan set_province_flag = finnish_pagan_majority } 
+	if = { limit = { aztec_reformed_plurality = yes } religion = aztec_reformed set_province_flag = aztec_reformed_majority } 
+	if = { limit = { aztec_plurality = yes } religion = aztec set_province_flag = aztec_majority } 
+	if = { limit = { slavic_pagan_reformed_plurality = yes } religion = slavic_pagan_reformed set_province_flag = slavic_pagan_reformed_majority } 
+	if = { limit = { slavic_pagan_plurality = yes } religion = slavic_pagan set_province_flag = slavic_pagan_majority } 
+	if = { limit = { west_african_pagan_reformed_plurality = yes } religion = west_african_pagan_reformed  set_province_flag = west_african_pagan_reformed_majority } 
+	if = { limit = { west_african_pagan_plurality = yes } religion = west_african_pagan set_province_flag = west_african_pagan_majority } 
+	if = { limit = { serer_plurality = yes } religion = serer set_province_flag = serer_majority } 
+	if = { limit = { bori_plurality = yes } religion = bori set_province_flag = bori_majority } 
+	if = { limit = { sol_invictus_plurality = yes } religion = sol_invictus set_province_flag = sol_invictus_majority } 
+	if = { limit = { egyptian_pagan_reformed_plurality = yes } religion = egyptian_pagan_reformed set_province_flag = egyptian_pagan_reformed_majority } 
+	if = { limit = { basque_pagan_reformed_plurality = yes } religion = basque_pagan_reformed set_province_flag = basque_pagan_reformed_majority } 
+	if = { limit = { basque_pagan_plurality = yes } religion = basque_pagan set_province_flag = basque_pagan_majority } 
+	if = { limit = { semitic_pagan_reformed_plurality = yes } religion = semitic_pagan_reformed set_province_flag = semitic_pagan_reformed_majority } 
+	if = { limit = { semitic_pagan_plurality = yes } religion = semitic_pagan set_province_flag = semitic_pagan_majority } 
+	if = { limit = { east_african_pagan_reformed_plurality = yes } religion = east_african_pagan_reformed set_province_flag = east_african_pagan_reformed_majority } 
+	if = { limit = { east_african_pagan_plurality = yes } religion = east_african_pagan set_province_flag = east_african_pagan_majority } 
+	if = { limit = { mazdaki_plurality = yes } religion = mazdaki set_province_flag = mazdaki_majority } 
+	if = { limit = { minoan_plurality = yes } religion = minoan set_province_flag = minoan_majority } 
+
+} 
