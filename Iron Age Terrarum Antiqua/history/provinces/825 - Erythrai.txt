@@ -5,15 +5,16 @@ title = c_erythrai
 
 # Settlements
 max_settlements = 5
-b_erythrai_erythrai = castle
-b_klazomenai_erythrai = city
-b_teos_erythrai = city
-b_chyton_erythrai = castle
-b_embaton_erythrai = city
+b_erythrai = castle
+b_klazomenai2 = city
+b_teos2 = city
+b_chyton = castle
+b_embaton = city
+#b_erythrai6 = temple
+#b_erythrai7 = temple
 
 # Misc
 culture = ionian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

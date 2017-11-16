@@ -519,6 +519,7 @@
 	father=1231394	#Ualraig
 	mother=1231431	#Caitir
 	622.2.20={ birth=yes }
+	643.1.1={ add_spouse=1231432 }
 	670.5.8={ death=yes }
 }
 1231400={
@@ -543,6 +544,381 @@
 	mother=1231431	#Caitir
 	626.3.23={ birth=yes }
 	695.4.3={ death=yes }
+}
+1231401={
+	name=Domelch
+	dynasty=223031
+	dna="aiaaglejlhj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=6
+	trait=tough_soldier 
+	trait=patient 
+	trait=humble 
+	trait=lustful 
+	trait=shy 
+	trait=envious 
+	father=1231399	#Lutrin
+	mother=1231432	#Teàrlag
+	642.2.9={ birth=yes }
+	663.1.1={ add_spouse=1231433 }
+	700.3.14={ death=yes }
+}
+1231402={
+	name=Teàrlag
+	female=yes
+	dynasty=223031
+	dna="aebpjeencke"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231399	#Lutrin
+	mother=1231432	#Teàrlag
+	647.5.18={ birth=yes }
+	712.9.17={ death=yes }
+}
+1231403={
+	name=Crimthann
+	dynasty=223031
+	dna="giiaaldjjha"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=4 
+	learning=7
+	trait=detached_priest 
+	trait=hedonist 
+	trait=chaste 
+	trait=arbitrary 
+	trait=deceitful 
+	trait=possessed 
+	father=1231401	#Domelch
+	mother=1231433	#Borgach
+	663.2.9={ birth=yes }
+	684.1.1={ add_spouse=1231434 }
+	725.11.4={ death=yes }
+}
+1231404={
+	name=Breth
+	dynasty=223031
+	dna="anaaelhjlhh"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=grey_eminence 
+	trait=gluttonous 
+	trait=proud 
+	trait=patient 
+	father=1231401	#Domelch
+	mother=1231433	#Borgach
+	666.6.23={ birth=yes }
+	720.9.21={ death=yes }
+}
+1231405={
+	name=Borgach
+	female=yes
+	dynasty=223031
+	dna="olaeglejlkj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231401	#Domelch
+	mother=1231433	#Borgach
+	670.11.7={ birth=yes }
+	738.2.10={ death=yes }
+}
+1231406={
+	name=Dúngal
+	dynasty=223031
+	dna="amfcklkjbhe"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=4 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=cruel 
+	trait=lustful 
+	trait=honest 
+	trait=zealous 
+	trait=gregarious 
+	father=1231401	#Domelch
+	mother=1231433	#Borgach
+	674.6.13={ birth=yes }
+	759.9.1={ death=yes }
+}
+1231407={
+	name=Uallas
+	dynasty=223031
+	dna="gigfglelghe"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=8 
+	learning=6
+	trait=intricate_webweaver 
+	trait=cruel 
+	trait=brave 
+	trait=chaste 
+	trait=kind 
+	trait=diligent 
+	father=1231401	#Domelch
+	mother=1231433	#Borgach
+	676.5.26={ birth=yes }
+	745.9.7={ death=yes }
+}
+1231408={
+	name=Aodhan
+	dynasty=223031
+	dna="ciaajeojmhp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=misguided_warrior 
+	trait=shy 
+	trait=kind 
+	trait=temperate 
+	trait=paranoid 
+	father=1231403	#Crimthann
+	mother=1231434	#Der-Ilei
+	687.3.17={ birth=yes }
+	708.1.1={ add_spouse=1231435 }
+	747.1.2={ death=yes }
+}
+1231409={
+	name=Der-Ilei
+	female=yes
+	dynasty=223031
+	dna="gdpeljkjkea"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231403	#Crimthann
+	mother=1231434	#Der-Ilei
+	688.3.8={ birth=yes }
+	735.10.24={ death=yes }
+}
+1231410={
+	name=Gormala
+	female=yes
+	dynasty=223031
+	dna="pdbabfdnjha"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231403	#Crimthann
+	mother=1231434	#Der-Ilei
+	692.6.16={ birth=yes }
+	743.5.4={ death=yes }
+}
+1231411={
+	name=Morleo
+	dynasty=223031
+	dna="ciakjejjeip"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=intricate_webweaver 
+	trait=gregarious 
+	trait=cruel 
+	trait=trusting 
+	trait=deceitful 
+	trait=envious 
+	father=1231408	#Aodhan
+	mother=1231435	#Borgach
+	707.7.17={ birth=yes }
+	728.1.1={ add_spouse=1231436 }
+	756.7.20={ death=yes }
+}
+1231412={
+	name=Borgach
+	female=yes
+	dynasty=223031
+	dna="cinameppmhp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231408	#Aodhan
+	mother=1231435	#Borgach
+	710.4.24={ birth=yes }
+	783.2.19={ death=yes }
+}
+1231413={
+	name=Eimhir
+	female=yes
+	dynasty=223031
+	dna="jaiabcipnhp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231408	#Aodhan
+	mother=1231435	#Borgach
+	713.10.27={ birth=yes }
+	787.1.14={ death=yes }
+}
+1231414={
+	name=Der-Ilei
+	female=yes
+	dynasty=223031
+	dna="jkaejpgamhp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231408	#Aodhan
+	mother=1231435	#Borgach
+	715.6.25={ birth=yes }
+	770.6.3={ death=yes }
+}
+1231415={
+	name=Olfinecta
+	female=yes
+	dynasty=223031
+	dna="cboacejnahp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231408	#Aodhan
+	mother=1231435	#Borgach
+	718.11.23={ birth=yes }
+	773.5.31={ death=yes }
+}
+1231416={
+	name=Murchad
+	dynasty=223031
+	dna="nkdbhaicobc"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=4 
+	learning=5
+	trait=flamboyant_schemer 
+	trait=slothful 
+	trait=lustful 
+	trait=patient 
+	trait=humble 
+	trait=honest 
+	father=1231411	#Morleo
+	mother=1231436	#Muireall
+	727.4.12={ birth=yes }
+	748.1.1={ add_spouse=1231437 }
+	814.10.15={ death=yes }
+}
+1231417={
+	name=Gudbrand
+	dynasty=223031
+	dna="dkcbjoofoke"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=7 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=shy 
+	trait=temperate 
+	trait=wounded 
+	father=1231411	#Morleo
+	mother=1231436	#Muireall
+	732.8.8={ birth=yes }
+	786.7.24={ death=yes }
+}
+1231418={
+	name=Muireall
+	female=yes
+	dynasty=223031
+	dna="ignnbgkdokd"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231411	#Morleo
+	mother=1231436	#Muireall
+	736.4.4={ birth=yes }
+	766.8.29={ death=yes }
+}
+1231419={
+	name=Mòragan
+	female=yes
+	dynasty=223031
+	dna="nkenljibhlc"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231416	#Murchad
+	mother=1231437	#Mòragan
+	753.1.21={ birth=yes }
+	806.11.15={ death=yes }
+}
+1231420={
+	name=Aodhan
+	dynasty=223031
+	dna="dcebbafcgbm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=6 
+	learning=5
+	trait=midas_touched 
+	trait=gardener 
+	trait=greedy 
+	trait=cruel 
+	trait=craven 
+	trait=just 
+	father=1231416	#Murchad
+	mother=1231437	#Mòragan
+	756.9.12={ birth=yes }
+	777.1.1={ add_spouse=1231438 }
+	825.12.29={ death=yes }
+}
+1231421={
+	name=Eamhhair
+	female=yes
+	dynasty=223031
+	dna="dkenjaffgkn"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231420	#Aodhan
+	mother=1231438	#Eamhhair
+	786.6.8={ birth=yes }
+	840.8.26={ death=yes }
+}
+1231422={
+	name=Crimthann
+	dynasty=223031
+	dna="kgehbelcgbc"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231420	#Aodhan
+	mother=1231438	#Eamhhair
+	788.8.22={ birth=yes }
+	834.2.3={ death=yes }
+}
+1231423={
+	name=Aniel
+	dynasty=223031
+	dna="icebhkfhoim"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231420	#Aodhan
+	mother=1231438	#Eamhhair
+	790.9.5={ birth=yes }
+	855.11.22={ death=yes }
 }
 1231424={
 	name=Ceit
@@ -607,4 +983,60 @@
 	religion=celtic_pagan
 	598.10.11={ birth=yes }
 	662.2.27={ death=yes }
+}
+1231432={
+	name=Teàrlag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	622.10.11={ birth=yes }
+	670.2.27={ death=yes }
+}
+1231433={
+	name=Borgach
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	642.10.11={ birth=yes }
+	700.2.27={ death=yes }
+}
+1231434={
+	name=Der-Ilei
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	663.10.11={ birth=yes }
+	725.2.27={ death=yes }
+}
+1231435={
+	name=Borgach
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	687.10.11={ birth=yes }
+	747.2.27={ death=yes }
+}
+1231436={
+	name=Muireall
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	707.10.11={ birth=yes }
+	756.2.27={ death=yes }
+}
+1231437={
+	name=Mòragan
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	747.10.11={ birth=yes }
+	814.2.27={ death=yes }
+}
+1231438={
+	name=Eamhhair
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	756.10.11={ birth=yes }
+	825.2.27={ death=yes }
 }

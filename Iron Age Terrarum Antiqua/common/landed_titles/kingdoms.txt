@@ -1049,44 +1049,37 @@ k_lydia = {
 			
 			holy_site = zalmoxism
 		
-			b_samos_samos = {
-			}
-			b_korsiai_samos = {
-			}
-			b_histoi_samos = {
-			}
-			b_drakanon_samos = {
-			}
+			b_samos = {}
+			b_korsiai = {}
+			b_histoi = {}
+			b_drakanon = {}
+			b_samos5 = {}
+			b_samos6 = {}
+			b_samos7 = {}
 		}
 		c_erythrai = {			
 			color= { 10 135 125 }
 			color2= { 255 255 255 }
 			
-			b_erythrai_erythrai = {
-			}
-			b_klazomenai_erythrai = {
-			}
-			b_teos_erythrai = {
-			}
-			b_chyton_erythrai = {
-			}
-			b_embaton_erythrai = {
-			}
+			b_erythrai = {}
+			b_klazomenai2 = {}
+			b_teos2 = {}
+			b_chyton = {}
+			b_embaton = {}
+			b_erythrai6 = {}
+			b_erythrai7 = {}
 		}
 		c_nysa = {			
 			color= { 0 105 125 }
 			color2= { 255 255 255 }
 			
-			b_nysa_nysa = {
-			}
-			b_tralles_nysa = {
-			}
-			b_anineta_nysa = {
-			}
-			b_kanoura_nysa = {
-			}
-			b_tripolis_nysa = {
-			}
+			b_nysa = {}
+			b_tralles = {}
+			b_anineta = {}
+			b_kanoura = {}
+			b_tripolis2 = {}
+			b_nysa6 = {}
+			b_nysa7 = {}
 		}
 		c_saittai = {			
 			color= { 0 125 105 }
