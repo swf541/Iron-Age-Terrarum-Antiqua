@@ -1,0 +1,9 @@
+Religions Needing Added: 
+iranian_pagan
+iranian_pagan_reformed
+vajrayana_buddhist
+mahayana_buddhist
+hittite_main
+roman_main
+italic_main
+sol_invictus

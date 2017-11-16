@@ -1,0 +1,12 @@
+# When the religion changes in a county, ROOT is province
+on_startup = {
+	events = {
+		VFS.3
+	}
+}
+
+on_county_religion_change = {
+	events = {
+		VFS.1
+	}
+}

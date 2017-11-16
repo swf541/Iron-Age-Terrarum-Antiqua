@@ -1,0 +1,444 @@
+#Religion Growth
+egyptian_pagan_growth = {
+	change_variable = { which = egyptian_pagan_pop value = 10 }
+}
+atenist_growth = {
+	change_variable = { which = atenist_pop value = 10 }
+}
+berber_main_growth = {
+	change_variable = { which = berber_main_pop value = 10 }
+}
+berber_pagan_reformed_growth = {
+	change_variable = { which = berber_pagan_reformed_pop value = 10 }
+}
+illyrian_growth = {
+	change_variable = { which = illyrian_main_pop value = 10 }
+}
+thracian_growth = {
+	change_variable = { which = thracian_main_pop value = 10 }
+}
+zalmoxism_growth = {
+	change_variable = { which = zalmoxism_pop value = 10 }
+}
+zalmoxism_reformed_growth = {
+	change_variable = { which = zalmoxism_reformed_pop value = 10 }
+}
+norse_pagan_reformed_growth = {
+	change_variable = { which = norse_pagan_reformed_pop value = 10 }
+}
+norse_pagan_growth = {
+	change_variable = { which = norse_pagan_pop value = 10 }
+}
+east_germanic_pagan_reformed_growth = {
+	change_variable = { which = east_germanic_pagan_reformed_pop value = 10 }
+}
+east_germanic_pagan_growth = {
+	change_variable = { which = east_germanic_pagan_pop value = 10 }
+}
+germanic_pagan_reformed_growth = {
+	change_variable = { which = germanic_pagan_reformed_pop value = 10 }
+}
+germanic_pagan_growth = {
+	change_variable = { which = germanic_pagan_pop value = 10 }
+}
+celtic_pagan_growth = {
+	change_variable = { which = celtic_pagan_pop value = 10 }
+}
+celtic_pagan_reformed_growth = {
+	change_variable = { which = celtic_pagan_reformed_pop value = 10 }
+}
+punic_main_growth = {
+	change_variable = { which = punic_main_pop value = 10 }
+}
+canaanite_pagan_growth = {
+	change_variable = { which = canaanite_pagan_pop value = 10 }
+}
+canaanite_pagan_reformed_growth = {
+	change_variable = { which = canaanite_pagan_reformed_pop value = 10 }
+}
+ossetian_pagan_reformed_growth = {
+	change_variable = { which = ossetian_pagan_reformed_pop value = 10 }
+}
+ossetian_pagan_growth = {
+	change_variable = { which = ossetian_pagan_pop value = 10 }
+}
+iranian_pagan_growth = {
+	change_variable = { which = iranian_pagan_pop value = 10 }
+}
+iranian_pagan_reformed_growth = {
+	change_variable = { which = iranian_pagan_reformed_pop value = 10 }
+}
+zoroastrian_growth = {
+	change_variable = { which = zoroastrian_pop value = 10 }
+}
+zurvanite_growth = {
+	change_variable = { which = zurvanite_pop value = 10 }
+}
+sogdian_zoroastrian_growth = {
+	change_variable = { which = sogdian_zoroastrian_pop value = 10 }
+}
+bihafaridism_growth = {
+	change_variable = { which = bihafaridism_pop value = 10 }
+}
+hanifiyya_growth = {
+	change_variable = { which = hanifiyya_pop value = 10 }
+}
+chinese_pagan_reformed_growth = {
+	change_variable = { which = chinese_pagan_reformed_pop value = 10 }
+}
+chinese_pagan_growth = {
+	change_variable = { which = chinese_pagan_pop value = 10 }
+}
+tibetan_pagan_reformed_growth = {
+	change_variable = { which = tibetan_pagan_reformed_pop value = 10 }
+}
+tibetan_pagan_growth = {
+	change_variable = { which = tibetan_pagan_pop value = 10 }
+}
+sanamahi_reformed_growth = {
+	change_variable = { which = sanamahi_reformed_pop value = 10 }
+}
+sanamahi_growth = {
+	change_variable = { which = sanamahi_pop value = 10 }
+}
+dravidian_pagan_reformed_growth = {
+	change_variable = { which = dravidian_pagan_reformed_pop value = 10 }
+}
+armenian_pagan_growth = {
+	change_variable = { which = armenian_pagan_pop value = 10 }
+}
+armenian_pagan_reformed_growth = {
+	change_variable = { which = armenian_pagan_reformed_pop value = 10 }
+}
+yazidi_growth = {
+	change_variable = { which = yazidi_pop value = 10 }
+}
+jewish_growth = {
+	change_variable = { which = jewish_pop value = 10 }
+}
+samaritan_growth = {
+	change_variable = { which = samaritan_pop value = 10 }
+}
+grand_sanhedrin_growth = {
+	change_variable = { which = grand_sanhedrin_pop value = 10 }
+}
+temple_judaism_growth = {
+	change_variable = { which = temple_judaism_pop value = 10 }
+}
+karaite_growth = {
+	change_variable = { which = karaite_pop value = 10 }
+}
+hindu_growth = {
+	change_variable = { which = hindu_pop value = 10 }
+}
+jain_growth = {
+	change_variable = { which = jain_pop value = 10 }
+}
+buddhist_growth = {
+	change_variable = { which = buddhist_pop value = 10 }
+}
+vajrayana_buddhist_growth = {
+	change_variable = { which = vajrayana_buddhist_pop value = 10 }
+}
+mahayana_buddhist_growth = {
+	change_variable = { which = mahayana_buddhist_pop value = 10 }
+}
+georgian_pagan_growth = {
+	change_variable = { which = georgian_pagan_pop value = 10 }
+}
+georgian_pagan_reformed_growth = {
+	change_variable = { which = georgian_pagan_reformed_pop value = 10 }
+}
+anatolian_main_growth = {
+	change_variable = { which = anatolian_main_pop value = 10 }
+}
+phrygian_main_growth = {
+	change_variable = { which = phrygian_main_pop value = 10 }
+}
+hittite_main_growth = {
+	change_variable = { which = hittite_main_pop value = 10 }
+}
+marduk_cult_growth = {
+	change_variable = { which = marduk_cult_pop value = 10 }
+}
+elamite_pagan_reformed_growth = {
+	change_variable = { which = elamite_pagan_reformed_pop value = 10 }
+}
+elamite_pagan_growth = {
+	change_variable = { which = elamite_pagan_pop value = 10 }
+}
+arabic_main_growth = {
+	change_variable = { which = arabic_main_pop value = 10 }
+}
+south_semitic_pagan_reformed_growth = {
+	change_variable = { which = south_semitic_pagan_reformed_pop value = 10 }
+}
+south_semitic_pagan_growth = {
+	change_variable = { which = south_semitic_pagan_pop value = 10 }
+}
+hellenic_pagan_reformed_growth = {
+	change_variable = { which = hellenic_pagan_reformed_pop value = 10 }
+}
+hellenic_pagan_growth = {
+	change_variable = { which = hellenic_pagan_pop value = 10 }
+}
+alexandrian_pagan_growth = {
+	change_variable = { which = alexandrian_pagan_pop value = 10 }
+}
+roman_main_growth = {
+	change_variable = { which = roman_main_pop value = 10 }
+}
+italic_main_growth = {
+	change_variable = { which = italic_main_pop value = 10 }
+}
+pontic_main_growth = {
+	change_variable = { which = pontic_main_pop value = 10 }
+}
+etruscan_main_growth = {
+	change_variable = { which = etruscan_main_pop value = 10 }
+}
+dravidian_main_growth = {
+	change_variable = { which = dravidian_main_pop value = 10 }
+}
+lusitanian_main_growth = {
+	change_variable = { which = lusitanian_main_pop value = 10 }
+}
+iberian_main_growth = {
+	change_variable = { which = iberian_main_pop value = 10 }
+}
+aquitanian_main_growth = {
+	change_variable = { which = aquitanian_main_pop value = 10 }
+}
+marcionism_growth = {
+	change_variable = { which = marcionism_pop value = 10 }
+}
+priscillianism_growth = {
+	change_variable = { which = priscillianism_pop value = 10 }
+}
+valentinianism_growth = {
+	change_variable = { which = valentinianism_pop value = 10 }
+}
+manichean_growth = {
+	change_variable = { which = manichean_pop value = 10 }
+}
+mandean_growth = {
+	change_variable = { which = mandean_pop value = 10 }
+}
+bogomilist_growth = {
+	change_variable = { which = bogomilist_pop value = 10 }
+}
+paulician_growth = {
+	change_variable = { which = paulician_pop value = 10 }
+}
+cathar_growth = {
+	change_variable = { which = cathar_pop value = 10 }
+}
+encratites_growth = {
+	change_variable = { which = encratites_pop value = 10 }
+}
+amidist_growth = {
+	change_variable = { which = amidist_pop value = 10 }
+}
+confucian_growth = {
+	change_variable = { which = confucian_pop value = 10 }
+}
+neoconfucian_growth = {
+	change_variable = { which = neoconfucian_pop value = 10 }
+}
+taoist_growth = {
+	change_variable = { which = taoist_pop value = 10 }
+}
+neotaoist_growth = {
+	change_variable = { which = neotaoist_pop value = 10 }
+}
+hindukush_growth = {
+	change_variable = { which = hindukush_pop value = 10 }
+}
+hindukush_reformed_growth = {
+	change_variable = { which = hindukush_reformed_pop value = 10 }
+}
+zun_pagan_growth = {
+	change_variable = { which = zun_pagan_pop value = 10 }
+}
+zun_pagan_reformed_growth = {
+	change_variable = { which = zun_pagan_reformed_pop value = 10 }
+}
+bosporan_faith_growth = {
+	change_variable = { which = bosporan_faith_pop value = 10 }
+}
+imperial_growth = {
+	change_variable = { which = imperial_pop value = 10 }
+}
+arian_growth = {
+	change_variable = { which = arian_pop value = 10 }
+}
+donatism_growth = {
+	change_variable = { which = donatism_pop value = 10 }
+}
+melitianism_growth = {
+	change_variable = { which = melitianism_pop value = 10 }
+}
+novatianism_growth = {
+	change_variable = { which = novatianism_pop value = 10 }
+}
+adoptionism_growth = {
+	change_variable = { which = adoptionism_pop value = 10 }
+}
+sabellianism_growth = {
+	change_variable = { which = sabellianism_pop value = 10 }
+}
+pelagianism_growth = {
+	change_variable = { which = pelagianism_pop value = 10 }
+}
+macedonianism_growth = {
+	change_variable = { which = macedonianism_pop value = 10 }
+}
+catholic_growth = {
+	change_variable = { which = catholic_pop value = 10 }
+}
+montanism_growth = {
+	change_variable = { which = montanism_pop value = 10 }
+}
+fraticelli_growth = {
+	change_variable = { which = fraticelli_pop value = 10 }
+}
+waldensian_growth = {
+	change_variable = { which = waldensian_pop value = 10 }
+}
+lollard_growth = {
+	change_variable = { which = lollard_pop value = 10 }
+}
+orthodox_growth = {
+	change_variable = { which = orthodox_pop value = 10 }
+}
+miaphysite_growth = {
+	change_variable = { which = miaphysite_pop value = 10 }
+}
+tondrakian_growth = {
+	change_variable = { which = tondrakian_pop value = 10 }
+}
+monophysite_growth = {
+	change_variable = { which = monophysite_pop value = 10 }
+}
+monothelite_growth = {
+	change_variable = { which = monothelite_pop value = 10 }
+}
+iconoclast_growth = {
+	change_variable = { which = iconoclast_pop value = 10 }
+}
+nestorian_growth = {
+	change_variable = { which = nestorian_pop value = 10 }
+}
+eutychian_growth = {
+	change_variable = { which = eutychian_pop value = 10 }
+}
+messalian_growth = {
+	change_variable = { which = messalian_pop value = 10 }
+}
+sunni_growth = {
+	change_variable = { which = sunni_pop value = 10 }
+}
+zikri_growth = {
+	change_variable = { which = zikri_pop value = 10 }
+}
+ibadi_growth = {
+	change_variable = { which = ibadi_pop value = 10 }
+}
+kharijite_growth = {
+	change_variable = { which = kharijite_pop value = 10 }
+}
+shiite_growth = {
+	change_variable = { which = shiite_pop value = 10 }
+}
+druze_growth = {
+	change_variable = { which = druze_pop value = 10 }
+}
+qarmatian_growth = {
+	change_variable = { which = qarmatian_pop value = 10 }
+}
+hurufi_growth = {
+	change_variable = { which = hurufi_pop value = 10 }
+}
+pagan_growth = {
+	change_variable = { which = pagan_pop value = 10 }
+}
+mesopotamian_paganism_growth = {
+	change_variable = { which = mesopotamian_paganism_pop value = 10 }
+}
+mesopotamian_paganism_reformed_growth = {
+	change_variable = { which = mesopotamian_paganism_reformed_pop value = 10 }
+}
+tengri_pagan_reformed_growth = {
+	change_variable = { which = tengri_pagan_reformed_pop value = 10 }
+}
+tengri_pagan_growth = {
+	change_variable = { which = tengri_pagan_pop value = 10 }
+}
+baltic_pagan_reformed_growth = {
+	change_variable = { which = baltic_pagan_reformed_pop value = 10 }
+}
+baltic_pagan_growth = {
+	change_variable = { which = baltic_pagan_pop value = 10 }
+}
+finnish_pagan_reformed_growth = {
+	change_variable = { which = finnish_pagan_reformed_pop value = 10 }
+}
+finnish_pagan_growth = {
+	change_variable = { which = finnish_pagan_pop value = 10 }
+}
+aztec_reformed_growth = {
+	change_variable = { which = aztec_reformed_pop value = 10 }
+}
+aztec_growth = {
+	change_variable = { which = aztec_pop value = 10 }
+}
+slavic_pagan_reformed_growth = {
+	change_variable = { which = slavic_pagan_reformed_pop value = 10 }
+}
+slavic_pagan_growth = {
+	change_variable = { which = slavic_pagan_pop value = 10 }
+}
+west_african_pagan_reformed_growth = {
+	change_variable = { which = west_african_pagan_reformed_pop value = 10 }
+}
+west_african_pagan_growth = {
+	change_variable = { which = west_african_pagan_pop value = 10 }
+}
+serer_growth = {
+	change_variable = { which = serer_pop value = 10 }
+}
+Bori_growth = {
+	change_variable = { which = bori_pop value = 10 }
+}
+sol_invictus_growth = {
+	change_variable = { which = sol_invictus_pop value = 10 }
+}
+egyptian_pagan_reformed_growth = {
+	change_variable = { which = egyptian_pagan_reformed_pop value = 10 }
+}
+basque_pagan_reformed_growth = {
+	change_variable = { which = basque_pagan_reformed_pop value = 10 }
+}
+basque_pagan_growth = {
+	change_variable = { which = basque_pagan_pop value = 10 }
+}
+semitic_pagan_reformed_growth = {
+	change_variable = { which = semitic_pagan_reformed_pop value = 10 }
+}
+semitic_pagan_growth = {
+	change_variable = { which = semitic_pagan_pop value = 10 }
+}
+east_african_pagan_reformed_growth = {
+	change_variable = { which = east_african_pagan_reformed_pop value = 10 }
+}
+east_african_pagan_growth = {
+	change_variable = { which = east_african_pagan_pop value = 10 }
+}
+mazdaki_growth = {
+	change_variable = { which = mazdaki_pop value = 10 }
+}
+minoan_growth = {
+	change_variable = { which = minoan_pop value = 10 }
+}
+
+#Religion Declines
