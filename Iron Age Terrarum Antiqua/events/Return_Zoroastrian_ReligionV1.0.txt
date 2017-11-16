@@ -3,7 +3,7 @@ character_event = {                        #Arival at china
 	id = RZR.1
         title = "EVTNAMERZR.1"
 	desc = "EVTDESCRZR.1"
-	picture = "GFX_evt_chagan"
+	picture = "GFX_evt_throne_room"
 
         is_triggered_only = yes
                         
@@ -24,7 +24,7 @@ character_event = {                        #You arived at Ch’ang-an
         id = RZR.2
         title = "EVTNAMERZR.2"
         desc = "EVTDESCRZR.2"
-        picture = "GFX_evt_Changan_city"
+        picture = "GFX_evt_throne_room"
   
         is_triggered_only = yes
        
@@ -39,7 +39,7 @@ character_event = {                        #you meed a men who says he can bring
         id = RZR.3
         title = "EVTNAMERZR.3"
         desc = "EVTDESCRZR.3"
-        picture = "GFX_evt_Changan_city"
+        picture = "GFX_evt_throne_room"
   
         is_triggered_only = yes
        
@@ -54,7 +54,7 @@ character_event = {                        #You learnt that he was a royal guard
         id = RZR.4
         title = "EVTNAMERZR.4"
         desc = "EVTDESCRZR.4"
-        picture = "GFX_evt_Changan_palace"
+        picture = "GFX_evt_throne_room"
   
         is_triggered_only = yes
        
@@ -74,7 +74,7 @@ character_event = {                        #The leader of the tang dynasty sent 
         id = RZR.5
         title = "EVTNAMERZR.5"
         desc = "EVTDESCRZR.5"
-        picture = "GFX_evt_Changan_city"
+        picture = "GFX_evt_throne_room"
   
         is_triggered_only = yes
        

@@ -7,7 +7,7 @@ namespace = JAE
 character_event = {
 	id = JAE.700
 	desc = EVTDESC_JAE_700
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -33,7 +33,7 @@ character_event = {
 character_event = {
 	id = JAE.701
 	desc = EVTDESC_JAE_701
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -75,7 +75,7 @@ character_event = {
 character_event = {
 	id = JAE.702
 	desc = EVTDESC_JAE_702
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -95,7 +95,7 @@ character_event = {
 character_event = {
 	id = JAE.703
 	desc = EVTDESC_JAE_703
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -121,7 +121,7 @@ character_event = {
 character_event = {
 	id = JAE.704
 	desc = EVTDESC_JAE_704
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -136,7 +136,7 @@ character_event = {
 character_event = {
 	id = JAE.705
 	desc = EVTDESC_JAE_705
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -199,7 +199,7 @@ character_event = {
 character_event = {
 	id = JAE.706
 	desc = EVTDESC_JAE_706
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -215,7 +215,7 @@ character_event = {
 character_event = {
 	id = JAE.707
 	desc = EVTDESC_JAE_707
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -258,7 +258,7 @@ character_event = {
 character_event = {
 	id = JAE.708
 	desc = EVTDESC_JAE_708
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -492,7 +492,7 @@ character_event = {
 character_event = {
 	id = JAE.723
 	desc = EVTDESC_TOG_653
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -552,7 +552,7 @@ character_event = {
 character_event = {
 	id = JAE.724
 	desc = EVTDESC_TOG_654
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -570,7 +570,7 @@ character_event = {
 character_event = {
 	id = JAE.725
 	desc = EVTDESC_TOG_655
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1032,7 +1032,7 @@ character_event = {
 character_event = {
 	id = JAE.731
 	desc = EVTDESC_TOG_661
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1063,7 +1063,7 @@ character_event = {
 character_event = {
 	id = JAE.732
 	desc = EVTDESC_TOG_661
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1168,7 +1168,7 @@ character_event = {
 character_event = {
 	id = JAE.734
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1208,7 +1208,7 @@ character_event = {
 character_event = {
 	id = JAE.735
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1314,7 +1314,7 @@ character_event = {
 character_event = {
 	id = JAE.737
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1354,7 +1354,7 @@ character_event = {
 character_event = {
 	id = JAE.738
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1381,7 +1381,7 @@ character_event = {
 character_event = {
 	id = JAE.739
 	desc = EVTDESC_TOG_669
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1435,7 +1435,7 @@ character_event = {
 character_event = {
 	id = JAE.740
 	desc = EVTDESC_TOG_670
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes

@@ -1,5 +1,5 @@
 adoptionism_plurality = { 
-	 check_variable = { which = adoptionism_pop which = egyptian_pagan_pop } }
+	 check_variable = { which = adoptionism_pop which = egyptian_pagan_pop }
 	 check_variable = { which = adoptionism_pop which = atenist_pop }
 	 check_variable = { which = adoptionism_pop which = berber_main_pop }
 	 check_variable = { which = adoptionism_pop which = berber_pagan_reformed_pop }

@@ -7,7 +7,7 @@ namespace = JAS
 character_event = {
 	id = JAS.700
 	desc = EVTDESC_JAS_700
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -33,7 +33,7 @@ character_event = {
 character_event = {
 	id = JAS.701
 	desc = EVTDESC_JAS_701
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -78,7 +78,7 @@ character_event = {
 character_event = {
 	id = JAS.702
 	desc = EVTDESC_JAS_702
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -98,7 +98,7 @@ character_event = {
 character_event = {
 	id = JAS.703
 	desc = EVTDESC_JAS_703
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -124,7 +124,7 @@ character_event = {
 character_event = {
 	id = JAS.704
 	desc = EVTDESC_JAS_704
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -139,7 +139,7 @@ character_event = {
 character_event = {
 	id = JAS.705
 	desc = EVTDESC_JAS_705
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -202,7 +202,7 @@ character_event = {
 character_event = {
 	id = JAS.706
 	desc = EVTDESC_JAS_706
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -218,7 +218,7 @@ character_event = {
 character_event = {
 	id = JAS.707
 	desc = EVTDESC_JAS_707
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -261,7 +261,7 @@ character_event = {
 character_event = {
 	id = JAS.708
 	desc = EVTDESC_JAS_708
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -495,7 +495,7 @@ character_event = {
 character_event = {
 	id = JAS.723
 	desc = EVTDESC_TOG_653
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -555,7 +555,7 @@ character_event = {
 character_event = {
 	id = JAS.724
 	desc = EVTDESC_TOG_654
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -573,7 +573,7 @@ character_event = {
 character_event = {
 	id = JAS.725
 	desc = EVTDESC_TOG_655
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1035,7 +1035,7 @@ character_event = {
 character_event = {
 	id = JAS.731
 	desc = EVTDESC_TOG_661
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1066,7 +1066,7 @@ character_event = {
 character_event = {
 	id = JAS.732
 	desc = EVTDESC_TOG_661
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1171,7 +1171,7 @@ character_event = {
 character_event = {
 	id = JAS.734
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1211,7 +1211,7 @@ character_event = {
 character_event = {
 	id = JAS.735
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1317,7 +1317,7 @@ character_event = {
 character_event = {
 	id = JAS.737
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1357,7 +1357,7 @@ character_event = {
 character_event = {
 	id = JAS.738
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1384,7 +1384,7 @@ character_event = {
 character_event = {
 	id = JAS.739
 	desc = EVTDESC_TOG_669
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1438,7 +1438,7 @@ character_event = {
 character_event = {
 	id = JAS.740
 	desc = EVTDESC_TOG_670
-	picture = GFX_evt_roi_throneroom
+	picture = GFX_evt_throne_room
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes

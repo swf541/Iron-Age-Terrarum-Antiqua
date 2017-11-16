@@ -178,18 +178,6 @@ k_viennensis = {
 			b_rhodanousia6 = { }
 			b_rhodanousia7 = { }
 		}
-		c_luteva = {
-			color= { 33 233 33 }
-			color2= { 255 255 255 }	
-
-			b_luteva1 = { }
-			b_luteva2 = { }
-			b_luteva3 = { }
-			b_luteva4 = { }
-			b_luteva5 = { }
-			b_luteva6 = { }
-			b_luteva7 = { }
-		}
 		c_baeterrae = {
 			color= { 75 230 20 }
 			color2= { 255 255 255 }	
