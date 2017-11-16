@@ -1,0 +1,14 @@
+namespace = VFS
+
+character_event = { #Yearly Check
+	id = VFS.5
+	hide_window = yes
+
+	is_triggered_only = yes	
+	
+	immediate = {
+		any_realm_province = {
+			vfs_modifier_setup = yes
+		}
+	}
+}

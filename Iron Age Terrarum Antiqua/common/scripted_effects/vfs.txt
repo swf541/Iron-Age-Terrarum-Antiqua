@@ -1194,3 +1194,740 @@ vfs_demographic_check_effect = {
 		set_province_flag = minoan_majority 
 	}
 }
+vfs_modifier_setup = {
+	if = { 
+		limit = { egyptian_pagan_prescense = yes }
+		#religion = egyptian_pagan 
+		add_province_modifier = { name = egyptian_pagan_statistic duration = -1 }
+	} 
+	if = { 
+		limit = { atenist_prescense = yes } 
+		#religion = atenist 
+		add_province_modifier = { name = atenist_statistic duration = -1 }
+	} 
+	if = { 
+		limit = { berber_main_prescense = yes }  
+		#religion = berber_main 
+		add_province_modifier = { name = berber_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { berber_pagan_reformed_prescense = yes } 
+		#religion = berber_pagan_reformed 
+		add_province_modifier = { name = berber_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { illyrian_main_prescense = yes } 
+		#religion = illyrian_main 
+		add_province_modifier = { name = illyrian_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { thracian_main_prescense = yes } 
+		#religion = thracian_main 
+		add_province_modifier = { name = thracian_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { zalmoxism_prescense = yes } 
+		#religion = zalmoxism 
+		add_province_modifier = { name = zalmoxism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { zalmoxism_reformed_prescense = yes } 
+		#religion = zalmoxism_reformed 
+		add_province_modifier = { name = zalmoxism_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { norse_pagan_reformed_prescense = yes } 
+		#religion = norse_pagan_reformed 
+		add_province_modifier = { name = norse_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { norse_pagan_prescense = yes } 
+		#religion = norse_pagan 
+		add_province_modifier = { name = norse_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { east_germanic_pagan_reformed_prescense = yes } 
+		#religion = east_germanic_pagan_reformed 
+		add_province_modifier = { name = east_germanic_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { east_germanic_pagan_prescense = yes } 
+		#religion = east_germanic_pagan 
+		add_province_modifier = { name = east_germanic_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { germanic_pagan_reformed_prescense = yes } 
+		#religion = germanic_pagan_reformed 
+		add_province_modifier = { name = germanic_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { germanic_pagan_prescense = yes } 
+		#religion = germanic_pagan 
+		add_province_modifier = { name = germanic_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { celtic_pagan_prescense = yes } 
+		#religion = celtic_pagan 
+		add_province_modifier = { name = celtic_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { celtic_pagan_reformed_prescense = yes } 
+		#religion = celtic_pagan_reformed 
+		add_province_modifier = { name = celtic_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { punic_main_prescense = yes } 
+		#religion = punic_main 
+		add_province_modifier = { name = punic_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { canaanite_pagan_prescense = yes } 
+		#religion = canaanite_pagan 
+		add_province_modifier = { name = canaanite_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { canaanite_pagan_reformed_prescense = yes } 
+		#religion = canaanite_pagan_reformed 
+		add_province_modifier = { name = canaanite_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { ossetian_pagan_reformed_prescense = yes } 
+		#religion = ossetian_pagan_reformed 
+		add_province_modifier = { name = ossetian_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { ossetian_pagan_prescense = yes } 
+		#religion = ossetian_pagan 
+		add_province_modifier = { name = ossetian_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { iranian_pagan_prescense = yes } 
+		#religion = iranian_pagan 
+		add_province_modifier = { name = iranian_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { iranian_pagan_reformed_prescense = yes } 
+		#religion = iranian_pagan_reformed 
+		add_province_modifier = { name = iranian_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { zoroastrian_prescense = yes } 
+		#religion = zoroastrian 
+		add_province_modifier = { name = zoroastrian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { zurvanite_prescense = yes } 
+		#religion = zurvanite 
+		add_province_modifier = { name = zurvanite_statistic duration = -1 }
+	}
+	if = { 
+		limit = { sogdian_zoroastrian_prescense = yes } 
+		#religion = sogdian_zoroastrian 
+		add_province_modifier = { name = sogdian_zoroastrian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { bihafaridism_prescense = yes } 
+		#religion = bihafaridism 
+		add_province_modifier = { name = bihafaridism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { hanifiyya_prescense = yes } 
+		#religion = hanifiyya 
+		add_province_modifier = { name = hanifiyya_statistic duration = -1 }
+	}
+	if = { 
+		limit = { chinese_pagan_reformed_prescense = yes } 
+		#religion = chinese_pagan_reformed 
+		add_province_modifier = { name = chinese_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { chinese_pagan_prescense = yes } 
+		#religion = chinese_pagan 
+		add_province_modifier = { name = chinese_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { tibetan_pagan_reformed_prescense = yes } 
+		#religion = tibetan_pagan_reformed 
+		add_province_modifier = { name = tibetan_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { tibetan_pagan_prescense = yes } 
+		#religion = tibetan_pagan 
+		add_province_modifier = { name = tibetan_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { sanamahi_reformed_prescense = yes } 
+		#religion = sanamahi_reformed 
+		add_province_modifier = { name = sanamahi_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { sanamahi_prescense = yes } 
+		#religion = sanamahi 
+		add_province_modifier = { name = sanamahi_statistic duration = -1 }
+	}
+	if = { 
+		limit = { dravidian_pagan_reformed_prescense = yes } 
+		#religion = dravidian_pagan_reformed 
+		add_province_modifier = { name = dravidian_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { armenian_pagan_prescense = yes } 
+		#religion = armenian_pagan 
+		add_province_modifier = { name = armenian_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { armenian_pagan_reformed_prescense = yes } 
+		#religion = armenian_pagan_reformed 
+		add_province_modifier = { name = armenian_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { yazidi_prescense = yes } 
+		#religion = yazidi 
+		add_province_modifier = { name = yazidi_statistic duration = -1 }
+	}
+	if = { 
+		limit = { jewish_prescense = yes } 
+		#religion = jewish 
+		add_province_modifier = { name = jewish_statistic duration = -1 }
+	}
+	if = { 
+		limit = { samaritan_prescense = yes } 
+		#religion = samaritan 
+		add_province_modifier = { name = samaritan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { grand_sanhedrin_prescense = yes } 
+		#religion = grand_sanhedrin 
+		add_province_modifier = { name = grand_sanhedrin_statistic duration = -1 }
+	}
+	if = { 
+		limit = { temple_judaism_prescense = yes } 
+		#religion = temple_judaism 
+		add_province_modifier = { name = temple_judaism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { karaite_prescense = yes } 
+		#religion = karaite 
+		add_province_modifier = { name = karaite_statistic duration = -1 }
+	}
+	if = { 
+		limit = { hindu_prescense = yes } 
+		#religion = hindu 
+		add_province_modifier = { name = hindu_statistic duration = -1 }
+	}
+	if = { 
+		limit = { jain_prescense = yes } 
+		#religion = jain 
+		add_province_modifier = { name = jain_statistic duration = -1 }
+	}
+	if = { 
+		limit = { buddhist_prescense = yes } 
+		#religion = buddhist 
+		add_province_modifier = { name = buddhist_statistic duration = -1 }
+	}
+	if = { 
+		limit = { vajrayana_buddhist_prescense = yes } 
+		#religion = vajrayana_buddhist 
+		add_province_modifier = { name = vajrayana_buddhist_statistic duration = -1 }
+	}
+	if = { 
+		limit = { mahayana_buddhist_prescense = yes } 
+		#religion = mahayana_buddhist 
+		add_province_modifier = { name = mahayana_buddhist_statistic duration = -1 }
+	}
+	if = { 
+		limit = { georgian_pagan_prescense = yes } 
+		#religion = georgian_pagan 
+		add_province_modifier = { name = georgian_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { georgian_pagan_reformed_prescense = yes } 
+		#religion = georgian_pagan_reformed 
+		add_province_modifier = { name = georgian_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { anatolian_main_prescense = yes } 
+		#religion = anatolian_main 
+		add_province_modifier = { name = anatolian_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { phrygian_main_prescense = yes } 
+		#religion = phrygian_main 
+		add_province_modifier = { name = phrygian_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { hittite_main_prescense = yes } 
+		#religion = hittite_main 
+		add_province_modifier = { name = hittite_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { marduk_cult_prescense = yes } 
+		#religion = marduk_cult 
+		add_province_modifier = { name = marduk_cult_statistic duration = -1 }
+	}
+	if = { 
+		limit = { elamite_pagan_reformed_prescense = yes } 
+		#religion = elamite_pagan_reformed 
+		add_province_modifier = { name = elamite_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { elamite_pagan_prescense = yes } 
+		#religion = elamite_pagan 
+		add_province_modifier = { name = elamite_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { arabic_main_prescense = yes } 
+		#religion = arabic_main 
+		add_province_modifier = { name = arabic_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { south_semitic_pagan_reformed_prescense = yes } 
+		#religion = south_semitic_pagan_reformed 
+		add_province_modifier = { name = south_semitic_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { south_semitic_pagan_prescense = yes } 
+		#religion = south_semitic_pagan 
+		add_province_modifier = { name = south_semitic_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { hellenic_pagan_reformed_prescense = yes } 
+		#religion = hellenic_pagan_reformed 
+		add_province_modifier = { name = hellenic_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { hellenic_pagan_prescense = yes } 
+		#religion = hellenic_pagan 
+		add_province_modifier = { name = hellenic_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { alexandrian_pagan_prescense = yes } 
+		#religion = alexandrian_pagan 
+		add_province_modifier = { name = alexandrian_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { roman_main_prescense = yes } 
+		#religion = roman_main 
+		add_province_modifier = { name = roman_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { italic_main_prescense = yes } 
+		#religion = italic_main 
+		add_province_modifier = { name = italic_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { pontic_main_prescense = yes } 
+		#religion = pontic_main 
+		add_province_modifier = { name = pontic_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { etruscan_main_prescense = yes } 
+		#religion = etruscan_main 
+		add_province_modifier = { name = etruscan_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { dravidian_main_prescense = yes } 
+		#religion = dravidian_main 
+		add_province_modifier = { name = dravidian_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { lusitanian_main_prescense = yes } 
+		#religion = lusitanian_main 
+		add_province_modifier = { name = lusitanian_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { iberian_main_prescense = yes } 
+		#religion = iberian_main 
+		add_province_modifier = { name = iberian_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { aquitanian_main_prescense = yes } 
+		#religion = aquitanian_main 
+		add_province_modifier = { name = aquitanian_main_statistic duration = -1 }
+	}
+	if = { 
+		limit = { marcionism_prescense = yes } 
+		#religion = marcionism 
+		add_province_modifier = { name = marcionism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { priscillianism_prescense = yes } 
+		#religion = priscillianism 
+		add_province_modifier = { name = priscillianism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { valentinianism_prescense = yes } 
+		#religion = valentinianism 
+		add_province_modifier = { name = valentinianism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { manichean_prescense = yes } 
+		#religion = manichean 
+		add_province_modifier = { name = manichean_statistic duration = -1 }
+	}
+	if = { 
+		limit = { mandean_prescense = yes } 
+		#religion = mandean 
+		add_province_modifier = { name = mandean_statistic duration = -1 }
+	}
+	if = { 
+		limit = { bogomilist_prescense = yes } 
+		#religion = bogomilist 
+		add_province_modifier = { name = bogomilist_statistic duration = -1 }
+	}
+	if = { 
+		limit = { paulician_prescense = yes } 
+		#religion = paulician 
+		add_province_modifier = { name = paulician_statistic duration = -1 }
+	}
+	if = { 
+		limit = { cathar_prescense = yes } 
+		#religion = cathar 
+		add_province_modifier = { name = cathar_statistic duration = -1 }
+	}
+	if = { 
+		limit = { encratites_prescense = yes } 
+		#religion = encratites 
+		add_province_modifier = { name = encratites_statistic duration = -1 }
+	}
+	if = { 
+		limit = { amidist_prescense = yes } 
+		#religion = amidist 
+		add_province_modifier = { name = amidist_statistic duration = -1 }
+	}
+	if = { 
+		limit = { confucian_prescense = yes } 
+		#religion = confucian 
+		add_province_modifier = { name = confucian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { neoconfucian_prescense = yes } 
+		#religion = neoconfucian 
+		add_province_modifier = { name = neoconfucian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { taoist_prescense = yes } 
+		#religion = taoist 
+		add_province_modifier = { name = taoist_statistic duration = -1 }
+	}
+	if = { 
+		limit = { neotaoist_prescense = yes } 
+		#religion = neotaoist 
+		add_province_modifier = { name = neotaoist_statistic duration = -1 }
+	}
+	if = { 
+		limit = { hindukush_prescense = yes } 
+		#religion = hindukush 
+		add_province_modifier = { name = hindukush_statistic duration = -1 }
+	}
+	if = { 
+		limit = { hindukush_reformed_prescense = yes } 
+		#religion = hindukush_reformed 
+		add_province_modifier = { name = hindukush_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { zun_pagan_prescense = yes } 
+		#religion = zun_pagan 
+		add_province_modifier = { name = zun_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { zun_pagan_reformed_prescense = yes } 
+		#religion = zun_pagan_reformed 
+		add_province_modifier = { name = zun_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { bosporan_faith_prescense = yes } 
+		#religion = bosporan_faith 
+		add_province_modifier = { name = bosporan_faith_statistic duration = -1 }
+	}
+	if = { 
+		limit = { imperial_prescense = yes } 
+		#religion = imperial 
+		add_province_modifier = { name = imperial_statistic duration = -1 }
+	}
+	if = { 
+		limit = { arian_prescense = yes } 
+		#religion = arian 
+		add_province_modifier = { name = arian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { donatism_prescense = yes } 
+		#religion = donatism 
+		add_province_modifier = { name = donatism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { melitianism_prescense = yes } 
+		#religion = melitianism 
+		add_province_modifier = { name = melitianism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { novatianism_prescense = yes } 
+		#religion = novatianism 
+		add_province_modifier = { name = novatianism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { adoptionism_prescense = yes } 
+		#religion = adoptionism 
+		add_province_modifier = { name = adoptionism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { sabellianism_prescense = yes } 
+		#religion = sabellianism 
+		add_province_modifier = { name = sabellianism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { pelagianism_prescense = yes } 
+		#religion = pelagianism 
+		add_province_modifier = { name = pelagianism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { macedonianism_prescense = yes } 
+		#religion = macedonianism 
+		add_province_modifier = { name = macedonianism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { catholic_prescense = yes } 
+		#religion = catholic 
+		add_province_modifier = { name = catholic_statistic duration = -1 }
+	}
+	if = { 
+		limit = { montanism_prescense = yes } 
+		#religion = montanism 
+		add_province_modifier = { name = montanism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { fraticelli_prescense = yes } 
+		#religion = fraticelli 
+		add_province_modifier = { name = fraticelli_statistic duration = -1 }
+	}
+	if = { 
+		limit = { waldensian_prescense = yes } 
+		#religion = waldensian 
+		add_province_modifier = { name = waldensian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { lollard_prescense = yes } 
+		#religion = lollard 
+		add_province_modifier = { name = lollard_statistic duration = -1 }
+	}
+	if = { 
+		limit = { orthodox_prescense = yes } 
+		#religion = orthodox 
+		add_province_modifier = { name = orthodox_statistic duration = -1 }
+	}
+	if = { 
+		limit = { miaphysite_prescense = yes } 
+		#religion = miaphysite 
+		add_province_modifier = { name = miaphysite_statistic duration = -1 }
+	}
+	if = { 
+		limit = { tondrakian_prescense = yes } 
+		#religion = tondrakian 
+		add_province_modifier = { name = tondrakian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { monophysite_prescense = yes } 
+		#religion = monophysite 
+		add_province_modifier = { name = monophysite_statistic duration = -1 }
+	}
+	if = { 
+		limit = { monothelite_prescense = yes } 
+		#religion = monothelite 
+		add_province_modifier = { name = monothelite_statistic duration = -1 }
+	}
+	if = { 
+		limit = { iconoclast_prescense = yes } 
+		#religion = iconoclast 
+		add_province_modifier = { name = iconoclast_statistic duration = -1 }
+	}
+	if = { 
+		limit = { nestorian_prescense = yes } 
+		#religion = nestorian 
+		add_province_modifier = { name = nestorian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { eutychian_prescense = yes } 
+		#religion = eutychian 
+		add_province_modifier = { name = eutychian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { messalian_prescense = yes } 
+		#religion = messalian 
+		add_province_modifier = { name = messalian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { sunni_prescense = yes } 
+		#religion = sunni 
+		add_province_modifier = { name = sunni_statistic duration = -1 }
+	}
+	if = { 
+		limit = { zikri_prescense = yes } 
+		#religion = zikri 
+		add_province_modifier = { name = zikri_statistic duration = -1 }
+	}
+	if = { 
+		limit = { ibadi_prescense = yes } 
+		#religion = ibadi 
+		add_province_modifier = { name = ibadi_statistic duration = -1 }
+	}
+	if = { 
+		limit = { kharijite_prescense = yes } 
+		#religion = kharijite 
+		add_province_modifier = { name = kharijite_statistic duration = -1 }
+	}
+	if = { 
+		limit = { shiite_prescense = yes } 
+		#religion = shiite 
+		add_province_modifier = { name = shiite_statistic duration = -1 }
+	}
+	if = { 
+		limit = { druze_prescense = yes } 
+		#religion = druze 
+		add_province_modifier = { name = druze_statistic duration = -1 }
+	}
+	if = { 
+		limit = { qarmatian_prescense = yes } 
+		#religion = qarmatian 
+		add_province_modifier = { name = qarmatian_statistic duration = -1 }
+	}
+	if = { 
+		limit = { hurufi_prescense = yes } 
+		#religion = hurufi 
+		add_province_modifier = { name = hurufi_statistic duration = -1 }
+	}
+	if = { 
+		limit = { pagan_prescense = yes } 
+		#religion = pagan 
+		add_province_modifier = { name = pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { mesopotamian_paganism_prescense = yes } 
+		#religion = mesopotamian_paganism 
+		add_province_modifier = { name = mesopotamian_paganism_statistic duration = -1 }
+	}
+	if = { 
+		limit = { mesopotamian_paganism_reformed_prescense = yes } 
+		#religion = mesopotamian_paganism_reformed 
+		add_province_modifier = { name = mesopotamian_paganism_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { tengri_pagan_reformed_prescense = yes } 
+		#religion = tengri_pagan_reformed 
+		add_province_modifier = { name = tengri_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { tengri_pagan_prescense = yes } 
+		#religion = tengri_pagan 
+		add_province_modifier = { name = tengri_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { baltic_pagan_reformed_prescense = yes } 
+		#religion = baltic_pagan_reformed 
+		add_province_modifier = { name = baltic_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { baltic_pagan_prescense = yes } 
+		#religion = baltic_pagan 
+		add_province_modifier = { name = baltic_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { finnish_pagan_reformed_prescense = yes } 
+		#religion = finnish_pagan_reformed 
+		add_province_modifier = { name = finnish_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { finnish_pagan_prescense = yes } 
+		#religion = finnish_pagan 
+		add_province_modifier = { name = finnish_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { aztec_reformed_prescense = yes } 
+		#religion = aztec_reformed 
+		add_province_modifier = { name = aztec_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { aztec_prescense = yes } 
+		#religion = aztec 
+		add_province_modifier = { name = aztec_statistic duration = -1 }
+	}
+	if = { 
+		limit = { slavic_pagan_reformed_prescense = yes } 
+		#religion = slavic_pagan_reformed 
+		add_province_modifier = { name = slavic_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { slavic_pagan_prescense = yes } 
+		#religion = slavic_pagan 
+		add_province_modifier = { name = slavic_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { west_african_pagan_reformed_prescense = yes } 
+		#religion = west_african_pagan_reformed  
+		add_province_modifier = { name = west_african_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { west_african_pagan_prescense = yes } 
+		#religion = west_african_pagan 
+		add_province_modifier = { name = west_african_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { serer_prescense = yes } 
+		#religion = serer 
+		add_province_modifier = { name = serer_statistic duration = -1 }
+	}
+	if = { 
+		limit = { bori_prescense = yes } 
+		#religion = bori 
+		add_province_modifier = { name = bori_statistic duration = -1 }
+	}
+	if = { 
+		limit = { sol_invictus_prescense = yes } 
+		#religion = sol_invictus 
+		add_province_modifier = { name = sol_invictus_statistic duration = -1 }
+	}
+	if = { 
+		limit = { egyptian_pagan_reformed_prescense = yes } 
+		#religion = egyptian_pagan_reformed 
+		add_province_modifier = { name = egyptian_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { basque_pagan_reformed_prescense = yes } 
+		#religion = basque_pagan_reformed 
+		add_province_modifier = { name = basque_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { basque_pagan_prescense = yes } 
+		#religion = basque_pagan 
+		add_province_modifier = { name = basque_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { semitic_pagan_reformed_prescense = yes } 
+		#religion = semitic_pagan_reformed 
+		add_province_modifier = { name = semitic_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { semitic_pagan_prescense = yes } 
+		#religion = semitic_pagan 
+		add_province_modifier = { name = semitic_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { east_african_pagan_reformed_prescense = yes } 
+		#religion = east_african_pagan_reformed 
+		add_province_modifier = { name = east_african_pagan_reformed_statistic duration = -1 }
+	}
+	if = { 
+		limit = { east_african_pagan_prescense = yes } 
+		#religion = east_african_pagan 
+		add_province_modifier = { name = east_african_pagan_statistic duration = -1 }
+	}
+	if = { 
+		limit = { mazdaki_prescense = yes } 
+		#religion = mazdaki 
+		add_province_modifier = { name = mazdaki_statistic duration = -1 }
+	}
+	if = { 
+		limit = { minoan_prescense = yes } 
+		#religion = minoan 
+		add_province_modifier = { name = minoan_statistic duration = -1 }
+	}
+}
