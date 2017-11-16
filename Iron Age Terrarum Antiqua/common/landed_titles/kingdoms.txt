@@ -590,8 +590,10 @@ k_odrysia = {
 			color= { 150 75 25 }
 			color2= { 255 255 255 }
 			
+			holy_site = imperial
 			holy_site = zalmoxism
 			holy_site = thracian_main
+			holy_site = adoptionism
 		
 			b_byzantion_byzantion = {
 			}
@@ -2080,10 +2082,13 @@ k_egypt = {
 			color2= { 255 255 255 }
 			egyptian = "Ra Katit"
 			
-			
 			holy_site = egyptian_pagan
 			holy_site = atenist
 			holy_site = alexandrian_pagan
+			holy_site = melitianism
+			holy_site = novatianism
+			holy_site = adoptionism
+			holy_site = sabellianism
 			
 			b_alexandria_alexandria = {
 				egyptian = "Ra Katit"
@@ -2117,6 +2122,7 @@ k_egypt = {
 			holy_site = egyptian_pagan
 			holy_site = atenist
 			holy_site = alexandrian_pagan
+			holy_site = melitianism
 			
 			b_memphis_memphis = {
 				egyptian = "Men Nefer"
@@ -2244,6 +2250,8 @@ k_egypt = {
 			color2= { 255 255 255 }
 			egyptian = "Zawty"
 			
+			holy_site = melitianism
+			
 			b_lykopolis_lykopolis = {
 				egyptian = "Zawty"
 			}
@@ -2340,6 +2348,7 @@ k_egypt = {
 			holy_site = egyptian_pagan
 			holy_site = atenist
 			holy_site = alexandrian_pagan
+			holy_site = melitianism
 			
 			b_thebes_thebes_egypt = {
 				egyptian = "Waset"
@@ -2426,6 +2435,8 @@ k_egypt = {
 			color= { 235 175 10 }
 			color2= { 255 255 255 }
 			
+			holy_site = melitianism
+			
 			b_antiphrai_antiphrai = {
 			}
 			b_pnigeus_antiphrai = {
@@ -2494,6 +2505,9 @@ k_cyrene = {
 		c_cyrene = {
 			color= { 225 200 125 }
 			color2= { 255 255 255 }
+			
+			holy_site = melitianism
+			holy_site = sabellianism
 			
 			b_cyrene_cyrene = {
 			}
@@ -2573,6 +2587,8 @@ k_syria = {
 		c_antiocheia = {
 			color= { 0 75 100 }
 			color2= { 255 255 255 }
+			
+			holy_site = novatianism
 
 			b_rhosos_antiocheia = {
 			}
@@ -2813,7 +2829,11 @@ k_syria = {
 			color= { 150 175 255 }
 			color2= { 255 255 255 }
 			
+			holy_site = imperial
 			holy_site = jewish
+			holy_site = novatianism
+			holy_site = adoptionism
+			holy_site = sabellianism
 
 			b_jerusalem_jerusalem = {
 			}
@@ -4456,6 +4476,8 @@ k_greece = {
 		c_athens = {
 			color= { 100 200 255 }
 			color2= { 255 255 255 }
+			
+			holy_site = novatianism
 		
 			b_acropolis_athens = {
 			}
@@ -5175,8 +5197,15 @@ k_italy = {
 			color= { 125 0 0 }
 			color2= { 255 255 255 }
 			
+			holy_site = imperial
+			holy_site = arian
+			holy_site = donatist
 			holy_site = etruscan_main
 			holy_site = roman_main
+			holy_site = novatianism
+			holy_site = adoptionism
+			holy_site = sabellianism
+			holy_site = pelagianism
 			
 			b_roma_roma = {
 			}
@@ -5535,6 +5564,7 @@ k_cisalpine_gaul = {
 			color2= { 255 255 255 }
 			
 			holy_site = etruscan_main
+			holy_site = arian
 			
 			b_ravenna_ravenna = {
 			}
@@ -5786,6 +5816,8 @@ k_carthage = {
 			color= { 255 225 150 }
 			color2= { 255 255 255 }
 			
+			holy_site = donatist
+			
 			b_caralis_caralis = {
 			}
 			b_pupullum_caralis = {
@@ -5820,6 +5852,9 @@ k_carthage = {
 			color2= { 255 255 255 }
 			
 			holy_site = punic_main
+			holy_site = arian
+			holy_site = donatist
+			holy_site = sabellianism
 			
 			b_carthage_carthage = {
 			}
@@ -5998,6 +6033,8 @@ k_carthage = {
 		c_hippo = {
 			color= { 255 225 100 }
 			color2= { 255 255 255 }
+			
+			holy_site = donatist
 			
 			b_hippo_hippo = {
 			}
@@ -6379,6 +6416,8 @@ k_mauretania = {
 		c_tingi = {
 			color= { 175 150 50 }
 			color2= { 255 255 255 }
+			
+			holy_site = donatist
 						
 			b_tingi_tingi = {
 			}
@@ -6722,6 +6761,8 @@ k_gallia = {
 		c_lugdunum = {
 			color= { 50 200 0 }
 			color2= { 255 255 255 }
+			
+			holy_site = pelagianism
 			
 			b_lugdunum_lugdunum = {
 			}
@@ -8258,6 +8299,8 @@ k_gallaecia = {
 		c_brigantium = {
 			color={ 40 100 40 }
 			color2={ 255 255 255 }
+			
+			holy_site = arian
 
 			b_brigantium_brigantium = {
 			}
@@ -8566,6 +8609,11 @@ k_hispa = {
 		c_toletum = {
 			color={ 60 180 30 }
 			color2={ 255 255 255 }
+			
+			holy_site = imperial
+			holy_site = arian
+			holy_site = adoptionism
+			holy_site = pelagianism
 
 			b_toletum_toletum = {
 			}
