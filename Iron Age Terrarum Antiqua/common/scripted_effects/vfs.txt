@@ -1216,12 +1216,12 @@ vfs_modifier_setup = {
 		add_province_modifier = { name = berber_pagan_reformed_statistic duration = -1 }
 	}
 	if = { 
-		limit = { illyrian_main_prescense = yes } 
+		limit = { illyrian_prescense = yes } 
 		#religion = illyrian_main 
 		add_province_modifier = { name = illyrian_main_statistic duration = -1 }
 	}
 	if = { 
-		limit = { thracian_main_prescense = yes } 
+		limit = { thracian_prescense = yes } 
 		#religion = thracian_main 
 		add_province_modifier = { name = thracian_main_statistic duration = -1 }
 	}
