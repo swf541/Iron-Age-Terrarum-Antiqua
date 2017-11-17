@@ -185,6 +185,9 @@ province_event = {	#Minority Event
 character_event = {
 	id = VFS.3
 	hide_window = yes
+	
+		is_triggered_only = yes
+	
 	immediate = {
 		any_realm_province = {
 			trigger_switch = {
