@@ -4,6 +4,8 @@ character_event = { #Yearly Check
 	id = VFS.5
 	hide_window = yes
 
+	only_independent = yes
+	
 	is_triggered_only = yes	
 	
 	immediate = {
