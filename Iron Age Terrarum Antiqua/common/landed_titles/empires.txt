@@ -3004,6 +3004,7 @@ e_skudatpa = { # Scythia
 				color2= { 255 255 255 }
 				
 				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed
 				
 				b_katipa_katipa = {
 				}
@@ -3177,6 +3178,7 @@ e_skudatpa = { # Scythia
 				color2= { 255 255 255 }
 				
 				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed
 				
 				b_kissarlewle_kissarlewle = {
 				}
@@ -3418,6 +3420,7 @@ e_skudatpa = { # Scythia
 				color2= { 255 255 255 }
 				
 				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed
 				
 				b_argimpasa_argimpasa = {
 				}

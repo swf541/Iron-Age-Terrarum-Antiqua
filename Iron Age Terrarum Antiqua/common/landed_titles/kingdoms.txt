@@ -599,6 +599,7 @@ k_odrysia = {
 			holy_site = nestorian
 			holy_site = baltic_pagan 
 			holy_site = finnish_pagan 
+			holy_site = finnish_pagan_reformed
 			holy_site = aztec 
 		
 			b_byzantion_byzantion = {
@@ -2820,6 +2821,7 @@ k_syria = {
 			holy_site = miaphysite
 			holy_site = baltic_pagan 
 			holy_site = finnish_pagan 
+			holy_site = finnish_pagan_reformed
 			holy_site = aztec 
 
 			b_jerusalem_jerusalem = {
@@ -5203,6 +5205,7 @@ k_italy = {
 			holy_site = catholic
 			holy_site = baltic_pagan 
 			holy_site = finnish_pagan 
+			holy_site = finnish_pagan_reformed
 			holy_site = aztec 
 			
 			b_roma_roma = {
@@ -6632,6 +6635,7 @@ k_dacia = {
 			
 			holy_site = zalmoxism
 			holy_site = tengri_pagan
+			holy_site = tengri_pagan_reformed
 			holy_site = slavic_pagan 
 			
 			b_sarmizegetusa_sarmizegetusa = {
@@ -7572,8 +7576,11 @@ k_tarim = {
 			color2={ 255 255 255 }
 			
 			holy_site = chinese_pagan
+			holy_site = chinese_pagan_reformed
 			holy_site = tibetan_pagan
+			holy_site = tibetan_pagan_reformed
 			holy_site = tengri_pagan
+			holy_site = tengri_pagan_reformed
 			
 			b_shule_shule = {
 			}
@@ -7625,7 +7632,9 @@ k_tarim = {
 			color2={ 255 255 255 }
 			
 			holy_site = chinese_pagan
+			holy_site = chinese_pagan_reformed
 			holy_site = tibetan_pagan
+			holy_site = tibetan_pagan_reformed
 			
 			b_hanmi_hanmi = {
 			}
@@ -7653,7 +7662,9 @@ k_tarim = {
 			color2={ 255 255 255 }
 			
 			holy_site = chinese_pagan
+			holy_site = chinese_pagan_reformed
 			holy_site = tibetan_pagan
+			holy_site = tibetan_pagan_reformed
 			
 			b_loulan_loulan = {
 			}
@@ -7690,7 +7701,9 @@ k_tarim = {
 			color2={ 255 255 255 }
 			
 			holy_site = chinese_pagan
+			holy_site = chinese_pagan_reformed
 			holy_site = tibetan_pagan
+			holy_site = tibetan_pagan_reformed
 			
 			b_wutanzili_wutanzili = {
 			}
@@ -7731,7 +7744,9 @@ k_tarim = {
 			color2={ 255 255 255 }
 			
 			holy_site = chinese_pagan
+			holy_site = chinese_pagan_reformed
 			holy_site = tibetan_pagan
+			holy_site = tibetan_pagan_reformed
 			
 			b_pulei_pulei = {
 			}
@@ -8652,6 +8667,7 @@ k_hispa = {
 			holy_site = catholic
 			holy_site = baltic_pagan 
 			holy_site = finnish_pagan 
+			holy_site = finnish_pagan_reformed
 			holy_site = aztec 
 
 			b_toletum_toletum = {

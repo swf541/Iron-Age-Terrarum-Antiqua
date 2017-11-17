@@ -31,3 +31,7 @@
 	name = "Kymioi"
 	culture = aeolian
 }
+3009 = {
+	name = "Euthydemioi"
+	culture = aeolian
+}
