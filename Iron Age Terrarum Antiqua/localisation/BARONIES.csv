@@ -333,11 +333,11 @@ b_kanossos;Kanossos;;;;;;;;;;;;;;x
 b_iasos;Iasos;;;;;;;;;;;;;;x
 b_mylasa;Mylasa;;;;;;;;;;;;;;x
 b_lobolda;Lobolda;;;;;;;;;;;;;;x
-b_halicarnassus_halicarnassus;Halicarnassus;;;;;;;;;;;;;;x
-b_lagina_halicarnassus;Lagina;;;;;;;;;;;;;;x
-b_bargylia_halicarnassus;Bargylia;;;;;;;;;;;;;;x
+b_halicarnassus;Halicarnassus;;;;;;;;;;;;;;x
+b_lagina;Lagina;;;;;;;;;;;;;;x
+b_bargylia;Bargylia;;;;;;;;;;;;;;x
 b_cnidus;Knidos;;;;;;;;;;;;;;x
-b_pargasa_halicarnassus;Pargasa;;;;;;;;;;;;;;x
+b_pargasa;Pargasa;;;;;;;;;;;;;;x
 b_telmessos_telmessos;Telmessos;;;;;;;;;;;;;;x
 b_pinara_telmessos;Pinara;;;;;;;;;;;;;;x
 b_sidyma_telmessos;Sidyma;;;;;;;;;;;;;;x
@@ -2836,8 +2836,8 @@ b_aphrodisias_attouda;Aphrodisias;;;;;;;;;;;;;x
 b_harpasa_attouda;Harpasa;;;;;;;;;;;;;x
 b_trapezopolis_attouda;Trapezopolis;;;;;;;;;;;;;x
 b_antiocheia_attouda;Antiocheia;;;;;;;;;;;;;x
-b_hydissos_halicarnassus;Hypissos;;;;;;;;;;;;;x
-b_theangela_halicarnassus;Theangela;;;;;;;;;;;;;x
+b_hydissos;Hypissos;;;;;;;;;;;;;x
+b_theangela;Theangela;;;;;;;;;;;;;x
 b_didyma;Didyma;;;;;;;;;;;;;x
 b_priene;Priene;;;;;;;;;;;;;x
 b_pinara_xanthos;Pinara;;;;;;;;;;;;;x

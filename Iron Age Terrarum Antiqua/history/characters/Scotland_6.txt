@@ -70,6 +70,7 @@
 	father=1231440	#Eoganan
 	mother=1231498	#Ceana
 	442.10.25={ birth=yes }
+	463.1.1={ add_spouse=1231499 }
 	495.6.16={ death=yes }
 }
 1231443={
@@ -95,6 +96,150 @@
 	445.2.27={ birth=yes }
 	507.9.1={ death=yes }
 }
+1231444={
+	name=Taran
+	dynasty=223032
+	dna="lladbbjjbip"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=8 
+	learning=4
+	trait=charismatic_negotiator 
+	trait=shy 
+	trait=cruel 
+	trait=content 
+	trait=gluttonous 
+	father=1231442	#Elfin
+	mother=1231499	#Teàrlag
+	462.7.22={ birth=yes }
+	483.1.1={ add_spouse=1231500 }
+	534.10.25={ death=yes }
+}
+1231445={
+	name=Alesander
+	dynasty=223032
+	dna="dgaemppnkop"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=5 
+	learning=8
+	trait=scholarly_theologian 
+	trait=mystic 
+	trait=chaste 
+	trait=craven 
+	trait=greedy 
+	trait=honest 
+	trait=paranoid 
+	father=1231442	#Elfin
+	mother=1231499	#Teàrlag
+	465.7.10={ birth=yes }
+	531.9.2={ death=yes }
+}
+1231446={
+	name=Selbach
+	dynasty=223032
+	dna="pkkkfbkakij"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=6 
+	learning=8
+	trait=scholarly_theologian 
+	trait=cruel 
+	trait=patient 
+	father=1231442	#Elfin
+	mother=1231499	#Teàrlag
+	470.6.15={ birth=yes }
+	536.6.15={ death=yes }
+}
+1231447={
+	name=Aodhan
+	dynasty=223032
+	dna="dgoifbjoipp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=5 
+	learning=5
+	trait=midas_touched 
+	trait=greedy 
+	trait=cruel 
+	trait=proud 
+	trait=gregarious 
+	trait=stressed 
+	father=1231442	#Elfin
+	mother=1231499	#Teàrlag
+	474.1.6={ birth=yes }
+	533.7.3={ death=yes }
+}
+1231448={
+	name=Teàrlag
+	female=yes
+	dynasty=223032
+	dna="lpadbbjjbbp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231444	#Taran
+	mother=1231500	#Slàine
+	485.6.25={ birth=yes }
+	564.2.20={ death=yes }
+}
+1231449={
+	name=Ceana
+	female=yes
+	dynasty=223032
+	dna="planbhkdofp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231444	#Taran
+	mother=1231500	#Slàine
+	487.12.22={ birth=yes }
+	540.5.28={ death=yes }
+}
+1231450={
+	name=Nechtan
+	dynasty=223032
+	dna="llllbijebia"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=6 
+	learning=6
+	trait=detached_priest 
+	trait=zealous 
+	trait=paranoid 
+	trait=craven 
+	trait=just 
+	trait=patient 
+	father=1231444	#Taran
+	mother=1231500	#Slàine
+	492.12.24={ birth=yes }
+	541.3.4={ death=yes }
+}
+1231451={
+	name=Slàine
+	female=yes
+	dynasty=223032
+	dna="alhondhjbap"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231444	#Taran
+	mother=1231500	#Slàine
+	495.5.7={ birth=yes }
+	560.12.2={ death=yes }
+}
 1231497={
 	name=Sidheag
 	female=yes
@@ -110,4 +255,20 @@
 	religion=celtic_pagan
 	420.10.11={ birth=yes }
 	470.2.27={ death=yes }
+}
+1231499={
+	name=Teàrlag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	442.10.11={ birth=yes }
+	495.2.27={ death=yes }
+}
+1231500={
+	name=Slàine
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	463.10.11={ birth=yes }
+	532.2.27={ death=yes }
 }

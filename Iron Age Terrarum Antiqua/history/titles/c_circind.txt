@@ -7,3 +7,9 @@
 470.01.04 = { # 306 BC
 	holder = 1231442 # Elfin
 }
+495.06.16 = { # 281 BC
+	holder = 1231444 # Taran
+}
+534.10.25 = { # 243 BC
+	holder = 1231450 # Nechtan
+}

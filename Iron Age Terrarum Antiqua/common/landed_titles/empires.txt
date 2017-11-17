@@ -115,6 +115,8 @@ e_persia = {
 				holy_site = armenian_pagan
 				holy_site = zurvanite
 				holy_site = pontic_main
+				holy_site = zun_pagan
+				holy_site = iranian_pagan
 			
 				b_gaza_adar_gushnasp = {
 				}
@@ -193,6 +195,8 @@ e_persia = {
 				color= { 200 0 75 }
 				color2= { 255 255 255 }
 				
+				holy_site = iranian_pagan
+				
 				b_ecbatana_ecbatana = {
 				}
 				b_bisutun_ecbatana = {
@@ -258,6 +262,8 @@ e_persia = {
 			c_hecatombylos = {
 				color= { 200 25 50 }
 				color2= { 255 255 255 }
+				
+				holy_site = iranian_pagan
 				
 				b_hecatombylos_hecatombylos = {
 				}
@@ -334,6 +340,7 @@ e_persia = {
 				holy_site = armenian_pagan
 				holy_site = zurvanite
 				holy_site = pontic_main
+				holy_site = iranian_pagan
 				
 				b_susia_susia = {
 				}
@@ -403,6 +410,7 @@ e_persia = {
 				
 				holy_site = elamite_pagan_reformed
 				holy_site = elamite_pagan
+				holy_site = iranian_pagan
 				
 				b_susa_susa = {
 				}
@@ -420,8 +428,10 @@ e_persia = {
 			c_nemavand = {
 				color= { 235 0 60 }
 				color2= { 255 255 255 }
+				
 				holy_site = elamite_pagan_reformed
-				holy_site = elamite_pagan				
+				holy_site = elamite_pagan	
+				
 				b_nemavand_nemavand = {
 				}
 				b_harsin_nemavand = {
@@ -918,7 +928,8 @@ e_persia = {
 			c_marakanda = {
 				color= { 165 15 50 }
 				color2= { 255 255 255 }
-			
+				
+				holy_site = zun_pagan
 				
 				b_maracanda_marakanda = {
 				}
@@ -2133,6 +2144,8 @@ e_india = {
 				color={ 255 150 31 }
 				color2={ 255 255 255 }
 				
+				holy_site = zun_pagan
+				
 				b_taxila_taxila = {
 				}
 				b_rudera_taxila = {
@@ -2649,6 +2662,8 @@ e_india = {
 			c_sripura = {
 				color={ 58 178 41 }
 				color2={ 255 255 255 }
+				
+				holy_site = zun_pagan
 				
 				b_sripura_sripura = {
 				}
@@ -3977,6 +3992,8 @@ e_skudatpa = { # Scythia
 			c_katipatak = {
 				color= { 200 140 10 }
 				color2= { 255 255 255 }
+				
+				holy_site = zun_pagan
 								
 				b_katipatak_katipatak = {
 				}

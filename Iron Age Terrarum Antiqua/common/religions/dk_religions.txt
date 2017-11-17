@@ -1357,9 +1357,9 @@ zoroastrian_group = {
 	}
 
 	zoroastrian = {
-		graphical_culture = westerngfx
+		graphical_culture = persiangfx
 		icon = 10
-		color = { 0.3 0.6 0.3 }
+		color = { 0.4 0.6 0.3 }
 		crusade_name = "CRUSADE"
 		scripture_name = THE_GATHAS
 		god_names = {
@@ -1371,8 +1371,15 @@ zoroastrian_group = {
 		
 		max_consorts = 20
 		
+		divine_blood = yes # Sacred Xwedodah close-kin marriage mechanics
+		pc_marriage = yes # Parent/child marriage allowed
+		bs_marriage = yes # Brother/sister marriage allowed
+		
 		intermarry = egyptian_pagan	
 		intermarry = atenist
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
 		
 		intermarry = berber_main
 		
@@ -1660,6 +1667,82 @@ zoroastrian_group = {
 		attacking_same_religion_piety_loss = yes
 		uses_decadence = yes
 		uses_jizya_tax = yes
+	}
+	mazdaki = {
+		graphical_culture = persiangfx
+		
+		secondary_event_pictures = sunni
+		
+		icon = 10
+		heresy_icon = 12
+		
+		color = { 0.3 0.65 0.25 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GREAT_SECRET
+		
+		high_god_name = GOD_AHURA_MAZDA
+		
+		god_names = {
+			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_MAZDAK
+		}
+		
+		parent = zoroastrian
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3 # Can take concubines
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		
+		intermarry = egyptian_pagan	
+		intermarry = atenist
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_pagan
+		
+		intermarry = punic_main
+		intermarry = canaanite_pagan	
+		
+		#intermarry = zoroastrian
+		#intermarry = zurvanite
+		#intermarry = ossetian_pagan
+		#intermarry = hindu
+		#intermarry = armenian_pagan	
+		
+		#intermarry = jewish	
+		
+		intermarry = jain
+		intermarry = buddhist
+		
+		intermarry = georgian_pagan	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = hellenic_pagan
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
 	}
 }
 jewish_group = {
