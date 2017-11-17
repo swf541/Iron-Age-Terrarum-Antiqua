@@ -68,6 +68,9 @@ k_ireland = {
 		c_eblana = {
 			color= { 20 200 20 }
 			color2= { 255 255 255 }
+			
+			holy_site = imperial
+			holy_site = catholic
 		
 			b_eblana1 = { }
 			b_eblana2 = { }

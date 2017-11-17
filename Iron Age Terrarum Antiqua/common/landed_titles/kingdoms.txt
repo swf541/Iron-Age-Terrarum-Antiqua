@@ -592,6 +592,11 @@ k_odrysia = {
 			
 			holy_site = zalmoxism
 			holy_site = thracian_main
+			holy_site = imperial
+			holy_site = catholic
+			holy_site = orthodox
+			holy_site = miaphysite
+			holy_site = nestorian
 		
 			b_byzantion_byzantion = {
 			}
@@ -1085,21 +1090,20 @@ k_lydia = {
 			color= { 0 125 105 }
 			color2= { 255 255 255 }
 			
-			b_saittai_saittai = {
-			}
-			b_tabala_saittai = {
-			}
-			b_silandos_saittai = {
-			}
-			b_koresa_saittai = {
-			}
-			b_emoddi_saittai = {
-			}
+			b_saittai = {}
+			b_tabala = {}
+			b_silandos = {}
+			b_koresa = {}
+			b_emoddi = {}
+			b_saittai6 = {}
+			b_saittai7 = {}
 		}
 	}
 	d_caria = {
 		color= { 0 75 75 }
 		color2= { 255 255 255 }
+		
+		capital = 82 # Miletus
 		
 		c_miletus = {
 			color= { 10 85 75 }
@@ -1107,18 +1111,13 @@ k_lydia = {
 			
 			holy_site = hellenic_pagan
 			
-			b_miletus_miletus = {
-			}
-			b_kanossos_miletus = {
-			}
-			b_iasos_miletus = {
-			}
-			b_mylasa_miletus = {
-			}			
-			b_didyma_miletus = { # Oracle of Didyma
-			}
-			b_priene_miletus = {
-			}
+			b_miletus = {}
+			b_kanossos = {}
+			b_iasos = {}
+			b_mylasa = {}			
+			b_didyma = {} # Oracle of Didyma
+			b_priene = {}
+			b_lobolda = {}
 		}
 		c_halicarnassus = {
 			color= { 0 75 75 }
@@ -1136,6 +1135,7 @@ k_lydia = {
 			}
 			b_theangela_halicarnassus = {
 			}
+			b_cnidus = {}
 		}
 		c_kos = {
 			color= { 0 85 85 }
@@ -2080,10 +2080,11 @@ k_egypt = {
 			color2= { 255 255 255 }
 			egyptian = "Ra Katit"
 			
-			
 			holy_site = egyptian_pagan
 			holy_site = atenist
 			holy_site = alexandrian_pagan
+			holy_site = orthodox
+			holy_site = miaphysite
 			
 			b_alexandria_alexandria = {
 				egyptian = "Ra Katit"
@@ -2117,6 +2118,7 @@ k_egypt = {
 			holy_site = egyptian_pagan
 			holy_site = atenist
 			holy_site = alexandrian_pagan
+			holy_site = pagan
 			
 			b_memphis_memphis = {
 				egyptian = "Men Nefer"
@@ -2573,6 +2575,10 @@ k_syria = {
 		c_antiocheia = {
 			color= { 0 75 100 }
 			color2= { 255 255 255 }
+			
+			holy_site = orthodox
+			holy_site = miaphysite
+			holy_site = nestorian
 
 			b_rhosos_antiocheia = {
 			}
@@ -2814,6 +2820,10 @@ k_syria = {
 			color2= { 255 255 255 }
 			
 			holy_site = jewish
+			holy_site = imperial
+			holy_site = catholic
+			holy_site = orthodox
+			holy_site = miaphysite
 
 			b_jerusalem_jerusalem = {
 			}
@@ -3054,6 +3064,7 @@ k_assyria = {
 			color2= { 255 255 255 }
 			
 			holy_site = marduk_cult
+			holy_site = nestorian
 
 			b_kalhu_nineveh = {
 			}
@@ -3135,9 +3146,12 @@ k_babylonia = {
 		c_babylon = {
 			color= { 0 50 225 }
 			color2= { 255 255 255 }
+			
 			holy_site = elamite_pagan_reformed
 			holy_site = elamite_pagan			
 			holy_site = marduk_cult
+			holy_site = nestorian
+			holy_site = pagan
 			
 			b_babylon_babylon = {
 			}
@@ -4456,6 +4470,9 @@ k_greece = {
 		c_athens = {
 			color= { 100 200 255 }
 			color2= { 255 255 255 }
+			
+			holy_site = orthodox
+			holy_site = pagan
 		
 			b_acropolis_athens = {
 			}
@@ -5177,6 +5194,8 @@ k_italy = {
 			
 			holy_site = etruscan_main
 			holy_site = roman_main
+			holy_site = imperial
+			holy_site = catholic
 			
 			b_roma_roma = {
 			}
@@ -5820,6 +5839,7 @@ k_carthage = {
 			color2= { 255 255 255 }
 			
 			holy_site = punic_main
+			holy_site = pagan
 			
 			b_carthage_carthage = {
 			}
@@ -6379,6 +6399,8 @@ k_mauretania = {
 		c_tingi = {
 			color= { 175 150 50 }
 			color2= { 255 255 255 }
+			
+			holy_site = pagan
 						
 			b_tingi_tingi = {
 			}
@@ -6583,6 +6605,7 @@ k_dacia = {
 			color2= { 255 255 255 }
 			
 			holy_site = zalmoxism
+			holy_site = tengri_pagan
 			
 			b_sarmizegetusa_sarmizegetusa = {
 			}
@@ -7111,6 +7134,8 @@ k_kush = {
 			color={ 225 255 0 }
 			color2={ 255 255 255 }
 			
+			holy_site = miaphysite
+			
 			b_meroe_meroe = {
 			}
 			b_hafir_meroe = {
@@ -7506,6 +7531,10 @@ k_tarim = {
 			color={ 185 210 142 }
 			color2={ 255 255 255 }
 			
+			holy_site = chinese_pagan
+			holy_site = tibetan_pagan
+			holy_site = tengri_pagan
+			
 			b_shule_shule = {
 			}
 			b_weitou_shule = {
@@ -7555,6 +7584,9 @@ k_tarim = {
 			color={ 155 170 132 }
 			color2={ 255 255 255 }
 			
+			holy_site = chinese_pagan
+			holy_site = tibetan_pagan
+			
 			b_hanmi_hanmi = {
 			}
 			b_jingjue_hanmi = {
@@ -7579,6 +7611,9 @@ k_tarim = {
 		c_loulan = {
 			color={ 163 241 28 }
 			color2={ 255 255 255 }
+			
+			holy_site = chinese_pagan
+			holy_site = tibetan_pagan
 			
 			b_loulan_loulan = {
 			}
@@ -7613,6 +7648,9 @@ k_tarim = {
 		c_wutanzili = {
 			color = { 85 138 51 }
 			color2={ 255 255 255 }
+			
+			holy_site = chinese_pagan
+			holy_site = tibetan_pagan
 			
 			b_wutanzili_wutanzili = {
 			}
@@ -7651,6 +7689,9 @@ k_tarim = {
 		c_pulei = {
 			color = { 85 138 51 }
 			color2={ 255 255 255 }
+			
+			holy_site = chinese_pagan
+			holy_site = tibetan_pagan
 			
 			b_pulei_pulei = {
 			}
@@ -8566,6 +8607,9 @@ k_hispa = {
 		c_toletum = {
 			color={ 60 180 30 }
 			color2={ 255 255 255 }
+			
+			holy_site = imperial
+			holy_site = catholic
 
 			b_toletum_toletum = {
 			}

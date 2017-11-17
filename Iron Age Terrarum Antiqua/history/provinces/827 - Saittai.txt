@@ -5,15 +5,16 @@ title = c_saittai
 
 # Settlements
 max_settlements = 5
-b_saittai_saittai = castle
-b_tabala_saittai = castle
-b_silandos_saittai = castle
-b_koresa_saittai = temple
-b_emoddi_saittai = temple
+b_saittai = castle
+b_tabala = castle
+b_silandos = castle
+b_koresa = temple
+b_emoddi = temple
+#b_saittai6 = city
+#b_saittai7 = city
 
 # Misc
 culture = luwian
 religion = anatolian_main
 
 # History
-# Can be filled when things change around the province

@@ -1,20 +1,20 @@
 # 82 - Miletus
 
 # County Title
-title = c_miletus # for example c_corinth
+title = c_miletus
 
 # Settlements
 max_settlements = 6
-b_miletus_miletus = castle
-b_kanossos_miletus = temple
-b_iasos_miletus = city 
-b_mylasa_miletus = castle
-b_didyma_miletus = temple
-b_priene_miletus = city
+b_miletus = castle
+b_kanossos = temple
+b_iasos = city 
+b_mylasa = castle
+b_didyma = temple
+b_priene = city
+#b_lobolda = castle
 
 # Misc
 culture = ionian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

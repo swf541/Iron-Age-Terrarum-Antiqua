@@ -18,3 +18,7 @@
 	name ="Caledonii"
 	culture = pictish
 }
+223032 = {
+	name ="Taexali"
+	culture = pictish
+}

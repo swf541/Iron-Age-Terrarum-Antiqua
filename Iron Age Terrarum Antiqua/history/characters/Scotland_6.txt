@@ -1,0 +1,113 @@
+1231439={
+	name=Crautreic
+	dynasty=223032
+	dna="djlkofjcknp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=5 
+	learning=8
+	trait=martial_cleric 
+	trait=duelist 
+	trait=gluttonous 
+	trait=trusting 
+	400.7.16={ birth=yes }
+	421.1.1={ add_spouse=1231497 }
+	452.5.9={ death=yes }
+}
+1231440={
+	name=Eoganan
+	dynasty=223032
+	dna="hcakffjckni"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=5 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=gregarious 
+	trait=gluttonous 
+	trait=cruel 
+	trait=greedy 
+	father=1231439	#Crautreic
+	mother=1231497	#Sidheag
+	420.7.16={ birth=yes }
+	441.1.1={ add_spouse=1231498 }
+	470.1.4={ death=yes }
+}
+1231441={
+	name=Sidheag
+	female=yes
+	dynasty=223032
+	dna="adlfbfecinp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231439	#Crautreic
+	mother=1231497	#Sidheag
+	424.1.22={ birth=yes }
+	473.5.1={ death=yes }
+}
+1231442={
+	name=Elfin
+	dynasty=223032
+	dna="dgakfbjnkip"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=8
+	trait=detached_priest 
+	trait=temperate 
+	trait=ambitious 
+	trait=zealous 
+	trait=clubfooted 
+	father=1231440	#Eoganan
+	mother=1231498	#Ceana
+	442.10.25={ birth=yes }
+	495.6.16={ death=yes }
+}
+1231443={
+	name=Giolla
+	dynasty=223032
+	dna="hffnfbbckni"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=5 
+	learning=6
+	trait=scholarly_theologian 
+	trait=gregarious 
+	trait=just 
+	trait=slothful 
+	trait=honest 
+	trait=proud 
+	trait=gluttonous 
+	father=1231440	#Eoganan
+	mother=1231498	#Ceana
+	445.2.27={ birth=yes }
+	507.9.1={ death=yes }
+}
+1231497={
+	name=Sidheag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	400.10.11={ birth=yes }
+	452.2.27={ death=yes }
+}
+1231498={
+	name=Ceana
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	420.10.11={ birth=yes }
+	470.2.27={ death=yes }
+}

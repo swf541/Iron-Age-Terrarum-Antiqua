@@ -11,6 +11,7 @@ b_bargylia_halicarnassus = city
 b_pargasa_halicarnassus = temple
 b_hydissos_halicarnassus = castle
 b_theangela_halicarnassus = castle
+#b_cnidus = city
 
 # Misc
 culture = ionian

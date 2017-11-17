@@ -1,0 +1,9 @@
+401.1.1 = { # 375 BC
+	holder = 1231439 # Crautreic
+}
+452.05.09 = { # 324 BC
+	holder = 1231440 # Eoganan
+}
+470.01.04 = { # 306 BC
+	holder = 1231442 # Elfin
+}
