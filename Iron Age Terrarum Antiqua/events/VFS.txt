@@ -5,6 +5,7 @@ province_event = {	#Base Event
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_province_modifier = recent_conversion_vfs }
 		OR = {
 			has_province_flag = egyptian_pagan_majority
 			has_province_flag = atenist_majority

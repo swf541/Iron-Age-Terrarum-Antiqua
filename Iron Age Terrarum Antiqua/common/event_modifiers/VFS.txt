@@ -1,4 +1,5 @@
 egyptian_pagan_statistic = { icon = 42 } 
+recent_conversion_vfs = { icon = 42 } 
 atenist_statistic = { icon = 42 } 
 berber_main_statistic = { icon = 42 } 
 berber_pagan_reformed_statistic = { icon = 42 } 
