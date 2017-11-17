@@ -10,3 +10,8 @@ on_county_religion_change = {
 		VFS.1
 	}
 }
+on_yearly_pulse = {
+	events = {
+		VFS.5
+	}
+}
