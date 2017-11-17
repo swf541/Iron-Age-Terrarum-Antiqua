@@ -5,7 +5,7 @@ province_event = {	#Base Event
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_province_modifier = recent_conversion_vfs }
+		#NOT = { has_province_modifier = recent_conversion_vfs }
 		OR = {
 			has_province_flag = egyptian_pagan_majority
 			has_province_flag = atenist_majority
@@ -162,24 +162,209 @@ province_event = {	#Base Event
 		vfs_modifier_setup = yes
 	}
 }
-province_event = {	#Minority Event
+
+character_event = {
 	id = VFS.2
-	desc = VFS.1.desc
-	picture = GFX_evt_council
-	
-	is_triggered_only = yes
+	title = "EVTNAME900"
+	desc = "EVTDESC900"
+	picture = GFX_evt_heretic
+	border = GFX_event_normal_frame_religion
+
+	min_age = 16
+	capable_only = yes
+	prisoner = no
 	
 	trigger = {
-		owner = { religion = ROOT }
-		religous_minority_trigger = yes
+		has_job_action = action_inquisition
+		NOT = { has_character_modifier = in_seclusion }
+		location = { religous_minority_trigger = yes } 
+		location = {
+			owner = { same_realm = ROOT }
+		}
 	}
-	immediate = {
+	
+	mean_time_to_happen = {
+		months = 960
+		
+		modifier = {
+			factor = 2.0
+			liege = {
+				tier = count
+				ai = yes
+			}
+		}
+		modifier = {
+			factor = 0.75
+			location = { culture_group = ROOT }
+		}
+		modifier = {
+			factor = 0.75
+			location = { culture = ROOT }
+		}
+		modifier = {
+			factor = 0.5
+			location = { religion_group = ROOT }
+		}
+		modifier = {
+			factor = 0.75
+			location = { has_province_modifier = depopulated_1 }
+		}
+		modifier = {
+			factor = 0.50
+			location = { has_province_modifier = depopulated_2 }
+		}
+		modifier = {
+			factor = 0.25
+			location = { has_province_modifier = depopulated_3 }
+		}
+		modifier = {
+			factor = 3.0
+			location = { is_hard_to_convert = yes }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { learning = 2 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { learning = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			learning = 10
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 12
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 3.0
+			NOT = { religion_authority = 0.1 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { religion_authority = 0.2 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { religion_authority = 0.3 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { religion_authority = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { religion_authority = 0.5 }
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority = 0.6
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority = 0.7
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority = 0.8
+		}
+		modifier = {
+			factor = 0.75
+			religion_authority = 0.9
+		}
+		
+		# Hindus and Buddhists have a hard time converting other Indian religions
+		modifier = {
+			factor = 3.0
+			OR = {
+				religion = hindu
+				religion = buddhist
+			}
+			location = {
+				religion_group = indian_group
+			}
+		}
+		# Jains have a hard time converting ALL non-pagans
+		modifier = {
+			factor = 3.0
+			religion = jain
+			location = {
+				NOT = { religion_group = pagan_group }
+			}
+		}
+		
+		modifier = {
+			factor = 3.0
+			religion_group = pagan_group
+			is_reformed_religion = no
+			location = {
+				OR = {
+					NOT = { religion_group = pagan_group }
+					is_reformed_religion = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			location = { is_heresy_of = ROOT }
+		}
+		modifier = {
+			factor = 0.75
+			location = {
+				has_province_modifier = force_converting
+			}
+		}
+		modifier = {
+			factor = 3.0
+			location = {
+				has_province_modifier = heretic_stronghold
+			}
+		}
+		modifier = {
+			factor = 3
+			has_game_rule = {
+				name = religious_conversion
+				value = slower
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA900"
+		piety = 10
 		vfs_minority_conversion = yes
 		vfs_modifier_setup = yes
-	}
-	option = {
-		name = "EVTOPTAVFS.2" # 
-		piety = 10		
+		liege = {
+			letter_event = { id = 20000 tooltip = EVTTOOLTIP20000 }
+			hidden_tooltip = {
+				if = {
+					limit = {
+						top_liege = {
+							NOT = { character = PREV }
+							religion = ROOT
+						}
+					}
+					top_liege = { character_event = { id = 20001 } }
+				}
+			}
+		}
 	}
 }
 
