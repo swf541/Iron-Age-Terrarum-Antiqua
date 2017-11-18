@@ -569,10 +569,14 @@ character_event = {
 					limit = {
 						NOT = { religion = ROOT }
 					}
-					random = {
-						chance = 50
+					religion = ROOT
+					religous_rebellion_spreads = yes
+				}
+				if = {
+					limit = {
 						religion = ROOT
 					}
+					religous_rebellion_spreads = yes
 				}
 				if = {
 					limit = {
@@ -1323,10 +1327,14 @@ character_event = {
 					limit = {
 						NOT = { religion = ROOT }
 					}
-					random = {
-						chance = 5
+					religion = ROOT
+					religous_rebellion_spreads = yes
+				}
+				if = {
+					limit = {
 						religion = ROOT
 					}
+					religous_rebellion_spreads = yes
 				}
 				if = {
 					limit = {
