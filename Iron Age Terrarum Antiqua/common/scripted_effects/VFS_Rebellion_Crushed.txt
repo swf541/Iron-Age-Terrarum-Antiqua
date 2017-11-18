@@ -1,0 +1,444 @@
+#Religion decline
+egyptian_pagan_crushed = {
+	change_variable = { which = egyptian_pagan_pop value = -25 }
+}
+atenist_crushed = {
+	change_variable = { which = atenist_pop value = -25 }
+}
+berber_main_crushed = {
+	change_variable = { which = berber_main_pop value = -25 }
+}
+berber_pagan_reformed_crushed = {
+	change_variable = { which = berber_pagan_reformed_pop value = -25 }
+}
+illyrian_crushed = {
+	change_variable = { which = illyrian_main_pop value = -25 }
+}
+thracian_crushed = {
+	change_variable = { which = thracian_main_pop value = -25 }
+}
+zalmoxism_crushed = {
+	change_variable = { which = zalmoxism_pop value = -25 }
+}
+zalmoxism_reformed_crushed = {
+	change_variable = { which = zalmoxism_reformed_pop value = -25 }
+}
+norse_pagan_reformed_crushed = {
+	change_variable = { which = norse_pagan_reformed_pop value = -25 }
+}
+norse_pagan_crushed = {
+	change_variable = { which = norse_pagan_pop value = -25 }
+}
+east_germanic_pagan_reformed_crushed = {
+	change_variable = { which = east_germanic_pagan_reformed_pop value = -25 }
+}
+east_germanic_pagan_crushed = {
+	change_variable = { which = east_germanic_pagan_pop value = -25 }
+}
+germanic_pagan_reformed_crushed = {
+	change_variable = { which = germanic_pagan_reformed_pop value = -25 }
+}
+germanic_pagan_crushed = {
+	change_variable = { which = germanic_pagan_pop value = -25 }
+}
+celtic_pagan_crushed = {
+	change_variable = { which = celtic_pagan_pop value = -25 }
+}
+celtic_pagan_reformed_crushed = {
+	change_variable = { which = celtic_pagan_reformed_pop value = -25 }
+}
+punic_main_crushed = {
+	change_variable = { which = punic_main_pop value = -25 }
+}
+canaanite_pagan_crushed = {
+	change_variable = { which = canaanite_pagan_pop value = -25 }
+}
+canaanite_pagan_reformed_crushed = {
+	change_variable = { which = canaanite_pagan_reformed_pop value = -25 }
+}
+ossetian_pagan_reformed_crushed = {
+	change_variable = { which = ossetian_pagan_reformed_pop value = -25 }
+}
+ossetian_pagan_crushed = {
+	change_variable = { which = ossetian_pagan_pop value = -25 }
+}
+iranian_pagan_crushed = {
+	change_variable = { which = iranian_pagan_pop value = -25 }
+}
+iranian_pagan_reformed_crushed = {
+	change_variable = { which = iranian_pagan_reformed_pop value = -25 }
+}
+zoroastrian_crushed = {
+	change_variable = { which = zoroastrian_pop value = -25 }
+}
+zurvanite_crushed = {
+	change_variable = { which = zurvanite_pop value = -25 }
+}
+sogdian_zoroastrian_crushed = {
+	change_variable = { which = sogdian_zoroastrian_pop value = -25 }
+}
+bihafaridism_crushed = {
+	change_variable = { which = bihafaridism_pop value = -25 }
+}
+hanifiyya_crushed = {
+	change_variable = { which = hanifiyya_pop value = -25 }
+}
+chinese_pagan_reformed_crushed = {
+	change_variable = { which = chinese_pagan_reformed_pop value = -25 }
+}
+chinese_pagan_crushed = {
+	change_variable = { which = chinese_pagan_pop value = -25 }
+}
+tibetan_pagan_reformed_crushed = {
+	change_variable = { which = tibetan_pagan_reformed_pop value = -25 }
+}
+tibetan_pagan_crushed = {
+	change_variable = { which = tibetan_pagan_pop value = -25 }
+}
+sanamahi_reformed_crushed = {
+	change_variable = { which = sanamahi_reformed_pop value = -25 }
+}
+sanamahi_crushed = {
+	change_variable = { which = sanamahi_pop value = -25 }
+}
+dravidian_pagan_reformed_crushed = {
+	change_variable = { which = dravidian_pagan_reformed_pop value = -25 }
+}
+armenian_pagan_crushed = {
+	change_variable = { which = armenian_pagan_pop value = -25 }
+}
+armenian_pagan_reformed_crushed = {
+	change_variable = { which = armenian_pagan_reformed_pop value = -25 }
+}
+yazidi_crushed = {
+	change_variable = { which = yazidi_pop value = -25 }
+}
+jewish_crushed = {
+	change_variable = { which = jewish_pop value = -25 }
+}
+samaritan_crushed = {
+	change_variable = { which = samaritan_pop value = -25 }
+}
+grand_sanhedrin_crushed = {
+	change_variable = { which = grand_sanhedrin_pop value = -25 }
+}
+temple_judaism_crushed = {
+	change_variable = { which = temple_judaism_pop value = -25 }
+}
+karaite_crushed = {
+	change_variable = { which = karaite_pop value = -25 }
+}
+hindu_crushed = {
+	change_variable = { which = hindu_pop value = -25 }
+}
+jain_crushed = {
+	change_variable = { which = jain_pop value = -25 }
+}
+buddhist_crushed = {
+	change_variable = { which = buddhist_pop value = -25 }
+}
+vajrayana_buddhist_crushed = {
+	change_variable = { which = vajrayana_buddhist_pop value = -25 }
+}
+mahayana_buddhist_crushed = {
+	change_variable = { which = mahayana_buddhist_pop value = -25 }
+}
+georgian_pagan_crushed = {
+	change_variable = { which = georgian_pagan_pop value = -25 }
+}
+georgian_pagan_reformed_crushed = {
+	change_variable = { which = georgian_pagan_reformed_pop value = -25 }
+}
+anatolian_main_crushed = {
+	change_variable = { which = anatolian_main_pop value = -25 }
+}
+phrygian_main_crushed = {
+	change_variable = { which = phrygian_main_pop value = -25 }
+}
+hittite_main_crushed = {
+	change_variable = { which = hittite_main_pop value = -25 }
+}
+marduk_cult_crushed = {
+	change_variable = { which = marduk_cult_pop value = -25 }
+}
+elamite_pagan_reformed_crushed = {
+	change_variable = { which = elamite_pagan_reformed_pop value = -25 }
+}
+elamite_pagan_crushed = {
+	change_variable = { which = elamite_pagan_pop value = -25 }
+}
+arabic_main_crushed = {
+	change_variable = { which = arabic_main_pop value = -25 }
+}
+south_semitic_pagan_reformed_crushed = {
+	change_variable = { which = south_semitic_pagan_reformed_pop value = -25 }
+}
+south_semitic_pagan_crushed = {
+	change_variable = { which = south_semitic_pagan_pop value = -25 }
+}
+hellenic_pagan_reformed_crushed = {
+	change_variable = { which = hellenic_pagan_reformed_pop value = -25 }
+}
+hellenic_pagan_crushed = {
+	change_variable = { which = hellenic_pagan_pop value = -25 }
+}
+alexandrian_pagan_crushed = {
+	change_variable = { which = alexandrian_pagan_pop value = -25 }
+}
+roman_main_crushed = {
+	change_variable = { which = roman_main_pop value = -25 }
+}
+italic_main_crushed = {
+	change_variable = { which = italic_main_pop value = -25 }
+}
+pontic_main_crushed = {
+	change_variable = { which = pontic_main_pop value = -25 }
+}
+etruscan_main_crushed = {
+	change_variable = { which = etruscan_main_pop value = -25 }
+}
+dravidian_main_crushed = {
+	change_variable = { which = dravidian_main_pop value = -25 }
+}
+lusitanian_main_crushed = {
+	change_variable = { which = lusitanian_main_pop value = -25 }
+}
+iberian_main_crushed = {
+	change_variable = { which = iberian_main_pop value = -25 }
+}
+aquitanian_main_crushed = {
+	change_variable = { which = aquitanian_main_pop value = -25 }
+}
+marcionism_crushed = {
+	change_variable = { which = marcionism_pop value = -25 }
+}
+priscillianism_crushed = {
+	change_variable = { which = priscillianism_pop value = -25 }
+}
+valentinianism_crushed = {
+	change_variable = { which = valentinianism_pop value = -25 }
+}
+manichean_crushed = {
+	change_variable = { which = manichean_pop value = -25 }
+}
+mandean_crushed = {
+	change_variable = { which = mandean_pop value = -25 }
+}
+bogomilist_crushed = {
+	change_variable = { which = bogomilist_pop value = -25 }
+}
+paulician_crushed = {
+	change_variable = { which = paulician_pop value = -25 }
+}
+cathar_crushed = {
+	change_variable = { which = cathar_pop value = -25 }
+}
+encratites_crushed = {
+	change_variable = { which = encratites_pop value = -25 }
+}
+amidist_crushed = {
+	change_variable = { which = amidist_pop value = -25 }
+}
+confucian_crushed = {
+	change_variable = { which = confucian_pop value = -25 }
+}
+neoconfucian_crushed = {
+	change_variable = { which = neoconfucian_pop value = -25 }
+}
+taoist_crushed = {
+	change_variable = { which = taoist_pop value = -25 }
+}
+neotaoist_crushed = {
+	change_variable = { which = neotaoist_pop value = -25 }
+}
+hindukush_crushed = {
+	change_variable = { which = hindukush_pop value = -25 }
+}
+hindukush_reformed_crushed = {
+	change_variable = { which = hindukush_reformed_pop value = -25 }
+}
+zun_pagan_crushed = {
+	change_variable = { which = zun_pagan_pop value = -25 }
+}
+zun_pagan_reformed_crushed = {
+	change_variable = { which = zun_pagan_reformed_pop value = -25 }
+}
+bosporan_faith_crushed = {
+	change_variable = { which = bosporan_faith_pop value = -25 }
+}
+imperial_crushed = {
+	change_variable = { which = imperial_pop value = -25 }
+}
+arian_crushed = {
+	change_variable = { which = arian_pop value = -25 }
+}
+donatism_crushed = {
+	change_variable = { which = donatism_pop value = -25 }
+}
+melitianism_crushed = {
+	change_variable = { which = melitianism_pop value = -25 }
+}
+novatianism_crushed = {
+	change_variable = { which = novatianism_pop value = -25 }
+}
+adoptionism_crushed = {
+	change_variable = { which = adoptionism_pop value = -25 }
+}
+sabellianism_crushed = {
+	change_variable = { which = sabellianism_pop value = -25 }
+}
+pelagianism_crushed = {
+	change_variable = { which = pelagianism_pop value = -25 }
+}
+macedonianism_crushed = {
+	change_variable = { which = macedonianism_pop value = -25 }
+}
+catholic_crushed = {
+	change_variable = { which = catholic_pop value = -25 }
+}
+montanism_crushed = {
+	change_variable = { which = montanism_pop value = -25 }
+}
+fraticelli_crushed = {
+	change_variable = { which = fraticelli_pop value = -25 }
+}
+waldensian_crushed = {
+	change_variable = { which = waldensian_pop value = -25 }
+}
+lollard_crushed = {
+	change_variable = { which = lollard_pop value = -25 }
+}
+orthodox_crushed = {
+	change_variable = { which = orthodox_pop value = -25 }
+}
+miaphysite_crushed = {
+	change_variable = { which = miaphysite_pop value = -25 }
+}
+tondrakian_crushed = {
+	change_variable = { which = tondrakian_pop value = -25 }
+}
+monophysite_crushed = {
+	change_variable = { which = monophysite_pop value = -25 }
+}
+monothelite_crushed = {
+	change_variable = { which = monothelite_pop value = -25 }
+}
+iconoclast_crushed = {
+	change_variable = { which = iconoclast_pop value = -25 }
+}
+nestorian_crushed = {
+	change_variable = { which = nestorian_pop value = -25 }
+}
+eutychian_crushed = {
+	change_variable = { which = eutychian_pop value = -25 }
+}
+messalian_crushed = {
+	change_variable = { which = messalian_pop value = -25 }
+}
+sunni_crushed = {
+	change_variable = { which = sunni_pop value = -25 }
+}
+zikri_crushed = {
+	change_variable = { which = zikri_pop value = -25 }
+}
+ibadi_crushed = {
+	change_variable = { which = ibadi_pop value = -25 }
+}
+kharijite_crushed = {
+	change_variable = { which = kharijite_pop value = -25 }
+}
+shiite_crushed = {
+	change_variable = { which = shiite_pop value = -25 }
+}
+druze_crushed = {
+	change_variable = { which = druze_pop value = -25 }
+}
+qarmatian_crushed = {
+	change_variable = { which = qarmatian_pop value = -25 }
+}
+hurufi_crushed = {
+	change_variable = { which = hurufi_pop value = -25 }
+}
+pagan_crushed = {
+	change_variable = { which = pagan_pop value = -25 }
+}
+mesopotamian_paganism_crushed = {
+	change_variable = { which = mesopotamian_paganism_pop value = -25 }
+}
+mesopotamian_paganism_reformed_crushed = {
+	change_variable = { which = mesopotamian_paganism_reformed_pop value = -25 }
+}
+tengri_pagan_reformed_crushed = {
+	change_variable = { which = tengri_pagan_reformed_pop value = -25 }
+}
+tengri_pagan_crushed = {
+	change_variable = { which = tengri_pagan_pop value = -25 }
+}
+baltic_pagan_reformed_crushed = {
+	change_variable = { which = baltic_pagan_reformed_pop value = -25 }
+}
+baltic_pagan_crushed = {
+	change_variable = { which = baltic_pagan_pop value = -25 }
+}
+finnish_pagan_reformed_crushed = {
+	change_variable = { which = finnish_pagan_reformed_pop value = -25 }
+}
+finnish_pagan_crushed = {
+	change_variable = { which = finnish_pagan_pop value = -25 }
+}
+aztec_reformed_crushed = {
+	change_variable = { which = aztec_reformed_pop value = -25 }
+}
+aztec_crushed = {
+	change_variable = { which = aztec_pop value = -25 }
+}
+slavic_pagan_reformed_crushed = {
+	change_variable = { which = slavic_pagan_reformed_pop value = -25 }
+}
+slavic_pagan_crushed = {
+	change_variable = { which = slavic_pagan_pop value = -25 }
+}
+west_african_pagan_reformed_crushed = {
+	change_variable = { which = west_african_pagan_reformed_pop value = -25 }
+}
+west_african_pagan_crushed = {
+	change_variable = { which = west_african_pagan_pop value = -25 }
+}
+serer_crushed = {
+	change_variable = { which = serer_pop value = -25 }
+}
+Bori_crushed = {
+	change_variable = { which = bori_pop value = -25 }
+}
+sol_invictus_crushed = {
+	change_variable = { which = sol_invictus_pop value = -25 }
+}
+egyptian_pagan_reformed_crushed = {
+	change_variable = { which = egyptian_pagan_reformed_pop value = -25 }
+}
+basque_pagan_reformed_crushed = {
+	change_variable = { which = basque_pagan_reformed_pop value = -25 }
+}
+basque_pagan_crushed = {
+	change_variable = { which = basque_pagan_pop value = -25 }
+}
+semitic_pagan_reformed_crushed = {
+	change_variable = { which = semitic_pagan_reformed_pop value = -25 }
+}
+semitic_pagan_crushed = {
+	change_variable = { which = semitic_pagan_pop value = -25 }
+}
+east_african_pagan_reformed_crushed = {
+	change_variable = { which = east_african_pagan_reformed_pop value = -25 }
+}
+east_african_pagan_crushed = {
+	change_variable = { which = east_african_pagan_pop value = -25 }
+}
+mazdaki_crushed = {
+	change_variable = { which = mazdaki_pop value = -25 }
+}
+minoan_crushed = {
+	change_variable = { which = minoan_pop value = -25 }
+}
+
+#Religion Declines

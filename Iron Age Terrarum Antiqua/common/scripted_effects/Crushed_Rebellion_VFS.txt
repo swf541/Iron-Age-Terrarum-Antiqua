@@ -1,0 +1,301 @@
+religous_rebellion_crushed = {
+	trigger_switch = {
+		on_trigger = has_province_flag
+		
+		egyptian_pagan_revolt = { egyptian_pagan_crushed = yes }
+		atenist_revolt = { atenist_crushed = yes }
+		berber_main_revolt = { berber_main_crushed = yes }
+		berber_pagan_reformed_revolt = { berber_pagan_reformed_crushed = yes }
+		illyrian_main_revolt = { illyrian_main_crushed = yes }
+		thracian_main_revolt = { thracian_main_crushed = yes }
+		zalmoxism_revolt = { zalmoxism_crushed = yes }
+		zalmoxism_reformed_revolt = { zalmoxism_reformed_crushed = yes }
+		norse_pagan_reformed_revolt = { norse_pagan_reformed_crushed = yes }
+		norse_pagan_revolt = { norse_pagan_crushed = yes }
+		east_germanic_pagan_reformed_revolt = { east_germanic_pagan_reformed_crushed = yes }
+		east_germanic_pagan_revolt = { east_germanic_pagan_crushed = yes }
+		germanic_pagan_reformed_revolt = { germanic_pagan_reformed_crushed = yes }
+		germanic_pagan_revolt = { germanic_pagan_crushed = yes }
+		celtic_pagan_revolt = { celtic_pagan_crushed = yes }
+		celtic_pagan_reformed_revolt = { celtic_pagan_reformed_crushed = yes }
+		punic_main_revolt = { punic_main_crushed = yes }
+		canaanite_pagan_revolt = { canaanite_pagan_crushed = yes }
+		canaanite_pagan_reformed_revolt = { canaanite_pagan_reformed_crushed = yes }
+		ossetian_pagan_reformed_revolt = { ossetian_pagan_reformed_crushed = yes }
+		ossetian_pagan_revolt = { ossetian_pagan_crushed = yes }
+		iranian_pagan_revolt = { iranian_pagan_crushed = yes }
+		iranian_pagan_reformed_revolt = { iranian_pagan_reformed_crushed = yes }
+		zoroastrian_revolt = { zoroastrian_crushed = yes }
+		zurvanite_revolt = { zurvanite_crushed = yes }
+		sogdian_zoroastrian_revolt = { sogdian_zoroastrian_crushed = yes }
+		bihafaridism_revolt = { bihafaridism_crushed = yes }
+		hanifiyya_revolt = { hanifiyya_crushed = yes }
+		chinese_pagan_reformed_revolt = { chinese_pagan_reformed_crushed = yes }
+		chinese_pagan_revolt = { chinese_pagan_crushed = yes }
+		tibetan_pagan_reformed_revolt = { tibetan_pagan_reformed_crushed = yes }
+		tibetan_pagan_revolt = { tibetan_pagan_crushed = yes }
+		sanamahi_reformed_revolt = { sanamahi_reformed_crushed = yes }
+		sanamahi_revolt = { sanamahi_crushed = yes }
+		dravidian_pagan_reformed_revolt = { dravidian_pagan_reformed_crushed = yes }
+		armenian_pagan_revolt = { armenian_pagan_crushed = yes }
+		armenian_pagan_reformed_revolt = { armenian_pagan_reformed_crushed = yes }
+		yazidi_revolt = { yazidi_crushed = yes }
+		jewish_revolt = { jewish_crushed = yes }
+		samaritan_revolt = { samaritan_crushed = yes }
+		grand_sanhedrin_revolt = { grand_sanhedrin_crushed = yes }
+		temple_judaism_revolt = { temple_judaism_crushed = yes }
+		karaite_revolt = { karaite_crushed = yes }
+		hindu_revolt = { hindu_crushed = yes }
+		jain_revolt = { jain_crushed = yes }
+		buddhist_revolt = { buddhist_crushed = yes }
+		vajrayana_buddhist_revolt = { vajrayana_buddhist_crushed = yes }
+		mahayana_buddhist_revolt = { mahayana_buddhist_crushed = yes }
+		georgian_pagan_revolt = { georgian_pagan_crushed = yes }
+		georgian_pagan_reformed_revolt = { georgian_pagan_reformed_crushed = yes }
+		anatolian_main_revolt = { anatolian_main_crushed = yes }
+		phrygian_main_revolt = { phrygian_main_crushed = yes }
+		hittite_main_revolt = { hittite_main_crushed = yes }
+		marduk_cult_revolt = { marduk_cult_crushed = yes }
+		elamite_pagan_reformed_revolt = { elamite_pagan_reformed_crushed = yes }
+		elamite_pagan_revolt = { elamite_pagan_crushed = yes }
+		arabic_main_revolt = { arabic_main_crushed = yes }
+		south_semitic_pagan_reformed_revolt = { south_semitic_pagan_reformed_crushed = yes }
+		south_semitic_pagan_revolt = { south_semitic_pagan_crushed = yes }
+		hellenic_pagan_reformed_revolt = { hellenic_pagan_reformed_crushed = yes }
+		hellenic_pagan_revolt = { hellenic_pagan_crushed = yes }
+		alexandrian_pagan_revolt = { alexandrian_pagan_crushed = yes }
+		roman_main_revolt = { roman_main_crushed = yes }
+		italic_main_revolt = { italic_main_crushed = yes }
+		pontic_main_revolt = { pontic_main_crushed = yes }
+		etruscan_main_revolt = { etruscan_main_crushed = yes }
+		dravidian_main_revolt = { dravidian_main_crushed = yes }
+		lusitanian_main_revolt = { lusitanian_main_crushed = yes }
+		iberian_main_revolt = { iberian_main_crushed = yes }
+		aquitanian_main_revolt = { aquitanian_main_crushed = yes }
+		marcionism_revolt = { marcionism_crushed = yes }
+		priscillianism_revolt = { priscillianism_crushed = yes }
+		valentinianism_revolt = { valentinianism_crushed = yes }
+		manichean_revolt = { manichean_crushed = yes }
+		mandean_revolt = { mandean_crushed = yes }
+		bogomilist_revolt = { bogomilist_crushed = yes }
+		paulician_revolt = { paulician_crushed = yes }
+		cathar_revolt = { cathar_crushed = yes }
+		encratites_revolt = { encratites_crushed = yes }
+		amidist_revolt = { amidist_crushed = yes }
+		confucian_revolt = { confucian_crushed = yes }
+		neoconfucian_revolt = { neoconfucian_crushed = yes }
+		taoist_revolt = { taoist_crushed = yes }
+		neotaoist_revolt = { neotaoist_crushed = yes }
+		hindukush_revolt = { hindukush_crushed = yes }
+		hindukush_reformed_revolt = { hindukush_reformed_crushed = yes }
+		zun_pagan_revolt = { zun_pagan_crushed = yes }
+		zun_pagan_reformed_revolt = { zun_pagan_reformed_crushed = yes }
+		bosporan_faith_revolt = { bosporan_faith_crushed = yes }
+		imperial_revolt = { imperial_crushed = yes }
+		arian_revolt = { arian_crushed = yes }
+		donatism_revolt = { donatism_crushed = yes }
+		melitianism_revolt = { melitianism_crushed = yes }
+		novatianism_revolt = { novatianism_crushed = yes }
+		adoptionism_revolt = { adoptionism_crushed = yes }
+		sabellianism_revolt = { sabellianism_crushed = yes }
+		pelagianism_revolt = { pelagianism_crushed = yes }
+		macedonianism_revolt = { macedonianism_crushed = yes }
+		catholic_revolt = { catholic_crushed = yes }
+		montanism_revolt = { montanism_crushed = yes }
+		fraticelli_revolt = { fraticelli_crushed = yes }
+		waldensian_revolt = { waldensian_crushed = yes }
+		lollard_revolt = { lollard_crushed = yes }
+		orthodox_revolt = { orthodox_crushed = yes }
+		miaphysite_revolt = { miaphysite_crushed = yes }
+		tondrakian_revolt = { tondrakian_crushed = yes }
+		monophysite_revolt = { monophysite_crushed = yes }
+		monothelite_revolt = { monothelite_crushed = yes }
+		iconoclast_revolt = { iconoclast_crushed = yes }
+		nestorian_revolt = { nestorian_crushed = yes }
+		eutychian_revolt = { eutychian_crushed = yes }
+		messalian_revolt = { messalian_crushed = yes }
+		sunni_revolt = { sunni_crushed = yes }
+		zikri_revolt = { zikri_crushed = yes }
+		ibadi_revolt = { ibadi_crushed = yes }
+		kharijite_revolt = { kharijite_crushed = yes }
+		shiite_revolt = { shiite_crushed = yes }
+		druze_revolt = { druze_crushed = yes }
+		qarmatian_revolt = { qarmatian_crushed = yes }
+		hurufi_revolt = { hurufi_crushed = yes }
+		pagan_revolt = { pagan_crushed = yes }
+		mesopotamian_paganism_revolt = { mesopotamian_paganism_crushed = yes }
+		mesopotamian_paganism_reformed_revolt = { mesopotamian_paganism_reformed_crushed = yes }
+		tengri_pagan_reformed_revolt = { tengri_pagan_reformed_crushed = yes }
+		tengri_pagan_revolt = { tengri_pagan_crushed = yes }
+		baltic_pagan_reformed_revolt = { baltic_pagan_reformed_crushed = yes }
+		baltic_pagan_revolt = { baltic_pagan_crushed = yes }
+		finnish_pagan_reformed_revolt = { finnish_pagan_reformed_crushed = yes }
+		finnish_pagan_revolt = { finnish_pagan_crushed = yes }
+		aztec_reformed_revolt = { aztec_reformed_crushed = yes }
+		aztec_revolt = { aztec_crushed = yes }
+		slavic_pagan_reformed_revolt = { slavic_pagan_reformed_crushed = yes }
+		slavic_pagan_revolt = { slavic_pagan_crushed = yes }
+		west_african_pagan_reformed_revolt = { west_african_pagan_reformed_crushed = yes }
+		west_african_pagan_revolt = { west_african_pagan_crushed = yes }
+		serer_revolt = { serer_crushed = yes }
+		bori_revolt = { bori_crushed = yes }
+		sol_invictus_revolt = { sol_invictus_crushed = yes }
+		egyptian_pagan_reformed_revolt = { egyptian_pagan_reformed_crushed = yes }
+		basque_pagan_reformed_revolt = { basque_pagan_reformed_crushed = yes }
+		basque_pagan_revolt = { basque_pagan_crushed = yes }
+		semitic_pagan_reformed_revolt = { semitic_pagan_reformed_crushed = yes }
+		semitic_pagan_revolt = { semitic_pagan_crushed = yes }
+		east_african_pagan_reformed_revolt = { east_african_pagan_reformed_crushed = yes }
+		east_african_pagan_revolt = { east_african_pagan_crushed = yes }
+		mazdaki_revolt = { mazdaki_crushed = yes }
+		minoan_revolt = { minoan_crushed = yes }
+
+	}
+	clr_province_flag = egyptian_pagan_revolt
+	clr_province_flag = atenist_revolt
+	clr_province_flag = berber_main_revolt
+	clr_province_flag = berber_pagan_reformed_revolt
+	clr_province_flag = illyrian_main_revolt
+	clr_province_flag = thracian_main_revolt
+	clr_province_flag = zalmoxism_revolt
+	clr_province_flag = zalmoxism_reformed_revolt
+	clr_province_flag = norse_pagan_reformed_revolt
+	clr_province_flag = norse_pagan_revolt
+	clr_province_flag = east_germanic_pagan_reformed_revolt
+	clr_province_flag = east_germanic_pagan_revolt
+	clr_province_flag = germanic_pagan_reformed_revolt
+	clr_province_flag = germanic_pagan_revolt
+	clr_province_flag = celtic_pagan_revolt
+	clr_province_flag = celtic_pagan_reformed_revolt
+	clr_province_flag = punic_main_revolt
+	clr_province_flag = canaanite_pagan_revolt
+	clr_province_flag = canaanite_pagan_reformed_revolt
+	clr_province_flag = ossetian_pagan_reformed_revolt
+	clr_province_flag = ossetian_pagan_revolt
+	clr_province_flag = iranian_pagan_revolt
+	clr_province_flag = iranian_pagan_reformed_revolt
+	clr_province_flag = zoroastrian_revolt
+	clr_province_flag = zurvanite_revolt
+	clr_province_flag = sogdian_zoroastrian_revolt
+	clr_province_flag = bihafaridism_revolt
+	clr_province_flag = hanifiyya_revolt
+	clr_province_flag = chinese_pagan_reformed_revolt
+	clr_province_flag = chinese_pagan_revolt
+	clr_province_flag = tibetan_pagan_reformed_revolt
+	clr_province_flag = tibetan_pagan_revolt
+	clr_province_flag = sanamahi_reformed_revolt
+	clr_province_flag = sanamahi_revolt
+	clr_province_flag = dravidian_pagan_reformed_revolt
+	clr_province_flag = armenian_pagan_revolt
+	clr_province_flag = armenian_pagan_reformed_revolt
+	clr_province_flag = yazidi_revolt
+	clr_province_flag = jewish_revolt
+	clr_province_flag = samaritan_revolt
+	clr_province_flag = grand_sanhedrin_revolt
+	clr_province_flag = temple_judaism_revolt
+	clr_province_flag = karaite_revolt
+	clr_province_flag = hindu_revolt
+	clr_province_flag = jain_revolt
+	clr_province_flag = buddhist_revolt
+	clr_province_flag = vajrayana_buddhist_revolt
+	clr_province_flag = mahayana_buddhist_revolt
+	clr_province_flag = georgian_pagan_revolt
+	clr_province_flag = georgian_pagan_reformed_revolt
+	clr_province_flag = anatolian_main_revolt
+	clr_province_flag = phrygian_main_revolt
+	clr_province_flag = hittite_main_revolt
+	clr_province_flag = marduk_cult_revolt
+	clr_province_flag = elamite_pagan_reformed_revolt
+	clr_province_flag = elamite_pagan_revolt
+	clr_province_flag = arabic_main_revolt
+	clr_province_flag = south_semitic_pagan_reformed_revolt
+	clr_province_flag = south_semitic_pagan_revolt
+	clr_province_flag = hellenic_pagan_reformed_revolt
+	clr_province_flag = hellenic_pagan_revolt
+	clr_province_flag = alexandrian_pagan_revolt
+	clr_province_flag = roman_main_revolt
+	clr_province_flag = italic_main_revolt
+	clr_province_flag = pontic_main_revolt
+	clr_province_flag = etruscan_main_revolt
+	clr_province_flag = dravidian_main_revolt
+	clr_province_flag = lusitanian_main_revolt
+	clr_province_flag = iberian_main_revolt
+	clr_province_flag = aquitanian_main_revolt
+	clr_province_flag = marcionism_revolt
+	clr_province_flag = priscillianism_revolt
+	clr_province_flag = valentinianism_revolt
+	clr_province_flag = manichean_revolt
+	clr_province_flag = mandean_revolt
+	clr_province_flag = bogomilist_revolt
+	clr_province_flag = paulician_revolt
+	clr_province_flag = cathar_revolt
+	clr_province_flag = encratites_revolt
+	clr_province_flag = amidist_revolt
+	clr_province_flag = confucian_revolt
+	clr_province_flag = neoconfucian_revolt
+	clr_province_flag = taoist_revolt
+	clr_province_flag = neotaoist_revolt
+	clr_province_flag = hindukush_revolt
+	clr_province_flag = hindukush_reformed_revolt
+	clr_province_flag = zun_pagan_revolt
+	clr_province_flag = zun_pagan_reformed_revolt
+	clr_province_flag = bosporan_faith_revolt
+	clr_province_flag = imperial_revolt
+	clr_province_flag = arian_revolt
+	clr_province_flag = donatism_revolt
+	clr_province_flag = melitianism_revolt
+	clr_province_flag = novatianism_revolt
+	clr_province_flag = adoptionism_revolt
+	clr_province_flag = sabellianism_revolt
+	clr_province_flag = pelagianism_revolt
+	clr_province_flag = macedonianism_revolt
+	clr_province_flag = catholic_revolt
+	clr_province_flag = montanism_revolt
+	clr_province_flag = fraticelli_revolt
+	clr_province_flag = waldensian_revolt
+	clr_province_flag = lollard_revolt
+	clr_province_flag = orthodox_revolt
+	clr_province_flag = miaphysite_revolt
+	clr_province_flag = tondrakian_revolt
+	clr_province_flag = monophysite_revolt
+	clr_province_flag = monothelite_revolt
+	clr_province_flag = iconoclast_revolt
+	clr_province_flag = nestorian_revolt
+	clr_province_flag = eutychian_revolt
+	clr_province_flag = messalian_revolt
+	clr_province_flag = sunni_revolt
+	clr_province_flag = zikri_revolt
+	clr_province_flag = ibadi_revolt
+	clr_province_flag = kharijite_revolt
+	clr_province_flag = shiite_revolt
+	clr_province_flag = druze_revolt
+	clr_province_flag = qarmatian_revolt
+	clr_province_flag = hurufi_revolt
+	clr_province_flag = pagan_revolt
+	clr_province_flag = mesopotamian_paganism_revolt
+	clr_province_flag = mesopotamian_paganism_reformed_revolt
+	clr_province_flag = tengri_pagan_reformed_revolt
+	clr_province_flag = tengri_pagan_revolt
+	clr_province_flag = baltic_pagan_reformed_revolt
+	clr_province_flag = baltic_pagan_revolt
+	clr_province_flag = finnish_pagan_reformed_revolt
+	clr_province_flag = finnish_pagan_revolt
+	clr_province_flag = aztec_reformed_revolt
+	clr_province_flag = aztec_revolt
+	clr_province_flag = slavic_pagan_reformed_revolt
+	clr_province_flag = slavic_pagan_revolt
+	clr_province_flag = west_african_pagan_reformed_revolt
+	clr_province_flag = west_african_pagan_revolt
+	clr_province_flag = serer_revolt
+	clr_province_flag = bori_revolt
+	clr_province_flag = sol_invictus_revolt
+	clr_province_flag = egyptian_pagan_reformed_revolt
+	clr_province_flag = basque_pagan_reformed_revolt
+	clr_province_flag = basque_pagan_revolt
+	clr_province_flag = semitic_pagan_reformed_revolt
+	clr_province_flag = semitic_pagan_revolt
+	clr_province_flag = east_african_pagan_reformed_revolt
+	clr_province_flag = east_african_pagan_revolt
+	clr_province_flag = mazdaki_revolt
+	clr_province_flag = minoan_revolt
+}

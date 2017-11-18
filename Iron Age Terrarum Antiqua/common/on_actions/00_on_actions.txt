@@ -2356,6 +2356,7 @@ on_war_started = {
 on_war_ended_victory = {
 	events = {
 		CM.10038
+		VFS.6
 	}
 }
 

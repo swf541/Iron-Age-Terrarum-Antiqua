@@ -14,3 +14,19 @@ character_event = { #Yearly Check
 		}
 	}
 }
+
+character_event = { #Religous Uprising Crushed
+	id = VFS.6
+	hide_window = yes
+	
+	is_triggered_only = yes	
+	
+	immediate = {
+		any_realm_province = {
+			limit = { controlled_by = ROOT }
+			religous_rebellion_crushed = yes
+			vfs_demographic_check_effect = yes
+			vfs_modifier_setup = yes
+		}
+	}
+}
