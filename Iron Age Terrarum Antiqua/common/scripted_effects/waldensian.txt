@@ -23,7 +23,7 @@ vfs_waldensian_persecution = {
 					random_traits = yes
 					dynasty = none
 					religion = waldensian
-					culture = ROOT
+					culture = THIS
 					female = no
 					age = 32
 					attributes = {
@@ -43,14 +43,14 @@ vfs_waldensian_persecution = {
 						landless = yes
 						temporary = yes
 						rebel = yes
-						culture = ROOT
+						culture = THIS
 						name = "HERETIC_REVOLT"
 						holder = THIS
 					}
 					
 					wealth = 100
 					
-					spawn_religious_army_effect = yes
+					spawn_religious_army_effect2 = yes
 					
 					if = {
 						limit = {
@@ -59,7 +59,7 @@ vfs_waldensian_persecution = {
 								value = powerful
 							}
 						}
-						spawn_religious_army_effect = yes
+						spawn_religious_army_effect2 = yes
 						wealth = 150
 					}
 					
@@ -70,9 +70,9 @@ vfs_waldensian_persecution = {
 								value = very_powerful
 							}
 						}
-						spawn_religious_army_effect = yes
-						spawn_religious_army_effect = yes
-						spawn_religious_army_effect = yes
+						spawn_religious_army_effect2 = yes
+						spawn_religious_army_effect2 = yes
+						spawn_religious_army_effect2 = yes
 						wealth = 250
 					}
 					
@@ -83,11 +83,11 @@ vfs_waldensian_persecution = {
 								value = extremely_powerful
 							}
 						}
-						spawn_religious_army_effect = yes
-						spawn_religious_army_effect = yes
-						spawn_religious_army_effect = yes
-						spawn_religious_army_effect = yes
-						spawn_religious_army_effect = yes
+						spawn_religious_army_effect2 = yes
+						spawn_religious_army_effect2 = yes
+						spawn_religious_army_effect2 = yes
+						spawn_religious_army_effect2 = yes
+						spawn_religious_army_effect2 = yes
 						wealth = 350
 					}
 					
@@ -145,7 +145,7 @@ vfs_waldensian_persecution = {
 							attacker = { religion = ROOT }
 						}
 						attacker = {
-							spawn_religious_reinforcements_effect = yes
+							spawn_religious_reinforcements_effect2 = yes
 							
 							if = {
 								limit = {
@@ -154,7 +154,7 @@ vfs_waldensian_persecution = {
 										value = powerful
 									}
 								}
-								spawn_religious_reinforcements_effect = yes
+								spawn_religious_reinforcements_effect2 = yes
 							}
 							
 							if = {
@@ -164,9 +164,9 @@ vfs_waldensian_persecution = {
 										value = very_powerful
 									}
 								}
-								spawn_religious_reinforcements_effect = yes
-								spawn_religious_reinforcements_effect = yes
-								spawn_religious_reinforcements_effect = yes
+								spawn_religious_reinforcements_effect2 = yes
+								spawn_religious_reinforcements_effect2 = yes
+								spawn_religious_reinforcements_effect2 = yes
 							}
 							
 							if = {
@@ -176,11 +176,11 @@ vfs_waldensian_persecution = {
 										value = extremely_powerful
 									}
 								}
-								spawn_religious_reinforcements_effect = yes
-								spawn_religious_reinforcements_effect = yes
-								spawn_religious_reinforcements_effect = yes
-								spawn_religious_reinforcements_effect = yes
-								spawn_religious_reinforcements_effect = yes
+								spawn_religious_reinforcements_effect2 = yes
+								spawn_religious_reinforcements_effect2 = yes
+								spawn_religious_reinforcements_effect2 = yes
+								spawn_religious_reinforcements_effect2 = yes
+								spawn_religious_reinforcements_effect2 = yes
 							}
 						}
 					}
