@@ -1198,7 +1198,7 @@ punic_religion = {
 	}
 }
 
-indo-iranian_group = {
+indo_iranian_group = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade # Should be changed or removed entirely
@@ -1308,19 +1308,6 @@ indo-iranian_group = {
 		
 		intermarry = zoroastrian_group
 	}
-}	
-	
-
-zoroastrian_group = {
-	has_coa_on_barony_only = yes
-	graphical_culture = westerngfx
-	crusade_cb = crusade # Should be changed or removed entirely
-	playable = yes
-	
-	ai_convert_same_group = 2 # always try to convert
-	ai_convert_other_group = 2 # always try to convert
-	
-
 	iranian_pagan = {
 			graphical_culture = westerngfx
 			icon = 10
@@ -1355,6 +1342,131 @@ zoroastrian_group = {
 			
 			max_consorts = 20
 	}
+
+	yazidi = {
+		graphical_culture = muslimgfx
+
+		icon = 3
+		heresy_icon = 8
+		
+		color = { 0.2 0.2 0.7 }
+		
+		crusade_name = JIHAD
+		scripture_name = THE_BOOK_OF_ILLUMINATION
+		priest_title = SHEIKH_PRIEST
+		
+		high_god_name = GOD_SHAYTAN
+		
+		god_names = {
+			GOD_THE_PEACOCK_ANGEL GOD_TAWUSE_MELEK GOD_SHAYTAN
+		}
+		
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		
+		parent = sunni
+		priests_can_marry = yes
+		can_excommunicate = yes
+		can_call_crusade = yes
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+	}
+	mazdaki = {
+		graphical_culture = persiangfx
+		
+		secondary_event_pictures = sunni
+		
+		icon = 10
+		heresy_icon = 12
+		
+		color = { 0.3 0.65 0.25 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_GREAT_SECRET
+		
+		high_god_name = GOD_AHURA_MAZDA
+		
+		god_names = {
+			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_MAZDAK
+		}
+		
+		parent = zoroastrian
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		can_grant_invasion_cb = invasion
+		
+		max_consorts = 3 # Can take concubines
+		
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+		
+		intermarry = egyptian_pagan	
+		intermarry = atenist
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+		intermarry = berber_main
+		
+		intermarry = illyrian_main
+		
+		intermarry = thracian_main
+		intermarry = zalmoxism
+		
+		intermarry = celtic_pagan
+		
+		intermarry = punic_main
+		intermarry = canaanite_pagan	
+		
+		#intermarry = zoroastrian
+		#intermarry = zurvanite
+		#intermarry = ossetian_pagan
+		#intermarry = hindu
+		#intermarry = armenian_pagan	
+		
+		#intermarry = jewish	
+		
+		intermarry = jain
+		intermarry = buddhist
+		
+		intermarry = georgian_pagan	
+		
+		intermarry = anatolian_main
+		intermarry = phrygian_main
+		
+		intermarry = marduk_cult	
+		
+		intermarry = arabic_main
+		
+		intermarry = hellenic_pagan
+		intermarry = roman_main
+		intermarry = pontic_main
+								
+		#intermarry = etruscan_main	
+						
+		intermarry = dravidian_main
+	}
+}	
+	
+
+zoroastrian_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade # Should be changed or removed entirely
+	playable = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+
+
 
 	zoroastrian = {
 		graphical_culture = persiangfx
@@ -1634,116 +1746,6 @@ zoroastrian_group = {
 		allow_in_ruler_designer = no
 	}
 
-	yazidi = {
-		graphical_culture = muslimgfx
-
-		icon = 3
-		heresy_icon = 8
-		
-		color = { 0.2 0.2 0.7 }
-		
-		crusade_name = JIHAD
-		scripture_name = THE_BOOK_OF_ILLUMINATION
-		priest_title = SHEIKH_PRIEST
-		
-		high_god_name = GOD_SHAYTAN
-		
-		god_names = {
-			GOD_THE_PEACOCK_ANGEL GOD_TAWUSE_MELEK GOD_SHAYTAN
-		}
-		
-		evil_god_names = {
-			THE_DARK_SPIRITS
-		}
-		
-		parent = sunni
-		priests_can_marry = yes
-		can_excommunicate = yes
-		can_call_crusade = yes
-		max_wives = 4
-		matrilineal_marriages = no
-		
-		landed_kin_prestige_bonus = yes
-		attacking_same_religion_piety_loss = yes
-		uses_decadence = yes
-		uses_jizya_tax = yes
-	}
-	mazdaki = {
-		graphical_culture = persiangfx
-		
-		secondary_event_pictures = sunni
-		
-		icon = 10
-		heresy_icon = 12
-		
-		color = { 0.3 0.65 0.25 }
-		
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_GREAT_SECRET
-		
-		high_god_name = GOD_AHURA_MAZDA
-		
-		god_names = {
-			GOD_ZURVAN GOD_AHURA_MAZDA GOD_MANAH PROPHET_MAZDAK
-		}
-		
-		parent = zoroastrian
-		
-		can_grant_divorce = yes
-		can_call_crusade = yes
-		can_grant_invasion_cb = invasion
-		
-		max_consorts = 3 # Can take concubines
-		
-		religious_clothing_head = 5
-		religious_clothing_priest = 5
-		
-		intermarry = egyptian_pagan	
-		intermarry = atenist
-		
-		intermarry = zun_pagan
-		intermarry = zun_pagan_reformed
-		
-		intermarry = berber_main
-		
-		intermarry = illyrian_main
-		
-		intermarry = thracian_main
-		intermarry = zalmoxism
-		
-		intermarry = celtic_pagan
-		
-		intermarry = punic_main
-		intermarry = canaanite_pagan	
-		
-		#intermarry = zoroastrian
-		#intermarry = zurvanite
-		#intermarry = ossetian_pagan
-		#intermarry = hindu
-		#intermarry = armenian_pagan	
-		
-		#intermarry = jewish	
-		
-		intermarry = jain
-		intermarry = buddhist
-		
-		intermarry = georgian_pagan	
-		
-		intermarry = anatolian_main
-		intermarry = phrygian_main
-		
-		intermarry = marduk_cult	
-		
-		intermarry = arabic_main
-		
-		intermarry = hellenic_pagan
-		intermarry = roman_main
-		intermarry = pontic_main
-								
-		#intermarry = etruscan_main	
-						
-		intermarry = dravidian_main
-	}
 }
 jewish_group = {
 	has_coa_on_barony_only = yes
@@ -2230,6 +2232,94 @@ indian_group = {
 		#intermarry = etruscan_main	
 						
 		intermarry = dravidian_main
+	}
+	zun_pagan_reformed = {
+		graphical_culture = muslimgfx
+
+		icon = 49
+		heresy_icon = 50
+
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 0.9 1.0 0.0 }
+		
+		high_god_name = GOD_ZUN
+		
+		god_names = {
+			GOD_ZUN GOD_THE_SUN GOD_THE_GIVER_OF_JUSTICE
+		}
+		evil_god_names = {
+			THE_DARKNESS
+		}
+
+		unit_modifier = {
+			levy_size = 0.3
+			
+			heavy_infantry_offensive = 0.2
+			heavy_infantry_defensive = 0.2
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+
+		priests_can_marry = yes
+		can_call_crusade = yes
+		max_consorts = 3
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		
+		allow_in_ruler_designer = no
+	}
+	
+	zun_pagan = {
+		graphical_culture = muslimgfx
+
+		icon = 48
+		heresy_icon = 50
+		
+		color = { 0.9 1.0 0.0 }
+		
+		high_god_name = GOD_ZUN
+		
+		god_names = {
+			GOD_ZUN GOD_THE_SUN GOD_THE_GIVER_OF_JUSTICE
+		}
+		evil_god_names = {
+			THE_DARKNESS
+		}
+
+		unit_modifier = {
+			levy_size = 0.3
+			
+			heavy_infantry_offensive = 0.2
+			heavy_infantry_defensive = 0.2
+			
+			key = "OFF_RELIGION"
+		}
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+
+		priests_can_marry = yes
+		defensive_attrition = yes
+		max_consorts = 3
+		reformed = zun_pagan_reformed
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		
+		dislike_tribal_organization = yes
 	}
 	vajrayana_buddhist = {
 		graphical_culture = westerngfx
@@ -3657,7 +3747,7 @@ dravidian_religion = {
 	
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 2 # always try to convert
-		dravidian_pagan_reformed = {
+	dravidian_pagan_reformed = {
 		graphical_culture = norsegfx
 		
 		secondary_event_pictures = baltic_pagan
@@ -4428,3 +4518,371 @@ aquitanian_religion = {
 		religious_clothing_priest = 2
 	}
 }	
+
+african_religion = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.6 0.3 0.0 }
+	
+	east_african_pagan_reformed = {
+		graphical_culture = africangfx
+		
+		secondary_event_pictures = west_african_pagan
+		
+		icon = 65
+		heresy_icon = 66
+		
+		color = { 0.8 0.35 0.4 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_WAAQ
+		god_names = {
+			GOD_THE_AYAANLE GOD_THE_ANCESTORS GOD_WAAQ GOD_HUUR GOD_NIDAR GOD_BIRIIR_INA_BARQO
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS GOD_DHEGDHEER GOD_HABBAD_INA_KAMAS MONSTER_QORI_ISMARIS
+		}
+		
+		unit_modifier = {		
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		dislike_tribal_organization = yes
+		max_consorts = 3
+		
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		
+		aggression = 0.1 # AI aggression factor
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+		allow_in_ruler_designer = no
+	}
+	
+
+	east_african_pagan = {
+		graphical_culture = africangfx
+
+		secondary_event_pictures = west_african_pagan
+		
+		icon = 65
+		heresy_icon = 66
+		
+		color = { 1.0 0.55 0.6 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_WAAQ
+		god_names = {
+			GOD_THE_AYAANLE GOD_THE_ANCESTORS GOD_WAAQ GOD_HUUR GOD_NIDAR GOD_BIRIIR_INA_BARQO
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS GOD_DHEGDHEER GOD_HABBAD_INA_KAMAS MONSTER_QORI_ISMARIS
+		}
+		unit_modifier = {		
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		dislike_tribal_organization = yes
+		max_consorts = 3
+		
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		
+		aggression = 0.1 # AI aggression factor
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+	}
+	west_african_pagan_reformed = {
+		graphical_culture = africangfx
+		
+		secondary_event_pictures = west_african_pagan
+
+		icon = 35
+		heresy_icon = 36
+		
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 1.0 0.45 0.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		
+		can_call_crusade = yes
+		
+		unit_modifier = {		
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		
+		max_consorts = 3
+		
+		aggression = 0.5 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = no
+	}
+	
+	west_african_pagan = {
+		graphical_culture = africangfx
+
+		icon = 34
+		heresy_icon = 35
+		
+		color = { 0.8 0.35 0.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		
+		unit_modifier = {		
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		allow_looting = yes
+		
+		max_consorts = 3
+		
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = west_african_pagan_reformed
+		
+		aggression = 0.1 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		dislike_tribal_organization = yes
+	}
+	serer = {
+		graphical_culture = africangfx
+
+		icon = 34
+		heresy_icon = 35
+		
+		color = { 0.3 0.8 0.5 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		
+		unit_modifier = {		
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		allow_looting = yes
+		
+		max_consorts = 3
+		
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		#reformed = west_african_pagan_reformed
+		
+		aggression = 0.1 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		dislike_tribal_organization = yes
+	}
+	
+	bori = {
+		graphical_culture = africangfx
+
+		icon = 34
+		heresy_icon = 35
+		
+		color = { 0.9 0.5 0.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = SHAMAN
+		
+		high_god_name = GOD_THE_CREATOR
+		
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_ANCESTORS
+		}
+		evil_god_names = {
+			THE_DARK_SPIRITS
+		}
+		
+		unit_modifier = {		
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		defensive_attrition = yes
+		allow_looting = yes
+		
+		max_consorts = 3
+		
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		#reformed = west_african_pagan_reformed
+		
+		aggression = 0.1 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		dislike_tribal_organization = yes
+	}
+}

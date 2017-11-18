@@ -1,0 +1,62 @@
+
+decisions = {
+	persecute_dravidian_main_population = {
+		only_independent = yes
+	 	is_high_prio = yes
+
+		potential = {
+			is_ruler = yes
+			is_nomadic = no
+			NOT = {
+				religion = dravidian_main
+			}
+			NOT = { has_character_modifier = recent_conversion_vfs }
+		}
+		allow = {
+			NOT = {
+				any_vassal = { religion = dravidian_main }
+			}
+		}
+		effect = {
+			add_character_modifier = { name = recent_conversion_vfs duration = 730000 }	
+			any_realm_province = {
+				limit = { dravidian_main_prescense = yes }
+				vfs_dravidian_main_persecution = yes
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 0
+				trait = kind
+			}
+			modifier = {
+				factor = 10
+				trait = zealous
+			}
+			modifier = {
+				factor = 10
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 10
+				trait = wroth
+			}
+			modifier = {
+				factor = 10
+				trait = cruel
+			}
+			modifier = {
+				factor = 0
+				trait = just
+			}
+			modifier = {
+				factor = 0
+				trait = cynical
+			}
+		}
+	}
+}
