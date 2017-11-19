@@ -597,7 +597,7 @@ germanic_religion = {
 		}
 		evil_god_names = {
 			LOKI HEL FENRIR JORMUNGANDR
-		} 
+		}
 		
 		unit_modifier = {
 			levy_size = 0.3
@@ -792,8 +792,8 @@ germanic_religion = {
 		intermarry = east_germanic_pagan_reformed
 		intermarry = east_germanic_pagan
 	}
-	
-	germanic_pagan_reformed = { 
+
+	west_germanic_pagan_reformed = { 
 		graphical_culture = norsegfx
 
 		icon = 98
@@ -845,7 +845,8 @@ germanic_religion = {
 		intermarry = east_germanic_pagan_reformed
 		intermarry = east_germanic_pagan
 	}
-	germanic_pagan = { 			# West-Germanic religion
+	
+	west_germanic_pagan = { 			# West-Germanic religion
 		graphical_culture = norsegfx
 
 		icon = 97
@@ -882,6 +883,114 @@ germanic_religion = {
 		evil_god_names = {
 			GOD_LOPTR HEL FENRIR JORMUNGANDR
 		}
+		
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_SAGAS
+		priests_can_marry = yes
+		
+		dislike_tribal_organization = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		intermarry = norse_pagan_reformed
+		intermarry = norse_pagan
+		intermarry = germanic_pagan_reformed
+		intermarry = germanic_pagan
+		intermarry = east_germanic_pagan_reformed
+	}	
+	
+	germanic_pagan_reformed = { 
+		graphical_culture = norsegfx
+
+		icon = 98
+		heresy_icon = 99
+		color = { 1.5 0.2 0.15 }
+
+		
+		unit_modifier = {
+			levy_size = 0.10
+			retinuesize_perc = 0.10
+			
+			key = "OFF_RELIGION"
+		}
+		
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		max_consorts = 2
+		
+		aggression = 1.5 # AI aggression factor
+		
+		crusade_name = "HOLY_WAR"
+		high_god_name = GOD_WODANAZ
+		
+		god_names = {
+			GOD_THUNARAZ GOD_THE_THUNDERER GOD_THE_ALLFATHER GOD_WODANAZ GOD_FRIJJO GOD_TEIWAZ GOD_FRAUJAZ GOD_AUSTRO
+		}
+		evil_god_names = {
+			THE_DARKNESS THE_DARK_SPIRITS
+		} 
+		
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_SAGAS
+		priests_can_marry = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = no
+		
+		intermarry = norse_pagan_reformed
+		intermarry = norse_pagan
+		intermarry = germanic_pagan
+		intermarry = east_germanic_pagan_reformed
+		intermarry = east_germanic_pagan
+	}
+	germanic_pagan = { 			# West-Germanic religion
+		graphical_culture = norsegfx
+
+		icon = 97
+		heresy_icon = 99
+		
+		color = { 1.65 0.15 0.1 }
+		
+		unit_modifier = {
+			levy_size = 0.10
+			retinuesize_perc = 0.10
+			
+			key = "OFF_RELIGION"
+		}
+		
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		max_consorts = 2
+		reformed = germanic_pagan_reformed
+		reformer_head_of_religion = yes # make the character that reforms this religion the head of the new reformed faith
+		
+		short_reign_opinion_year_mult = 3 # The default is 2
+		aggression = 3.0 # AI aggression factor
+		
+		crusade_name = "HOLY_WAR"
+		high_god_name = GOD_WODANAZ
+		
+		god_names = {
+			GOD_THUNARAZ GOD_THE_THUNDERER GOD_THE_ALLFATHER GOD_WODANAZ GOD_FRIJJO GOD_TEIWAZ GOD_FRAUJAZ GOD_AUSTRO
+		}
+		evil_god_names = {
+			THE_DARKNESS THE_DARK_SPIRITS
+		} 
 		
 		investiture = no
 		can_excommunicate = no

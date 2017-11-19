@@ -1,7 +1,10 @@
-germanic_pagan;West Germanic;;;;;;;x
-germanic_pagan_reformed;Wodanic;;;;;;;x
-germanic_pagan_DESC;The ancient West Germanic belief system is a group of related cults and beliefs held by the West Germanic tribes. A pantheon of gods under the wise warrior god Wodan rules all the branches of the worldtree, Yggdrasil. The other two main gods are Thunor, friend to mankind, and Yngvi, god of fertility.;;;;;;;;;;;x
-germanic_pagan_reformed_DESC;The Reformed Wodenic belief system is a group of canonized cults and beliefs held by the West Germanic tribes. A pantheon of gods under the wise warrior god Wodan rules all the branches of the worldtree, Yggdrasil. The other two main gods are Thunor, friend to mankind, and Yngvi, god of fertility. The church has a standardized liturgy and a formal church hierarchy led by the Begíemend, who is both a secular ruler and the religious leader of the faithful.;;;;;;;;;;;x
+germanic_pagan;Proto-Germanic;;;;;;;x
+germanic_pagan_reformed;Wodanazic;;;;;;;x
+germanic_pagan_DESC;The ancient Proto-Germanic belief system is a group of related cults and beliefs held by the Germanic tribes. A pantheon of Gods under the wise warrior god Wodanaz rules all the branches of the worldtree. The other two main Gods are Thunaraz, friend to mankind and governor of storms, and Teiwaz, God of war.;;;;;;;;;;;x
+germanic_pagan_reformed_DESC;The Reformed Wodanazic belief system is a group of canonized cults and beliefs held by the Germanic tribes. A pantheon of gods under the wise warrior god Wodanaz rules all. The other two main Gods are Thunaraz, friend to mankind and governor of storms, and Teiwaz, God of war. The church has a standardized liturgy and a formal church hierarchy led by the Begíemend, who is both a secular ruler and the religious leader of the faithful.;;;;;;;;;;;xwest_germanic_pagan;West Germanic;;;;;;;x
+west_germanic_pagan_reformed;Wodanic;;;;;;;x
+west_germanic_pagan_DESC;The ancient West Germanic belief system is a group of related cults and beliefs held by the West Germanic tribes. A pantheon of gods under the wise warrior god Wodan rules all the branches of the worldtree, Yggdrasil. The other two main gods are Thunor, friend to mankind, and Yngvi, god of fertility.;;;;;;;;;;;x
+west_germanic_pagan_reformed_DESC;The Reformed Wodanic belief system is a group of canonized cults and beliefs held by the West Germanic tribes. A pantheon of gods under the wise warrior god Wodan rules all the branches of the worldtree, Yggdrasil. The other two main gods are Thunor, friend to mankind, and Yngvi, god of fertility. The church has a standardized liturgy and a formal church hierarchy led by the Begíemend, who is both a secular ruler and the religious leader of the faithful.;;;;;;;;;;;x
 east_germanic_pagan;East Germanic;;;;;;;x
 east_germanic_pagan_reformed;Gaptic;;;;;;;x
 east_germanic_pagan_DESC;The East Germanic faith is that of the Goths and the other East Germanic peoples. The many far migrations of these tribes have given journeying and travelling a mystical importance, and the cultures along the way have also greatly shaped the faith. The main god Gapt, founding deity of the Gothic peoples, is accompanied in godhood by Teiws, the honourable god of war, and Frauja and Fráujo, the dual twin gods of fertility and nature. Apart from the many spirits, who inhabit rivers, forests, and fields, there are also some other important gods, such as Engus, Fairguneis, and the god of the Danube river Donaws.;;;;;;;;;;;x
@@ -34,3 +37,11 @@ GOD_FRAUJA;Frauja;;;;;;;;;;;x
 GOD_ENGUZ;Engus;;;;;;;;;;;x
 GOD_DONAWS;Donaws;;;;;;;;;;;x
 GOD_HALJA;Halja;;;;;;;;;;;x
+
+#East Germanic
+GOD_WODANAZ;Wodanaz;;;;;;;;;;;x
+GOD_TEIWAZ;Teiwaz;;;;;;;;;;;x
+GOD_AUSTRO;Austro;;;;;;;;;;;x
+GOD_THUNARAZ;Thunaraz;;;;;;;;;;;x 
+GOD_FRIJJO;Frijjo;;;;;;;;;;;x
+GOD_FRAUJAZ;Fraujaz;;;;;;;;;;;x
