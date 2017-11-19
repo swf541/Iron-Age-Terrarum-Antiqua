@@ -11,6 +11,9 @@ decisions = {
 				religion = etruscan_main
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				etruscan_main_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {

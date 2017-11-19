@@ -11,6 +11,9 @@ decisions = {
 				religion = cathar
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				cathar_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {

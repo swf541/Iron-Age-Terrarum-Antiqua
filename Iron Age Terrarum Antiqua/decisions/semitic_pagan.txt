@@ -11,6 +11,9 @@ decisions = {
 				religion = semitic_pagan
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				semitic_pagan_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {

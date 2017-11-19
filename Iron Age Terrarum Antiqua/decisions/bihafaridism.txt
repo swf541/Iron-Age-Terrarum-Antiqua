@@ -11,6 +11,9 @@ decisions = {
 				religion = bihafaridism
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				bihafaridism_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {

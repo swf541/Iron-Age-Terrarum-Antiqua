@@ -11,6 +11,9 @@ decisions = {
 				religion = sogdian_zoroastrian
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				sogdian_zoroastrian_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {

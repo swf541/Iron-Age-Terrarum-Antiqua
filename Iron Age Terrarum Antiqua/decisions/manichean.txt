@@ -11,6 +11,9 @@ decisions = {
 				religion = manichean
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				manichean_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {
