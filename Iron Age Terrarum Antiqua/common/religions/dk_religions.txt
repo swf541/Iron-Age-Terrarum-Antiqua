@@ -9,8 +9,6 @@ egyptian_religion = {
 	egyptian_pagan_reformed = { # Kemetic
 		graphical_culture = africangfx
 		
-		pre_reformed = yes
-		
 		icon = 108
 		heresy_icon = 109
 
@@ -64,9 +62,13 @@ egyptian_religion = {
 	egyptian_pagan = {
 		graphical_culture = westerngfx
 
-		icon = 53
-		color = { 0.8 0.8 0.6 }
-		heresy_icon = 53
+		icon = 106
+		heresy_icon = 107
+
+		ai_convert_other_group = 2 # always try to convert
+		ai_convert_same_group = 2 # always try to convert
+
+		color = { 0.5 0.4 0 }
 		
 		crusade_name = "CRUSADE"
 		scripture_name = THE_BOOK_OF_THE_DEAD
@@ -477,7 +479,7 @@ daco_thracian_religion = {
 	zalmoxism = {
 		graphical_culture = westerngfx
 
-		icon = 114
+		icon = 153
 		color = { 0.1 0.5 0.8 }
 		
 		crusade_name = "CRUSADE"
@@ -3327,8 +3329,8 @@ greek_religion = {
 	hellenic_pagan_reformed = {
 		graphical_culture = westerngfx
 
-		icon = 16
-		heresy_icon = 16
+		icon = 111
+		heresy_icon = 110
 		
 		ai_convert_other_group = 2 # always try to convert
 		ai_convert_same_group = 2 # always try to convert
@@ -3373,8 +3375,8 @@ greek_religion = {
 	minoan = {
 		graphical_culture = westerngfx
 
-		icon = 16
-		heresy_icon = 16
+		icon = 37
+		heresy_icon = 110
 		
 		ai_convert_other_group = 2 # always try to convert
 		ai_convert_same_group = 2 # always try to convert
@@ -3419,7 +3421,8 @@ greek_religion = {
 	hellenic_pagan = {
 		graphical_culture = westerngfx
 
-		icon = 16
+		icon = 37
+		heresy_icon = 110
 		color = { 0.2 0.4 0.3 }
 		
 		crusade_name = "CRUSADE"
@@ -3562,7 +3565,7 @@ greek_religion = {
 	italic_main = {
 		graphical_culture = westerngfx
 
-		icon = 102
+		icon = 37
 		color = { 0.2 0.3 0.6 }
 		
 		crusade_name = "CRUSADE"
@@ -3768,7 +3771,7 @@ italian_religion = {
 	etruscan_main = {
 		graphical_culture = westerngfx
 
-		icon = 98
+		icon = 37
 		color = { 0.1 0.5 0.8 }
 		
 		crusade_name = "CRUSADE"

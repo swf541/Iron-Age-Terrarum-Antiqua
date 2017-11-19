@@ -891,8 +891,8 @@ pagan_group = {
 		
 		secondary_event_pictures = tengri_pagan
 
-		icon = 78
-		heresy_icon = 79
+		icon = 88
+		heresy_icon = 90
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -954,8 +954,8 @@ pagan_group = {
 	tibetan_pagan = { # Bon/Dongba/Root West
 		graphical_culture = mongolgfx
 
-		icon = 77
-		heresy_icon = 79
+		icon = 89
+		heresy_icon = 90
 		
 		color = { 150 50 0 }
 		
