@@ -11,3 +11,7 @@
 	name = "Amari"
 	culture = armenian
 }
+8004 = {
+	name = "Artaxiad"
+	culture = armenian
+}

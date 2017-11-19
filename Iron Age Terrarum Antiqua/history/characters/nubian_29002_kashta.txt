@@ -3,7 +3,7 @@
 	name = "Kashta" #father of Kashta and Alara
 	dynasty = 29002 
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	1.1.1 = { 
 		birth="yes" #arbitrary
 	}
@@ -15,7 +15,7 @@
 	name = "Alara" 
 	dynasty = 29002 
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290201
 	1.1.2 = { 
 		birth="yes" #arbitrary 
@@ -28,7 +28,7 @@
 	name = "Kashta"
 	dynasty = 29002 
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290201
 	1.1.3 = { 
 		birth="yes" #arbitrary
@@ -41,7 +41,7 @@
 	name = "Piye"
 	dynasty = 29002 
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290203
 	1.1.4 = { 
 		birth="yes" #arbitrary
@@ -54,7 +54,7 @@
 	name = "Shabaka"
 	dynasty = 29002 
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290203
 	21.1.1 = { 
 		birth="yes" # 755 BCE
@@ -67,7 +67,7 @@
 	name = "Shabatka"
 	dynasty = 29002 
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290204
 	31.1.1 = { 
 		birth="yes" # 745 BCE
@@ -80,7 +80,7 @@
 	name = "Taharqa"
 	dynasty = 29002 
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290204
 	add_trait = fortune_builder
 	add_trait = brave
@@ -98,7 +98,7 @@
 	name = "Tanwetamani" #664-656 as Pharaoh
 	dynasty = 29002 
 	culture = nubian
-	religion = kemetic
+	religion = egyptian_pagan
 	father = 290205
 	49.1.1 = { 
 		birth="yes" # 727 BCE

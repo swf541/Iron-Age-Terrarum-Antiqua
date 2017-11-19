@@ -118,6 +118,9 @@ k_scotland = {
 			color= { 120 120 100 }
 			color2={ 255 255 255 }
 			
+			holy_site = celtic_pagan
+			holy_site = celtic_pagan_reformed
+			
 			b_fortriu1 = { }
 			b_fortriu2 = { }
 			b_fortriu3 = { }
@@ -195,6 +198,9 @@ k_scotland = {
 		c_colanica = {
 			color= { 5 105 160 }
 			color2={ 255 255 255 }
+			
+			holy_site = celtic_pagan
+			holy_site = celtic_pagan_reformed
 			
 			b_colanica1 = { }
 			b_colanica2 = { }
@@ -322,6 +328,9 @@ k_scotland = {
 		c_manavia = {
 			color = { 198 77 90 }
 			color2={ 255 255 255 }
+			
+			holy_site = celtic_pagan
+			holy_site = celtic_pagan_reformed
 			
 			b_manavia1 = { }
 			b_manavia2 = { }

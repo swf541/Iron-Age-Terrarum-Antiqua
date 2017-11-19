@@ -72,9 +72,21 @@ k_ireland = {
 			holy_site = imperial
 			holy_site = catholic
 			holy_site = baltic_pagan
+			holy_site = baltic_pagan_reformed
 			holy_site = finnish_pagan
 			holy_site = finnish_pagan_reformed
 			holy_site = aztec
+			holy_site = aztec_reformed
+			holy_site = norse_pagan
+			holy_site = norse_pagan_reformed
+			holy_site = east_germanic_pagan
+			holy_site = east_germanic_pagan_reformed
+			holy_site = germanic_pagan
+			holy_site = germanic_pagan_reformed
+			holy_site = sol_invictus
+			holy_site = aquitanian_main
+			holy_site = celtic_pagan
+			holy_site = celtic_pagan_reformed
 		
 			b_eblana1 = { }
 			b_eblana2 = { }
@@ -197,6 +209,9 @@ k_ireland = {
 		c_deismumhain = {
 			color= { 11 210 33 }
 			color2= { 255 255 255 }
+			
+			holy_site = celtic_pagan
+			holy_site = celtic_pagan_reformed
 		
 			b_deismumhain1 = { }
 			b_deismumhain2 = { }

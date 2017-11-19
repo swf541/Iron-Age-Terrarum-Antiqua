@@ -116,7 +116,10 @@ e_persia = {
 				holy_site = zurvanite
 				holy_site = pontic_main
 				holy_site = zun_pagan
+				holy_site = ossetian_pagan
+				holy_site = ossetian_pagan_reformed
 				holy_site = iranian_pagan
+				holy_site = iranian_pagan_reformed
 			
 				b_gaza_adar_gushnasp = {
 				}
@@ -195,7 +198,10 @@ e_persia = {
 				color= { 200 0 75 }
 				color2= { 255 255 255 }
 				
+				holy_site = ossetian_pagan
+				holy_site = ossetian_pagan_reformed
 				holy_site = iranian_pagan
+				holy_site = iranian_pagan_reformed
 				
 				b_ecbatana_ecbatana = {
 				}
@@ -264,6 +270,7 @@ e_persia = {
 				color2= { 255 255 255 }
 				
 				holy_site = iranian_pagan
+				holy_site = iranian_pagan_reformed
 				
 				b_hecatombylos_hecatombylos = {
 				}
@@ -341,6 +348,7 @@ e_persia = {
 				holy_site = zurvanite
 				holy_site = pontic_main
 				holy_site = iranian_pagan
+				holy_site = iranian_pagan_reformed
 				
 				b_susia_susia = {
 				}
@@ -410,7 +418,6 @@ e_persia = {
 				
 				holy_site = elamite_pagan_reformed
 				holy_site = elamite_pagan
-				holy_site = iranian_pagan
 				
 				b_susa_susa = {
 				}
@@ -1264,6 +1271,9 @@ e_india = {
 				color={ 200 120 120 }
 				color2={ 255 255 255 }
 				
+				holy_site = hindukush
+				holy_site = hindukush_reformed
+				
 				b_syanantapur_syanantapur = {
 				}
 				b_agastyakuta_syanantapur = {
@@ -1281,6 +1291,9 @@ e_india = {
 			c_mahishapuri = {
 				color= { 140 200 100 }
 				color2= { 255 255 255 }
+				
+				holy_site = hindukush
+				holy_site = hindukush_reformed
 				
 				b_mahishapuri_mahishapuri = {
 				}
@@ -1334,6 +1347,9 @@ e_india = {
 				color={ 110 25 2 }
 				color2={ 255 255 255 }
 				
+				holy_site = hindukush
+				holy_site = hindukush_reformed
+				
 				b_saupamike_saupamike = {
 				}
 				b_olochoira_saupamike = {
@@ -1356,6 +1372,9 @@ e_india = {
 			c_kishkindha = {
 				color={ 108 23 29 }
 				color2={ 255 255 255 }
+				
+				holy_site = hindukush
+				holy_site = hindukush_reformed
 				
 				b_kishkindha_kishkindha = {
 				}
@@ -1389,6 +1408,9 @@ e_india = {
 				color={ 178 93 29 }
 				color2={ 255 255 255 }
 				
+				holy_site = hindukush
+				holy_site = hindukush_reformed
+				
 				b_gomantaka_gomantaka = {
 				}
 				b_vadgaon_gomantaka = {
@@ -1402,6 +1424,9 @@ e_india = {
 			c_taiakata = {
 				color={ 150 20 0 }
 				color2={ 255 255 255 }
+				
+				holy_site = sanamahi
+				holy_site = sanamahi_reformed
 				
 				b_taiakata_taiakata = {
 				}
@@ -1449,6 +1474,9 @@ e_india = {
 				color={ 185 39 45 }
 				color2={ 255 255 255 }
 				
+				holy_site = sanamahi
+				holy_site = sanamahi_reformed
+				
 				b_rajapura_rajapura = {
 				}
 				b_sisupalapuri_rajapura = {
@@ -1483,6 +1511,9 @@ e_india = {
 				color={ 195 50 55 }
 				color2={ 220 220 0 }
 				
+				holy_site = sanamahi
+				holy_site = sanamahi_reformed
+				
 				b_kalingapur_kalingapur = {
 				}
 				b_manipura_kalingapur = {
@@ -1500,6 +1531,9 @@ e_india = {
 			c_sabara = {
 				color={ 130 0 20 }
 				color2={ 255 255 255 }
+				
+				holy_site = sanamahi
+				holy_site = sanamahi_reformed
 				
 				b_sabara_sabara = {
 				}
@@ -1537,6 +1571,9 @@ e_india = {
 			c_kannagara = {
 				color={ 110 0 20 }
 				color2={ 220 220 20 }
+				
+				holy_site = sanamahi
+				holy_site = sanamahi_reformed
 				
 				b_kannagara_kannagara = {
 				}
@@ -2145,6 +2182,7 @@ e_india = {
 				color2={ 255 255 255 }
 				
 				holy_site = zun_pagan
+				holy_site = amidist
 				
 				b_taxila_taxila = {
 				}
@@ -2248,6 +2286,8 @@ e_india = {
 			c_asibipura = {
 				color={ 144 47 0 }
 				color2={ 255 255 255 }
+				
+				holy_site = amidist
 				
 				b_asibipura_asibipura = {
 				}
@@ -2370,6 +2410,8 @@ e_india = {
 				color={ 225 135 20 }
 				color2={ 255 255 255 }
 				
+				holy_site = amidist
+				
 				b_naagramma_nagramma = {
 				}
 				b_sivodbheda_naagramma = {
@@ -2407,6 +2449,8 @@ e_india = {
 			c_viratapuri = {
 				color={ 245 200 20 }
 				color2={ 255 255 255 }
+				
+				holy_site = amidist
 				
 				b_viratapuri_viratapuri = {
 				}
@@ -2563,6 +2607,8 @@ e_india = {
 			c_janasthana = {
 				color={ 120 50 90 }
 				color2={ 255 255 255 }
+				
+				holy_site = amidist
 				
 				b_janasthana_janasthana = {
 				}
@@ -3005,6 +3051,7 @@ e_skudatpa = { # Scythia
 				
 				holy_site = tengri_pagan
 				holy_site = tengri_pagan_reformed
+				holy_site = bosporan_faith
 				
 				b_katipa_katipa = {
 				}
