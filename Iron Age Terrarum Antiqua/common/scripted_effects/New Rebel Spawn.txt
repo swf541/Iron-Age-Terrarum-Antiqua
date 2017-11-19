@@ -1,6 +1,6 @@
 spawn_religious_army_effect2 = {
 			spawn_unit = {
-				province = PREVPREVPREVPREV
+				province = PREV
 				home = PREV
 				owner = THIS
 				#leader = THIS

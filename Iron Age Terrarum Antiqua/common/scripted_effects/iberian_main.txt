@@ -142,7 +142,7 @@ vfs_iberian_main_persecution = {
 						limit = {
 							defender = { character = PREV }
 							using_cb = religious_revolt
-							attacker = { religion = ROOT }
+							attacker = { religion = PREVPREVPREV }
 						}
 						attacker = {
 							spawn_religious_reinforcements_effect2 = yes
