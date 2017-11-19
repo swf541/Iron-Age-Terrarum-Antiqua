@@ -9,3 +9,150 @@ sunni_var;Sunni Population;;;;;x
 religous_demographics_desc;[miaphysite_var.GetName] [miaphysite_var.GetValue]% [kemetic_pagan_var.GetName] [kemetic_pagan_var.GetValue]% [sunni_var.GetName] [sunni_var.GetValue]%;;;;;;;x
 irish;Gaelic;Gaelic;Gaelic;;Gaelic;;;;;;;;;x
 b_hanno2;Hanno;;;;;x
+egyptian_pagan_statistic;Kemetic Population;;;;;;x
+atenist_statistic;Atenist Population;;;;;;x
+berber_main_statistic;Berber Paganism Population;;;;;;x
+berber_pagan_reformed_statistic;Reformed Berber Paganism Population;;;;;;x
+illyrian_main_statistic;Illyrian Paganism Population;;;;;;x
+thracian_main_statistic;Thraican Paganism Population;;;;;;x
+zalmoxism_statistic;Zalmoxism Population;;;;;;x
+zalmoxism_reformed_statistic;Zalmoxism Reformed Population;;;;;;x
+norse_pagan_reformed_statistic;Norse Pagan Reformed Population;;;;;;x
+norse_pagan_statistic;Norse Pagan Population;;;;;;x
+east_germanic_pagan_reformed_statistic;EEast Germanic Pagan Reformed Population;;;;;;x
+east_germanic_pagan_statistic;East Germanic Pagan Population;;;;;;x
+germanic_pagan_reformed_statistic;Germanic Pagan Reformed Population;;;;;;x
+germanic_pagan_statistic;Germanic Pagan Population;;;;;;x
+celtic_pagan_statistic;Celtic Pagan Population;;;;;;x
+celtic_pagan_reformed_statistic;Celtic Pagan Reformed Population;;;;;;x
+punic_main_statistic;Punic Population;;;;;;x
+canaanite_pagan_statistic;Canaanite Paganism Population;;;;;;x
+canaanite_pagan_reformed_statistic;Canaanite Paganism Reformed Population;;;;;;x
+ossetian_pagan_reformed_statistic;Ossetian Pagan Reformed Population;;;;;;x
+ossetian_pagan_statistic;Ossetian Pagan Population;;;;;;x
+iranian_pagan_statistic;Iranian Pagan Population;;;;;;x
+iranian_pagan_reformed_statistic;Iranian Pagan Reformed Population;;;;;;x
+zoroastrian_statistic;Zoroastrian Population;;;;;;x
+zurvanite_statistic;Zurvanite Population;;;;;;x
+sogdian_zoroastrian_statistic;Sogdian Zoroastrian Population;;;;;;x
+bihafaridism_statistic;Bihafaridism Population;;;;;;x
+hanifiyya_statistic;Hanifiyya Population;;;;;;x
+chinese_pagan_reformed_statistic;Chinese Paganism Reformed Population;;;;;;x
+chinese_pagan_statistic;Chinese Pagan Population;;;;;;x
+tibetan_pagan_reformed_statistic;Bon Reformed Population;;;;;;x
+tibetan_pagan_statistic;Bon Population;;;;;;x
+sanamahi_reformed_statistic;Sanamhi Reformed Population;;;;;;x
+sanamahi_statistic;Sanamhi Population;;;;;;x
+dravidian_pagan_reformed_statistic;Dravidian Reformed Population;;;;;;x
+armenian_pagan_statistic;Armenian Pagan Population;;;;;;x
+armenian_pagan_reformed_statistic;Armenian Pagan Reformed Population;;;;;;x
+yazidi_statistic;Yazidi Population;;;;;;x
+jewish_statistic;Jewish Population;;;;;;x
+samaritan_statistic;Samaritan Population;;;;;;x
+grand_sanhedrin_statistic;Grand Sanhedrin Population;;;;;;x
+temple_judaism_statistic;Temple Judaism Population;;;;;;x
+karaite_statistic;Karaite Population;;;;;;x
+hindu_statistic;Hindu Population;;;;;;x
+jain_statistic;Jain Population;;;;;;x
+buddhist_statistic;Buddhist Population;;;;;;x
+vajrayana_buddhist_statistic;Vajrayana Buddhist Population;;;;;;x
+mahayana_buddhist_statistic;Mahayana Buddhist Population;;;;;;x
+georgian_pagan_statistic;Georgian Pagan Population;;;;;;x
+georgian_pagan_reformed_statistic;Georgian Pagan Reformed Population;;;;;;x
+anatolian_main_statistic;Anatolian Pagan Population;;;;;;x
+phrygian_main_statistic;Phrygian Pagan Population;;;;;;x
+hittite_main_statistic;Hittite Population;;;;;;x
+marduk_cult_statistic;Mesopatamian Pagan Population;;;;;;x
+elamite_pagan_reformed_statistic;Elamite Pagan Reformed Population;;;;;;x
+elamite_pagan_statistic;Elamite Pagan Population;;;;;;x
+arabic_main_statistic;Arabic Pagan Population;;;;;;x
+south_semitic_pagan_reformed_statistic;South Semitic Pagan Reformed Population;;;;;;x
+south_semitic_pagan_statistic;South Semitic Pagan Population;;;;;;x
+hellenic_pagan_reformed_statistic;Hellenic Pagan Reformed Population;;;;;;x
+hellenic_pagan_statistic;Olympian Population;;;;;;x
+alexandrian_pagan_statistic;Alexandrian Population;;;;;;x
+roman_main_statistic;Hellenic Population;;;;;;x
+italic_main_statistic;Italic Population;;;;;;x
+pontic_main_statistic;Pontic Population;;;;;;x
+etruscan_main_statistic;Etruscan Population;;;;;;x
+dravidian_main_statistic;Dravidian Population;;;;;;x
+lusitanian_main_statistic;Lusitanian Population;;;;;;x
+iberian_main_statistic;Iberian Population;;;;;;x
+aquitanian_main_statistic;Aquitanian Population;;;;;;x
+marcionism_statistic;Marcionism Population;;;;;;x
+priscillianism_statistic;Priscillianism Population;;;;;;x
+valentinianism_statistic;Valentinianism Population;;;;;;x
+manichean_statistic;Manichean Population;;;;;;x
+mandean_statistic;Mandean Population;;;;;;x
+bogomilist_statistic;Bogomilist Population;;;;;;x
+paulician_statistic;Paulician Population;;;;;;x
+cathar_statistic;Cathar Population;;;;;;x
+encratites_statistic;Encratites Population;;;;;;x
+amidist_statistic;Amidst Population;;;;;;x
+confucian_statistic;Confucian Population;;;;;;x
+neoconfucian_statistic;Neo-Confucian Population;;;;;;x
+taoist_statistic;Taoist Population;;;;;;x
+neotaoist_statistic;Neo-Taoist Population;;;;;;x
+hindukush_statistic;Hindukush Population;;;;;;x
+hindukush_reformed_statistic;Hindukush Reformed Population;;;;;;x
+zun_pagan_statistic;Zunist Population;;;;;;x
+zun_pagan_reformed_statistic;Reformed Zunist Population;;;;;;x
+bosporan_faith_statistic;Bosporan Population;;;;;;x
+imperial_statistic;Chalcedonian Population;;;;;;x
+arian_statistic;Arian Population;;;;;;x
+donatism_statistic;Donatism Population;;;;;;x
+melitianism_statistic;Melitinianism Population;;;;;;x
+novatianism_statistic;Novatianism Population;;;;;;x
+adoptionism_statistic;Adoptionism Population;;;;;;x
+sabellianism_statistic;Sabellianism Population;;;;;;x
+pelagianism_statistic;Pelagianism Population;;;;;;x
+macedonianism_statistic;Macedonianism Population;;;;;;x
+catholic_statistic;Catholic Population;;;;;;x
+montanism_statistic;Montanism Population;;;;;;x
+fraticelli_statistic;Fraticelli Population;;;;;;x
+waldensian_statistic;Waldensian Population;;;;;;x
+lollard_statistic;Lollard Population;;;;;;x
+orthodox_statistic;Orthodox Population;;;;;;x
+miaphysite_statistic;Miaphysite Population;;;;;;x
+tondrakian_statistic;Tondrakian Population;;;;;;x
+monophysite_statistic;Monophysite Population;;;;;;x
+monothelite_statistic;Monothelite Population;;;;;;x
+iconoclast_statistic;Iconoclast Population;;;;;;x
+nestorian_statistic;Nesstorian Population;;;;;;x
+eutychian_statistic;Eutychian Population;;;;;;x
+messalian_statistic;Messalian Population;;;;;;x
+sunni_statistic;Sunni Population;;;;;;x
+zikri_statistic;Zikri Population;;;;;;x
+ibadi_statistic;Ibadi Population;;;;;;x
+kharijite_statistic;Kharijite Population;;;;;;x
+shiite_statistic;Shiite Population;;;;;;x
+druze_statistic;Druze Population;;;;;;x
+qarmatian_statistic;Qarmatian Population;;;;;;x
+hurufi_statistic;Hurufi Population;;;;;;x
+pagan_statistic;Pagan Population;;;;;;x
+mesopotamian_paganism_statistic;Mesopatamian Population;;;;;;x
+mesopotamian_paganism_reformed_statistic;Mesopatamian Reformed Population;;;;;;x
+tengri_pagan_reformed_statistic;Tengri Reformed Population;;;;;;x
+tengri_pagan_statistic;Tengri Population;;;;;;x
+baltic_pagan_reformed_statistic;Baltic Population;;;;;;x
+baltic_pagan_statistic;Baltic Reformed Population;;;;;;x
+finnish_pagan_reformed_statistic;Finnish Reformed Population;;;;;;x
+finnish_pagan_statistic;Finnish Population;;;;;;x
+aztec_reformed_statistic;Aztec Reformed Population;;;;;;x
+aztec_statistic;Aztec Population;;;;;;x
+slavic_pagan_reformed_statistic;Slavic Reformed Population;;;;;;x
+slavic_pagan_statistic;Slavic Population;;;;;;x
+west_african_pagan_reformed_statistic;West African Reformed Population;;;;;;x
+west_african_pagan_statistic;West African Population;;;;;;x
+serer_statistic;Serer Population;;;;;;x
+bori_statistic;Bori Population;;;;;;x
+sol_invictus_statistic;Proto Germanic Population;;;;;;x
+egyptian_pagan_reformed_statistic;Neo-Kemetic Population;;;;;;x
+basque_pagan_reformed_statistic;Basque Reformed Population;;;;;;x
+basque_pagan_statistic;Basque Population;;;;;;x
+semitic_pagan_reformed_statistic;Semitic Pagan Reformed Population;;;;;;x
+semitic_pagan_statistic;Semitic Pagan Population;;;;;;x
+east_african_pagan_reformed_statistic;East African Reformed Population;;;;;;x
+east_african_pagan_statistic;East African Population;;;;;;x
+mazdaki_statistic;Khurrami Population;;;;;;x
+minoan_statistic;Minoan Population;;;;;;x
