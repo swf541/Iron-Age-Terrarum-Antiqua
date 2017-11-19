@@ -11,6 +11,9 @@ decisions = {
 				religion = minoan
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				minoan_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {

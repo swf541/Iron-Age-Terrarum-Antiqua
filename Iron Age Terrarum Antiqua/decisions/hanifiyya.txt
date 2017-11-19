@@ -11,6 +11,9 @@ decisions = {
 				religion = hanifiyya
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				hanifiyya_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {

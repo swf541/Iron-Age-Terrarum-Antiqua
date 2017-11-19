@@ -11,6 +11,9 @@ decisions = {
 				religion = jain
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				jain_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {

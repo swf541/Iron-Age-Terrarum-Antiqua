@@ -11,6 +11,9 @@ decisions = {
 				religion = novatianism
 			}
 			NOT = { has_character_modifier = recent_conversion_vfs }
+			any_realm_province = {
+				novatianism_prescense = yes
+			}
 		}
 		allow = {
 			NOT = {
