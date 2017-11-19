@@ -793,7 +793,7 @@ germanic_religion = {
 		intermarry = east_germanic_pagan
 	}
 
-	west_germanic_pagan_reformed = { 
+	germanic_pagan_reformed = { 
 		graphical_culture = norsegfx
 
 		icon = 98
@@ -846,7 +846,7 @@ germanic_religion = {
 		intermarry = east_germanic_pagan
 	}
 	
-	west_germanic_pagan = { 			# West-Germanic religion
+	germanic_pagan = { 			# West-Germanic religion
 		graphical_culture = norsegfx
 
 		icon = 97
@@ -902,60 +902,8 @@ germanic_religion = {
 		intermarry = germanic_pagan_reformed
 		intermarry = germanic_pagan
 		intermarry = east_germanic_pagan_reformed
-	}	
-	
-	germanic_pagan_reformed = { 
-		graphical_culture = norsegfx
-
-		icon = 98
-		heresy_icon = 99
-		color = { 1.5 0.2 0.15 }
-
-		
-		unit_modifier = {
-			levy_size = 0.10
-			retinuesize_perc = 0.10
-			
-			key = "OFF_RELIGION"
-		}
-		
-		allow_looting = yes
-		allow_rivermovement = yes
-		female_temple_holders = yes
-		max_consorts = 2
-		
-		aggression = 1.5 # AI aggression factor
-		
-		crusade_name = "HOLY_WAR"
-		high_god_name = GOD_WODANAZ
-		
-		god_names = {
-			GOD_THUNARAZ GOD_THE_THUNDERER GOD_THE_ALLFATHER GOD_WODANAZ GOD_FRIJJO GOD_TEIWAZ GOD_FRAUJAZ GOD_AUSTRO
-		}
-		evil_god_names = {
-			THE_DARKNESS THE_DARK_SPIRITS
-		} 
-		
-		investiture = no
-		can_excommunicate = no
-		can_grant_divorce = yes
-		can_grant_claim = no
-		can_call_crusade = no
-		scripture_name = THE_SAGAS
-		priests_can_marry = yes
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		
-		allow_in_ruler_designer = no
-		
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = germanic_pagan
-		intermarry = east_germanic_pagan_reformed
-		intermarry = east_germanic_pagan
 	}
-	germanic_pagan = { 			# West-Germanic religion
+	sol_invictus = { 			# #Proto-Germanic Reformed
 		graphical_culture = norsegfx
 
 		icon = 97
@@ -1010,7 +958,60 @@ germanic_religion = {
 		intermarry = germanic_pagan_reformed
 		intermarry = germanic_pagan
 		intermarry = east_germanic_pagan_reformed
-	}
+	}	
+	
+	aquitanian_main = { #Proto-Germanic
+		graphical_culture = norsegfx
+
+		icon = 98
+		heresy_icon = 99
+		color = { 1.5 0.2 0.15 }
+
+		
+		unit_modifier = {
+			levy_size = 0.10
+			retinuesize_perc = 0.10
+			
+			key = "OFF_RELIGION"
+		}
+		
+		allow_looting = yes
+		allow_rivermovement = yes
+		female_temple_holders = yes
+		max_consorts = 2
+		
+		aggression = 1.5 # AI aggression factor
+		
+		crusade_name = "HOLY_WAR"
+		high_god_name = GOD_WODANAZ
+		
+		god_names = {
+			GOD_THUNARAZ GOD_THE_THUNDERER GOD_THE_ALLFATHER GOD_WODANAZ GOD_FRIJJO GOD_TEIWAZ GOD_FRAUJAZ GOD_AUSTRO
+		}
+		evil_god_names = {
+			THE_DARKNESS THE_DARK_SPIRITS
+		} 
+		
+		investiture = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		scripture_name = THE_SAGAS
+		priests_can_marry = yes
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = no
+		
+		intermarry = norse_pagan_reformed
+		intermarry = norse_pagan
+		intermarry = germanic_pagan
+		intermarry = east_germanic_pagan_reformed
+		intermarry = east_germanic_pagan
+	}	
+	
 }	
 	
 celtic_religion = {
@@ -3623,71 +3624,6 @@ greek_religion = {
 						
 		intermarry = dravidian_main
 	}
-	sol_invictus = {
-		graphical_culture = westerngfx
-
-		icon = 102
-		color = { 0.2 0.3 0.6 }
-		
-		crusade_name = "CRUSADE"
-		scripture_name = PLACEHOLDER
-		god_names = {
-			GOD_SOL_INVICTUS GOD_MITHRAS
-		}
-
-		evil_god_names = {
-			THE_DARK_SPIRITS THE_DARKNESS MONSTER_TYPHON
-		}
-		
-		can_grant_divorce = yes
-		can_grant_claim = yes
-		can_call_crusade = no
-		priests_can_marry = yes
-		max_consorts = 2
-		
-		intermarry = egyptian_pagan	
-		intermarry = atenist
-		
-		intermarry = berber_main
-		
-		intermarry = illyrian_main
-		
-		intermarry = thracian_main
-		intermarry = zalmoxism
-		
-		intermarry = celtic_pagan
-		
-		intermarry = punic_main
-		intermarry = canaanite_pagan	
-		
-		intermarry = zoroastrian
-		intermarry = zurvanite
-		intermarry = ossetian_pagan
-		intermarry = hindu
-		intermarry = armenian_pagan	
-		
-		#intermarry = jewish	
-		
-		intermarry = jain
-		intermarry = buddhist
-		
-		intermarry = georgian_pagan	
-		
-		intermarry = anatolian_main
-		intermarry = phrygian_main
-		
-		intermarry = marduk_cult	
-		
-		intermarry = arabic_main
-		
-		#intermarry = hellenic_pagan
-		#intermarry = roman_main
-		#intermarry = pontic_main
-								
-		#intermarry = etruscan_main	
-						
-		intermarry = dravidian_main
-	}
 	roman_main = {
 		graphical_culture = westerngfx
 
@@ -4261,74 +4197,6 @@ aquitanian_religion = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-	}	
-	aquitanian_main = {
-		graphical_culture = westerngfx
-
-		icon = 67
-		color = { 0 0.76 0.31 }
-		
-		crusade_name = "CRUSADE"
-		scripture_name = PLACEHOLDER
-		god_names = {
-			GOD_BAIGORIXO GOD_ILUNNO GOD_ARIXONI GOD_ARTAHE GOD_ILURBERRIXO GOD_ASTOILUNO GOD_HARAVSONI GOD_LEHERENNO
-		}
-		
-		can_grant_divorce = yes
-		can_grant_claim = yes
-		can_call_crusade = no
-		#allow_looting = yes
-		#peace_prestige_loss = yes # Lose Prestige while at peace
-		raised_vassal_opinion_loss = no
-		
-		max_consorts = 3
-		
-		intermarry = egyptian_pagan	
-		intermarry = atenist
-		
-		intermarry = berber_main
-		
-		intermarry = illyrian_main
-		
-		intermarry = thracian_main
-		intermarry = zalmoxism
-		
-		#intermarry = celtic_pagan
-		
-		intermarry = punic_main
-		intermarry = canaanite_pagan	
-		
-		intermarry = zoroastrian
-		intermarry = zurvanite
-		intermarry = ossetian_pagan
-		intermarry = hindu
-		intermarry = armenian_pagan	
-		
-		#intermarry = jewish	
-		
-		intermarry = jain
-		intermarry = buddhist
-		
-		intermarry = georgian_pagan	
-		
-		intermarry = anatolian_main
-		intermarry = phrygian_main
-		
-		intermarry = marduk_cult	
-		
-		intermarry = arabic_main
-		
-		intermarry = hellenic_pagan
-		intermarry = roman_main
-		intermarry = pontic_main
-								
-		#intermarry = etruscan_main	
-						
-		intermarry = dravidian_main
-
-		intermarry = lusitanian_main
-
-		#intermarry = iberian_main
 	}
 }
 
