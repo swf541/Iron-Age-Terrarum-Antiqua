@@ -1,4 +1,4 @@
-### 	BRITANNIA 479 AD - The Winter King OST - Used with permission by Iron Age: Terrarium Aquaa 	###
+### 	BRITANNIA 479 AD - The Winter King OST - Used by Iron Age: Terrarium Aquaa with permission 	###
 ###### 		Music Library 		######
 
 song = {
