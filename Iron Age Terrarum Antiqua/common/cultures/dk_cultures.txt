@@ -246,6 +246,80 @@ israelite_group {
     
 		modifier = near_eastern_culture_modifier
 	}
+	samaritan = {
+		graphical_cultures = { muslimgfx }
+  
+		color = { 0.6 0.7 1 }
+
+		male_names = {
+			Adalya_Adalya Adam_Adam Adinah_Adinah Adlai Adoniyah Aharon Amaryahu_Amaryahu Amnon_Amnon 
+			Amos Amram Anaiah Aran Ari'el_Ari'el Arieh Asa_Asa Asaf 
+			Asher Avi'el_Avi'el Avidan Avihu_Avihu Avima'el_Avima'el Avimelekh Aviram Avishay 
+			Avner Avraham Avram Avshalom Azaryah_Azaryah Azazyahu_Azazyahu Azri'el_Azri'el Barak 
+			Barukh Belshatzzar Benayahu Binyamin Boaz Chananyah_Chananyah Chanokh Chavaqquq 
+			Chizqiyahu_Chizqiyahu Dan Daniyyel_Daniel Daryawesh_Daryawesh Dawid Delayahu_Delayahu Efrayim Ehum 
+			Eiran Eitan El'azar_El'azar Eli Eli'ezer_Eli'ezer Elifalet Elifelet Elihu_Elihu 
+			Elisha Eliyyahu Elkanah_Elkanah Enosh Esaw Ezer Ezra_Ezra Gavri'el_Gavri'el 
+			Gedalyahu_Gedalyahu Gemaryahu_Gemaryahu Gershom Gershon Gid'on Gilad Haran Hevel_Hevel 
+			Hillel Hiram Hoshea Immanuel Ira Itamar_Itamar Ittay_Ittay Iyyov_Iyyov 
+			Kalev_Kalev Kayin_Kayin Keinan Kenanyahu Koresh_Koresh Lemuel_Lemuel Lewi Lot 
+			Machli Mal'akhi Mattan_Mattan Mattanyahu Mattityahu Melech_Melech Menachem Menashsheh_Menashsheh 
+			Meshullam Mikha'el Mikhah Mordokhay Moshe Nachum_Nachum Nadav Natan 
+			Nechemyah Neriah_Neriah Netanyahu Nethanel Noach Ofrah Omri_Omri Ovadyah_Ovadyah 
+			Oved Peleg_Peleg Penuel Pinchas_Pinchas Rafa'el Reuven Satan_Satan Seraiah 
+			Sha'ul She'alti'el_She'alti'el Shelomoh Shem Shema'yah Shemu'el Shet_Shet Shimon 
+			Shimshon Talmai Teman_Teman Terach Toviyyah_Toviyyah Tzefanyah_Tzefanyah Tzidkiyahu_Tzidkiyahu Tzion 
+			Tzivah Uri_Uri Uriy'el_Uriy'el Uriyah_Uriyah Uzzi_Uzzi Uzziel Uzziyyah_Uzziyyah Ya'rah_Ya'rah 
+			Yaakov Yachin_Yachin Yadon Yair_Yair Yared Yechezkel_Yechezkel Yechi'el_Yechi'el Yedidyah 
+			Yefet Yeho'ash_Yeho'ash Yehochanan Yehonatan Yehoram Yehoshafat Yehoshua_Yehoshua Yehoyakhin 
+			Yehoyakim Yehu_Yehu Yehudah Yehudi Yered_Yered Yeriyahu Yesha'yahu_Yesha'yahu Yeshua 
+			Yiftach Yirmiyahu Yishai_Yishai Yishma'el Yishmeray Yisra'el Yissakhar_Yissakhar Yitzhak 
+			Yo'ash_Yo'ash Yoav Yochanan Yoel Yonah Yonatan Yoram Yosef 
+			Yoshiyahu_Yoshiyahu Yotam_Yotam Zekharyah Zevadyah Zevulun_Zevulun
+		}
+		female_names = {
+			Achinoam Asenat_Asenat Ashtoret_Ashtoret Atarah_Atarah Avigayil Avishag_Avishag Avital_Avital Basmat_Basmat 
+			Bat-Sheva Beulah_Beulah Bityah_Bityah Chaggit Channah Chawwah_Chawwah Cheftzi-Bah Chuldah_Chuldah 
+			Delilah Devorah Dinah_Dinah Ednah Efrat_Efrat Elisheba Ester Hadassah_Hadassah 
+			Hagar_Hagar Hodiyah_Hodiyah Ketzi'ah_Ketzi'ah Le'ah Machalat Meheitav'el_Meheitav'el Merav_Merav Mikhal 
+			Miriam Moriah Na'amah_Na'amah Na'omi No'ah Orpah_Orpah Rachel Rivqah_Rivqah 
+			Rut Sarah Shifra_Shifra Shoshannah_Shoshannah Shulammit Tamar_Tamar Tirtzah Tzillah 
+			Tzipporah Washti_Washti Yael_Yael Yedidah Yehudit Yemima Yiskah_Yiskah Yocheved 
+			Zilpah        
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = near_eastern_culture_modifier
+	}	
+	hellenistai = {
+		graphical_cultures = { muslimgfx }
+  
+		color = { 0.6 0.7 1 }
+
+		male_names = {
+			Andrew_Andrew Alexander_Alexander Andronicus Antigonus Benjamin_Benjamin 
+			Jason Josephus_Joseph Julianos Justus Lukuas 
+			Mariamne Menelaus Onias Philo Rabbi 
+			Saul Simeon Timothy Trypho
+
+		}
+		female_names = {
+			Achinoam Asenat_Asenat Ashtoret_Ashtoret Atarah_Atarah Avigayil Avishag_Avishag Avital_Avital Basmat_Basmat 
+			Bat-Sheva Beulah_Beulah Bityah_Bityah Chaggit Channah Chawwah_Chawwah Cheftzi-Bah Chuldah_Chuldah 
+			Delilah Devorah Dinah_Dinah Ednah Efrat_Efrat Elisheba Ester Hadassah_Hadassah 
+			Hagar_Hagar Hodiyah_Hodiyah Ketzi'ah_Ketzi'ah Le'ah Machalat Meheitav'el_Meheitav'el Merav_Merav Mikhal 
+			Miriam Moriah Na'amah_Na'amah Na'omi No'ah Orpah_Orpah Rachel Rivqah_Rivqah 
+			Rut Sarah Shifra_Shifra Shoshannah_Shoshannah Shulammit Tamar_Tamar Tirtzah Tzillah 
+			Tzipporah Washti_Washti Yael_Yael Yedidah Yehudit Yemima Yiskah_Yiskah Yocheved 
+			Zilpah        
+		}
+  
+		from_dynasty_prefix = "of "
+    
+		modifier = near_eastern_culture_modifier
+	}	
+	
 }	
 levantine_group = { 
 	punic = {
