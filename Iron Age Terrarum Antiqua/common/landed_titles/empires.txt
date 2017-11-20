@@ -116,10 +116,12 @@ e_persia = {
 				holy_site = zurvanite
 				holy_site = pontic_main
 				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				holy_site = ossetian_pagan
 				holy_site = ossetian_pagan_reformed
 				holy_site = iranian_pagan
 				holy_site = iranian_pagan_reformed
+				holy_site = manichean
 			
 				b_gaza_adar_gushnasp = {
 				}
@@ -202,6 +204,7 @@ e_persia = {
 				holy_site = ossetian_pagan_reformed
 				holy_site = iranian_pagan
 				holy_site = iranian_pagan_reformed
+				holy_site = manichean
 				
 				b_ecbatana_ecbatana = {
 				}
@@ -937,6 +940,7 @@ e_persia = {
 				color2= { 255 255 255 }
 				
 				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				
 				b_maracanda_marakanda = {
 				}
@@ -1131,6 +1135,10 @@ e_india = {
 				color = { 181 155 55 }
 				color2={ 255 255 255 }
 				
+				holy_site = hindu
+				holy_site = dravidian_pagan
+				holy_site = dravidian_pagan_reformed
+				
 				b_anuradhapura_anuradhapura = {
 				}
 				b_sigiriya_anuradhapura = {
@@ -1170,6 +1178,9 @@ e_india = {
 				color={ 140 65 65 }
 				color2={ 255 255 255 }
 				
+				holy_site = dravidian_pagan
+				holy_site = dravidian_pagan_reformed
+				
 				b_kanchipura_kanchipura = {
 				}
 				b_calamina_kanchipura = {
@@ -1195,6 +1206,9 @@ e_india = {
 				color={ 180 80 130 }
 				color2={ 255 255 255 }
 				
+				holy_site = dravidian_pagan
+				holy_site = dravidian_pagan_reformed
+				
 				b_podouke_podouke = {
 				}
 				b_souboura_podouke = {
@@ -1212,6 +1226,9 @@ e_india = {
 			c_kaverapuri = {
 				color={ 140 75 75 }
 				color2={ 255 255 255 }
+				
+				holy_site = dravidian_pagan
+				holy_site = dravidian_pagan_reformed
 				
 				b_kaverapuri_kaverapuri = {
 				}
@@ -1273,6 +1290,11 @@ e_india = {
 				
 				holy_site = hindukush
 				holy_site = hindukush_reformed
+				holy_site = buddhist
+				holy_site = vajrayana_buddhist
+				holy_site = mahayana_buddhist
+				holy_site = dravidian_pagan
+				holy_site = dravidian_pagan_reformed
 				
 				b_syanantapur_syanantapur = {
 				}
@@ -1294,6 +1316,7 @@ e_india = {
 				
 				holy_site = hindukush
 				holy_site = hindukush_reformed
+				
 				
 				b_mahishapuri_mahishapuri = {
 				}
@@ -1677,6 +1700,10 @@ e_india = {
 				color = { 36 175 65 }
 				color2= { 255 255 255 }
 				
+				holy_site = buddhist
+				holy_site = vajrayana_buddhist
+				holy_site = mahayana_buddhist
+				
 				b_devaprastha_devaprastha = {
 				}
 				b_champapuri_devaprastha = {
@@ -1802,6 +1829,8 @@ e_india = {
 			c_ayodhya = {
 				color = { 60 200 60 }
 				color2= { 255 255 255 }
+				
+				holy_site = hindu
 				
 				b_ayodhya_ayodhya = {
 				}
@@ -2120,6 +2149,8 @@ e_india = {
 				color={ 150 45 10 }
 				color2={ 255 255 255 }
 				
+				holy_site = hindu
+				
 				b_mathura_mathura = {
 				}
 				b_batankaisara_mathura = {
@@ -2182,7 +2213,9 @@ e_india = {
 				color2={ 255 255 255 }
 				
 				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				holy_site = amidist
+				holy_site = hindu
 				
 				b_taxila_taxila = {
 				}
@@ -2411,6 +2444,9 @@ e_india = {
 				color2={ 255 255 255 }
 				
 				holy_site = amidist
+				holy_site = buddhist
+				holy_site = vajrayana_buddhist
+				holy_site = mahayana_buddhist
 				
 				b_naagramma_nagramma = {
 				}
@@ -2710,6 +2746,7 @@ e_india = {
 				color2={ 255 255 255 }
 				
 				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 				
 				b_sripura_sripura = {
 				}
@@ -2786,6 +2823,8 @@ e_india = {
 				color={ 180 110 40 }
 				color2={ 255 255 255 }
 				
+				holy_site = hindu
+				
 				b_ujjayani_ujjayani = {
 				}
 			}
@@ -2815,6 +2854,10 @@ e_india = {
 			c_kognabanda = {
 				color={ 120 50 10 }
 				color2={ 255 255 255 }
+				
+				holy_site = buddhist
+				holy_site = vajrayana_buddhist
+				holy_site = mahayana_buddhist
 				
 				b_kognabanda_kognabanda = {
 				}
@@ -3304,6 +3347,10 @@ e_skudatpa = { # Scythia
 			c_kusdvara = {
 				color= { 200 100 25 }
 				color2= { 255 255 255 }
+				
+				holy_site = buddhist
+				holy_site = vajrayana_buddhist
+				holy_site = mahayana_buddhist
 				
 				b_kusdvara_kusdvara = {
 				}
@@ -4044,6 +4091,7 @@ e_skudatpa = { # Scythia
 				color2= { 255 255 255 }
 				
 				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 								
 				b_katipatak_katipatak = {
 				}

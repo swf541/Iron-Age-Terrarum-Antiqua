@@ -13,13 +13,7 @@ k_bosphorus = {
 			color2= { 255 255 255 }
 			
 			holy_site = illyrian_main
-			holy_site = hindu
-			holy_site = jain
-			holy_site = buddhist
-			holy_site = georgian_pagan
 			holy_site = phrygian_main
-			holy_site = arabic_main
-			holy_site = dravidian_main
 			holy_site = lusitanian_main
 			holy_site = iberian_main
 			
@@ -39,13 +33,7 @@ k_bosphorus = {
 			color2= { 255 255 255 }
 			
 			holy_site = illyrian_main
-			holy_site = hindu
-			holy_site = jain
-			holy_site = buddhist
-			holy_site = georgian_pagan
 			holy_site = phrygian_main
-			holy_site = arabic_main
-			holy_site = dravidian_main
 			holy_site = lusitanian_main
 			holy_site = iberian_main
 
@@ -61,13 +49,7 @@ k_bosphorus = {
 			color2= { 255 255 255 }
 			
 			holy_site = illyrian_main
-			holy_site = hindu
-			holy_site = jain
-			holy_site = buddhist
-			holy_site = georgian_pagan
 			holy_site = phrygian_main
-			holy_site = arabic_main
-			holy_site = dravidian_main
 			holy_site = lusitanian_main
 			holy_site = iberian_main
 			
@@ -83,13 +65,7 @@ k_bosphorus = {
 			color2= { 255 255 255 }
 			
 			holy_site = illyrian_main
-			holy_site = hindu
-			holy_site = jain
-			holy_site = buddhist
-			holy_site = georgian_pagan
 			holy_site = phrygian_main
-			holy_site = arabic_main
-			holy_site = dravidian_main
 			holy_site = lusitanian_main
 			holy_site = iberian_main
 			
@@ -105,13 +81,7 @@ k_bosphorus = {
 			color2= { 255 255 255 }
 			
 			holy_site = illyrian_main
-			holy_site = hindu
-			holy_site = jain
-			holy_site = buddhist
-			holy_site = georgian_pagan
 			holy_site = phrygian_main
-			holy_site = arabic_main
-			holy_site = dravidian_main
 			holy_site = lusitanian_main
 			holy_site = iberian_main
 			
@@ -997,6 +967,7 @@ k_lydia = {
 			color2= { 255 255 255 }
 			
 			holy_site = hellenic_pagan
+			holy_site = hellenic_pagan_reformed
 			holy_site = anatolian_main
 			
 			b_ephesus = {}
@@ -1094,6 +1065,7 @@ k_lydia = {
 			color2= { 255 255 255 }
 			
 			holy_site = hellenic_pagan
+			holy_site = hellenic_pagan_reformed
 			
 			b_miletus = {}
 			b_kanossos = {}
@@ -1475,6 +1447,7 @@ k_lydia = {
 			
 			holy_site = thracian_main
 			holy_site = bosporan_faith
+			holy_site = hittite_main
 			
 			b_ancore_nicaea = {
 			}
@@ -1546,6 +1519,8 @@ k_lydia = {
 		c_sinope = {
 			color= { 0 60 90 }
 			color2= { 255 255 255 }
+			
+			holy_site = hittite_main
 			
 			b_karousa_sinope = {
 			}
@@ -1643,6 +1618,8 @@ k_cilicia = {
 			color= { 125 150 125 }
 			color2= { 255 255 255 }
 			
+			holy_site = hittite_main
+			
 			b_tarsus_tarsus = {
 			}
 			b_anchialeia_tarsus = {
@@ -1715,6 +1692,7 @@ k_cappadocia = {
 			color2= { 255 255 255 }
 			
 			holy_site = anatolian_main
+			holy_site = manichean
 			
 			b_comana_cataonia = {
 			}
@@ -1747,6 +1725,7 @@ k_cappadocia = {
 			color2= { 255 255 255 }
 			
 			holy_site = bosporan_faith
+			holy_site = hittite_main
 			
 			b_moutalaske_mazaka = {
 			}
@@ -1810,6 +1789,7 @@ k_cappadocia = {
 			color2= { 255 255 255 }
 			
 			holy_site = bosporan_faith
+			holy_site = hittite_main
 			
 			b_amisus_amisus = {
 			}
@@ -1912,6 +1892,8 @@ k_cappadocia = {
 		c_lystra = {
 			color= { 200 165 135 }
 			color2= { 255 255 255 }
+			
+			holy_site = hittite_main
 			
 			b_lystra_lystra = {
 			}
@@ -2099,6 +2081,7 @@ k_egypt = {
 			holy_site = alexandrian_pagan
 			holy_site = pagan
 			holy_site = west_african_pagan
+			holy_site = west_african_pagan_reformed
 			holy_site = serer
 			holy_site = bori
 			
@@ -2900,6 +2883,7 @@ k_assyria = {
 			
 			holy_site = grand_sanhedrin
 			holy_site = temple_judaism
+			holy_site = manichean
 			
 			b_adma_edessa = {
 			}
@@ -3092,6 +3076,7 @@ k_assyria = {
 			holy_site = iranian_pagan
 			holy_site = iranian_pagan_reformed
 			holy_site = yazidi
+			holy_site = manichean
 
 			b_kalhu_nineveh = {
 			}
@@ -3184,6 +3169,9 @@ k_babylonia = {
 			holy_site = ossetian_pagan
 			holy_site = ossetian_pagan_reformed
 			holy_site = yazidi
+			holy_site = south_semitic_pagan
+			holy_site = south_semitic_pagan_reformed
+			holy_site = manichean
 			
 			b_babylon_babylon = {
 			}
@@ -3546,6 +3534,8 @@ k_armenia = {
 			
 			holy_site = armenian_pagan
 			holy_site = armenian_pagan_reformed
+			holy_site = georgian_pagan
+			holy_site = georgian_pagan_reformed
 			
 			b_armavir_armavir = {
 			}
@@ -3581,6 +3571,9 @@ k_armenia = {
 		c_samosata = {
 			color= { 150 25 50 }
 			color2= { 255 255 255 }
+			
+			holy_site = georgian_pagan
+			holy_site = georgian_pagan_reformed
 		
 			b_tharsa_samosata = {
 			}
@@ -3652,6 +3645,8 @@ k_georgia = {
 			
 			holy_site = armenian_pagan
 			holy_site = armenian_pagan_reformed
+			holy_site = georgian_pagan
+			holy_site = georgian_pagan_reformed
 		
 			b_mtskheta_mtskheta = {
 			}
@@ -3715,6 +3710,9 @@ k_georgia = {
 		c_kotais = {
 			color= { 100 25 100 }
 			color2= { 255 255 255 }
+			
+			holy_site = georgian_pagan
+			holy_site = georgian_pagan_reformed
 		
 			b_kotais_kotais = {
 			}
@@ -3761,6 +3759,9 @@ k_georgia = {
 		c_sanina = {
 			color= { 115 10 125 }
 			color2= { 255 255 255 }
+			
+			holy_site = georgian_pagan
+			holy_site = georgian_pagan_reformed
 		
 			b_sanina_sanina = {
 			}
@@ -3825,6 +3826,7 @@ k_macedon = {
 			color2= { 255 255 255 }
 			
 			holy_site = hellenic_pagan
+			holy_site = hellenic_pagan_reformed
 			holy_site = pontic_main
 			
 			b_aigai_pieria = {
@@ -4469,6 +4471,7 @@ k_greece = {
 			color2= { 255 255 255 }
 			
 			holy_site = hellenic_pagan
+			holy_site = hellenic_pagan_reformed
 			holy_site = pontic_main
 			holy_site = alexandrian_pagan
 		
@@ -4564,6 +4567,7 @@ k_greece = {
 			color2= { 255 255 255 }
 			
 			holy_site = hellenic_pagan
+			holy_site = hellenic_pagan_reformed
 			holy_site = alexandrian_pagan
 		
 			b_kythinion_delphi = {
@@ -4631,6 +4635,8 @@ k_greece = {
 		c_kydonia = {
 			color= { 100 200 225 }
 			color2= { 255 255 255 }
+			
+			holy_site = minoan
 		
 			b_kydonia_kydonia = {
 			}
@@ -4650,6 +4656,8 @@ k_greece = {
 		c_knossos = {
 			color= { 90 200 215 }
 			color2= { 255 255 255 }
+			
+			holy_site = minoan
 		
 			b_knossos_knossos = {
 			}
@@ -4674,6 +4682,8 @@ k_greece = {
 		c_chalcis = {
 			color= { 100 175 200 }
 			color2= { 255 255 255 }
+			
+			holy_site = minoan
 		
 			b_chalcis_chalcis = {
 			}
@@ -4738,6 +4748,8 @@ k_greece = {
 		c_naxos = {
 			color= { 100 175 225 }
 			color2= { 255 255 255 }
+			
+			holy_site = minoan
 		
 			b_naxos_naxos = {
 			}
@@ -4762,6 +4774,8 @@ k_greece = {
 		c_cephalonia = {
 			color= { 110 185 175 }
 			color2= { 255 255 255 }
+			
+			holy_site = minoan
 		
 			b_same_cephalonia = {
 			}
@@ -4908,7 +4922,11 @@ k_nabataea = {
 		c_pelusium = {
 			color= { 200 150 25 }
 			color2= { 255 255 255 }
+			
 			egyptian = "Per Amun"
+			
+			holy_site = hanifiyya
+			holy_site = arabic_main
 		
 			b_pelusium_pelusium = {
 				egyptian = "Per Amun"
@@ -4966,6 +4984,11 @@ k_nabataea = {
 		c_petra = {
 			color= { 200 150 0 }
 			color2= { 255 255 255 }
+			
+			holy_site = hanifiyya
+			holy_site = arabic_main
+			holy_site = south_semitic_pagan
+			holy_site = south_semitic_pagan_reformed
 		
 			b_petra_petra = {
 			}
@@ -5061,6 +5084,10 @@ k_nabataea = {
 			holy_site = sunni
 			holy_site = ibadi
 			holy_site = shiite
+			holy_site = hanifiyya
+			holy_site = arabic_main
+			holy_site = south_semitic_pagan
+			holy_site = south_semitic_pagan_reformed
 			
 			b_alouare_alouare = {
 			}
@@ -5092,6 +5119,11 @@ k_nabataea = {
 		c_bostra = {
 			color= { 185 115 0 }
 			color2= { 255 255 255 }
+			
+			holy_site = hanifiyya
+			holy_site = arabic_main
+			holy_site = south_semitic_pagan
+			holy_site = south_semitic_pagan_reformed
 		
 			b_bostra_bostra = {
 			}
@@ -5129,6 +5161,8 @@ k_italy = {
 			color= { 115 10 25 }
 			color2= { 255 255 255 }
 			
+			holy_site = italic_main
+			
 			b_neapolis = {
 			}
 			b_capua_neapolis = {
@@ -5161,6 +5195,8 @@ k_italy = {
 		c_venusia = {
 			color= { 135 15 0 }
 			color2= { 255 255 255 }
+			
+			holy_site = italic_main
 			
 			b_venusia_venusia = {
 			}
@@ -5263,6 +5299,7 @@ k_italy = {
 			holy_site = germanic_pagan_reformed
 			holy_site = sol_invictus
 			holy_site = aquitanian_main
+			holy_site = italic_main
 			
 			b_roma_roma = {
 			}
@@ -5298,6 +5335,7 @@ k_italy = {
 			color2= { 255 255 255 }
 			
 			holy_site = roman_main
+			holy_site = italic_main
 			
 			b_spoletium_spoletium = {
 			}
@@ -5358,6 +5396,7 @@ k_italy = {
 			
 			holy_site = etruscan_main
 			holy_site = roman_main
+			holy_site = italic_main
 			
 			b_tarquinii_tarquinii = {
 			}
@@ -6402,6 +6441,7 @@ k_mauretania = {
 			color2= { 255 255 255 }
 			
 			holy_site = west_african_pagan
+			holy_site = west_african_pagan_reformed
 			holy_site = serer
 			holy_site = bori
 			holy_site = berber_main
@@ -6450,6 +6490,7 @@ k_mauretania = {
 			color2= { 255 255 255 }
 			
 			holy_site = west_african_pagan
+			holy_site = west_african_pagan_reformed
 			holy_site = serer
 			holy_site = bori
 			holy_site = berber_main
@@ -6491,6 +6532,7 @@ k_mauretania = {
 			
 			holy_site = pagan
 			holy_site = west_african_pagan
+			holy_site = west_african_pagan_reformed
 			holy_site = serer
 			holy_site = bori
 			holy_site = berber_main
@@ -6544,6 +6586,7 @@ k_mauretania = {
 			color2= { 255 255 255 }
 			
 			holy_site = west_african_pagan
+			holy_site = west_african_pagan_reformed
 			holy_site = serer
 			holy_site = bori
 			holy_site = ibadi
@@ -7169,6 +7212,7 @@ k_kush = {
 			egyptian = "Pselqet"
 			
 			holy_site = east_african_pagan
+			holy_site = east_african_pagan_reformed
 			
 			b_pselchis_pselchis = {
 				egyptian = "Pselqet"
@@ -7256,6 +7300,7 @@ k_kush = {
 			
 			holy_site = miaphysite
 			holy_site = east_african_pagan
+			holy_site = east_african_pagan_reformed
 			
 			b_meroe_meroe = {
 			}
@@ -7285,9 +7330,14 @@ k_arabia = {
 			color2={ 255 255 255 }
 			
 			holy_site = east_african_pagan
+			holy_site = east_african_pagan_reformed
 			holy_site = sunni
 			holy_site = ibadi
 			holy_site = shiite
+			holy_site = hanifiyya
+			holy_site = arabic_main
+			holy_site = south_semitic_pagan
+			holy_site = south_semitic_pagan_reformed
 			
 			b_macoraba_macoraba = {
 			}
@@ -7337,6 +7387,7 @@ k_arabia = {
 			color2={ 255 255 255 }
 			
 			holy_site = east_african_pagan
+			holy_site = east_african_pagan_reformed
 			
 			b_akila_akila = {
 			}
@@ -7419,6 +7470,7 @@ k_arabia = {
 			color2={ 255 255 255 }
 			
 			holy_site = east_african_pagan
+			holy_site = east_african_pagan_reformed
 			
 			b_saba_saba = {
 			}
@@ -8553,6 +8605,9 @@ k_hispa = {
 			color={ 0 153 124 }
 			color2={ 255 255 255 }
 			
+			holy_site = basque_pagan
+			holy_site = basque_pagan_reformed
+			
 			b_sekia_segia = {
 			}
 			b_iaka_segia = {
@@ -8604,6 +8659,9 @@ k_hispa = {
 			color={ 20 205 170 }
 			color2={ 255 255 255 }
 			
+			holy_site = basque_pagan
+			holy_site = basque_pagan_reformed
+			
 			b_saldania_saldania = {
 			}
 			b_morecanodounon_saldania = {
@@ -8635,6 +8693,9 @@ k_hispa = {
 		c_salmantica = {
 			color= { 130 75 160 }
 			color2={ 255 255 255 }
+			
+			holy_site = basque_pagan
+			holy_site = basque_pagan_reformed
 
 			b_helmantica_salmantica = {
 			}
@@ -8700,6 +8761,9 @@ k_hispa = {
 		c_numantia = { 
 			color={ 135 145 80 }
 			color2={ 255 255 255 }
+			
+			holy_site = basque_pagan
+			holy_site = basque_pagan_reformed
 
 			b_numantia_numantia = {
 			}
@@ -8820,6 +8884,9 @@ k_hispa = {
 		c_edeba = {
 			color={ 30 20 110 }
 			color2={ 255 255 255 }
+			
+			holy_site = basque_pagan
+			holy_site = basque_pagan_reformed
 
 			b_edeba_edeba = {
 			}
