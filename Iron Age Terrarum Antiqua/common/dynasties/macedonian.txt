@@ -140,3 +140,11 @@
 	name = "Aphrodisioi"
 	culture = macedonian
 }
+36 = {
+	name = "Magidai"
+	culture = macedonian
+}
+37 = {
+	name = "Diodotidai"
+	culture = macedonian
+}

@@ -1136,7 +1136,7 @@ e_india = {
 				color2={ 255 255 255 }
 				
 				holy_site = hindu
-				holy_site = dravidian_pagan
+				holy_site = dravidian_main
 				holy_site = dravidian_pagan_reformed
 				
 				b_anuradhapura_anuradhapura = {
@@ -1178,7 +1178,7 @@ e_india = {
 				color={ 140 65 65 }
 				color2={ 255 255 255 }
 				
-				holy_site = dravidian_pagan
+				holy_site = dravidian_main
 				holy_site = dravidian_pagan_reformed
 				
 				b_kanchipura_kanchipura = {
@@ -1206,7 +1206,7 @@ e_india = {
 				color={ 180 80 130 }
 				color2={ 255 255 255 }
 				
-				holy_site = dravidian_pagan
+				holy_site = dravidian_main
 				holy_site = dravidian_pagan_reformed
 				
 				b_podouke_podouke = {
@@ -1227,7 +1227,7 @@ e_india = {
 				color={ 140 75 75 }
 				color2={ 255 255 255 }
 				
-				holy_site = dravidian_pagan
+				holy_site = dravidian_main
 				holy_site = dravidian_pagan_reformed
 				
 				b_kaverapuri_kaverapuri = {
@@ -1293,7 +1293,7 @@ e_india = {
 				holy_site = buddhist
 				holy_site = vajrayana_buddhist
 				holy_site = mahayana_buddhist
-				holy_site = dravidian_pagan
+				holy_site = dravidian_main
 				holy_site = dravidian_pagan_reformed
 				
 				b_syanantapur_syanantapur = {
@@ -1372,6 +1372,7 @@ e_india = {
 				
 				holy_site = hindukush
 				holy_site = hindukush_reformed
+				holy_site = jain
 				
 				b_saupamike_saupamike = {
 				}
@@ -1536,6 +1537,7 @@ e_india = {
 				
 				holy_site = sanamahi
 				holy_site = sanamahi_reformed
+				holy_site = jain
 				
 				b_kalingapur_kalingapur = {
 				}
@@ -1648,6 +1650,8 @@ e_india = {
 				color = { 30 125 55 }
 				color2={ 255 255 255 }
 				
+				holy_site = jain
+				
 				b_tamralipti_tamralipti = {
 				}
 				b_selampoura_tamralipti = {
@@ -1754,6 +1758,8 @@ e_india = {
 			c_pataliputra = {
 				color = { 35 165 35 }
 				color2= { 255 255 255 }
+				
+				holy_site = jain
 				
 				b_pataliputra_pataliputra = {
 				}
@@ -1882,6 +1888,8 @@ e_india = {
 			c_kapilayastu = {
 				color={ 15 220 80 }
 				color2= { 255 255 255 }
+				
+				holy_site = jain
 				
 				b_kapilayastu_kapilayastu = {
 				}

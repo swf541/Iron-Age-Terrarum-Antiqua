@@ -1,0 +1,12 @@
+47001 = {
+	name = "Tectosages"
+	culture = gallaecian
+}
+47002 = {
+	name = "Trocmi"
+	culture = gallaecian
+}
+47003 = {
+	name = "Tolistobogii"
+	culture = gallaecian
+}

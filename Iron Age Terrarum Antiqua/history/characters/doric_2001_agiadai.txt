@@ -283,7 +283,7 @@
 
 	father = 20014
 
-	trait =skilled_commander
+	trait =skilled_tactician
 
 	264.1.1 = { # 512 BC, made up
 		birth="yes" 
@@ -321,7 +321,7 @@
 
 	father = 20015
 
-	trait =skilled_commander
+	trait =skilled_tactician
 
 	277.1.1 = { # 499 BC, made up
 		birth="yes" 

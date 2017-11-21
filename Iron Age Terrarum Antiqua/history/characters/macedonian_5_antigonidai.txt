@@ -270,7 +270,7 @@
 	}
 	526.1.1 = { # 250 BC
 		add_spouse = 3506 # Berenike
-		add_lover = 1014 # Apama II
+#		add_lover = 1014 # Apama II
 	}
 	527.1.1 = { # 249 BC
 		death = {
