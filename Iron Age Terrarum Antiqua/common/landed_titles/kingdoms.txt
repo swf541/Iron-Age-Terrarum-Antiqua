@@ -1091,36 +1091,37 @@ k_lydia = {
 			color= { 0 85 85 }
 			color2= { 255 255 255 }
 			
-			b_kos_kos = {}
-			b_nisyros_kos = {}
-			b_telos_kos = {}
-			b_antimachia_kos = {}
-			b_pothaia_kos = {}
-			b_leros_kos = {}
+			b_kos = {}
+			b_nisyros = {}
+			b_telos = {}
+			b_antimachia = {}
+			b_pothaia = {}
+			b_leros = {}
+			b_kos7 = {}
 		}
 		c_rhodos = {
 			color= { 10 65 75 }
 			color2= { 255 255 255 }
 			
-			b_rhodos_rhodos = {
-			}
-			b_lindos_rhodos = {
-			}
-			b_ialyssos_rhodos = {
-			}
-			b_kameiros_rhodos = {
-			}
+			b_rhodos = {}
+			b_lindos = {}
+			b_ialyssos = {}
+			b_kameiros = {}
+			b_rhodos5 = {}
+			b_rhodos6 = {}
+			b_rhodos7 = {}
 		}
 		c_karpathos = {
 			color= { 10 85 75 }
 			color2= { 255 255 255 }
 		
-			b_potidaio_karpathos = {
-			}
-			b_arkesia_karpathos = {
-			}
-			b_nisiros_karpathos = {
-			}
+			b_potidaio = {}
+			b_arkesia = {}
+			b_nisiros = {}
+			b_karpathos4 = {}
+			b_karpathos5 = {}
+			b_karpathos6 = {}
+			b_karpathos7 = {}
 		}
 		c_alabanda = {
 			color= { 10 75 65 }

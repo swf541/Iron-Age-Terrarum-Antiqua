@@ -1,16 +1,20 @@
 # 10 - Karpathos
+
 # County Title
-title = c_karpathos # for example c_corinth
+title = c_karpathos
 
 # Settlements
-max_settlements = 6 # Should be reevaluated
-b_potidaio_karpathos = castle
-b_arkesia_karpathos = temple
-b_nisiros_karpathos = city
+max_settlements = 6
+b_potidaio = castle
+b_arkesia = temple
+b_nisiros = city
+#b_karpathos4 = castle
+#b_karpathos5 = temple
+#b_karpathos6 = city
+#b_karpathos7 = castle
 
 # Misc
 culture = doric
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

@@ -226,6 +226,7 @@
 	father=1231444	#Taran
 	mother=1231500	#Slàine
 	492.12.24={ birth=yes }
+	513.1.1={ add_spouse=1231501 }
 	541.3.4={ death=yes }
 }
 1231451={
@@ -239,6 +240,421 @@
 	mother=1231500	#Slàine
 	495.5.7={ birth=yes }
 	560.12.2={ death=yes }
+}
+1231452={
+	name=Mùirne
+	female=yes
+	dynasty=223032
+	dna="gcllbhjcdia"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231450	#Nechtan
+	mother=1231501	#Mùirne
+	521.6.15={ birth=yes }
+	588.9.14={ death=yes }
+}
+1231453={
+	name=Coinneach
+	dynasty=223032
+	dna="kdlebdnefie"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=6 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=gardener 
+	trait=zealous 
+	trait=deceitful 
+	trait=paranoid 
+	trait=temperate 
+	trait=diligent 
+	father=1231450	#Nechtan
+	mother=1231501	#Mùirne
+	526.4.2={ birth=yes }
+	547.1.1={ add_spouse=1231502 }
+	589.2.9={ death=yes }
+}
+1231454={
+	name=Gede
+	dynasty=223032
+	dna="kdplbikeben"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=skilled_tactician 
+	trait=kind 
+	trait=paranoid 
+	trait=chaste 
+	trait=zealous 
+	father=1231450	#Nechtan
+	mother=1231501	#Mùirne
+	529.3.6={ birth=yes }
+	614.4.21={ death=yes }
+}
+1231455={
+	name=Tormad
+	dynasty=223032
+	dna="kflecffefie"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=4 
+	learning=4
+	trait=detached_priest 
+	trait=cruel 
+	trait=chaste 
+	trait=patient 
+	trait=diligent 
+	trait=trusting 
+	trait=humble 
+	father=1231453	#Coinneach
+	mother=1231502	#Der-Ilei
+	546.2.26={ birth=yes }
+	567.1.1={ add_spouse=1231503 }
+	596.11.25={ death=yes }
+}
+1231456={
+	name=Taran
+	dynasty=223032
+	dna="jnlibjneiid"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=8 
+	learning=6
+	trait=tough_soldier 
+	trait=just 
+	trait=temperate 
+	trait=greedy 
+	trait=humble 
+	father=1231453	#Coinneach
+	mother=1231502	#Der-Ilei
+	549.9.7={ birth=yes }
+	610.10.11={ death=yes }
+}
+1231457={
+	name=Der-Ilei
+	female=yes
+	dynasty=223032
+	dna="kalebdeeimj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231453	#Coinneach
+	mother=1231502	#Der-Ilei
+	553.3.3={ birth=yes }
+	602.3.6={ death=yes }
+}
+1231458={
+	name=Mùirne
+	female=yes
+	dynasty=223032
+	dna="kdlobanecif"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231453	#Coinneach
+	mother=1231502	#Der-Ilei
+	556.2.16={ birth=yes }
+	603.10.19={ death=yes }
+}
+1231459={
+	name=Sidheag
+	female=yes
+	dynasty=223032
+	dna="kclaoifeoke"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231453	#Coinneach
+	mother=1231502	#Der-Ilei
+	558.1.11={ birth=yes }
+	615.11.29={ death=yes }
+}
+1231460={
+	name=Sorcha
+	female=yes
+	dynasty=223032
+	dna="bglecfeeoke"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231455	#Tormad
+	mother=1231503	#Sorcha
+	572.2.16={ birth=yes }
+	645.1.25={ death=yes }
+}
+1231461={
+	name=Ualraig
+	dynasty=223032
+	dna="khlaofkelap"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=skilled_tactician 
+	trait=proud 
+	trait=shy 
+	trait=envious 
+	trait=arbitrary 
+	trait=wounded 
+	father=1231455	#Tormad
+	mother=1231503	#Sorcha
+	576.12.3={ birth=yes }
+	597.1.1={ add_spouse=1231504 }
+	623.7.30={ death=yes }
+}
+1231462={
+	name=Brude
+	dynasty=223032
+	dna="kfoecafefia"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=6 
+	learning=5
+	trait=flamboyant_schemer 
+	trait=cynical 
+	trait=deceitful 
+	trait=ambitious 
+	trait=diligent 
+	trait=craven 
+	father=1231455	#Tormad
+	mother=1231503	#Sorcha
+	578.10.17={ birth=yes }
+	632.1.8={ death=yes }
+}
+1231463={
+	name=Coinneach
+	dynasty=223032
+	dna="coffoffhfie"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=6
+	trait=detached_priest 
+	trait=honest 
+	trait=greedy 
+	trait=proud 
+	trait=zealous 
+	trait=gluttonous 
+	trait=craven 
+	father=1231455	#Tormad
+	mother=1231503	#Sorcha
+	582.11.25={ birth=yes }
+	629.4.3={ death=yes }
+}
+1231464={
+	name=Deort
+	dynasty=223032
+	dna="koggcaffdgj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=7 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=proud 
+	trait=content 
+	trait=cynical 
+	trait=lustful 
+	trait=brave 
+	father=1231455	#Tormad
+	mother=1231503	#Sorcha
+	587.9.2={ birth=yes }
+	634.8.16={ death=yes }
+}
+1231465={
+	name=Tormad
+	dynasty=223032
+	dna="mhlaocpelao"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=6
+	trait=tough_soldier 
+	trait=wroth 
+	trait=paranoid 
+	trait=deceitful 
+	trait=just 
+	trait=lustful 
+	trait=craven 
+	father=1231461	#Ualraig
+	mother=1231504	#Mùirne
+	603.6.18={ birth=yes }
+	624.1.1={ add_spouse=1231505 }
+	674.10.16={ death=yes }
+}
+1231466={
+	name=Mùirne
+	female=yes
+	dynasty=223032
+	dna="khlgofkilhl"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231461	#Ualraig
+	mother=1231504	#Mùirne
+	605.6.6={ birth=yes }
+	677.4.7={ death=yes }
+}
+1231467={
+	name=Sorcha
+	female=yes
+	dynasty=223032
+	dna="kfiagffcgap"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231461	#Ualraig
+	mother=1231504	#Mùirne
+	609.3.21={ birth=yes }
+	671.10.28={ death=yes }
+}
+1231468={
+	name=Fiona
+	female=yes
+	dynasty=223032
+	dna="kalnofkgkak"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231461	#Ualraig
+	mother=1231504	#Mùirne
+	612.11.5={ birth=yes }
+	697.11.2={ death=yes }
+}
+1231469={
+	name=Cailtram
+	dynasty=223032
+	dna="kejapomklgp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=8 
+	learning=8
+	trait=misguided_warrior 
+	trait=hedonist 
+	trait=zealous 
+	trait=wroth 
+	trait=kind 
+	trait=greedy 
+	trait=diligent 
+	father=1231461	#Ualraig
+	mother=1231504	#Mùirne
+	616.10.21={ birth=yes }
+	666.8.30={ death=yes }
+}
+1231470={
+	name=Nicta
+	female=yes
+	dynasty=223032
+	dna="eplgobaehab"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231461	#Ualraig
+	mother=1231504	#Mùirne
+	620.10.8={ birth=yes }
+	678.12.25={ death=yes }
+}
+1231471={
+	name=Ceana
+	female=yes
+	dynasty=223032
+	dna="kploecaelap"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231461	#Ualraig
+	mother=1231504	#Mùirne
+	624.4.18={ birth=yes }
+	691.6.28={ death=yes }
+}
+1231472={
+	name=Gràinne
+	female=yes
+	dynasty=223032
+	dna="mpjadcpedko"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231465	#Tormad
+	mother=1231505	#Gràinne
+	625.6.27={ birth=yes }
+	686.12.30={ death=yes }
+}
+1231473={
+	name=Gruoch
+	female=yes
+	dynasty=223032
+	dna="mhkaonlelam"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231465	#Tormad
+	mother=1231505	#Gràinne
+	630.8.26={ birth=yes }
+	699.4.1={ death=yes }
+}
+1231474={
+	name=Túathalán
+	dynasty=223032
+	dna="hhpcoilepdo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=diligent 
+	trait=arbitrary 
+	trait=gregarious 
+	trait=ambitious 
+	trait=deceitful 
+	father=1231465	#Tormad
+	mother=1231505	#Gràinne
+	634.3.26={ birth=yes }
+	686.2.2={ death=yes }
+}
+1231475={
+	name=Grimólf
+	dynasty=223032
+	dna="mdaabdpenac"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=7 
+	learning=7
+	trait=elusive_shadow 
+	trait=honest 
+	trait=gregarious 
+	trait=lustful 
+	trait=trusting 
+	trait=content 
+	father=1231465	#Tormad
+	mother=1231505	#Gràinne
+	638.5.10={ birth=yes }
+	712.11.23={ death=yes }
 }
 1231497={
 	name=Sidheag
@@ -271,4 +687,44 @@
 	religion=celtic_pagan
 	463.10.11={ birth=yes }
 	532.2.27={ death=yes }
+}
+1231501={
+	name=Mùirne
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	492.10.11={ birth=yes }
+	541.2.27={ death=yes }
+}
+1231502={
+	name=Der-Ilei
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	526.10.11={ birth=yes }
+	589.2.27={ death=yes }
+}
+1231503={
+	name=Sorcha
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	546.10.11={ birth=yes }
+	596.2.27={ death=yes }
+}
+1231504={
+	name=Mùirne
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	576.10.11={ birth=yes }
+	623.2.27={ death=yes }
+}
+1231505={
+	name=Gràinne
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	603.10.11={ birth=yes }
+	674.2.27={ death=yes }
 }

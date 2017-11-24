@@ -13,3 +13,18 @@
 534.10.25 = { # 243 BC
 	holder = 1231450 # Nechtan
 }
+541.03.04 = { # 236 BC
+	holder = 1231453 # Coinneach
+}
+589.02.09 = { # 187 BC
+	holder = 1231455 # Tormad
+}
+596.11.25 = { # 180 BC
+	holder = 1231461 # Ualraig
+}
+623.07.30 = { # 153 BC
+	holder = 1231465 # Tormad
+}
+674.10.16 = { # 102 BC
+	holder = 1231474 # Túathalán
+}

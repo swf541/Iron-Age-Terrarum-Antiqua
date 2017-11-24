@@ -711,7 +711,7 @@ long_character_event = {
     trigger = { 
         ROOT = { 
             is_alive = yes
-            gold = 500
+            cash = 500
         }
     }
     immediate = { 
@@ -789,7 +789,7 @@ long_character_event = {
                 is_variable_equal = { which = "action_picked" value = "1" } 
             }
         }
-        gold = -500
+        cash = -500
         spawn_unit = {
 			owner = ROOT
 			province = ROOT
@@ -810,14 +810,14 @@ long_character_event = {
     option = {
         name = "Pikemen"
         custom_tooltip = {
-            text = "For an outlay of gold, call together a band of Pikemen."
+            text = "For an outlay of cash, call together a band of Pikemen."
         }
         trigger = {
             ROOT = { 
                 is_variable_equal = { which = "action_picked" value = "2" } 
             }
         }
-        gold = -500
+        cash = -500
         spawn_unit = {
 			owner = ROOT
 			province = ROOT
@@ -844,7 +844,7 @@ long_character_event = {
                 is_variable_equal = { which = "action_picked"  value = "3" } 
             }
         }
-        gold = -500
+        cash = -500
         spawn_unit = {
 			owner = ROOT
 			province = ROOT
@@ -871,7 +871,7 @@ long_character_event = {
                 is_variable_equal = { which = "action_picked" value = "4" } 
             }
         }
-        gold = -500
+        cash = -500
         spawn_unit = {
 			owner = ROOT
 			province = ROOT
@@ -898,7 +898,7 @@ long_character_event = {
                 is_variable_equal = { which = "action_picked" value = "5" } 
             }
         }
-        gold = -500
+        cash = -500
         spawn_unit = {
 			owner = ROOT
 			province = ROOT
@@ -952,7 +952,7 @@ long_character_event = {
                 is_variable_equal = { which = "action_picked" value = "7" } 
             }
         }
-        gold = -500
+        cash = -500
         spawn_unit = {
 			owner = ROOT
 			province = ROOT
@@ -979,7 +979,7 @@ long_character_event = {
                 is_variable_equal = { which = "action_picked" value = "8" } 
             }
         }
-        gold = -500
+        cash = -500
         spawn_unit = {
 			owner = ROOT
 			province = ROOT
