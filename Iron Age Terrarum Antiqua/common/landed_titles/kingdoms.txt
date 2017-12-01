@@ -1087,6 +1087,37 @@ k_lydia = {
 			b_theangela = {}
 			b_cnidus = {}
 		}
+		c_alabanda = {
+			color= { 10 75 65 }
+			color2= { 255 255 255 }
+			
+			b_alabanda = {}
+			b_lagina = {}
+			b_gerga = {}
+			b_alinda = {}
+			b_alabanda5 = {}
+			b_alabanda6 = {}
+			b_alabanda7 = {}
+		}
+		c_attouda = {
+			color= { 0 75 75 }
+			color2= { 255 255 255 }
+			
+			b_attouda = {}
+			b_aphrodisias = {}
+			b_harpasa = {}
+			b_trapezopolis = {}
+			b_antiocheia2 = {}
+			b_attouda6 = {}
+			b_attouda7 = {}
+		}
+	}
+	d_rhodia = {
+		color= { 0 50 75 }
+		color2= { 255 255 255 }
+		
+		capital = 11 # Rhodes
+		
 		c_kos = {
 			color= { 0 85 85 }
 			color2= { 255 255 255 }
@@ -1123,48 +1154,17 @@ k_lydia = {
 			b_karpathos6 = {}
 			b_karpathos7 = {}
 		}
-		c_alabanda = {
-			color= { 10 75 65 }
-			color2= { 255 255 255 }
-			
-			b_alabanda_alabanda = {
-			}
-			b_lagina_alabanda = {
-			}
-			b_gerga_alabanda = {
-			}
-			b_alinda_alabanda = {
-			}
-		}
 		c_knidos = {
 			color= { 0 75 75 }
 			color2= { 255 255 255 }
 			
-			b_knidos_knidos = {
-			}
-			b_kaunos_knidos = {
-			}
-			b_syme_knidos = {
-			}
-			b_pisillis_knidos = {
-			}
-			b_pasanda_knidos = {
-			}
-		}
-		c_attouda = {
-			color= { 0 75 75 }
-			color2= { 255 255 255 }
-			
-			b_attouda_attouda = {
-			}
-			b_aphrodisias_attouda = {
-			}
-			b_harpasa_attouda = {
-			}
-			b_trapezopolis_attouda = {
-			}
-			b_antiocheia_attouda = {
-			}
+			b_knidos = {}
+			b_kaunos = {}
+			b_syme = {}
+			b_pisillis = {}
+			b_pasanda = {}
+			b_knidos6 = {}
+			b_knidos7 = {}
 		}
 	}
 	d_lycia = {
@@ -1175,16 +1175,13 @@ k_lydia = {
 			color= { 0 50 75 }
 			color2= { 255 255 255 }
 			
-			b_xanthos_xanthos = {
-			}
-			b_patara_xanthos = {
-			}			
-			b_telmessos_xanthos = {
-			}
-			b_pinara_xanthos = {
-			}
-			b_tlos_xanthos = {
-			}
+			b_xanthos = {}
+			b_patara = {}			
+			b_telmessos2 = {}
+			b_pinara = {}
+			b_tlos = {}
+			b_phaselis = {}
+			b_arykanda = {}
 		}
 		c_myra = {
 			color= { 10 60 75 }

@@ -28,3 +28,12 @@
 674.10.16 = { # 102 BC
 	holder = 1231474 # Túathalán
 }
+686.02.02 = { # 90 BC
+	holder = 1231478 # Coinneach
+}
+714.04.26 = { # 62 BC
+	holder = 1231479 # Alesander
+}
+762.06.04 = { # 5 BC
+	holder = 1231488 # Elfin
+}

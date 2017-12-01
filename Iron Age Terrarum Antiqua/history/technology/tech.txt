@@ -305,6 +305,7 @@ technology = {
 		d_mysia
 		d_lydia
 		d_caria
+		d_rhodia
 		d_lycia
 		d_pisidia
 		d_pamphylia

@@ -1,0 +1,105 @@
+1231511={
+	name=Nechtan
+	dynasty=223033
+	dna="laifnnolpph"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=6
+	trait=intricate_webweaver 
+	trait=hedonist 
+	trait=trusting 
+	trait=gregarious 
+	trait=brave 
+	trait=cruel 
+	trait=diligent 
+	trait=greedy 
+	trait=possessed 
+	400.7.4={ birth=yes }
+	421.1.1={ add_spouse=1231570 }
+	474.1.1={ death=yes }
+}
+1231512={
+	name=Morleo
+	dynasty=223033
+	dna="fpcdbbjlpae"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=6 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=gardener 
+	trait=envious 
+	trait=greedy 
+	trait=cruel 
+	father=1231511	#Nechtan
+	mother=1231570	#Ceit
+	427.3.14={ birth=yes }
+	486.12.2={ death=yes }
+}
+1231513={
+	name=Grim
+	dynasty=223033
+	dna="lhielnclppf"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=8 
+	learning=8
+	trait=indulgent_wastrel 
+	trait=deceitful 
+	trait=kind 
+	father=1231511	#Nechtan
+	mother=1231570	#Ceit
+	431.10.9={ birth=yes }
+	476.4.4={ death=yes }
+}
+1231514={
+	name=Ceit
+	female=yes
+	dynasty=223033
+	dna="mgiklnolppd"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231511	#Nechtan
+	mother=1231570	#Ceit
+	435.5.23={ birth=yes }
+	501.11.10={ death=yes }
+}
+1231515={
+	name=Galan
+	dynasty=223033
+	dna="caiikanlngp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=7 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=mystic 
+	trait=patient 
+	trait=brave 
+	trait=gluttonous 
+	father=1231511	#Nechtan
+	mother=1231570	#Ceit
+	437.1.2={ birth=yes }
+	483.10.16={ death=yes }
+}
+1231570={
+	name=Ceit
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	400.7.4={ birth=yes }
+	474.1.1={ death=yes }
+}

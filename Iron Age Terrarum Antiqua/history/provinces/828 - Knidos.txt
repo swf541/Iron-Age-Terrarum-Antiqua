@@ -5,15 +5,16 @@ title = c_knidos
 
 # Settlements
 max_settlements = 5
-b_knidos_knidos = castle
-b_kaunos_knidos = city
-b_syme_knidos = temple
-b_pisillis_knidos = city
-b_pasanda_knidos = castle
+b_knidos = castle
+b_kaunos = city
+b_syme = temple
+b_pisillis = city
+b_pasanda = castle
+#b_knidos6 = temple
+#b_knidos7 = castle
 
 # Misc
 culture = doric
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

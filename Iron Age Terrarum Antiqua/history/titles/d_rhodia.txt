@@ -1,0 +1,28 @@
+385.1.1 = { # 391 BC
+	holder = 24801 # Hekatomnos
+	liege = k_p_lydia
+}
+399.1.1 = { # 377 BC 
+	holder = 24804 # Mausolus
+}
+423.1.1 = { # 353 BC
+	holder = 24805 # Artemisia
+}	
+425.1.1 = { # 351 BC
+	holder = 24806 # Hidrieus
+}	
+432.1.1 = { # 344 BC
+	holder = 24807 # Ada
+}
+436.1.1 = { # 340 BC
+	holder = 24808 # Pixodaros
+}
+441.1.1 = { # 335 BC
+	holder = 24807 # Ada
+}
+442.9.1 = { # 334 BC
+	liege = k_s_caria
+}
+450.1.1 = { # 326 BC
+	holder = 0 # Hekatomnidai died out.
+}

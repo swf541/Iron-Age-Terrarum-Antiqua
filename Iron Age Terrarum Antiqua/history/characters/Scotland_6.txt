@@ -632,6 +632,7 @@
 	father=1231465	#Tormad
 	mother=1231505	#Gràinne
 	634.3.26={ birth=yes }
+	655.1.1={ add_spouse=1231506 }
 	686.2.2={ death=yes }
 }
 1231475={
@@ -655,6 +656,370 @@
 	mother=1231505	#Gràinne
 	638.5.10={ birth=yes }
 	712.11.23={ death=yes }
+}
+1231476={
+	name=Chiorstan
+	female=yes
+	dynasty=223032
+	dna="hgahoiiepdo"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231474	#Túathalán
+	mother=1231506	#Chiorstan
+	659.1.21={ birth=yes }
+	730.3.13={ death=yes }
+}
+1231477={
+	name=Gruoch
+	female=yes
+	dynasty=223032
+	dna="ahpcoillenn"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231474	#Túathalán
+	mother=1231506	#Chiorstan
+	661.1.9={ birth=yes }
+	708.9.7={ death=yes }
+}
+1231478={
+	name=Coinneach
+	dynasty=223032
+	dna="hficboljfdb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=6 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=craven 
+	trait=just 
+	father=1231474	#Túathalán
+	mother=1231506	#Chiorstan
+	665.12.7={ birth=yes }
+	686.1.1={ add_spouse=1231507 }
+	714.4.26={ death=yes }
+}
+1231479={
+	name=Alesander
+	dynasty=223032
+	dna="hfgcbhlonda"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=5 
+	learning=6
+	trait=tough_soldier 
+	trait=deceitful 
+	trait=slothful 
+	trait=cruel 
+	trait=ill 
+	father=1231478	#Coinneach
+	mother=1231507	#Gràinne
+	688.8.23={ birth=yes }
+	709.1.1={ add_spouse=1231508 }
+	762.6.4={ death=yes }
+}
+1231480={
+	name=Dargart
+	dynasty=223032
+	dna="aifgbopjbjb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=6 
+	learning=5
+	trait=martial_cleric 
+	trait=patient 
+	trait=brave 
+	trait=cruel 
+	trait=envious 
+	father=1231478	#Coinneach
+	mother=1231507	#Gràinne
+	690.5.11={ birth=yes }
+	758.12.30={ death=yes }
+}
+1231481={
+	name=Taran
+	dynasty=223032
+	dna="hgkhoolmfhp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=8 
+	learning=8
+	trait=midas_touched 
+	trait=kind 
+	trait=honest 
+	trait=drunkard 
+	father=1231478	#Coinneach
+	mother=1231507	#Gràinne
+	692.11.23={ birth=yes }
+	749.4.23={ death=yes }
+}
+1231482={
+	name=Eógan
+	dynasty=223032
+	dna="hficballddb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=4 
+	learning=6
+	trait=scholarly_theologian 
+	trait=brave 
+	trait=proud 
+	trait=gluttonous 
+	trait=depressed 
+	father=1231478	#Coinneach
+	mother=1231507	#Gràinne
+	696.7.26={ birth=yes }
+	747.11.4={ death=yes }
+}
+1231483={
+	name=Latharn
+	dynasty=223032
+	dna="cfogojljflb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=6 
+	learning=7
+	trait=scholarly_theologian 
+	trait=proud 
+	trait=temperate 
+	trait=deceitful 
+	trait=diligent 
+	trait=lustful 
+	trait=cruel 
+	trait=depressed 
+	father=1231478	#Coinneach
+	mother=1231507	#Gràinne
+	699.5.26={ birth=yes }
+	766.9.18={ death=yes }
+}
+1231484={
+	name=Morbet
+	dynasty=223032
+	dna="poggbdoohda"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=6 
+	learning=6
+	trait=detached_priest 
+	trait=arbitrary 
+	trait=deceitful 
+	trait=brave 
+	trait=trusting 
+	father=1231479	#Alesander
+	mother=1231508	#Nicta
+	711.2.1={ birth=yes }
+	732.1.1={ add_spouse=1231509 }
+	755.9.30={ death=yes }
+}
+1231485={
+	name=Nicta
+	female=yes
+	dynasty=223032
+	dna="hhgdbelifdi"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231479	#Alesander
+	mother=1231508	#Nicta
+	713.9.24={ birth=yes }
+	752.10.6={ death=yes }
+}
+1231486={
+	name=Aodhan
+	dynasty=223032
+	dna="mhphghfolde"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=5 
+	learning=8
+	trait=elusive_shadow 
+	trait=diligent 
+	trait=gregarious 
+	father=1231479	#Alesander
+	mother=1231508	#Nicta
+	718.11.1={ birth=yes }
+	764.3.28={ death=yes }
+}
+1231487={
+	name=Cailean
+	dynasty=223032
+	dna="hhjmchlbgda"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=4 
+	learning=6
+	trait=grey_eminence 
+	trait=kind 
+	trait=charitable 
+	father=1231479	#Alesander
+	mother=1231508	#Nicta
+	721.1.17={ birth=yes }
+	782.9.20={ death=yes }
+}
+1231488={
+	name=Elfin
+	dynasty=223032
+	dna="ebhfegmffjm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=4 
+	learning=4
+	trait=martial_cleric 
+	trait=humble 
+	trait=patient 
+	trait=trusting 
+	trait=charitable 
+	trait=temperate 
+	father=1231484	#Morbet
+	mother=1231509	#Arnemetia
+	737.9.15={ birth=yes }
+	758.1.1={ add_spouse=1231510 }
+	805.6.12={ death=yes }
+}
+1231489={
+	name=Arnemetia
+	female=yes
+	dynasty=223032
+	dna="ldgiefinmnc"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231484	#Morbet
+	mother=1231509	#Arnemetia
+	741.10.23={ birth=yes }
+	793.7.23={ death=yes }
+}
+1231490={
+	name=Guaire
+	dynasty=223032
+	dna="diafegmfgjj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=4 
+	learning=6
+	trait=midas_touched 
+	trait=shy 
+	trait=craven 
+	trait=just 
+	trait=drunkard 
+	father=1231488	#Elfin
+	mother=1231510	#Seàrlaid
+	759.7.20={ birth=yes }
+	831.1.3={ death=yes }
+}
+1231491={
+	name=Adomnán
+	dynasty=223032
+	dna="ghnphgojfaa"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=5 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=paranoid 
+	trait=ambitious 
+	trait=shy 
+	trait=depressed 
+	father=1231488	#Elfin
+	mother=1231510	#Seàrlaid
+	763.2.26={ birth=yes }
+	822.12.20={ death=yes }
+}
+1231492={
+	name=Seàrlaid
+	female=yes
+	dynasty=223032
+	dna="fbheegmjfcn"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231488	#Elfin
+	mother=1231510	#Seàrlaid
+	767.11.12={ birth=yes }
+	823.10.8={ death=yes }
+}
+1231493={
+	name=Deort
+	dynasty=223032
+	dna="jdofhgdkgji"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=7 
+	learning=7
+	trait=cynical 
+	trait=temperate 
+	trait=charitable 
+	trait=cruel 
+	father=1231490	#Guaire
+	784.10.10={ birth=yes }
+	845.5.18={ death=yes }
+}
+1231494={
+	name=Alwin
+	dynasty=223032
+	dna="giafegmhggi"
+	culture=pictish 
+	religion=celtic_pagan
+	trait=diligent 
+	trait=proud 
+	father=1231490	#Guaire
+	787.12.26={ birth=yes }
+	821.12.17={ death=yes }
+}
+1231495={
+	name=Tormad
+	dynasty=223032
+	dna="jikfeenfgjc"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231490	#Guaire
+	792.2.4={ birth=yes }
+	842.8.16={ death=yes }
+}
+1231496={
+	name=Galan
+	dynasty=223032
+	dna="ecdfmomfgjj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231490	#Guaire
+	796.12.7={ birth=yes }
+	885.7.15={ death=yes }
 }
 1231497={
 	name=Sidheag
@@ -727,4 +1092,44 @@
 	religion=celtic_pagan
 	603.10.11={ birth=yes }
 	674.2.27={ death=yes }
+}
+1231506={
+	name=Chiorstan
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	634.10.11={ birth=yes }
+	686.2.27={ death=yes }
+}
+1231507={
+	name=Gràinne
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	665.10.11={ birth=yes }
+	714.2.27={ death=yes }
+}
+1231508={
+	name=Nicta
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	688.10.11={ birth=yes }
+	762.2.27={ death=yes }
+}
+1231509={
+	name=Arnemetia
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	711.10.11={ birth=yes }
+	755.2.27={ death=yes }
+}
+1231510={
+	name=Seàrlaid
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	737.10.11={ birth=yes }
+	805.2.27={ death=yes }
 }

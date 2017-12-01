@@ -22,3 +22,7 @@
 	name ="Taexali"
 	culture = pictish
 }
+223033 = {
+	name ="Delcantae"
+	culture = pictish
+}
