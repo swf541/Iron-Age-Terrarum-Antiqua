@@ -41,6 +41,7 @@
 	father=1231511	#Nechtan
 	mother=1231570	#Ceit
 	427.3.14={ birth=yes }
+	448.1.1={ add_spouse=1231571 }
 	486.12.2={ death=yes }
 }
 1231513={
@@ -95,6 +96,286 @@
 	437.1.2={ birth=yes }
 	483.10.16={ death=yes }
 }
+1231516={
+	name=Luthredat
+	female=yes
+	dynasty=223033
+	dna="gpacbchlpbe"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231512	#Morleo
+	mother=1231571	#Luthredat
+	448.5.5={ birth=yes }
+	499.1.27={ death=yes }
+}
+1231517={
+	name=Crautreic
+	dynasty=223033
+	dna="ncciibjhppp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=4 
+	learning=8
+	trait=flamboyant_schemer 
+	trait=trusting 
+	trait=honest 
+	trait=just 
+	father=1231512	#Morleo
+	mother=1231571	#Luthredat
+	453.9.3={ birth=yes }
+	474.1.1={ add_spouse=1231572 }
+	511.7.19={ death=yes }
+}
+1231518={
+	name=Galan
+	dynasty=223033
+	dna="pcfebijkbah"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=5 
+	learning=8
+	trait=skilled_tactician 
+	trait=cruel 
+	trait=chaste 
+	trait=diligent 
+	trait=drunkard 
+	father=1231512	#Morleo
+	mother=1231571	#Luthredat
+	455.4.7={ birth=yes }
+	532.12.16={ death=yes }
+}
+1231519={
+	name=Giric
+	dynasty=223033
+	dna="chndhbjlnle"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=elusive_shadow 
+	trait=brave 
+	trait=kind 
+	trait=wroth 
+	trait=temperate 
+	father=1231512	#Morleo
+	mother=1231571	#Luthredat
+	459.9.14={ birth=yes }
+	527.12.25={ death=yes }
+}
+1231520={
+	name=Eimhir
+	female=yes
+	dynasty=223033
+	dna="fgddogjmnae"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231512	#Morleo
+	mother=1231571	#Luthredat
+	463.10.11={ birth=yes }
+	536.12.21={ death=yes }
+}
+1231521={
+	name=Torcuil
+	dynasty=223033
+	dna="ocmiadfheep"
+	culture=pictish r
+	eligion=celtic_pagan
+	martial=7 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=7 
+	learning=5
+	trait=misguided_warrior 
+	trait=just 
+	trait=humble 
+	trait=zealous 
+	trait=chaste 
+	trait=gregarious 
+	father=1231517	#Crautreic
+	mother=1231572	#Ceana
+	482.12.10={ birth=yes }
+	503.1.1={ add_spouse=1231573 }
+	565.3.6={ death=yes }
+}
+1231522={
+	name=Ceana
+	female=yes
+	dynasty=223033
+	dna="ncjlhghdppp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231517	#Crautreic
+	mother=1231572	#Ceana
+	487.6.1={ birth=yes }
+	521.4.26={ death=yes }
+}
+1231523={
+	name=Dearbhail
+	female=yes
+	dynasty=223033
+	dna="nccippjhplp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231517	#Crautreic
+	mother=1231572	#Ceana
+	491.3.20={ birth=yes }
+	578.5.12={ death=yes }
+}
+1231524={
+	name=Dearbhail
+	female=yes
+	dynasty=223033
+	dna="admcokkhjpp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231521	#Torcuil
+	mother=1231573	#Dearbhail
+	510.7.4={ birth=yes }
+	573.7.21={ death=yes }
+}
+1231525={
+	name=Esca
+	dynasty=223033
+	dna="odoiapmoeoo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=7
+	trait=misguided_warrior 
+	trait=ambitious 
+	trait=kind 
+	trait=trusting 
+	trait=cynical 
+	trait=wounded 
+	father=1231521	#Torcuil
+	mother=1231573	#Dearbhail
+	511.4.16={ birth=yes }
+	532.1.1={ add_spouse=1231574 }
+	575.6.23={ death=yes }
+}
+1231526={
+	name=Sorcha
+	female=yes
+	dynasty=223033
+	dna="ocmiaofheeb"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231521	#Torcuil
+	mother=1231573	#Dearbhail
+	515.11.20={ birth=yes }
+	571.1.17={ death=yes }
+}
+1231527={
+	name=Torcuil
+	dynasty=223033
+	dna="ifmgaeahbkp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=detached_priest 
+	trait=lustful 
+	trait=zealous 
+	trait=envious 
+	trait=diligent 
+	trait=patient 
+	father=1231521	#Torcuil
+	mother=1231573	#Dearbhail
+	518.4.23={ birth=yes }
+	582.11.15={ death=yes }
+}
+1231528={
+	name=Geirr
+	dynasty=223033
+	dna="onciapmoeco"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=detached_priest 
+	trait=hedonist 
+	trait=cruel 
+	trait=paranoid 
+	trait=zealous 
+	trait=brave 
+	trait=patient 
+	trait=deceitful 
+	father=1231525	#Esca
+	mother=1231574	#Meadhbh
+	537.11.3={ birth=yes }
+	586.8.22={ death=yes }
+}
+1231529={
+	name=Aulay
+	dynasty=223033
+	dna="idoiahmoeof"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=6 
+	learning=5
+	trait=tough_soldier 
+	trait=chaste 
+	trait=patient 
+	trait=zealous 
+	father=1231525	#Esca
+	mother=1231574	#Meadhbh
+	540.12.14={ birth=yes }
+	588.6.18={ death=yes }
+}
+1231530={
+	name=Meadhbh
+	female=yes
+	dynasty=223033
+	dna="oojpcomheoo"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231525	#Esca
+	mother=1231574	#Meadhbh
+	544.10.6={ birth=yes }
+	594.5.16={ death=yes }
+}
+1231531={
+	name=Natholocus
+	dynasty=223033
+	dna="odoikpmmpmo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=misguided_warrior 
+	trait=hedonist 
+	trait=envious 
+	trait=diligent 
+	trait=lunatic 
+	father=1231525	#Esca
+	mother=1231574	#Meadhbh
+	549.9.7={ birth=yes }
+	615.4.4={ death=yes }
+}
 1231570={
 	name=Ceit
 	female=yes
@@ -102,4 +383,36 @@
 	religion=celtic_pagan
 	400.7.4={ birth=yes }
 	474.1.1={ death=yes }
+}
+1231571={
+	name=Luthredat
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	427.7.4={ birth=yes }
+	486.1.1={ death=yes }
+}
+1231572={
+	name=Ceana
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	453.7.4={ birth=yes }
+	511.1.1={ death=yes }
+}
+1231573={
+	name=Dearbhail
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	482.7.4={ birth=yes }
+	565.1.1={ death=yes }
+}
+1231573={
+	name=Meadhbh
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	511.7.4={ birth=yes }
+	575.1.1={ death=yes }
 }

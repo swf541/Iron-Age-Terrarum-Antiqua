@@ -4,3 +4,15 @@
 474.01.01 = { # 302 BC
 	holder = 1231512 # Morleo
 }
+486.12.02 = { # 290 BC
+	holder = 1231517 # Crautreic
+}
+511.07.19 = { # 265 BC
+	holder = 1231521 # Torcuil
+}
+565.03.06 = { # 211 BC
+	holder = 1231525 # Esca
+}
+575.06.23 = { # 201 BC
+	holder = 1231528 # Geirr
+}

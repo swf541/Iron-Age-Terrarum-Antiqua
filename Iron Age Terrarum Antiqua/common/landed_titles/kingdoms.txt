@@ -1187,29 +1187,25 @@ k_lydia = {
 			color= { 10 60 75 }
 			color2= { 255 255 255 }
 		
-			b_myra_myra = {
-			}
-			b_arykanda_myra = {
-			}
-			b_limyra_myra = {
-			}
-			b_olympos_myra = {
-			}
-			b_phaselis_myra = {
-			}
+			b_myra = {}
+			b_arykanda2 = {}
+			b_limyra = {}
+			b_olympos = {}
+			b_phaselis2 = {}
+			b_myra6 = {}
+			b_myra7 = {}
 		}
 		c_oenoanda = {
 			color= { 0 40 65 }
 			color2= { 255 255 255 }
 		
-			b_oenoanda_oenoanda = {
-			}
-			b_balboura_oenoanda = {
-			}
-			b_boubon_oenoanda = {
-			}
-			b_orpeena_oenoanda = {
-			}
+			b_oenoanda = {}
+			b_balboura = {}
+			b_boubon = {}
+			b_orpeena = {}
+			b_oenoanda5 = {}
+			b_oenoanda6 = {}
+			b_oenoanda7 = {}
 		}
 	}
 	d_pisidia = {
