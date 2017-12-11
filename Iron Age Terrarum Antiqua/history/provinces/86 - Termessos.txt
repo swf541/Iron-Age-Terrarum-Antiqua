@@ -1,19 +1,20 @@
 # 86 - Termessos
 
 # County Title
-title = c_termessos # for example c_corinth
+title = c_termessos
 
 # Settlements
 max_settlements = 5
-b_termessos_termessos = castle
-b_ariassos_termessos = temple
-b_magydos_termessos = city
-b_isinda_termessos = castle
-#b_attaleia_termessos = city
+b_termessos = castle
+b_ariassos = temple
+b_magydos = city
+b_isinda = castle
+#b_attaleia = city
+#b_perge2 = temple
+#b_termessos2 = castle
 
 # Misc
 culture = arcadian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

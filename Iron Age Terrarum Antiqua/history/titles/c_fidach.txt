@@ -16,3 +16,12 @@
 575.06.23 = { # 201 BC
 	holder = 1231528 # Geirr
 }
+586.08.22 = { # 190 BC
+	holder = 1231535 # Gede
+}
+634.06.17 = { # 142 BC
+	holder = 1231538 # Coinneach
+}
+658.11.13 = { # 118 BC
+	holder = 1231541 # Dargart
+}

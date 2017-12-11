@@ -5,14 +5,16 @@ title = c_amblada
 
 # Settlements
 max_settlements = 4
-b_amblada_amblada = castle
-b_mistea_amblada = city
-b_ouasada_amblada = city
-b_isaura_amblada = castle
+b_amblada = castle
+b_mistea = city
+b_ouasada = city
+b_isaura = castle
+#b_amblada2 = temple
+#b_amblada3 = temple
+#b_amblada4 = castle
 
 # Misc
 culture = luwian
 religion = anatolian_main
 
 # History
-# Can be filled when things change around the province

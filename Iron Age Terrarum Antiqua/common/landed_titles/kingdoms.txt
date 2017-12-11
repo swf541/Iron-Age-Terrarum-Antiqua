@@ -1216,42 +1216,37 @@ k_lydia = {
 			color= { 0 75 100 }
 			color2= { 255 255 255 }
 			
-			b_sagalassos_sagalassos = {
-			}
-			b_apollonia_sagalassos = {
-			}
-			b_parlais_sagalassos = {
-			}			
-			b_konana_sagalassos = {
-			}
-			b_seleukeia_sagalassos = {
-			}
+			b_sagalassos = {}
+			b_apollonia2 = {}
+			b_parlais = {}			
+			b_konana = {}
+			b_seleukeia = {}
+			b_sagalassos2 = {}
+			b_sagalassos3 = {}
 		}
 		c_pappa = {
 			color= { 10 85 100 }
 			color2= { 255 255 255 }
 			
-			b_pappa_pappa = {
-			}
-			b_anaboura_pappa = {
-			}
-			b_neapolis_pappa = {
-			}
-			b_antiocheia_pappa = {
-			}
+			b_pappa = {}
+			b_anaboura = {}
+			b_neapolis2 = {}
+			b_antiocheia3 = {}
+			b_papppa2 = {}
+			b_papppa3 = {}
+			b_papppa4 = {}
 		}
 		c_amblada = {
 			color= { 0 65 110 }
 			color2= { 255 255 255 }
 		
-			b_amblada_amblada = {
-			}
-			b_mistea_amblada = {
-			}
-			b_ouasada_amblada = {
-			}
-			b_isaura_amblada = {
-			}
+			b_amblada = {}
+			b_mistea = {}
+			b_ouasada = {}
+			b_isaura = {}
+			b_amblada2 = {}
+			b_amblada3 = {}
+			b_amblada4 = {}
 		}
 	}
 	d_pamphylia = {
@@ -1262,29 +1257,25 @@ k_lydia = {
 			color= { 35 90 100 }
 			color2= { 255 255 255 }
 			
-			b_termessos_termessos = {
-			}
-			b_ariassos_termessos = {
-			}
-			b_magydos_termessos = {
-			}			
-			b_isinda_termessos = {
-			}
-			b_attaleia_termessos = {
-			}
+			b_termessos = {}
+			b_ariassos = {}
+			b_magydos = {}			
+			b_isinda = {}
+			b_attaleia = {}
+			b_perge2 = {}
+			b_termessos2 = {}
 		}
 		c_side = {
 			color= { 15 90 100 }
 			color2= { 255 255 255 }
 			
-			b_side_side = {
-			}
-			b_korakesion_side = {
-			}
-			b_etenna_side = {
-			}			
-			b_manava_side = {
-			}
+			b_side = {}
+			b_korakesion = {}
+			b_etenna = {}			
+			b_manava = {}
+			b_sillyon = {}
+			b_aspendos = {}
+			b_side2 = {}
 		}
 		c_perge = {
 			color= { 25 100 100 }

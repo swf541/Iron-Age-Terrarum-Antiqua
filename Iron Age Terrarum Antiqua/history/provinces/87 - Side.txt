@@ -1,19 +1,20 @@
 # 87 - Side
 
 # County Title
-title = c_side # for example c_corinth
+title = c_side
 
 # Settlements
 max_settlements = 4
-b_side_side = castle
-b_korakesion_side = city
-b_etenna_side = temple
-b_manava_side = city
+b_side = castle
+b_korakesion = city
+b_etenna = temple
+b_manava = city
+#b_sillyon = castle
+#b_aspendos = temple
+#b_side2 = castle
 
 # Misc
 culture = arcadian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province
-

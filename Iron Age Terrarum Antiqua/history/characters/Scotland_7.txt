@@ -321,6 +321,7 @@
 	father=1231525	#Esca
 	mother=1231574	#Meadhbh
 	537.11.3={ birth=yes }
+	558.1.1={ add_spouse=1231575 }
 	586.8.22={ death=yes }
 }
 1231529={
@@ -376,6 +377,205 @@
 	549.9.7={ birth=yes }
 	615.4.4={ death=yes }
 }
+1231532={
+	name=Mòragan
+	female=yes
+	dynasty=223033
+	dna="oncpcpcoljn"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231528	#Geirr
+	mother=1231575	#Mòragan
+	559.3.17={ birth=yes }
+	619.9.15={ death=yes }
+}
+1231533={
+	name=Dearbhail
+	female=yes
+	dynasty=223033
+	dna="oaiibklcjco"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231528	#Geirr
+	mother=1231575	#Mòragan
+	561.5.12={ birth=yes }
+	635.11.7={ death=yes }
+}
+1231534={
+	name=Luthredat
+	female=yes
+	dynasty=223033
+	dna="cnciepkceca"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231528	#Geirr
+	mother=1231575	#Mòragan
+	565.8.13={ birth=yes }
+	624.1.8={ death=yes }
+}
+1231535={
+	name=Gede
+	dynasty=223033
+	dna="igkppkidfao"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=4 
+	intrigue=8 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=temperate 
+	trait=lustful 
+	trait=gregarious 
+	trait=content 
+	father=1231528	#Geirr
+	mother=1231575	#Mòragan
+	567.11.1={ birth=yes }
+	588.1.1={ add_spouse=1231576 }
+	634.6.17={ death=yes }
+}
+1231536={
+	name=Der-Ilei
+	female=yes
+	dynasty=223033
+	dna="inmlapbomco"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231528	#Geirr
+	mother=1231575	#Mòragan
+	571.4.15={ birth=yes }
+	619.3.10={ death=yes }
+}
+1231537={
+	name=Dolidh
+	female=yes
+	dynasty=223033
+	dna="idkppkapfmc"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231535	#Gede
+	mother=1231576	#Dolidh
+	592.8.1={ birth=yes }
+	628.5.1={ death=yes }
+}
+1231538={
+	name=Coinneach
+	dynasty=223033
+	dna="lbbpllidfao"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=7 
+	learning=6
+	trait=detached_priest 
+	trait=duelist 
+	trait=lustful 
+	trait=deceitful 
+	trait=kind 
+	trait=humble 
+	trait=gluttonous 
+	trait=greedy 
+	father=1231535	#Gede
+	mother=1231576	#Dolidh
+	595.7.8={ birth=yes }
+	615.1.1={ add_spouse=1231577 }
+	658.11.13={ death=yes }
+}
+1231539={
+	name=Brianag
+	female=yes
+	dynasty=223033
+	dna="ilkdfkibpao"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231535	#Gede
+	mother=1231576	#Dolidh
+	599.6.6={ birth=yes }
+	646.5.11={ death=yes }
+}
+1231540={
+	name=Mòragan
+	female=yes
+	dynasty=223033
+	dna="igkpogihfgo"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231535	#Gede
+	mother=1231576	#Dolidh
+	605.1.14={ birth=yes }
+	666.2.15={ death=yes }
+}
+1231541={
+	name=Dargart
+	dynasty=223033
+	dna="lbdhllkdmpo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=deceitful 
+	trait=paranoid 
+	trait=brave 
+	trait=diligent 
+	father=1231538	#Coinneach
+	mother=1231577	#Una
+	619.5.17={ birth=yes }
+	640.1.1={ add_spouse=1231578 }
+	666.1.20={ death=yes }
+}
+1231542={
+	name=Una
+	female=yes
+	dynasty=223033
+	dna="lfhlplhafga"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231538	#Coinneach
+	mother=1231577	#Una
+	622.2.17={ birth=yes }
+	683.7.21={ death=yes }
+}
+1231543={
+	name=Caitir
+	female=yes
+	dynasty=223033
+	dna="lbbghljgfpm"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231538	#Coinneach
+	mother=1231577	#Una
+	626.2.10={ birth=yes }
+	682.8.14={ death=yes }
+}
+1231544={
+	name=Guirmean
+	dynasty=223033
+	dna="lgcfkdhicpe"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=misguided_warrior 
+	trait=diligent 
+	trait=envious 
+	trait=charitable 
+	trait=just 
+	trait=depressed 
+	father=1231538	#Coinneach
+	mother=1231577	#Una
+	629.9.21={ birth=yes }
+	689.5.26={ death=yes }
+}
 1231570={
 	name=Ceit
 	female=yes
@@ -408,11 +608,43 @@
 	482.7.4={ birth=yes }
 	565.1.1={ death=yes }
 }
-1231573={
+1231574={
 	name=Meadhbh
 	female=yes
 	culture=pictish
 	religion=celtic_pagan
 	511.7.4={ birth=yes }
 	575.1.1={ death=yes }
+}
+1231575={
+	name=Mòragan
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	537.7.4={ birth=yes }
+	586.1.1={ death=yes }
+}
+1231576={
+	name=Dolidh
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	567.7.4={ birth=yes }
+	634.1.1={ death=yes }
+}
+1231577={
+	name=Una
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	595.7.4={ birth=yes }
+	658.1.1={ death=yes }
+}
+1231578={
+	name=Dolidh
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	619.7.4={ birth=yes }
+	666.1.1={ death=yes }
 }
