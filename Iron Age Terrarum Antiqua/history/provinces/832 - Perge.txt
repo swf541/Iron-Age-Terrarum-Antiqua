@@ -5,15 +5,16 @@ title = c_perge
 
 # Settlements
 max_settlements = 5
-b_perge_perge = castle
-b_sillyon_perge = city
-b_aspendos_perge = city
-b_pednelissos_perge = castle
-b_selge_perge = castle
+b_perge = castle
+b_sillyon2 = city
+b_aspendos2 = city
+b_pednelissos = castle
+b_selge = castle
+#b_perge3 = temple
+#b_perge4 = temple
 
 # Misc
 culture = arcadian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province

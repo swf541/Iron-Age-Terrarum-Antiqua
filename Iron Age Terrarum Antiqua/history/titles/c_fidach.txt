@@ -25,3 +25,9 @@
 658.11.13 = { # 118 BC
 	holder = 1231541 # Dargart
 }
+666.1.20 = { # 110 BC
+	holder = 1231545 # Elfin
+}
+716.12.26 = { # 60 BC
+	holder = 1231550 # Grimolf
+}

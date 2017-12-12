@@ -2849,11 +2849,11 @@ b_oenoanda;Oenoanda;;;;;;;;;;;;;x
 b_balboura;Balboura;;;;;;;;;;;;;x
 b_boubon;Boubon;;;;;;;;;;;;;x
 b_orpeena;Orpeena;;;;;;;;;;;;;x
-b_perge_perge;Perge;;;;;;;;;;;;;x
-b_sillyon_perge;Sillyon;;;;;;;;;;;;;x
-b_aspendos_perge;Aspendos;;;;;;;;;;;;;x
-b_pednelissos_perge;Pednelissos;;;;;;;;;;;;;x
-b_selge_perge;Selge;;;;;;;;;;;;;x
+b_perge;Perge;;;;;;;;;;;;;x
+b_sillyon2;Sillyon;;;;;;;;;;;;;x
+b_aspendos2;Aspendos;;;;;;;;;;;;;x
+b_pednelissos;Pednelissos;;;;;;;;;;;;;x
+b_selge;Selge;;;;;;;;;;;;;x
 b_manava;Manava;;;;;;;;;;;;;x
 b_isinda;Isinda;;;;;;;;;;;;;x
 b_attaleia;Attaleia;;;;;;;;;;;;;x
@@ -3599,3 +3599,5 @@ b_amblada3;Amblada;;;;;;;;;;;x
 b_amblada4;Amblada;;;;;;;;;;;x
 b_termessos2;Termessos;;;;;;;;;;;x
 b_side2;Side;;;;;;;;;;;x
+b_perge3;Perge;;;;;;;;;;;x
+b_perge4;Perge;;;;;;;;;;;x

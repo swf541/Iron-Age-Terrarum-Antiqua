@@ -1281,16 +1281,13 @@ k_lydia = {
 			color= { 25 100 100 }
 			color2= { 255 255 255 }
 			
-			b_perge_perge = {
-			}
-			b_sillyon_perge = {
-			}
-			b_aspendos_perge = {
-			}
-			b_pednelissos_perge = {
-			}
-			b_selge_perge = {
-			}
+			b_perge = {}
+			b_sillyon2 = {}
+			b_aspendos2 = {}
+			b_pednelissos = {}
+			b_selge = {}
+			b_perge3 = {}
+			b_perge4 = {}
 		}
 	}
 	d_phrygia = {
