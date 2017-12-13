@@ -31,3 +31,12 @@
 716.12.26 = { # 60 BC
 	holder = 1231550 # Grimolf
 }
+741.10.13 = { # 35 BC
+	holder = 1231555 # Aed
+}
+763.02.28 = { # 12 BC
+	holder = 1231557 # Eòghann
+}
+784.08.09 = { # 6 AD
+	holder = 1231561 # Morleo
+}

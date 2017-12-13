@@ -698,6 +698,7 @@
 	father=1231545	#Elfin
 	mother=1231579	#Eimhir
 	669.2.16={ birth=yes }
+	690.1.1={ add_spouse=1231580 }
 	741.10.13={ death=yes }
 }
 1231551={
@@ -744,6 +745,287 @@
 	mother=1231579	#Eimhir
 	678.12.16={ birth=yes }
 	725.4.2={ death=yes }
+}
+1231554={
+	name=Olfinecta
+	female=yes
+	dynasty=223033
+	dna="epgahlkjbkf"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231550	#Grimólf
+	mother=1231580	#Olfinecta
+	694.8.3={ birth=yes }
+	766.10.23={ death=yes }
+}
+1231555={
+	name=Áed
+	dynasty=223033
+	dna="gghklaapbca"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=5 
+	learning=7
+	trait=thrifty_clerk 
+	trait=cruel 
+	trait=humble 
+	trait=brave 
+	trait=lustful 
+	father=1231550	#Grimólf
+	mother=1231580	#Olfinecta
+	698.4.19={ birth=yes }
+	719.1.1={ add_spouse=1231581 }
+	763.2.28={ death=yes }
+}
+1231556={
+	name=Muireall
+	female=yes
+	dynasty=223033
+	dna="gfgdllcpbpf"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231550	#Grimólf
+	mother=1231580	#Olfinecta
+	702.2.13={ birth=yes }
+	770.5.8={ death=yes }
+}
+1231557={
+	name=Eòghann
+	dynasty=223033
+	dna="gilkjaiobhc"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=8 
+	learning=8
+	trait=charismatic_negotiator 
+	trait=impaler 
+	trait=envious 
+	trait=charitable 
+	trait=trusting 
+	trait=cruel 
+	trait=ill 
+	father=1231555	#Áed
+	mother=1231581	#Brìghde
+	720.11.20={ birth=yes }
+	741.1.1={ add_spouse=1231582 }
+	784.8.9={ death=yes }
+}
+1231558={
+	name=Brìghde
+	female=yes
+	dynasty=223033
+	dna="gbhjllfjbda"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231555	#Áed
+	mother=1231581	#Brìghde
+	726.7.3={ birth=yes }
+	780.7.8={ death=yes }
+}
+1231559={
+	name=Slàine
+	female=yes
+	dynasty=223033
+	dna="miielgibiha"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231555	#Áed
+	mother=1231581	#Brìghde
+	730.5.13={ birth=yes }
+	796.12.10={ death=yes }
+}
+1231560={
+	name=Latharn
+	dynasty=223033
+	dna="odlkfnlohka"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=4 
+	learning=8
+	trait=martial_cleric 
+	trait=arbitrary 
+	trait=humble 
+	trait=zealous 
+	trait=trusting 
+	trait=content 
+	trait=depressed 
+	trait=hunchback 
+	father=1231555	#Áed
+	mother=1231581	#Brìghde
+	733.6.2={ birth=yes }
+	799.11.27={ death=yes }
+}
+1231561={
+	name=Morleo
+	dynasty=223033
+	dna="hgheecnpabh"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=tough_soldier 
+	trait=greedy 
+	trait=paranoid 
+	father=1231557	#Eòghann
+	mother=1231582	#Mùirne
+	746.6.20={ birth=yes }
+	767.1.1={ add_spouse=1231583 }
+	805.3.31={ death=yes }
+}
+1231562={
+	name=Mùirne
+	female=yes
+	dynasty=223033
+	dna="alaeeinfjhc"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231557	#Eòghann
+	mother=1231582	#Mùirne
+	749.8.1={ birth=yes }
+	795.10.19={ death=yes }
+}
+1231563={
+	name=Cailtram
+	dynasty=223033
+	dna="hkgefcnfaoe"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=7 
+	learning=5
+	trait=detached_priest 
+	trait=slothful 
+	trait=cynical 
+	trait=just 
+	trait=temperate 
+	father=1231557	#Eòghann
+	mother=1231582	#Mùirne
+	752.7.7={ birth=yes }
+	825.6.13={ death=yes }
+}
+1231564={
+	name=Dolidh
+	female=yes
+	dynasty=223033
+	dna="hgehecnfkhj"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231557	#Eòghann
+	mother=1231582	#Mùirne
+	757.3.1={ birth=yes }
+	811.6.6={ death=yes }
+}
+1231565={
+	name=Iùrnan
+	dynasty=223033
+	dna="hgogecnpabh"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=7 
+	learning=8
+	trait=indulgent_wastrel 
+	trait=gardener 
+	trait=craven 
+	trait=cruel 
+	trait=charitable 
+	father=1231561	#Morleo
+	mother=1231583	#Sorcha
+	765.10.16={ birth=yes }
+	822.2.2={ death=yes }
+}
+1231566={
+	name=Sorcha
+	female=yes
+	dynasty=223033
+	dna="hkeeecnoaho"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231561	#Morleo
+	mother=1231583	#Sorcha
+	769.7.11={ birth=yes }
+	842.12.17={ death=yes }
+}
+1231567={
+	name=Niall
+	dynasty=223033
+	dna="hghebcpoabh"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=4 
+	learning=5
+	trait=intricate_webweaver 
+	trait=trusting 
+	trait=brave 
+	trait=shy 
+	trait=humble 
+	trait=wounded 
+	father=1231561	#Morleo
+	mother=1231583	#Sorcha
+	773.6.20={ birth=yes }
+	825.12.6={ death=yes }
+}
+1231568={
+	name=Grim
+	dynasty=223033
+	dna="cmdmecnpaaj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=8 
+	learning=5
+	trait=indulgent_wastrel 
+	trait=gardener 
+	trait=gluttonous 
+	trait=paranoid 
+	trait=lustful 
+	trait=arbitrary 
+	father=1231565	#Iùrnan
+	786.1.19={ birth=yes }
+	857.5.9={ death=yes }
+}
+1231569={
+	name=Gillechrìost
+	dynasty=223033
+	dna="keigfcnpcbc"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=6 
+	learning=6
+	trait=skilled_tactician 
+	trait=mystic 
+	trait=proud 
+	trait=cruel 
+	trait=greedy 
+	trait=craven 
+	trait=wroth 
+	father=1231565	#Iùrnan
+	789.3.20={ birth=yes }
+	853.7.12={ death=yes }
 }
 1231570={
 	name=Ceit
@@ -824,4 +1106,36 @@
 	religion=celtic_pagan
 	644.7.4={ birth=yes }
 	716.1.1={ death=yes }
+}
+1231580={
+	name=Olfinecta
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	669.7.4={ birth=yes }
+	741.1.1={ death=yes }
+}
+1231581={
+	name=Brìghde
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	698.7.4={ birth=yes }
+	763.1.1={ death=yes }
+}
+1231582={
+	name=Mùirne
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	720.7.4={ birth=yes }
+	784.1.1={ death=yes }
+}
+1231583={
+	name=Sorcha
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	746.7.4={ birth=yes }
+	805.1.1={ death=yes }
 }

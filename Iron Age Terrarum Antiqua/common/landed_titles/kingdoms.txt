@@ -1298,27 +1298,25 @@ k_lydia = {
 			color= { 0 100 125 }
 			color2= { 255 255 255 }
 			
-			b_celaenae_celaenae = {
-			}
-			b_motella_celaenae = {
-			}
-			b_temenouthyrai_celaenae = {
-			}
-			b_akmonia_celaenae = {
-			}
+			b_celaenae = {}
+			b_motella = {}
+			b_temenouthyrai = {}
+			b_akmonia = {}
+			b_celaenae2 = {}
+			b_celaenae3 = {}
+			b_celaenae4 = {}
 		}
 		c_dorylaeum = {
 			color= { 10 90 125 }
 			color2= { 255 255 255 }
 			
-			b_dorylaeum_dorylaeum = {
-			}
-			b_eiokome_dorylaeum = {
-			}
-			b_midaion_dorylaeum = {
-			}			
-			b_lamounia_dorylaeum = {
-			}
+			b_dorylaeum = {}
+			b_eiokome = {}
+			b_midaion = {}			
+			b_lamounia = {}
+			b_kotiaeion = {}
+			b_nikoleia = {}
+			b_dorylaeum2 = {}
 		}
 		c_ipsus = {
 			color= { 0 90 115 }
