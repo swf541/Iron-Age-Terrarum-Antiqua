@@ -5,14 +5,16 @@ title = c_aizanoi
 
 # Settlements
 max_settlements = 4
-b_aizanoi_aizanoi = castle
-b_aliana_aizanoi = city
-b_palox_aizanoi = city
-b_kotiaion_aizanoi = castle
+b_aizanoi = castle
+b_aliana = city
+b_palox = city
+b_kotiaion = castle
+#b_aizanoi2 = temple
+#b_aizanoi3 = temple
+#b_aizanoi4 = castle
 
 # Misc
 culture = phrygian
 religion = phrygian_main
 
 # History
-# Can be filled when things change around the province

@@ -1,18 +1,20 @@
 # 94 - Gordium
 
 # County Title
-title = c_gordium # for example c_corinth
+title = c_gordium
 
 # Settlements
 max_settlements = 4
-b_gordium_gordium = castle
-b_aurania_gordium = temple
-b_mnizos_gordium = city
-b_spaleia_gordium = castle
+b_gordium = castle
+b_aurania = temple
+b_mnizos = city
+b_spaleia = castle
+#b_gordium2 = temple
+#b_gordium3 = city
+#b_gordium4 = castle
 
 # Misc
 culture = phrygian
 religion = phrygian_main
 
 # History
-# Can be filled when things change around the province

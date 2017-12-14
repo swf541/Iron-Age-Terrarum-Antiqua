@@ -1322,68 +1322,61 @@ k_lydia = {
 			color= { 0 90 115 }
 			color2= { 255 255 255 }
 			
-			b_ipsus_ipsus = {
-			}
-			b_dokimeion_ipsus = {
-			}
-			b_brouzos_ipsus = {
-			}
-			b_prymnessos_ipsus = {
-			}
+			b_ipsus = {}
+			b_dokimeion = {}
+			b_brouzos = {}
+			b_prymnessos = {}
+			b_ipsus2 = {}
+			b_ipsus3 = {}
+			b_ipsus4 = {}
 		}
 		c_aizanoi = {
 			color= { 10 90 135 }
 			color2= { 255 255 255 }
 			
-			b_aizanoi_aizanoi = {
-			}
-			b_aliana_aizanoi = {
-			}
-			b_palox_aizanoi = {
-			}
-			b_kotiaion_aizanoi = {
-			}
+			b_aizanoi = {}
+			b_aliana = {}
+			b_palox = {}
+			b_kotiaion = {}
+			b_aizanoi2 = {}
+			b_aizanoi3 = {}
+			b_aizanoi4 = {}
 		}
 		c_gordium = {
 			color= { 10 100 115 }
 			color2= { 255 255 255 }
 			
-			b_gordium_gordium = {
-			}
-			b_aurania_gordium = {
-			}
-			b_mnizos_gordium = {
-			}
-			b_spaleia_gordium = {
-			}
+			b_gordium = {}
+			b_aurania = {}
+			b_mnizos = {}
+			b_spaleia = {}
+			b_gordium2 = {}
+			b_gordium3 = {}
+			b_gordium4 = {}
 		}
 		c_pessinus = {
 			color= { 0 110 135 }
 			color2= { 255 255 255 }
 			
-			b_amorion_pessinus = {
-			}
-			b_pessinus_pessinus = {
-			}
-			b_tolastochora_pessinus = {
-			}
-			b_goeleon_pessinus = {
-			}
+			b_amorion = {}
+			b_pessinus = {}
+			b_tolastochora = {}
+			b_goeleon = {}
+			b_pessinus2 = {}
+			b_pessinus3 = {}
+			b_pessinus4 = {}
 		}
 		c_ancyra = {
 			color= { 10 110 125 }
 			color2= { 255 255 255 }
 			
-			b_ancyra_ancyra = {
-			}
-			b_malos_ancyra = {
-			}
-			b_androna_ancyra = {
-			}
-			b_gorbeus_ancyra = {
-			}
-			b_ikotorion_ancyra = {
-			}
+			b_ancyra = {}
+			b_malos = {}
+			b_androna = {}
+			b_gorbeus = {}
+			b_ikotorion = {}
+			b_ancyra2 = {}
+			b_ancyra3 = {}
 		}
 		
 	}

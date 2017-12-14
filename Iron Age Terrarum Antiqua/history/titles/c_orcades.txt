@@ -1,0 +1,12 @@
+401.1.1 = { # 375 BC
+	holder = 1231584 # Talorgan
+}
+460.12.23 = { # 316 BC
+	holder = 1231585 # Aodhan
+}
+469.11.19 = { # 307 BC
+	holder = 1231589 # Esca
+}
+495.10.18 = { # 281 BC
+	holder = 1231592 # Dúngal
+}

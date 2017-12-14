@@ -9,6 +9,9 @@ b_dorylaeum = castle
 b_eiokome = temple
 b_midaion = castle
 b_lamounia = castle
+#b_kotiaeion = city
+#b_nikoleia = temple
+#b_dorylaeum2 = city
 
 # Misc
 culture = phrygian

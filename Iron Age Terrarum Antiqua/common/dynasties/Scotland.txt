@@ -26,3 +26,7 @@
 	name ="Delcantae"
 	culture = pictish
 }
+223034 = {
+	name ="Cornavii"
+	culture = pictish
+}

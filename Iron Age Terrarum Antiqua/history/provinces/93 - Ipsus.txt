@@ -1,18 +1,20 @@
 # 93 - Ipsus
 
 # County Title
-title = c_ipsus # for example c_corinth
+title = c_ipsus
 
 # Settlements
 max_settlements = 4
-b_ipsus_ipsus = castle
-b_dokimeion_ipsus = temple
-b_brouzos_ipsus = city
-b_prymnessos_ipsus = castle
+b_ipsus = castle
+b_dokimeion = temple
+b_brouzos = city
+b_prymnessos = castle
+#b_ipsus2 = temple
+#b_ipsus3 = city
+#b_ipsus4 = castle
 
 # Misc
 culture = phrygian
 religion = phrygian_main
 
 # History
-# Can be filled when things change around the province

@@ -1,0 +1,287 @@
+1231584={
+	name=Talorgan
+	dynasty=223034
+	dna="knkjcfpfigp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=7 
+	learning=8
+	trait=intricate_webweaver 
+	trait=hedonist 
+	trait=brave 
+	trait=zealous 
+	trait=humble 
+	399.5.6={ birth=yes }
+	420.1.1={ add_spouse=1231647 }
+	460.12.23={ death=yes }
+}
+1231585={
+	name=Aodhan
+	dynasty=223034
+	dna="pikolmmgpbp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=8 
+	learning=7
+	trait=elusive_shadow 
+	trait=honest 
+	trait=gregarious 
+	trait=paranoid 
+	trait=slothful 
+	trait=just 
+	trait=cruel 
+	trait=possessed 
+	father=1231584	#Talorgan
+	mother=1231647	#Brìghde
+	423.5.22={ birth=yes }
+	444.1.1={ add_spouse=1231648 }
+	469.11.19={ death=yes }
+}
+1231586={
+	name=Brìghde
+	female=yes
+	dynasty=223034
+	dna="kgijbfajagc"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231584	#Talorgan
+	mother=1231647	#Brìghde
+	425.10.7={ birth=yes }
+	479.7.7={ death=yes }
+}
+1231587={
+	name=Guret
+	dynasty=223034
+	dna="kbhhcfmfogo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=8 
+	learning=6
+	trait=flamboyant_schemer 
+	trait=patient 
+	trait=envious 
+	father=1231584	#Talorgan
+	mother=1231647	#Brìghde
+	429.6.23={ birth=yes }
+	485.8.26={ death=yes }
+}
+1231588={
+	name=Sorcha
+	female=yes
+	dynasty=223034
+	dna="inopcfdpipp"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231584	#Talorgan
+	mother=1231647	#Brìghde
+	435.9.14={ birth=yes }
+	506.11.26={ death=yes }
+}
+1231589={
+	name=Esca
+	dynasty=223034
+	dna="eikoloigmbd"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=7 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=trusting 
+	trait=kind 
+	trait=cruel 
+	trait=honest 
+	father=1231585	#Aodhan
+	mother=1231648	#Sorcha
+	446.6.12={ birth=yes }
+	467.1.1={ add_spouse=1231649 }
+	495.10.18={ death=yes }
+}
+1231590={
+	name=Aelpein
+	dynasty=223034
+	dna="iilocmmgpdp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=8 
+	intrigue=8 
+	learning=8
+	trait=midas_touched 
+	trait=cruel 
+	trait=humble 
+	trait=trusting 
+	trait=brave 
+	trait=weak 
+	father=1231585	#Aodhan
+	mother=1231648	#Sorcha
+	449.6.15={ birth=yes }
+	516.2.10={ death=yes }
+}
+1231591={
+	name=Lutrin
+	dynasty=223034
+	dna="cikochmgpbp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=5 
+	learning=8
+	trait=grey_eminence 
+	trait=deceitful 
+	trait=ambitious 
+	trait=arbitrary 
+	trait=gluttonous 
+	father=1231585	#Aodhan
+	mother=1231648	#Sorcha
+	455.3.26={ birth=yes }
+	522.6.8={ death=yes }
+}
+1231592={
+	name=Dúngal
+	dynasty=223034
+	dna="eipoloogmej"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=7 
+	learning=5
+	trait=misguided_warrior 
+	trait=proud 
+	trait=diligent 
+	trait=trusting 
+	father=1231589	#Esca
+	mother=1231649	#Gruoch
+	473.2.25={ birth=yes }
+	546.7.19={ death=yes }
+}
+1231593={
+	name=Sorcha
+	female=yes
+	dynasty=223034
+	dna="emdpnmigmpd"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231589	#Esca
+	mother=1231649	#Gruoch
+	476.9.25={ birth=yes }
+	528.4.16={ death=yes }
+}
+1231594={
+	name=Gruoch
+	female=yes
+	dynasty=223034
+	dna="oikoloigmfd"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231589	#Esca
+	mother=1231649	#Gruoch
+	479.6.26={ birth=yes }
+	537.8.2={ death=yes }
+}
+1231595={
+	name=Crautreic
+	dynasty=223034
+	dna="edfmlopggbi"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=8 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=ambitious 
+	trait=proud 
+	trait=stressed 
+	father=1231589	#Esca
+	mother=1231649	#Gruoch
+	484.6.11={ birth=yes }
+	552.11.10={ death=yes }
+}
+1231596={
+	name=Crimthann
+	dynasty=223034
+	dna="einolgebmkn"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=4 
+	learning=6
+	trait=midas_touched 
+	trait=humble 
+	trait=cruel 
+	trait=chaste 
+	trait=trusting 
+	trait=honest 
+	father=1231589	#Esca
+	mother=1231649	#Gruoch
+	486.10.12={ birth=yes }
+	547.8.24={ death=yes }
+}
+1231597={
+	name=Niverturion
+	female=yes
+	dynasty=223034
+	dna="cfdoloiglpd"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231589	#Esca
+	mother=1231649	#Gruoch
+	489.12.9={ birth=yes }
+	535.5.16={ death=yes }
+}
+1231598={
+	name=Olfinecta
+	female=yes
+	dynasty=223034
+	dna="iedcjmipnab"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231589	#Esca
+	mother=1231649	#Gruoch
+	492.12.8={ birth=yes }
+	545.1.24={ death=yes }
+}
+1231647={
+	name=Brìghde
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	399.7.4={ birth=yes }
+	460.1.1={ death=yes }
+}
+1231648={
+	name=Sorcha
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	423.7.4={ birth=yes }
+	469.1.1={ death=yes }
+}
+1231649={
+	name=Gruoch
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	446.7.4={ birth=yes }
+	495.1.1={ death=yes }
+}
