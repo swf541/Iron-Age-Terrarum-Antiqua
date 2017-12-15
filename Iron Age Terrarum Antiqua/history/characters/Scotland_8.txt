@@ -169,6 +169,7 @@
 	father=1231589	#Esca
 	mother=1231649	#Gruoch
 	473.2.25={ birth=yes }
+	494.1.1={ add_spouse=1231650 }
 	546.7.19={ death=yes }
 }
 1231593={
@@ -261,6 +262,48 @@
 	492.12.8={ birth=yes }
 	545.1.24={ death=yes }
 }
+1231599={
+	name=Gyrom
+	dynasty=223034
+	dna="mieohoodkii"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=7 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=content 
+	trait=cynical 
+	trait=trusting 
+	trait=shy 
+	father=1231592	#Dúngal
+	mother=1231650	#Der-Ilei
+	495.7.21={ birth=yes }
+	551.5.5={ death=yes }
+}
+1231600={
+	name=Túathalán
+	dynasty=223034
+	dna="kebomoogmeo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=6 
+	learning=8
+	trait=detached_priest 
+	trait=ambitious 
+	trait=humble 
+	trait=patient 
+	trait=honest 
+	father=1231592	#Dúngal
+	mother=1231650	#Der-Ilei
+	499.10.19={ birth=yes }
+	568.9.18={ death=yes }
+}
 1231647={
 	name=Brìghde
 	female=yes
@@ -284,4 +327,12 @@
 	religion=celtic_pagan
 	446.7.4={ birth=yes }
 	495.1.1={ death=yes }
+}
+1231650={
+	name=Der-Ilei
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	473.7.4={ birth=yes }
+	546.1.1={ death=yes }
 }

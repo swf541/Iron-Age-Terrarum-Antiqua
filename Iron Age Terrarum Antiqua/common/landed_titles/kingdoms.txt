@@ -1092,7 +1092,7 @@ k_lydia = {
 			color2= { 255 255 255 }
 			
 			b_alabanda = {}
-			b_lagina = {}
+			b_lagina2 = {}
 			b_gerga = {}
 			b_alinda = {}
 			b_alabanda5 = {}
@@ -1171,6 +1171,8 @@ k_lydia = {
 		color= { 0 50 75 }
 		color2= { 255 255 255 }
 		
+		capital = 85 #Xanthos
+		
 		c_xanthos = {
 			color= { 0 50 75 }
 			color2= { 255 255 255 }
@@ -1211,6 +1213,8 @@ k_lydia = {
 	d_pisidia = {
 		color= { 0 75 100 }
 		color2= { 255 255 255 }
+		
+		capital = 90 #Sagalassos
 				
 		c_sagalassos = {
 			color= { 0 75 100 }
@@ -1253,6 +1257,8 @@ k_lydia = {
 		color= { 25 100 100 }
 		color2= { 255 255 255 }
 		
+		capital = 86 #Termessos
+		
 		c_termessos = {
 			color= { 35 90 100 }
 			color2= { 255 255 255 }
@@ -1293,6 +1299,8 @@ k_lydia = {
 	d_phrygia = {
 		color= { 0 100 125 }
 		color2= { 255 255 255 }
+		
+		capital = 92 #Dorylaeum
 		
 		c_celaenae = {
 			color= { 0 100 125 }
@@ -1384,35 +1392,31 @@ k_lydia = {
 		color= { 100 75 50 }
 		color2= { 255 255 255 }
 		
+		capital = 98 #Nicaea
+		
 		c_heraclea_pontica = {
 			color= { 90 75 40 }
 			color2= { 255 255 255 }
 			
-			b_heraclea_heraclea_pontica = {
-			}
-			b_elaios_heraclea_pontica = {
-			}
-			b_kales_heraclea_pontica = {
-			}
-			b_metroon_heraclea_pontica = {
-			}			
-			b_dadybra_heraclea_pontica = {
-			}
+			b_heraclea_pontica = {}
+			b_elaios = {}
+			b_kales = {}
+			b_metroon = {}			
+			b_dadybra = {}
+			b_prusias = {}
+			b_heraclea_pontica2 = {}
 		}
 		c_cius = {
 			color= { 110 75 60 }
 			color2= { 255 255 255 }
 			
-			b_cius_cius = {
-			}
-			b_apollonia_cius = {
-			}
-			b_myrleia_cius = {
-			}
-			b_eikote_cius = {
-			}
-			b_prusa_cius = {
-			}
+			b_cius = {}
+			b_apollonia3 = {}
+			b_myrleia = {}
+			b_eikote = {}
+			b_prusa = {}
+			b_cius2 = {}
+			b_cius3 = {}
 		}
 		c_nicaea = {
 			color= { 90 65 50 }
@@ -1422,57 +1426,44 @@ k_lydia = {
 			holy_site = bosporan_faith
 			holy_site = hittite_main
 			
-			b_ancore_nicaea = {
-			}
-			b_kabia_nicaea = {
-			}
-			b_terbos_nicaea = {
-			}
-			b_otrioa_nicaea = {
-			}
-			b_mygdum_nicaea = {
-			}
-			b_syllanta_nicaea = {
-			}
-			b_nicaea_nicaea = {
-			}
+			b_ancore = {}
+			b_kabia = {}
+			b_terbos = {}
+			b_otrioa = {}
+			b_mygdum = {}
+			b_syllanta = {}
+			b_nicaea = {}
 		}
 		c_nicomedia = {
 			color= { 100 75 50 }
 			color2= { 255 255 255 }
 			
-			b_astacus_nicomedia = {
-			}
-			b_chalcedon_nicomedia = {
-			}
-			b_agyronion_nicomedia = {
-			}
-			b_sirkanos_nicomedia = {
-			}
-			b_kalasyrta_nicomedia = {
-			}
-			b_nicomedia_nicomedia = {
-			}
+			b_astacus = {}
+			b_chalcedon = {}
+			b_agyronion = {}
+			b_sirkanos = {}
+			b_kalasyrta = {}
+			b_nicomedia = {}
+			b_nicomedia2 = {}
 		}
 		c_bithynion = {
 			color= { 110 85 50 }
 			color2= { 255 255 255 }
 			
-			b_bithynion_bithynion = {
-			}
-			b_dia_bithynion = {
-			}
-			b_embolos_bithynion = {
-			}
-			b_kratela_bithynion = {
-			}
-			b_prusias_ad_hypium_bithynion = {
-			}
+			b_bithynion = {}
+			b_dia = {}
+			b_embolos = {}
+			b_kratela = {}
+			b_prusias_ad_hypium = {}
+			b_bithynion3 = {}
+			b_bithynion4 = {}
 		}
 	}
 	d_paphlagonia = {
 		color= { 0 50 100 }
 		color2= { 255 255 255 }
+		
+		capital = 102 #Sinope
 		
 		c_amastris = {
 			color= { 10 60 100 }

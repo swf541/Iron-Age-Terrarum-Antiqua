@@ -5,16 +5,16 @@ title = c_bithynion
 
 # Settlements
 max_settlements = 5
-b_bithynion_bithynion = castle
-b_dia_bithynion = city
-b_embolos_bithynion = city
-b_kratela_bithynion = castle
-
-#b_prusias_ad_hypium_bithynion = castle
+b_bithynion = castle
+b_dia = city
+b_embolos = city
+b_kratela = castle
+#b_prusias_ad_hypium = castle
+#b_bithynion3 = temple
+#b_bithynion4 = temple
 
 # Misc
 culture = thracian
 religion = thracian_main
 
 # History
-# Can be filled when things change around the province

@@ -1,21 +1,20 @@
 # 97 - Cius
 
 # County Title
-title = c_cius # for example c_corinth
+title = c_cius
 
 # Settlements
 max_settlements = 5
-b_cius_cius = castle
-b_apollonia_cius = temple
-b_myrleia_cius = city
-b_eikote_cius = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_prusa_cius
+b_cius = castle
+b_apollonia3 = temple
+b_myrleia = city
+b_eikote = castle
+#b_prusa = temple
+#b_cius2 = city
+#b_cius3 = castle
 
 # Misc
 culture = ionian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province
