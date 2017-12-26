@@ -1,0 +1,884 @@
+vfs_minority_conversion = {
+	if = { 
+		limit = { egyptian_pagan_plurality = yes } 
+		vfs_religion_growth = yes
+		#religion = egyptian_pagan 
+		egyptian_pagan_decline = yes 
+	} 
+	if = { 
+		limit = { atenist_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = atenist 
+		atenist_decline = yes
+	} 
+	if = { 
+		limit = { berber_main_plurality = yes } 
+		vfs_religion_growth = yes  
+		#religion = berber_main 
+		berber_main_decline = yes 
+	}
+	if = { 
+		limit = { berber_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = berber_pagan_reformed 
+		berber_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { illyrian_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = illyrian_main 
+		illyrian_main_decline = yes 
+	}
+	if = { 
+		limit = { thracian_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = thracian_main 
+		thracian_main_decline = yes 
+	}
+	if = { 
+		limit = { zalmoxism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = zalmoxism 
+		zalmoxism_decline = yes 
+	}
+	if = { 
+		limit = { zalmoxism_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = zalmoxism_reformed 
+		zalmoxism_reformed_decline = yes 
+	}
+	if = { 
+		limit = { norse_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = norse_pagan_reformed 
+		norse_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { norse_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = norse_pagan 
+		norse_pagan_decline = yes 
+	}
+	if = { 
+		limit = { east_germanic_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = east_germanic_pagan_reformed 
+		east_germanic_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { east_germanic_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = east_germanic_pagan 
+		east_germanic_pagan_decline = yes 
+	}
+	if = { 
+		limit = { germanic_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = germanic_pagan_reformed 
+		germanic_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { germanic_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = germanic_pagan 
+		germanic_pagan_decline = yes 
+	}
+	if = { 
+		limit = { celtic_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = celtic_pagan 
+		celtic_pagan_decline = yes 
+	}
+	if = { 
+		limit = { celtic_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = celtic_pagan_reformed 
+		celtic_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { punic_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = punic_main 
+		punic_main_decline = yes 
+	}
+	if = { 
+		limit = { canaanite_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = canaanite_pagan 
+		canaanite_pagan_decline = yes 
+	}
+	if = { 
+		limit = { canaanite_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = canaanite_pagan_reformed 
+		canaanite_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { ossetian_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = ossetian_pagan_reformed 
+		ossetian_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { ossetian_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = ossetian_pagan 
+		ossetian_pagan_decline = yes 
+	}
+	if = { 
+		limit = { iranian_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = iranian_pagan 
+		iranian_pagan_decline = yes 
+	}
+	if = { 
+		limit = { iranian_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = iranian_pagan_reformed 
+		iranian_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { zoroastrian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = zoroastrian 
+		zoroastrian_decline = yes 
+	}
+	if = { 
+		limit = { zurvanite_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = zurvanite 
+		zurvanite_decline = yes 
+	}
+	if = { 
+		limit = { sogdian_zoroastrian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = sogdian_zoroastrian 
+		sogdian_zoroastrian_decline = yes 
+	}
+	if = { 
+		limit = { bihafaridism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = bihafaridism 
+		bihafaridism_decline = yes 
+	}
+	if = { 
+		limit = { hanifiyya_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = hanifiyya 
+		hanifiyya_decline = yes 
+	}
+	if = { 
+		limit = { chinese_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = chinese_pagan_reformed 
+		chinese_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { chinese_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = chinese_pagan 
+		chinese_pagan_decline = yes 
+	}
+	if = { 
+		limit = { tibetan_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = tibetan_pagan_reformed 
+		tibetan_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { tibetan_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = tibetan_pagan 
+		tibetan_pagan_decline = yes 
+	}
+	if = { 
+		limit = { sanamahi_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = sanamahi_reformed 
+		sanamahi_reformed_decline = yes 
+	}
+	if = { 
+		limit = { sanamahi_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = sanamahi 
+		sanamahi_decline = yes 
+	}
+	if = { 
+		limit = { dravidian_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = dravidian_pagan_reformed 
+		dravidian_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { armenian_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = armenian_pagan 
+		armenian_pagan_decline = yes 
+	}
+	if = { 
+		limit = { armenian_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = armenian_pagan_reformed 
+		armenian_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { yazidi_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = yazidi 
+		yazidi_decline = yes 
+	}
+	if = { 
+		limit = { jewish_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = jewish 
+		jewish_decline = yes 
+	}
+	if = { 
+		limit = { samaritan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = samaritan 
+		samaritan_decline = yes 
+	}
+	if = { 
+		limit = { grand_sanhedrin_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = grand_sanhedrin 
+		grand_sanhedrin_decline = yes 
+	}
+	if = { 
+		limit = { temple_judaism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = temple_judaism 
+		temple_judaism_decline = yes 
+	}
+	if = { 
+		limit = { karaite_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = karaite 
+		karaite_decline = yes 
+	}
+	if = { 
+		limit = { hindu_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = hindu 
+		hindu_decline = yes 
+	}
+	if = { 
+		limit = { jain_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = jain 
+		jain_decline = yes 
+	}
+	if = { 
+		limit = { buddhist_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = buddhist 
+		buddhist_decline = yes 
+	}
+	if = { 
+		limit = { vajrayana_buddhist_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = vajrayana_buddhist 
+		vajrayana_buddhist_decline = yes 
+	}
+	if = { 
+		limit = { mahayana_buddhist_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = mahayana_buddhist 
+		mahayana_buddhist_decline = yes 
+	}
+	if = { 
+		limit = { georgian_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = georgian_pagan 
+		georgian_pagan_decline = yes 
+	}
+	if = { 
+		limit = { georgian_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = georgian_pagan_reformed 
+		georgian_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { anatolian_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = anatolian_main 
+		anatolian_main_decline = yes 
+	}
+	if = { 
+		limit = { phrygian_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = phrygian_main 
+		phrygian_main_decline = yes 
+	}
+	if = { 
+		limit = { hittite_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = hittite_main 
+		hittite_main_decline = yes 
+	}
+	if = { 
+		limit = { marduk_cult_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = marduk_cult 
+		marduk_cult_decline = yes 
+	}
+	if = { 
+		limit = { elamite_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = elamite_pagan_reformed 
+		elamite_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { elamite_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = elamite_pagan 
+		elamite_pagan_decline = yes 
+	}
+	if = { 
+		limit = { arabic_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = arabic_main 
+		arabic_main_decline = yes 
+	}
+	if = { 
+		limit = { south_semitic_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = south_semitic_pagan_reformed 
+		south_semitic_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { south_semitic_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = south_semitic_pagan 
+		south_semitic_pagan_decline = yes 
+	}
+	if = { 
+		limit = { hellenic_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = hellenic_pagan_reformed 
+		hellenic_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { hellenic_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = hellenic_pagan 
+		hellenic_pagan_decline = yes 
+	}
+	if = { 
+		limit = { alexandrian_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = alexandrian_pagan 
+		alexandrian_pagan_decline = yes 
+	}
+	if = { 
+		limit = { roman_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = roman_main 
+		roman_main_decline = yes 
+	}
+	if = { 
+		limit = { italic_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = italic_main 
+		italic_main_decline = yes 
+	}
+	if = { 
+		limit = { pontic_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = pontic_main 
+		pontic_main_decline = yes 
+	}
+	if = { 
+		limit = { etruscan_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = etruscan_main 
+		etruscan_main_decline = yes 
+	}
+	if = { 
+		limit = { dravidian_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = dravidian_main 
+		dravidian_main_decline = yes 
+	}
+	if = { 
+		limit = { lusitanian_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = lusitanian_main 
+		lusitanian_main_decline = yes 
+	}
+	if = { 
+		limit = { iberian_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = iberian_main 
+		iberian_main_decline = yes 
+	}
+	if = { 
+		limit = { aquitanian_main_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = aquitanian_main 
+		aquitanian_main_decline = yes 
+	}
+	if = { 
+		limit = { marcionism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = marcionism 
+		marcionism_decline = yes 
+	}
+	if = { 
+		limit = { priscillianism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = priscillianism 
+		priscillianism_decline = yes 
+	}
+	if = { 
+		limit = { valentinianism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = valentinianism 
+		valentinianism_decline = yes 
+	}
+	if = { 
+		limit = { manichean_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = manichean 
+		manichean_decline = yes 
+	}
+	if = { 
+		limit = { mandean_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = mandean 
+		mandean_decline = yes 
+	}
+	if = { 
+		limit = { bogomilist_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = bogomilist 
+		bogomilist_decline = yes 
+	}
+	if = { 
+		limit = { paulician_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = paulician 
+		paulician_decline = yes 
+	}
+	if = { 
+		limit = { cathar_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = cathar 
+		cathar_decline = yes 
+	}
+	if = { 
+		limit = { encratites_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = encratites 
+		encratites_decline = yes 
+	}
+	if = { 
+		limit = { amidist_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = amidist 
+		amidist_decline = yes 
+	}
+	if = { 
+		limit = { confucian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = confucian 
+		confucian_decline = yes 
+	}
+	if = { 
+		limit = { neoconfucian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = neoconfucian 
+		neoconfucian_decline = yes 
+	}
+	if = { 
+		limit = { taoist_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = taoist 
+		taoist_decline = yes 
+	}
+	if = { 
+		limit = { neotaoist_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = neotaoist 
+		neotaoist_decline = yes 
+	}
+	if = { 
+		limit = { hindukush_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = hindukush 
+		hindukush_decline = yes 
+	}
+	if = { 
+		limit = { hindukush_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = hindukush_reformed 
+		hindukush_reformed_decline = yes 
+	}
+	if = { 
+		limit = { zun_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = zun_pagan 
+		zun_pagan_decline = yes 
+	}
+	if = { 
+		limit = { zun_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = zun_pagan_reformed 
+		zun_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { bosporan_faith_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = bosporan_faith 
+		bosporan_faith_decline = yes 
+	}
+	if = { 
+		limit = { imperial_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = imperial 
+		imperial_decline = yes 
+	}
+	if = { 
+		limit = { arian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = arian 
+		arian_decline = yes 
+	}
+	if = { 
+		limit = { donatism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = donatism 
+		donatism_decline = yes 
+	}
+	if = { 
+		limit = { melitianism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = melitianism 
+		melitianism_decline = yes 
+	}
+	if = { 
+		limit = { novatianism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = novatianism 
+		novatianism_decline = yes 
+	}
+	if = { 
+		limit = { adoptionism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = adoptionism 
+		adoptionism_decline = yes 
+	}
+	if = { 
+		limit = { sabellianism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = sabellianism 
+		sabellianism_decline = yes 
+	}
+	if = { 
+		limit = { pelagianism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = pelagianism 
+		pelagianism_decline = yes 
+	}
+	if = { 
+		limit = { macedonianism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = macedonianism 
+		macedonianism_decline = yes 
+	}
+	if = { 
+		limit = { catholic_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = catholic 
+		catholic_decline = yes 
+	}
+	if = { 
+		limit = { montanism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = montanism 
+		montanism_decline = yes 
+	}
+	if = { 
+		limit = { fraticelli_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = fraticelli 
+		fraticelli_decline = yes 
+	}
+	if = { 
+		limit = { waldensian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = waldensian 
+		waldensian_decline = yes 
+	}
+	if = { 
+		limit = { lollard_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = lollard 
+		lollard_decline = yes 
+	}
+	if = { 
+		limit = { orthodox_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = orthodox 
+		orthodox_decline = yes 
+	}
+	if = { 
+		limit = { miaphysite_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = miaphysite 
+		miaphysite_decline = yes 
+	}
+	if = { 
+		limit = { tondrakian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = tondrakian 
+		tondrakian_decline = yes 
+	}
+	if = { 
+		limit = { monophysite_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = monophysite 
+		monophysite_decline = yes 
+	}
+	if = { 
+		limit = { monothelite_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = monothelite 
+		monothelite_decline = yes 
+	}
+	if = { 
+		limit = { iconoclast_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = iconoclast 
+		iconoclast_decline = yes 
+	}
+	if = { 
+		limit = { nestorian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = nestorian 
+		nestorian_decline = yes 
+	}
+	if = { 
+		limit = { eutychian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = eutychian 
+		eutychian_decline = yes 
+	}
+	if = { 
+		limit = { messalian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = messalian 
+		messalian_decline = yes 
+	}
+	if = { 
+		limit = { sunni_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = sunni 
+		sunni_decline = yes 
+	}
+	if = { 
+		limit = { zikri_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = zikri 
+		zikri_decline = yes 
+	}
+	if = { 
+		limit = { ibadi_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = ibadi 
+		ibadi_decline = yes 
+	}
+	if = { 
+		limit = { kharijite_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = kharijite 
+		kharijite_decline = yes 
+	}
+	if = { 
+		limit = { shiite_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = shiite 
+		shiite_decline = yes 
+	}
+	if = { 
+		limit = { druze_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = druze 
+		druze_decline = yes 
+	}
+	if = { 
+		limit = { qarmatian_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = qarmatian 
+		qarmatian_decline = yes 
+	}
+	if = { 
+		limit = { hurufi_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = hurufi 
+		hurufi_decline = yes 
+	}
+	if = { 
+		limit = { pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = pagan 
+		pagan_decline = yes 
+	}
+	if = { 
+		limit = { mesopotamian_paganism_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = mesopotamian_paganism 
+		mesopotamian_paganism_decline = yes 
+	}
+	if = { 
+		limit = { mesopotamian_paganism_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = mesopotamian_paganism_reformed 
+		mesopotamian_paganism_reformed_decline = yes 
+	}
+	if = { 
+		limit = { tengri_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = tengri_pagan_reformed 
+		tengri_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { tengri_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = tengri_pagan 
+		tengri_pagan_decline = yes 
+	}
+	if = { 
+		limit = { baltic_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = baltic_pagan_reformed 
+		baltic_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { baltic_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = baltic_pagan 
+		baltic_pagan_decline = yes 
+	}
+	if = { 
+		limit = { finnish_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = finnish_pagan_reformed 
+		finnish_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { finnish_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = finnish_pagan 
+		finnish_pagan_decline = yes 
+	}
+	if = { 
+		limit = { aztec_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = aztec_reformed 
+		aztec_reformed_decline = yes 
+	}
+	if = { 
+		limit = { aztec_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = aztec 
+		aztec_decline = yes 
+	}
+	if = { 
+		limit = { slavic_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = slavic_pagan_reformed 
+		slavic_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { slavic_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = slavic_pagan 
+		slavic_pagan_decline = yes 
+	}
+	if = { 
+		limit = { west_african_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = west_african_pagan_reformed  
+		west_african_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { west_african_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = west_african_pagan 
+		west_african_pagan_decline = yes 
+	}
+	if = { 
+		limit = { serer_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = serer 
+		serer_decline = yes 
+	}
+	if = { 
+		limit = { bori_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = bori 
+		bori_decline = yes 
+	}
+	if = { 
+		limit = { sol_invictus_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = sol_invictus 
+		sol_invictus_decline = yes 
+	}
+	if = { 
+		limit = { egyptian_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = egyptian_pagan_reformed 
+		egyptian_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { basque_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = basque_pagan_reformed 
+		basque_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { basque_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = basque_pagan 
+		basque_pagan_decline = yes 
+	}
+	if = { 
+		limit = { semitic_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = semitic_pagan_reformed 
+		semitic_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { semitic_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = semitic_pagan 
+		semitic_pagan_decline = yes 
+	}
+	if = { 
+		limit = { east_african_pagan_reformed_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = east_african_pagan_reformed 
+		east_african_pagan_reformed_decline = yes 
+	}
+	if = { 
+		limit = { east_african_pagan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = east_african_pagan 
+		east_african_pagan_decline = yes 
+	}
+	if = { 
+		limit = { mazdaki_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = mazdaki 
+		mazdaki_decline = yes 
+	}
+	if = { 
+		limit = { minoan_plurality = yes } 
+		vfs_religion_growth = yes 
+		#religion = minoan 
+		minoan_decline = yes 
+	}
+}
