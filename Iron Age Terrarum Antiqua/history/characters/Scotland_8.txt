@@ -281,6 +281,7 @@
 	father=1231592	#Dúngal
 	mother=1231650	#Der-Ilei
 	495.7.21={ birth=yes }
+	516.1.1={ add_spouse=1231651 }
 	551.5.5={ death=yes }
 }
 1231600={
@@ -303,6 +304,91 @@
 	mother=1231650	#Der-Ilei
 	499.10.19={ birth=yes }
 	568.9.18={ death=yes }
+}
+1231601={
+	name=Aodh
+	dynasty=223034
+	dna="miechooddac"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=4 
+	learning=7
+	trait=martial_cleric 
+	trait=brave 
+	trait=paranoid 
+	trait=wroth 
+	father=1231599	#Gyrom
+	mother=1231651	#Ceana
+	520.11.4={ birth=yes }
+	581.6.18={ death=yes }
+}
+1231602={
+	name=Der-Ilei
+	female=yes
+	dynasty=223034
+	dna="hifohiogdik"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231599	#Gyrom
+	mother=1231651	#Ceana
+	522.6.16={ birth=yes }
+	601.2.21={ death=yes }
+}
+1231603={
+	name=Ceana
+	female=yes
+	dynasty=223034
+	dna="ogeohcjclid"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231599	#Gyrom
+	mother=1231651	#Ceana
+	524.10.1={ birth=yes }
+	581.1.17={ death=yes }
+}
+1231604={
+	name=Calum
+	dynasty=223034
+	dna="mpeanohlkhn"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=6 
+	learning=5
+	trait=flamboyant_schemer 
+	trait=duelist 
+	trait=slothful 
+	trait=paranoid 
+	father=1231599	#Gyrom
+	mother=1231651	#Ceana
+	527.4.11={ birth=yes }
+	583.7.3={ death=yes }
+}
+1231605={
+	name=Ìomhair
+	dynasty=223034
+	dna="obekfmohgmo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=7 
+	learning=8
+	trait=scholarly_theologian 
+	trait=humble 
+	trait=gluttonous 
+	trait=honest 
+	trait=envious 
+	father=1231599	#Gyrom
+	mother=1231651	#Ceana
+	531.5.5={ birth=yes }
+	587.6.4={ death=yes }
 }
 1231647={
 	name=Brìghde
@@ -335,4 +421,12 @@
 	religion=celtic_pagan
 	473.7.4={ birth=yes }
 	546.1.1={ death=yes }
+}
+1231651={
+	name=Ceana
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	495.7.4={ birth=yes }
+	551.1.1={ death=yes }
 }
