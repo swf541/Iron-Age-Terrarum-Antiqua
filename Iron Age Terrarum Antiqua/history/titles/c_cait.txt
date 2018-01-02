@@ -16,3 +16,15 @@
 551.05.05 = {
 	holder = 1231601 # Aodh
 }
+581.06.18 = {
+	holder = 1231608 # Morbet
+}
+592.03.13 = {
+	holder = 1231611 # Artair
+}
+642.06.21 = {
+	holder = 1231614 # Donnach
+}
+672.05.12 = {
+	holder = 1231618 # Drust
+}

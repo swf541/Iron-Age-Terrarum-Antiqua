@@ -323,6 +323,7 @@
 	father=1231599	#Gyrom
 	mother=1231651	#Ceana
 	520.11.4={ birth=yes }
+	541.1.1={ add_spouse=1231652 }
 	581.6.18={ death=yes }
 }
 1231602={
@@ -390,6 +391,297 @@
 	531.5.5={ birth=yes }
 	587.6.4={ death=yes }
 }
+1231606={
+	name=Borgach
+	female=yes
+	dynasty=223034
+	dna="bekhnnmddac"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231601	#Aodh
+	mother=1231652	#Borgach
+	543.2.4={ birth=yes }
+	624.11.18={ death=yes }
+}
+1231607={
+	name=Mùirne
+	female=yes
+	dynasty=223034
+	dna="mpecnooodga"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231601	#Aodh
+	mother=1231652	#Borgach
+	546.9.3={ birth=yes }
+	607.10.1={ death=yes }
+}
+1231608={
+	name=Morbet
+	dynasty=223034
+	dna="miechpedahn"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=6 
+	learning=6
+	trait=grey_eminence 
+	trait=deceitful 
+	trait=lustful 
+	trait=arbitrary 
+	trait=gregarious 
+	trait=cynical 
+	father=1231601	#Aodh
+	mother=1231652	#Borgach
+	551.11.10={ birth=yes }
+	572.1.1={ add_spouse=1231653 }
+	592.3.13={ death=yes }
+}
+1231609={
+	name=Dargart
+	dynasty=223034
+	dna="ilechnogcoi"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=8 
+	learning=6
+	trait=misguided_warrior 
+	trait=slothful 
+	trait=kind 
+	trait=ambitious 
+	trait=greedy 
+	trait=zealous 
+	trait=brave 
+	father=1231601	#Aodh
+	mother=1231652	#Borgach
+	555.1.22={ birth=yes }
+	604.2.16={ death=yes }
+}
+1231610={
+	name=Caitir
+	female=yes
+	dynasty=223034
+	dna="ifecdbadadn"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231608	#Morbet
+	mother=1231653	#Caitir
+	575.12.7={ birth=yes }
+	640.1.4={ death=yes }
+}
+1231611={
+	name=Artair
+	dynasty=223034
+	dna="miknhacddpo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=7 
+	learning=4
+	trait=misguided_warrior 
+	trait=diligent 
+	trait=greedy 
+	trait=cruel 
+	trait=possessed 
+	father=1231608	#Morbet
+	mother=1231653	#Caitir
+	578.12.4={ birth=yes }
+	599.1.1={ add_spouse=1231654 }
+	642.6.21={ death=yes }
+}
+1231612={
+	name=Donnach
+	dynasty=223034
+	dna="bdckapeaahh"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=8 
+	learning=8
+	trait=detached_priest 
+	trait=just 
+	trait=craven 
+	trait=wroth 
+	trait=paranoid 
+	trait=chaste 
+	father=1231608	#Morbet
+	mother=1231653	#Caitir
+	581.12.3={ birth=yes }
+	643.4.21={ death=yes }
+}
+1231613={
+	name=Slàine
+	female=yes
+	dynasty=223034
+	dna="maknhkcnkdl"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231611	#Artair
+	mother=1231654	#Slàine
+	599.2.11={ birth=yes }
+	653.12.16={ death=yes }
+}
+1231614={
+	name=Donnach
+	dynasty=223034
+	dna="oieihmhddpp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=4 
+	learning=8
+	trait=indulgent_wastrel 
+	trait=humble 
+	trait=gregarious 
+	trait=cynical 
+	father=1231611	#Artair
+	mother=1231654	#Slàine
+	603.8.26={ birth=yes }
+	624.1.1={ add_spouse=1231655 }
+	672.5.12={ death=yes }
+}
+1231615={
+	name=Sidheag
+	female=yes
+	dynasty=223034
+	dna="oiknhecddeo"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231611	#Artair
+	mother=1231654	#Slàine
+	607.3.23={ birth=yes }
+	657.8.20={ death=yes }
+}
+1231616={
+	name=Aelpein
+	dynasty=223034
+	dna="nikagachdpo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=4 
+	learning=5
+	trait=elusive_shadow 
+	trait=gregarious 
+	trait=envious 
+	trait=brave 
+	trait=zealous 
+	trait=drunkard 
+	father=1231611	#Artair
+	mother=1231654	#Slàine
+	611.6.19={ birth=yes }
+	656.6.2={ death=yes }
+}
+1231617={
+	name=Esca
+	dynasty=223034
+	dna="miknhacidpo"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=4 
+	learning=7
+	trait=skilled_tactician 
+	trait=kind 
+	trait=zealous 
+	trait=cruel 
+	trait=humble 
+	trait=paranoid 
+	father=1231611	#Artair
+	mother=1231654	#Slàine
+	613.1.4={ birth=yes }
+	673.11.10={ death=yes }
+}
+1231618={
+	name=Drust
+	dynasty=223034
+	dna="ocagiphmkpg"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=4 
+	learning=6
+	trait=martial_cleric 
+	trait=honest 
+	trait=wroth 
+	trait=brave 
+	trait=kind 
+	father=1231614	#Donnach
+	mother=1231655	#Borgach
+	630.4.19={ birth=yes }
+	703.6.10={ death=yes }
+}
+1231619={
+	name=Borgach
+	female=yes
+	dynasty=223034
+	dna="idnifohidpg"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231614	#Donnach
+	mother=1231655	#Borgach
+	633.3.10={ birth=yes }
+	681.1.1={ death=yes }
+}
+1231620={
+	name=Mogons
+	dynasty=223034
+	dna="jeedlmodnbp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=8 
+	learning=8
+	trait=detached_priest 
+	trait=duelist 
+	trait=ambitious 
+	trait=temperate 
+	trait=ill 
+	father=1231614	#Donnach
+	mother=1231655	#Borgach
+	636.8.18={ birth=yes }
+	684.11.21={ death=yes }
+}
+1231621={
+	name=Bran
+	dynasty=223034
+	dna="oipmhmhdgpm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=8 
+	learning=5
+	trait=tough_soldier 
+	trait=greedy 
+	trait=wroth 
+	trait=envious 
+	trait=humble 
+	trait=depressed 
+	father=1231614	#Donnach
+	mother=1231655	#Borgach
+	640.7.26={ birth=yes }
+	702.5.6={ death=yes }
+}
 1231647={
 	name=Brìghde
 	female=yes
@@ -429,4 +721,36 @@
 	religion=celtic_pagan
 	495.7.4={ birth=yes }
 	551.1.1={ death=yes }
+}
+1231652={
+	name=Borgach
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	520.7.4={ birth=yes }
+	581.1.1={ death=yes }
+}
+1231653={
+	name=Caitir
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	551.7.4={ birth=yes }
+	592.1.1={ death=yes }
+}
+1231654={
+	name=Slàine
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	578.7.4={ birth=yes }
+	642.1.1={ death=yes }
+}
+1231655={
+	name=Borgach
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	602.7.4={ birth=yes }
+	672.1.1={ death=yes }
 }
