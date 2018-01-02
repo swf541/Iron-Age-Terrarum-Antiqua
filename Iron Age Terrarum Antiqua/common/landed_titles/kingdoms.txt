@@ -1469,16 +1469,13 @@ k_lydia = {
 			color= { 10 60 100 }
 			color2= { 255 255 255 }
 			
-			b_sesamus_amastris = {
-			}
-			b_ziporea_amastris = {
-			}
-			b_tium_amastris = {
-			}
-			b_kytoros_amastris = {
-			}
-			b_amastris_amastris = {
-			}
+			b_sesamus = {}
+			b_ziporea = {}
+			b_tium = {}
+			b_kytoros = {}
+			b_amastris = {}
+			b_amastris2 = {}
+			b_amastris3 = {}
 		}
 		c_sinope = {
 			color= { 0 60 90 }
@@ -1486,18 +1483,13 @@ k_lydia = {
 			
 			holy_site = hittite_main
 			
-			b_karousa_sinope = {
-			}
-			b_pteria_sinope = {
-			}
-			b_sinope_sinope = {
-			}
-			b_zaliges_sinope = {
-			}
-			b_kyptasia_sinope = {
-			}
-			b_stephane_sinope = {
-			}
+			b_karousa = {}
+			b_pteria2 = {}
+			b_sinope = {}
+			b_zaliges = {}
+			b_kyptasia = {}
+			b_stephane = {}
+			b_sinope2 = {}
 		}
 		c_gangra = {
 			color= { 0 50 100 }

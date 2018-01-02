@@ -625,6 +625,7 @@
 	father=1231614	#Donnach
 	mother=1231655	#Borgach
 	630.4.19={ birth=yes }
+	651.1.1={ add_spouse=1231656 }
 	703.6.10={ death=yes }
 }
 1231619={
@@ -753,4 +754,12 @@
 	religion=celtic_pagan
 	602.7.4={ birth=yes }
 	672.1.1={ death=yes }
+}
+1231656={
+	name=Una
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	630.7.4={ birth=yes }
+	703.1.1={ death=yes }
 }

@@ -1,21 +1,20 @@
 # 101 - Amastris
 
 # County Title
-title = c_amastris # for example c_corinth
+title = c_amastris
 
 # Settlements
 max_settlements = 5
-b_sesamus_amastris = castle
-b_ziporea_amastris = temple
-b_tium_amastris = city
-b_kytoros_amastris = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_amastris_amastris
+b_sesamus = castle
+b_ziporea = temple
+b_tium = city
+b_kytoros = castle
+#b_amastris = temple
+#b_amastris2 = city
+#b_amastris3 = castle
 
 # Misc
 culture = ionian
 religion = hellenic_pagan
 
 # History
-# Can be filled when things change around the province
