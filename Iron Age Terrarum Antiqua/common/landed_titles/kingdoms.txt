@@ -1495,27 +1495,25 @@ k_lydia = {
 			color= { 0 50 100 }
 			color2= { 255 255 255 }
 			
-			b_gangra_gangra = {
-			}
-			b_kobara_gangra = {
-			}
-			b_anadynata_gangra = {
-			}
-			b_zeita_gangra = {
-			}
+			b_gangra = {}
+			b_kobara = {}
+			b_anadynata = {}
+			b_zeita = {}
+			b_kimiata2 = {}
+			b_gangra2 = {}
+			b_gangra3 = {}
 		}
 		c_kimiatene = {
 			color= { 0 40 110 }
 			color2= { 255 255 255 }
 			
-			b_kimiata_kimiatene = {
-			}
-			b_kandara_kimiatene = {
-			}
-			b_aiginetes_kimiatene = {
-			}
-			b_garios_kimiatene = {
-			}
+			b_kimiata = {}
+			b_kandara = {}
+			b_aiginetes = {}
+			b_garios = {}
+			b_kimiatene = {}
+			b_kimiatene2 = {}
+			b_kimiatene3 = {}
 		}
 	}
 }
@@ -1538,37 +1536,31 @@ k_cilicia = {
 		color= { 125 150 125 }
 		color2= { 255 255 255 }
 		
+		capital = 106 # Tarsus
+		
 		c_syedra = {
 			color= { 135 150 115 }
 			color2= { 255 255 255 }
 			
-			b_syedra_syedra = {
-			}
-			b_laertes_syedra = {
-			}
-			b_selinous_syedra = {
-			}
-			b_marassa_syedra = {
-			}
-			b_ano_kothradis_syedra = {
-			}
+			b_syedra = {}
+			b_laertes = {}
+			b_selinous = {}
+			b_marassa = {}
+			b_ano_kothradis = {}
+			b_syedra2 = {}
+			b_syedra3 = {}
 		}
 		c_celenderis = {
 			color= { 135 160 125 }
 			color2= { 255 255 255 }
 			
-			b_celenderis_celenderis = {
-			}
-			b_aphrodisias_celenderis = {
-			}
-			b_corycus_celenderis = {
-			}
-			b_ninica_celenderis = {
-			}
-			b_holmoi_celenderis = {
-			}
-			b_seleucia_celenderis = {
-			}
+			b_celenderis = {}
+			b_aphrodisias2 = {}
+			b_corycus = {}
+			b_ninica = {}
+			b_holmoi = {}
+			b_seleucia = {}
+			b_celenderis2 = {}
 		}
 		c_tarsus = {
 			color= { 125 150 125 }
@@ -1576,35 +1568,25 @@ k_cilicia = {
 			
 			holy_site = hittite_main
 			
-			b_tarsus_tarsus = {
-			}
-			b_anchialeia_tarsus = {
-			}
-			b_soloi_tarsus = {
-			}
-			b_podandus_tarsus = {
-			}
-			b_elaioussa_tarsus = {
-			}
-			b_magarsa_tarsus = {
-			}
+			b_tarsus = {}
+			b_anchialeia = {}
+			b_soloi = {}
+			b_podandus = {}
+			b_elaioussa = {}
+			b_magarsa = {}
+			b_tarsus2 = {}
 		}
 		c_adana = {
 			color= { 135 140 125 }
 			color2= { 255 255 255 }
 			
-			b_adana_adana = {
-			}
-			b_mallos_adana = {
-			}
-			b_aigai_adana = {
-			}
-			b_anazarbos_adana = {
-			}
-			b_hierapolis_adana = {
-			}
-			b_mopsouhestia_adana = {
-			}
+			b_adana = {}
+			b_mallos = {}
+			b_aigai = {}
+			b_anazarbos = {}
+			b_hierapolis2 = {}
+			b_mopsouhestia = {}
+			b_adana2 = {}
 		}
 	}
 }
@@ -1630,18 +1612,22 @@ k_cappadocia = {
 		color= { 200 175 150}
 		color2= { 255 255 255 }
 		
+		capital = 117 # Mazaka
+		
+		cappadocian = "Katpatuka"
+		persian = "Katpatuka"
+		
 		c_tyana = {
 			color= { 210 165 150 }
 			color2= { 255 255 255 }
 			
-			b_tyana_tyana = {
-			}
-			b_cybistra_tyana = {
-			}
-			b_andabalis_tyana = {
-			}
-			b_ardistama_tyana = {
-			}
+			b_tyana = {}
+			b_cybistra = {}
+			b_andabalis = {}
+			b_ardistama = {}
+			b_tyana2 = {}
+			b_tyana3 = {}
+			b_tyana4 = {}
 		}
 		c_cataonia = {
 			color= { 190 185 150 }

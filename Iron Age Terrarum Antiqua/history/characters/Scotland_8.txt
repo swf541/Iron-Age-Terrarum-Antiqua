@@ -683,6 +683,458 @@
 	640.7.26={ birth=yes }
 	702.5.6={ death=yes }
 }
+1231622={
+	name=Una
+	female=yes
+	dynasty=223034
+	dna="oaaghlhjfph"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231618	#Drust
+	mother=1231656	#Una
+	655.12.24={ birth=yes }
+	705.10.17={ death=yes }
+}
+1231623={
+	name=Murtolic
+	dynasty=223034
+	dna="hcaaihomfim"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=4 
+	learning=4
+	trait=scholarly_theologian 
+	trait=lustful 
+	trait=just 
+	trait=craven 
+	trait=gregarious 
+	trait=deceitful 
+	trait=humble 
+	trait=ill 
+	father=1231618	#Drust
+	mother=1231656	#Una
+	657.2.11={ birth=yes }
+	678.1.1={ add_spouse=1231657 }
+	709.7.24={ death=yes }
+}
+1231624={
+	name=Broichan
+	dynasty=223034
+	dna="maajfhjcabb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=7 
+	learning=4
+	trait=mastermind_theologian 
+	trait=honest 
+	trait=proud 
+	trait=wroth 
+	father=1231623	#Murtolic
+	mother=1231657	#Dolidh
+	684.4.26={ birth=yes }
+	705.1.1={ add_spouse=1231658 }
+	755.2.26={ death=yes }
+}
+1231625={
+	name=Drust
+	dynasty=223034
+	dna="hjalpholfim"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=7 
+	intrigue=8 
+	learning=8
+	trait=misguided_warrior 
+	trait=duelist 
+	trait=arbitrary 
+	trait=diligent 
+	trait=trusting 
+	trait=brave 
+	father=1231623	#Murtolic
+	mother=1231657	#Dolidh
+	688.8.22={ birth=yes }
+	735.1.23={ death=yes }
+}
+1231626={
+	name=Dolidh
+	female=yes
+	dynasty=223034
+	dna="meijfpjaaon"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231624	#Broichan
+	mother=1231658	#Slàine
+	707.2.1={ birth=yes }
+	781.3.10={ death=yes }
+}
+1231627={
+	name=Roithrid
+	dynasty=223034
+	dna="gmajfincfnk"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=6 
+	learning=5
+	trait=charismatic_negotiator 
+	trait=proud 
+	trait=gregarious 
+	trait=temperate 
+	trait=kind 
+	father=1231624	#Broichan
+	mother=1231658	#Slàine
+	709.10.26={ birth=yes }
+	730.1.1={ add_spouse=1231659 }
+	781.10.3={ death=yes }
+}
+1231628={
+	name=Roithrid
+	dynasty=223034
+	dna="oaabfhhcbnb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=7 
+	learning=6
+	trait=midas_touched 
+	trait=humble 
+	trait=kind 
+	trait=deceitful 
+	trait=patient 
+	trait=wounded 
+	father=1231624	#Broichan
+	mother=1231658	#Slàine
+	712.5.7={ birth=yes }
+	771.12.6={ death=yes }
+}
+1231629={
+	name=Slàine
+	female=yes
+	dynasty=223034
+	dna="moajkbjdabb"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231624	#Broichan
+	mother=1231658	#Slàine
+	716.12.11={ birth=yes }
+	761.2.11={ death=yes }
+}
+1231630={
+	name=Eòghann
+	dynasty=223034
+	dna="maagkdecgko"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=6 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=duelist 
+	trait=brave 
+	trait=honest 
+	trait=chaste 
+	trait=zealous 
+	trait=kind 
+	father=1231624	#Broichan
+	mother=1231658	#Slàine
+	719.9.16={ birth=yes }
+	771.8.25={ death=yes }
+}
+1231631={
+	name=Eoganan
+	dynasty=223034
+	dna="ighjfeieand"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=7 
+	learning=6
+	trait=skilled_tactician 
+	trait=mystic 
+	trait=trusting 
+	trait=chaste 
+	trait=kind 
+	trait=diligent 
+	father=1231627
+	mother=1231659	#Teàrlag
+	731.5.24={ birth=yes }
+	752.1.1={ add_spouse=1231660 }
+	803.7.21={ death=yes }
+}
+1231632={
+	name=Teàrlag
+	female=yes
+	dynasty=223034
+	dna="bchoiendjcg"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231627
+	mother=1231659	#Teàrlag
+	732.3.27={ birth=yes }
+	801.10.3={ death=yes }
+}
+1231633={
+	name=Catriona
+	female=yes
+	dynasty=223034
+	dna="mfhpmehdiim"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231627
+	mother=1231659	#Teàrlag
+	735.3.11={ birth=yes }
+	801.1.22={ death=yes }
+}
+1231634={
+	name=Drostan
+	dynasty=223034
+	dna="fcejfebijdg"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=6 
+	learning=5
+	trait=mastermind_theologian 
+	trait=charitable 
+	trait=arbitrary 
+	trait=paranoid 
+	trait=zealous 
+	father=1231627
+	mother=1231659	#Teàrlag
+	738.12.21={ birth=yes }
+	791.6.5={ death=yes }
+}
+1231635={
+	name=Mùirne
+	female=yes
+	dynasty=223034
+	dna="ahhjnfcdojg"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231627
+	mother=1231659	#Teàrlag
+	742.10.7={ birth=yes }
+	798.2.1={ death=yes }
+}
+1231636={
+	name=Dearbhail
+	female=yes
+	dynasty=223034
+	dna="inhjpeboijk"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231627
+	mother=1231659	#Teàrlag
+	744.4.9={ birth=yes }
+	810.10.18={ death=yes }
+}
+1231637={
+	name=Brìghde
+	female=yes
+	dynasty=223034
+	dna="gchjfbbdofn"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231627
+	mother=1231659	#Teàrlag
+	747.7.11={ birth=yes }
+	815.4.24={ death=yes }
+}
+1231638={
+	name=Gigurum
+	dynasty=223034
+	dna="gghifeilank"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=5 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=arbitrary 
+	trait=cruel 
+	trait=cynical 
+	trait=trusting 
+	trait=temperate 
+	father=1231631	#Eoganan
+	mother=1231660	#Chiorstan
+	756.4.25={ birth=yes }
+	817.1.26={ death=yes }
+}
+1231639={
+	name=Talorgan
+	dynasty=223034
+	dna="nimpfboeapd"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=6 
+	learning=6
+	trait=charismatic_negotiator 
+	trait=scholar 
+	trait=envious 
+	trait=temperate 
+	trait=wroth 
+	trait=trusting 
+	trait=arbitrary 
+	trait=craven 
+	trait=stressed 
+	father=1231631	#Eoganan
+	mother=1231660	#Chiorstan
+	759.11.27={ birth=yes }
+	824.11.5={ death=yes }
+}
+1231640={
+	name=Donnach
+	dynasty=223034
+	dna="dpdjflepand"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=7 
+	learning=8
+	trait=midas_touched 
+	trait=kind 
+	trait=zealous 
+	trait=deceitful 
+	father=1231631	#Eoganan
+	mother=1231660	#Chiorstan
+	762.7.23={ birth=yes }
+	830.10.17={ death=yes }
+}
+1231641={
+	name=Cinioch
+	dynasty=223034
+	dna="ngdjfkidmkc"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=4 
+	learning=5
+	trait=tough_soldier 
+	trait=proud 
+	trait=arbitrary 
+	trait=charitable 
+	trait=patient 
+	father=1231631	#Eoganan
+	mother=1231660	#Chiorstan
+	766.8.15={ birth=yes }
+	821.5.25={ death=yes }
+}
+1231642={
+	name=Mogons
+	dynasty=223034
+	dna="alhjljihhnd"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=6 
+	stewardship=5 
+	intrigue=7 
+	learning=7
+	trait=misguided_warrior 
+	trait=envious 
+	trait=cruel 
+	trait=gluttonous 
+	trait=shy 
+	trait=content 
+	father=1231631	#Eoganan
+	mother=1231660	#Chiorstan
+	769.7.17={ birth=yes }
+	823.4.20={ death=yes }
+}
+1231643={
+	name=Breth
+	dynasty=223034
+	dna="kghjobkeafe"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=7 
+	stewardship=6 
+	intrigue=6 
+	learning=8
+	trait=flamboyant_schemer 
+	trait=diligent 
+	trait=greedy 
+	trait=trusting 
+	trait=honest 
+	trait=brave 
+	father=1231631	#Eoganan
+	mother=1231660	#Chiorstan
+	771.12.13={ birth=yes }
+	817.11.30={ death=yes }
+}
+1231644={
+	name=Chiorstan
+	female=yes
+	dynasty=223034
+	dna="idmjheijgnd"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231631	#Eoganan
+	mother=1231660	#Chiorstan
+	774.10.1={ birth=yes }
+	846.12.10={ death=yes }
+}
+1231645={
+	name=Olfinecta
+	female=yes
+	dynasty=223034
+	dna="eehakemmlom"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231638	#Gigurum
+	777.6.19={ birth=yes }
+	830.9.1={ death=yes }
+}
+1231646={
+	name=Giolla
+	dynasty=223034
+	dna="gihighilind"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=7 
+	learning=8
+	trait=skilled_tactician 
+	trait=poet 
+	trait=brave 
+	trait=humble 
+	trait=trusting 
+	trait=zealous 
+	trait=diligent 
+	father=1231638	#Gigurum
+	781.2.9={ birth=yes }
+	835.12.5={ death=yes }
+}
 1231647={
 	name=Brìghde
 	female=yes
@@ -762,4 +1214,36 @@
 	religion=celtic_pagan
 	630.7.4={ birth=yes }
 	703.1.1={ death=yes }
+}
+1231657={
+	name=Dolidh
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	657.7.4={ birth=yes }
+	709.1.1={ death=yes }
+}
+1231658={
+	name=Slàine
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	684.7.4={ birth=yes }
+	755.1.1={ death=yes }
+}
+1231659={
+	name=Teàrlag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	709.7.4={ birth=yes }
+	781.1.1={ death=yes }
+}
+1231660={
+	name=Chiorstan
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	731.7.4={ birth=yes }
+	803.1.1={ death=yes }
 }

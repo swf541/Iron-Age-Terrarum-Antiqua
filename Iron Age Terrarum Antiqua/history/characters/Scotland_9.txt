@@ -1,0 +1,790 @@
+1231661={
+	name=Calum
+	dynasty=223035
+	dna="kedbdagpemp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=5 
+	learning=7
+	trait=intricate_webweaver 
+	trait=proud 
+	trait=paranoid 
+	trait=wroth 
+	trait=gluttonous 
+	trait=shy trait=kind 
+	400.8.5={ birth=yes }
+	421.1.1={ add_spouse=1231726 }
+	462.2.8={ death=yes }
+}
+1231662={
+	name=Afarnach
+	dynasty=223035
+	dna="kepbdagpbmk"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=5 
+	learning=7
+	trait=scholarly_theologian 
+	trait=kind 
+	trait=trusting 
+	trait=cynical 
+	trait=wroth 
+	trait=cruel 
+	father=1231661	#Calum
+	mother=1231726	#Muireall
+	422.4.6={ birth=yes }
+	443.1.1={ add_spouse=1231727 }
+	486.7.19={ death=yes }
+}
+1231663={
+	name=Muireall
+	female=yes
+	dynasty=223035
+	dna="kedhdagogip"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231661	#Calum
+	mother=1231726	#Muireall
+	425.5.15={ birth=yes }
+	488.6.19={ death=yes }
+}
+1231664={
+	name=Gràinne
+	female=yes
+	dynasty=223035
+	dna="bddbflopdjg"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231661	#Calum
+	mother=1231726	#Muireall
+	429.5.25={ birth=yes }
+	482.5.4={ death=yes }
+}
+1231665={
+	name=Alpín
+	dynasty=223035
+	dna="kedadlgmndn"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=6 
+	learning=6
+	trait=martial_cleric 
+	trait=temperate 
+	trait=patient 
+	trait=lustful 
+	trait=greedy 
+	trait=humble 
+	father=1231661	#Calum
+	mother=1231726	#Muireall
+	433.1.13={ birth=yes }
+	499.12.1={ death=yes }
+}
+1231666={
+	name=Aodhan
+	dynasty=223035
+	dna="onhhdegpnmk"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=6 
+	learning=5
+	trait=misguided_warrior 
+	trait=content 
+	trait=patient 
+	trait=paranoid 
+	trait=honest 
+	father=1231662	#Afarnach
+	mother=1231727	#Eithne
+	444.6.16={ birth=yes }
+	465.1.1={ add_spouse=1231728 }
+	513.3.26={ death=yes }
+}
+1231667={
+	name=Eithne
+	female=yes
+	dynasty=223035
+	dna="hbfhdaambmf"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231662	#Afarnach
+	mother=1231727	#Eithne
+	447.2.13={ birth=yes }
+	505.6.26={ death=yes }
+}
+1231668={
+	name=Der-Ilei
+	female=yes
+	dynasty=223035
+	dna="lfpedbgpjjk"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231662	#Afarnach
+	mother=1231727	#Eithne
+	451.6.26={ birth=yes }
+	495.2.3={ death=yes }
+}
+1231669={
+	name=Guaire
+	dynasty=223035
+	dna="jepkdpgpbma"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=8 
+	learning=7
+	trait=skilled_tactician 
+	trait=duelist 
+	trait=cynical 
+	trait=diligent 
+	trait=arbitrary 
+	trait=ill 
+	father=1231662	#Afarnach
+	mother=1231727	#Eithne
+	453.4.10={ birth=yes }
+	524.11.23={ death=yes }
+}
+1231670={
+	name=Conall
+	dynasty=223035
+	dna="ghfhbegppik"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=4 
+	learning=6
+	trait=elusive_shadow 
+	trait=craven 
+	trait=temperate 
+	trait=deceitful 
+	trait=drunkard 
+	father=1231666	#Aodhan
+	mother=1231728	#Gormala
+	469.11.3={ birth=yes }
+	490.1.1={ add_spouse=1231729 }
+	538.11.22={ death=yes }
+}
+1231671={
+	name=Drust
+	dynasty=223035
+	dna="cihhofgjcca"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=5 
+	intrigue=7 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=deceitful 
+	trait=just 
+	trait=drunkard 
+	father=1231666	#Aodhan
+	mother=1231728	#Gormala
+	473.3.5={ birth=yes }
+	533.11.19={ death=yes }
+}
+1231672={
+	name=Gormala
+	female=yes
+	dynasty=223035
+	dna="oejomenpbmo"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231666	#Aodhan
+	mother=1231728	#Gormala
+	477.10.16={ birth=yes }
+	566.7.14={ death=yes }
+}
+1231673={
+	name=Ceana
+	female=yes
+	dynasty=223035
+	dna="bnhndijbnlk"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231666	#Aodhan
+	mother=1231728	#Gormala
+	480.9.2={ birth=yes }
+	531.7.14={ death=yes }
+}
+1231674={
+	name=Aulay
+	dynasty=223035
+	dna="ghhcbegedgm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=8 
+	learning=8
+	trait=martial_cleric 
+	trait=lustful 
+	trait=patient 
+	trait=ambitious 
+	trait=craven 
+	father=1231670	#Conall
+	mother=1231729	#Der-Ilei
+	492.6.25={ birth=yes }
+	513.1.1={ add_spouse=1231730 }
+	535.6.11={ death=yes }
+}
+1231675={
+	name=Domelch
+	dynasty=223035
+	dna="ghfhbegljhj"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=8 
+	learning=6
+	trait=elusive_shadow 
+	trait=hunter 
+	trait=patient 
+	trait=craven 
+	trait=zealous 
+	trait=paranoid 
+	trait=gregarious 
+	trait=slothful 
+	trait=clubfooted 
+	father=1231670	#Conall
+	mother=1231729	#Der-Ilei
+	497.12.23={ birth=yes }
+	572.7.20={ death=yes }
+}
+1231676={
+	name=Lutrin
+	dynasty=223035
+	dna="ghnhbmgppik"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=6 
+	learning=7
+	trait=flamboyant_schemer 
+	trait=gregarious 
+	trait=greedy 
+	trait=lunatic 
+	father=1231670	#Conall
+	mother=1231729	#Der-Ilei
+	500.9.19={ birth=yes }
+	555.8.14={ death=yes }
+}
+1231677={
+	name=Giric
+	dynasty=223035
+	dna="ghfhbegpaio"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=5 
+	learning=8
+	trait=naive_appeaser 
+	trait=poet 
+	trait=trusting 
+	trait=humble 
+	trait=charitable 
+	trait=honest 
+	father=1231670	#Conall
+	mother=1231729	#Der-Ilei
+	503.7.25={ birth=yes }
+	580.7.6={ death=yes }
+}
+1231678={
+	name=Ougen
+	dynasty=223035
+	dna="jhmlocledfm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=8 
+	learning=6
+	trait=misguided_warrior 
+	trait=gregarious 
+	trait=just 
+	trait=envious 
+	father=1231674	#Aulay
+	mother=1231730	#Brìghde
+	513.1.18={ birth=yes }
+	534.1.1={ add_spouse=1231731 }
+	569.10.11={ death=yes }
+}
+1231679={
+	name=Fearchar
+	dynasty=223035
+	dna="ihgkbcgepge"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=6 
+	learning=8
+	trait=scholarly_theologian 
+	trait=temperate 
+	trait=lustful 
+	trait=ambitious 
+	trait=trusting 
+	trait=brave 
+	father=1231674	#Aulay
+	mother=1231730	#Brìghde
+	517.11.2={ birth=yes }
+	589.5.23={ death=yes }
+}
+1231680={
+	name=Gyrom
+	dynasty=223035
+	dna="gpecnifoddm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=7 
+	learning=5
+	trait=tough_soldier 
+	trait=just 
+	trait=brave 
+	trait=cynical 
+	trait=ambitious 
+	father=1231674	#Aulay
+	mother=1231730	#Brìghde
+	519.9.23={ birth=yes }
+	589.3.15={ death=yes }
+}
+1231681={
+	name=Brìghde
+	female=yes
+	dynasty=223035
+	dna="jmhkldgodgm"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231674	#Aulay
+	mother=1231730	#Brìghde
+	522.9.14={ birth=yes }
+	576.10.15={ death=yes }
+}
+1231682={
+	name=Morleo
+	dynasty=223035
+	dna="gfpcdekedgf"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=6 
+	stewardship=6 
+	intrigue=5 
+	learning=6
+	trait=thrifty_clerk 
+	trait=craven 
+	trait=slothful 
+	father=1231674	#Aulay
+	mother=1231730	#Brìghde
+	525.9.19={ birth=yes }
+	562.9.19={ death=yes }
+}
+1231683={
+	name=Eòghann
+	dynasty=223035
+	dna="jmcljcleefm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=8 
+	learning=7
+	trait=misguided_warrior 
+	trait=hedonist 
+	trait=just 
+	trait=temperate 
+	trait=patient 
+	trait=wounded 
+	father=1231678	#Ougen
+	mother=1231731	#Brìghde
+	539.7.22={ birth=yes }
+	560.1.1={ add_spouse=1231732 }
+	603.10.17={ death=yes }
+}
+1231684={
+	name=Mogons
+	dynasty=223035
+	dna="nhmloanedgm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=6 
+	learning=7
+	trait=charismatic_negotiator 
+	trait=humble 
+	trait=gregarious 
+	trait=possessed 
+	father=1231678	#Ougen
+	mother=1231731	#Brìghde
+	542.10.23={ birth=yes }
+	593.8.18={ death=yes }
+}
+1231685={
+	name=Dargart
+	dynasty=223035
+	dna="jieloclkdfm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=6 
+	learning=7
+	trait=martial_cleric 
+	trait=honest 
+	trait=trusting 
+	trait=content 
+	trait=slothful 
+	father=1231678	#Ougen
+	mother=1231731	#Brìghde
+	546.1.27={ birth=yes }
+	595.1.24={ death=yes }
+}
+1231686={
+	name=Gudbrand
+	dynasty=223035
+	dna="jhmckhdioam"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=8 
+	learning=6
+	trait=martial_cleric 
+	trait=content 
+	trait=greedy 
+	trait=patient 
+	trait=chaste 
+	trait=gluttonous 
+	trait=slothful 
+	father=1231678	#Ougen
+	mother=1231731	#Brìghde
+	549.11.26={ birth=yes }
+	596.9.26={ death=yes }
+}
+1231687={
+	name=Esca
+	dynasty=223035
+	dna="ifapochedfn"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=4 
+	stewardship=6 
+	intrigue=4 
+	learning=6
+	trait=detached_priest 
+	trait=shy 
+	trait=deceitful 
+	father=1231678	#Ougen
+	mother=1231731	#Brìghde
+	553.7.16={ birth=yes }
+	627.1.1={ death=yes }
+}
+1231688={
+	name=Brude
+	dynasty=223035
+	dna="oielocebefa"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=7 
+	intrigue=4 
+	learning=6
+	trait=tough_soldier 
+	trait=content 
+	trait=craven 
+	trait=kind 
+	trait=deceitful 
+	trait=humble 
+	father=1231678	#Ougen
+	mother=1231731	#Brìghde
+	556.11.18={ birth=yes }
+	620.1.23={ death=yes }
+}
+1231689={
+	name=Afarnach
+	dynasty=223035
+	dna="kmaijclilhp"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=4 
+	stewardship=4 
+	intrigue=5 
+	learning=7
+	trait=martial_cleric 
+	trait=mystic 
+	trait=cruel 
+	trait=brave 
+	trait=zealous 
+	trait=kind 
+	father=1231683	#Eòghann
+	mother=1231732	#Una
+	559.6.23={ birth=yes }
+	580.1.1={ add_spouse=1231733 }
+	632.3.14={ death=yes }
+}
+1231690={
+	name=Maelchon
+	dynasty=223035
+	dna="cmdbcaleebm"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=6 
+	intrigue=8 
+	learning=8
+	trait=mastermind_theologian 
+	trait=shy 
+	trait=trusting 
+	trait=deceitful 
+	trait=proud 
+	trait=slothful 
+	trait=kind 
+	trait=possessed 
+	father=1231683	#Eòghann
+	mother=1231732	#Una
+	564.2.8={ birth=yes }
+	642.10.19={ death=yes }
+}
+1231691={
+	name=Adomnán
+	dynasty=223035
+	dna="kmpmjdpjlgd"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=4 
+	learning=8
+	trait=skilled_tactician 
+	trait=lustful 
+	trait=wroth 
+	trait=temperate 
+	trait=proud 
+	trait=shy 
+	father=1231689	#Afarnach
+	mother=1231733	#Teàrlag
+	587.6.4={ birth=yes }
+	608.1.1={ add_spouse=1231734 }
+	638.5.24={ death=yes }
+}
+1231692={
+	name=Ailean
+	dynasty=223035
+	dna="jmolpnlnenf"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=6 
+	intrigue=4 
+	learning=5
+	trait=detached_priest 
+	trait=cruel 
+	trait=gluttonous 
+	trait=cynical 
+	trait=proud 
+	trait=arbitrary 
+	trait=ambitious 
+	trait=ill 
+	father=1231689	#Afarnach
+	mother=1231733	#Teàrlag
+	591.7.17={ birth=yes }
+	661.4.9={ death=yes }
+}
+1231693={
+	name=Cailean
+	dynasty=223035
+	dna="kmagicgilhl"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=6 
+	learning=8
+	trait=indulgent_wastrel 
+	trait=gluttonous 
+	trait=diligent 
+	trait=gregarious 
+	father=1231689	#Afarnach
+	mother=1231733	#Teàrlag
+	595.1.15={ birth=yes }
+	664.6.23={ death=yes }
+}
+1231694={
+	name=Taran
+	dynasty=223035
+	dna="keemjopjiek"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=7 
+	stewardship=4 
+	intrigue=7 
+	learning=4
+	trait=midas_touched 
+	trait=deceitful 
+	trait=cruel 
+	trait=gluttonous 
+	trait=chaste 
+	trait=just 
+	trait=ill 
+	father=1231691	#Adomnán
+	mother=1231734	#Luthredat
+	614.4.9={ birth=yes }
+	695.7.22={ death=yes }
+}
+1231695={
+	name=Una
+	female=yes
+	dynasty=223035
+	dna="bopkaajjdgd"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231691	#Adomnán
+	mother=1231734	#Luthredat
+	616.1.21={ birth=yes }
+	672.8.27={ death=yes }
+}
+1231696={
+	name=Teàrlag
+	female=yes
+	dynasty=223035
+	dna="kppmjcpnlgd"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231691	#Adomnán
+	mother=1231734	#Luthredat
+	618.12.16={ birth=yes }
+	676.3.16={ death=yes }
+}
+1231697={
+	name=Giric
+	dynasty=223035
+	dna="kljijapjimd"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=6 
+	stewardship=8 
+	intrigue=7 
+	learning=8
+	trait=misguided_warrior 
+	trait=craven 
+	trait=shy 
+	trait=content 
+	trait=stutter 
+	father=1231691	#Adomnán
+	mother=1231734	#Luthredat
+	623.9.19={ birth=yes }
+	694.10.30={ death=yes }
+}
+1231726={
+	name=Muireall
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	400.7.4={ birth=yes }
+	462.1.1={ death=yes }
+}
+1231727={
+	name=Eithne
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	422.7.4={ birth=yes }
+	486.1.1={ death=yes }
+}
+1231728={
+	name=Gormala
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	444.7.4={ birth=yes }
+	513.1.1={ death=yes }
+}
+1231729={
+	name=Der-Ilei
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	469.7.4={ birth=yes }
+	538.1.1={ death=yes }
+}
+1231730={
+	name=Brìghde
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	492.7.4={ birth=yes }
+	535.1.1={ death=yes }
+}
+1231731={
+	name=Brìghde
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	513.7.4={ birth=yes }
+	561.1.1={ death=yes }
+}
+1231732={
+	name=Una
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	539.7.4={ birth=yes }
+	603.1.1={ death=yes }
+}
+1231733={
+	name=Teàrlag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	559.7.4={ birth=yes }
+	632.1.1={ death=yes }
+}
+1231734={
+	name=Luthredat
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	587.7.4={ birth=yes }
+	638.1.1={ death=yes }
+}

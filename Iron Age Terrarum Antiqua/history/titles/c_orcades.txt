@@ -28,3 +28,15 @@
 672.05.12 = {
 	holder = 1231618 # Drust
 }
+703.06.10 = {
+	holder = 1231623 # Murtolic
+}
+709.07.24 = {
+	holder = 1231624 # Broichan
+}
+755.02.26 = {
+	holder = 1231627 # Roithrid
+}
+781.10.3 = {
+	holder = 1231631 # Eòghann
+}

@@ -1,18 +1,20 @@
 # 103 - Gangra
 
 # County Title
-title = c_gangra # for example c_corinth
+title = c_gangra
 
 # Settlements
 max_settlements = 4
-b_gangra_gangra = castle
-b_kobara_gangra = temple
-b_anadynata_gangra = city
-b_zeita_gangra = castle
+b_gangra = castle
+b_kobara = temple
+b_anadynata = city
+b_zeita = castle
+#b_kimiata2 = temple
+#b_gangra2 = city
+#b_gangra3 = castle
 
 # Misc
 culture = luwian
 religion = anatolian_main
 
 # History
-# Can be filled when things change around the province

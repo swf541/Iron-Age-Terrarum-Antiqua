@@ -30,3 +30,7 @@
 	name ="Cornavii"
 	culture = pictish
 }
+223035 = {
+	name ="Creones"
+	culture = pictish
+}

@@ -1,0 +1,27 @@
+401.1.1 = { # 375 BC
+	holder = 1231661 # Calum
+}
+462.02.08 = {
+	holder = 1231662 # Afarnach
+}
+486.07.19 = {
+	holder = 1231666 # Aodhan
+}
+513.03.26 = {
+	holder = 1231670 # Conall
+}
+535.06.11 = {
+	holder = 1231678 # Ougen
+}
+569.10.11 = {
+	holder = 1231683 # Eòghann
+}
+603.10.17 = {
+	holder = 1231689 # Afarnach
+}
+632.03.14 = {
+	holder = 1231691 # Adomnán
+}
+638.05.24 = {
+	holder = 1231694 # Taran
+}
