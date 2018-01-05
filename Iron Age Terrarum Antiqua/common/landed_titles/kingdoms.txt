@@ -1636,14 +1636,13 @@ k_cappadocia = {
 			holy_site = anatolian_main
 			holy_site = manichean
 			
-			b_comana_cataonia = {
-			}
-			b_kokousos_cataonia = {
-			}
-			b_tanadaris_cataonia = {
-			}
-			b_ulnia_cataonia = {
-			}
+			b_comana = {}
+			b_kokousos = {}
+			b_tanadaris = {}
+			b_ulnia = {}
+			b_cataonia = {}
+			b_cataonia2 = {}
+			b_cataonia3 = {}
 		}
 		c_pteria = {
 			color= { 200 185 140 }
@@ -1651,16 +1650,13 @@ k_cappadocia = {
 			
 			holy_site = anatolian_main
 			
-			b_pteria_pteria = {
-			}
-			b_agranai_pteria = {
-			}
-			b_sibora_pteria = {
-			}
-			b_sarmalius_pteria = {
-			}
-			b_tavium_pteria = {
-			}
+			b_pteria = {}
+			b_agranai = {}
+			b_sibora = {}
+			b_sarmalius = {}
+			b_tavium = {}
+			b_euassaia = {}
+			b_pteria3 = {}
 		}
 		c_mazaka = {
 			color= { 200 175 150 }
@@ -1669,62 +1665,56 @@ k_cappadocia = {
 			holy_site = bosporan_faith
 			holy_site = hittite_main
 			
-			b_moutalaske_mazaka = {
-			}
-			b_mazaka_mazaka = {
-			}
-			b_eulepa_mazaka = {
-			}
-			b_archalla_mazaka = {
-			}
-			b_arasaxa_mazaka = {
-			}
-			b_armaxa_mazaka = {
-			}
+			b_moutalaske = {}
+			b_mazaka = {}
+			b_eulepa = {}
+			b_archalla = {}
+			b_arasaxa = {}
+			b_armaxa = {}
+			b_mazaka2 = {}
 		}
 		c_euaissa = {
 			color= { 210 165 150 }
 			color2= { 255 255 255 }
 			
-			b_euaissa_euaissa = {
-			}
-			b_kampai_euaissa = {
-			}
-			b_soanda_euaissa = {
-			}
-			b_ochras_euaissa = {
-			}
+			b_euaissa = {}
+			b_kampai = {}
+			b_soanda = {}
+			b_ochras = {}
+			b_euaissa2 = {}
+			b_euaissa3 = {}
+			b_euaissa4 = {}
 		}
 		c_nyssa = {
 			color= { 200 185 160 }
 			color2= { 255 255 255 }
 			
-			b_nyssa_nyssa = {
-			}
-			b_andraka_nyssa = {
-			}
-			b_parnassos_nyssa = {
-			}
-			b_nitazi_nyssa = {
-			}
+			b_nyssa = {}
+			b_andraka = {}
+			b_parnassos = {}
+			b_nitazi = {}
+			b_nyssa2 = {}
+			b_nyssa3 = {}
+			b_nyssa4 = {}
 		}
 		c_gauraina = {
 			color= { 180 175 150 }
 			color2= { 255 255 255 }
 			
-			b_gauraina_gauraina = {
-			}
-			b_taranta_gauraina = {
-			}
-			b_euspena_gauraina = {
-			}
-			b_dalanda_gauraina = {
-			}
+			b_gauraina = {}
+			b_taranta = {}
+			b_euspena = {}
+			b_dalanda = {}
+			b_gauraina2 = {}
+			b_gauraina3 = {}
+			b_gauraina4 = {}
 		}
 	}
 	d_pontus = {
 		color= { 175 150 125 }
 		color2= { 255 255 255 }
+		
+		capital = 110 # Amisus
 		
 		c_amisus = {
 			color= { 185 150 115 }
@@ -1733,16 +1723,13 @@ k_cappadocia = {
 			holy_site = bosporan_faith
 			holy_site = hittite_main
 			
-			b_amisus_amisus = {
-			}
-			b_gadilon_amisus = {
-			}
-			b_eupatoria_amisus = {
-			}
-			b_chadisia_amisus = {
-			}
-			b_ankon_amisus = {
-			}
+			b_amisus = {}
+			b_gadilon = {}
+			b_eupatoria = {}
+			b_chadisia = {}
+			b_ankon = {}
+			b_amisus2 = {}
+			b_amisus3 = {}
 		}
 		c_polemonion = {
 			color= { 175 160 115 }

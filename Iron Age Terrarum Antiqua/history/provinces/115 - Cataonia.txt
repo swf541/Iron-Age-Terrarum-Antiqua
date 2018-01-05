@@ -1,18 +1,20 @@
 # 115 - Cataonia
 
 # County Title
-title = c_cataonia # for example c_corinth
+title = c_cataonia
 
 # Settlements
 max_settlements = 4
-b_comana_cataonia = castle
-b_kokousos_cataonia = temple
-b_tanadaris_cataonia = city
-b_ulnia_cataonia = castle
+b_comana = castle
+b_kokousos = temple
+b_tanadaris = city
+b_ulnia = castle
+#b_cataonia = temple
+#b_cataonia2 = city
+#b_cataonia3 = castle
 
 # Misc
 culture = cappadocian
 religion = anatolian_main
 
 # History
-# Can be filled when things change around the province

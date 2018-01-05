@@ -1,21 +1,20 @@
 # 116 - Pteria
 
 # County Title
-title = c_pteria # for example c_corinth
+title = c_pteria
 
 # Settlements
 max_settlements = 5
-b_pteria_pteria = castle
-b_agranai_pteria = temple
-b_sibora_pteria = city
-b_sarmalius_pteria = castle
-
-# Possible baronies: (Always add a # in front of a line with these!)
-# b_tavium_pteria
+b_pteria = castle
+b_agranai = temple
+b_sibora = city
+b_sarmalius = castle
+#b_tavium = temple
+#b_euassaia = city
+#b_pteria3 = castle
 
 # Misc
 culture = cappadocian
 religion = anatolian_main
 
 # History
-# Can be filled when things change around the province

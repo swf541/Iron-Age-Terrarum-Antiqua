@@ -1,0 +1,12 @@
+401.1.1 = { # 375 BC
+	holder = 1231741 # Nechtan
+}
+456.08.30 = {
+	holder = 1231742 # Gyrom
+}
+483.06.17 = {
+	holder = 1231749 # Ualraig
+}
+511.05.24 = {
+	holder = 1231755 # Bran
+}

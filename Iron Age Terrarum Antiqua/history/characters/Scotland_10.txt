@@ -1,0 +1,343 @@
+1231741={
+	name=Nechtan
+	dynasty=223036
+	dna="ijdaicpebec"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=5 
+	learning=8
+	trait=intricate_webweaver 
+	trait=ambitious 
+	trait=shy 
+	399.7.4={ birth=yes }
+	420.1.1={ add_spouse=1231807 }
+	456.8.30={ death=yes }
+}
+1231742={
+	name=Gyrom
+	dynasty=223036
+	dna="oddoicnjkeb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=4 
+	learning=4
+	trait=indulgent_wastrel 
+	trait=just 
+	trait=cruel 
+	trait=diligent 
+	trait=cynical 
+	trait=gregarious 
+	father=1231741	#Nechtan
+	mother=1231807	#Chiorstan
+	425.7.16={ birth=yes }
+	446.1.1={ add_spouse=1231808 }
+	483.6.17={ death=yes }
+}
+1231743={
+	name=Chiorstan
+	female=yes
+	dynasty=223036
+	dna="fjkaimplbec"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231741	#Nechtan
+	mother=1231807	#Chiorstan
+	428.2.9={ birth=yes }
+	500.12.3={ death=yes }
+}
+1231744={
+	name=Seàrlaid
+	female=yes
+	dynasty=223036
+	dna="fffnijpebbe"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231741	#Nechtan
+	mother=1231807	#Chiorstan
+	431.8.12={ birth=yes }
+	483.9.7={ death=yes }
+}
+1231745={
+	name=Dearbhail
+	female=yes
+	dynasty=223036
+	dna="mjdpfceebek"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231741	#Nechtan
+	mother=1231807	#Chiorstan
+	435.8.7={ birth=yes }
+	503.3.3={ death=yes }
+}
+1231746={
+	name=Selbach
+	dynasty=223036
+	dna="jidcicpkodc"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=6 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=poet 
+	trait=ambitious 
+	trait=trusting 
+	trait=chaste 
+	trait=humble 
+	father=1231741	#Nechtan
+	mother=1231807	#Chiorstan
+	437.2.12={ birth=yes }
+	483.4.14={ death=yes }
+}
+1231747={
+	name=Chiorstan
+	female=yes
+	dynasty=223036
+	dna="ajcaicpebel"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231741	#Nechtan
+	mother=1231807	#Chiorstan
+	441.6.22={ birth=yes }
+	478.2.20={ death=yes }
+}
+1231748={
+	name=Eamhhair
+	female=yes
+	dynasty=223036
+	dna="iidaimmebec"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231741	#Nechtan
+	mother=1231807	#Chiorstan
+	443.10.25={ birth=yes }
+	497.3.12={ death=yes }
+}
+1231749={
+	name=Ualraig
+	dynasty=223036
+	dna="jddoicnameb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=5 
+	intrigue=8 
+	learning=5
+	trait=midas_touched 
+	trait=duelist 
+	trait=chaste 
+	trait=shy 
+	trait=cynical 
+	trait=deceitful 
+	trait=cruel 
+	father=1231742	#Gyrom
+	mother=1231808	#Chiorstan
+	446.1.15={ birth=yes }
+	467.1.1={ add_spouse=1231809 }
+	511.5.24={ death=yes }
+}
+1231750={
+	name=Giric
+	dynasty=223036
+	dna="odbcicfjkko"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=6 
+	diplomacy=8 
+	stewardship=4 
+	intrigue=4 
+	learning=7
+	trait=midas_touched 
+	trait=greedy 
+	trait=temperate 
+	father=1231742	#Gyrom
+	mother=1231808	#Chiorstan
+	450.10.9={ birth=yes }
+	503.9.4={ death=yes }
+}
+1231751={
+	name=Gillechrìost
+	dynasty=223036
+	dna="gidiicndkej"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=5 
+	intrigue=6 
+	learning=5
+	trait=indulgent_wastrel 
+	trait=envious 
+	trait=content 
+	trait=honest 
+	trait=trusting 
+	father=1231742	#Gyrom
+	mother=1231808	#Chiorstan
+	451.1.4={ birth=yes }
+	497.5.21={ death=yes }
+}
+1231752={
+	name=Dargart
+	dynasty=223036
+	dna="jmeobcnmbkb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=4 
+	stewardship=7 
+	intrigue=7 
+	learning=5
+	trait=grey_eminence 
+	trait=slothful 
+	trait=brave 
+	trait=charitable 
+	trait=chaste 
+	trait=temperate 
+	father=1231742	#Gyrom
+	mother=1231808	#Chiorstan
+	454.6.2={ birth=yes }
+	504.3.6={ death=yes }
+}
+1231753={
+	name=Laise
+	dynasty=223036
+	dna="odojncnjfeb"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=4 
+	stewardship=8 
+	intrigue=5 
+	learning=6
+	trait=indulgent_wastrel 
+	trait=ambitious 
+	trait=craven 
+	trait=deceitful 
+	trait=just 
+	father=1231742	#Gyrom
+	mother=1231808	#Chiorstan
+	459.2.21={ birth=yes }
+	515.10.20={ death=yes }
+}
+1231754={
+	name=Chiorstan
+	female=yes
+	dynasty=223036
+	dna="baaoibnjkeb"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231742	#Gyrom
+	mother=1231808	#Chiorstan
+	462.8.27={ birth=yes }
+	537.6.28={ death=yes }
+}
+1231755={
+	name=Bran
+	dynasty=223036
+	dna="jdjiionamek"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=7 
+	stewardship=8 
+	intrigue=7 
+	learning=4
+	trait=thrifty_clerk 
+	trait=cruel 
+	trait=shy 
+	trait=greedy 
+	father=1231749	#Ualraig
+	mother=1231809	#Brianag
+	474.7.19={ birth=yes }
+	543.6.11={ death=yes }
+}
+1231756={
+	name=Brianag
+	female=yes
+	dynasty=223036
+	dna="jadnibnooem"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231749	#Ualraig
+	mother=1231809	#Brianag
+	476.1.10={ birth=yes }
+	535.11.3={ death=yes }
+}
+1231757={
+	name=Dúngal
+	dynasty=223036
+	dna="jddoacdimno"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=5 
+	diplomacy=5 
+	stewardship=4 
+	intrigue=8 
+	learning=5
+	trait=midas_touched 
+	trait=zealous 
+	trait=cruel 
+	trait=gluttonous 
+	trait=shy 
+	trait=arbitrary 
+	trait=diligent 
+	father=1231749	#Ualraig
+	mother=1231809	#Brianag
+	479.6.4={ birth=yes }
+	563.5.12={ death=yes }
+}
+1231758={
+	name=Ailean
+	dynasty=223036
+	dna="ledolhdamei"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=7 
+	diplomacy=8 
+	stewardship=7 
+	intrigue=6 
+	learning=4
+	trait=indulgent_wastrel 
+	trait=honest 
+	trait=humble 
+	trait=kind 
+	trait=greedy 
+	trait=possessed 
+	father=1231749	#Ualraig
+	mother=1231809	#Brianag
+	480.7.4={ birth=yes }
+	532.8.19={ death=yes }
+}
+1231807={
+	name=Chiorstan
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	399.7.4={ birth=yes }
+	456.1.1={ death=yes }
+}
+1231808={
+	name=Chiorstan
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	425.7.4={ birth=yes }
+	483.1.1={ death=yes }
+}
+1231809={
+	name=Brianag
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	446.7.4={ birth=yes }
+	511.1.1={ death=yes }
+}

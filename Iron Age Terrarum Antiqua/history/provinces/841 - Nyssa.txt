@@ -5,14 +5,16 @@ title = c_nyssa
 
 # Settlements
 max_settlements = 4
-b_nyssa_nyssa = castle
-b_andraka_nyssa = city
-b_parnassos_nyssa = castle
-b_nitazi_nyssa = castle
+b_nyssa = castle
+b_andraka = city
+b_parnassos = castle
+b_nitazi = castle
+#b_nyssa2 = city
+#b_nyssa3 = temple
+#b_nyssa4 = temple
 
 # Misc
 culture = cappadocian
 religion = anatolian_main
 
 # History
-# Can be filled when things change around the province
