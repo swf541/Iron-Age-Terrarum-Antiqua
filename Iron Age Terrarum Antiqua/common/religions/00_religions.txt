@@ -9,12 +9,13 @@ secret_religion_visibility_trigger = {
 christian = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
-	crusade_cb = crusade
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.8 0.7 0.2 }
 	
 	# Names given only to Christian characters (base names)
 	male_names = {
@@ -1589,7 +1590,6 @@ pagan_group = {
 muslim = {
 	has_coa_on_barony_only = no
 	graphical_culture = muslimgfx
-	crusade_cb = crusade
 	playable = yes
 	hostile_within_group = yes
 	
@@ -1836,6 +1836,8 @@ chinese_group = {
 	
 	ai_convert_same_group = 1 # try to convert if ai_zeal is high
 	ai_convert_other_group = 2	# always try to convert
+	
+	color = { 0.8 0.4 0.0 }
 
 	# Names given only to Chinese characters (base names)
 	male_names = {
@@ -2051,7 +2053,6 @@ chinese_group = {
 
 bosporan_group = {
 	graphical_culture = jewishgfx
-	crusade_cb = crusade
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 	

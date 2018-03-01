@@ -5,7 +5,7 @@
 	holder = 22601 # Prokopios, Made up
 }
 473.1.1 = { # 303 BC
-	holder = 20004 # Kleonymos, son of Cleomedes II
+	holder = 20025 # Kleonymos, son of Cleomedes II
 }
 475.1.1 = { # 301 BC
 	holder = 22701 # Agathocles
