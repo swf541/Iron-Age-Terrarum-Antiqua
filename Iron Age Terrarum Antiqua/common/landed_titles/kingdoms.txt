@@ -1663,7 +1663,6 @@ k_cappadocia = {
 			color2= { 255 255 255 }
 			
 			holy_site = bosporan_faith
-			holy_site = hittite_main
 			
 			b_moutalaske = {}
 			b_mazaka = {}
@@ -1735,14 +1734,13 @@ k_cappadocia = {
 			color= { 175 160 115 }
 			color2= { 255 255 255 }
 			
-			b_polemonion_polemonion = {
-			}
-			b_phabda_polemonion = {
-			}
-			b_stamene_polemonion = {
-			}
-			b_sauronisena_polemonion = {
-			}
+			b_polemonion = {}
+			b_phabda = {}
+			b_stamene = {}
+			b_sauronisena = {}
+			b_polemonion2 = {}
+			b_polemonion3 = {}
+			b_polemonion4 = {}
 		}
 		c_trapezous = {
 			color= { 165 140 125 }

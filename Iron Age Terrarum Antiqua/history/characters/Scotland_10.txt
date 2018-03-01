@@ -258,6 +258,7 @@
 	father=1231749	#Ualraig
 	mother=1231809	#Brianag
 	474.7.19={ birth=yes }
+	495.1.1={ add_spouse=1231810 }
 	543.6.11={ death=yes }
 }
 1231756={
@@ -317,6 +318,96 @@
 	480.7.4={ birth=yes }
 	532.8.19={ death=yes }
 }
+1231759={
+	name=Uallas
+	dynasty=223036
+	dna="jdjndnfecen"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=7 
+	intrigue=8 
+	learning=7
+	trait=grey_eminence 
+	trait=zealous 
+	trait=arbitrary 
+	trait=paranoid 
+	trait=gluttonous 
+	father=1231755	#Bran
+	499.1.13={ birth=yes }
+	548.2.27={ death=yes }
+}
+1231760={
+	name=Ceit
+	female=yes
+	dynasty=223036
+	dna="gdjnipammpk"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231755	#Bran
+	mother=1231810	#Ceit
+	501.11.24={ birth=yes }
+	548.5.20={ death=yes }
+}
+1231761={
+	name=Donnach
+	dynasty=223036
+	dna="polcionamek"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=4 
+	diplomacy=5 
+	stewardship=8 
+	intrigue=4 
+	learning=4
+	trait=flamboyant_schemer 
+	trait=just 
+	trait=cynical 
+	trait=temperate 
+	trait=cruel 
+	trait=ill 
+	father=1231755	#Bran
+	mother=1231810	#Ceit
+	504.11.13={ birth=yes }
+	558.1.20={ death=yes }
+}
+1231762={
+	name=Gigurum
+	dynasty=223036
+	dna="fkjinonobmg"
+	culture=pictish 
+	religion=celtic_pagan
+	martial=8 
+	diplomacy=8 
+	stewardship=5 
+	intrigue=7 
+	learning=5
+	trait=naive_appeaser 
+	trait=duelist 
+	trait=cruel 
+	trait=ambitious 
+	trait=diligent 
+	trait=gregarious 
+	trait=kind 
+	trait=possessed 
+	father=1231755	#Bran
+	mother=1231810	#Ceit
+	507.11.2={ birth=yes }
+	562.9.12={ death=yes }
+}
+1231763={
+	name=Ceit
+	female=yes
+	dynasty=223036
+	dna="ifggielalhk"
+	culture=pictish 
+	religion=celtic_pagan
+	father=1231755	#Bran
+	mother=1231810	#Ceit
+	512.6.23={ birth=yes }
+	569.2.15={ death=yes }
+}
 1231807={
 	name=Chiorstan
 	female=yes
@@ -340,4 +431,12 @@
 	religion=celtic_pagan
 	446.7.4={ birth=yes }
 	511.1.1={ death=yes }
+}
+1231810={
+	name=Ceit
+	female=yes
+	culture=pictish
+	religion=celtic_pagan
+	474.7.4={ birth=yes }
+	543.1.1={ death=yes }
 }

@@ -38,20 +38,20 @@
 	trait=cruel 
 	trait=possessed 
 	father=1231584	#Talorgan
-	mother=1231647	#Br√¨ghde
+	mother=1231647	#BrÏghde
 	423.5.22={ birth=yes }
 	444.1.1={ add_spouse=1231648 }
 	469.11.19={ death=yes }
 }
 1231586={
-	name=Br√¨ghde
+	name=BrÏghde
 	female=yes
 	dynasty=223034
 	dna="kgijbfajagc"
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231584	#Talorgan
-	mother=1231647	#Br√¨ghde
+	mother=1231647	#BrÏghde
 	425.10.7={ birth=yes }
 	479.7.7={ death=yes }
 }
@@ -70,7 +70,7 @@
 	trait=patient 
 	trait=envious 
 	father=1231584	#Talorgan
-	mother=1231647	#Br√¨ghde
+	mother=1231647	#BrÏghde
 	429.6.23={ birth=yes }
 	485.8.26={ death=yes }
 }
@@ -82,7 +82,7 @@
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231584	#Talorgan
-	mother=1231647	#Br√¨ghde
+	mother=1231647	#BrÏghde
 	435.9.14={ birth=yes }
 	506.11.26={ death=yes }
 }
@@ -152,7 +152,7 @@
 	522.6.8={ death=yes }
 }
 1231592={
-	name=D√∫ngal
+	name=D˙ngal
 	dynasty=223034
 	dna="eipoloogmej"
 	culture=pictish 
@@ -278,14 +278,14 @@
 	trait=cynical 
 	trait=trusting 
 	trait=shy 
-	father=1231592	#D√∫ngal
+	father=1231592	#D˙ngal
 	mother=1231650	#Der-Ilei
 	495.7.21={ birth=yes }
 	516.1.1={ add_spouse=1231651 }
 	551.5.5={ death=yes }
 }
 1231600={
-	name=T√∫athal√°n
+	name=T˙athal·n
 	dynasty=223034
 	dna="kebomoogmeo"
 	culture=pictish 
@@ -300,7 +300,7 @@
 	trait=humble 
 	trait=patient 
 	trait=honest 
-	father=1231592	#D√∫ngal
+	father=1231592	#D˙ngal
 	mother=1231650	#Der-Ilei
 	499.10.19={ birth=yes }
 	568.9.18={ death=yes }
@@ -371,7 +371,7 @@
 	583.7.3={ death=yes }
 }
 1231605={
-	name=√åomhair
+	name=Ãomhair
 	dynasty=223034
 	dna="obekfmohgmo"
 	culture=pictish 
@@ -404,7 +404,7 @@
 	624.11.18={ death=yes }
 }
 1231607={
-	name=M√πirne
+	name=M˘irne
 	female=yes
 	dynasty=223034
 	dna="mpecnooodga"
@@ -518,14 +518,14 @@
 	643.4.21={ death=yes }
 }
 1231613={
-	name=Sl√†ine
+	name=Sl‡ine
 	female=yes
 	dynasty=223034
 	dna="maknhkcnkdl"
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231611	#Artair
-	mother=1231654	#Sl√†ine
+	mother=1231654	#Sl‡ine
 	599.2.11={ birth=yes }
 	653.12.16={ death=yes }
 }
@@ -545,7 +545,7 @@
 	trait=gregarious 
 	trait=cynical 
 	father=1231611	#Artair
-	mother=1231654	#Sl√†ine
+	mother=1231654	#Sl‡ine
 	603.8.26={ birth=yes }
 	624.1.1={ add_spouse=1231655 }
 	672.5.12={ death=yes }
@@ -558,7 +558,7 @@
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231611	#Artair
-	mother=1231654	#Sl√†ine
+	mother=1231654	#Sl‡ine
 	607.3.23={ birth=yes }
 	657.8.20={ death=yes }
 }
@@ -580,7 +580,7 @@
 	trait=zealous 
 	trait=drunkard 
 	father=1231611	#Artair
-	mother=1231654	#Sl√†ine
+	mother=1231654	#Sl‡ine
 	611.6.19={ birth=yes }
 	656.6.2={ death=yes }
 }
@@ -602,7 +602,7 @@
 	trait=humble 
 	trait=paranoid 
 	father=1231611	#Artair
-	mother=1231654	#Sl√†ine
+	mother=1231654	#Sl‡ine
 	613.1.4={ birth=yes }
 	673.11.10={ death=yes }
 }
@@ -771,7 +771,7 @@
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231624	#Broichan
-	mother=1231658	#Sl√†ine
+	mother=1231658	#Sl‡ine
 	707.2.1={ birth=yes }
 	781.3.10={ death=yes }
 }
@@ -792,7 +792,7 @@
 	trait=temperate 
 	trait=kind 
 	father=1231624	#Broichan
-	mother=1231658	#Sl√†ine
+	mother=1231658	#Sl‡ine
 	709.10.26={ birth=yes }
 	730.1.1={ add_spouse=1231659 }
 	781.10.3={ death=yes }
@@ -815,24 +815,24 @@
 	trait=patient 
 	trait=wounded 
 	father=1231624	#Broichan
-	mother=1231658	#Sl√†ine
+	mother=1231658	#Sl‡ine
 	712.5.7={ birth=yes }
 	771.12.6={ death=yes }
 }
 1231629={
-	name=Sl√†ine
+	name=Sl‡ine
 	female=yes
 	dynasty=223034
 	dna="moajkbjdabb"
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231624	#Broichan
-	mother=1231658	#Sl√†ine
+	mother=1231658	#Sl‡ine
 	716.12.11={ birth=yes }
 	761.2.11={ death=yes }
 }
 1231630={
-	name=E√≤ghann
+	name=EÚghann
 	dynasty=223034
 	dna="maagkdecgko"
 	culture=pictish 
@@ -850,7 +850,7 @@
 	trait=zealous 
 	trait=kind 
 	father=1231624	#Broichan
-	mother=1231658	#Sl√†ine
+	mother=1231658	#Sl‡ine
 	719.9.16={ birth=yes }
 	771.8.25={ death=yes }
 }
@@ -872,20 +872,20 @@
 	trait=kind 
 	trait=diligent 
 	father=1231627
-	mother=1231659	#Te√†rlag
+	mother=1231659	#Te‡rlag
 	731.5.24={ birth=yes }
 	752.1.1={ add_spouse=1231660 }
 	803.7.21={ death=yes }
 }
 1231632={
-	name=Te√†rlag
+	name=Te‡rlag
 	female=yes
 	dynasty=223034
 	dna="bchoiendjcg"
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231627
-	mother=1231659	#Te√†rlag
+	mother=1231659	#Te‡rlag
 	732.3.27={ birth=yes }
 	801.10.3={ death=yes }
 }
@@ -897,7 +897,7 @@
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231627
-	mother=1231659	#Te√†rlag
+	mother=1231659	#Te‡rlag
 	735.3.11={ birth=yes }
 	801.1.22={ death=yes }
 }
@@ -918,19 +918,19 @@
 	trait=paranoid 
 	trait=zealous 
 	father=1231627
-	mother=1231659	#Te√†rlag
+	mother=1231659	#Te‡rlag
 	738.12.21={ birth=yes }
 	791.6.5={ death=yes }
 }
 1231635={
-	name=M√πirne
+	name=M˘irne
 	female=yes
 	dynasty=223034
 	dna="ahhjnfcdojg"
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231627
-	mother=1231659	#Te√†rlag
+	mother=1231659	#Te‡rlag
 	742.10.7={ birth=yes }
 	798.2.1={ death=yes }
 }
@@ -942,19 +942,19 @@
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231627
-	mother=1231659	#Te√†rlag
+	mother=1231659	#Te‡rlag
 	744.4.9={ birth=yes }
 	810.10.18={ death=yes }
 }
 1231637={
-	name=Br√¨ghde
+	name=BrÏghde
 	female=yes
 	dynasty=223034
 	dna="gchjfbbdofn"
 	culture=pictish 
 	religion=celtic_pagan
 	father=1231627
-	mother=1231659	#Te√†rlag
+	mother=1231659	#Te‡rlag
 	747.7.11={ birth=yes }
 	815.4.24={ death=yes }
 }
@@ -1136,7 +1136,7 @@
 	835.12.5={ death=yes }
 }
 1231647={
-	name=Br√¨ghde
+	name=BrÏghde
 	female=yes
 	culture=pictish
 	religion=celtic_pagan
@@ -1192,7 +1192,7 @@
 	592.1.1={ death=yes }
 }
 1231654={
-	name=Sl√†ine
+	name=Sl‡ine
 	female=yes
 	culture=pictish
 	religion=celtic_pagan
@@ -1224,7 +1224,7 @@
 	709.1.1={ death=yes }
 }
 1231658={
-	name=Sl√†ine
+	name=Sl‡ine
 	female=yes
 	culture=pictish
 	religion=celtic_pagan
@@ -1232,7 +1232,7 @@
 	755.1.1={ death=yes }
 }
 1231659={
-	name=Te√†rlag
+	name=Te‡rlag
 	female=yes
 	culture=pictish
 	religion=celtic_pagan

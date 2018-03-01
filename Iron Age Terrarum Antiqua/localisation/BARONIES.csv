@@ -466,10 +466,10 @@ b_gadilon;Gadilon;;;;;;;;;;;;;;x
 b_eupatoria;Eupatoria;;;;;;;;;;;;;;x
 b_chadisia;Chadisia;;;;;;;;;;;;;;x
 b_ankon;Ankon;;;;;;;;;;;;;;x
-b_polemonion_polemonion;Polemonion;;;;;;;;;;;;;;x
-b_phabda_polemonion;Phabda;;;;;;;;;;;;;;x
-b_stamene_polemonion;Stamene;;;;;;;;;;;;;;x
-b_sauronisena_polemonion;Sauronisena;;;;;;;;;;;;;;x
+b_polemonion;Polemonion;;;;;;;;;;;;;;x
+b_phabda;Phabda;;;;;;;;;;;;;;x
+b_stamene;Stamene;;;;;;;;;;;;;;x
+b_sauronisena;Sauronisena;;;;;;;;;;;;;;x
 b_trapezous_trapezous;Trapezous;;;;;;;;;;;;;;x
 b_hieron_oros_trapezous;Hieron Oros;;;;;;;;;;;;;;x
 b_kordyle_trapezous;Kordyle;;;;;;;;;;;;;;x
@@ -3657,3 +3657,6 @@ b_gauraina3;Gauraina;;;;;;;;;;;x
 b_gauraina4;Gauraina;;;;;;;;;;;x
 b_amisus2;Amisus;;;;;;;;;;;x
 b_amisus3;Amisus;;;;;;;;;;;x
+b_polemonion2;Polemonion;;;;;;;;;;;x
+b_polemonion3;Polemonion;;;;;;;;;;;x
+b_polemonion4;Polemonion;;;;;;;;;;;x

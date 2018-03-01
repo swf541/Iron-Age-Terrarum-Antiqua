@@ -1,4 +1,4 @@
-ï»¿egyptian_religion = {
+egyptian_religion = {
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	crusade_cb = crusade # Should be changed or removed entirely
@@ -1346,9 +1346,9 @@ indo_iranian_group = {
 		high_god_name = GOD_XUCAU
 		god_names = {
 			GOD_XUCAU GOD_UASTYRDZHI GOD_UACILLA
-			GOD_DONBETTYR  GOD_FÃ†LVÃ†RA 
-			GOD_Ã†FSATI  GOD_BARASTYR 
-			GOD_HUYÃ†NDON_Ã†LDAR  GOD_TUTYR
+			GOD_DONBETTYR  GOD_FÆLVÆRA 
+			GOD_ÆFSATI  GOD_BARASTYR 
+			GOD_HUYÆNDON_ÆLDAR  GOD_TUTYR
 		}
 		evil_god_names = {
 			GOD_SAUBARAG  GOD_ALARDY
@@ -1397,9 +1397,9 @@ indo_iranian_group = {
 		high_god_name = GOD_XUCAU
 		god_names = {
 			GOD_XUCAU GOD_UASTYRDZHI GOD_UACILLA
-			GOD_DONBETTYR  GOD_FÃ†LVÃ†RA 
-			GOD_Ã†FSATI  GOD_BARASTYR 
-			GOD_HUYÃ†NDON_Ã†LDAR  GOD_TUTYR
+			GOD_DONBETTYR  GOD_FÆLVÆRA 
+			GOD_ÆFSATI  GOD_BARASTYR 
+			GOD_HUYÆNDON_ÆLDAR  GOD_TUTYR
 		}
 		evil_god_names = {
 			GOD_SAUBARAG  GOD_ALARDY

@@ -112,7 +112,6 @@ e_persia = {
 				color2= { 255 255 255 }
 				
 				holy_site = zoroastrian
-				holy_site = armenian_pagan
 				holy_site = zurvanite
 				holy_site = pontic_main
 				holy_site = zun_pagan
@@ -121,7 +120,6 @@ e_persia = {
 				holy_site = ossetian_pagan_reformed
 				holy_site = iranian_pagan
 				holy_site = iranian_pagan_reformed
-				holy_site = manichean
 			
 				b_gaza_adar_gushnasp = {
 				}
@@ -347,7 +345,6 @@ e_persia = {
 				color2= { 255 255 255 }
 				
 				holy_site = zoroastrian
-				holy_site = armenian_pagan
 				holy_site = zurvanite
 				holy_site = pontic_main
 				holy_site = iranian_pagan
@@ -492,7 +489,6 @@ e_persia = {
 				color2= { 255 255 255 }
 				
 				holy_site = zoroastrian
-				holy_site = armenian_pagan
 				holy_site = zurvanite
 				holy_site = pontic_main
 				holy_site = nestorian
@@ -836,7 +832,6 @@ e_persia = {
 				color2= { 255 255 255 }
 
 				holy_site = zoroastrian
-				holy_site = armenian_pagan
 				holy_site = zurvanite
 			
 				b_bactra_bactra = {
